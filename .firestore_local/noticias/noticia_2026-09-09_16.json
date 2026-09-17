@@ -1,0 +1,27 @@
+{
+  "id": "noticia_2026-09-09_16",
+  "fecha": "2026-09-09",
+  "medio": [
+    {},
+    "El Cordillerano",
+    "Gestión Pública",
+    "Suspenden actividades en el CRUB por obras de red de agua de ARSA",
+    "Interrupción del servicio por empalmes de cañerías para reforzar el abastecimiento estival en la zona oeste y alta de la ciudad.",
+    "https://www.elcordillerano.com.ar/amp/noticias/2026/09/09/261155-suspenden-actividades-presenciales-en-el-crub-por-trabajos-de-agua",
+    "Aguas Rionegrinas, CRUB, Agua Potable, Obras",
+    1
+  ],
+  "area": "Gestión Pública",
+  "dossier_id": null,
+  "titular": "Suspenden actividades en el CRUB por obras de red de agua de ARSA",
+  "hecho_central": "Interrupción del servicio por empalmes de cañerías para reforzar el abastecimiento estival en la zona oeste y alta de la ciudad.",
+  "url": "https://www.elcordillerano.com.ar/amp/noticias/2026/09/09/261155-suspenden-actividades-presenciales-en-el-crub-por-trabajos-de-agua",
+  "tags": [
+    "Aguas Rionegrinas",
+    "CRUB",
+    "Agua Potable",
+    "Obras"
+  ],
+  "cobertura_cruzada": 1,
+  "created_at": "2026-09-10T12:45:22.743Z"
+}

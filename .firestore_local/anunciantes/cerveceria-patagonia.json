@@ -1,0 +1,13 @@
+{
+  "id": "cerveceria-patagonia",
+  "ubicacion": "pre-footer",
+  "impresiones": 1,
+  "created_at": "2026-09-15T14:12:32.520Z",
+  "destino": "ambos",
+  "activo": true,
+  "texto_alt": "Patagonia",
+  "enlace_click": "https://patagonia.com/nuevo",
+  "banner_url": "/uploads/1789481611168_sample.png",
+  "nombre": "Cervecería Patagonia",
+  "prioridad": 5
+}

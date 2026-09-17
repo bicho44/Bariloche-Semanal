@@ -1,0 +1,27 @@
+{
+  "id": "noticia_2026-09-09_37",
+  "fecha": "2026-09-09",
+  "medio": [
+    {},
+    "El Cordillerano",
+    "En el Radar",
+    "Obras de saneamiento de ARSA en el oeste para reforzar presión de agua",
+    "Intervención técnica en redes maestras de captación para asegurar suministro continuo en los barrios del faldeo.",
+    "https://www.elcordillerano.com.ar/amp/noticias/2026/09/09/261155-suspenden-actividades-presenciales-en-el-crub-por-trabajos-de-agua",
+    "ARSA, Saneamiento, Agua, Servicios Públicos",
+    1
+  ],
+  "area": "En el Radar",
+  "dossier_id": "ceb-municipio-servicios",
+  "titular": "Obras de saneamiento de ARSA en el oeste para reforzar presión de agua",
+  "hecho_central": "Intervención técnica en redes maestras de captación para asegurar suministro continuo en los barrios del faldeo.",
+  "url": "https://www.elcordillerano.com.ar/amp/noticias/2026/09/09/261155-suspenden-actividades-presenciales-en-el-crub-por-trabajos-de-agua",
+  "tags": [
+    "ARSA",
+    "Saneamiento",
+    "Agua",
+    "Servicios Públicos"
+  ],
+  "cobertura_cruzada": 1,
+  "created_at": "2026-09-10T12:45:28.712Z"
+}
