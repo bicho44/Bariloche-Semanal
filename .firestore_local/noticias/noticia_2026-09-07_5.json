@@ -23,5 +23,20 @@
     "Montaña"
   ],
   "cobertura_cruzada": 2,
-  "created_at": "2026-09-10T12:45:18.734Z"
+  "created_at": "2026-09-10T12:45:18.734Z",
+  "citas": [],
+  "foto": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/05/elcordillerano/images/02/60/12/2601280_26dee02da1d10996ca5f4ecea166e0cde2812f19ee06fbf2f9c2b27fa55ae5db/lg.webp",
+  "fuente": {
+    "url_nota": "https://www.elcordillerano.com.ar/amp/noticias/2026/09/07/260534-bariloche-pronostican-lluvias-nevadas-y-fuertes-rafagas-para-esta-semana",
+    "id": "el-cordillerano",
+    "nombre": "El Cordillerano"
+  },
+  "imagen_url": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/05/elcordillerano/images/02/60/12/2601280_26dee02da1d10996ca5f4ecea166e0cde2812f19ee06fbf2f9c2b27fa55ae5db/lg.webp",
+  "media": {
+    "credito": "Foto: El Cordillerano",
+    "imagen_url": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/05/elcordillerano/images/02/60/12/2601280_26dee02da1d10996ca5f4ecea166e0cde2812f19ee06fbf2f9c2b27fa55ae5db/lg.webp"
+  },
+  "area_id": "turismo",
+  "datos_duros": {},
+  "fecha_publicacion": "2026-09-07"
 }

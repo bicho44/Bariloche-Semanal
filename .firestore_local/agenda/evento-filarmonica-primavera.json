@@ -1,0 +1,13 @@
+{
+  "id": "evento-filarmonica-primavera",
+  "tipo_acceso": "gratuito",
+  "fecha_inicio": "2026-10-24",
+  "horario": "20:30 hs",
+  "fecha_fin": "2026-10-24",
+  "categoria": "cultura",
+  "lugar": "Iglesia Catedral Nuestra Señora del Nahuel Huapi",
+  "imagen_url": "https://images.unsplash.com/photo-1511192336575-5a79af67a629?auto=format&fit=crop&w=1000&q=80",
+  "titulo": "Concierto de Gala de la Filarmónica de Río Negro",
+  "url_info": "https://cultura.rionegro.gov.ar/agenda/filarmonica-catedral",
+  "descripcion_corta": "Repertorio barroco y clásico bajo la dirección del Maestro Martín Fraile, con entrada libre y solidaria para Cáritas."
+}

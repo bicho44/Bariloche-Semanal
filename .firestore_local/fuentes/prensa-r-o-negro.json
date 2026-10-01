@@ -1,0 +1,14 @@
+{
+  "id": "prensa-r-o-negro",
+  "tipo": "institucional",
+  "ultima_noticia_fecha": "2026-09-09",
+  "logo_url": null,
+  "url_base": "https://prensa.rionegro.gov.ar",
+  "url_noticias": "https://prensa.rionegro.gov.ar/noticias",
+  "created_at": "2026-09-15T12:50:01.525Z",
+  "total_noticias_db": 1,
+  "nombre": "Prensa Río Negro",
+  "prioridad": 1,
+  "activo": true,
+  "beat_id": "poder-obras"
+}

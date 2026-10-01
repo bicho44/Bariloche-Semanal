@@ -22,5 +22,9 @@
     "Juventud"
   ],
   "cobertura_cruzada": 2,
-  "created_at": "2026-09-10T12:45:19.050Z"
+  "created_at": "2026-09-10T12:45:19.050Z",
+  "media": {
+    "imagen_url": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/09/anbariloche/images/02/75/87/2758791_869c58dc118be2486a00f67eeb4d9462ab22c8c51559e133736cb1412bfd48cd/lg.webp?_v=v3-380",
+    "credito": "Foto: ANBariloche"
+  }
 }

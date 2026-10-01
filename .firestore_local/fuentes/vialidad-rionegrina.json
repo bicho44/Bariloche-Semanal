@@ -1,0 +1,11 @@
+{
+  "id": "vialidad-rionegrina",
+  "nombre": "Vialidad Rionegrina",
+  "url_base": "https://vialidad.rionegro.gov.ar",
+  "url_noticias": "https://vialidad.rionegro.gov.ar",
+  "tipo": "institucional",
+  "beat_id": "poder-obras",
+  "prioridad": 2,
+  "activo": true,
+  "updated_at": "2026-09-19T22:27:39.686Z"
+}

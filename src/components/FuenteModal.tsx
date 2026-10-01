@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { X, Save, Loader2, Radio } from 'lucide-react';
-import { Fuente, TipoFuente } from '../types/index.js';
+import { Fuente, TipoFuente, BeatId } from '../types/index.js';
 
 interface FuenteModalProps {
   isOpen: boolean;
@@ -18,6 +18,7 @@ export const FuenteModal: React.FC<FuenteModalProps> = ({
   const [id, setId] = useState('');
   const [nombre, setNombre] = useState('');
   const [tipo, setTipo] = useState<TipoFuente>('diario_digital');
+  const [beatId, setBeatId] = useState<BeatId>('pulso-urbano');
   const [urlBase, setUrlBase] = useState('');
   const [activo, setActivo] = useState(true);
   const [prioridad, setPrioridad] = useState<1 | 2>(1);
@@ -30,6 +31,7 @@ export const FuenteModal: React.FC<FuenteModalProps> = ({
       setId(fuenteAEditar.id || '');
       setNombre(fuenteAEditar.nombre || '');
       setTipo(fuenteAEditar.tipo || 'diario_digital');
+      setBeatId(fuenteAEditar.beat_id || 'pulso-urbano');
       setUrlBase(fuenteAEditar.url_base || '');
       setActivo(fuenteAEditar.activo !== false);
       setPrioridad(fuenteAEditar.prioridad ?? 1);
@@ -38,6 +40,7 @@ export const FuenteModal: React.FC<FuenteModalProps> = ({
       setId('');
       setNombre('');
       setTipo('diario_digital');
+      setBeatId('pulso-urbano');
       setUrlBase('');
       setActivo(true);
       setPrioridad(1);
@@ -59,6 +62,7 @@ export const FuenteModal: React.FC<FuenteModalProps> = ({
         id: id.trim() || undefined,
         nombre: nombre.trim(),
         tipo,
+        beat_id: beatId,
         url_base: urlBase.trim(),
         activo,
         prioridad,
@@ -161,6 +165,24 @@ export const FuenteModal: React.FC<FuenteModalProps> = ({
                 <option value={2}>Prioridad 2 (Secundario)</option>
               </select>
             </div>
+          </div>
+
+          <div>
+            <label className="block text-xs font-semibold uppercase tracking-wider text-slate-700 mb-1">
+              Frente de Cobertura (Beat Temático)
+            </label>
+            <select
+              value={beatId || 'pulso-urbano'}
+              onChange={(e) => setBeatId(e.target.value as BeatId)}
+              className="w-full px-3 py-2 text-xs border border-slate-300 rounded-lg bg-white font-medium"
+            >
+              <option value="pulso-urbano">📰 Pulso Urbano (ANB, El Cordillerano, B2000, etc.)</option>
+              <option value="poder-obras">🏛️ Poder y Obras (Concejo, Municipio, CEB, etc.)</option>
+              <option value="montana-turismo">🏔️ Montaña y Turismo (Catedral, Parques, CAB, etc.)</option>
+            </select>
+            <p className="text-[11px] text-slate-500 mt-1">
+              Clasificación temática del frente periodístico en la colección de Firestore.
+            </p>
           </div>
 
           <div>

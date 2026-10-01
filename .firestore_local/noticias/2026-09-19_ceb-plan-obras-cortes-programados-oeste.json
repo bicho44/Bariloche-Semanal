@@ -1,0 +1,55 @@
+{
+  "id": "2026-09-19_ceb-plan-obras-cortes-programados-oeste",
+  "citas": [
+    {
+      "autor": "Alejandro Pozas",
+      "texto": "Optamos por reprogramar la intervención en turnos de madrugada para evitar perjuicios en la actividad comercial y turística de los kilómetros."
+    }
+  ],
+  "cobertura_cruzada": 1,
+  "fuente": {
+    "url_nota": "https://www.anbariloche.com.ar/noticias/2026/09/19/ceb-obras-electricas-oeste-cortes",
+    "id": "anbariloche",
+    "nombre": "ANBariloche"
+  },
+  "imagen_url": "https://images.unsplash.com/photo-1578637387939-43c525550085?auto=format&fit=crop&w=1200&q=80",
+  "created_at": "2026-09-19T22:57:04.637Z",
+  "media": {
+    "imagen_url": "https://images.unsplash.com/photo-1578637387939-43c525550085?auto=format&fit=crop&w=1200&q=80",
+    "credito": "Pulso Urbano Bariloche / Archivo"
+  },
+  "area_id": "gestion-publica",
+  "dossier_id": "ceb-municipio-servicios",
+  "url": "https://www.anbariloche.com.ar/noticias/2026/09/19/ceb-obras-electricas-oeste-cortes",
+  "datos_duros": {
+    "Usuarios Afectados": "12.000",
+    "Inversión Estimada": "$145M",
+    "Horario Operativo": "01:00 a 06:00 hs"
+  },
+  "fecha_publicacion": "2026-09-19",
+  "tags": [
+    "CEB",
+    "servicio eléctrico",
+    "obras de infraestructura",
+    "cortes de luz",
+    "zona oeste"
+  ],
+  "novedad_respecto_a_dias_previos": "La CEB readecuó el plan original de cortes diurnos tras el reclamo de comerciantes y vecinos del corredor Oeste, trasladando los trabajos a la franja de 01:00 a 06:00 hs.",
+  "fecha": "2026-09-19",
+  "entidades": {
+    "actores": [
+      "Cooperativa de Electricidad Bariloche (CEB)",
+      "Juntas Vecinales del Oeste Autoconvocadas"
+    ],
+    "lugares": [
+      "Km 8 Bustillo",
+      "Km 15 Bustillo",
+      "Avenida Pioneros"
+    ]
+  },
+  "hecho_central": "La Cooperativa de Electricidad Bariloche (CEB) alcanzó un acuerdo con referentes vecinales para desplegar un cronograma de repotenciación en las subestaciones de la traza de Avenidas Bustillo y Pioneros. Las maniobras operativas requerirán cortes de suministro programados durante la madrugada para prevenir colapsos de tensión estivales.",
+  "cuerpo_html": "<p>Autoridades del Consejo de Administración de la CEB mantuvieron un encuentro de trabajo con presidentes de juntas vecinales del área del Oeste para presentar el esquema definitivo de obras de infraestructura eléctrica previas a la temporada de verano.</p><p>El plan contempla el reemplazo de transformadores y el despeje de ramas en electroductos de media tensión entre el Km 8 y el Km 15 de las avenidas Bustillo y Pioneros. Las obras buscan estabilizar la red ante el incremento proyectado del consumo energético en complejos turísticos y gastronómicos.</p><p>Las interrupciones informadas se realizarán de forma escalonada con una notificación previa formal de 48 horas mediante los canales oficiales institucionales y los grupos comunitarios del sector.</p>",
+  "titular": "La CEB acordó un plan de obras e interrupciones nocturnas para reforzar el tendido en la zona Oeste",
+  "area": "Gestión Pública",
+  "foto": "https://images.unsplash.com/photo-1578637387939-43c525550085?auto=format&fit=crop&w=1200&q=80"
+}

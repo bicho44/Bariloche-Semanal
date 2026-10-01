@@ -1,0 +1,23 @@
+{
+  "id": "carta-organica-reforma",
+  "titulo": "Actualización de la Carta Orgánica Municipal",
+  "area_id": "gestion-publica",
+  "estado": "activo",
+  "resumen_contexto": "Proceso constituyente para modernizar la Carta Orgánica sancionada en 2007 con foco en descentralización comunal.",
+  "actores_clave": [
+    "concejo-deliberante",
+    "unrn",
+    "fuerzas-politicas"
+  ],
+  "timeline": [
+    {
+      "fecha": "2026-08-31",
+      "hito": "Convocatoria a talleres participativos ciudadanos con la UNRN."
+    },
+    {
+      "fecha": "2026-09-07",
+      "hito": "Presentación formal de listas de convencionales constituyentes ante la Junta Electoral."
+    }
+  ],
+  "ultima_actualizacion": "2026-09-11T14:20:39.276Z"
+}

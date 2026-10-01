@@ -1,0 +1,30 @@
+{
+  "id": "transporte-urbano-tarifa",
+  "estado": "activo",
+  "resumen_contexto": "Evolución del costo del boleto de colectivos de la empresa Amancay SRL (Mi Bus), el esquema de subsidios provinciales y municipales, y los reclamos vecinales por frecuencias en los kilómetros y barrios del Alto.",
+  "timeline": [
+    {
+      "fecha": "2024-03-01",
+      "hito": "Eliminación del Fondo Compensador del Transporte por parte del gobierno nacional"
+    },
+    {
+      "fecha": "2024-05-18",
+      "hito": "Audiencia pública no vinculante sobre el estudio de costos de la tarifa plana"
+    },
+    {
+      "fecha": "2024-11-10",
+      "hito": "Convocatoria a reempadronamiento masivo de SUBE para tarifa residente",
+      "noticia_id": "noticia-tup-01"
+    }
+  ],
+  "titulo": "Crisis Tarifaria y Frecuencias del Transporte Urbano (Mi Bus)",
+  "actores_clave": [
+    "Intendencia de Bariloche",
+    "Empresa Mi Bus (Amancay SRL)",
+    "UTA Bariloche",
+    "Juntas Vecinales del Oeste",
+    "Comisión de Tránsito del Concejo"
+  ],
+  "area_id": "gestion-publica",
+  "ultima_actualizacion": "2024-11-10"
+}

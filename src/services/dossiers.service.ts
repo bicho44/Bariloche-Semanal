@@ -14,7 +14,7 @@ export class DossiersService {
     if (soloActivos) {
       return dossiers.filter(d => d.estado === 'activo');
     }
-    return dossiers.sort((a, b) => b.ultima_actualizacion.localeCompare(a.ultima_actualizacion));
+    return dossiers.sort((a, b) => (b.ultima_actualizacion || '').localeCompare(a.ultima_actualizacion || ''));
   }
 
   async obtenerPorSlug(slug: string): Promise<DossierConNoticias | null> {
@@ -43,6 +43,8 @@ export class DossiersService {
       estado: datos.estado || 'activo',
       actores_clave: datos.actores_clave || [],
       timeline: datos.timeline || [],
+      cronica_html: datos.cronica_html || '',
+      fecha_ultima_cronica: datos.fecha_ultima_cronica || (datos.cronica_html ? new Date().toISOString().split('T')[0] : undefined),
       ultima_actualizacion: datos.ultima_actualizacion || new Date().toISOString(),
     };
     return this.repo.set(slug, nuevoDossier);

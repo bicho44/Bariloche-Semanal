@@ -1,0 +1,27 @@
+{
+  "id": "crisis-habitacional-urbanismo",
+  "titulo": "Crisis Habitacional, Alquileres & Densificación",
+  "area_id": "alquileres-inmobiliario",
+  "estado": "activo",
+  "resumen_contexto": "Escasez de oferta de alquiler permanente frente al turismo temporario y debate por aumento de alturas en el centro.",
+  "actores_clave": [
+    "instituto-tierras",
+    "colegio-arquitectos",
+    "asociacion-inquilinos"
+  ],
+  "timeline": [
+    {
+      "fecha": "2026-09-03",
+      "hito": "Colegio de Arquitectos defiende proyecto de aumento de alturas en el centro."
+    },
+    {
+      "fecha": "2026-09-07",
+      "hito": "Entrega de escrituras de regularización dominial social por Ley Pierri."
+    },
+    {
+      "fecha": "2026-09-09",
+      "hito": "Encuesta censal en hogares sobre emergencia habitacional en barrios del faldeo."
+    }
+  ],
+  "ultima_actualizacion": "2026-09-11T14:20:39.276Z"
+}

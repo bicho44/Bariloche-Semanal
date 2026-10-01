@@ -14,6 +14,7 @@ import {
 } from 'lucide-react';
 import { EventoAgenda } from '../types/index.js';
 import { EventoModal } from './EventoModal.js';
+import { handleImageErrorWithProxy, DEFAULT_AGENDA_FALLBACK } from '../utils/image.js';
 
 export const AgendaView: React.FC = () => {
   const [eventos, setEventos] = useState<EventoAgenda[]>([]);
@@ -29,7 +30,10 @@ export const AgendaView: React.FC = () => {
     setLoading(true);
     setError(null);
     try {
-      const res = await fetch(`/api/agenda?todos=${mostrarTodos}`);
+      const res = await fetch(`/api/agenda?todos=${mostrarTodos}`, {
+        cache: 'no-store',
+        headers: { 'Cache-Control': 'no-cache' },
+      });
       if (!res.ok) throw new Error('Error al consultar agenda de Firestore');
       const data = await res.json();
       setEventos(data || []);
@@ -79,6 +83,8 @@ export const AgendaView: React.FC = () => {
         body: JSON.stringify(datos),
       });
       if (!res.ok) throw new Error('Error al actualizar evento');
+      const actualizado: EventoAgenda = await res.json();
+      setEventos((prev) => prev.map((e) => (e.id === actualizado.id ? actualizado : e)));
     } else {
       const res = await fetch('/api/agenda', {
         method: 'POST',
@@ -86,6 +92,8 @@ export const AgendaView: React.FC = () => {
         body: JSON.stringify(datos),
       });
       if (!res.ok) throw new Error('Error al crear evento');
+      const nuevo: EventoAgenda = await res.json();
+      setEventos((prev) => [nuevo, ...prev]);
     }
     fetchEventos();
   };
@@ -175,13 +183,10 @@ export const AgendaView: React.FC = () => {
                   {ev.imagen_url ? (
                     <img
                       src={ev.imagen_url}
+                      referrerPolicy="no-referrer"
                       alt={ev.titulo}
                       className="w-full h-full object-cover"
-                      onError={(e) => {
-                        const target = e.currentTarget;
-                        target.onerror = null;
-                        target.src = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='120' viewBox='0 0 100 120' fill='%23f1f5f9'%3E%3Crect width='100%25' height='100%25' fill='%23f8fafc' stroke='%23cbd5e1'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='sans-serif' font-size='11' fill='%2394a3b8'%3EFLYER%3C/text%3E%3C/svg%3E";
-                      }}
+                      onError={(e) => handleImageErrorWithProxy(e, ev.imagen_url, DEFAULT_AGENDA_FALLBACK)}
                     />
                   ) : (
                     <div className="text-slate-400 flex flex-col items-center gap-1 text-[10px]">

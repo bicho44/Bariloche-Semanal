@@ -1,0 +1,43 @@
+{
+  "id": "2026-09-18_cuadrangular-amistoso-futbol-femenino-rio-negro-chubut",
+  "fecha_publicacion": "2026-09-18",
+  "fuente": {
+    "id": "el-cordillerano",
+    "nombre": "El Cordillerano",
+    "url_nota": "https://www.elcordillerano.com.ar/noticias/2026/09/18/262816-futbol-femenino-bariloche-sera-sede-de-un-cuadrangular-amistoso-con-selecciones-de-rio-negro-y-chubut"
+  },
+  "area_id": "deportes",
+  "dossier_id": null,
+  "titular": "Bariloche será sede de un cuadrangular amistoso de fútbol femenino con selecciones de Río Negro y Chubut",
+  "hecho_central": "El Estadio Municipal de Bariloche albergará desde el martes 22 hasta el jueves 24 de septiembre un cuadrangular amistoso interprovincial de fútbol femenino que medirá a los planteles de Río Negro y Chubut en categorías formativas y mayores.",
+  "novedad_respecto_a_dias_previos": "Confirmación del fixture oficial y la localía en el Estadio Municipal José Antonio Jalil durante tres jornadas consecutivas para evaluar futbolistas de cara a los Juegos de la Araucanía.",
+  "datos_duros": {
+    "jornadas": 3,
+    "fecha_inicio": "2026-09-22",
+    "fecha_cierre": "2026-09-24",
+    "selecciones": 4
+  },
+  "citas": [
+    {
+      "autor": "Subsecretaría de Deportes",
+      "texto": "Es una oportunidad clave para darle rodaje competitivo a las jugadoras de la cordillera frente a seleccionados consolidados de la región patagónica."
+    }
+  ],
+  "media": {
+    "imagen_url": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/09/elcordillerano/images/02/77/55/2775588_47c2112b32ee7c11f7c00681c20164c8d5fe5cf4b79b9a6ec89f81a79f323c6f/md.webp",
+    "credito": "Foto: Archivo El Cordillerano"
+  },
+  "entidades": {
+    "actores": [
+      "subsecretaria-deportes",
+      "liga-futbol-bariloche",
+      "gobierno-chubut"
+    ],
+    "lugares": [
+      "estadio-municipal-bariloche"
+    ]
+  },
+  "cobertura_cruzada": 1,
+  "created_at": "2026-09-18T23:41:42.260Z",
+  "cuerpo_html": "<p>El fútbol femenino regional tendrá una cita de alto voltaje competitivo en Bariloche. Entre el <strong>martes 22 y el jueves 24 de septiembre</strong>, el Estadio Municipal José Antonio Jalil será la sede exclusiva de un cuadrangular amistoso interprovincial que enfrentará a los combinados representativos de Río Negro y Chubut, tanto en divisionales formativas como en Primera División, según detalló <a href=\"https://www.elcordillerano.com.ar/noticias/2026/09/18/262816-futbol-femenino-bariloche-sera-sede-de-un-cuadrangular-amistoso-con-selecciones-de-rio-negro-y-chubut\" target=\"_blank\" rel=\"noopener noreferrer\">El Cordillerano</a>.</p><p>El certamen fue articulado por la Subsecretaría de Deportes local y las federaciones provinciales con el propósito de intensificar el rodaje táctico de los planteles cordilleranos y costeros de cara a la conformación definitiva de los seleccionados que disputarán los Juegos Binacionales de la Araucanía.</p><blockquote cite=\"https://www.elcordillerano.com.ar/noticias/2026/09/18/262816-futbol-femenino-bariloche-sera-sede-de-un-cuadrangular-amistoso-con-selecciones-de-rio-negro-y-chubut\"><p>«Es una oportunidad clave para darle rodaje competitivo a las jugadoras de la cordillera frente a seleccionados consolidados de la región patagónica», remarcaron desde el área deportiva municipal.</p></blockquote><p>Los encuentros se disputarán con entrada libre y gratuita en horario vespertino, convocando a las familias y clubes de la Liga de Fútbol de Bariloche (LiFuBa) a acompañar a las deportistas locales.</p>"
+}

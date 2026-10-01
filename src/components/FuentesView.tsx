@@ -29,7 +29,10 @@ export const FuentesView: React.FC<FuentesViewProps> = ({ onRefreshFuentes }) =>
     setLoading(true);
     setError(null);
     try {
-      const res = await fetch('/api/fuentes');
+      const res = await fetch('/api/fuentes', {
+        cache: 'no-store',
+        headers: { 'Cache-Control': 'no-cache' },
+      });
       if (!res.ok) throw new Error('Error al consultar fuentes');
       const data = await res.json();
       setFuentes(data || []);
@@ -59,6 +62,7 @@ export const FuentesView: React.FC<FuentesViewProps> = ({ onRefreshFuentes }) =>
       setFuentes((prev) =>
         prev.map((f) => (f.id === fuente.id ? { ...f, activo: nuevoEstado } : f))
       );
+      if (onRefreshFuentes) onRefreshFuentes();
     } catch (err: unknown) {
       const errorObj = err as Error;
       alert(`Error: ${errorObj.message}`);
@@ -79,6 +83,7 @@ export const FuentesView: React.FC<FuentesViewProps> = ({ onRefreshFuentes }) =>
       setFuentes((prev) =>
         prev.map((f) => (f.id === fuente.id ? { ...f, prioridad: nuevaPrioridad } : f))
       );
+      if (onRefreshFuentes) onRefreshFuentes();
     } catch (err: unknown) {
       const errorObj = err as Error;
       alert(`Error: ${errorObj.message}`);
@@ -94,6 +99,7 @@ export const FuentesView: React.FC<FuentesViewProps> = ({ onRefreshFuentes }) =>
       const res = await fetch(`/api/fuentes/${encodeURIComponent(id)}`, { method: 'DELETE' });
       if (!res.ok) throw new Error('Error al eliminar fuente');
       setFuentes((prev) => prev.filter((f) => f.id !== id));
+      if (onRefreshFuentes) onRefreshFuentes();
     } catch (err: unknown) {
       const errorObj = err as Error;
       alert(`Error: ${errorObj.message}`);
@@ -108,6 +114,8 @@ export const FuentesView: React.FC<FuentesViewProps> = ({ onRefreshFuentes }) =>
         body: JSON.stringify(datos),
       });
       if (!res.ok) throw new Error('Error al actualizar fuente');
+      const actualizada: Fuente = await res.json();
+      setFuentes((prev) => prev.map((f) => (f.id === actualizada.id ? actualizada : f)));
     } else {
       const res = await fetch('/api/fuentes', {
         method: 'POST',
@@ -115,8 +123,11 @@ export const FuentesView: React.FC<FuentesViewProps> = ({ onRefreshFuentes }) =>
         body: JSON.stringify(datos),
       });
       if (!res.ok) throw new Error('Error al dar de alta fuente');
+      const nueva: Fuente = await res.json();
+      setFuentes((prev) => [nueva, ...prev]);
     }
     fetchFuentes();
+    if (onRefreshFuentes) onRefreshFuentes();
   };
 
   return (
@@ -191,8 +202,9 @@ export const FuentesView: React.FC<FuentesViewProps> = ({ onRefreshFuentes }) =>
                 <tr>
                   <th className="py-3 px-4 w-36">Identificador</th>
                   <th className="py-3 px-4">Nombre del Medio</th>
-                  <th className="py-3 px-4 w-36">Tipo</th>
-                  <th className="py-3 px-4 w-32">Prioridad</th>
+                  <th className="py-3 px-4 w-32">Frente (Beat)</th>
+                  <th className="py-3 px-4 w-32">Tipo</th>
+                  <th className="py-3 px-4 w-28">Prioridad</th>
                   <th className="py-3 px-4">URL Base</th>
                   <th className="py-3 px-4 w-28 text-center">Estado</th>
                   <th className="py-3 px-4 w-24 text-right">Acciones</th>
@@ -203,6 +215,21 @@ export const FuentesView: React.FC<FuentesViewProps> = ({ onRefreshFuentes }) =>
                   <tr key={f.id} className="hover:bg-slate-50/70 transition-colors">
                     <td className="py-3 px-4 font-mono text-slate-500 font-semibold">{f.id}</td>
                     <td className="py-3 px-4 font-bold text-slate-900">{f.nombre}</td>
+                    <td className="py-3 px-4">
+                      {f.beat_id === 'poder-obras' ? (
+                        <span className="inline-flex items-center gap-1 text-[10px] font-semibold px-2 py-0.5 rounded-full bg-purple-50 text-purple-800 border border-purple-200">
+                          🏛️ Poder y Obras
+                        </span>
+                      ) : f.beat_id === 'montana-turismo' ? (
+                        <span className="inline-flex items-center gap-1 text-[10px] font-semibold px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-800 border border-emerald-200">
+                          🏔️ Montaña/Turismo
+                        </span>
+                      ) : (
+                        <span className="inline-flex items-center gap-1 text-[10px] font-semibold px-2 py-0.5 rounded-full bg-blue-50 text-blue-800 border border-blue-200">
+                          📰 Pulso Urbano
+                        </span>
+                      )}
+                    </td>
                     <td className="py-3 px-4">
                       <span className="inline-block px-2 py-0.5 rounded bg-slate-100 text-slate-700 font-medium">
                         {f.tipo}

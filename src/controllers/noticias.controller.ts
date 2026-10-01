@@ -4,14 +4,29 @@ import { AreaId } from '../types/index.js';
 
 export async function listarNoticias(req: Request, res: Response): Promise<void> {
   try {
-    const { area_id, dossier_id, fuente_id, fecha, con_foto, search, page, limit } = req.query;
+    const {
+      area_id,
+      seguimiento_id,
+      dossier_id,
+      fuente_id,
+      fecha,
+      con_foto,
+      curada_manualmente,
+      estado_redaccion,
+      search,
+      page,
+      limit,
+    } = req.query;
 
     const resultado = await noticiasService.listar({
       area_id: area_id as AreaId,
-      dossier_id: dossier_id as string,
+      seguimiento_id: (seguimiento_id as string) || (dossier_id as string),
+      dossier_id: (dossier_id as string) || (seguimiento_id as string),
       fuente_id: fuente_id as string,
       fecha: fecha as string,
       con_foto: con_foto !== undefined ? con_foto === 'true' : undefined,
+      curada_manualmente: curada_manualmente !== undefined ? curada_manualmente === 'true' : undefined,
+      estado_redaccion: estado_redaccion as 'redactada' | 'pendiente',
       search: search as string,
       page: page ? parseInt(page as string, 10) : 1,
       limit: limit ? parseInt(limit as string, 10) : 100,
@@ -46,10 +61,12 @@ export async function crearNoticia(req: Request, res: Response): Promise<void> {
       fecha_publicacion,
       fuente,
       area_id,
+      seguimiento_id,
       dossier_id,
       titular,
       hecho_central,
       novedad_respecto_a_dias_previos,
+      cuerpo_html,
       datos_duros,
       citas,
       media,
@@ -57,22 +74,33 @@ export async function crearNoticia(req: Request, res: Response): Promise<void> {
       cobertura_cruzada,
     } = req.body;
 
-    if (!fecha_publicacion || !fuente || !area_id || !titular || !hecho_central) {
+    if (!titular || typeof titular !== 'string' || titular.trim().length < 10) {
       res.status(400).json({
-        error: 'Campos requeridos faltantes: fecha_publicacion, fuente, area_id, titular, hecho_central',
+        error: 'Validación estricta (anti-huérfanas): el titular es obligatorio y debe tener al menos 10 caracteres',
       });
       return;
     }
+
+    if (!fuente || !area_id || !hecho_central) {
+      res.status(400).json({
+        error: 'Campos requeridos faltantes: fuente, area_id, hecho_central',
+      });
+      return;
+    }
+
+    const sid = seguimiento_id || dossier_id || null;
 
     const creada = await noticiasService.crear({
       id,
       fecha_publicacion,
       fuente,
       area_id,
-      dossier_id: dossier_id || null,
-      titular,
+      seguimiento_id: sid,
+      dossier_id: sid,
+      titular: titular.trim(),
       hecho_central,
       novedad_respecto_a_dias_previos,
+      cuerpo_html: cuerpo_html || '',
       datos_duros: datos_duros || {},
       citas: citas || [],
       media: media || { imagen_url: '', credito: '' },
@@ -90,6 +118,17 @@ export async function crearNoticia(req: Request, res: Response): Promise<void> {
 export async function actualizarNoticia(req: Request, res: Response): Promise<void> {
   try {
     const { id } = req.params;
+
+    if (
+      req.body.titular !== undefined &&
+      (typeof req.body.titular !== 'string' || req.body.titular.trim().length < 10)
+    ) {
+      res.status(400).json({
+        error: 'Validación estricta (anti-huérfanas): el titular no puede tener menos de 10 caracteres',
+      });
+      return;
+    }
+
     const actualizada = await noticiasService.actualizar(id, req.body);
     if (!actualizada) {
       res.status(404).json({ error: `Noticia con id '${id}' no encontrada` });

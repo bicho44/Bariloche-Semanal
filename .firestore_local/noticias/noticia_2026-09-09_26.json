@@ -23,5 +23,9 @@
     "Deportes"
   ],
   "cobertura_cruzada": 1,
-  "created_at": "2026-09-10T12:45:25.598Z"
+  "created_at": "2026-09-10T12:45:25.598Z",
+  "media": {
+    "imagen_url": "https://barilocheopina-s3.cdn.net.ar/s3i233/2025/09/barilocheopina/images/02/29/09/2290987_b34bd00144e5bbf477573e16d27df23a0a90e4944afb2476c3021501c165a937/lg.webp?_v=v3-55",
+    "credito": "Foto: Bariloche Opina"
+  }
 }

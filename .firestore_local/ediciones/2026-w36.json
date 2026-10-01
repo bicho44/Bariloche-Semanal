@@ -1,0 +1,24 @@
+{
+  "id": "2026-w36",
+  "semana": 36,
+  "anio": 2026,
+  "fecha_publicacion": "2026-09-07",
+  "asunto": "Edición #36: El balance del invierno récord y la pulseada por el asfalto en el Oeste",
+  "dossiers_cubiertos": [
+    "catedral-concesion",
+    "emergencia-vial-bariloche"
+  ],
+  "html_content": "\n      <article style=\"font-family: sans-serif; max-width: 640px; margin: 0 auto; color: #1e293b; line-height: 1.6;\">\n        <header style=\"border-bottom: 2px solid #0284c7; padding-bottom: 16px; margin-bottom: 24px;\">\n          <h1 style=\"color: #0369a1; font-size: 26px; margin: 0 0 8px;\">BARILOCHE SEMANAL</h1>\n          <p style=\"color: #64748b; font-size: 14px; margin: 0;\">Observatorio de Políticas Públicas y Vida Local • Semana 36, 2026</p>\n        </header>\n        <section style=\"margin-bottom: 32px;\">\n          <h2 style=\"font-size: 22px; color: #0f172a; margin-bottom: 12px;\">Catedral: La nieve fabricada salvó la temporada y aceleró la inversión</h2>\n          <p>Con más de 600.000 pases vendidos y un impacto económico estimado en 14.000 millones de pesos, la temporada de esquí 2026 demostró que la inversión electromecánica y los 28 cañones de nieve tecnificada marcaron un antes y un después para la economía barilochense.</p>\n        </section>\n        <section style=\"margin-bottom: 32px; background: #f8fafc; padding: 20px; border-radius: 8px;\">\n          <h3 style=\"font-size: 18px; color: #334155; margin-top: 0;\">Tránsito en el Oeste: Avanzan las rotondas de Bustillo</h3>\n          <p>La culminación de las obras en el Km 8 descomprime uno de los nudos más problemáticos de la ciudad, al tiempo que se licita el tramo final hacia el Llao Llao.</p>\n        </section>\n        <footer style=\"border-top: 1px solid #e2e8f0; padding-top: 16px; font-size: 12px; color: #94a3b8; text-align: center;\">\n          Bariloche Semanal • San Carlos de Bariloche, Río Negro, Patagonia Argentina\n        </footer>\n      </article>\n    ",
+  "estado": "enviado_a_suscriptores",
+  "despacho": {
+    "plataforma": "brevo",
+    "campaign_id": 1042,
+    "enviado_at": "2026-09-07T08:00:00.000Z"
+  },
+  "hero_resumen": {
+    "titulo": "Catedral cierra un invierno histórico y abre el debate sobre la sustentabilidad de la base",
+    "credito": "Bariloche Semanal / Archivo",
+    "dossier_id": "catedral-concesion",
+    "imagen_url": null
+  }
+}

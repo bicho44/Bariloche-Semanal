@@ -1,0 +1,24 @@
+{
+  "id": "alquileres-emergencia-habitacional",
+  "titulo": "Crisis Habitacional y Regulación de Alquileres Turísticos Temporarios",
+  "area_id": "alquileres-inmobiliario",
+  "estado": "activo",
+  "resumen_contexto": "Tensión permanente entre la oferta de alojamiento para turistas (más de 6.000 plazas no registradas) y el éxodo de trabajadores locales por falta de contratos de alquiler permanente.",
+  "actores_clave": [
+    "Asociación de Inquilinos de Bariloche",
+    "Colegio de Martilleros de Río Negro",
+    "Cámara Hotelera Gastronómica",
+    "Intendencia Municipal"
+  ],
+  "timeline": [
+    {
+      "fecha": "2026-03-12",
+      "hito": "Aprobación de ordenanza que incrementa multas a plataformas de alojamiento sin registro comercial."
+    },
+    {
+      "fecha": "2026-06-20",
+      "hito": "Lanzamiento del programa municipal de incentivo fiscal a propietarios con contratos permanentes."
+    }
+  ],
+  "ultima_actualizacion": "2026-09-01T15:30:00.000Z"
+}

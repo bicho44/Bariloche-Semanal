@@ -1,0 +1,11 @@
+{
+  "id": "ceb",
+  "nombre": "Cooperativa de Electricidad Bariloche (CEB)",
+  "url_base": "https://www.ceb.coop",
+  "url_noticias": "https://www.ceb.coop",
+  "tipo": "institucional",
+  "beat_id": "poder-obras",
+  "prioridad": 2,
+  "activo": true,
+  "updated_at": "2026-09-19T22:27:39.381Z"
+}

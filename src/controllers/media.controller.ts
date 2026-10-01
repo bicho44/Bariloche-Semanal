@@ -1,5 +1,5 @@
 import { Request, Response } from 'express';
-import { mediaService } from '../services/media.service.js';
+import { mediaService, resolvePublicUrl } from '../services/media.service.js';
 
 export async function uploadMedia(req: Request, res: Response): Promise<void> {
   try {
@@ -61,7 +61,14 @@ export async function uploadMedia(req: Request, res: Response): Promise<void> {
     }
 
     const result = await mediaService.uploadImage(fileBuffer, originalName, mimeType);
-    res.status(201).json(result);
+
+    // Adjuntar versión pública absoluta para clientes externos/newsletters
+    const publicUrl = resolvePublicUrl(result.url, req.get('host'));
+
+    res.status(201).json({
+      ...result,
+      public_url: publicUrl,
+    });
   } catch (err: unknown) {
     const error = err as Error;
     console.error('[MediaController] Error en uploadMedia:', error);
@@ -72,3 +79,70 @@ export async function uploadMedia(req: Request, res: Response): Promise<void> {
   }
 }
 
+/**
+ * Proxy de imágenes: Permite solicitar cualquier imagen remota o de noticias
+ * a través de Bariloche Semanal, eliminando bloqueos de CORS, restricciones de Referrer
+ * y protecciones anti-hotlinking de portales de noticias o anunciantes.
+ *
+ * GET /api/media/proxy?url=<encoded_url>
+ */
+export async function proxyMedia(req: Request, res: Response): Promise<void> {
+  const targetUrl = (req.query.url as string)?.trim();
+
+  if (!targetUrl) {
+    res.status(400).json({ error: 'Parámetro query "url" es requerido' });
+    return;
+  }
+
+  try {
+    const { buffer, contentType, status } = await mediaService.proxyImage(targetUrl);
+
+    // Encabezados para permitir que cualquier cliente (frontend, email web, visor) acceda a la imagen
+    res.setHeader('Content-Type', contentType);
+    res.setHeader('Access-Control-Allow-Origin', '*');
+    res.setHeader('Access-Control-Allow-Methods', 'GET, HEAD, OPTIONS');
+    res.setHeader('Cache-Control', 'public, max-age=604800, stale-while-revalidate=86400'); // 7 días de caché
+    res.setHeader('Content-Length', buffer.length);
+
+    res.status(status).end(buffer);
+  } catch (err: unknown) {
+    const error = err as Error;
+    console.error('[MediaController] Error en proxyMedia:', error.message);
+    res.status(502).json({
+      error: 'No se pudo obtener la imagen remota a través del proxy',
+      detalle: error.message,
+    });
+  }
+}
+
+/**
+ * Descarga y hospeda permanentemente una imagen remota en el servidor/Firebase.
+ * POST /api/media/fetch-remote
+ * Body: { url: "https://..." }
+ */
+export async function fetchRemoteMedia(req: Request, res: Response): Promise<void> {
+  const { url } = req.body || {};
+
+  if (!url || typeof url !== 'string') {
+    res.status(400).json({ error: 'Campo "url" es requerido en el cuerpo JSON' });
+    return;
+  }
+
+  try {
+    const result = await mediaService.fetchAndSaveRemoteImage(url.trim());
+    const publicUrl = resolvePublicUrl(result.url, req.get('host'));
+
+    res.status(201).json({
+      ...result,
+      public_url: publicUrl,
+      mensaje: 'Imagen remota descargada y hospedada permanentemente con éxito',
+    });
+  } catch (err: unknown) {
+    const error = err as Error;
+    console.error('[MediaController] Error en fetchRemoteMedia:', error.message);
+    res.status(400).json({
+      error: 'Error al hospedar imagen remota',
+      detalle: error.message,
+    });
+  }
+}

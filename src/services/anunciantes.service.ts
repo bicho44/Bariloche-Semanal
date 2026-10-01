@@ -1,5 +1,6 @@
 import { Anunciante } from '../types/index.js';
 import { FirestoreRepository } from './firestore.repository.js';
+import { resolvePublicUrl } from './media.service.js';
 
 export interface AnunciantesFiltros {
   activo?: boolean;
@@ -71,8 +72,9 @@ export class AnunciantesService {
    * Compilador de bloque HTML para newsletters o web:
    * Genera el layout responsivo pre-footer (1 col móvil, 2 col desktop)
    * o rota por menor cantidad de impresiones (round-robin).
+   * Resuelve URLs a absolutas para garantizar visibilidad en clientes de correo.
    */
-  async compilarBloquePreFooterNewsletter(): Promise<{ html: string; anunciantes_usados: Anunciante[] }> {
+  async compilarBloquePreFooterNewsletter(hostHeader?: string): Promise<{ html: string; anunciantes_usados: Anunciante[] }> {
     const activos = await this.listar({ activo: true, destino: 'newsletter', ubicacion: 'pre-footer' });
 
     if (activos.length === 0) {
@@ -86,24 +88,28 @@ export class AnunciantesService {
 
     if (activos.length === 1) {
       const a = activos[0];
+      const bannerAbsoluto = resolvePublicUrl(a.banner_url, hostHeader);
       const html = `
       <div style="margin: 24px 0; text-align: center;">
         <span style="font-size: 10px; text-transform: uppercase; letter-spacing: 1px; color: #94a3b8; display: block; margin-bottom: 6px;">Espacio Publicitario</span>
         <a href="${a.enlace_click}" target="_blank" rel="noopener noreferrer" style="display: inline-block; max-width: 100%;">
-          <img src="${a.banner_url}" alt="${a.texto_alt}" style="max-width: 100%; height: auto; border-radius: 8px; border: 1px solid #e2e8f0;" />
+          <img src="${bannerAbsoluto}" referrerpolicy="no-referrer" alt="${a.texto_alt}" style="max-width: 100%; height: auto; border-radius: 8px; border: 1px solid #e2e8f0;" />
         </a>
       </div>`;
       return { html, anunciantes_usados: activos };
     }
 
     // 2 o más anunciantes: Grilla responsiva de 2 columnas compatible con clientes de correo (Outlook/Gmail)
-    const itemsHtml = activos.map(a => `
+    const itemsHtml = activos.map(a => {
+      const bannerAbsoluto = resolvePublicUrl(a.banner_url, hostHeader);
+      return `
       <td class="ad-col" style="width: 50%; padding: 8px; vertical-align: top;" align="center">
         <a href="${a.enlace_click}" target="_blank" rel="noopener noreferrer" style="text-decoration: none; display: block;">
-          <img src="${a.banner_url}" alt="${a.texto_alt}" style="width: 100%; max-width: 280px; height: auto; border-radius: 8px; border: 1px solid #e2e8f0; display: block;" />
+          <img src="${bannerAbsoluto}" referrerpolicy="no-referrer" alt="${a.texto_alt}" style="width: 100%; max-width: 280px; height: auto; border-radius: 8px; border: 1px solid #e2e8f0; display: block;" />
         </a>
       </td>
-    `).join('');
+    `;
+    }).join('');
 
     const html = `
     <!-- Bloque Auspiciantes Pre-Footer Bariloche Semanal -->

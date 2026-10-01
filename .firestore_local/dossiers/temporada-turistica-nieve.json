@@ -1,0 +1,24 @@
+{
+  "id": "temporada-turistica-nieve",
+  "titulo": "Matriz Turística, Vuelos & Temporada de Montaña",
+  "area_id": "turismo",
+  "estado": "activo",
+  "resumen_contexto": "Transición del invierno al esquí de primavera, turismo de Brasil y Chile y conectividad aérea.",
+  "actores_clave": [
+    "emprotur",
+    "aeropuerto-candelaria",
+    "capsa",
+    "pnnh"
+  ],
+  "timeline": [
+    {
+      "fecha": "2026-08-31",
+      "hito": "Lanzamiento de 100 pases diarios gratis para residentes en septiembre."
+    },
+    {
+      "fecha": "2026-09-08",
+      "hito": "Cierre de ExpoLagos Patagonia y gestiones para ruta aérea estival con Punta del Este."
+    }
+  ],
+  "ultima_actualizacion": "2026-09-11T14:20:39.276Z"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "ceb-municipio-servicios",
+  "titulo": "Tregua y Mesa Técnica Municipio - CEB",
+  "area_id": "gestion-publica",
+  "estado": "activo",
+  "resumen_contexto": "Disputa por deudas de saneamiento, tasas contributivas y fiscalización de concesión eléctrica.",
+  "actores_clave": [
+    "municipio-bariloche",
+    "consejo-ceb",
+    "soyem"
+  ],
+  "timeline": [
+    {
+      "fecha": "2026-08-31",
+      "hito": "Acuerdo de tregua judicial por 90 días y apertura de mesa técnica de negociación."
+    }
+  ],
+  "ultima_actualizacion": "2026-09-11T14:20:39.276Z"
+}

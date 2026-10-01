@@ -11,9 +11,13 @@ import {
   Calendar,
   AlertCircle,
   RefreshCw,
+  FileText,
+  CheckCircle2,
+  Clock,
 } from 'lucide-react';
 import { Noticia, AreaId, Fuente, Dossier } from '../types/index.js';
 import { NoticiaModal } from './NoticiaModal.js';
+import { handleImageErrorWithProxy } from '../utils/image.js';
 
 interface NoticiasViewProps {
   fuentes: Fuente[];
@@ -37,10 +41,12 @@ export const NoticiasView: React.FC<NoticiasViewProps> = ({ fuentes, dossiers })
 
   // Filtros
   const [search, setSearch] = useState('');
+  const [selectedFecha, setSelectedFecha] = useState<string>('');
   const [selectedArea, setSelectedArea] = useState<string>('');
   const [selectedFuente, setSelectedFuente] = useState<string>('');
   const [selectedDossier, setSelectedDossier] = useState<string>('');
   const [selectedFoto, setSelectedFoto] = useState<string>('');
+  const [selectedEstadoRedaccion, setSelectedEstadoRedaccion] = useState<string>('');
 
   // Modal State
   const [modalOpen, setModalOpen] = useState(false);
@@ -53,13 +59,21 @@ export const NoticiasView: React.FC<NoticiasViewProps> = ({ fuentes, dossiers })
     try {
       const params = new URLSearchParams();
       if (search) params.append('search', search);
+      if (selectedFecha) params.append('fecha', selectedFecha);
       if (selectedArea) params.append('area_id', selectedArea);
       if (selectedFuente) params.append('fuente_id', selectedFuente);
-      if (selectedDossier) params.append('dossier_id', selectedDossier);
+      if (selectedDossier) {
+        params.append('seguimiento_id', selectedDossier);
+        params.append('dossier_id', selectedDossier);
+      }
       if (selectedFoto === 'con_foto') params.append('con_foto', 'true');
       if (selectedFoto === 'sin_foto') params.append('con_foto', 'false');
+      if (selectedEstadoRedaccion) params.append('estado_redaccion', selectedEstadoRedaccion);
 
-      const res = await fetch(`/api/noticias?${params.toString()}`);
+      const res = await fetch(`/api/noticias?${params.toString()}`, {
+        cache: 'no-store',
+        headers: { 'Cache-Control': 'no-cache' },
+      });
       if (!res.ok) throw new Error('Error al cargar noticias de Firestore');
       const data = await res.json();
       setNoticias(data.data || []);
@@ -69,7 +83,7 @@ export const NoticiasView: React.FC<NoticiasViewProps> = ({ fuentes, dossiers })
     } finally {
       setLoading(false);
     }
-  }, [search, selectedArea, selectedFuente, selectedDossier, selectedFoto]);
+  }, [search, selectedFecha, selectedArea, selectedFuente, selectedDossier, selectedFoto, selectedEstadoRedaccion]);
 
   useEffect(() => {
     fetchNoticias();
@@ -120,6 +134,10 @@ export const NoticiasView: React.FC<NoticiasViewProps> = ({ fuentes, dossiers })
         const d = await res.json();
         throw new Error(d.error || 'Error al actualizar noticia');
       }
+      const actualizada: Noticia = await res.json();
+      setNoticias((prev) =>
+        prev.map((n) => (n.id === actualizada.id ? actualizada : n))
+      );
     } else {
       // Creación
       const res = await fetch('/api/noticias', {
@@ -131,6 +149,8 @@ export const NoticiasView: React.FC<NoticiasViewProps> = ({ fuentes, dossiers })
         const d = await res.json();
         throw new Error(d.error || 'Error al crear noticia');
       }
+      const nueva: Noticia = await res.json();
+      setNoticias((prev) => [nueva, ...prev]);
     }
     fetchNoticias();
   };
@@ -170,17 +190,37 @@ export const NoticiasView: React.FC<NoticiasViewProps> = ({ fuentes, dossiers })
           <span>Filtros y Búsqueda en Vivo</span>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-3">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-2.5">
           {/* Buscador */}
           <div className="relative">
             <Search className="w-4 h-4 absolute left-3 top-2.5 text-slate-400" />
             <input
               type="text"
-              placeholder="Buscar por titular, hecho central o delta..."
+              placeholder="Buscar por titular, hecho central..."
               value={search}
               onChange={(e) => setSearch(e.target.value)}
               className="w-full pl-9 pr-3 py-1.5 text-xs border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:outline-none"
             />
+          </div>
+
+          {/* Filtro Fecha */}
+          <div className="relative">
+            <input
+              type="date"
+              value={selectedFecha}
+              onChange={(e) => setSelectedFecha(e.target.value)}
+              title="Filtrar por fecha exacta"
+              className="w-full px-2.5 py-1.5 text-xs border border-slate-300 rounded-lg bg-white focus:ring-2 focus:ring-blue-600"
+            />
+            {selectedFecha && (
+              <button
+                onClick={() => setSelectedFecha('')}
+                className="absolute right-2 top-2 text-[10px] font-bold text-slate-400 hover:text-slate-600"
+                title="Limpiar fecha"
+              >
+                ✕
+              </button>
+            )}
           </div>
 
           {/* Área */}
@@ -189,7 +229,7 @@ export const NoticiasView: React.FC<NoticiasViewProps> = ({ fuentes, dossiers })
             onChange={(e) => setSelectedArea(e.target.value)}
             className="w-full px-3 py-1.5 text-xs border border-slate-300 rounded-lg bg-white focus:ring-2 focus:ring-blue-600"
           >
-            <option value="">Todas las áreas temáticas</option>
+            <option value="">Todas las áreas</option>
             {AREAS.map((a) => (
               <option key={a.id} value={a.id}>
                 {a.label}
@@ -211,13 +251,13 @@ export const NoticiasView: React.FC<NoticiasViewProps> = ({ fuentes, dossiers })
             ))}
           </select>
 
-          {/* Dossier */}
+          {/* Temas en Seguimiento */}
           <select
             value={selectedDossier}
             onChange={(e) => setSelectedDossier(e.target.value)}
             className="w-full px-3 py-1.5 text-xs border border-slate-300 rounded-lg bg-white focus:ring-2 focus:ring-blue-600"
           >
-            <option value="">Todos los dossiers ({dossiers.length})</option>
+            <option value="">Todos los seguimientos ({dossiers.length})</option>
             {dossiers.map((d) => (
               <option key={d.id} value={d.id}>
                 {d.titulo}
@@ -225,16 +265,30 @@ export const NoticiasView: React.FC<NoticiasViewProps> = ({ fuentes, dossiers })
             ))}
           </select>
 
-          {/* Filtro Foto */}
-          <select
-            value={selectedFoto}
-            onChange={(e) => setSelectedFoto(e.target.value)}
-            className="w-full px-3 py-1.5 text-xs border border-slate-300 rounded-lg bg-white focus:ring-2 focus:ring-blue-600 font-medium"
-          >
-            <option value="">Fotos: Todas</option>
-            <option value="con_foto">📷 Con foto asignada</option>
-            <option value="sin_foto">🚫 Sin foto asignada</option>
-          </select>
+          {/* Filtros Redacción y Foto combinados en 1 celda para mantener 6 columnas */}
+          <div className="flex gap-1.5">
+            <select
+              value={selectedEstadoRedaccion}
+              onChange={(e) => setSelectedEstadoRedaccion(e.target.value)}
+              className="w-1/2 px-1.5 py-1.5 text-xs border border-slate-300 rounded-lg bg-white focus:ring-2 focus:ring-blue-600 font-medium"
+              title="Estado de Redacción"
+            >
+              <option value="">Redacción: Toda</option>
+              <option value="redactada">✅ Redactada</option>
+              <option value="pendiente">⏳ Pendiente</option>
+            </select>
+
+            <select
+              value={selectedFoto}
+              onChange={(e) => setSelectedFoto(e.target.value)}
+              className="w-1/2 px-1.5 py-1.5 text-xs border border-slate-300 rounded-lg bg-white focus:ring-2 focus:ring-blue-600 font-medium"
+              title="Filtro de Foto"
+            >
+              <option value="">Fotos: Todas</option>
+              <option value="con_foto">📷 Con foto</option>
+              <option value="sin_foto">🚫 Sin foto</option>
+            </select>
+          </div>
         </div>
       </div>
 
@@ -277,10 +331,11 @@ export const NoticiasView: React.FC<NoticiasViewProps> = ({ fuentes, dossiers })
                 <tr>
                   <th className="py-3 px-4 w-28">Fecha</th>
                   <th className="py-3 px-4">Titular / Hecho Central</th>
-                  <th className="py-3 px-4 w-40">Fuente</th>
-                  <th className="py-3 px-4 w-36">Área</th>
-                  <th className="py-3 px-4 w-44">Delta / Novedad</th>
-                  <th className="py-3 px-4 w-24 text-center">Foto</th>
+                  <th className="py-3 px-4 w-36">Fuente</th>
+                  <th className="py-3 px-4 w-32">Área</th>
+                  <th className="py-3 px-3 w-24 text-center">Redacción</th>
+                  <th className="py-3 px-4 w-40">Delta / Novedad</th>
+                  <th className="py-3 px-4 w-20 text-center">Foto</th>
                   <th className="py-3 px-4 w-24 text-right">Acciones</th>
                 </tr>
               </thead>
@@ -291,6 +346,8 @@ export const NoticiasView: React.FC<NoticiasViewProps> = ({ fuentes, dossiers })
                   const fuenteNombre = item.fuente?.nombre || (Array.isArray(item.medio) ? (item.medio[1] as string) : typeof item.medio === 'string' ? item.medio : '') || 'S/D';
                   const fuenteUrl = item.fuente?.url_nota || item.url || (Array.isArray(item.medio) && typeof item.medio[5] === 'string' ? item.medio[5] : '');
                   const areaDisplay = item.area || AREAS.find(a => a.id === item.area_id)?.label || item.area_id;
+                  const seguimientoId = item.seguimiento_id || item.dossier_id;
+                  const dossierMatch = dossiers.find(d => d.id === seguimientoId);
 
                   return (
                     <tr key={item.id} className="hover:bg-slate-50/80 transition-colors">
@@ -303,11 +360,18 @@ export const NoticiasView: React.FC<NoticiasViewProps> = ({ fuentes, dossiers })
                         <div className="text-[11px] text-slate-500 line-clamp-2 mt-0.5">
                           {item.hecho_central}
                         </div>
-                        {item.dossier_id && (
-                          <span className="inline-block mt-1 text-[10px] bg-slate-100 text-slate-700 px-2 py-0.5 rounded-md font-mono">
-                            Dossier: {item.dossier_id}
-                          </span>
-                        )}
+                        <div className="flex flex-wrap items-center gap-1.5 mt-1">
+                          {seguimientoId && (
+                            <span className="text-[10px] bg-blue-50 text-blue-800 border border-blue-200 px-2 py-0.5 rounded-md font-medium">
+                              Seguimiento: {dossierMatch?.titulo || seguimientoId}
+                            </span>
+                          )}
+                          {item.curada_manualmente && (
+                            <span className="text-[10px] font-semibold text-emerald-800 bg-emerald-50 border border-emerald-300 px-1.5 py-0.5 rounded-md" title="Curada y aprobada editorialmente">
+                              ✓ Curada
+                            </span>
+                          )}
+                        </div>
                       </td>
 
                       <td className="py-3 px-4">
@@ -332,6 +396,26 @@ export const NoticiasView: React.FC<NoticiasViewProps> = ({ fuentes, dossiers })
                         </span>
                       </td>
 
+                      <td className="py-3 px-3 text-center">
+                        {item.cuerpo_html && item.cuerpo_html.trim().length > 0 ? (
+                          <span
+                            className="inline-flex items-center gap-1 text-[10px] font-semibold text-emerald-700 bg-emerald-50 border border-emerald-200 px-2 py-0.5 rounded-full"
+                            title="Cuerpo de redacción HTML completo"
+                          >
+                            <CheckCircle2 className="w-3 h-3" />
+                            <span>Redactada</span>
+                          </span>
+                        ) : (
+                          <span
+                            className="inline-flex items-center gap-1 text-[10px] font-medium text-amber-700 bg-amber-50 border border-amber-200 px-2 py-0.5 rounded-full"
+                            title="Pendiente de redacción profunda"
+                          >
+                            <Clock className="w-3 h-3" />
+                            <span>Pendiente</span>
+                          </span>
+                        )}
+                      </td>
+
                       <td className="py-3 px-4 text-slate-600">
                         {item.novedad_respecto_a_dias_previos ? (
                           <span className="line-clamp-2 text-[11px] italic bg-amber-50/70 p-1 rounded-sm border-l-2 border-amber-500">
@@ -354,13 +438,10 @@ export const NoticiasView: React.FC<NoticiasViewProps> = ({ fuentes, dossiers })
                             >
                               <img
                                 src={fotoUrl}
-                                alt="Foto"
+                                referrerPolicy="no-referrer"
+                                alt={item.titular}
                                 className="w-10 h-10 object-cover rounded-md border border-emerald-300 shadow-2xs group-hover:scale-105 transition-transform"
-                                onError={(e) => {
-                                  const target = e.currentTarget;
-                                  target.onerror = null;
-                                  target.src = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 40 40' fill='%23f1f5f9'%3E%3Crect width='100%25' height='100%25' fill='%23f8fafc' stroke='%23cbd5e1'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='sans-serif' font-size='8' fill='%2394a3b8'%3EIMG%3C/text%3E%3C/svg%3E";
-                                }}
+                                onError={(e) => handleImageErrorWithProxy(e, fotoUrl)}
                               />
                               <span className="absolute -top-1 -right-1 w-2.5 h-2.5 bg-emerald-500 rounded-full border border-white" title="Foto asignada" />
                             </a>
@@ -373,13 +454,14 @@ export const NoticiasView: React.FC<NoticiasViewProps> = ({ fuentes, dossiers })
                             <button
                               type="button"
                               onClick={() => handleEdit(item)}
-                              className="w-10 h-10 bg-slate-50 hover:bg-blue-50 text-slate-400 hover:text-blue-600 rounded-md flex items-center justify-center border border-dashed border-slate-300 hover:border-blue-400 transition-colors cursor-pointer group"
-                              title="Hacer clic para asignar una foto"
+                              className="px-2 py-1 bg-amber-50 hover:bg-amber-100 text-amber-900 border border-amber-300 rounded-md flex items-center gap-1 text-[10px] font-bold uppercase tracking-wider transition-colors cursor-pointer shadow-2xs group"
+                              title="Asignar foto local o URL manual"
                             >
-                              <ImageIcon className="w-4 h-4 group-hover:scale-110 transition-transform" />
+                              <ImageIcon className="w-3 h-3 text-amber-600 group-hover:scale-110 transition-transform" />
+                              <span>Cargar</span>
                             </button>
-                            <span className="text-[9px] text-slate-400 font-medium">
-                              Sin foto
+                            <span className="text-[9px] font-bold uppercase tracking-wider text-amber-800 bg-amber-100/90 border border-amber-300/80 px-1.5 py-0.2 rounded whitespace-nowrap">
+                              Requiere Foto
                             </span>
                           </div>
                         )}

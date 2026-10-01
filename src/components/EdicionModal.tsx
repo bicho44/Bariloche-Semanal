@@ -1,5 +1,20 @@
-import React, { useState, useEffect } from 'react';
-import { X, Save, Loader2, Mail } from 'lucide-react';
+import React, { useState, useEffect, useRef } from 'react';
+import {
+  X,
+  Save,
+  Loader2,
+  Mail,
+  Eye,
+  Code,
+  Heading,
+  Bold,
+  Italic,
+  List,
+  Quote,
+  Link,
+  Sparkles,
+  FileText,
+} from 'lucide-react';
 import { EdicionNewsletter, EstadoEdicion, Dossier } from '../types/index.js';
 
 interface EdicionModalProps {
@@ -25,8 +40,11 @@ export const EdicionModal: React.FC<EdicionModalProps> = ({
   const [estado, setEstado] = useState<EstadoEdicion>('borrador');
   const [dossiersCubiertos, setDossiersCubiertos] = useState<string[]>([]);
   const [htmlContent, setHtmlContent] = useState('');
+  const [activeTab, setActiveTab] = useState<'editor' | 'preview'>('editor');
+
   const [saving, setSaving] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const textareaRef = useRef<HTMLTextAreaElement | null>(null);
 
   useEffect(() => {
     if (edicionAEditar) {
@@ -48,6 +66,7 @@ export const EdicionModal: React.FC<EdicionModalProps> = ({
       setEstado(rawEstado === 'enviado_a_suscriptores' ? 'enviado' : edicionAEditar.estado || 'borrador');
       setDossiersCubiertos(edicionAEditar.dossiers_cubiertos || []);
       setHtmlContent(edicionAEditar.html_content || '');
+      setActiveTab('editor');
     } else {
       const now = new Date();
       setSemana(1);
@@ -58,6 +77,7 @@ export const EdicionModal: React.FC<EdicionModalProps> = ({
       setEstado('borrador');
       setDossiersCubiertos([]);
       setHtmlContent('');
+      setActiveTab('editor');
     }
   }, [edicionAEditar, isOpen]);
 
@@ -67,6 +87,56 @@ export const EdicionModal: React.FC<EdicionModalProps> = ({
     } else {
       setDossiersCubiertos([...dossiersCubiertos, slug]);
     }
+  };
+
+  const insertHtmlTag = (openTag: string, closeTag: string = '') => {
+    const textarea = textareaRef.current;
+    if (!textarea) return;
+
+    const start = textarea.selectionStart;
+    const end = textarea.selectionEnd;
+    const selectedText = htmlContent.substring(start, end);
+    const replacement = `${openTag}${selectedText || 'texto'}${closeTag}`;
+
+    const newHtml = htmlContent.substring(0, start) + replacement + htmlContent.substring(end);
+    setHtmlContent(newHtml);
+
+    setTimeout(() => {
+      textarea.focus();
+      textarea.setSelectionRange(start + openTag.length, start + openTag.length + (selectedText.length || 5));
+    }, 50);
+  };
+
+  const handleCargarPlantillaBase = () => {
+    if (htmlContent.trim().length > 0 && !window.confirm('¿Reemplazar el contenido actual con la plantilla base de Bariloche Semanal?')) {
+      return;
+    }
+
+    const template = `<!-- BARILOCHE SEMANAL - PLANTILLA EDICIÓN -->
+<div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; color: #1e293b; max-width: 600px; margin: 0 auto; line-height: 1.6;">
+  <div style="border-bottom: 3px solid #1e3a8a; padding-bottom: 12px; margin-bottom: 24px;">
+    <p style="text-transform: uppercase; font-size: 11px; letter-spacing: 0.1em; color: #1e3a8a; font-weight: 700; margin: 0;">Observatorio Periodístico &bull; San Carlos de Bariloche</p>
+    <h1 style="font-size: 26px; color: #0f172a; margin: 6px 0 2px 0;">Bariloche Semanal</h1>
+    <p style="font-size: 13px; color: #64748b; margin: 0;">Edición N° ${semana} / ${anio} &bull; ${fechaPublicacion}</p>
+  </div>
+
+  <div style="background-color: #f8fafc; border-left: 4px solid #1e3a8a; padding: 16px; border-radius: 4px; margin-bottom: 24px;">
+    <h3 style="margin-top: 0; color: #1e3a8a; font-size: 15px;">Apertura Semanal</h3>
+    <p style="margin-bottom: 0; font-size: 14px; color: #334155;">${heroResumen || 'Resumen ejecutivo de las claves políticas, económicas y sociales de la semana en Bariloche.'}</p>
+  </div>
+
+  <h2 style="font-size: 18px; color: #0f172a; border-bottom: 1px solid #e2e8f0; padding-bottom: 6px;">Temas Clave de la Semana</h2>
+  <p style="font-size: 14px; color: #334155;">Análisis de fondo y seguimiento de temas estratégicos de la ciudad...</p>
+
+  <h2 style="font-size: 18px; color: #0f172a; border-bottom: 1px solid #e2e8f0; padding-bottom: 6px; margin-top: 24px;">Agenda & Cartelera</h2>
+  <p style="font-size: 14px; color: #334155;">Actividades culturales y comunitarias destacadas para el fin de semana.</p>
+
+  <div style="margin-top: 32px; padding-top: 16px; border-top: 1px solid #e2e8f0; text-align: center; font-size: 12px; color: #94a3b8;">
+    <p style="margin: 0;">Bariloche Semanal &bull; Periodismo de datos y análisis local independiente</p>
+  </div>
+</div>`;
+
+    setHtmlContent(template);
   };
 
   const handleSubmit = async (e: React.FormEvent) => {
@@ -102,7 +172,7 @@ export const EdicionModal: React.FC<EdicionModalProps> = ({
 
   return (
     <div className="fixed inset-0 z-50 overflow-y-auto bg-slate-900/60 backdrop-blur-xs flex items-center justify-center p-4">
-      <div className="bg-white rounded-2xl shadow-2xl max-w-3xl w-full max-h-[92vh] flex flex-col border border-slate-200">
+      <div className="bg-white rounded-2xl shadow-2xl max-w-4xl w-full max-h-[94vh] flex flex-col border border-slate-200">
         <div className="px-6 py-4 border-b border-slate-200 flex items-center justify-between bg-slate-50/70 rounded-t-2xl">
           <div className="flex items-center gap-2">
             <Mail className="w-5 h-5 text-blue-900" />
@@ -112,7 +182,7 @@ export const EdicionModal: React.FC<EdicionModalProps> = ({
           </div>
           <button
             onClick={onClose}
-            className="text-slate-400 hover:text-slate-600 p-1.5 rounded-lg hover:bg-slate-100"
+            className="text-slate-400 hover:text-slate-600 p-1.5 rounded-lg hover:bg-slate-100 cursor-pointer"
           >
             <X className="w-5 h-5" />
           </button>
@@ -171,7 +241,7 @@ export const EdicionModal: React.FC<EdicionModalProps> = ({
               <select
                 value={estado || 'borrador'}
                 onChange={(e) => setEstado(e.target.value as EstadoEdicion)}
-                className="w-full px-3 py-2 text-xs border border-slate-300 rounded-lg bg-white"
+                className="w-full px-3 py-2 text-xs border border-slate-300 rounded-lg bg-white cursor-pointer"
               >
                 <option value="borrador">Borrador</option>
                 <option value="programado">Programado</option>
@@ -208,45 +278,191 @@ export const EdicionModal: React.FC<EdicionModalProps> = ({
             />
           </div>
 
-          {/* Selección de dossiers cubiertos */}
+          {/* Selección de temas en seguimiento cubiertos */}
           <div className="p-4 bg-slate-50 border border-slate-200 rounded-xl space-y-2">
-            <label className="block text-xs font-bold uppercase tracking-wider text-slate-800">
-              Dossiers Cubiertos en esta Edición
-            </label>
+            <div className="flex items-center justify-between">
+              <label className="block text-xs font-bold uppercase tracking-wider text-slate-800">
+                Temas en Seguimiento Cubiertos ({dossiersCubiertos.length})
+              </label>
+              <span className="text-[11px] text-slate-500">Selecciona los temas de fondo cubiertos</span>
+            </div>
             {dossiers.length > 0 ? (
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 max-h-40 overflow-y-auto pr-1">
                 {dossiers.map((d) => (
                   <label
                     key={d.id}
-                    className="flex items-center gap-2 p-2 bg-white rounded border border-slate-200 text-xs cursor-pointer hover:bg-slate-50"
+                    className={`flex items-center gap-2 p-2 rounded border text-xs cursor-pointer transition-colors ${
+                      dossiersCubiertos.includes(d.id)
+                        ? 'bg-blue-50/80 border-blue-300 text-blue-900 font-semibold'
+                        : 'bg-white border-slate-200 text-slate-700 hover:bg-slate-50'
+                    }`}
                   >
                     <input
                       type="checkbox"
                       checked={dossiersCubiertos.includes(d.id)}
                       onChange={() => toggleDossier(d.id)}
-                      className="rounded text-blue-900"
+                      className="rounded text-blue-900 cursor-pointer"
                     />
-                    <span className="font-semibold text-slate-800 truncate">{d.titulo}</span>
+                    <span className="truncate">{d.titulo}</span>
                   </label>
                 ))}
               </div>
             ) : (
-              <p className="text-xs text-slate-400 italic">No hay dossiers activos para vincular.</p>
+              <p className="text-xs text-slate-400 italic">No hay temas en seguimiento activos para vincular.</p>
             )}
           </div>
 
-          {/* HTML Content */}
-          <div>
-            <label className="block text-xs font-semibold uppercase tracking-wider text-slate-700 mb-1">
-              Contenido HTML de la Edición
-            </label>
-            <textarea
-              rows={8}
-              value={htmlContent || ''}
-              onChange={(e) => setHtmlContent(e.target.value)}
-              placeholder="<div style='font-family:sans-serif;'>...</div>"
-              className="w-full px-3 py-2 text-xs border border-slate-300 rounded-lg font-mono"
-            />
+          {/* HTML Content con Editor Rico y Preview */}
+          <div className="space-y-2 pt-2 border-t border-slate-200">
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+              <div className="flex items-center gap-2">
+                <FileText className="w-4 h-4 text-blue-900" />
+                <label className="text-xs font-semibold uppercase tracking-wider text-slate-700">
+                  Cuerpo HTML Compilado del Newsletter
+                </label>
+              </div>
+
+              <div className="flex items-center gap-2">
+                <button
+                  type="button"
+                  onClick={handleCargarPlantillaBase}
+                  className="flex items-center gap-1 text-[11px] font-semibold text-blue-800 bg-blue-50 hover:bg-blue-100 border border-blue-200 px-2.5 py-1 rounded cursor-pointer"
+                  title="Insertar maquetado estándar de Bariloche Semanal"
+                >
+                  <Sparkles className="w-3 h-3 text-blue-600" />
+                  <span>Cargar Plantilla Base</span>
+                </button>
+
+                <div className="inline-flex rounded-lg bg-slate-100 p-0.5 text-xs font-medium border border-slate-200">
+                  <button
+                    type="button"
+                    onClick={() => setActiveTab('editor')}
+                    className={`flex items-center gap-1 px-2.5 py-1 rounded-md transition-all cursor-pointer ${
+                      activeTab === 'editor'
+                        ? 'bg-white text-blue-900 shadow-2xs font-semibold'
+                        : 'text-slate-600 hover:text-slate-900'
+                    }`}
+                  >
+                    <Code className="w-3 h-3" />
+                    <span>Código HTML</span>
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => setActiveTab('preview')}
+                    className={`flex items-center gap-1 px-2.5 py-1 rounded-md transition-all cursor-pointer ${
+                      activeTab === 'preview'
+                        ? 'bg-white text-blue-900 shadow-2xs font-semibold'
+                        : 'text-slate-600 hover:text-slate-900'
+                    }`}
+                  >
+                    <Eye className="w-3 h-3" />
+                    <span>Vista Previa</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            {activeTab === 'editor' ? (
+              <div className="space-y-1.5">
+                {/* Barra de herramientas HTML */}
+                <div className="flex flex-wrap items-center gap-1 p-1.5 bg-slate-50 border border-slate-200 rounded-lg text-xs">
+                  <button
+                    type="button"
+                    onClick={() => insertHtmlTag('<h2>', '</h2>')}
+                    className="p-1 px-2 hover:bg-white rounded border border-transparent hover:border-slate-300 font-bold text-slate-700 flex items-center gap-1"
+                    title="Título H2"
+                  >
+                    <Heading className="w-3 h-3" /> H2
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => insertHtmlTag('<h3>', '</h3>')}
+                    className="p-1 px-2 hover:bg-white rounded border border-transparent hover:border-slate-300 font-bold text-slate-700"
+                    title="Subtítulo H3"
+                  >
+                    H3
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => insertHtmlTag('<p>', '</p>')}
+                    className="p-1 px-2 hover:bg-white rounded border border-transparent hover:border-slate-300 text-slate-700"
+                    title="Párrafo"
+                  >
+                    Párrafo
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => insertHtmlTag('<strong>', '</strong>')}
+                    className="p-1 hover:bg-white rounded border border-transparent hover:border-slate-300 text-slate-700"
+                    title="Negrita"
+                  >
+                    <Bold className="w-3 h-3" />
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => insertHtmlTag('<em>', '</em>')}
+                    className="p-1 hover:bg-white rounded border border-transparent hover:border-slate-300 text-slate-700"
+                    title="Cursiva"
+                  >
+                    <Italic className="w-3 h-3" />
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => insertHtmlTag('<ul>\n  <li>', '</li>\n</ul>')}
+                    className="p-1 hover:bg-white rounded border border-transparent hover:border-slate-300 text-slate-700"
+                    title="Lista con viñetas"
+                  >
+                    <List className="w-3 h-3" />
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => insertHtmlTag('<blockquote style="border-left: 3px solid #1e3a8a; padding-left: 12px; color: #475569; font-style: italic;">', '</blockquote>')}
+                    className="p-1 hover:bg-white rounded border border-transparent hover:border-slate-300 text-slate-700"
+                    title="Cita o Destacado"
+                  >
+                    <Quote className="w-3 h-3" />
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => insertHtmlTag('<a href="https://" target="_blank" style="color: #1e3a8a; text-decoration: underline;">', '</a>')}
+                    className="p-1 hover:bg-white rounded border border-transparent hover:border-slate-300 text-slate-700"
+                    title="Enlace"
+                  >
+                    <Link className="w-3 h-3" />
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => insertHtmlTag('<hr style="border: 0; border-top: 1px solid #e2e8f0; margin: 24px 0;" />\n')}
+                    className="p-1 px-2 hover:bg-white rounded border border-transparent hover:border-slate-300 text-slate-700 text-[11px]"
+                    title="Separador horizontal"
+                  >
+                    Línea HR
+                  </button>
+                </div>
+
+                <textarea
+                  ref={textareaRef}
+                  rows={9}
+                  value={htmlContent || ''}
+                  onChange={(e) => setHtmlContent(e.target.value)}
+                  placeholder="<div style='font-family:sans-serif;'>...</div>"
+                  className="w-full px-3 py-2 text-xs border border-slate-300 rounded-lg font-mono focus:ring-2 focus:ring-blue-600 leading-relaxed"
+                />
+              </div>
+            ) : (
+              <div className="p-4 bg-slate-50 border border-slate-200 rounded-lg max-h-80 overflow-y-auto">
+                {htmlContent ? (
+                  <div
+                    dangerouslySetInnerHTML={{ __html: htmlContent }}
+                    className="bg-white p-5 rounded-lg border border-slate-200 shadow-2xs"
+                  />
+                ) : (
+                  <p className="text-xs text-slate-400 italic text-center py-10">
+                    No hay contenido HTML cargado para previsualizar.
+                  </p>
+                )}
+              </div>
+            )}
           </div>
         </form>
 
@@ -254,7 +470,7 @@ export const EdicionModal: React.FC<EdicionModalProps> = ({
           <button
             type="button"
             onClick={onClose}
-            className="px-4 py-2 text-xs font-medium text-slate-600 hover:text-slate-800 rounded-lg"
+            className="px-4 py-2 text-xs font-medium text-slate-600 hover:text-slate-800 rounded-lg cursor-pointer"
           >
             Cancelar
           </button>

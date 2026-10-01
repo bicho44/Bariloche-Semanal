@@ -1,0 +1,11 @@
+{
+  "id": "parque-nahuel-huapi",
+  "nombre": "Parque Nacional Nahuel Huapi",
+  "url_base": "https://nahuelhuapi.gov.ar",
+  "url_noticias": "https://nahuelhuapi.gov.ar",
+  "tipo": "institucional",
+  "beat_id": "montana-turismo",
+  "prioridad": 2,
+  "activo": true,
+  "updated_at": "2026-09-19T22:27:40.188Z"
+}

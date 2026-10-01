@@ -1,0 +1,11 @@
+{
+  "id": "semanario-bariloche",
+  "nombre": "Semanario Bariloche",
+  "url_base": "https://semanariobariloche.com.ar",
+  "url_noticias": "https://semanariobariloche.com.ar",
+  "tipo": "diario",
+  "beat_id": "pulso-urbano",
+  "prioridad": 2,
+  "activo": true,
+  "updated_at": "2026-09-19T22:27:37.942Z"
+}

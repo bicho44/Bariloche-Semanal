@@ -1,5 +1,6 @@
 import React from 'react';
 import {
+  LayoutDashboard,
   Newspaper,
   Calendar,
   FolderArchive,
@@ -15,6 +16,7 @@ import {
 import { ConfiguracionBranding } from '../types/index.js';
 
 export type AdminTab = 
+  | 'dashboard'
   | 'noticias'
   | 'agenda'
   | 'dossiers'
@@ -28,7 +30,6 @@ interface SidebarProps {
   currentTab: AdminTab;
   onSelectTab: (tab: AdminTab) => void;
   branding: ConfiguracionBranding | null;
-  onOpenDeepDiveModal: () => void;
   dbStatus?: { mode: string; projectId: string; message: string } | null;
 }
 
@@ -36,13 +37,13 @@ export const Sidebar: React.FC<SidebarProps> = ({
   currentTab,
   onSelectTab,
   branding,
-  onOpenDeepDiveModal,
   dbStatus,
 }) => {
   const menuItems = [
+    { id: 'dashboard' as AdminTab, label: 'Dashboard General', icon: LayoutDashboard },
     { id: 'noticias' as AdminTab, label: 'Noticias', icon: Newspaper, countKey: 'noticias' },
     { id: 'agenda' as AdminTab, label: 'Agenda Bariloche', icon: Calendar, countKey: 'agenda' },
-    { id: 'dossiers' as AdminTab, label: 'Dossiers', icon: FolderArchive, countKey: 'dossiers' },
+    { id: 'dossiers' as AdminTab, label: 'Temas en Seguimiento', icon: FolderArchive, countKey: 'dossiers' },
     { id: 'fuentes' as AdminTab, label: 'Fuentes y Medios', icon: Radio, countKey: 'fuentes' },
     { id: 'anunciantes' as AdminTab, label: 'Auspiciantes & Banners', icon: Megaphone, countKey: 'anunciantes' },
     { id: 'branding' as AdminTab, label: 'Identidad & Branding', icon: Palette },
@@ -60,8 +61,12 @@ export const Sidebar: React.FC<SidebarProps> = ({
           {branding?.logo_url ? (
             <img
               src={branding.logo_url}
+              referrerPolicy="no-referrer"
               alt="Logo"
               className="w-9 h-9 rounded-lg object-contain bg-white/10 p-1"
+              onError={(e) => {
+                e.currentTarget.style.display = 'none';
+              }}
             />
           ) : (
             <div
@@ -81,18 +86,6 @@ export const Sidebar: React.FC<SidebarProps> = ({
             </span>
           </div>
         </div>
-      </div>
-
-      {/* Quick Action: AI Deep Dive */}
-      <div className="p-3">
-        <button
-          onClick={onOpenDeepDiveModal}
-          type="button"
-          className="w-full flex items-center justify-center gap-2 px-3 py-2 text-xs font-semibold text-white rounded-lg transition-all shadow-md bg-gradient-to-r from-blue-700 via-indigo-700 to-amber-600 hover:from-blue-600 hover:to-amber-500 cursor-pointer"
-        >
-          <Sparkles className="w-4 h-4 text-amber-300 animate-pulse" />
-          <span>Deep-Dive Editorial IA</span>
-        </button>
       </div>
 
       {/* Navigation */}
@@ -140,8 +133,8 @@ export const Sidebar: React.FC<SidebarProps> = ({
           </span>
         </div>
         <div className="flex items-center justify-between">
-          <span>Motor IA:</span>
-          <span className="text-[10px] text-amber-400 font-semibold">Gemini 3.8</span>
+          <span>Modo:</span>
+          <span className="text-[10px] text-emerald-400 font-semibold">CRUD Firestore</span>
         </div>
         <div className="pt-1 flex items-center justify-between">
           <a

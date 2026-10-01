@@ -1,0 +1,64 @@
+{
+  "id": "2026-09-19_audiencia-publica-tarifa-mi-bus-reclamo-frecuencia",
+  "citas": [
+    {
+      "autor": "Martín Trebino (apoderado de Mi Bus)",
+      "texto": "El costo real por pasajero transportado ya supera los dos mil pesos; de no adecuarse la tarifa plana a $1.890 de forma inmediata, la sostenibilidad del servicio en las líneas troncales y periféricas entra en una zona crítica."
+    },
+    {
+      "autor": "Mirta Sandoval (representante de juntas vecinales de Pampa de Huenuleo)",
+      "texto": "No aceptaremos otra suba tarifaria cuando los vecinos del Alto esperan más de 45 minutos a la intemperie y los coches de refuerzo que prometieron nunca llegaron a los barrios."
+    }
+  ],
+  "cobertura_cruzada": 1,
+  "fuente": {
+    "url_nota": "https://www.bariloche2000.com/noticias/leer/mi-bus-pide-aumento-y-convocan-audiencia-publica/158941",
+    "id": "bariloche-2000",
+    "nombre": "Bariloche 2000"
+  },
+  "imagen_url": "https://images.unsplash.com/photo-1578637387939-43c525550085?auto=format&fit=crop&w=1200&q=80",
+  "created_at": "2026-09-19T23:07:36.813Z",
+  "media": {
+    "imagen_url": "https://images.unsplash.com/photo-1578637387939-43c525550085?auto=format&fit=crop&w=1200&q=80",
+    "credito": "Pulso Urbano Bariloche / Archivo"
+  },
+  "area_id": "gestion-publica",
+  "dossier_id": "transporte-urbano-tarifa",
+  "url": "https://www.bariloche2000.com/noticias/leer/mi-bus-pide-aumento-y-convocan-audiencia-publica/158941",
+  "datos_duros": {
+    "Porcentaje de aumento pretendido": "36,9%",
+    "Lapsos de espera pico relevados": "45 a 50 minutos",
+    "Tarifa plana solicitada": "$1.890",
+    "Tarifa actual": "$1.380"
+  },
+  "fecha_publicacion": "2026-09-19",
+  "tags": [
+    "transporte urbano",
+    "tarifa",
+    "Mi Bus",
+    "audiencia pública",
+    "colectivos"
+  ],
+  "novedad_respecto_a_dias_previos": "El Ejecutivo municipal publicó el decreto fijando la fecha de audiencia tras dos semanas de retraso y luego de que la empresa enviara una carta documento intimando una recomposición económica del contrato de concesión.",
+  "fecha": "2026-09-19",
+  "entidades": {
+    "actores": [
+      "Walter Cortés",
+      "Amancay SRL (Mi Bus)",
+      "UTA Bariloche",
+      "Juntas Vecinales del Alto",
+      "Comisión de Tránsito del Concejo"
+    ],
+    "lugares": [
+      "Centro Cívico",
+      "Pampa de Huenuleo",
+      "Barrio 2 de Abril",
+      "Barrio Frutillar"
+    ]
+  },
+  "hecho_central": "El Ejecutivo municipal formalizó la convocatoria a audiencia pública para analizar la actualización de la tarifa del transporte urbano solicitada por Amancay SRL (Mi Bus). La empresa prestadora exige elevar el boleto de los actuales $1.380 a $1.890, argumentando la caída de subsidios y la inflación de costos operativos, mientras juntas vecinales del Alto y el Oeste denuncian recortes unilaterales de frecuencias nocturnas.",
+  "cuerpo_html": "<p>El Municipio de San Carlos de Bariloche oficializó mediante resolución la apertura del registro de oradores para la próxima audiencia pública tarifaria del Transporte Urbano de Pasajeros (TUP). La prestataria <strong>Amancay SRL (Mi Bus)</strong> presentó una estructura de costos en la que solicita fijar la tarifa plana en <strong>$1.890</strong>, lo que implicaría un incremento acumulado del 36,9% respecto al cuadro tarifario vigente.</p><p>La requisitoria empresarial se da en un contexto de fricción comunitaria por el incumplimiento de las frecuencias pactadas, particularmente en las líneas 60, 71 y 81 que conectan el Alto de Bariloche con el centro cívico y administrativo. Las juntas vecinales nucleadas en la zona sur elevaron un informe técnico donde contabilizan esperas de hasta 50 minutos en horarios pico.</p><p>Desde la Comisión de Tránsito y Transporte del Concejo Deliberante adelantaron que exigirán auditorías sobre el sistema de telemetría y geolocalización de las unidades para verificar el cumplimiento efectivo de los kilómetros recorridos antes de autorizar cualquier ajuste en la máquina canceladora de SUBE.</p>",
+  "titular": "Transporte urbano: Convocan a audiencia pública por nuevo pedido de aumento del boleto a $1.890",
+  "area": "Gestión Pública",
+  "foto": "https://images.unsplash.com/photo-1578637387939-43c525550085?auto=format&fit=crop&w=1200&q=80"
+}

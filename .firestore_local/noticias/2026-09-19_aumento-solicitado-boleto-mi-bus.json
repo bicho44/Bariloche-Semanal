@@ -1,0 +1,56 @@
+{
+  "id": "2026-09-19_aumento-solicitado-boleto-mi-bus",
+  "citas": [
+    {
+      "autor": "Gustavo Vinti",
+      "texto": "El desfasaje por el incremento del combustible y los acuerdos paritarios hace insostenible la prestación regular del servicio sin una actualización urgente de la tarifa."
+    }
+  ],
+  "cobertura_cruzada": 1,
+  "fuente": {
+    "url_nota": "https://www.elcordillerano.com.ar/noticias/2026/09/19/mi-bus-pidio-aumento-boleto-audiencia-publica",
+    "id": "el-cordillerano",
+    "nombre": "El Cordillerano"
+  },
+  "imagen_url": "https://images.unsplash.com/photo-1578637387939-43c525550085?auto=format&fit=crop&w=1200&q=80",
+  "created_at": "2026-09-19T22:55:27.868Z",
+  "media": {
+    "imagen_url": "https://images.unsplash.com/photo-1578637387939-43c525550085?auto=format&fit=crop&w=1200&q=80",
+    "credito": "Pulso Urbano Bariloche / Archivo"
+  },
+  "area_id": "gestion-publica",
+  "dossier_id": "transporte-urbano-tarifa",
+  "url": "https://www.elcordillerano.com.ar/noticias/2026/09/19/mi-bus-pidio-aumento-boleto-audiencia-publica",
+  "datos_duros": {
+    "Porcentaje de Incremento": "26,4%",
+    "Tarifa Actual": "$1.250",
+    "Tarifa Solicitada": "$1.580"
+  },
+  "fecha_publicacion": "2026-09-19",
+  "tags": [
+    "Transporte",
+    "Mi Bus",
+    "Tarifas",
+    "Concejo Deliberante"
+  ],
+  "novedad_respecto_a_dias_previos": "Se formalizó el pedido de readecuación tarifaria con un incremento del 26,4% tras un mes de negociaciones informales entre la concesionaria y la Secretaría de Tránsito.",
+  "fecha": "2026-09-19",
+  "entidades": {
+    "actores": [
+      "Mi Bus",
+      "Walter Cortés",
+      "Concejo Deliberante",
+      "UTA Bariloche"
+    ],
+    "lugares": [
+      "Centro Cívico",
+      "Pampa de Huenuleo",
+      "Barrio 2+2"
+    ]
+  },
+  "hecho_central": "La empresa Amancay SRL (Mi Bus) presentó formalmente ante el Ejecutivo Municipal una solicitud para incrementar la tarifa plana del colectivo urbano de $1.250 a $1.580. La Comisión de Tránsito del Concejo Deliberante resolvió activar el procedimiento reglamentario de audiencia pública no vinculante.",
+  "cuerpo_html": "<p>La empresa concesionaria del servicio de transporte urbano de pasajeros en Bariloche, Amancay SRL (Mi Bus), formalizó una presentación ante la Subsecretaría de Tránsito y Transporte para autorizar un incremento en el valor del boleto. El pedido ubica la tarifa plana en $1.580, argumentando la suba acumulada en insumos operativos y reajustes salariales del sector.</p><p>Ante la solicitud, las autoridades del Ejecutivo y los bloques parlamentarios acordaron convocar a una audiencia pública para revisar la estructura de costos presentada. Mientras tanto, organizaciones vecinales de la zona Sur y el Alto anticiparon un fuerte reclamo por las frecuencias acotadas en las líneas perimetrales.</p>",
+  "titular": "Mi Bus solicita aumento del boleto a $1.580 y el Municipio convoca a audiencia pública",
+  "area": "Gestión Pública",
+  "foto": "https://images.unsplash.com/photo-1578637387939-43c525550085?auto=format&fit=crop&w=1200&q=80"
+}

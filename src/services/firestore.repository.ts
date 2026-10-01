@@ -37,6 +37,27 @@ function handleFirestoreError(err: unknown, operation: string, target: string): 
   }
 }
 
+function sanitizeForFirestore<T>(data: T): T {
+  if (data === null || data === undefined) {
+    return null as unknown as T;
+  }
+  if (Array.isArray(data)) {
+    return data
+      .filter((item) => item !== undefined)
+      .map((item) => sanitizeForFirestore(item)) as unknown as T;
+  }
+  if (typeof data === 'object' && !(data instanceof Date)) {
+    const clean: Record<string, unknown> = {};
+    for (const [key, value] of Object.entries(data as Record<string, unknown>)) {
+      if (value !== undefined) {
+        clean[key] = sanitizeForFirestore(value);
+      }
+    }
+    return clean as T;
+  }
+  return data;
+}
+
 export class FirestoreRepository<T extends { id?: string }> {
   constructor(private collectionName: string) {}
 
@@ -91,12 +112,18 @@ export class FirestoreRepository<T extends { id?: string }> {
         results.push({ id: doc.id, ...(doc.data() as object) } as T);
       });
 
-      // Mantener sincronizada la copia local
-      for (const item of results) {
-        if (item.id) {
-          this.writeLocal(item.id, item);
+      // Mantener sincronizada la copia local en segundo plano para no bloquear
+      setImmediate(() => {
+        for (const item of results) {
+          if (item.id) {
+            try {
+              this.writeLocal(item.id, item);
+            } catch {
+              // ignore background sync errors
+            }
+          }
         }
-      }
+      });
       return results;
     } catch (err: unknown) {
       handleFirestoreError(err, 'getAll', this.collectionName);
@@ -116,7 +143,7 @@ export class FirestoreRepository<T extends { id?: string }> {
       }
       const doc = await db.collection(this.collectionName).doc(id).get();
       if (!doc.exists) {
-        return this.getLocalById(id);
+        return null;
       }
       const data = { id: doc.id, ...(doc.data() as object) } as T;
       this.writeLocal(id, data);
@@ -145,7 +172,8 @@ export class FirestoreRepository<T extends { id?: string }> {
       try {
         const db = getDb();
         if (db) {
-          await db.collection(this.collectionName).doc(id).set(itemWithId, { merge: true });
+          const clean = sanitizeForFirestore(itemWithId) as Record<string, unknown>;
+          await db.collection(this.collectionName).doc(id).set(clean, { merge: true });
         }
       } catch (err: unknown) {
         handleFirestoreError(err, 'set', `${this.collectionName}/${id}`);
@@ -165,14 +193,7 @@ export class FirestoreRepository<T extends { id?: string }> {
       try {
         const db = getDb();
         if (db) {
-          // Limpiar valores undefined para evitar errores de Firestore
-          const cleanPartial: Record<string, unknown> = {};
-          for (const [key, value] of Object.entries(partial as Record<string, unknown>)) {
-            if (value !== undefined) {
-              cleanPartial[key] = value;
-            }
-          }
-          // set con merge: true garantiza actualización sin fallar si el doc aún no existe
+          const cleanPartial = sanitizeForFirestore(partial) as Record<string, unknown>;
           await db.collection(this.collectionName).doc(id).set(cleanPartial, { merge: true });
         }
       } catch (err: unknown) {

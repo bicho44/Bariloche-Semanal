@@ -1,0 +1,11 @@
+{
+  "id": "bariloche-2000",
+  "nombre": "Bariloche 2000",
+  "url_base": "https://www.bariloche2000.com",
+  "url_noticias": "https://www.bariloche2000.com",
+  "tipo": "diario",
+  "beat_id": "pulso-urbano",
+  "prioridad": 1,
+  "activo": true,
+  "updated_at": "2026-09-19T22:27:37.658Z"
+}

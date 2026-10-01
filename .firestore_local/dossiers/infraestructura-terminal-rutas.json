@@ -1,0 +1,27 @@
+{
+  "id": "infraestructura-terminal-rutas",
+  "titulo": "Nueva Terminal de Ómnibus, Rotonda Esandi y Ruta 40",
+  "area_id": "gestion-publica",
+  "estado": "activo",
+  "resumen_contexto": "Obras clave de conectividad: finalización de la estación terminal en octubre, rotonda en Esandi y mantenimiento de Ruta 40 Sur.",
+  "actores_clave": [
+    "walter-cortes",
+    "vialidad-nacional",
+    "empresas-transporte"
+  ],
+  "timeline": [
+    {
+      "fecha": "2026-08-24",
+      "hito": "Reclamo unificado del sector turístico por bacheo y obras en Ruta 40."
+    },
+    {
+      "fecha": "2026-09-08",
+      "hito": "Anuncian entrega de la nueva Terminal para fines de octubre y rotonda en Esandi."
+    },
+    {
+      "fecha": "2026-09-08",
+      "hito": "Desprendimiento en ladera de Ruta 40 con tránsito asistido entre Gutiérrez y Mascardi."
+    }
+  ],
+  "ultima_actualizacion": "2026-09-11T14:20:39.273Z"
+}

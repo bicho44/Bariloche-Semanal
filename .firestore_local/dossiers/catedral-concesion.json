@@ -1,0 +1,37 @@
+{
+  "id": "catedral-concesion",
+  "area_id": "turismo",
+  "estado": "activo",
+  "resumen_contexto": "Seguimiento del plan de inversión contractual de la concesionaria CAPSA en Cerro Catedral, incluyendo nuevos medios de elevación, sistema de fabricación de nieve artificial y litigios ambientales en torno a pistas en la ladera sur.",
+  "titulo": "Concesión y Obras de Modernización en Cerro Catedral (CAPSA)",
+  "actores_clave": [
+    "Municipio de San Carlos de Bariloche",
+    "CAPSA",
+    "EAMCEC (Ente Autárquico Municipal)",
+    "Club Andino Bariloche (CAB)",
+    "Comunidad Vecinal Villa Catedral"
+  ],
+  "ultima_actualizacion": "2024-11-12",
+  "cronica_html": "<div class=\"c-dossier-article\"><p class=\"c-lead\">El centro de esquí más importante de Sudamérica atraviesa una etapa de redefinición donde conviven una temporada invernal de alta concurrencia, tensiones abiertas por el canon municipal y el estacionamiento, y la exigencia ciudadana de una democratización efectiva de la montaña.</p><h3>1. Antecedentes y génesis</h3><p>El vínculo entre San Carlos de Bariloche y la empresa Catedral Alta Patagonia (CAPSA) tiene como piedra basal la renegociación contractual aprobada por el Concejo Deliberante en 2018, que extendió la concesión del cerro hasta el año 2056 a cambio de un plan de modernización de medios de elevación e infraestructura. Sin embargo, el esquema tarifario de pases, los costos de acceso vehicular y la fiscalización del Ente Autárquico Municipal del Cerro Catedral (EAMCEC) se mantuvieron como focos permanentes de fricción con los residentes, los instructores independientes y las cámaras comerciales.</p><h3>2. Últimos acontecimientos y novedades</h3><p>En el tramo final de la temporada invernal 2026, el debate sumó un nuevo capítulo tras confirmarse que más de <strong>1.000 vecinos y escolares barilochenses</strong> completaron las jornadas de bautismo e iniciación en la nieve mediante pases y equipamiento 100% bonificados, según reportó <a href=\"https://www.barilocheopina.com/noticias/2026/09/16/94408-mas-de-1000-residentes-tuvieron-su-primera-experiencia-en-la-nieve-en-catedral\" target=\"_blank\" rel=\"noopener noreferrer\">Bariloche Opina</a>. Este hito social se produce mientras la comisión especial del Concejo Deliberante analiza los balances de canon y estacionamiento presentados por el Ejecutivo municipal.</p><blockquote cite=\"https://www.barilocheopina.com/noticias/2026/09/16/94408-mas-de-1000-residentes-tuvieron-su-primera-experiencia-en-la-nieve-en-catedral\"><p>«El objetivo es que ningún chico o vecino de Bariloche crezca sin conocer la nieve ni la montaña por cuestiones económicas», subrayaron las coordinaciones del programa social conjunto.</p></blockquote><aside class=\"c-dossier-data\"><h4>Cifras y parámetros clave de la concesión</h4><ul><li><strong>Vigencia contractual:</strong> Hasta el año 2056 bajo contrato renegociado.</li><li><strong>Programa social 2026:</strong> 1.000 estudiantes y residentes con acceso y equipamiento gratuito en la base.</li><li><strong>Comisión de seguimiento:</strong> Integrada por concejales, técnicos del EAMCEC y representantes vecinales.</li><li><strong>Cierre proyectado de pistas:</strong> Primeros días de octubre de 2026, supeditado a las condiciones de nieve en cumbre.</li></ul></aside><h3>3. Actores e intereses en disputa</h3><p>El escenario institucional enfrenta diversas visiones sobre el modelo de explotación de la montaña. Por un lado, la concesionaria CAPSA prioriza el recupero de las inversiones en los nuevos medios de elevación y el posicionamiento del cerro como destino premium internacional. Por el otro, el intendente Walter Cortés y los bloques legislativos reclaman una mayor participación comunitaria en los ingresos del centro invernal, auditorías estrictas sobre el cobro de playas de estacionamiento y garantías para que los clubes locales y residentes no queden marginados por los valores tarifarios.</p><h3>4. Hacia dónde va: próximos pasos e instancias clave</h3><p>Con la temporada invernal entrando en su mes de cierre, el foco se trasladará a la rendición anual de cuentas que el EAMCEC y la concesionaria deberán elevar al Concejo Deliberante antes del 30 de noviembre. Dicha instancia definirá las pautas de fiscalización para las actividades de montaña de la temporada de verano 2026/2027 y el canon a liquidar en las arcas públicas municipales.</p></div>",
+  "timeline": [
+    {
+      "fecha": "2026-08-27",
+      "hito": "Apertura de comisión especial en el Concejo por reclamos de Catedral.",
+      "noticia_id": "",
+      "fuente_url": ""
+    },
+    {
+      "fecha": "2026-08-31",
+      "hito": "Debate público sobre tarifas de estacionamiento y canon del centro de esquí.",
+      "noticia_id": "",
+      "fuente_url": ""
+    },
+    {
+      "fecha": "2026-09-18",
+      "hito": "Más de 1.000 residentes completaron el programa de iniciación en la nieve en Catedral.",
+      "noticia_id": "2026-09-18_programa-nieve-residentes-catedral-primeros-pasos",
+      "fuente_url": "https://www.barilocheopina.com/noticias/2026/09/16/94408-mas-de-1000-residentes-tuvieron-su-primera-experiencia-en-la-nieve-en-catedral"
+    }
+  ],
+  "fecha_ultima_cronica": "2026-09-18"
+}

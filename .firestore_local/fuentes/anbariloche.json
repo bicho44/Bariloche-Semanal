@@ -1,0 +1,11 @@
+{
+  "id": "anbariloche",
+  "nombre": "ANBariloche",
+  "url_base": "https://www.anbariloche.com.ar",
+  "url_noticias": "https://www.anbariloche.com.ar",
+  "tipo": "diario",
+  "beat_id": "pulso-urbano",
+  "prioridad": 1,
+  "activo": true,
+  "updated_at": "2026-09-19T22:27:35.535Z"
+}

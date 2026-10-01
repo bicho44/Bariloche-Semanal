@@ -42,7 +42,6 @@ import {
   eliminarEdicion,
 } from '../controllers/ediciones.controller.js';
 
-import { generarDeepDive } from '../controllers/editorial.controller.js';
 import { obtenerConfiguracion, actualizarConfiguracion } from '../controllers/branding.controller.js';
 
 import {
@@ -54,7 +53,8 @@ import {
   obtenerBloquePreFooter,
 } from '../controllers/anunciantes.controller.js';
 
-import { uploadMedia } from '../controllers/media.controller.js';
+import { uploadMedia, proxyMedia, fetchRemoteMedia } from '../controllers/media.controller.js';
+import { obtenerResumenDashboard } from '../controllers/dashboard.controller.js';
 import { getDatabaseStatus } from '../config/firebase.js';
 
 const router = Router();
@@ -67,6 +67,9 @@ const upload = multer({
     files: 5,
   },
 });
+
+// 0. Dashboard Resumen y Métricas
+router.get('/dashboard/stats', obtenerResumenDashboard);
 
 // 1. Fuentes
 router.get('/fuentes', listarFuentes);
@@ -104,10 +107,7 @@ router.get('/ediciones/:id', obtenerEdicion);
 router.patch('/ediciones/:id', actualizarEdicion);
 router.delete('/ediciones/:id', eliminarEdicion);
 
-// 6. Editorial AI (Gemini 3)
-router.post('/editorial/deep-dive', generarDeepDive);
-
-// 7. Branding & Configuración
+// 6. Branding & Configuración
 router.get('/configuracion', obtenerConfiguracion);
 router.patch('/configuracion', actualizarConfiguracion);
 
@@ -120,6 +120,12 @@ router.patch('/anunciantes/:id', actualizarAnunciante);
 router.delete('/anunciantes/:id', eliminarAnunciante);
 
 // 9. Media & Upload (Firebase Storage / Local)
+// Proxy resiliente de imágenes contra bloqueos de CORS y hotlink
+router.get('/media/proxy', proxyMedia);
+
+// Ingesta y hospedaje permanente de imágenes remotas
+router.post('/media/fetch-remote', fetchRemoteMedia);
+
 // Soporta multipart/form-data con cualquier campo ('archivo_imagen', 'file', 'image') y JSON base64
 router.post('/media/upload', (req, res, next) => {
   // Si la petición es application/json (fallback base64), procesar directo

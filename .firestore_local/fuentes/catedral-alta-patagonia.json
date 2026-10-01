@@ -1,0 +1,11 @@
+{
+  "id": "catedral-alta-patagonia",
+  "nombre": "Catedral Alta Patagonia",
+  "url_base": "https://catedralaltapatagonia.com",
+  "url_noticias": "https://catedralaltapatagonia.com/noticias/",
+  "tipo": "especializada",
+  "beat_id": "montana-turismo",
+  "prioridad": 2,
+  "activo": true,
+  "updated_at": "2026-09-19T22:27:39.990Z"
+}

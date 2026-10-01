@@ -1,0 +1,11 @@
+{
+  "id": "club-andino-bariloche",
+  "nombre": "Club Andino Bariloche",
+  "url_base": "https://www.clubandino.org",
+  "url_noticias": "https://www.clubandino.org",
+  "tipo": "especializada",
+  "beat_id": "montana-turismo",
+  "prioridad": 2,
+  "activo": true,
+  "updated_at": "2026-09-19T22:27:40.479Z"
+}

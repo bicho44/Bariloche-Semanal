@@ -1,0 +1,28 @@
+{
+  "id": "emergencia-vial-bariloche",
+  "titulo": "Reconfiguración y Obras Viales de Avenida Bustillo y Pioneros",
+  "area_id": "gestion-publica",
+  "estado": "en_seguimiento",
+  "resumen_contexto": "Monitoreo de los planes de repavimentación, rotondas de desagote en los kilómetros 4, 8 y 13 de Av. Bustillo y la implementación de sincronización semafórica para resolver el cuello de botella del tránsito en horas pico.",
+  "actores_clave": [
+    "Vialidad Provincial Río Negro",
+    "Secretaría de Obras Públicas Municipal",
+    "Cámara de Comercio de Bariloche",
+    "Vecinos del Oeste Autoconvocados"
+  ],
+  "timeline": [
+    {
+      "fecha": "2026-04-18",
+      "hito": "Firma de convenio para financiamiento del tramo Km 8 a Km 12 de Bustillo."
+    },
+    {
+      "fecha": "2026-07-22",
+      "hito": "Presentación del informe técnico sobre reducción del 35% en tiempos de viaje con dársenas de giro."
+    },
+    {
+      "fecha": "2026-09-05",
+      "hito": "Comienzo de fresado y asfalto en caliente en el nudo de acceso a Virgen de las Nieves."
+    }
+  ],
+  "ultima_actualizacion": "2026-09-08T12:00:00.000Z"
+}

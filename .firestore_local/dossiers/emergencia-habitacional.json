@@ -1,0 +1,25 @@
+{
+  "id": "emergencia-habitacional",
+  "estado": "activo",
+  "resumen_contexto": "Impacto del crecimiento exponencial de plazas turísticas informales y temporarias sobre el mercado de alquiler permanente para familias, docentes y trabajadores de temporada en Bariloche.",
+  "timeline": [
+    {
+      "fecha": "2024-04-12",
+      "hito": "Declaración de la Emergencia Habitacional por el Concejo Deliberante"
+    },
+    {
+      "fecha": "2024-10-28",
+      "hito": "Denuncia por proliferación de contratos de verano en moneda extranjera",
+      "noticia_id": "noticia-alquileres-01"
+    }
+  ],
+  "titulo": "Crisis Habitacional y Regulación de Alquileres Temporarios",
+  "actores_clave": [
+    "Asociación de Inquilinos Bariloche",
+    "Cámara Inmobiliaria de Bariloche",
+    "Secretaría de Turismo Municipal",
+    "Colegio de Martilleros de Río Negro"
+  ],
+  "area_id": "alquileres-inmobiliario",
+  "ultima_actualizacion": "2024-10-28"
+}

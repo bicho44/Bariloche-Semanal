@@ -9,6 +9,7 @@ interface EndpointDef {
 }
 
 const ENDPOINTS: EndpointDef[] = [
+  { method: 'GET', path: '/api/dashboard/stats', desc: 'Resumen global y métricas consolidadas de todas las áreas' },
   { method: 'GET', path: '/api/noticias', desc: 'Listado paginado con filtros de noticias' },
   { method: 'GET', path: '/api/agenda', desc: 'Próximos eventos de la cartelera' },
   { method: 'GET', path: '/api/dossiers', desc: 'Dossiers activos con hitos' },
@@ -17,12 +18,7 @@ const ENDPOINTS: EndpointDef[] = [
   { method: 'GET', path: '/api/anunciantes/compilado/pre-footer', desc: 'Compilado HTML de auspiciantes para newsletter' },
   { method: 'GET', path: '/api/configuracion', desc: 'Identidad institucional, logo y colores HEX' },
   { method: 'GET', path: '/api/ediciones', desc: 'Historial de newsletters y despachos' },
-  {
-    method: 'POST',
-    path: '/api/editorial/deep-dive',
-    desc: 'Generación con Gemini 3 de análisis en profundidad',
-    sampleBody: { dossier_id: 'licitacion-cerro-catedral' },
-  },
+  { method: 'GET', path: '/api/database/status', desc: 'Estado de conexión activa con Firebase Firestore' },
 ];
 
 export const ApiDocsView: React.FC = () => {

@@ -109,7 +109,7 @@ export async function eliminarAnunciante(req: Request, res: Response): Promise<v
 
 export async function obtenerBloquePreFooter(req: Request, res: Response): Promise<void> {
   try {
-    const bloque = await anunciantesService.compilarBloquePreFooterNewsletter();
+    const bloque = await anunciantesService.compilarBloquePreFooterNewsletter(req.get('host'));
     res.json(bloque);
   } catch (err: unknown) {
     const error = err as Error;

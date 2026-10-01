@@ -1,0 +1,62 @@
+{
+  "id": "2026-09-19_intimacion-ceb-cobro-tasa-municipal-alumbrado",
+  "citas": [
+    {
+      "autor": "Carina Ondarcuhu (Secretaria de Hacienda Municipal)",
+      "texto": "La CEB no puede compensarse deudas de forma unilateral reteniendo tasas que le pertenecen a la comunidad; los $420 millones deben ingresar a las arcas públicas en un plazo improrrogable de cinco días hábiles."
+    },
+    {
+      "autor": "Vocero del Consejo de Administración de la CEB",
+      "texto": "El Municipio adeuda más de $600 millones en consumo eléctrico de dependencias oficiales, bombeo cloacal y planes de saneamiento, por lo que la retención obedece a un mecanismo legal de compensación patrimonial."
+    }
+  ],
+  "cobertura_cruzada": 1,
+  "fuente": {
+    "url_nota": "https://www.elcordillerano.com.ar/noticias/2026/09/19/182390-el-municipio-intima-a-la-ceb-por-la-retencion-de-tasas",
+    "id": "el-cordillerano",
+    "nombre": "El Cordillerano"
+  },
+  "imagen_url": "https://images.unsplash.com/photo-1578637387939-43c525550085?auto=format&fit=crop&w=1200&q=80",
+  "created_at": "2026-09-19T23:07:36.813Z",
+  "media": {
+    "imagen_url": "https://images.unsplash.com/photo-1578637387939-43c525550085?auto=format&fit=crop&w=1200&q=80",
+    "credito": "Pulso Urbano Bariloche / Archivo"
+  },
+  "area_id": "gestion-publica",
+  "dossier_id": "ceb-municipio-servicios",
+  "url": "https://www.elcordillerano.com.ar/noticias/2026/09/19/182390-el-municipio-intima-a-la-ceb-por-la-retencion-de-tasas",
+  "datos_duros": {
+    "Monto intimado por Municipio": "$420 millones",
+    "Período liquidaciones en conflicto": "4 meses",
+    "Deuda cruzada reclamada por CEB": "$600 millones",
+    "Plazo de intimación": "5 días hábiles"
+  },
+  "fecha_publicacion": "2026-09-19",
+  "tags": [
+    "CEB",
+    "alumbrado público",
+    "tasas municipales",
+    "servicios públicos",
+    "deuda"
+  ],
+  "novedad_respecto_a_dias_previos": "Venció la tregua técnica de 30 días acordada entre las partes sin que la cooperativa depositara las sumas retenidas ni presentara la conciliación contable de compensaciones cruzadas.",
+  "fecha": "2026-09-19",
+  "entidades": {
+    "actores": [
+      "Walter Cortés",
+      "Cooperativa de Electricidad Bariloche (CEB)",
+      "Secretaría de Hacienda",
+      "EPRE Río Negro"
+    ],
+    "lugares": [
+      "Centro Cívico",
+      "Sede Central CEB",
+      "Planta Depuradora Lago Nahuel Huapi"
+    ]
+  },
+  "hecho_central": "La Secretaría de Hacienda de Bariloche envió una intimación perentoria a la Cooperativa de Electricidad Bariloche (CEB) por una presunta retención indebida de fondos recaudados en concepto de la Tasa de Alumbrado, Barrido y Limpieza que la entidad percibe a través de las facturas de luz. El monto exigido asciende a $420 millones correspondientes a las liquidaciones de los últimos cuatro meses, amenazando con sanciones contractuales.",
+  "cuerpo_html": "<p>La disputa financiera e institucional entre el Ejecutivo municipal y la <strong>Cooperativa de Electricidad Bariloche (CEB)</strong> escaló tras la notificación formal de una intimación administrativa. El gobierno local acusa a la distribuidora de retener <strong>$420 millones</strong> originados en el cobro de tasas comunales que la distribuidora percibe mensualmente en las facturas domiciliarias y comerciales del servicio eléctrico.</p><p>El conflicto pone a prueba la concesión del servicio eléctrico en el ejido urbano y suma tensión al mantenimiento del alumbrado público, objeto de frecuentes reclamos por luminarias fuera de servicio en los barrios del Oeste y el Este de la ciudad. La comuna advirtió que iniciará acciones ante el Ente Provincial Regulador de la Electricidad (EPRE) si no se restablece el flujo de giros.</p><p>Por su parte, el Consejo de Administración de la cooperativa sostiene que la Municipalidad mantiene impagas obligaciones históricas vinculadas a la planta de tratamiento de líquidos cloacales y el consumo del Palacio Municipal, elevando la deuda neta cruzada a más de <strong>$600 millones</strong> a favor de la prestadora.</p>",
+  "titular": "Servicios públicos: El Municipio intima a la CEB por retención de fondos del servicio de alumbrado",
+  "area": "Gestión Pública",
+  "foto": "https://images.unsplash.com/photo-1578637387939-43c525550085?auto=format&fit=crop&w=1200&q=80"
+}

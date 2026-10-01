@@ -1,0 +1,57 @@
+{
+  "id": "2026-09-19_audiencia-publica-tarifa-mi-bus-solicitud-aumento",
+  "citas": [
+    {
+      "autor": "Pablo Figueroa (Representante legal de Mi Bus)",
+      "texto": "Sin una actualización urgente en la tarifa plana o una compensación equivalente en subsidios directos, el servicio corre riesgo de recorte de frecuencias en el horario nocturno."
+    }
+  ],
+  "cobertura_cruzada": 1,
+  "fuente": {
+    "url_nota": "https://www.elcordillerano.com.ar/noticias/2026/09/19/convocan-a-audiencia-publica-por-el-boleto-de-colectivos-mi-bus-pide-1650",
+    "id": "el-cordillerano",
+    "nombre": "El Cordillerano"
+  },
+  "imagen_url": "https://images.unsplash.com/photo-1578637387939-43c525550085?auto=format&fit=crop&w=1200&q=80",
+  "created_at": "2026-09-19T22:47:03.721Z",
+  "media": {
+    "imagen_url": "https://images.unsplash.com/photo-1578637387939-43c525550085?auto=format&fit=crop&w=1200&q=80",
+    "credito": "Pulso Urbano Bariloche / Archivo"
+  },
+  "area_id": "gestion-publica",
+  "dossier_id": "transporte-urbano-tarifa",
+  "url": "https://www.elcordillerano.com.ar/noticias/2026/09/19/convocan-a-audiencia-publica-por-el-boleto-de-colectivos-mi-bus-pide-1650",
+  "datos_duros": {
+    "Tarifa plana actual": "$1.250",
+    "Tarifa plana pretendida": "$1.650",
+    "Porcentaje de incremento solicitado": "32%"
+  },
+  "fecha_publicacion": "2026-09-19",
+  "tags": [
+    "Mi Bus",
+    "Transporte Público",
+    "Tarifa",
+    "Audiencia Pública",
+    "Bariloche"
+  ],
+  "novedad_respecto_a_dias_previos": "A diferencia del mes anterior donde el Ejecutivo congeló el expediente por dos semanas, la Intendencia habilitó el procedimiento formal fijando la fecha de la asamblea para la próxima semana.",
+  "fecha": "2026-09-19",
+  "entidades": {
+    "actores": [
+      "Walter Cortés",
+      "Empresa Mi Bus (Amancay SRL)",
+      "UTA Bariloche",
+      "Comisión de Tránsito y Transporte"
+    ],
+    "lugares": [
+      "Centro Cívico",
+      "Barrios del Alto",
+      "Pampa de Huenuleo"
+    ]
+  },
+  "hecho_central": "La Intendencia de San Carlos de Bariloche oficializó el llamado a audiencia pública obligatoria para tratar el nuevo cuadro tarifario solicitado por la empresa Amancay SRL (Mi Bus). La firma concesionaria argumenta un desfasaje operativo del 35% producto del incremento en los combustibles y la paritaria salarial del sector.",
+  "cuerpo_html": "<p>El sistema de transporte público de pasajeros en Bariloche vuelve a ingresar en una fase crítica de discusión tarifaria. Mediante la Resolución Municipal N° 1842-M-2026, el Ejecutivo convocó formalmente a la comunidad a participar de la audiencia pública no vinculante en la que se evaluará el pedido de readecuación tarifaria presentado por la concesionaria <strong>Amancay SRL</strong>.</p><p>La empresa solicitó llevar el valor del boleto plano de los $1.250 actuales a <strong>$1.650</strong>, fundamentando el reclamo en el incremento del gasoil grado 3 y el cierre de las paritarias de la UTA. Desde las juntas vecinales del Alto expresaron un categórico rechazo al planteo, señalando que las frecuencias siguen siendo deficientes en las líneas 60, 61 y 81.</p>",
+  "titular": "El Municipio convocó a audiencia pública tras el pedido de Mi Bus para llevar la tarifa plana a $1.650",
+  "area": "Gestión Pública",
+  "foto": "https://images.unsplash.com/photo-1578637387939-43c525550085?auto=format&fit=crop&w=1200&q=80"
+}

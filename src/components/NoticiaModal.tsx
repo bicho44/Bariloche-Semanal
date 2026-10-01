@@ -1,7 +1,27 @@
-import React, { useState, useEffect } from 'react';
-import { X, Plus, Trash2, Save, Loader2, Image as ImageIcon } from 'lucide-react';
+import React, { useState, useEffect, useRef } from 'react';
+import {
+  X,
+  Plus,
+  Trash2,
+  Save,
+  Loader2,
+  Image as ImageIcon,
+  FileText,
+  Eye,
+  Code,
+  Bold,
+  Italic,
+  Link2,
+  Quote,
+  Heading,
+  List,
+  AlertTriangle,
+  CheckCircle2,
+  Camera,
+} from 'lucide-react';
 import { Noticia, AreaId, Fuente, Dossier } from '../types/index.js';
 import { DualImageSelector } from './DualImageSelector.js';
+import { getFechaArgentina } from '../utils/date.js';
 
 interface NoticiaModalProps {
   isOpen: boolean;
@@ -39,6 +59,9 @@ export const NoticiaModal: React.FC<NoticiaModalProps> = ({
   const [dossierId, setDossierId] = useState<string>('');
   const [hechoCentral, setHechoCentral] = useState('');
   const [novedadDelta, setNovedadDelta] = useState('');
+  const [cuerpoHtml, setCuerpoHtml] = useState('');
+  const [tabCuerpo, setTabCuerpo] = useState<'editor' | 'preview'>('editor');
+  const textareaRef = useRef<HTMLTextAreaElement>(null);
   const [imagenUrl, setImagenUrl] = useState('');
   const [creditoFoto, setCreditoFoto] = useState('');
   const [citas, setCitas] = useState<Array<{ autor: string; texto: string }>>([]);
@@ -54,9 +77,11 @@ export const NoticiaModal: React.FC<NoticiaModalProps> = ({
     if (noticiaAEditar) {
       setTitular(noticiaAEditar.titular || '');
       setFechaPublicacion(
-        noticiaAEditar.fecha_publicacion ||
-        noticiaAEditar.fecha ||
-        (noticiaAEditar.created_at ? noticiaAEditar.created_at.split('T')[0] : new Date().toISOString().split('T')[0])
+        getFechaArgentina(
+          noticiaAEditar.fecha_publicacion ||
+          noticiaAEditar.fecha ||
+          noticiaAEditar.created_at
+        )
       );
 
       // Resolución de Área
@@ -98,9 +123,11 @@ export const NoticiaModal: React.FC<NoticiaModalProps> = ({
       setFuenteNombre(resolvedFuenteNombre);
       setUrlNota(resolvedUrlNota);
 
-      setDossierId(noticiaAEditar.dossier_id || '');
+      setDossierId(noticiaAEditar.seguimiento_id || noticiaAEditar.dossier_id || '');
       setHechoCentral(noticiaAEditar.hecho_central || '');
       setNovedadDelta(noticiaAEditar.novedad_respecto_a_dias_previos || '');
+      setCuerpoHtml(noticiaAEditar.cuerpo_html || '');
+      setTabCuerpo('editor');
 
       // Resolución de Imagen y Crédito
       const resolvedImg =
@@ -115,7 +142,8 @@ export const NoticiaModal: React.FC<NoticiaModalProps> = ({
       setDatosDuros(noticiaAEditar.datos_duros || {});
     } else {
       setTitular('');
-      setFechaPublicacion(new Date().toISOString().split('T')[0]);
+      // Forzar zona horaria local de Argentina para evitar saltos tras las 21:00 hs
+      setFechaPublicacion(getFechaArgentina());
       setAreaId('gestion-publica');
       setFuenteId(fuentes[0]?.id || '');
       setFuenteNombre(fuentes[0]?.nombre || '');
@@ -123,12 +151,29 @@ export const NoticiaModal: React.FC<NoticiaModalProps> = ({
       setDossierId('');
       setHechoCentral('');
       setNovedadDelta('');
+      setCuerpoHtml('');
+      setTabCuerpo('editor');
       setImagenUrl('');
       setCreditoFoto('');
       setCitas([]);
       setDatosDuros({});
     }
   }, [noticiaAEditar, isOpen, fuentes]);
+
+  const insertHtmlTag = (openTag: string, closeTag: string, placeholder = 'texto') => {
+    const textarea = textareaRef.current;
+    if (!textarea) return;
+    const start = textarea.selectionStart;
+    const end = textarea.selectionEnd;
+    const selectedText = cuerpoHtml.substring(start, end) || placeholder;
+    const replacement = `${openTag}${selectedText}${closeTag}`;
+    const newHtml = cuerpoHtml.substring(0, start) + replacement + cuerpoHtml.substring(end);
+    setCuerpoHtml(newHtml);
+    setTimeout(() => {
+      textarea.focus();
+      textarea.setSelectionRange(start + openTag.length, start + openTag.length + selectedText.length);
+    }, 0);
+  };
 
   const handleFuenteSelect = (id: string) => {
     setFuenteId(id);
@@ -164,8 +209,20 @@ export const NoticiaModal: React.FC<NoticiaModalProps> = ({
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (!titular.trim() || !hechoCentral.trim() || !fechaPublicacion) {
-      setError('Por favor completa los campos obligatorios: Titular, Fecha y Hecho Central.');
+
+    const cleanTitular = titular.trim();
+    if (!cleanTitular || cleanTitular.length < 10) {
+      setError('Validación estricta (anti-huérfanas): El titular es obligatorio y debe tener al menos 10 caracteres.');
+      return;
+    }
+
+    if (!hechoCentral.trim()) {
+      setError('Por favor completa el hecho central de la noticia.');
+      return;
+    }
+
+    if (!fechaPublicacion) {
+      setError('Por favor define la fecha de publicación.');
       return;
     }
 
@@ -173,10 +230,14 @@ export const NoticiaModal: React.FC<NoticiaModalProps> = ({
     setSaving(true);
 
     try {
+      // Forzar fecha en zona horaria Argentina
+      const fechaArg = getFechaArgentina(fechaPublicacion);
+      const sid = dossierId.trim() ? dossierId.trim() : null;
+
       await onSave({
-        titular,
-        fecha_publicacion: fechaPublicacion,
-        fecha: fechaPublicacion,
+        titular: cleanTitular,
+        fecha_publicacion: fechaArg,
+        fecha: fechaArg,
         area_id: areaId,
         area: AREAS.find(a => a.id === areaId)?.label || 'Gestión Pública',
         fuente: {
@@ -185,9 +246,12 @@ export const NoticiaModal: React.FC<NoticiaModalProps> = ({
           url_nota: urlNota || '',
         },
         url: urlNota || '',
-        dossier_id: dossierId || null,
-        hecho_central: hechoCentral,
-        novedad_respecto_a_dias_previos: novedadDelta || undefined,
+        seguimiento_id: sid,
+        dossier_id: sid, // Retrocompatibilidad Firestore
+        curada_manualmente: true, // Bandera de curaduría humana aprobada
+        hecho_central: hechoCentral.trim(),
+        novedad_respecto_a_dias_previos: novedadDelta.trim() || undefined,
+        cuerpo_html: cuerpoHtml,
         media: {
           imagen_url: imagenUrl,
           credito: creditoFoto || '',
@@ -214,11 +278,19 @@ export const NoticiaModal: React.FC<NoticiaModalProps> = ({
         {/* Header */}
         <div className="px-6 py-4 border-b border-slate-200 flex items-center justify-between bg-slate-50/70 rounded-t-2xl">
           <div>
-            <h2 className="text-base font-bold text-slate-800">
-              {noticiaAEditar ? 'Editar Noticia / Asignar Media' : 'Alta de Nueva Noticia'}
-            </h2>
+            <div className="flex items-center gap-2">
+              <h2 className="text-base font-bold text-slate-800">
+                {noticiaAEditar ? 'Editar Noticia / Asignar Media' : 'Alta de Nueva Noticia'}
+              </h2>
+              {noticiaAEditar?.curada_manualmente && (
+                <span className="inline-flex items-center gap-1 text-[11px] font-semibold text-emerald-800 bg-emerald-100 border border-emerald-300 px-2 py-0.5 rounded-full">
+                  <CheckCircle2 className="w-3 h-3 text-emerald-600" />
+                  Curada Manualmente
+                </span>
+              )}
+            </div>
             <p className="text-xs text-slate-500">
-              Ingreso directo a la colección Firestore <code className="text-blue-700 font-mono">noticias</code>
+              Ingreso y curaduría editorial directa en Firestore con zona horaria Argentina
             </p>
           </div>
           <button
@@ -232,25 +304,49 @@ export const NoticiaModal: React.FC<NoticiaModalProps> = ({
         {/* Body Form */}
         <form onSubmit={handleSubmit} className="flex-1 overflow-y-auto p-6 space-y-6">
           {error && (
-            <div className="p-3 bg-red-50 border border-red-200 rounded-xl text-xs text-red-700 font-medium">
-              {error}
+            <div className="p-3 bg-red-50 border border-red-200 rounded-xl text-xs text-red-700 font-medium flex items-center gap-2">
+              <AlertTriangle className="w-4 h-4 text-red-600 shrink-0" />
+              <span>{error}</span>
             </div>
           )}
 
           {/* Fila 1: Titular y Fecha */}
           <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
             <div className="md:col-span-3">
-              <label className="block text-xs font-semibold uppercase tracking-wider text-slate-700 mb-1">
-                Titular Periodístico *
-              </label>
+              <div className="flex items-center justify-between mb-1">
+                <label className="text-xs font-semibold uppercase tracking-wider text-slate-700">
+                  Titular Periodístico *
+                </label>
+                <span
+                  className={`text-[11px] font-mono ${
+                    titular.trim().length >= 10
+                      ? 'text-emerald-700 font-semibold'
+                      : titular.trim().length > 0
+                      ? 'text-amber-700 font-bold'
+                      : 'text-slate-400'
+                  }`}
+                >
+                  {titular.trim().length} / mín. 10 car.
+                </span>
+              </div>
               <input
                 type="text"
                 required
                 value={titular || ''}
                 onChange={(e) => setTitular(e.target.value)}
                 placeholder="Ej: Aprueban pliego de licitación del Cerro Catedral con cláusula ambiental..."
-                className="w-full px-3 py-2 text-sm border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent"
+                className={`w-full px-3 py-2 text-sm border rounded-lg focus:ring-2 focus:border-transparent ${
+                  titular.trim().length > 0 && titular.trim().length < 10
+                    ? 'border-amber-400 bg-amber-50/30 focus:ring-amber-500'
+                    : 'border-slate-300 focus:ring-blue-600'
+                }`}
               />
+              {titular.trim().length > 0 && titular.trim().length < 10 && (
+                <p className="text-[11px] text-amber-700 mt-1 flex items-center gap-1 font-medium">
+                  <AlertTriangle className="w-3.5 h-3.5 shrink-0" />
+                  Mínimo 10 caracteres requeridos para evitar notas huérfanas en la base de datos.
+                </p>
+              )}
             </div>
             <div>
               <label className="block text-xs font-semibold uppercase tracking-wider text-slate-700 mb-1">
@@ -263,10 +359,11 @@ export const NoticiaModal: React.FC<NoticiaModalProps> = ({
                 onChange={(e) => setFechaPublicacion(e.target.value)}
                 className="w-full px-3 py-2 text-sm border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-600"
               />
+              <span className="text-[10px] text-slate-400 mt-0.5 block">Zona Bs.As. (UTC-3)</span>
             </div>
           </div>
 
-          {/* Fila 2: Área, Fuente y Dossier vinculado */}
+          {/* Fila 2: Área, Fuente y Tema en Seguimiento vinculado */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             <div>
               <label className="block text-xs font-semibold uppercase tracking-wider text-slate-700 mb-1">
@@ -301,9 +398,12 @@ export const NoticiaModal: React.FC<NoticiaModalProps> = ({
                       {f.nombre} ({f.tipo})
                     </option>
                   ))}
+                  {fuenteId && !fuentes.some((f) => f.id === fuenteId) && fuenteId !== 'otra' && (
+                    <option value={fuenteId}>{fuenteNombre || fuenteId}</option>
+                  )}
                   <option value="otra">Otra / Fuente manual</option>
                 </select>
-                {fuenteId === 'otra' && (
+                {(fuenteId === 'otra' || (!fuentes.some((f) => f.id === fuenteId) && fuenteId)) && (
                   <input
                     type="text"
                     placeholder="Nombre del medio / fuente"
@@ -317,7 +417,7 @@ export const NoticiaModal: React.FC<NoticiaModalProps> = ({
 
             <div>
               <label className="block text-xs font-semibold uppercase tracking-wider text-slate-700 mb-1">
-                Dossier Vinculado
+                Tema en Seguimiento
               </label>
               <select
                 value={dossierId || ''}
@@ -327,7 +427,7 @@ export const NoticiaModal: React.FC<NoticiaModalProps> = ({
                 <option value="">(Ninguno / Nota autónoma)</option>
                 {dossiers.map((d) => (
                   <option key={d.id} value={d.id}>
-                    {d.titulo} [{d.estado}]
+                    {d.titulo} [{d.estado === 'en_seguimiento' ? 'En seguimiento' : d.estado}]
                   </option>
                 ))}
               </select>
@@ -378,18 +478,176 @@ export const NoticiaModal: React.FC<NoticiaModalProps> = ({
             </div>
           </div>
 
+          {/* EDITOR DE TEXTO / HTML (CUERPO DE LA NOTICIA) */}
+          <div className="p-4 bg-slate-50 border border-slate-200 rounded-xl space-y-3">
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-200 pb-2.5">
+              <div>
+                <h3 className="text-xs font-bold text-slate-800 flex items-center gap-1.5">
+                  <FileText className="w-4 h-4 text-blue-800" />
+                  <span>Cuerpo y Redacción Periodística (HTML)</span>
+                </h3>
+                <p className="text-[11px] text-slate-500">
+                  Desarrollo de fondo de la noticia. Admite etiquetas HTML para citas, subtítulos y enlaces.
+                </p>
+              </div>
+              <div className="flex items-center gap-1 bg-white p-1 rounded-lg border border-slate-200 shrink-0">
+                <button
+                  type="button"
+                  onClick={() => setTabCuerpo('editor')}
+                  className={`px-2.5 py-1 text-xs font-medium rounded flex items-center gap-1 transition-colors ${
+                    tabCuerpo === 'editor'
+                      ? 'bg-blue-900 text-white shadow-2xs'
+                      : 'text-slate-600 hover:text-slate-900 hover:bg-slate-100'
+                  }`}
+                >
+                  <Code className="w-3.5 h-3.5" />
+                  <span>Editor</span>
+                </button>
+                <button
+                  type="button"
+                  onClick={() => setTabCuerpo('preview')}
+                  className={`px-2.5 py-1 text-xs font-medium rounded flex items-center gap-1 transition-colors ${
+                    tabCuerpo === 'preview'
+                      ? 'bg-blue-900 text-white shadow-2xs'
+                      : 'text-slate-600 hover:text-slate-900 hover:bg-slate-100'
+                  }`}
+                >
+                  <Eye className="w-3.5 h-3.5" />
+                  <span>Vista Previa</span>
+                </button>
+              </div>
+            </div>
+
+            {tabCuerpo === 'editor' ? (
+              <div className="space-y-2">
+                {/* Barra de herramientas rápida */}
+                <div className="flex flex-wrap items-center gap-1 bg-white p-1.5 rounded-lg border border-slate-200 text-xs">
+                  <button
+                    type="button"
+                    onClick={() => insertHtmlTag('<b>', '</b>', 'texto en negrita')}
+                    className="p-1.5 text-slate-700 hover:text-blue-900 hover:bg-slate-100 rounded flex items-center gap-0.5"
+                    title="Negrita <b>"
+                  >
+                    <Bold className="w-3.5 h-3.5" />
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => insertHtmlTag('<i>', '</i>', 'texto en cursiva')}
+                    className="p-1.5 text-slate-700 hover:text-blue-900 hover:bg-slate-100 rounded flex items-center gap-0.5"
+                    title="Cursiva <i>"
+                  >
+                    <Italic className="w-3.5 h-3.5" />
+                  </button>
+                  <div className="w-px h-4 bg-slate-200 mx-0.5" />
+                  <button
+                    type="button"
+                    onClick={() => insertHtmlTag('<h3>', '</h3>', 'Subtítulo Temático')}
+                    className="px-2 py-1 text-slate-700 hover:text-blue-900 hover:bg-slate-100 rounded flex items-center gap-1 text-[11px] font-bold"
+                    title="Subtítulo <h3>"
+                  >
+                    <Heading className="w-3.5 h-3.5" />
+                    <span>H3</span>
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => insertHtmlTag('<p>', '</p>', 'Párrafo explicativo')}
+                    className="px-2 py-1 text-slate-700 hover:text-blue-900 hover:bg-slate-100 rounded flex items-center gap-1 text-[11px] font-medium"
+                    title="Párrafo <p>"
+                  >
+                    <span>&lt;p&gt;</span>
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => insertHtmlTag('<blockquote class="border-l-4 border-blue-800 pl-3 italic text-slate-700 my-2">', '</blockquote>', 'Declaración textual destacada')}
+                    className="p-1.5 text-slate-700 hover:text-blue-900 hover:bg-slate-100 rounded flex items-center gap-0.5"
+                    title="Cita <blockquote>"
+                  >
+                    <Quote className="w-3.5 h-3.5" />
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => insertHtmlTag('<a href="https://" target="_blank" rel="noopener noreferrer" class="text-blue-700 underline">', '</a>', 'enlace')}
+                    className="p-1.5 text-slate-700 hover:text-blue-900 hover:bg-slate-100 rounded flex items-center gap-0.5"
+                    title="Enlace <a href>"
+                  >
+                    <Link2 className="w-3.5 h-3.5" />
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => insertHtmlTag('<ul class="list-disc pl-5 space-y-1">\n  <li>', '</li>\n</ul>', 'Elemento clave')}
+                    className="p-1.5 text-slate-700 hover:text-blue-900 hover:bg-slate-100 rounded flex items-center gap-0.5"
+                    title="Lista con viñetas <ul><li>"
+                  >
+                    <List className="w-3.5 h-3.5" />
+                  </button>
+                </div>
+
+                <textarea
+                  ref={textareaRef}
+                  rows={8}
+                  value={cuerpoHtml || ''}
+                  onChange={(e) => setCuerpoHtml(e.target.value)}
+                  placeholder="<p>Escribe o pega aquí la redacción periodística desarrollada de la noticia...</p>"
+                  className="w-full px-3 py-2 text-xs font-mono border border-slate-300 rounded-lg bg-white focus:ring-2 focus:ring-blue-600 focus:outline-none"
+                />
+              </div>
+            ) : (
+              <div className="bg-white p-4 rounded-lg border border-slate-200 min-h-[160px] text-xs text-slate-800">
+                {cuerpoHtml && cuerpoHtml.trim().length > 0 ? (
+                  <div
+                    dangerouslySetInnerHTML={{ __html: cuerpoHtml }}
+                    className="prose prose-xs max-w-none space-y-2 leading-relaxed text-slate-800"
+                  />
+                ) : (
+                  <div className="flex flex-col items-center justify-center py-8 text-slate-400">
+                    <FileText className="w-6 h-6 mb-1 opacity-40" />
+                    <p className="italic">El cuerpo de redacción está vacío. Cambia a la pestaña 'Editor' para redactar.</p>
+                  </div>
+                )}
+              </div>
+            )}
+          </div>
+
           {/* SELECTOR DUAL DE IMAGEN OBLIGATORIO */}
           <div className="p-4 bg-slate-50 border border-slate-200 rounded-xl space-y-3">
-            <h3 className="text-xs font-bold text-slate-800 flex items-center gap-1.5">
-              <ImageIcon className="w-4 h-4 text-blue-700" />
-              <span>Media y Fotografía Periodística (Selector Dual Obligatorio)</span>
-            </h3>
+            <div className="flex items-center justify-between">
+              <h3 className="text-xs font-bold text-slate-800 flex items-center gap-1.5">
+                <ImageIcon className="w-4 h-4 text-blue-700" />
+                <span>Media y Fotografía Periodística (Anti-Bloqueo CDN)</span>
+              </h3>
+              {!imagenUrl ? (
+                <span className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-[10px] font-bold uppercase tracking-wider bg-amber-100 text-amber-800 border border-amber-300 animate-pulse">
+                  <AlertTriangle className="w-3 h-3 text-amber-600" />
+                  Requiere Foto
+                </span>
+              ) : (
+                <span className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-[10px] font-bold uppercase tracking-wider bg-emerald-100 text-emerald-800 border border-emerald-300">
+                  <CheckCircle2 className="w-3 h-3 text-emerald-600" />
+                  Foto Asignada
+                </span>
+              )}
+            </div>
+
+            {!imagenUrl && (
+              <div className="p-3 bg-amber-50/80 border border-amber-300/80 rounded-lg text-amber-900 text-xs flex items-start gap-2.5">
+                <AlertTriangle className="w-4 h-4 text-amber-600 shrink-0 mt-0.5" />
+                <div className="space-y-1">
+                  <div className="font-bold text-amber-950 flex items-center gap-1.5">
+                    <span>Estado: Requiere Foto</span>
+                    <span className="text-[10px] font-normal px-1.5 py-0.2 bg-amber-200 text-amber-900 rounded">Política Estricta</span>
+                  </div>
+                  <p className="text-amber-800 leading-relaxed text-[11px]">
+                    Esta noticia no posee imagen de portada. Utiliza las opciones abajo para cargar un archivo local de tu equipo o ingresar la URL de la nota original. <strong className="font-semibold text-amber-950">Queda prohibido el uso de imágenes de relleno genéricas (Unsplash o similares).</strong>
+                  </p>
+                </div>
+              </div>
+            )}
 
             <DualImageSelector
               label="Foto Principal de la Noticia"
               value={imagenUrl || ''}
               onChange={(url) => setImagenUrl(url)}
-              helperText="Elige un archivo directo de tu equipo para subir a Firebase Storage o ingresa una URL web externa."
+              helperText="Elige un archivo directo de tu equipo para subir o ingresa una URL web directa. La visualización incorpora referrerpolicy='no-referrer' contra bloqueos de CDN."
             />
 
             <div>

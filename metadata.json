@@ -1,6 +1,6 @@
 {
   "name": "Bariloche Semanal - Backend & Backoffice",
-  "description": "Observatorio periodístico e inteligencia local de Bariloche con API REST Firestore, Gemini 3 y Panel de Administración",
+  "description": "Observatorio periodístico y panel de administración CRUD sobre Firebase Firestore para Bariloche Semanal",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }

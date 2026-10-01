@@ -14,8 +14,9 @@ import {
 } from 'lucide-react';
 import { Anunciante } from '../types/index.js';
 import { AnuncianteModal } from './AnuncianteModal.js';
+import { handleImageErrorWithProxy, DEFAULT_AVISO_FALLBACK } from '../utils/image.js';
 
-const DEFAULT_BANNER_FALLBACK = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='50' viewBox='0 0 120 50' fill='%23f1f5f9'%3E%3Crect width='100%25' height='100%25' fill='%23f8fafc' stroke='%23cbd5e1'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='sans-serif' font-size='10' font-weight='bold' fill='%2394a3b8'%3EBANNER%3C/text%3E%3C/svg%3E";
+const DEFAULT_BANNER_FALLBACK = DEFAULT_AVISO_FALLBACK;
 
 export const AnunciantesView: React.FC = () => {
   const [anunciantes, setAnunciantes] = useState<Anunciante[]>([]);
@@ -219,11 +220,7 @@ export const AnunciantesView: React.FC = () => {
                           alt={a.texto_alt || a.nombre || 'Banner'}
                           referrerPolicy="no-referrer"
                           className="w-full h-full object-cover"
-                          onError={(e) => {
-                            const target = e.currentTarget;
-                            target.onerror = null;
-                            target.src = DEFAULT_BANNER_FALLBACK;
-                          }}
+                          onError={(e) => handleImageErrorWithProxy(e, a.banner_url, DEFAULT_BANNER_FALLBACK)}
                         />
                       </div>
                     </td>

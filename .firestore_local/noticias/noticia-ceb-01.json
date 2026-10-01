@@ -1,0 +1,33 @@
+{
+  "id": "noticia-ceb-01",
+  "cobertura_cruzada": 2,
+  "fuente": {
+    "url_nota": "https://www.ceb.coop/comunicados/plan-poda-preventiva",
+    "id": "ceb",
+    "nombre": "Cooperativa de Electricidad Bariloche"
+  },
+  "entidades": {
+    "actores": [
+      "Cooperativa de Electricidad Bariloche"
+    ],
+    "lugares": [
+      "Avenida Bustillo km 13",
+      "Colonia Suiza",
+      "Llao Llao"
+    ]
+  },
+  "created_at": "2024-11-08T16:20:00.000Z",
+  "hecho_central": "Cuadrillas de la CEB iniciaron tareas de despeje de ramas sobre líneas de media tensión entre el km 10 y el km 24 de Bustillo.",
+  "media": {
+    "imagen_url": "https://images.unsplash.com/photo-1508873535684-277a3cbcc4e8?auto=format&fit=crop&w=1200&q=80",
+    "credito": "Foto Cuadrillas CEB Bariloche"
+  },
+  "area_id": "en-el-radar",
+  "dossier_id": null,
+  "titular": "Plan de poda preventiva en electroductos del Oeste para reducir cortes estivales",
+  "datos_duros": {
+    "kilometros_tendido": 42,
+    "cuadrillas_operativas": 6
+  },
+  "fecha_publicacion": "2024-11-08"
+}

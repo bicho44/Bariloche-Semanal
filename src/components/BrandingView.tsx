@@ -13,6 +13,7 @@ import {
 } from 'lucide-react';
 import { ConfiguracionBranding } from '../types/index.js';
 import { DualImageSelector } from './DualImageSelector.js';
+import { handleImageErrorWithProxy } from '../utils/image.js';
 
 interface BrandingViewProps {
   branding: ConfiguracionBranding | null;
@@ -365,13 +366,10 @@ export const BrandingView: React.FC<BrandingViewProps> = ({ branding, onUpdateBr
                 {logoUrl ? (
                   <img
                     src={logoUrl}
+                    referrerPolicy="no-referrer"
                     alt="Logo"
                     className="h-14 mx-auto object-contain"
-                    onError={(e) => {
-                      const target = e.currentTarget;
-                      target.onerror = null;
-                      target.src = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='60' viewBox='0 0 180 60' fill='%23f1f5f9'%3E%3Crect width='100%25' height='100%25' fill='%23f8fafc' stroke='%23cbd5e1'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='sans-serif' font-size='12' font-weight='bold' fill='%2394a3b8'%3ELOGO%3C/text%3E%3C/svg%3E";
-                    }}
+                    onError={(e) => handleImageErrorWithProxy(e, logoUrl)}
                   />
                 ) : (
                   <div

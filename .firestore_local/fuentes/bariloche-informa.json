@@ -1,0 +1,11 @@
+{
+  "id": "bariloche-informa",
+  "nombre": "Bariloche Informa (Prensa Municipal)",
+  "url_base": "https://barilocheinforma.gob.ar",
+  "url_noticias": "https://barilocheinforma.gob.ar",
+  "tipo": "institucional",
+  "beat_id": "poder-obras",
+  "prioridad": 2,
+  "activo": true,
+  "updated_at": "2026-09-19T22:27:38.543Z"
+}

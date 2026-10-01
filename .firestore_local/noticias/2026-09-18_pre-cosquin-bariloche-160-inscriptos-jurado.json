@@ -1,0 +1,44 @@
+{
+  "id": "2026-09-18_pre-cosquin-bariloche-160-inscriptos-jurado",
+  "fecha_publicacion": "2026-09-18",
+  "fuente": {
+    "id": "prensa-rio-negro",
+    "nombre": "Prensa Río Negro",
+    "url_nota": "https://prensa.rionegro.gov.ar/articulo/61517/bariloche-vuelve-a-ser-una-puerta-de-entrada-al-escenario-de-cosquin?n=OTE"
+  },
+  "area_id": "vida-social-cultura",
+  "dossier_id": null,
+  "titular": "Pre-Cosquín Bariloche 2027: 160 inscriptos y jurado de jerarquía nacional para el selectivo del 26 y 27 de septiembre",
+  "hecho_central": "La sede Bariloche del Pre-Cosquín 2027 reunió a unos 160 artistas de Río Negro, Chubut y Neuquén. Se confirmó un jurado de trayectoria con Facundo Posse, Patricia Lobos y Mariano Montaña para evaluar danza y música folklórica.",
+  "novedad_respecto_a_dias_previos": "Publicación de la nómina definitiva con 160 participantes y designación formal del tribunal evaluador con campeones nacionales de malambo y pareja estilizada.",
+  "datos_duros": {
+    "total_inscriptos": 160,
+    "dias_competencia": 2,
+    "fecha_selectivo": "26 y 27 de septiembre"
+  },
+  "citas": [
+    {
+      "autor": "Secretaría de Cultura de Río Negro",
+      "texto": "Detrás de cada artista que llega a Cosquín hay un recorrido previo de formación, trabajo, identidad y pertenencia que merece visibilizarse desde la Patagonia."
+    }
+  ],
+  "media": {
+    "imagen_url": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/06/anbariloche/files/03/02/30291/22e1791c7e0aea7e914693b0fb63f99ea62dd1eb9b15f8d11a8bf167591c2f17.jpg",
+    "credito": "Foto: Prensa Río Negro / Cultura"
+  },
+  "entidades": {
+    "actores": [
+      "secretaria-cultura-rio-negro",
+      "facundo-posse",
+      "patricia-lobos",
+      "mariano-montana"
+    ],
+    "lugares": [
+      "puerto-san-carlos",
+      "bariloche"
+    ]
+  },
+  "cobertura_cruzada": 2,
+  "created_at": "2026-09-18T23:41:43.144Z",
+  "cuerpo_html": "<p>La sede andina de Bariloche reafirmó su condición de polo cultural de referencia al cerrar la nómina definitiva con aproximadamente <strong>160 artistas inscriptos</strong> para la etapa selectiva del Pre-Cosquín 2027, que tendrá lugar el <strong>26 y 27 de septiembre</strong> en el Puerto San Carlos y el Gimnasio Municipal, según confirmó la <a href=\"https://prensa.rionegro.gov.ar/articulo/61517/bariloche-vuelve-a-ser-una-puerta-de-entrada-al-escenario-de-cosquin?n=OTE\" target=\"_blank\" rel=\"noopener noreferrer\">Secretaría de Prensa del Gobierno de Río Negro</a>.</p><p>La cifra superó las expectativas preliminares de los organizadores y reúne a delegaciones, solistas vocales, ballets y parejas de danza de toda la provincia de Río Negro, Chubut y el sur de Neuquén. Para garantizar una evaluación de máxima exigencia técnica, se designó una mesa de jurados integrada por figuras consagradas de nivel nacional, entre ellos Facundo Posse (ganador del Festival de Cosquín 2023), Patricia Lobos (licenciada en Folklore por la UNA) y el malambista Mariano Montaña.</p><blockquote cite=\"https://prensa.rionegro.gov.ar/articulo/61517/bariloche-vuelve-a-ser-una-puerta-de-entrada-al-escenario-de-cosquin?n=OTE\"><p>«Detrás de cada artista que llega a Cosquín hay un recorrido previo de formación, trabajo, identidad y pertenencia que merece ser visibilizado desde la Patagonia», indicaron desde la cartera cultural rionegrina.</p></blockquote><p>Los ganadores en cada rubro representarán a la delegación patagónica en las rondas finales que se llevarán a cabo en enero sobre el histórico escenario Atahualpa Yupanqui en la plaza Próspero Molina de Córdoba.</p>"
+}

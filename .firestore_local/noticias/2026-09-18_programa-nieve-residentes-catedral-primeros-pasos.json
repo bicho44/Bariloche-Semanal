@@ -1,0 +1,42 @@
+{
+  "id": "2026-09-18_programa-nieve-residentes-catedral-primeros-pasos",
+  "fecha_publicacion": "2026-09-18",
+  "fuente": {
+    "id": "bariloche-opina",
+    "nombre": "Bariloche Opina",
+    "url_nota": "https://www.barilocheopina.com/noticias/2026/09/16/94408-mas-de-1000-residentes-tuvieron-su-primera-experiencia-en-la-nieve-en-catedral"
+  },
+  "area_id": "turismo",
+  "dossier_id": "catedral-concesion",
+  "titular": "Más de 1.000 residentes tuvieron su primera experiencia en la nieve en el Cerro Catedral",
+  "hecho_central": "A través de los programas de integración social y deportiva impulsados en el centro invernal, más de 1.000 vecinos y estudiantes barilochenses accedieron sin costo a clases de iniciación, equipos e instructores en la base y pistas intermedias de Catedral.",
+  "novedad_respecto_a_dias_previos": "Se superó la meta proyectada de 1.000 beneficiarios antes de la transición hacia la primavera, consolidando los acuerdos de inclusión comunitaria contemplados en el marco de la concesión invernal.",
+  "datos_duros": {
+    "residentes_beneficiados": 1000,
+    "cobertura_equipo_pases": "100% bonificado"
+  },
+  "citas": [
+    {
+      "autor": "Coordinación Social Catedral",
+      "texto": "El objetivo es que ningún chico o vecino de Bariloche crezca sin conocer la nieve ni la montaña por cuestiones económicas."
+    }
+  ],
+  "media": {
+    "imagen_url": "https://barilocheopina-s3.cdn.net.ar/s3i233/2026/09/barilocheopina/images/02/77/34/2773454_59d7e92aa0ad8a3a274aab3915972b70d0ee1b55c0a1d296764c068987c477af/lg.webp",
+    "credito": "Foto: Prensa Municipalidad / CAPSA / Bariloche Opina"
+  },
+  "entidades": {
+    "actores": [
+      "walter-cortes",
+      "capsa",
+      "eamcec",
+      "juntas-vecinales"
+    ],
+    "lugares": [
+      "cerro-catedral"
+    ]
+  },
+  "cobertura_cruzada": 2,
+  "created_at": "2026-09-18T23:41:42.562Z",
+  "cuerpo_html": "<p class=\"c-dossier-link\">📌 <em>Este acontecimiento forma parte del seguimiento de fondo en nuestro <a href=\"/dossiers/catedral-concesion\">Dossier: Concesión y Modelo Cerro Catedral</a>.</em></p><p>El cerro Catedral registró el cierre de su cronograma de esquí escolar y social de septiembre alcanzando una cifra récord: más de <strong>1.000 residentes y estudiantes</strong> de barrios del Alto, el Este y zonas rurales de Bariloche completaron su bautismo de nieve. La iniciativa, coordinada entre el Municipio, las juntas vecinales y la empresa concesionaria CAPSA, brindó traslados diarios, instructores titulados y equipamiento integral completamente bonificado en el sector de la base y pistas de principiantes, según reportó <a href=\"https://www.barilocheopina.com/noticias/2026/09/16/94408-mas-de-1000-residentes-tuvieron-su-primera-experiencia-en-la-nieve-en-catedral\" target=\"_blank\" rel=\"noopener noreferrer\">Bariloche Opina</a>.</p><p>La superación de la meta de beneficiarios se concreta en un momento bisagra de la temporada invernal 2026, donde los debates comunitarios e institucionales en el Concejo Deliberante continúan poniendo la lupa sobre las contraprestaciones sociales del contrato de concesión y el acceso democrático de la comunidad local a la montaña.</p><blockquote cite=\"https://www.barilocheopina.com/noticias/2026/09/16/94408-mas-de-1000-residentes-tuvieron-su-primera-experiencia-en-la-nieve-en-catedral\"><p>«El objetivo es que ningún chico o vecino de Bariloche crezca sin conocer la nieve ni la montaña por cuestiones económicas», destacaron desde la coordinación social del programa.</p></blockquote><p>De cara al cierre de las pistas a principios de octubre, las partes evaluarán el impacto logístico del esquema para diagramar los cupos de la temporada estival de trekking y actividades de montaña.</p>"
+}

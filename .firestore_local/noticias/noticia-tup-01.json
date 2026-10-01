@@ -1,0 +1,42 @@
+{
+  "id": "noticia-tup-01",
+  "citas": [
+    {
+      "autor": "Secretaría de Tránsito y Transporte",
+      "texto": "Buscamos blindar el bolsillo del trabajador local frente a los costos de combustible y repuestos."
+    }
+  ],
+  "cobertura_cruzada": 5,
+  "fuente": {
+    "url_nota": "https://www.anbariloche.com.ar/noticias/2024/11/10/tup-sube-residentes",
+    "id": "anbariloche",
+    "nombre": "ANB Bariloche"
+  },
+  "created_at": "2024-11-10T09:15:00.000Z",
+  "media": {
+    "imagen_url": "https://images.unsplash.com/photo-1570125909232-eb263c188f7e?auto=format&fit=crop&w=1200&q=80",
+    "credito": "ANB Archivo"
+  },
+  "area_id": "gestion-publica",
+  "dossier_id": "transporte-urbano-tarifa",
+  "datos_duros": {
+    "usuarios_estimados": 48000,
+    "descuento_porcentaje": "25%",
+    "puntos_atencion": 6
+  },
+  "fecha_publicacion": "2024-11-10",
+  "entidades": {
+    "actores": [
+      "Secretaría de Tránsito",
+      "Mi Bus",
+      "Concejo Deliberante"
+    ],
+    "lugares": [
+      "Centro Cívico",
+      "Delegación El Cóndor",
+      "Barrio Melipal"
+    ]
+  },
+  "hecho_central": "A partir del lunes se habilitarán seis puntos de atención barriales para que los usuarios con domicilio en Bariloche conserven el beneficio del 25% de bonificación en las líneas de Mi Bus.",
+  "titular": "El Municipio implementará reempadronamiento masivo de SUBE para mantener descuento a residentes"
+}

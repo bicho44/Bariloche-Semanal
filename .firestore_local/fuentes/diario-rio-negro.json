@@ -1,0 +1,11 @@
+{
+  "id": "diario-rio-negro",
+  "nombre": "Diario Río Negro (Bariloche)",
+  "url_base": "https://www.rionegro.com.ar",
+  "url_noticias": "https://www.rionegro.com.ar/bariloche/",
+  "tipo": "diario",
+  "beat_id": "pulso-urbano",
+  "prioridad": 1,
+  "activo": true,
+  "updated_at": "2026-09-19T22:27:36.641Z"
+}

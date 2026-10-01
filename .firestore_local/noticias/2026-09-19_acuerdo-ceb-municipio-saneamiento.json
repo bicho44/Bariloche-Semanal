@@ -1,0 +1,55 @@
+{
+  "id": "2026-09-19_acuerdo-ceb-municipio-saneamiento",
+  "citas": [
+    {
+      "autor": "Carlos Aristegui",
+      "texto": "Logramos destrabar un litigio que frenaba inversiones críticas para el saneamiento del lago Nahuel Huapi antes de la temporada alta."
+    }
+  ],
+  "cobertura_cruzada": 1,
+  "fuente": {
+    "url_nota": "https://www.anbariloche.com.ar/noticias/2026/09/19/acuerdo-historico-municipio-ceb-obras-saneamiento",
+    "id": "anbariloche",
+    "nombre": "ANBariloche"
+  },
+  "imagen_url": "https://images.unsplash.com/photo-1578637387939-43c525550085?auto=format&fit=crop&w=1200&q=80",
+  "created_at": "2026-09-19T22:55:27.869Z",
+  "media": {
+    "imagen_url": "https://images.unsplash.com/photo-1578637387939-43c525550085?auto=format&fit=crop&w=1200&q=80",
+    "credito": "Pulso Urbano Bariloche / Archivo"
+  },
+  "area_id": "gestion-publica",
+  "dossier_id": "ceb-municipio-servicios",
+  "url": "https://www.anbariloche.com.ar/noticias/2026/09/19/acuerdo-historico-municipio-ceb-obras-saneamiento",
+  "datos_duros": {
+    "Monto de Acreencias Compensadas": "$450M",
+    "Plazo de Ejecución de Trabajos": "90 días"
+  },
+  "fecha_publicacion": "2026-09-19",
+  "tags": [
+    "CEB",
+    "Saneamiento",
+    "Municipio",
+    "Servicios Públicos"
+  ],
+  "novedad_respecto_a_dias_previos": "Se frenó la vía judicial cautelar tras tres semanas de parálisis en las comisiones de seguimiento del contrato de concesión eléctrica y saneamiento.",
+  "fecha": "2026-09-19",
+  "entidades": {
+    "actores": [
+      "Walter Cortés",
+      "CEB",
+      "Soyem",
+      "Consejo de Administración CEB"
+    ],
+    "lugares": [
+      "Lago Nahuel Huapi",
+      "Planta Depuradora",
+      "Centro Cívico"
+    ]
+  },
+  "hecho_central": "La Municipalidad de San Carlos de Bariloche y el Consejo de Administración de la CEB firmaron un acta de entendimiento para destrabar el conflicto legal cruzado sobre tasas y fiscalización. El acuerdo establece la compensación de deudas de saneamiento y garantiza el inicio de obras operativas previas al verano.",
+  "cuerpo_html": "<p>La mesa técnica conformada entre la Intendencia de San Carlos de Bariloche y las autoridades de la Cooperativa de Electricidad Bariloche (CEB) alcanzó un preacuerdo de regularización económica. El documento contempla el reconocimiento recíproco de obligaciones por una suma cercana a los 450 millones de pesos.</p><p>El entendimiento permitirá liberar partidas presupuestarias orientadas a tareas de mantenimiento en la planta depuradora y la red colectora costera. Asimismo, la cooperativa presentó un compromiso técnico para minimizar cortes programados en el oeste durante jornadas de contingencia climática.</p>",
+  "titular": "El Municipio y la CEB acuerdan un esquema de compensación de deudas y obras de saneamiento",
+  "area": "Gestión Pública",
+  "foto": "https://images.unsplash.com/photo-1578637387939-43c525550085?auto=format&fit=crop&w=1200&q=80"
+}

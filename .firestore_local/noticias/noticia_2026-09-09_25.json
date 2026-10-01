@@ -15,12 +15,27 @@
   "dossier_id": null,
   "titular": "Pinchas y Lobitas avanzaron a la segunda ronda del Regional Federal Femenino",
   "hecho_central": "Las representantes de Pincharratas y Gimnasia y Esgrima aseguraron su pase a la siguiente instancia de fútbol femenino.",
-  "url": "https://www.anbariloche.com.ar/noticias/2026/06/10/108210-comenzo-una-encuesta-en-hogares-de-bariloche-para-relevar-la-situacion-habitacional",
   "tags": [
     "Fútbol Femenino",
     "Regional Federal",
     "LiFuBa"
   ],
   "cobertura_cruzada": 2,
-  "created_at": "2026-09-10T12:45:25.370Z"
+  "created_at": "2026-09-10T12:45:25.370Z",
+  "citas": [],
+  "foto": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/09/anbariloche/images/02/76/01/2760141_583cea271d8e198dfb09c9d62eb86d3ccde75f605bcb2d89dcc9d61d0fb39174/md.webp",
+  "fuente": {
+    "url_nota": "https://www.anbariloche.com.ar/noticias/2026/09/07/116429-pinchas-y-lobitas-avanzaron-a-la-segunda-ronda-del-regional-federal-femenino",
+    "id": "anbariloche",
+    "nombre": "ANBariloche"
+  },
+  "imagen_url": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/09/anbariloche/images/02/76/01/2760141_583cea271d8e198dfb09c9d62eb86d3ccde75f605bcb2d89dcc9d61d0fb39174/md.webp",
+  "media": {
+    "credito": "Foto: ANBariloche",
+    "imagen_url": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/09/anbariloche/images/02/76/01/2760141_583cea271d8e198dfb09c9d62eb86d3ccde75f605bcb2d89dcc9d61d0fb39174/md.webp"
+  },
+  "area_id": "deportes",
+  "datos_duros": {},
+  "url": "https://www.anbariloche.com.ar/noticias/2026/09/07/116429-pinchas-y-lobitas-avanzaron-a-la-segunda-ronda-del-regional-federal-femenino",
+  "fecha_publicacion": "2026-09-09"
 }

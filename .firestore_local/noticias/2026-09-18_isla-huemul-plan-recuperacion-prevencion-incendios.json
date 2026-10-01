@@ -1,0 +1,42 @@
+{
+  "id": "2026-09-18_isla-huemul-plan-recuperacion-prevencion-incendios",
+  "fecha_publicacion": "2026-09-18",
+  "fuente": {
+    "id": "bariloche-opina",
+    "nombre": "Bariloche Opina",
+    "url_nota": "https://www.barilocheopina.com/noticias/2026/09/16/94411-avanzan-los-trabajos-de-recuperacion-y-prevencion-de-incendios-en-la-isla-huemul"
+  },
+  "area_id": "gestion-publica",
+  "dossier_id": null,
+  "titular": "Avanzan los trabajos de recuperación ambiental y prevención de incendios en la Isla Huemul",
+  "hecho_central": "Equipos operativos del Municipio y Protección Civil desplegaron un operativo en la Isla Huemul para ejecutar raleo preventivo, limpieza de senderos y reducción de biomasa seca combustible antes del inicio de la temporada estival.",
+  "novedad_respecto_a_dias_previos": "Apertura de cortafuegos perimetrales alrededor del complejo histórico de los laboratorios Richter y coordinación logística lacustre con Prefectura para abastecimiento de motobombas.",
+  "datos_duros": {
+    "superficie_intervenida_ha": 5,
+    "reduccion_carga_combustible_pct": 40
+  },
+  "citas": [
+    {
+      "autor": "Protección Civil Bariloche",
+      "texto": "La acumulación de ramas secas y vegetación invasora en la isla representaba un riesgo latente que debía mitigarse antes del verano."
+    }
+  ],
+  "media": {
+    "imagen_url": "https://barilocheopina-s3.cdn.net.ar/s3i233/2026/09/barilocheopina/images/02/77/46/2774674_4cf3604ededa4cb5e931ed68915d4fe59c3d8b4f680f08008c37278b8b3f076e/md.webp",
+    "credito": "Foto: Protección Civil Bariloche / Bariloche Opina"
+  },
+  "entidades": {
+    "actores": [
+      "proteccion-civil-bariloche",
+      "parques-y-jardines",
+      "prefectura-naval"
+    ],
+    "lugares": [
+      "isla-huemul",
+      "lago-nahuel-huapi"
+    ]
+  },
+  "cobertura_cruzada": 1,
+  "created_at": "2026-09-18T23:41:42.852Z",
+  "cuerpo_html": "<p>Ante la cercanía de los meses de mayor sequía y ascenso térmico en la cuenca del Nahuel Huapi, cuadrillas de la Dirección de Parques y Jardines junto a Protección Civil de Bariloche llevaron adelante una intervención intensiva de prevención de siniestros forestales en la histórica Isla Huemul, según informó <a href=\"https://www.barilocheopina.com/noticias/2026/09/16/94411-avanzan-los-trabajos-de-recuperacion-y-prevencion-de-incendios-en-la-isla-huemul\" target=\"_blank\" rel=\"noopener noreferrer\">Bariloche Opina</a>.</p><p>Las tareas técnicas incluyeron el raleo de renovales secos, el desmalezado de picadas y la consolidación de cortafuegos perimetrales en un radio de <strong>5 hectáreas</strong> que rodean los antiguos laboratorios del proyecto atómico Richter. El operativo contó con apoyo logístico de Prefectura Naval Argentina para el desembarco de motobombas y cuadrillas de zapa.</p><blockquote cite=\"https://www.barilocheopina.com/noticias/2026/09/16/94411-avanzan-los-trabajos-de-recuperacion-y-prevencion-de-incendios-en-la-isla-huemul\"><p>«La acumulación de ramas secas y vegetación invasora en la isla representaba un riesgo latente que debía mitigarse antes del verano», señalaron los responsables del área operativa municipal.</p></blockquote><p>Las autoridades informaron una reducción cercana al <strong>40% en la carga de combustible vegetal</strong> sobre las trazas principales, un paso indispensable tanto para la preservación ecológica del islote como para proyectar eventuales visitas patrimoniales guiadas en 2027.</p>"
+}

@@ -1,0 +1,57 @@
+{
+  "id": "2026-09-19_reclamo-juntas-vecinales-ceb-cortes-de-energia-km-",
+  "citas": [
+    {
+      "autor": "Mariana Rossi (Presidenta Junta Vecinal Playa Bonita)",
+      "texto": "Llevamos tres semanas con al menos dos o tres microcortes diarios que arruinan la red de bombeo de agua en las viviendas. La cooperativa nos dice que es poda preventiva, pero no vemos cuadrillas trabajando."
+    }
+  ],
+  "cobertura_cruzada": 1,
+  "fuente": {
+    "url_nota": "https://www.anbariloche.com.ar/noticias/2026/09/19/vecinos-del-oeste-presentan-reclamo-conjunto-a-la-ceb-por-cortes-electricos",
+    "id": "anbariloche",
+    "nombre": "ANBariloche"
+  },
+  "imagen_url": "https://images.unsplash.com/photo-1578637387939-43c525550085?auto=format&fit=crop&w=1200&q=80",
+  "created_at": "2026-09-19T22:47:03.721Z",
+  "media": {
+    "imagen_url": "https://images.unsplash.com/photo-1578637387939-43c525550085?auto=format&fit=crop&w=1200&q=80",
+    "credito": "Pulso Urbano Bariloche / Archivo"
+  },
+  "area_id": "gestion-publica",
+  "dossier_id": "ceb-municipio-servicios",
+  "url": "https://www.anbariloche.com.ar/noticias/2026/09/19/vecinos-del-oeste-presentan-reclamo-conjunto-a-la-ceb-por-cortes-electricos",
+  "datos_duros": {
+    "Plazo otorgado a la CEB": "96 horas",
+    "Barrios afectados": "6 juntas vecinales",
+    "Frecuencia de fallas": "3 microcortes diarios"
+  },
+  "fecha_publicacion": "2026-09-19",
+  "tags": [
+    "CEB",
+    "Cortes de Luz",
+    "Servicios Públicos",
+    "Juntas Vecinales",
+    "Oeste"
+  ],
+  "novedad_respecto_a_dias_previos": "La nota unificada marca el fin de los reclamos individuales e inicia un pedido de intervención formal ante el EPRE (Ente Provincial Regulador de la Electricidad).",
+  "fecha": "2026-09-19",
+  "entidades": {
+    "actores": [
+      "Juntas Vecinales del Oeste Autoconvocadas",
+      "CEB (Cooperativa de Electricidad Bariloche)",
+      "EPRE Río Negro"
+    ],
+    "lugares": [
+      "Km 8 Av. Bustillo",
+      "Playa Bonita",
+      "Barrio Pinar del Lago",
+      "Sede CEB Calle Moreno"
+    ]
+  },
+  "hecho_central": "Representantes de seis juntas vecinales alineadas sobre la Avenida Bustillo entre los kilómetros 7 y 12 presentaron una nota formal ante el Consejo de Administración de la Cooperativa de Electricidad Bariloche (CEB). Exigen inversiones inmediatas en la red de media tensión ante reiteradas caídas de fase que afectaron electrodomésticos y bombas de agua residenciales.",
+  "cuerpo_html": "<p>La tensión entre los usuarios del Oeste y las autoridades de la <strong>Cooperativa de Electricidad Bariloche (CEB)</strong> escaló este viernes tras la entrega de una nota respaldada por seis juntas vecinales de la zona costera y de los kilómetros. Los vecinos advierten que las fallas constantes en el suministro eléctrico no solo dañan equipos del hogar, sino que además dejan sin suministro de agua potable a barrios enteros que dependen de bombas eléctricas colectivas.</p><p>Desde la CEB argumentan que la sobrecarga del alimentador Oeste se debe al crecimiento demográfico no planificado y al retraso en las transferencias de los fondos de obras del FEDEI. Sin embargo, la dirigencia vecinal anticipó que si no hay una respuesta técnica concreta antes del martes, elevarán un recurso ante el <strong>EPRE</strong> solicitando multas administrativas para la concesionaria.</p>",
+  "titular": "Juntas vecinales del Oeste exigieron un plan de contingencia a la CEB tras persistentes microcortes de energía",
+  "area": "Gestión Pública",
+  "foto": "https://images.unsplash.com/photo-1578637387939-43c525550085?auto=format&fit=crop&w=1200&q=80"
+}

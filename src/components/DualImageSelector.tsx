@@ -1,5 +1,17 @@
-import React, { useState, useRef, useId, ChangeEvent, DragEvent } from 'react';
-import { Upload, Link as LinkIcon, Image as ImageIcon, X, Loader2, CheckCircle2, AlertCircle } from 'lucide-react';
+import React, { useState, useRef, useId, ChangeEvent, DragEvent, useEffect } from 'react';
+import {
+  Upload,
+  Link as LinkIcon,
+  Image as ImageIcon,
+  X,
+  Loader2,
+  CheckCircle2,
+  AlertCircle,
+  Download,
+  ShieldCheck,
+  Globe,
+} from 'lucide-react';
+import { getProxiedImageUrl } from '../utils/image.js';
 
 interface DualImageSelectorProps {
   label: string;
@@ -99,7 +111,7 @@ export const DualImageSelector: React.FC<DualImageSelectorProps> = ({
   label,
   value,
   onChange,
-  helperText = 'Sube un archivo a Firebase Storage o ingresa una URL web directa',
+  helperText = 'Sube un archivo o ingresa una URL web. Las imágenes son accesibles y resilientes globalmente.',
   className = '',
 }) => {
   const safeValue = typeof value === 'string' ? value : '';
@@ -108,15 +120,21 @@ export const DualImageSelector: React.FC<DualImageSelectorProps> = ({
     safeValue && !safeValue.startsWith('data:') && !safeValue.startsWith('/uploads/') ? 'url' : 'upload'
   );
   const [uploading, setUploading] = useState<boolean>(false);
-  const [uploadSuccess, setUploadSuccess] = useState<boolean>(false);
+  const [fetchingRemote, setFetchingRemote] = useState<boolean>(false);
+  const [uploadSuccess, setUploadSuccess] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [imgError, setImgError] = useState<boolean>(false);
+  const [isProxiedPreview, setIsProxiedPreview] = useState<boolean>(false);
+  const [previewSrc, setPreviewSrc] = useState<string>(safeValue);
   const [isDragging, setIsDragging] = useState<boolean>(false);
   const fileInputRef = useRef<HTMLInputElement>(null);
 
-  // Sincronizar el modo cuando safeValue cambia externamente
-  React.useEffect(() => {
+  // Sincronizar el modo y la vista previa cuando safeValue cambia externamente
+  useEffect(() => {
     setImgError(false);
+    setIsProxiedPreview(false);
+    setPreviewSrc(safeValue);
+
     if (safeValue) {
       if (safeValue.startsWith('data:') || safeValue.startsWith('/uploads/')) {
         setMode('upload');
@@ -135,7 +153,7 @@ export const DualImageSelector: React.FC<DualImageSelectorProps> = ({
 
     setError(null);
     setUploading(true);
-    setUploadSuccess(false);
+    setUploadSuccess(null);
 
     try {
       // 1. Optimización previa para evitar NetworkError con fotos grandes
@@ -144,7 +162,7 @@ export const DualImageSelector: React.FC<DualImageSelectorProps> = ({
       let finalUrl = '';
       let serverErrorDetail = '';
 
-      // 2. Estrategia A: Subida multipart/form-data
+      // 2. Estrategia A: Subida multipart/form-data al backend
       try {
         const formData = new FormData();
         formData.append('archivo_imagen', fileToUpload, file.name);
@@ -169,10 +187,10 @@ export const DualImageSelector: React.FC<DualImageSelectorProps> = ({
           serverErrorDetail = data?.error || (rawText.length < 150 ? rawText : `HTTP ${response.status}`);
         }
       } catch {
-        // Fallback silencioso a base64 sin generar advertencias ruidosas en consola
+        // Fallback silencioso a base64
       }
 
-      // 3. Estrategia B: Fallback JSON Base64 (si falló multipart por red, proxy o stream abort)
+      // 3. Estrategia B: Fallback JSON Base64 (si falló multipart por proxy o abort)
       if (!finalUrl) {
         try {
           const base64Data = await readFileAsDataUrl(fileToUpload);
@@ -208,8 +226,8 @@ export const DualImageSelector: React.FC<DualImageSelectorProps> = ({
 
       if (finalUrl) {
         onChange(finalUrl);
-        setUploadSuccess(true);
-        setTimeout(() => setUploadSuccess(false), 3500);
+        setUploadSuccess('¡Imagen almacenada y disponible en el servidor!');
+        setTimeout(() => setUploadSuccess(null), 4000);
       } else {
         throw new Error('No se recibió la URL de la imagen subida');
       }
@@ -222,6 +240,39 @@ export const DualImageSelector: React.FC<DualImageSelectorProps> = ({
       if (fileInputRef.current) {
         fileInputRef.current.value = '';
       }
+    }
+  };
+
+  /**
+   * Clona una imagen remota (p. ej. de un diario o servidor externo)
+   * y la hospeda permanentemente en el servidor/Firebase.
+   */
+  const handleFetchRemoteImage = async () => {
+    if (!safeValue || (!safeValue.startsWith('http://') && !safeValue.startsWith('https://'))) {
+      return;
+    }
+    setFetchingRemote(true);
+    setError(null);
+    try {
+      const res = await fetch('/api/media/fetch-remote', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ url: safeValue }),
+      });
+      const data = await res.json();
+      if (!res.ok) {
+        throw new Error(data.error || 'Error al hospedar la imagen remota');
+      }
+      if (data.url) {
+        onChange(data.url);
+        setUploadSuccess('¡Imagen clonada y hospedada permanentemente en el servidor!');
+        setTimeout(() => setUploadSuccess(null), 4000);
+      }
+    } catch (err: unknown) {
+      const errorObj = err as Error;
+      setError(errorObj.message || 'No se pudo guardar la imagen en el servidor');
+    } finally {
+      setFetchingRemote(false);
     }
   };
 
@@ -265,6 +316,18 @@ export const DualImageSelector: React.FC<DualImageSelectorProps> = ({
       fileInputRef.current.value = '';
     }
     setError(null);
+    setUploadSuccess(null);
+  };
+
+  // Manejo de error en vista previa con fallback a proxy
+  const handlePreviewError = () => {
+    if (!isProxiedPreview && (safeValue.startsWith('http://') || safeValue.startsWith('https://'))) {
+      // Reintentar a través del proxy del backend (salta CORS y Referer restrictions)
+      setIsProxiedPreview(true);
+      setPreviewSrc(getProxiedImageUrl(safeValue));
+    } else {
+      setImgError(true);
+    }
   };
 
   return (
@@ -277,7 +340,7 @@ export const DualImageSelector: React.FC<DualImageSelectorProps> = ({
           <button
             type="button"
             onClick={() => setMode('upload')}
-            className={`flex items-center gap-1 px-2.5 py-1 rounded-md transition-all ${
+            className={`flex items-center gap-1 px-2.5 py-1 rounded-md transition-all cursor-pointer ${
               mode === 'upload'
                 ? 'bg-white text-blue-900 shadow-xs font-semibold'
                 : 'text-slate-600 hover:text-slate-900'
@@ -289,7 +352,7 @@ export const DualImageSelector: React.FC<DualImageSelectorProps> = ({
           <button
             type="button"
             onClick={() => setMode('url')}
-            className={`flex items-center gap-1 px-2.5 py-1 rounded-md transition-all ${
+            className={`flex items-center gap-1 px-2.5 py-1 rounded-md transition-all cursor-pointer ${
               mode === 'url'
                 ? 'bg-white text-blue-900 shadow-xs font-semibold'
                 : 'text-slate-600 hover:text-slate-900'
@@ -335,18 +398,18 @@ export const DualImageSelector: React.FC<DualImageSelectorProps> = ({
                 {uploading && (
                   <div className="flex items-center gap-1.5 text-xs text-blue-700 whitespace-nowrap font-medium py-1">
                     <Loader2 className="w-4 h-4 animate-spin text-blue-600" />
-                    <span>Optimizando y subiendo...</span>
+                    <span>Subiendo al servidor...</span>
                   </div>
                 )}
                 {uploadSuccess && (
                   <div className="flex items-center gap-1 text-xs text-emerald-600 whitespace-nowrap font-medium py-1">
                     <CheckCircle2 className="w-4 h-4" />
-                    <span>¡Imagen almacenada!</span>
+                    <span>{uploadSuccess}</span>
                   </div>
                 )}
               </div>
               <p className="text-[11px] text-slate-500 mt-2">
-                Haz clic en seleccionar archivo o arrastra una imagen aquí (JPG, PNG, WEBP, SVG). Se almacena y enlaza automáticamente.
+                Sube una imagen local (JPG, PNG, WEBP, SVG). Se guarda en el servidor (/uploads) y está disponible permanentemente.
               </p>
             </div>
           </div>
@@ -357,7 +420,7 @@ export const DualImageSelector: React.FC<DualImageSelectorProps> = ({
                 type="text"
                 name={`url_imagen_${inputId}`}
                 id={`url_imagen_${inputId}`}
-                placeholder="https://ejemplo.com/fotos/banner.jpg o /uploads/..."
+                placeholder="https://diario.com/foto.jpg o /uploads/..."
                 value={safeValue}
                 onChange={handleUrlChange}
                 className="w-full px-3 py-2 text-xs bg-white border border-slate-300 rounded-lg text-slate-800 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-transparent font-mono"
@@ -373,9 +436,46 @@ export const DualImageSelector: React.FC<DualImageSelectorProps> = ({
                 </button>
               )}
             </div>
-            <p className="text-[11px] text-slate-500 mt-1.5">
-              Pega una URL pública existente de la imagen (de internet, almacenamiento externo o ruta /uploads/).
+
+            {/* Opción para clonar y hospedar permanentemente enlaces externos */}
+            {safeValue && (safeValue.startsWith('http://') || safeValue.startsWith('https://')) && (
+              <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2 mt-2 p-2 bg-blue-50/80 border border-blue-200 rounded-lg text-xs">
+                <span className="text-blue-900 font-medium flex items-center gap-1.5">
+                  <ShieldCheck className="w-3.5 h-3.5 text-blue-700 shrink-0" />
+                  <span>Enlace externo. Puedes guardarla en el servidor para que nunca se caiga:</span>
+                </span>
+                <button
+                  type="button"
+                  onClick={handleFetchRemoteImage}
+                  disabled={fetchingRemote}
+                  className="px-2.5 py-1 bg-blue-900 hover:bg-blue-800 text-white rounded text-[11px] font-semibold flex items-center gap-1 shrink-0 cursor-pointer shadow-2xs transition-colors"
+                >
+                  {fetchingRemote ? (
+                    <>
+                      <Loader2 className="w-3 h-3 animate-spin" />
+                      <span>Hospedando...</span>
+                    </>
+                  ) : (
+                    <>
+                      <Download className="w-3 h-3" />
+                      <span>Hospedar en servidor</span>
+                    </>
+                  )}
+                </button>
+              </div>
+            )}
+
+            <p className="text-[11px] text-slate-500 mt-1.5 flex items-center gap-1">
+              <Globe className="w-3 h-3 text-slate-400" />
+              <span>Pega cualquier URL de internet. El proxy del sistema la hace visible sin importar restricciones externas.</span>
             </p>
+          </div>
+        )}
+
+        {uploadSuccess && (
+          <div className="text-xs text-emerald-800 bg-emerald-50 p-2 rounded-lg border border-emerald-200 flex items-center gap-2">
+            <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0" />
+            <span className="font-medium">{uploadSuccess}</span>
           </div>
         )}
 
@@ -383,7 +483,7 @@ export const DualImageSelector: React.FC<DualImageSelectorProps> = ({
           <div className="text-xs text-red-700 bg-red-50 p-2.5 rounded-lg border border-red-200 flex items-start gap-2">
             <AlertCircle className="w-4 h-4 text-red-600 shrink-0 mt-0.5" />
             <div className="flex-1">
-              <span className="font-semibold">Error al cargar: </span>
+              <span className="font-semibold">Error: </span>
               <span>{error}</span>
             </div>
           </div>
@@ -392,10 +492,31 @@ export const DualImageSelector: React.FC<DualImageSelectorProps> = ({
         {/* PREVIEW INMEDIATO DE LA IMAGEN */}
         {safeValue ? (
           <div className="relative mt-2 p-2.5 bg-white border border-slate-200 rounded-lg">
+            {safeValue.includes('unsplash.com') && (
+              <div className="mb-2 p-2 bg-red-50 border border-red-300 rounded-md text-red-800 text-xs flex items-start gap-1.5">
+                <AlertCircle className="w-4 h-4 text-red-600 shrink-0 mt-0.5" />
+                <div>
+                  <span className="font-bold">Política Editorial: </span>
+                  Se prohíben imágenes de relleno de Unsplash. Carga una foto periodística real local o de la fuente original.
+                </div>
+              </div>
+            )}
             <div className="flex items-start justify-between gap-2 mb-1.5">
               <div className="flex items-center gap-1.5 text-xs font-medium text-slate-700">
                 <ImageIcon className="w-3.5 h-3.5 text-blue-800" />
-                <span>Vista previa activa:</span>
+                <span>
+                  {isProxiedPreview ? 'Vista previa vía Proxy Resiliente:' : 'Vista previa de imagen:'}
+                </span>
+                {safeValue.startsWith('/uploads/') && (
+                  <span className="text-[10px] bg-emerald-100 text-emerald-800 px-1.5 py-0.5 rounded font-semibold">
+                    Alojada local/servidor
+                  </span>
+                )}
+                {safeValue.startsWith('https://storage.googleapis.com') && (
+                  <span className="text-[10px] bg-blue-100 text-blue-800 px-1.5 py-0.5 rounded font-semibold">
+                    Cloud Storage
+                  </span>
+                )}
               </div>
               <button
                 type="button"
@@ -414,25 +535,49 @@ export const DualImageSelector: React.FC<DualImageSelectorProps> = ({
                 </div>
               ) : (
                 <img
-                  src={safeValue}
+                  src={previewSrc}
                   alt="Vista previa de imagen"
                   referrerPolicy="no-referrer"
                   className="max-h-full max-w-full object-contain"
-                  onError={(e) => {
-                    e.currentTarget.onerror = null;
-                    setImgError(true);
-                  }}
+                  onError={handlePreviewError}
                 />
               )}
             </div>
-            <div className="mt-1.5 text-[10px] text-slate-500 truncate font-mono">
-              URL: {safeValue}
+            <div className="mt-1.5 flex items-center justify-between text-[10px] text-slate-500 font-mono">
+              <span className="truncate max-w-md">URL: {safeValue}</span>
+              {isProxiedPreview && (
+                <span className="text-blue-700 font-sans font-medium text-[11px] shrink-0">
+                  Protegida con proxy anti-hotlinking
+                </span>
+              )}
             </div>
           </div>
         ) : (
-          <div className="h-16 rounded-lg border border-dashed border-slate-300 flex items-center justify-center bg-white/50 text-slate-400 text-xs gap-2">
-            <ImageIcon className="w-4 h-4" />
-            <span>Sin imagen asignada todavía</span>
+          <div className="p-3 rounded-xl border-2 border-dashed border-amber-300 bg-amber-50/60 flex flex-col sm:flex-row items-center justify-between gap-2.5">
+            <div className="flex items-center gap-2 text-amber-900">
+              <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded text-[10px] font-bold uppercase tracking-wider bg-amber-200 border border-amber-400 text-amber-950 shrink-0">
+                Requiere Foto
+              </span>
+              <span className="text-xs font-medium text-amber-900">
+                Sin fotografía asignada. Carga un archivo local o ingresa una URL web directa.
+              </span>
+            </div>
+            <div className="flex items-center gap-1.5 shrink-0">
+              <button
+                type="button"
+                onClick={() => setMode('upload')}
+                className="px-2.5 py-1 text-xs font-semibold bg-blue-900 text-white rounded-lg hover:bg-blue-800 shadow-2xs flex items-center gap-1 cursor-pointer"
+              >
+                <Upload className="w-3 h-3" /> Cargar Local
+              </button>
+              <button
+                type="button"
+                onClick={() => setMode('url')}
+                className="px-2.5 py-1 text-xs font-semibold bg-white text-slate-700 border border-slate-300 rounded-lg hover:bg-slate-100 flex items-center gap-1 cursor-pointer"
+              >
+                <LinkIcon className="w-3 h-3" /> Pegar URL
+              </button>
+            </div>
           </div>
         )}
       </div>

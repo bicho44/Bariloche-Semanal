@@ -1,0 +1,43 @@
+{
+  "id": "noticia-catedral-01",
+  "citas": [
+    {
+      "autor": "Ing. Marcos Beltrán (EAMCEC)",
+      "texto": "Se está cumpliendo el cronograma de recomposición vegetal que exigió la auditoría municipal de septiembre."
+    }
+  ],
+  "cobertura_cruzada": 4,
+  "fuente": {
+    "url_nota": "https://www.elcordillerano.com.ar/noticias/2024/11/12/catedral-obras-verano",
+    "id": "el-cordillerano",
+    "nombre": "El Cordillerano"
+  },
+  "created_at": "2024-11-12T10:00:00.000Z",
+  "media": {
+    "imagen_url": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=1200&q=80",
+    "credito": "Foto Prensa EAMCEC"
+  },
+  "area_id": "turismo",
+  "dossier_id": "catedral-concesion",
+  "datos_duros": {
+    "personal_afectado": 45,
+    "inversion_declarada": "$120M",
+    "hectareas_intervenidas": "14 ha"
+  },
+  "fecha_publicacion": "2024-11-12",
+  "novedad_respecto_a_dias_previos": "Primera vez que CAPSA presenta un plan de siembra nativa auditado formalmente por el municipio tras las intimaciones del invierno previo.",
+  "entidades": {
+    "actores": [
+      "EAMCEC",
+      "CAPSA",
+      "Municipalidad de Bariloche"
+    ],
+    "lugares": [
+      "Cerro Catedral",
+      "Plaza Catalina Reynal",
+      "Pista 2000"
+    ]
+  },
+  "hecho_central": "La empresa concesionaria CAPSA inició tareas de contención de taludes y siembra de especies nativas en las pistas intermedias para prevenir deslaves por deshielo primaveral.",
+  "titular": "Catedral acelera obras de mitigación de erosión antes del inicio de la temporada estival"
+}

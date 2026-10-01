@@ -1,0 +1,10 @@
+{
+  "id": "concejo-bariloche",
+  "url_base": "https://concejobariloche.gov.ar",
+  "created_at": "2026-09-18T12:41:59.313Z",
+  "nombre": "Concejo Municipal Bariloche",
+  "prioridad": 1,
+  "activo": true,
+  "tipo": "institucional",
+  "beat_id": "poder-obras"
+}

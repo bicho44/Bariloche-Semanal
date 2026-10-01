@@ -11,8 +11,11 @@ import {
   RefreshCw,
   CheckCircle,
   X,
+  Copy,
+  Check,
+  FolderArchive,
 } from 'lucide-react';
-import { EdicionNewsletter, Dossier } from '../types/index.js';
+import { EdicionNewsletter, Dossier, EstadoEdicion } from '../types/index.js';
 import { EdicionModal } from './EdicionModal.js';
 
 interface EdicionesViewProps {
@@ -29,13 +32,18 @@ export const EdicionesView: React.FC<EdicionesViewProps> = ({ dossiers }) => {
 
   // Visor HTML Modal
   const [visorEdicion, setVisorEdicion] = useState<EdicionNewsletter | null>(null);
+  const [copiadoHtml, setCopiadoHtml] = useState(false);
   const [despachandoId, setDespachandoId] = useState<string | null>(null);
+  const [updatingStatusId, setUpdatingStatusId] = useState<string | null>(null);
 
   const fetchEdiciones = useCallback(async () => {
     setLoading(true);
     setError(null);
     try {
-      const res = await fetch('/api/ediciones');
+      const res = await fetch('/api/ediciones', {
+        cache: 'no-store',
+        headers: { 'Cache-Control': 'no-cache' },
+      });
       if (!res.ok) throw new Error('Error al cargar ediciones');
       const data = await res.json();
       setEdiciones(data || []);
@@ -50,6 +58,25 @@ export const EdicionesView: React.FC<EdicionesViewProps> = ({ dossiers }) => {
   useEffect(() => {
     fetchEdiciones();
   }, [fetchEdiciones]);
+
+  const handleQuickStatusChange = async (id: string, newStatus: EstadoEdicion) => {
+    setUpdatingStatusId(id);
+    try {
+      const res = await fetch(`/api/ediciones/${encodeURIComponent(id)}`, {
+        method: 'PATCH',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ estado: newStatus }),
+      });
+      if (!res.ok) throw new Error('Error al actualizar estado');
+      const actualizada = await res.json();
+      setEdiciones((prev) => prev.map((e) => (e.id === actualizada.id ? actualizada : e)));
+    } catch (err: unknown) {
+      const errorObj = err as Error;
+      alert(`Error al actualizar estado: ${errorObj.message}`);
+    } finally {
+      setUpdatingStatusId(null);
+    }
+  };
 
   const handleDespachoManual = async (edicion: EdicionNewsletter) => {
     if (
@@ -119,6 +146,13 @@ export const EdicionesView: React.FC<EdicionesViewProps> = ({ dossiers }) => {
     fetchEdiciones();
   };
 
+  const handleCopiarHtml = () => {
+    if (!visorEdicion?.html_content) return;
+    navigator.clipboard.writeText(visorEdicion.html_content);
+    setCopiadoHtml(true);
+    setTimeout(() => setCopiadoHtml(false), 2000);
+  };
+
   return (
     <div className="space-y-6">
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
@@ -133,7 +167,7 @@ export const EdicionesView: React.FC<EdicionesViewProps> = ({ dossiers }) => {
         <div className="flex items-center gap-2.5">
           <button
             onClick={() => fetchEdiciones()}
-            className="p-2 text-slate-600 hover:text-slate-900 hover:bg-slate-100 rounded-lg border border-slate-300"
+            className="p-2 text-slate-600 hover:text-slate-900 hover:bg-slate-100 rounded-lg border border-slate-300 cursor-pointer"
             title="Refrescar"
           >
             <RefreshCw className={`w-4 h-4 ${loading ? 'animate-spin' : ''}`} />
@@ -178,7 +212,7 @@ export const EdicionesView: React.FC<EdicionesViewProps> = ({ dossiers }) => {
                 setEdicionAEditar(null);
                 setModalOpen(true);
               }}
-              className="inline-flex items-center gap-2 px-4 py-2 text-xs font-semibold text-white bg-blue-900 hover:bg-blue-800 rounded-lg shadow-sm"
+              className="inline-flex items-center gap-2 px-4 py-2 text-xs font-semibold text-white bg-blue-900 hover:bg-blue-800 rounded-lg shadow-sm cursor-pointer"
             >
               <Plus className="w-4 h-4" />
               <span>Crear Primera Edición</span>
@@ -186,95 +220,115 @@ export const EdicionesView: React.FC<EdicionesViewProps> = ({ dossiers }) => {
           </div>
         ) : (
           <div className="divide-y divide-slate-200">
-            {ediciones.map((ed) => (
-              <div key={ed.id} className="p-5 hover:bg-slate-50/70 transition-colors flex flex-col md:flex-row items-start justify-between gap-4">
-                <div className="space-y-1.5 flex-1 min-w-0">
-                  <div className="flex flex-wrap items-center gap-2">
-                    <span className="font-mono font-bold text-xs bg-blue-50 text-blue-900 px-2 py-0.5 rounded border border-blue-200">
-                      {ed.id}
-                    </span>
-                    <span
-                      className={`text-[10px] font-bold uppercase px-2 py-0.5 rounded-full ${
-                        ed.estado === 'enviado' || ed.estado === 'enviado_a_suscriptores'
-                          ? 'bg-emerald-100 text-emerald-800'
-                          : ed.estado === 'programado'
-                          ? 'bg-blue-100 text-blue-800'
-                          : 'bg-amber-100 text-amber-800'
-                      }`}
-                    >
-                      {ed.estado === 'enviado_a_suscriptores' ? 'Enviado' : ed.estado}
-                    </span>
-                    <span className="text-xs text-slate-500 font-mono">
-                      Publicado: {ed.fecha_publicacion}
-                    </span>
+            {ediciones.map((ed) => {
+              const cantDossiers = ed.dossiers_cubiertos?.length || 0;
+
+              return (
+                <div key={ed.id} className="p-5 hover:bg-slate-50/70 transition-colors flex flex-col md:flex-row items-start justify-between gap-4">
+                  <div className="space-y-1.5 flex-1 min-w-0">
+                    <div className="flex flex-wrap items-center gap-2">
+                      <span className="font-mono font-bold text-xs bg-blue-50 text-blue-900 px-2 py-0.5 rounded border border-blue-200">
+                        {ed.id}
+                      </span>
+
+                      {/* Selector Rápido de Estado */}
+                      <select
+                        value={ed.estado === 'enviado_a_suscriptores' ? 'enviado' : ed.estado || 'borrador'}
+                        disabled={updatingStatusId === ed.id}
+                        onChange={(e) => handleQuickStatusChange(ed.id, e.target.value as EstadoEdicion)}
+                        className={`text-[10px] font-bold uppercase px-2 py-0.5 rounded-full border cursor-pointer ${
+                          ed.estado === 'enviado' || ed.estado === 'enviado_a_suscriptores'
+                            ? 'bg-emerald-50 text-emerald-800 border-emerald-300'
+                            : ed.estado === 'programado'
+                            ? 'bg-blue-50 text-blue-800 border-blue-300'
+                            : 'bg-amber-50 text-amber-800 border-amber-300'
+                        }`}
+                        title="Cambiar estado de la edición"
+                      >
+                        <option value="borrador">Borrador</option>
+                        <option value="programado">Programado</option>
+                        <option value="enviado">Enviado</option>
+                      </select>
+
+                      <span className="text-xs text-slate-500 font-mono">
+                        Publicado: {ed.fecha_publicacion}
+                      </span>
+
+                      {cantDossiers > 0 && (
+                        <span className="inline-flex items-center gap-1 text-[10px] font-semibold text-slate-600 bg-slate-100 px-2 py-0.5 rounded-full border border-slate-200">
+                          <FolderArchive className="w-2.5 h-2.5 text-blue-800" />
+                          <span>{cantDossiers} {cantDossiers === 1 ? 'seguimiento' : 'seguimientos'}</span>
+                        </span>
+                      )}
+                    </div>
+
+                    <h3 className="font-bold text-sm text-slate-900 leading-snug">{ed.asunto}</h3>
+                    <p className="text-xs text-slate-600 line-clamp-2 max-w-2xl">
+                      {typeof ed.hero_resumen === 'string'
+                        ? ed.hero_resumen
+                        : typeof ed.hero_resumen === 'object' && ed.hero_resumen !== null
+                        ? ed.hero_resumen.titulo || ''
+                        : ''}
+                    </p>
+
+                    {ed.despacho?.hora_despacho && (
+                      <div className="text-[11px] text-slate-400 flex items-center gap-1 font-mono pt-1">
+                        <CheckCircle className="w-3 h-3 text-emerald-600" />
+                        <span>Despachado: {new Date(ed.despacho.hora_despacho).toLocaleString()}</span>
+                      </div>
+                    )}
                   </div>
 
-                  <h3 className="font-bold text-sm text-slate-900 leading-snug">{ed.asunto}</h3>
-                  <p className="text-xs text-slate-600 line-clamp-2 max-w-2xl">
-                    {typeof ed.hero_resumen === 'string'
-                      ? ed.hero_resumen
-                      : typeof ed.hero_resumen === 'object' && ed.hero_resumen !== null
-                      ? ed.hero_resumen.titulo || ''
-                      : ''}
-                  </p>
+                  <div className="flex items-center gap-2 shrink-0 self-end md:self-center">
+                    <button
+                      onClick={() => setVisorEdicion(ed)}
+                      className="flex items-center gap-1 px-2.5 py-1.5 text-xs font-semibold text-slate-700 bg-slate-100 hover:bg-slate-200 rounded-lg transition-colors cursor-pointer"
+                      title="Ver contenido HTML y vista previa"
+                    >
+                      <Eye className="w-3.5 h-3.5 text-slate-600" />
+                      <span>Ver HTML</span>
+                    </button>
 
-                  {ed.despacho?.hora_despacho && (
-                    <div className="text-[11px] text-slate-400 flex items-center gap-1 font-mono pt-1">
-                      <CheckCircle className="w-3 h-3 text-emerald-600" />
-                      <span>Despachado: {new Date(ed.despacho.hora_despacho).toLocaleString()}</span>
-                    </div>
-                  )}
+                    <button
+                      onClick={() => handleDespachoManual(ed)}
+                      disabled={despachandoId === ed.id || ed.estado === 'enviado' || ed.estado === 'enviado_a_suscriptores'}
+                      className={`flex items-center gap-1 px-3 py-1.5 text-xs font-bold rounded-lg transition-all shadow-2xs ${
+                        ed.estado === 'enviado' || ed.estado === 'enviado_a_suscriptores'
+                          ? 'bg-slate-100 text-slate-400 cursor-not-allowed border border-slate-200'
+                          : 'bg-emerald-700 hover:bg-emerald-800 text-white cursor-pointer'
+                      }`}
+                      title="Despachar manualmente este newsletter"
+                    >
+                      {despachandoId === ed.id ? (
+                        <Loader2 className="w-3.5 h-3.5 animate-spin" />
+                      ) : (
+                        <Send className="w-3.5 h-3.5" />
+                      )}
+                      <span>{ed.estado === 'enviado' || ed.estado === 'enviado_a_suscriptores' ? 'Despachado' : 'Despacho Manual'}</span>
+                    </button>
+
+                    <button
+                      onClick={() => {
+                        setEdicionAEditar(ed);
+                        setModalOpen(true);
+                      }}
+                      className="p-1.5 text-slate-600 hover:text-blue-700 hover:bg-blue-50 rounded-lg cursor-pointer"
+                      title="Editar Edición"
+                    >
+                      <Edit2 className="w-4 h-4" />
+                    </button>
+
+                    <button
+                      onClick={() => handleDelete(ed.id)}
+                      className="p-1.5 text-slate-400 hover:text-red-600 hover:bg-red-50 rounded-lg cursor-pointer"
+                      title="Eliminar Edición"
+                    >
+                      <Trash2 className="w-4 h-4" />
+                    </button>
+                  </div>
                 </div>
-
-                <div className="flex items-center gap-2 shrink-0 self-end md:self-center">
-                  <button
-                    onClick={() => setVisorEdicion(ed)}
-                    className="flex items-center gap-1 px-2.5 py-1.5 text-xs font-semibold text-slate-700 bg-slate-100 hover:bg-slate-200 rounded-lg transition-colors cursor-pointer"
-                    title="Ver contenido HTML"
-                  >
-                    <Eye className="w-3.5 h-3.5 text-slate-600" />
-                    <span>Ver HTML</span>
-                  </button>
-
-                  <button
-                    onClick={() => handleDespachoManual(ed)}
-                    disabled={despachandoId === ed.id || ed.estado === 'enviado' || ed.estado === 'enviado_a_suscriptores'}
-                    className={`flex items-center gap-1 px-3 py-1.5 text-xs font-bold rounded-lg transition-all shadow-2xs ${
-                      ed.estado === 'enviado' || ed.estado === 'enviado_a_suscriptores'
-                        ? 'bg-slate-100 text-slate-400 cursor-not-allowed border border-slate-200'
-                        : 'bg-emerald-700 hover:bg-emerald-800 text-white cursor-pointer'
-                    }`}
-                    title="Despachar manualmente este newsletter"
-                  >
-                    {despachandoId === ed.id ? (
-                      <Loader2 className="w-3.5 h-3.5 animate-spin" />
-                    ) : (
-                      <Send className="w-3.5 h-3.5" />
-                    )}
-                    <span>{ed.estado === 'enviado' || ed.estado === 'enviado_a_suscriptores' ? 'Despachado' : 'Despacho Manual'}</span>
-                  </button>
-
-                  <button
-                    onClick={() => {
-                      setEdicionAEditar(ed);
-                      setModalOpen(true);
-                    }}
-                    className="p-1.5 text-slate-600 hover:text-blue-700 hover:bg-blue-50 rounded-lg"
-                    title="Editar Edición"
-                  >
-                    <Edit2 className="w-4 h-4" />
-                  </button>
-
-                  <button
-                    onClick={() => handleDelete(ed.id)}
-                    className="p-1.5 text-slate-400 hover:text-red-600 hover:bg-red-50 rounded-lg"
-                    title="Eliminar Edición"
-                  >
-                    <Trash2 className="w-4 h-4" />
-                  </button>
-                </div>
-              </div>
-            ))}
+              );
+            })}
           </div>
         )}
       </div>
@@ -290,12 +344,33 @@ export const EdicionesView: React.FC<EdicionesViewProps> = ({ dossiers }) => {
                 </h3>
                 <p className="text-xs text-slate-500 truncate max-w-xl">{visorEdicion.asunto}</p>
               </div>
-              <button
-                onClick={() => setVisorEdicion(null)}
-                className="text-slate-400 hover:text-slate-600 p-1.5 rounded-lg hover:bg-slate-100"
-              >
-                <X className="w-5 h-5" />
-              </button>
+              <div className="flex items-center gap-2">
+                {visorEdicion.html_content && (
+                  <button
+                    onClick={handleCopiarHtml}
+                    className="flex items-center gap-1.5 px-3 py-1.5 text-xs font-semibold text-blue-900 bg-blue-50 hover:bg-blue-100 border border-blue-200 rounded-lg cursor-pointer transition-all"
+                    title="Copiar código HTML al portapapeles"
+                  >
+                    {copiadoHtml ? (
+                      <>
+                        <Check className="w-3.5 h-3.5 text-emerald-600" />
+                        <span className="text-emerald-700">¡Copiado!</span>
+                      </>
+                    ) : (
+                      <>
+                        <Copy className="w-3.5 h-3.5 text-blue-800" />
+                        <span>Copiar HTML</span>
+                      </>
+                    )}
+                  </button>
+                )}
+                <button
+                  onClick={() => setVisorEdicion(null)}
+                  className="text-slate-400 hover:text-slate-600 p-1.5 rounded-lg hover:bg-slate-100 cursor-pointer"
+                >
+                  <X className="w-5 h-5" />
+                </button>
+              </div>
             </div>
 
             <div className="p-6 overflow-y-auto flex-1 bg-slate-100/60">
@@ -315,7 +390,7 @@ export const EdicionesView: React.FC<EdicionesViewProps> = ({ dossiers }) => {
             <div className="px-6 py-3 border-t border-slate-200 bg-slate-50 flex items-center justify-end rounded-b-2xl">
               <button
                 onClick={() => setVisorEdicion(null)}
-                className="px-4 py-2 text-xs font-semibold text-slate-700 bg-white border border-slate-300 rounded-lg hover:bg-slate-100"
+                className="px-4 py-2 text-xs font-semibold text-slate-700 bg-white border border-slate-300 rounded-lg hover:bg-slate-100 cursor-pointer"
               >
                 Cerrar Visor
               </button>

@@ -1,12 +1,16 @@
 import { Noticia, AreaId } from '../types/index.js';
 import { FirestoreRepository } from './firestore.repository.js';
+import { getFechaArgentina } from '../utils/date.js';
 
 export interface NoticiasFiltros {
   area_id?: AreaId;
+  seguimiento_id?: string;
   dossier_id?: string;
   fuente_id?: string;
   fecha?: string;
   con_foto?: boolean;
+  curada_manualmente?: boolean;
+  estado_redaccion?: 'redactada' | 'pendiente';
   search?: string;
   page?: number;
   limit?: number;
@@ -64,11 +68,11 @@ export function normalizeNoticia(raw: any): Noticia {
   if (!raw) return raw;
 
   // 1. Fecha
-  const fechaPublicacion =
+  const rawDateStr =
     (typeof raw.fecha_publicacion === 'string' && raw.fecha_publicacion.trim()) ||
     (typeof raw.fecha === 'string' && raw.fecha.trim()) ||
-    (typeof raw.created_at === 'string' && raw.created_at.split('T')[0]) ||
-    new Date().toISOString().split('T')[0];
+    (typeof raw.created_at === 'string' && raw.created_at.split('T')[0]);
+  const fechaPublicacion = getFechaArgentina(rawDateStr);
 
   // 2. Área
   let areaId: AreaId = 'gestion-publica';
@@ -164,10 +168,13 @@ export function normalizeNoticia(raw: any): Noticia {
     },
     medio: raw.medio,
     url: fuenteUrl,
-    dossier_id: raw.dossier_id || null,
+    seguimiento_id: (typeof raw.seguimiento_id === 'string' && raw.seguimiento_id.trim()) || (typeof raw.dossier_id === 'string' && raw.dossier_id.trim()) || null,
+    dossier_id: (typeof raw.seguimiento_id === 'string' && raw.seguimiento_id.trim()) || (typeof raw.dossier_id === 'string' && raw.dossier_id.trim()) || null,
+    curada_manualmente: Boolean(raw.curada_manualmente),
     titular: raw.titular || 'Sin titular',
     hecho_central: raw.hecho_central || '',
     novedad_respecto_a_dias_previos: raw.novedad_respecto_a_dias_previos || undefined,
+    cuerpo_html: raw.cuerpo_html || '',
     datos_duros: raw.datos_duros || {},
     citas: raw.citas || [],
     media: {
@@ -194,8 +201,12 @@ export class NoticiasService {
     if (filtros.area_id) {
       noticias = noticias.filter(n => n.area_id === filtros.area_id);
     }
-    if (filtros.dossier_id) {
-      noticias = noticias.filter(n => n.dossier_id === filtros.dossier_id);
+    if (filtros.seguimiento_id || filtros.dossier_id) {
+      const targetId = filtros.seguimiento_id || filtros.dossier_id;
+      noticias = noticias.filter(n => n.seguimiento_id === targetId || n.dossier_id === targetId);
+    }
+    if (filtros.curada_manualmente !== undefined) {
+      noticias = noticias.filter(n => Boolean(n.curada_manualmente) === filtros.curada_manualmente);
     }
     if (filtros.fuente_id) {
       noticias = noticias.filter(n => n.fuente && (n.fuente.id === filtros.fuente_id || slugify(n.fuente.nombre) === filtros.fuente_id));
@@ -205,6 +216,13 @@ export class NoticiasService {
     }
     if (filtros.con_foto !== undefined) {
       noticias = noticias.filter(n => filtros.con_foto ? !!n.media?.imagen_url : !n.media?.imagen_url);
+    }
+    if (filtros.estado_redaccion) {
+      if (filtros.estado_redaccion === 'redactada') {
+        noticias = noticias.filter(n => !!n.cuerpo_html && n.cuerpo_html.trim().length > 0);
+      } else if (filtros.estado_redaccion === 'pendiente') {
+        noticias = noticias.filter(n => !n.cuerpo_html || n.cuerpo_html.trim().length === 0);
+      }
     }
     if (filtros.search) {
       const q = filtros.search.toLowerCase();
@@ -246,7 +264,12 @@ export class NoticiasService {
   }
 
   async crear(datos: Omit<Noticia, 'created_at'> & { created_at?: string }): Promise<Noticia> {
-    const slug = (datos.titular || 'nota')
+    const titularLimpio = (datos.titular || '').trim();
+    if (!titularLimpio || titularLimpio.length < 10) {
+      throw new Error('Validación estricta (anti-huérfanas): el titular es obligatorio y debe tener al menos 10 caracteres');
+    }
+
+    const slug = titularLimpio
       .toLowerCase()
       .normalize('NFD')
       .replace(/[\u0300-\u036f]/g, '')
@@ -254,20 +277,25 @@ export class NoticiasService {
       .replace(/(^-|-$)/g, '')
       .substring(0, 40);
 
-    const fecha = datos.fecha_publicacion || datos.fecha || new Date().toISOString().split('T')[0];
+    // Forzar zona horaria America/Argentina/Buenos_Aires para evitar saltos de fecha tras 21:00 hs
+    const fecha = getFechaArgentina(datos.fecha_publicacion || datos.fecha);
     const id = datos.id || `${fecha}_${slug}`;
     const areaLabel = AREA_LABEL_MAP[datos.area_id] || datos.area || 'Gestión Pública';
     const imagenUrl = datos.media?.imagen_url || datos.imagen_url || '';
+    const seguimientoId = datos.seguimiento_id || datos.dossier_id || null;
 
     const nuevaNoticia: Noticia = {
       ...datos,
       id,
+      titular: titularLimpio,
       fecha_publicacion: fecha,
       fecha,
       area_id: datos.area_id,
       area: areaLabel,
       url: datos.fuente?.url_nota || datos.url || '',
-      dossier_id: datos.dossier_id || null,
+      seguimiento_id: seguimientoId,
+      dossier_id: seguimientoId, // Retrocompatibilidad con Firestore
+      curada_manualmente: true, // Bandera de curaduría humana aprobada
       cobertura_cruzada: datos.cobertura_cruzada || 1,
       citas: datos.citas || [],
       entidades: datos.entidades || { actores: [], lugares: [] },
@@ -286,37 +314,107 @@ export class NoticiasService {
   }
 
   async actualizar(id: string, partial: Partial<Noticia>): Promise<Noticia | null> {
-    const updates: Partial<Noticia> = { ...partial };
+    const updates: Record<string, unknown> = { ...partial };
 
-    // Sincronizar campos bidireccionales
-    if (partial.fecha_publicacion) {
-      updates.fecha = partial.fecha_publicacion;
-    } else if (partial.fecha) {
-      updates.fecha_publicacion = partial.fecha;
+    // Validación estricta anti-huérfanas para titular
+    if (partial.titular !== undefined) {
+      const titularLimpio = (partial.titular || '').trim();
+      if (!titularLimpio || titularLimpio.length < 10) {
+        throw new Error('Validación estricta (anti-huérfanas): el titular no puede tener menos de 10 caracteres');
+      }
+      updates.titular = titularLimpio;
     }
 
+    // Sincronizar campos de fecha con zona horaria Argentina
+    if (partial.fecha_publicacion || partial.fecha) {
+      const f = getFechaArgentina(partial.fecha_publicacion || partial.fecha);
+      updates.fecha = f;
+      updates.fecha_publicacion = f;
+    }
+
+    // Nomenclatura Temas en Seguimiento con retrocompatibilidad Firestore
+    if (partial.seguimiento_id !== undefined || partial.dossier_id !== undefined) {
+      const sid = partial.seguimiento_id || partial.dossier_id || null;
+      updates.seguimiento_id = sid;
+      updates.dossier_id = sid;
+    }
+
+    // Bandera de Curaduría Humana (aprobación editorial)
+    updates.curada_manualmente = true;
+
+    // Sincronizar campos bidireccionales de área
     if (partial.area_id && AREA_LABEL_MAP[partial.area_id]) {
+      updates.area_id = partial.area_id;
       updates.area = AREA_LABEL_MAP[partial.area_id];
-    } else if (partial.area && AREA_MAP_FROM_LABEL[partial.area.toLowerCase().trim()]) {
-      updates.area_id = AREA_MAP_FROM_LABEL[partial.area.toLowerCase().trim()];
+    } else if (partial.area) {
+      const normArea = partial.area.toLowerCase().trim();
+      const resolvedAreaId = AREA_MAP_FROM_LABEL[normArea] || 'gestion-publica';
+      updates.area_id = resolvedAreaId;
+      updates.area = AREA_LABEL_MAP[resolvedAreaId] || partial.area;
     }
 
-    if (partial.fuente?.url_nota) {
-      updates.url = partial.fuente.url_nota;
+    // Sincronizar Fuente y URL
+    if (partial.fuente) {
+      const nombre = partial.fuente.nombre || 'Fuente Bariloche';
+      const idFuente = partial.fuente.id || slugify(nombre);
+      const urlNota = partial.fuente.url_nota || (typeof updates.url === 'string' ? updates.url : '');
+      updates.fuente = {
+        id: idFuente,
+        nombre,
+        url_nota: urlNota,
+      };
+      updates.url = urlNota;
+    } else if (partial.url) {
+      updates.url = partial.url;
     }
 
+    // Sincronizar Media e Imágenes
     if (partial.media?.imagen_url !== undefined) {
       updates.imagen_url = partial.media.imagen_url;
       updates.foto = partial.media.imagen_url;
-    } else if (partial.imagen_url !== undefined) {
       updates.media = {
-        imagen_url: partial.imagen_url,
+        imagen_url: partial.media.imagen_url,
+        credito: partial.media.credito || '',
+      };
+    } else if (partial.imagen_url !== undefined || (partial as any).foto !== undefined) {
+      const img = partial.imagen_url || (partial as any).foto || '';
+      updates.imagen_url = img;
+      updates.foto = img;
+      updates.media = {
+        imagen_url: img,
         credito: partial.media?.credito || '',
       };
-      updates.foto = partial.imagen_url;
     }
 
-    const updated = await this.repo.update(id, updates);
+    // Mantener array de medio sincronizado si el documento de Firestore lo utilizaba
+    try {
+      const current = await this.repo.getById(id);
+      if (current && Array.isArray((current as any).medio)) {
+        const medioArr = [...(current as any).medio];
+        if (updates.fuente && typeof (updates.fuente as any).nombre === 'string') {
+          medioArr[1] = (updates.fuente as any).nombre;
+        }
+        if (typeof updates.area === 'string') {
+          medioArr[2] = updates.area;
+        }
+        if (typeof updates.titular === 'string') {
+          medioArr[3] = updates.titular;
+        }
+        if (typeof updates.hecho_central === 'string') {
+          medioArr[4] = updates.hecho_central;
+        }
+        if (typeof updates.url === 'string') {
+          medioArr[5] = updates.url;
+        }
+        updates.medio = medioArr;
+      }
+    } catch {
+      // Si no se puede leer current, continuar con updates
+    }
+
+    updates.updated_at = new Date().toISOString();
+
+    const updated = await this.repo.update(id, updates as Partial<Noticia>);
     return updated ? normalizeNoticia(updated) : null;
   }
 
@@ -328,7 +426,7 @@ export class NoticiasService {
     const todasRaw = await this.repo.getAll();
     const todas = todasRaw.map(normalizeNoticia);
     return todas
-      .filter(n => n.dossier_id === dossierId)
+      .filter(n => n.seguimiento_id === dossierId || n.dossier_id === dossierId)
       .sort((a, b) => new Date(b.fecha_publicacion).getTime() - new Date(a.fecha_publicacion).getTime())
       .slice(0, limit);
   }

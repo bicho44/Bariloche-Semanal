@@ -1,0 +1,61 @@
+{
+  "id": "2026-09-19_frenan-asfalto-bustillo-km-8-conflicto-servidumbre",
+  "citas": [
+    {
+      "autor": "Guillermo Albornoz (abogado patrocinante de frentistas)",
+      "texto": "La empresa constructora avanzó sobre parcelas de dominio privado sin que estuvieran concluidos los juicios de expropiación ni los estudios de escorrentía para evitar anegamientos en el faldeo bajo de Bustillo."
+    },
+    {
+      "autor": "Inspector de Vialidad Rionegrina",
+      "texto": "La paralización de la rotonda del Km 8 pone en riesgo el financiamiento de $1.200 millones comprometido para este tramo y generará mayores cuellos de botella de cara a la próxima temporada estival."
+    }
+  ],
+  "cobertura_cruzada": 1,
+  "fuente": {
+    "url_nota": "https://www.anbariloche.com.ar/noticias/2026/09/19/92451-frenan-la-obra-de-la-rotonda-del-km-8-de-bustillo",
+    "id": "anbariloche",
+    "nombre": "ANBariloche"
+  },
+  "imagen_url": "https://images.unsplash.com/photo-1578637387939-43c525550085?auto=format&fit=crop&w=1200&q=80",
+  "created_at": "2026-09-19T23:07:36.813Z",
+  "media": {
+    "imagen_url": "https://images.unsplash.com/photo-1578637387939-43c525550085?auto=format&fit=crop&w=1200&q=80",
+    "credito": "Pulso Urbano Bariloche / Archivo"
+  },
+  "area_id": "gestion-publica",
+  "dossier_id": "emergencia-vial-bariloche",
+  "url": "https://www.anbariloche.com.ar/noticias/2026/09/19/92451-frenan-la-obra-de-la-rotonda-del-km-8-de-bustillo",
+  "datos_duros": {
+    "Ubicación obra en conflicto": "Km 8 de Av. Bustillo",
+    "Demoras vehiculares actuales": "40 minutos",
+    "Presupuesto tramo rotonda": "$1.200 millones"
+  },
+  "fecha_publicacion": "2026-09-19",
+  "tags": [
+    "Bustillo",
+    "obras viales",
+    "rotonda",
+    "tránsito",
+    "amparo judicial"
+  ],
+  "novedad_respecto_a_dias_previos": "La maquinaria vial detuvo los movimientos de suelo luego de que la Justicia notificara a Vialidad Provincial una orden de no innovar hasta constatar los planos de expropiación y factibilidad pluvial.",
+  "fecha": "2026-09-19",
+  "entidades": {
+    "actores": [
+      "Vialidad Provincial Río Negro",
+      "Juzgado Civil y Comercial N° 3",
+      "Vecinos del Oeste Autoconvocados",
+      "Secretaría de Obras Públicas Municipal"
+    ],
+    "lugares": [
+      "Avenida Exequiel Bustillo Km 8",
+      "Playa Bonita",
+      "Avenida de los Pioneros"
+    ]
+  },
+  "hecho_central": "Las obras de ensanche y construcción de la rotonda de desagote sobre Avenida Exequiel Bustillo a la altura del Kilómetro 8 quedaron paralizadas tras un amparo vecinal por la traza de servidumbre de paso y remoción de servicios subterráneos. Vecinos autoconvocados y frentistas interpusieron una medida cautelar ante el Juzgado Civil denunciando falta de audiencias de impacto vial y riesgo sobre canalizaciones pluviales que desagotan en el lago.",
+  "cuerpo_html": "<p>La obra de refuncionalización vial de la <strong>Avenida Bustillo</strong> sufrió un revés legal determinante en el tramo comprendido en el <strong>Kilómetro 8</strong>. El Juzgado Civil y Comercial N° 3 libró una medida de no innovar ordenando frenar los trabajos de movimiento de suelo y ensanche de banquinas tras el amparo presentado por propietarios de parcelas frentistas.</p><p>El proyecto, financiado con fondos provinciales por un total de <strong>$1.200 millones</strong>, proyectaba una rotonda distribuidora para mitigar las colas de vehículos que en horas pico colapsan los accesos a Playa Bonita y la unión con Avenida de los Pioneros. Sin embargo, la falta de delimitación formal en las cesiones de servidumbre y el temor vecinal a desmoronamientos en la cuenca pluvial frenaron las tareas.</p><p>Comerciantes y residentes del Oeste manifestaron posturas encontradas: mientras los amparistas exigen planos definitivos de drenaje para no inundar propiedades linderas, cientos de conductores denunciaron que la calzada quedó reducida a una sola mano con calzada de ripio, agravando las demoras diarias que ya superan los 40 minutos en horarios pico.</p>",
+  "titular": "Obras viales: Se paralizan los trabajos en la rotonda de Bustillo Km 8 por disputa de servidumbre",
+  "area": "Gestión Pública",
+  "foto": "https://images.unsplash.com/photo-1578637387939-43c525550085?auto=format&fit=crop&w=1200&q=80"
+}

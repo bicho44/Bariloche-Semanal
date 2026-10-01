@@ -1,0 +1,10 @@
+{
+  "id": "unrn",
+  "url_base": "https://www.unrn.edu.ar/",
+  "created_at": "2026-09-18T12:01:41.246Z",
+  "nombre": "Universidad de Río Negro",
+  "prioridad": 2,
+  "activo": true,
+  "tipo": "institucional",
+  "beat_id": "pulso-urbano"
+}

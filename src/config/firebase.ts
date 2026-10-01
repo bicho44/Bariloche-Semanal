@@ -192,6 +192,10 @@ export function isFirebaseStorageAvailable(): boolean {
 }
 
 export function markFirestoreUnavailable(reason: string): void {
+  if (hasValidServiceAccount) {
+    console.warn(`[Firebase] Error transitorio detectado en Firestore (${reason}). Credencial de Service Account válida, manteniendo Firestore activo para nuevos intentos.`);
+    return;
+  }
   isFirestoreRemoteAvailable = false;
   statusMessage = reason;
 }

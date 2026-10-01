@@ -1,0 +1,11 @@
+{
+  "id": "municipalidad-bariloche",
+  "nombre": "Municipalidad de San Carlos de Bariloche",
+  "url_base": "https://www.bariloche.gov.ar",
+  "url_noticias": "https://www.bariloche.gov.ar",
+  "tipo": "institucional",
+  "beat_id": "poder-obras",
+  "prioridad": 2,
+  "activo": true,
+  "updated_at": "2026-09-19T22:27:38.252Z"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "emprotur",
+  "nombre": "EMPROTUR",
+  "url_base": "https://www.barilocheturismo.gob.ar",
+  "url_noticias": "https://www.barilocheturismo.gob.ar",
+  "tipo": "institucional",
+  "beat_id": "montana-turismo",
+  "prioridad": 2,
+  "activo": true,
+  "updated_at": "2026-09-19T22:27:40.749Z"
+}

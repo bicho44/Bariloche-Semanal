@@ -1,0 +1,11 @@
+{
+  "id": "el-cordillerano",
+  "nombre": "El Cordillerano",
+  "url_base": "https://www.elcordillerano.com.ar",
+  "url_noticias": "https://www.elcordillerano.com.ar",
+  "tipo": "diario",
+  "beat_id": "pulso-urbano",
+  "prioridad": 1,
+  "activo": true,
+  "updated_at": "2026-09-19T22:27:36.020Z"
+}
