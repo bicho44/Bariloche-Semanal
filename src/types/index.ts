@@ -155,7 +155,46 @@ export interface EdicionNewsletter {
   created_at?: string;
 }
 
-// 6. Entidad: Configuración de Branding (Documento 'configuracion/branding')
+// 6. Entidad: Configuración de Branding y Ciudad (Documento 'configuracion/branding')
+export interface ConfiguracionClima {
+  ciudad: string;
+  provincia?: string;
+  pais?: string;
+  latitud: number;
+  longitud: number;
+  activo: boolean;
+}
+
+export interface PronosticoDia {
+  fecha: string;
+  dia: string;
+  temp_min: number;
+  temp_max: number;
+  condicion: string;
+  codigo_wmo: number;
+  icono: string;
+}
+
+export interface DatosClima {
+  ciudad: string;
+  provincia?: string;
+  pais?: string;
+  latitud: number;
+  longitud: number;
+  temperatura: number;
+  sensacion_termica: number;
+  temp_min: number;
+  temp_max: number;
+  humedad: number;
+  viento_kmh: number;
+  direccion_viento_grados?: number;
+  condicion: string;
+  codigo_wmo: number;
+  icono: string;
+  hora_actualizacion: string;
+  pronostico_diario?: PronosticoDia[];
+}
+
 export interface ConfiguracionBranding {
   id?: string;
   nombre_medio: string;
@@ -176,6 +215,7 @@ export interface ConfiguracionBranding {
     instagram?: string;
     sitio_web?: string;
   };
+  clima?: ConfiguracionClima;
   updated_at?: string;
 }
 

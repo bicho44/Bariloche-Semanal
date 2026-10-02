@@ -27,6 +27,14 @@ export class BrandingService {
         whatsapp_comercial: '+54 9 294 400-0000',
         instagram: '@barilochesemanal',
       },
+      clima: {
+        ciudad: 'San Carlos de Bariloche',
+        provincia: 'Río Negro',
+        pais: 'Argentina',
+        latitud: -41.1335,
+        longitud: -71.3103,
+        activo: true,
+      },
       updated_at: new Date().toISOString(),
     };
 
@@ -45,6 +53,17 @@ export class BrandingService {
       contacto: {
         ...actual.contacto,
         ...(partial.contacto || {}),
+      },
+      clima: {
+        ...(actual.clima || {
+          ciudad: 'San Carlos de Bariloche',
+          provincia: 'Río Negro',
+          pais: 'Argentina',
+          latitud: -41.1335,
+          longitud: -71.3103,
+          activo: true,
+        }),
+        ...(partial.clima || {}),
       },
       updated_at: new Date().toISOString(),
     };

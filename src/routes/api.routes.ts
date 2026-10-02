@@ -55,6 +55,7 @@ import {
 
 import { uploadMedia, proxyMedia, fetchRemoteMedia } from '../controllers/media.controller.js';
 import { obtenerResumenDashboard } from '../controllers/dashboard.controller.js';
+import { obtenerClima, buscarCiudades } from '../controllers/clima.controller.js';
 import { getDatabaseStatus } from '../config/firebase.js';
 
 const router = Router();
@@ -153,6 +154,10 @@ router.post('/media/upload', (req, res, next) => {
 router.get('/database/status', (req, res) => {
   res.json(getDatabaseStatus());
 });
+
+// 11. Información Meteorológica y Clima Local
+router.get('/clima', obtenerClima);
+router.get('/clima/ciudades', buscarCiudades);
 
 // Manejador de errores para rutas API (asegura respuestas JSON limpias)
 router.use((err: any, req: any, res: any, next: any) => {

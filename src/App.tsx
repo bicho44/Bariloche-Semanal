@@ -9,6 +9,7 @@ import { AnunciantesView } from './components/AnunciantesView.js';
 import { BrandingView } from './components/BrandingView.js';
 import { EdicionesView } from './components/EdicionesView.js';
 import { ApiDocsView } from './components/ApiDocsView.js';
+import { WeatherWidget } from './components/WeatherWidget.js';
 import { ConfiguracionBranding, Fuente, Dossier } from './types/index.js';
 import { ShieldCheck, MapPin, Database } from 'lucide-react';
 
@@ -92,12 +93,19 @@ export default function App() {
 
       {/* Área Principal de Trabajo */}
       <div className="flex-1 flex flex-col min-w-0 overflow-hidden">
-        {/* Top Header Bar */}
+        {/* Top Header Bar con Módulo de Clima Integrado */}
         <header className="h-14 bg-white border-b border-slate-200/80 px-6 flex items-center justify-between shrink-0 shadow-2xs">
           <div className="flex items-center gap-3">
             <div className="flex items-center gap-1.5 text-xs text-slate-500 font-medium">
               <MapPin className="w-3.5 h-3.5 text-blue-900" />
-              <span>San Carlos de Bariloche</span>
+              <button
+                type="button"
+                onClick={() => setCurrentTab('branding')}
+                className="hover:text-blue-900 hover:underline cursor-pointer font-medium text-slate-700"
+                title="Configurar ciudad y clima en Identidad & Branding"
+              >
+                {branding?.clima?.ciudad || 'San Carlos de Bariloche'}
+              </button>
               <span className="text-slate-300">•</span>
               <span className="font-semibold text-slate-700">
                 {currentTab === 'dashboard'
@@ -107,6 +115,15 @@ export default function App() {
                   : currentTab.charAt(0).toUpperCase() + currentTab.slice(1)}
               </span>
             </div>
+          </div>
+
+          {/* Módulo de Clima en Cabecera */}
+          <div className="flex items-center gap-3">
+            <WeatherWidget
+              variant="compact"
+              climaConfig={branding?.clima}
+              onOpenBranding={() => setCurrentTab('branding')}
+            />
           </div>
         </header>
 
