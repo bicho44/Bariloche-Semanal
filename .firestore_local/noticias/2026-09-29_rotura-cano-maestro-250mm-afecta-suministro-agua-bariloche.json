@@ -1,0 +1,39 @@
+{
+  "id": "2026-09-29_rotura-cano-maestro-250mm-afecta-suministro-agua-bariloche",
+  "titular": "La rotura de un caño maestro de 250 mm provocada por una máquina privada afectó el suministro de agua en gran parte de Bariloche",
+  "hecho_central": "Una retroexcavadora privada perforó una cañería troncal de 250 milímetros de la red de Aguas Rionegrinas (ARSA), desatando un violento derrame e interrupciones del servicio en amplios sectores de la ciudad mientras cuadrillas de emergencia debieron intervenir para reemplazar el tramo dañado.",
+  "fecha_publicacion": "2026-09-29",
+  "area_id": "gestion-publica",
+  "dossier_id": null,
+  "seguimiento_id": "ceb-municipio-servicios",
+  "fuente": {
+    "id": "anbariloche",
+    "nombre": "ANBariloche",
+    "url_nota": "https://www.anbariloche.com.ar/noticias/2026/09/29/118564-rotura-de-un-cano-afecta-el-servicio-de-agua-en-gran-parte-de-bariloche"
+  },
+  "cuerpo_html": "<p class=\"c-dossier-link\">📌 <em>Seguimiento: <a href=\"/seguimientos/ceb-municipio-servicios\">Relación Municipio - CEB y Servicios Públicos</a></em></p>\n<p>Un grave incidente operacional afectó este martes el suministro hídrico de la ciudad: <strong>la rotura imprevista de un caño maestro de 250 milímetros de diámetro, provocada por la excavación de una máquina privada, despresurizó la red troncal y dejó sin servicio de agua potable a gran parte del ejido de Bariloche</strong>, según reportó <a href=\"https://www.anbariloche.com.ar/noticias/2026/09/29/118564-rotura-de-un-cano-afecta-el-servicio-de-agua-en-gran-parte-de-bariloche\" target=\"_blank\" rel=\"noopener noreferrer\">ANBariloche</a>.</p>\n<p>El personal técnico de la empresa estatal Aguas Rionegrinas (ARSA) debió movilizar maquinaria pesada y cuadrillas de plomería industrial para aislar el sector dañado, purgar los sedimentos y colocar una nueva manga de acople. Mientras se desarrollaban las maniobras de emergencia, la prestataria solicitó extremar el cuidado de los tanques de reserva domiciliaria ante la merma generalizada de presión en barrios del este, la zona céntrica y los faldeos.</p>\n<blockquote cite=\"https://www.anbariloche.com.ar/noticias/2026/09/29/118564-rotura-de-un-cano-afecta-el-servicio-de-agua-en-gran-parte-de-bariloche\"><p>«Se trata de un conducto neurálgico del sistema; pedimos priorizar el agua estrictamente para consumo e higiene hasta tanto finalicen las tareas de soldadura y presurización», detallaron desde ARSA.</p></blockquote>\n<p>El hecho reavivó la exigencia municipal de coordinar con mayor rigurosidad las autorizaciones de cateo y zanjeo de obras particulares sobre la traza de servicios públicos subterráneos.</p>",
+  "citas": [
+    {
+      "autor": "Aguas Rionegrinas (ARSA)",
+      "cargo": "Comunicado Técnico de Emergencia",
+      "texto": "Personal de la empresa trabaja en la reparación de una cañería de 250 milímetros que sufrió una rotura provocada por la intervención de un tercero. Se solicita a los vecinos realizar un uso racional y solidario del agua, cuidando las reservas domiciliarias hasta que se normalice la prestación."
+    }
+  ],
+  "datos_duros": {
+    "diametro_caneria": "250 milímetros",
+    "origen_dano": "Intervención de una máquina retroexcavadora de un privado",
+    "alcance_corte": "Baja presión e interrupciones en barrios del este, centro y faldeos",
+    "accion_operativa": "Despliegue de cuadrillas de ARSA para vaciado y empalme de cañería"
+  },
+  "area": "Gestión Pública",
+  "fecha": "2026-09-29",
+  "foto": "https://anbariloche-s3.cdn.net.ar/s3i233/2025/01/anbariloche/images/01/49/18/1491811_6d278c22caca96508c86bd64cf8c5765a5044036d0dc1e23f9afaaebedc2acb7/md.webp",
+  "updated_at": "2026-10-01T13:26:36.406Z",
+  "imagen_url": "https://anbariloche-s3.cdn.net.ar/s3i233/2025/01/anbariloche/images/01/49/18/1491811_6d278c22caca96508c86bd64cf8c5765a5044036d0dc1e23f9afaaebedc2acb7/md.webp",
+  "media": {
+    "credito": "Foto: Prensa Aguas Rionegrinas / ANBariloche",
+    "requiere_foto": false,
+    "imagen_url": "https://anbariloche-s3.cdn.net.ar/s3i233/2025/01/anbariloche/images/01/49/18/1491811_6d278c22caca96508c86bd64cf8c5765a5044036d0dc1e23f9afaaebedc2acb7/md.webp"
+  },
+  "url": "https://www.anbariloche.com.ar/noticias/2026/09/29/118564-rotura-de-un-cano-afecta-el-servicio-de-agua-en-gran-parte-de-bariloche"
+}

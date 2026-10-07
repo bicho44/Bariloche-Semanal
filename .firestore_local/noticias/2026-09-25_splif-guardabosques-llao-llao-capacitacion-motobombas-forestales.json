@@ -1,0 +1,39 @@
+{
+  "id": "2026-09-25_splif-guardabosques-llao-llao-capacitacion-motobombas-forestales",
+  "titular": "Combatientes del SPLIF y guardabosques de Llao Llao se capacitaron en motobombas forestales ante la proximidad de la temporada seca",
+  "hecho_central": "A cinco días del cese de la temporada de quemas habilitadas (30 de septiembre), doce brigadistas del SPLIF Bariloche y guardabosques del Parque Municipal Llao Llao completaron una instrucción intensiva con el Servicio Nacional de Manejo del Fuego en emplazamiento de motobombas y uso eficiente del agua en línea de fuego.",
+  "fecha_publicacion": "2026-09-25",
+  "area_id": "turismo",
+  "dossier_id": null,
+  "seguimiento_id": "temporada-turistica-nieve",
+  "fuente": {
+    "id": "anbariloche",
+    "nombre": "ANBariloche",
+    "url_nota": "https://www.anbariloche.com.ar/amp/noticias/2026/09/25/118231-capacitaron-a-combatientes-y-guardabosques-para-el-uso-de-motobombas-forestales"
+  },
+  "cuerpo_html": "<p class=\"c-dossier-link\">📌 <em>Seguimiento: <a href=\"/seguimientos/temporada-turistica-nieve\">Temporada Turística, Nieve y Conectividad</a></em></p>\n<p>Con la cuenta regresiva en marcha hacia el 30 de septiembre —fecha fijada como límite improrrogable para la veda total de quemas forestales en Bariloche y Dina Huapi—, <strong>combatientes del SPLIF y guardabosques del Parque Municipal Llao Llao finalizaron este viernes cuatro jornadas de capacitación intensiva en el uso y mantenimiento de motobombas forestales</strong>, según informó <a href=\"https://www.anbariloche.com.ar/amp/noticias/2026/09/25/118231-capacitaron-a-combatientes-y-guardabosques-para-el-uso-de-motobombas-forestales\" target=\"_blank\" rel=\"noopener noreferrer\">ANBariloche</a>.</p>\n<p>El adiestramiento técnico tuvo lugar en la Central Operativa del SPLIF Bariloche y fue impartido por instructores especializados del Servicio Nacional de Manejo del Fuego (SNMF). Participaron siete brigadistas provinciales y cinco agentes de conservación del Parque Llao Llao, quienes profundizaron en el emplazamiento táctico de bombas portátiles sobre cursos de agua andinos, tendido de mangas en pendientes complejas y protocolos de seguridad para preservar los caudales en frentes de fuego.</p>\n<blockquote cite=\"https://www.anbariloche.com.ar/amp/noticias/2026/09/25/118231-capacitaron-a-combatientes-y-guardabosques-para-el-uso-de-motobombas-forestales\"><p>«El trabajo articulado e interinstitucional es la clave para unificar criterios, optimizar recursos y dar una respuesta rápida y coordinada ante emergencias en zonas boscosas», subrayó Elio Fernández, segundo jefe de la central rionegrina.</p></blockquote>\n<p>La unificación de maniobras operativas resulta estratégica para la comarca andina, donde la temporada seca estival exige una articulación milimétrica entre las patrullas municipales y las brigadas provinciales en áreas de reserva de alto tránsito turístico.</p>",
+  "citas": [
+    {
+      "autor": "Elio Fernández",
+      "cargo": "Segundo Jefe del SPLIF Bariloche",
+      "texto": "El trabajo articulado e interinstitucional es la clave para unificar criterios, optimizar recursos y dar una respuesta rápida y coordinada ante las emergencias forestales."
+    }
+  ],
+  "datos_duros": {
+    "duracion_curso": "4 jornadas intensivas (22 al 25 de septiembre de 2026) en la Central Operativa SPLIF Bariloche",
+    "participantes": "12 efectivos (7 combatientes del SPLIF y 5 guardabosques del Parque Municipal Llao Llao)",
+    "docencia_tecnica": "2 instructores del Servicio Nacional de Manejo del Fuego (SNMF)",
+    "contexto_operativo": "Fin del período de quemas habilitadas el 30 de septiembre y preparación de esquemas de interfase para el verano"
+  },
+  "area": "Pulso Turístico",
+  "fecha": "2026-09-25",
+  "foto": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/09/anbariloche/images/02/78/66/2786641_aac03d7096f53516addd8c21d533aa355396be5741460bfce80c38b4eb2eac41/lg.webp",
+  "updated_at": "2026-09-28T12:22:53.643Z",
+  "imagen_url": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/09/anbariloche/images/02/78/66/2786641_aac03d7096f53516addd8c21d533aa355396be5741460bfce80c38b4eb2eac41/lg.webp",
+  "media": {
+    "credito": "Prensa SPLIF Bariloche / ANBariloche",
+    "requiere_foto": false,
+    "imagen_url": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/09/anbariloche/images/02/78/66/2786641_aac03d7096f53516addd8c21d533aa355396be5741460bfce80c38b4eb2eac41/lg.webp"
+  },
+  "url": "https://www.anbariloche.com.ar/amp/noticias/2026/09/25/118231-capacitaron-a-combatientes-y-guardabosques-para-el-uso-de-motobombas-forestales"
+}

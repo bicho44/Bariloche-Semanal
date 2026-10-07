@@ -1,0 +1,36 @@
+{
+  "id": "2026-09-30_hormigonado-camino-corrales-ecoparque-llao-llao-cuidado-animal",
+  "titular": "El Municipio colocó hormigón H30 en el acceso a corrales del futuro Ecoparque de Llao Llao para facilitar el traslado de equinos",
+  "hecho_central": "Personal de la Delegación Centro de la Municipalidad ejecutó una nueva jornada de obras viales en el predio de Llao Llao mediante la colocación de 9,5 metros cúbicos de hormigón H30 en una traza de 18 metros de largo por 3 metros de ancho, asegurando la accesibilidad de vehículos pesados y tráileres para el rescate y traslado sanitario de caballos hacia los corrales de recuperación animal.",
+  "fecha_publicacion": "2026-09-30",
+  "area_id": "gestion-publica",
+  "dossier_id": null,
+  "seguimiento_id": "infraestructura-terminal-rutas",
+  "fuente": {
+    "id": "el-cordillerano",
+    "nombre": "Diario El Cordillerano",
+    "url_nota": "https://www.elcordillerano.com.ar/noticias/2026/09/30/264918-el-futuro-ecoparque-de-llao-llao-suma-mejoras-para-el-cuidado-animal"
+  },
+  "media": {
+    "imagen_url": "https://barilocheinforma.gob.ar/wp-content/uploads/2026/09/llao-1024x550.jpg",
+    "credito": "Prensa Municipalidad de Bariloche / Bariloche Informa",
+    "requiere_foto": false
+  },
+  "cuerpo_html": "<p class=\"c-dossier-link\">📌 <em>Seguimiento: <a href=\"/seguimientos/infraestructura-terminal-rutas\">Nueva Terminal de Ómnibus, Rotonda Esandi y Rutas</a></em></p>\n<p>El plan de infraestructura y recuperación de espacios públicos en el corredor del Oeste sumó este miércoles un paso clave: <strong>el Municipio de Bariloche ejecutó el hormigonado del camino hacia los corrales del futuro Ecoparque de Llao Llao</strong>, facilitando el ingreso de vehículos operativos y tráileres destinados al rescate y contención equina, según reportó <a href=\"https://www.elcordillerano.com.ar/noticias/2026/09/30/264918-el-futuro-ecoparque-de-llao-llao-suma-mejoras-para-el-cuidado-animal\" target=\"_blank\" rel=\"noopener noreferrer\">El Cordillerano</a>.</p>\n<p>Las tareas fueron llevadas adelante por una cuadrilla de la Delegación Centro, que volcó y niveló un total de <strong>9,5 metros cúbicos de hormigón calidad H30 sobre un tramo estratégico de 18 metros de longitud por 3 metros de ancho</strong>. El tramo vial resulta indispensable para conectar la zona alta del predio con las instalaciones bajas donde se ubican los corrales, resolviendo las complicaciones de circulación generadas por el barro y las pendientes durante el invierno.</p>\n<blockquote cite=\"https://www.elcordillerano.com.ar/noticias/2026/09/30/264918-el-futuro-ecoparque-de-llao-llao-suma-mejoras-para-el-cuidado-animal\">\n<p>«El camino consolidado permitirá el descenso directo de vehículos de carga y del tráiler de zoonosis, una mejora estructural necesaria para las rutinas cotidianas de recuperación de los animales», detallaron desde las cuadrillas operativas municipales.</p>\n</blockquote>\n<p>La intervención forma parte del plan integral impulsado por el Ejecutivo comunal para transformar el predio en un centro modelo de bienestar animal, protección ambiental y pedagogía comunitaria.</p>",
+  "citas": [
+    {
+      "autor": "Cuadrilla Operativa Delegación Centro",
+      "cargo": "Personal técnico municipal",
+      "texto": "La colocación del hormigón sobre la bajada garantiza que los camiones y el tráiler de traslado de caballos puedan ingresar de forma segura y directa hasta los corrales, permitiendo la continuidad de las obras de cuidado animal."
+    }
+  ],
+  "datos_duros": {
+    "volumen_hormigon": "9,5 metros cúbicos de hormigón calidad H30",
+    "dimensiones_calzada": "18 metros lineales por 3 metros de ancho",
+    "area_operativa": "Delegación Centro (Municipalidad de Bariloche)",
+    "destino_especifico": "Camino vehicular hacia sector bajo y corrales de recuperación equina",
+    "ubicacion_predio": "Llao Llao (corredor del Oeste barilochense)",
+    "etapa_proyecto": "Infraestructura vial de base para el cuidado animal y educación comunitaria"
+  },
+  "updated_at": "2026-09-30T23:03:03.030Z"
+}

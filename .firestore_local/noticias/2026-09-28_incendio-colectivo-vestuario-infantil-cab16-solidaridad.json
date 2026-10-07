@@ -1,0 +1,40 @@
+{
+  "id": "2026-09-28_incendio-colectivo-vestuario-infantil-cab16-solidaridad",
+  "titular": "Segundo incendio en cinco meses: quemaron el colectivo que el Club Atlético Bariloche 16 utilizaba como vestuario infantil",
+  "hecho_central": "Un incendio intencional destruyó por completo un ómnibus en desuso que el Club Atlético Bariloche 16 (CAB 16) acondicionaba como vestuario y depósito de materiales para más de 130 chicos de 5 a 14 años, siendo el segundo ataque por fuego que sufre la institución deportiva barilochense en lo que va del año.",
+  "fecha_publicacion": "2026-09-28",
+  "area_id": "vida-social-cultura",
+  "dossier_id": null,
+  "seguimiento_id": null,
+  "fuente": {
+    "id": "el-cordillerano",
+    "nombre": "Diario El Cordillerano",
+    "url_nota": "https://www.elcordillerano.com.ar/noticias/2026/09/28/264493-incendiaron-el-micro-que-el-cab-16-usaba-de-vestuario-es-impensado-que-atenten-contra-algo-tan-noble-como-el-futbol"
+  },
+  "cuerpo_html": "<p>Una profunda indignación y tristeza sacudió este lunes al ámbito deportivo y comunitario de Bariloche: <strong>el Club Atlético Bariloche 16 (CAB 16) sufrió la destrucción total de un colectivo en desuso que la comisión directiva acondicionaba como vestuario y espacio de resguardo</strong> para sus divisiones formativas infantiles, según consignó <a href=\"https://www.elcordillerano.com.ar/noticias/2026/09/28/264493-incendiaron-el-micro-que-el-cab-16-usaba-de-vestuario-es-impensado-que-atenten-contra-algo-tan-noble-como-el-futbol\" target=\"_blank\" rel=\"noopener noreferrer\">El Cordillerano</a>.</p>\n<p>El siniestro, de características presuntamente intencionales, representa el segundo golpe demoledor contra la entidad en apenas cinco meses, luego de que en abril pasado otro foco ígneo consumiera por completo las precarias dependencias donde guardaban pelotas, conos e indumentaria. La escuelita de fútbol, nacida en 1994 en las aulas de la Escuela N° 16, brinda contención diaria a <strong>más de 130 niños y adolescentes de entre 5 y 14 años</strong> de sectores vulnerables del Alto.</p>\n<blockquote cite=\"https://www.elcordillerano.com.ar/noticias/2026/09/28/264493-incendiaron-el-micro-que-el-cab-16-usaba-de-vestuario-es-impensado-que-atenten-contra-algo-tan-noble-como-el-futbol\"><p>«El micro lo habíamos conseguido con muchísimo sacrificio para resguardar a los pibes del frío y armar los vestuarios. Es incomprensible que se ensañen contra un espacio que sólo busca abrazar y proteger a chicos que no tienen nada», relató entre lágrimas su histórico presidente, Marcelo Lavagnino.</p></blockquote>\n<p>Tras conocerse el hecho, las instituciones nucleadas en la Liga de Fútbol de Bariloche (LIFUBA) lanzaron una cruzada solidaria de donación de materiales deportivos y fondos para levantar los vestuarios definitivos del club.</p>",
+  "citas": [
+    {
+      "autor": "Marcelo Lavagnino",
+      "cargo": "Presidente y fundador del CAB 16",
+      "texto": "Es incomprensible que cualquier tipo de persona atente contra algo tan noble como el deporte y el fútbol infantil. Vienen niños que no tienen madre y el club es todo para ellos, el único espacio de contención y abrazo. Cuesta todo, pero las ganas nunca van a faltar; los otros clubes de Lifuba ya nos llamaron para darnos una mano y vamos a comenzar nuevamente."
+    }
+  ],
+  "datos_duros": {
+    "institucion_afectada": "Club Atlético Bariloche 16 (CAB 16), fundado en 1994",
+    "chicos_asistidos": "130 niños y adolescentes de 5 a 14 años en fútbol formativo",
+    "antecedente_fuego": "Segundo incendio en 5 meses (en abril pasado ya habían quemado sus instalaciones previas)",
+    "danos": "Destrucción total de la unidad adaptada y elementos deportivos",
+    "red_solidaria": "Clubes de LI.FU.BA. iniciaron campañas de recaudación y donación de insumos"
+  },
+  "area": "Vida Social, Cultura & Comunidad",
+  "fecha": "2026-09-28",
+  "foto": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/09/elcordillerano/images/02/78/97/2789794_5c40db21e328dc5ff12700e54c2934f8a4cfff2f82da85e81bb59f671dc8bb1d/md.webp",
+  "updated_at": "2026-09-29T12:07:10.043Z",
+  "imagen_url": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/09/elcordillerano/images/02/78/97/2789794_5c40db21e328dc5ff12700e54c2934f8a4cfff2f82da85e81bb59f671dc8bb1d/md.webp",
+  "media": {
+    "credito": "Fotos: El Cordillerano Radio (FM 93.7)",
+    "requiere_foto": false,
+    "imagen_url": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/09/elcordillerano/images/02/78/97/2789794_5c40db21e328dc5ff12700e54c2934f8a4cfff2f82da85e81bb59f671dc8bb1d/md.webp"
+  },
+  "url": "https://www.elcordillerano.com.ar/noticias/2026/09/28/264493-incendiaron-el-micro-que-el-cab-16-usaba-de-vestuario-es-impensado-que-atenten-contra-algo-tan-noble-como-el-futbol"
+}

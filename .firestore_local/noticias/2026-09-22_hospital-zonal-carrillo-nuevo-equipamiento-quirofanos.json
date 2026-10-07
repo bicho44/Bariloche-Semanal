@@ -1,0 +1,48 @@
+{
+  "id": "2026-09-22_hospital-zonal-carrillo-nuevo-equipamiento-quirofanos",
+  "fecha_publicacion": "2026-09-22",
+  "titular": "El Hospital Zonal Ramón Carrillo sumó tecnología y equipamiento de alta complejidad para cirugías",
+  "hecho_central": "El Ministerio de Salud de Río Negro incorporó un nuevo arco en C para diagnóstico intraoperatorio y una lavadora industrial en el Hospital Zonal Bariloche, mientras tramita la compra de un craneótomo y autoclave para optimizar el ritmo de 15 cirugías diarias.",
+  "area_id": "gestion-publica",
+  "dossier_id": null,
+  "fuente": {
+    "id": "prensa-rio-negro",
+    "nombre": "Prensa Río Negro",
+    "url_nota": "https://prensa.rionegro.gov.ar/articulo/61644/mas-tecnologia-y-equipamiento-para-transformar-el-hospital-de-bariloche?n=OTE"
+  },
+  "novedad_respecto_a_dias_previos": "Recepción e instalación efectiva del nuevo arco en C digital para quirófanos y lavadora industrial en el Hospital Ramón Carrillo, ampliando cirugías complejas sin derivación.",
+  "datos_duros": {
+    "equipamiento_recibido": "Arco en C digital y lavadora industrial",
+    "equipamiento_en_tramite": "Craneotomo, autoclave y lavadora termodesinfectadora",
+    "hospital": "Dr. Ramón Carrillo"
+  },
+  "citas": [
+    {
+      "autor": "Alberto Weretilneck",
+      "texto": "La modernización del Hospital Zonal de Bariloche con equipamiento de alta tecnología garantiza que nuestros vecinos accedan a cirugías complejas en la salud pública."
+    }
+  ],
+  "entidades": {
+    "actores": [
+      "hospital-ramon-carrillo",
+      "ministerio-salud-rio-negro",
+      "alberto-weretilneck"
+    ],
+    "lugares": [
+      "bariloche",
+      "hospital-zonal"
+    ]
+  },
+  "cobertura_cruzada": 2,
+  "cuerpo_html": "<p>En el marco del plan provincial de fortalecimiento sanitario, el Hospital Zonal “Dr. Ramón Carrillo” de Bariloche incorporó <strong>equipamiento médico de última generación para quirófanos y áreas de esterilización</strong>, destacándose la llegada de un nuevo arco en C (equipo móvil de radioscopía) y una lavadora industrial de alta capacidad, según informó <a href=\"https://prensa.rionegro.gov.ar/articulo/61644/mas-tecnologia-y-equipamiento-para-transformar-el-hospital-de-bariloche?n=OTE\" target=\"_blank\" rel=\"noopener noreferrer\">Prensa Río Negro</a>.</p>\n<p>La incorporación del arco en C permitirá elevar la precisión en cirugías traumatológicas, vasculares y urológicas complejas, reduciendo los tiempos operatorios en un centro asistencial de cabecera regional que promedia entre 13 y 15 intervenciones quirúrgicas programadas y de urgencia por jornada. En paralelo, la cartera sanitaria confirmó que avanza la licitación para sumar un craneótomo neuroquirúrgico, una autoclave y una termodesinfectadora automática.</p>\n<blockquote cite=\"https://prensa.rionegro.gov.ar/articulo/61644/mas-tecnologia-y-equipamiento-para-transformar-el-hospital-de-bariloche?n=OTE\"><p>«Dotar de tecnología de punta al Ramón Carrillo es garantizar que los vecinos de Bariloche y toda la zona andina reciban atención de excelencia sin derivaciones innecesarias», remarcaron desde la dirección hospitalaria.</p></blockquote>\n<p>La modernización del área quirúrgica se articula con la puesta en valor de las salas de internación y la digitalización progresiva del sistema de turnos para optimizar la atención de la demanda comunitaria.</p>",
+  "area": "Gestión Pública",
+  "fecha": "2026-09-22",
+  "url": "https://prensa.rionegro.gov.ar/articulo/61644/mas-tecnologia-y-equipamiento-para-transformar-el-hospital-de-bariloche?n=OTE",
+  "foto": "https://prensa.rionegro.gov.ar/_next/image?url=https%3A%2F%2Fsilvercoder.rionegro.gov.ar%2Ffiles%2F1790095987_d5a9fc6eedc08d2fe564.jpeg&w=1920&q=75",
+  "updated_at": "2026-09-28T12:26:19.778Z",
+  "imagen_url": "https://prensa.rionegro.gov.ar/_next/image?url=https%3A%2F%2Fsilvercoder.rionegro.gov.ar%2Ffiles%2F1790095987_d5a9fc6eedc08d2fe564.jpeg&w=1920&q=75",
+  "media": {
+    "credito": "Foto: Prensa Gobierno de Río Negro",
+    "imagen_url": "https://prensa.rionegro.gov.ar/_next/image?url=https%3A%2F%2Fsilvercoder.rionegro.gov.ar%2Ffiles%2F1790095987_d5a9fc6eedc08d2fe564.jpeg&w=1920&q=75"
+  }
+}

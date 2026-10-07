@@ -1,0 +1,40 @@
+{
+  "id": "2026-09-24_temporal-record-lluvia-bariloche-68mm-24-horas-smn",
+  "titular": "En 24 horas cayeron 68 milímetros de lluvia en Bariloche, superando en un 23% el promedio de todo septiembre",
+  "hecho_central": "El intenso temporal cordillerano acumuló 68 milímetros de precipitaciones pluviales en un solo día en Bariloche, superando la media histórica mensual del mes de septiembre (55,4 mm) y encabezando los registros de la región patagónica por delante de El Bolsón, Chapelco y Esquel.",
+  "fecha_publicacion": "2026-09-24",
+  "area_id": "turismo",
+  "dossier_id": null,
+  "seguimiento_id": "temporada-turistica-nieve",
+  "fuente": {
+    "id": "el-cordillerano",
+    "nombre": "Diario El Cordillerano",
+    "url_nota": "https://www.elcordillerano.com.ar/noticias/2026/09/24/263938-en-24-horas-cayo-en-bariloche-mas-lluvia-de-la-que-suele-acumular-todo-septiembre"
+  },
+  "cuerpo_html": "<p class=\"c-dossier-link\">📌 <em>Seguimiento: <a href=\"/seguimientos/temporada-turistica-nieve\">Temporada Turística, Nieve y Conectividad</a></em></p>\n<p>El frente meteorológico que castiga a la zona andina dejó un registro extraordinario: <strong>en apenas 24 horas cayeron en San Carlos de Bariloche 68 milímetros de lluvia</strong>, un caudal que supera en un <strong>23% el promedio habitual de precipitaciones de todo el mes de septiembre</strong> (fijado en 55,4 mm por el Servicio Meteorológico Nacional), según consignó <a href=\"https://www.elcordillerano.com.ar/noticias/2026/09/24/263938-en-24-horas-cayo-en-bariloche-mas-lluvia-de-la-que-suele-acumular-todo-septiembre\" target=\"_blank\" rel=\"noopener noreferrer\">El Cordillerano</a>.</p>\n<p>La marca posicionó a Bariloche como la ciudad más afectada por las lluvias en toda la Patagonia, superando los registros de El Bolsón (42 mm), Chapelco (40 mm) y Esquel (28 mm). Si bien el récord absoluto diario para el mes se remonta al 14 de septiembre de 2023 con 72 mm, la acumulación actual precipitó el colapso momentáneo de pluviales y aceleró el escurrimiento de cuencas de montaña hacia los lagos Nahuel Huapi y Gutiérrez.</p>\n<blockquote cite=\"https://www.elcordillerano.com.ar/noticias/2026/09/24/263938-en-24-horas-cayo-en-bariloche-mas-lluvia-de-la-que-suele-acumular-todo-septiembre\"><p>«El volumen caído permite dimensionar la intensidad del episodio que atraviesa la región cordillerana, con saturación hídrica extrema en laderas y cursos de agua», detalló el informe técnico del SMN.</p></blockquote>\n<p>En las cotas intermedias y altas de Cerro Catedral el evento se manifestó como agua-nieve y nevadas húmedas, mientras las autoridades de Parques Nacionales y Vialidad Nacional aguardan el descenso del alerta a nivel amarillo para reabrir sendas y habilitar el tránsito continuo en Siete Lagos.</p>",
+  "citas": [
+    {
+      "autor": "Servicio Meteorológico Nacional",
+      "cargo": "Reporte Hidrometeorológico Oficial",
+      "texto": "Bariloche registró 68 milímetros de lluvia en las últimas 24 horas, un volumen que permite dimensionar la intensidad del episodio que atraviesa la región cordillerana."
+    }
+  ],
+  "datos_duros": {
+    "lluvia_acumulada_24h": "68 milímetros",
+    "promedio_historico_septiembre": "55,4 milímetros (+23% por encima de todo el mes)",
+    "comparativa_regional": "Bariloche 68 mm, El Bolsón 42 mm, Chapelco 40 mm, Esquel 28 mm",
+    "antecedente_cercano": "72 mm el 14 de septiembre de 2023 (récord diario de la serie reciente)",
+    "estado_alertas": "Descenso gradual de alerta roja a naranja y amarilla hacia el viernes"
+  },
+  "area": "Pulso Turístico",
+  "fecha": "2026-09-24",
+  "foto": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/04/elcordillerano/images/02/57/29/2572916_7227077fea2841f4f2621d1ecd61717510e54b98f858b5d90580875e6e756ea6/md.webp",
+  "updated_at": "2026-09-25T00:07:27.025Z",
+  "imagen_url": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/04/elcordillerano/images/02/57/29/2572916_7227077fea2841f4f2621d1ecd61717510e54b98f858b5d90580875e6e756ea6/md.webp",
+  "media": {
+    "credito": "Foto: Euge Neme / El Cordillerano",
+    "requiere_foto": false,
+    "imagen_url": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/04/elcordillerano/images/02/57/29/2572916_7227077fea2841f4f2621d1ecd61717510e54b98f858b5d90580875e6e756ea6/md.webp"
+  },
+  "url": "https://www.elcordillerano.com.ar/noticias/2026/09/24/263938-en-24-horas-cayo-en-bariloche-mas-lluvia-de-la-que-suele-acumular-todo-septiembre"
+}

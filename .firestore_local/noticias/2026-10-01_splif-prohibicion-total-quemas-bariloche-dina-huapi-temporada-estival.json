@@ -1,0 +1,40 @@
+{
+  "id": "2026-10-01_splif-prohibicion-total-quemas-bariloche-dina-huapi-temporada-estival",
+  "titular": "El SPLIF fijó el cierre de temporada de quemas: desde el lunes 5 de octubre regirá la veda total en Bariloche, Dina Huapi y Llanquín",
+  "hecho_central": "El Servicio de Prevención y Lucha contra Incendios Forestales (SPLIF) de Río Negro confirmó la finalización formal de la temporada habilitada de quemas, estableciendo que a partir del lunes 5 de octubre quedará estrictamente prohibido realizar cualquier tipo de quema de restos vegetales o poda en Bariloche, Dina Huapi y Villa Llanquín, con plazo hasta el viernes 2 para tramitar autorizaciones vigentes.",
+  "fecha_publicacion": "2026-10-01",
+  "area_id": "turismo",
+  "dossier_id": null,
+  "seguimiento_id": "temporada-turistica-nieve",
+  "fuente": {
+    "id": "bariloche-opina",
+    "nombre": "Bariloche Opina",
+    "url_nota": "https://www.barilocheopina.com/noticias/2026/10/01/95205-desde-el-lunes-5-de-octubre-quedan-prohibidas-las-quemas-en-bariloche-dina-huapi-y-villa-llanquin"
+  },
+  "cuerpo_html": "<p class=\"c-dossier-link\">📌 <em>Seguimiento: <a href=\"/seguimientos/temporada-turistica-nieve\">Temporada Turística, Nieve y Conectividad</a></em></p>\n<p>Ante el inicio del período estacional de vientos y el incremento gradual de temperaturas, <strong>el Servicio de Prevención y Lucha contra Incendios Forestales (SPLIF) de Río Negro resolvió establecer la veda total y definitiva de quemas en toda la Zona Andina a partir del próximo lunes 5 de octubre</strong>, según confirmó <a href=\"https://www.barilocheopina.com/noticias/2026/10/01/95205-desde-el-lunes-5-de-octubre-quedan-prohibidas-las-quemas-en-bariloche-dina-huapi-y-villa-llanquin\" target=\"_blank\" rel=\"noopener noreferrer\">Bariloche Opina</a>.</p>\n<p>La prohibición alcanza a las jurisdicciones de <strong>San Carlos de Bariloche, Dina Huapi y Villa Llanquín</strong>, abarcando cualquier tipo de reducción de restos vegetales, residuos forestales o tareas de desmalezamiento de predios privados. El organismo aclaró que este viernes 2 de octubre será la última jornada habilitada para tramitar o retirar permisos en su base operativa central, cerrando de forma irreversible la ventana administrativa del invierno 2026.</p>\n<blockquote cite=\"https://www.barilocheopina.com/noticias/2026/10/01/95205-desde-el-lunes-5-de-octubre-quedan-prohibidas-las-quemas-en-bariloche-dina-huapi-y-villa-llanquin\">\n<p>«Concluida la fecha límite, cualquier foco generado en áreas de interfaz o de bosque nativo será considerado una infracción grave sujeta a severas penalidades económicas y denuncias judiciales», alertaron desde la jefatura del SPLIF.</p>\n</blockquote>\n<p>La disposición marca la transición hacia el dispositivo de prevención y combate de incendios estivales, coordinado en simultáneo con las brigadas del Parque Nacional Nahuel Huapi y los cuarteles de Bomberos Voluntarios de la comarca.</p>",
+  "citas": [
+    {
+      "autor": "Central Operativa SPLIF Bariloche",
+      "cargo": "Reporte de Riesgo y Operaciones Forestales",
+      "texto": "A partir de la fecha establecida no se emitirán nuevos permisos bajo ninguna circunstancia. Con el advenimiento de la primavera y el aumento de las marcas térmicas, cualquier fuego no regulado en zonas boscosas o de interfase urbano-rural representa una amenaza inadmisible para la comunidad."
+    }
+  ],
+  "datos_duros": {
+    "fecha_inicio_veda_total": "Lunes 5 de octubre de 2026",
+    "plazo_limite_permisos": "Viernes 2 de octubre de 2026 en central operativa de SPLIF",
+    "jurisdiccion_alcanzada": "San Carlos de Bariloche, Dina Huapi y Villa Llanquín",
+    "organismo_fiscalizador": "SPLIF Zona Andina (Río Negro)",
+    "motivo_operativo": "Cierre preventivo de temporada invernal por elevación de temperaturas e incremento de riesgo de incendios de interfase"
+  },
+  "area": "Pulso Turístico",
+  "fecha": "2026-10-01",
+  "foto": "https://barilocheopina1.cdn.net.ar/252/barilocheopina/images/99/35/993524_ae7c482f003133c5caaa309d9a18a8d7b6aef86083b784fdf8a5418bb69d66a1/md.webp",
+  "updated_at": "2026-10-02T12:17:44.374Z",
+  "imagen_url": "https://barilocheopina1.cdn.net.ar/252/barilocheopina/images/99/35/993524_ae7c482f003133c5caaa309d9a18a8d7b6aef86083b784fdf8a5418bb69d66a1/md.webp",
+  "media": {
+    "credito": "Prensa SPLIF Río Negro / Bariloche Opina",
+    "requiere_foto": false,
+    "imagen_url": "https://barilocheopina1.cdn.net.ar/252/barilocheopina/images/99/35/993524_ae7c482f003133c5caaa309d9a18a8d7b6aef86083b784fdf8a5418bb69d66a1/md.webp"
+  },
+  "url": "https://www.barilocheopina.com/noticias/2026/10/01/95205-desde-el-lunes-5-de-octubre-quedan-prohibidas-las-quemas-en-bariloche-dina-huapi-y-villa-llanquin"
+}

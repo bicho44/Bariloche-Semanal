@@ -1,0 +1,40 @@
+{
+  "id": "2026-10-04_radisson-blu-lanzamiento-oficial-balc-2026-polo-gastronomico",
+  "titular": "Radisson Blu fue el epicentro del lanzamiento de BALC 2026 con más de 100 referentes gastronómicos y hoteleros",
+  "hecho_central": "En el Salón Bandurrias de Radisson Blu Bariloche se realizó la apertura de prensa y lanzamiento oficial de la 13ª edición de Bariloche a la Carta (BALC), convocando a más de 100 empresarios, chefs, hoteleros y autoridades gubernamentales para presentar el circuito que se desplegará del 5 al 12 de octubre.",
+  "area_id": "turismo",
+  "seguimiento_id": "temporada-turistica-nieve",
+  "fuente": {
+    "id": "anbariloche",
+    "nombre": "ANBariloche",
+    "url_nota": "https://www.anbariloche.com.ar/noticias/2026/10/04/118989-radisson-blu-bariloche-epicentro-del-lanzamiento-de-bariloche-a-la-carta"
+  },
+  "cuerpo_html": "<p class=\"c-dossier-link\">📌 <em>Seguimiento: <a href=\"/seguimientos/temporada-turistica-nieve\">Temporada Turística, Nieve y Conectividad</a></em></p>\n<p>La cita culinaria más trascendente de la Patagonia encendió sus fogones protocolares: <strong>el complejo hotelero Radisson Blu Bariloche albergó este domingo la presentación formal y lanzamiento de prensa de la 13ª edición de Bariloche a la Carta (BALC 2026)</strong>, según informó <a href=\"https://www.anbariloche.com.ar/noticias/2026/10/04/118989-radisson-blu-bariloche-epicentro-del-lanzamiento-de-bariloche-a-la-carta\" target=\"_blank\" rel=\"noopener noreferrer\">ANBariloche</a>.</p>\n<p>El encuentro se desarrolló en el Salón Bandurrias y congregó a más de un centenar de cocineros, empresarios hoteleros, productores de la comarca y funcionarios municipales y provinciales, quienes trazaron los ejes del evento que se desplegará <strong>del 5 al 12 de octubre</strong>. La propuesta articulará un circuito de más de 70 establecimientos gastronómicos con menús especiales a precios bonificados (descuentos del 20% para residentes con tarjetas locales), pop-ups con chefs de jerarquía internacional y la tradicional feria gastronómica al aire libre en el Centro Cívico.</p>\n<blockquote cite=\"https://www.anbariloche.com.ar/noticias/2026/10/04/118989-radisson-blu-bariloche-epicentro-del-lanzamiento-de-bariloche-a-la-carta\">\n<p>«Bariloche a la Carta es la demostración palpable de cómo la identidad productiva regional —el cordero, la trucha, los hongos y la fruta fina— puede transformarse en una política pública de atracción turística de clase mundial», destacaron los organizadores de la AEHGB y el EMPROTUR.</p>\n</blockquote>\n<p>La semana de actividades gastronómicas funcionará como el motor principal de la desestacionalización primaveral, en momentos en que la ciudad celebra el reciente reconocimiento otorgado por Lonely Planet como destino global para 2027.</p>",
+  "citas": [
+    {
+      "autor": "Asociación Empresaria Hotelera Gastronómica de Bariloche (AEHGB)",
+      "cargo": "Apertura Oficial BALC 2026",
+      "texto": "BALC trasciende la cocina: es el gran articulador entre nuestros productores de cordillera y estepa, los cocineros y la promoción internacional del destino en el inicio de la primavera."
+    }
+  ],
+  "datos_duros": {
+    "sede_apertura": "Salón Bandurrias, Radisson Blu Bariloche (costanera lago Nahuel Huapi)",
+    "asistencia_sectorial": "Más de 100 referentes de gastronomía, hotelería y autoridades provinciales y municipales",
+    "duracion_evento": "Semana gastronómica del 5 al 12 de octubre de 2026",
+    "impacto_promocional": "Circuito de 70 restaurantes adheridos, feria en Centro Cívico (9 al 12 de octubre) y clases magistrales"
+  },
+  "area": "Pulso Turístico",
+  "fecha": "2026-10-02",
+  "foto": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/10/anbariloche/images/02/79/84/2798435_6338d8e7181f129483d01bbb24c869e612795bc7a24533b7946cf3584f0e8e1e/md.webp",
+  "updated_at": "2026-10-05T12:13:38.679Z",
+  "curada_manualmente": true,
+  "imagen_url": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/10/anbariloche/images/02/79/84/2798435_6338d8e7181f129483d01bbb24c869e612795bc7a24533b7946cf3584f0e8e1e/md.webp",
+  "media": {
+    "credito": "Prensa BALC / ANBariloche",
+    "requiere_foto": false,
+    "imagen_url": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/10/anbariloche/images/02/79/84/2798435_6338d8e7181f129483d01bbb24c869e612795bc7a24533b7946cf3584f0e8e1e/md.webp"
+  },
+  "dossier_id": "temporada-turistica-nieve",
+  "url": "https://www.anbariloche.com.ar/noticias/2026/10/04/118989-radisson-blu-bariloche-epicentro-del-lanzamiento-de-bariloche-a-la-carta",
+  "fecha_publicacion": "2026-10-02"
+}

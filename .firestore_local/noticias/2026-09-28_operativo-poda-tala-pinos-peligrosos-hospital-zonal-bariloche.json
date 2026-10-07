@@ -1,0 +1,39 @@
+{
+  "id": "2026-09-28_operativo-poda-tala-pinos-peligrosos-hospital-zonal-bariloche",
+  "titular": "El Municipio avanzó con la tala y poda preventiva de pinos de gran porte en el predio del Hospital Zonal Bariloche",
+  "hecho_central": "Cuadrillas municipales de Parques y Jardines intervinieron sobre calle Otto Goedecke podando y retirando pinos añosos de gran porte ubicados en los jardines perimetrales del Hospital Zonal Ramón Carrillo, en el marco del plan de apeo preventivo que busca neutralizar riesgos de caída sobre peatones y líneas de servicios.",
+  "fecha_publicacion": "2026-09-28",
+  "area_id": "gestion-publica",
+  "dossier_id": null,
+  "seguimiento_id": null,
+  "fuente": {
+    "id": "el-cordillerano",
+    "nombre": "Diario El Cordillerano",
+    "url_nota": "https://www.elcordillerano.com.ar/noticias/2026/09/28/264529-continua-el-operativo-para-retirar-pinos-peligrosos-en-el-centro-de-bariloche"
+  },
+  "cuerpo_html": "<p>En el marco del plan integral de ordenamiento y seguridad del arbolado público urbano, <strong>cuadrillas de la Municipalidad de Bariloche desplegaron este lunes un operativo de poda y apeo sobre ejemplares de pino de gran altura situados en el predio del Hospital Zonal Dr. Ramón Carrillo</strong>, según informó <a href=\"https://www.elcordillerano.com.ar/noticias/2026/09/28/264529-continua-el-operativo-para-retirar-pinos-peligrosos-en-el-centro-de-bariloche\" target=\"_blank\" rel=\"noopener noreferrer\">El Cordillerano</a>.</p>\n<p>Las labores se concentraron a lo largo de la calle Otto Goedecke, entre Elflein y Moreno, donde los operarios utilizaron hidrogrúas y motosierras para reducir el volumen de copa y retirar ramas con peligro de desprendimiento sobre la vereda del nosocomio. La acción responde al protocolo municipal impulsado por el intendente Walter Cortés tras las recientes contingencias climáticas, que evidenciaron el peligro que representan ejemplares exóticos añosos con raíces superficiales o ramas quebradizas en áreas de intenso flujo peatonal.</p>\n<blockquote cite=\"https://www.elcordillerano.com.ar/noticias/2026/09/28/264529-continua-el-operativo-para-retirar-pinos-peligrosos-en-el-centro-de-bariloche\"><p>«Se priorizan aquellos puntos donde los árboles presentan inclinación o debilitamiento estructural, evitando tragedias viales y daños a los tendidos eléctricos y edilicios», explicaron voceros de Servicios Públicos.</p></blockquote>\n<p>Las tareas preventivas continuarán durante la semana en las inmediaciones del Velódromo municipal y espacios verdes del macrocentro.</p>",
+  "citas": [
+    {
+      "autor": "Walter Cortés",
+      "cargo": "Intendente Municipal de Bariloche",
+      "texto": "Las intervenciones responden a la necesidad de actuar sobre árboles que presentan riesgo inminente de caída o desprendimiento de ramas pesadas y que representan un peligro para los vecinos y quienes circulan por los sectores sanitarios y céntricos."
+    }
+  ],
+  "datos_duros": {
+    "cuadrante_intervenido": "Calle Otto Goedecke entre Elflein y Moreno (jardines del Hospital Zonal)",
+    "operativo_alcance": "Poda de ramas bajas y derribo de ejemplares secos con desbalance de copa",
+    "antecedentes_plan": "Más de 60 árboles retirados en la Costanera en mayo y megaoperativo en barrios Ayelén y Güemes",
+    "motivo_oficial": "Riesgo de desprendimiento y caída tras temporales de saturación hídrica"
+  },
+  "area": "Gestión Pública",
+  "fecha": "2026-09-28",
+  "foto": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/09/elcordillerano/images/02/78/98/2789878_7c020632e187e94c4de360abf324c87697a5b8888df3ff06cce983306e74c949/md.webp",
+  "updated_at": "2026-09-29T12:07:43.895Z",
+  "imagen_url": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/09/elcordillerano/images/02/78/98/2789878_7c020632e187e94c4de360abf324c87697a5b8888df3ff06cce983306e74c949/md.webp",
+  "media": {
+    "credito": "Fotos: Facundo Pardo / El Cordillerano",
+    "requiere_foto": false,
+    "imagen_url": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/09/elcordillerano/images/02/78/98/2789878_7c020632e187e94c4de360abf324c87697a5b8888df3ff06cce983306e74c949/md.webp"
+  },
+  "url": "https://www.elcordillerano.com.ar/noticias/2026/09/28/264529-continua-el-operativo-para-retirar-pinos-peligrosos-en-el-centro-de-bariloche"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "2026-09-25_carta-organica-propuesta-mas-bariloche-fin-reeleccion-concejales-circuitos",
+  "titular": "+Bariloche propone terminar con la reelección consecutiva del intendente e incorporar representación barrial directa en el Concejo Municipal",
+  "hecho_central": "La fuerza +Bariloche – SUMAR SUR (Lista 659) presentó su propuesta para la Convención Constituyente del 1 de noviembre: aplicar el criterio de 'cuatro años y basta' prohibiendo la reelección inmediata del intendente y crear un sistema mixto en el Concejo con bancas exclusivas por circuitos territoriales (Alto, Este, Oeste y Centro).",
+  "fecha_publicacion": "2026-09-25",
+  "area_id": "gestion-publica",
+  "dossier_id": null,
+  "seguimiento_id": "carta-organica-reforma",
+  "fuente": {
+    "id": "el-cordillerano",
+    "nombre": "Diario El Cordillerano",
+    "url_nota": "https://www.elcordillerano.com.ar/noticias/2026/09/25/264076-cuatro-anos-y-basta-bariloche-propone-terminar-con-la-reeleccion-inmediata-y-llevar-los-barrios-al-concejo-municipal"
+  },
+  "cuerpo_html": "<p class=\"c-dossier-link\">📌 <em>Seguimiento: <a href=\"/seguimientos/carta-organica-reforma\">Actualización de la Carta Orgánica Municipal</a></em></p>\n<p>De cara a los comicios del próximo 1 de noviembre, la fuerza política <strong>+Bariloche – SUMAR SUR (Lista 659)</strong> oficializó este viernes sus dos principales ejes de reforma constitucional: <strong>prohibir la reelección inmediata del intendente municipal</strong> e instaurar un <strong>sistema mixto de bancas en el Concejo Deliberante con representación territorial por circuitos</strong>, según informó <a href=\"https://www.elcordillerano.com.ar/noticias/2026/09/25/264076-cuatro-anos-y-basta-bariloche-propone-terminar-con-la-reeleccion-inmediata-y-llevar-los-barrios-al-concejo-municipal\" target=\"_blank\" rel=\"noopener noreferrer\">El Cordillerano</a>.</p>\n<p>Bajo la consigna «cuatro años y basta», la iniciativa plantea que quien ejerza el Poder Ejecutivo local no pueda postularse para un segundo mandato consecutivo, anulando la ventaja estructural del aparato estatal y habilitando su retorno sólo tras dejar transcurrir un período completo en el llano. En paralelo, para romper la concentración de poder en el microcentro, proponen que las regiones del Alto, Este, Oeste y Centro elijan concejales directos por circuito barrial junto a representantes poblacionales generales.</p>\n<blockquote cite=\"https://www.elcordillerano.com.ar/noticias/2026/09/25/264076-cuatro-anos-y-basta-bariloche-propone-terminar-con-la-reeleccion-inmediata-y-llevar-los-barrios-al-concejo-municipal\"><p>«El poder no puede tener dueño. Cuatro años alcanzan para demostrar qué ciudad querés construir. Después hay que dejar el sillón, volver al llano y darle lugar a otro. Bariloche no termina en el Centro Cívico y el sistema tiene que integrar a los barrios», argumentó el exlegislador y candidato Alejo Ramos Mejía.</p></blockquote>\n<p>La propuesta abre el debate doctrinario entre las 13 listas oficializadas que competirán por las 15 bancas de convencionales, en una convención que definirá las reglas de gobernabilidad local para los próximos veinte años.</p>",
+  "citas": [
+    {
+      "autor": "Alejo Ramos Mejía",
+      "cargo": "Primer candidato a convencional constituyente (+Bariloche – SUMAR SUR)",
+      "texto": "El poder no puede tener dueño. Cuatro años alcanzan para demostrar qué ciudad querés construir. Después hay que dejar el sillón, volver al llano y darle lugar a otro. Bariloche no termina en el Centro Cívico y su sistema político tiene que reflejar la ciudad que somos hoy."
+    }
+  ],
+  "datos_duros": {
+    "eleccion_fecha": "1 de noviembre de 2026",
+    "bancas_en_juego": "15 convencionales constituyentes por sistema D'Hondt",
+    "listas_oficializadas": "13 listas habilitadas",
+    "regla_actual": "Mandato de 4 años con reelección inmediata (posibilidad de 8 años consecutivos)",
+    "propuesta_reforma": "Un único mandato sin reelección consecutiva (o debate de 5 a 6 años únicos) y división territorial del Concejo por circuitos barriales"
+  },
+  "area": "Gestión Pública",
+  "fecha": "2026-09-25",
+  "foto": "https://elcordillerano-s2.cdn.net.ar/st2i1700/2023/06/elcordillerano/images/54/89/548956_aa3909fa5ec392a5b22e1647516e7c45b0c7f60cbb73155ae6bf42fce5422dfc/md.webp",
+  "updated_at": "2026-09-28T12:19:12.149Z",
+  "imagen_url": "https://elcordillerano-s2.cdn.net.ar/st2i1700/2023/06/elcordillerano/images/54/89/548956_aa3909fa5ec392a5b22e1647516e7c45b0c7f60cbb73155ae6bf42fce5422dfc/md.webp",
+  "media": {
+    "credito": "Diario El Cordillerano",
+    "requiere_foto": false,
+    "imagen_url": "https://elcordillerano-s2.cdn.net.ar/st2i1700/2023/06/elcordillerano/images/54/89/548956_aa3909fa5ec392a5b22e1647516e7c45b0c7f60cbb73155ae6bf42fce5422dfc/md.webp"
+  },
+  "url": "https://www.elcordillerano.com.ar/noticias/2026/09/25/264076-cuatro-anos-y-basta-bariloche-propone-terminar-con-la-reeleccion-inmediata-y-llevar-los-barrios-al-concejo-municipal"
+}

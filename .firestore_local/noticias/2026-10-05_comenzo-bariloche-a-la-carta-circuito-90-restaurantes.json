@@ -1,0 +1,41 @@
+{
+  "id": "2026-10-05_comenzo-bariloche-a-la-carta-circuito-90-restaurantes",
+  "titular": "Comenzó Bariloche a la Carta: más de 90 restaurantes y hoteles abren el circuito gastronómico con beneficios",
+  "hecho_central": "Arrancó formalmente la 13ª edición de Bariloche a la Carta (BALC 2026), desplegando un circuito de más de 90 establecimientos desde el centro hasta Circuito Chico con menús promocionales de 1 a 3 pasos, 20% de descuento con la tarjeta BALC y nuevas aperturas como Coolto (Radisson Blu) y Solís Cocina junto a clásicos consagrados como Ánima, Quiven y Llao Llao.",
+  "area_id": "turismo",
+  "seguimiento_id": "temporada-turistica-nieve",
+  "fuente": {
+    "id": "bariloche-opina",
+    "nombre": "Bariloche Opina",
+    "url_nota": "https://www.barilocheopina.com/noticias/2026/10/05/95346-comienza-bariloche-a-la-carta-mas-de-90-propuestas-para-recorrer-la-gastronomia-de-la-ciudad"
+  },
+  "cuerpo_html": "<p class=\"c-dossier-link\">📌 <em>Seguimiento: <a href=\"/seguimientos/temporada-turistica-nieve\">Temporada Turística, Nieve y Conectividad</a></em></p>\n<p>La mayor vidriera culinaria de la Patagonia dio inicio a su semana principal: <strong>este lunes 5 de octubre quedó formalmente inaugurado el Circuito Gastronómico de Bariloche a la Carta (BALC 2026), convocando a más de 90 restaurantes, bodegones, bares y grandes hoteles con menús exclusivos y tarifas promocionales</strong>, según destacó <a href=\"https://www.barilocheopina.com/noticias/2026/10/05/95346-comienza-bariloche-a-la-carta-mas-de-90-propuestas-para-recorrer-la-gastronomia-de-la-ciudad\" target=\"_blank\" rel=\"noopener noreferrer\">Bariloche Opina</a>.</p>\n<p>Durante ocho jornadas continuas, los establecimientos ofrecerán propuestas de uno a tres pasos orientadas a poner en valor los productos de estación: trucha cordillerana, cordero patagónico, hongos de pino y frutos del bosque. Los comensales que descarguen la Tarjeta de Beneficios BALC accederán a un <strong>20% de descuento directo</strong> sobre la tarifa fija, complementado con promociones bancarias locales. Entre las novedades de esta edición sobresalen nuevas aperturas como <em>Coolto</em> (Radisson Blu), <em>Solís Cocina</em> en Península San Pedro y <em>Oni Cantina</em>, que conviven con consagradas referencias de alta cocina como <em>Ánima</em> (Prix Baron B), <em>Quiven Patagonia</em> y <em>Llao Llao Resort</em>.</p>\n<blockquote cite=\"https://www.barilocheopina.com/noticias/2026/10/05/95346-comienza-bariloche-a-la-carta-mas-de-90-propuestas-para-recorrer-la-gastronomia-de-la-ciudad\">\n<p>«El circuito invita a redescubrir la ciudad a través de sus mesas, articulando el trabajo de los productores del interior rionegrino con la creatividad de nuestros chefs», remarcaron desde la AEHGB y el EMPROTUR.</p>\n</blockquote>\n<p>La iniciativa funcionará como preludio de la gran feria al aire libre en el Centro Cívico, que abrirá sus puertas este viernes 9 con el espacio BALC Invita y clases magistrales de cocina.</p>",
+  "citas": [
+    {
+      "autor": "Asociación Empresaria Hotelera Gastronómica de Bariloche (AEHGB)",
+      "cargo": "Lanzamiento Circuito Gastronómico BALC",
+      "texto": "El circuito demuestra la vitalidad de la gastronomía cordillerana, combinando productos identitarios como la trucha, el ciervo, los hongos y el chocolate con nuevas aperturas de vanguardia para impulsar el turismo primaveral."
+    }
+  ],
+  "datos_duros": {
+    "establecimientos_adheridos": "Más de 90 restaurantes, bares, cervecerías y hoteles",
+    "vigencia_circuito": "Del 5 al 12 de octubre de 2026",
+    "descuento_beneficios": "20% de descuento adicional con Tarjeta BALC más promociones de Banco Patagonia y Banco Macro",
+    "nuevas_incorporaciones": "Coolto (Radisson Blu), Solís Cocina (Península San Pedro), Costa 82, Oni Cantina, Casa Birka y Carnera",
+    "feria_centro_civico": "Carpa gastronómica del 9 al 12 de octubre de 12:00 a 00:00 hs con BALC Invita"
+  },
+  "area": "Pulso Turístico",
+  "fecha": "2026-10-01",
+  "foto": "https://barilocheopina-s3.cdn.net.ar/s3i233/2026/10/barilocheopina/images/02/79/96/2799666_7ff859f486ac1c50a32268adfba9a6e9231f45575568907aba1f840b104b621b/md.webp",
+  "updated_at": "2026-10-06T11:58:51.397Z",
+  "curada_manualmente": true,
+  "imagen_url": "https://barilocheopina-s3.cdn.net.ar/s3i233/2026/10/barilocheopina/images/02/79/96/2799666_7ff859f486ac1c50a32268adfba9a6e9231f45575568907aba1f840b104b621b/md.webp",
+  "media": {
+    "credito": "Prensa BALC / Bariloche Opina",
+    "requiere_foto": false,
+    "imagen_url": "https://barilocheopina-s3.cdn.net.ar/s3i233/2026/10/barilocheopina/images/02/79/96/2799666_7ff859f486ac1c50a32268adfba9a6e9231f45575568907aba1f840b104b621b/md.webp"
+  },
+  "dossier_id": "temporada-turistica-nieve",
+  "url": "https://www.barilocheopina.com/noticias/2026/10/05/95346-comienza-bariloche-a-la-carta-mas-de-90-propuestas-para-recorrer-la-gastronomia-de-la-ciudad",
+  "fecha_publicacion": "2026-10-01"
+}

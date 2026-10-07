@@ -1,0 +1,39 @@
+{
+  "id": "2026-09-29_crecida-rio-manso-desciende-pampa-linda-onda-valle-el-manso",
+  "titular": "La crecida del río Manso comenzó a bajar en Pampa Linda, pero la onda de crecida se desplaza hacia los valles de El Manso inferior",
+  "hecho_central": "Tras el pico histórico del fin de semana, el río Manso Superior bajó en Pampa Linda pero el puente dañado mantiene cerrado el acceso al Cerro Tronador; expertos meteorológicos alertaron que el caudal avanza con demora hacia los valles de El Manso inferior, donde brigadistas de Parques asisten a 67 familias y evacuaron ganado con lanchas y camiones pesados.",
+  "fecha_publicacion": "2026-09-29",
+  "area_id": "turismo",
+  "dossier_id": null,
+  "seguimiento_id": "temporada-turistica-nieve",
+  "fuente": {
+    "id": "bariloche-opina",
+    "nombre": "Bariloche Opina",
+    "url_nota": "https://www.barilocheopina.com/noticias/2026/09/29/95074-la-crecida-del-rio-manso-comienza-a-bajar-en-pampa-linda-pero-avanza-hacia-otros-sectores"
+  },
+  "cuerpo_html": "<p class=\"c-dossier-link\">📌 <em>Seguimiento: <a href=\"/seguimientos/temporada-turistica-nieve\">Temporada Turística, Nieve y Conectividad</a></em></p>\n<p>La dinámica hidrológica de la cuenca andina sur mostró este martes un comportamiento disímil: <strong>mientras en Pampa Linda las aguas del río Manso Superior regresaron a su cauce ordinario, la masa hídrica avanza con un efecto de retraso hacia el valle de El Manso inferior</strong>, prolongando el anegamiento de campos y accesos rurales, según consignó <a href=\"https://www.barilocheopina.com/noticias/2026/09/29/95074-la-crecida-del-rio-manso-comienza-a-bajar-en-pampa-linda-pero-avanza-hacia-otros-sectores\" target=\"_blank\" rel=\"noopener noreferrer\">Bariloche Opina</a>.</p>\n<p>En la alta montaña, el descenso del nivel del agua permitió verificar los daños estructurales sufridos por los estribos del puente de acceso a Pampa Linda, motivo por el cual la Intendencia del Parque Nacional Nahuel Huapi ratificó que <strong>el circuito a Cerro Tronador continuará cerrado al público</strong>. Aguas abajo, sobre la Ruta Provincial 83, brigadistas del Parque Nacional y Protección Civil operaron con un camión todoterreno URO y un bote semirrígido para abastecer a 67 familias y rescatar a doce vacas atrapadas por la crecida en un islote fluvial.</p>\n<blockquote cite=\"https://www.barilocheopina.com/noticias/2026/09/29/95074-la-crecida-del-rio-manso-comienza-a-bajar-en-pampa-linda-pero-avanza-hacia-otros-sectores\"><p>«En los sectores de llanura el río no tiene un pico súbito sino una meseta de escurrimiento más lenta, lo que mantendrá elevados los caudales en los campos ribereños durante los próximos días», advirtió el meteorólogo Matías De Oto.</p></blockquote>\n<p>Las autoridades vigilan la evolución de nuevos frentes de inestabilidad pronosticados para la segunda mitad de la semana en la cordillera.</p>",
+  "citas": [
+    {
+      "autor": "Matías De Oto",
+      "cargo": "Meteorólogo",
+      "texto": "Vemos cómo se genera un delay porque el pico que tuvimos en Pampa Linda de a poco va a llegar al valle. Cuando el río se transforma en un curso de llanura, no es un pico brusco sino un caudal lento y prolongado que mantendrá anegadas las zonas bajas."
+    }
+  ],
+  "datos_duros": {
+    "efecto_hidrologico": "Delay de 48 a 72 horas en el desplazamiento del pico fluvial hacia la llanura de valle",
+    "estado_tronador": "Río en cauce habitual pero puente de acceso afectado; circuito clausurado hasta nuevo aviso",
+    "asistencia_el_manso": "67 familias (153 personas) entre los km 20 y 30 de la Ruta Provincial 83",
+    "operativo_parques": "Despliegue de camión URO 4x4 y semirrígido de Parques Nacionales; rescate de 12 vacas atrapadas en una isla fluvial"
+  },
+  "area": "Pulso Turístico",
+  "fecha": "2026-09-29",
+  "foto": "https://barilocheopina-s3.cdn.net.ar/s3i233/2026/09/barilocheopina/images/02/79/10/2791058_f0befe23412abf40306d2c9bc61802922af541655e5a9788ffd5da73c5165916/md.webp",
+  "updated_at": "2026-10-01T13:24:28.058Z",
+  "imagen_url": "https://barilocheopina-s3.cdn.net.ar/s3i233/2026/09/barilocheopina/images/02/79/10/2791058_f0befe23412abf40306d2c9bc61802922af541655e5a9788ffd5da73c5165916/md.webp",
+  "media": {
+    "credito": "Prensa Parque Nacional Nahuel Huapi / Bariloche Opina",
+    "requiere_foto": false,
+    "imagen_url": "https://barilocheopina-s3.cdn.net.ar/s3i233/2026/09/barilocheopina/images/02/79/10/2791058_f0befe23412abf40306d2c9bc61802922af541655e5a9788ffd5da73c5165916/md.webp"
+  },
+  "url": "https://www.barilocheopina.com/noticias/2026/09/29/95074-la-crecida-del-rio-manso-comienza-a-bajar-en-pampa-linda-pero-avanza-hacia-otros-sectores"
+}

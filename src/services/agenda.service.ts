@@ -10,12 +10,12 @@ export class AgendaService {
 
     let filtrados = eventos;
     if (proximos) {
-      filtrados = eventos.filter(e => e.fecha_inicio >= hoy || (e.fecha_fin && e.fecha_fin >= hoy));
+      filtrados = eventos.filter(e => (e.fecha_inicio || '') >= hoy || (e.fecha_fin && e.fecha_fin >= hoy));
       // Orden cronológico ascendente (el más próximo primero)
-      filtrados.sort((a, b) => a.fecha_inicio.localeCompare(b.fecha_inicio));
+      filtrados.sort((a, b) => String(a.fecha_inicio || a.id || '').localeCompare(String(b.fecha_inicio || b.id || '')));
     } else {
       // Todos los eventos para el panel de administración, ordenados por fecha de inicio desc
-      filtrados.sort((a, b) => b.fecha_inicio.localeCompare(a.fecha_inicio));
+      filtrados.sort((a, b) => String(b.fecha_inicio || b.id || '').localeCompare(String(a.fecha_inicio || a.id || '')));
     }
 
     return filtrados;

@@ -1,0 +1,41 @@
+{
+  "id": "2026-10-01_transporte-urbano-plazo-actualizar-boleto-residente-sube-noviembre",
+  "titular": "Más de 39.000 vecinos ya actualizaron el Boleto Residente en la SUBE y rige plazo hasta el 30 de noviembre",
+  "hecho_central": "La Subsecretaría de Tránsito y Transporte municipal reportó que más de 39.000 vecinos empadronados ya completaron la reactivación del Boleto Residente en su tarjeta SUBE, recordando que el 30 de noviembre vence el período de renovación obligatoria para conservar la tarifa bonificada de $1.749,98 por viaje en todas las secciones del sistema de transporte urbano.",
+  "fecha_publicacion": "2026-10-01",
+  "area_id": "gestion-publica",
+  "dossier_id": null,
+  "seguimiento_id": "transporte-urbano-mibus",
+  "fuente": {
+    "id": "anbariloche",
+    "nombre": "ANBariloche",
+    "url_nota": "https://www.anbariloche.com.ar/noticias/2026/10/01/118758-hay-tiempo-hasta-el-30-de-noviembre-para-actualizar-el-beneficio-en-la-sube"
+  },
+  "cuerpo_html": "<p class=\"c-dossier-link\">📌 <em>Seguimiento: <a href=\"/seguimientos/transporte-urbano-mibus\">Transporte Urbano de Pasajeros y Concesión Mi Bus</a></em></p>\n<p>En el marco del proceso de reordenamiento del sistema de transporte y mientras el Concejo aguarda el nuevo pliego de concesión, <strong>la Subsecretaría de Tránsito y Transporte de Bariloche confirmó este jueves que más de 39.000 vecinos ya revalidaron su condición de beneficiarios del Boleto Residente en la tarjeta SUBE</strong>, según reportó <a href=\"https://www.anbariloche.com.ar/noticias/2026/10/01/118758-hay-tiempo-hasta-el-30-de-noviembre-para-actualizar-el-beneficio-en-la-sube\" target=\"_blank\" rel=\"noopener noreferrer\">ANBariloche</a>.</p>\n<p>El organismo municipal recordó que los usuarios dispondrán de una ventana operativa <strong>hasta el próximo 30 de noviembre</strong> para completar la actualización en los plásticos y mantener la tarifa diferencial fijada en <strong>$1.749,98 por viaje</strong>, independientemente del tramo recorrido. La franquicia permite realizar hasta cuatro cancelaciones diarias con un intervalo obligatorio de diez minutos entre cada una, garantizando un alivio directo en los costos de traslado de trabajadores y familias locales.</p>\n<blockquote cite=\"https://www.anbariloche.com.ar/noticias/2026/10/01/118758-hay-tiempo-hasta-el-30-de-noviembre-para-actualizar-el-beneficio-en-la-sube\">\n<p>«La revalidación puede ejecutarse de manera instantánea mediante la app SUBE con consulta de saldo, en la validadora a bordo del colectivo avisando al chofer, o en cualquiera de las Terminales Automáticas distribuidas en el Centro Cívico, la Terminal, Delegación Sur y barrios del Oeste», destacaron desde el área de Transporte.</p>\n</blockquote>\n<p>Quienes no posean tarjeta física podrán tramitarla en las dependencias comunales a un valor de $1.500 acreditando residencia efectiva mediante el último DNI con domicilio en el ejido municipal.</p>",
+  "citas": [
+    {
+      "autor": "Subsecretaría de Tránsito y Transporte",
+      "cargo": "Comunicado Oficial de Transporte Municipal",
+      "texto": "El Boleto Residente constituye un derecho adquirido indispensable para la movilidad de los trabajadores y familias de Bariloche; instamos a validar el plástico en las terminales automáticas antes del 30 de noviembre para evitar caídas imprevistas del descuento."
+    }
+  ],
+  "datos_duros": {
+    "usuarios_actualizados": "Más de 39.000 usuarios empadronados",
+    "fecha_vencimiento": "30 de noviembre de 2026",
+    "valor_tarifa_residente": "$1.749,98 por viaje (tarifa única para todas las secciones)",
+    "condiciones_uso": "Hasta 4 viajes diarios con lapso mínimo de 10 minutos entre cancelaciones",
+    "costo_plastico_sube": "$1.500 al gestionar reposición de tarjeta",
+    "puntos_terminales_tas": "Centro Cívico, Terminal de Ómnibus, Villa Los Coihues, B° 645 Viviendas, Delegación Sur, Aeropuerto y Colonia Suiza"
+  },
+  "area": "Gestión Pública",
+  "fecha": "2026-10-01",
+  "foto": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/10/anbariloche/images/02/79/48/2794867_0546b81c907cd1fc3c1a6b227c68944b9167cc8accc959198587364ce47e85f1/md.webp",
+  "updated_at": "2026-10-02T12:18:19.117Z",
+  "imagen_url": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/10/anbariloche/images/02/79/48/2794867_0546b81c907cd1fc3c1a6b227c68944b9167cc8accc959198587364ce47e85f1/md.webp",
+  "media": {
+    "credito": "Prensa Municipalidad de Bariloche / ANBariloche",
+    "requiere_foto": false,
+    "imagen_url": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/10/anbariloche/images/02/79/48/2794867_0546b81c907cd1fc3c1a6b227c68944b9167cc8accc959198587364ce47e85f1/md.webp"
+  },
+  "url": "https://www.anbariloche.com.ar/noticias/2026/10/01/118758-hay-tiempo-hasta-el-30-de-noviembre-para-actualizar-el-beneficio-en-la-sube"
+}

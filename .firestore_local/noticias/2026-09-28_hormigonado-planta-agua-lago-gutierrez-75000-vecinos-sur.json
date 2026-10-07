@@ -1,0 +1,40 @@
+{
+  "id": "2026-09-28_hormigonado-planta-agua-lago-gutierrez-75000-vecinos-sur",
+  "titular": "Comenzó el hormigonado de la nueva planta potabilizadora del Lago Gutiérrez: una inversión de $21.000 millones para abastecer a 75.000 vecinos del sur de Bariloche",
+  "hecho_central": "El Gobierno de Río Negro y Aguas Rionegrinas (ARSA) iniciaron el colado de hormigón en la futura planta potabilizadora del Lago Gutiérrez, una obra estratégica de $21.000 millones y 24 meses de plazo que inyectará hasta 24 millones de litros de agua por día (1.000 m³/hora) para resolver los cortes de verano en 30 barrios del sur barilochense.",
+  "fecha_publicacion": "2026-09-28",
+  "area_id": "gestion-publica",
+  "dossier_id": null,
+  "seguimiento_id": "ceb-municipio-servicios",
+  "fuente": {
+    "id": "el-cordillerano",
+    "nombre": "Diario El Cordillerano",
+    "url_nota": "https://www.elcordillerano.com.ar/noticias/2026/09/28/264505-ya-toma-forma-la-obra-de-agua-impulsada-por-weretilneck-para-mas-de-75000-vecinos-de-bariloche"
+  },
+  "cuerpo_html": "<p class=\"c-dossier-link\">📌 <em>Seguimiento: <a href=\"/seguimientos/ceb-municipio-servicios\">Relación Municipio - CEB y Servicios Públicos</a></em></p>\n<p>La infraestructura sanitaria de Bariloche ingresó este lunes en una fase de avances estructurales: <strong>el Gobierno de Río Negro y la empresa Aguas Rionegrinas (ARSA) iniciaron el colado de hormigón de limpieza en el predio de la futura planta potabilizadora del Lago Gutiérrez</strong>, dando inicio a las obras civiles pesadas de un proyecto que demandará más de <strong>$21.000 millones</strong>, según informó <a href=\"https://www.elcordillerano.com.ar/noticias/2026/09/28/264505-ya-toma-forma-la-obra-de-agua-impulsada-por-weretilneck-para-mas-de-75000-vecinos-de-bariloche\" target=\"_blank\" rel=\"noopener noreferrer\">El Cordillerano</a>.</p>\n<p>El sistema permitirá incorporar una nueva y caudalosa fuente de abastecimiento para terminar con el déficit crónico que sufren más de <strong>75.000 habitantes distribuidos en 30 barrios del Alto y el Sur</strong> (incluyendo los populosos conglomerados de las 645 Viviendas, Valle Azul y Frutillar Alto). La planta tendrá una capacidad inicial de tratamiento de 700 metros cúbicos por hora y escalará hasta los 1.000 m³/hora, lo que se traducirá en un aporte diario de <strong>24 millones de litros de agua potable</strong> impulsados mediante estaciones de bombeo, cisternas de reserva y más de 6.000 metros de nuevas redes maestras.</p>\n<blockquote cite=\"https://www.elcordillerano.com.ar/noticias/2026/09/28/264505-ya-toma-forma-la-obra-de-agua-impulsada-por-weretilneck-para-mas-de-75000-vecinos-de-bariloche\"><p>«Superada la etapa inicial de movimientos de suelo y acopio de materiales, el hormigonado hace visible la magnitud de una obra que garantizará un servicio continuo e independiente de las variaciones del río Ñireco», destacaron los inspectores técnicos de ARSA.</p></blockquote>\n<p>Con un plazo de ejecución de 24 meses, la obra representa la principal inversión en saneamiento hídrico ejecutada por la Provincia en la Zona Andina durante la última década.</p>",
+  "citas": [
+    {
+      "autor": "Bruno Tonelloto y Daniela Frankensteiner",
+      "cargo": "Inspectores de obra de Aguas Rionegrinas (ARSA)",
+      "texto": "El inicio del colado de hormigón marca el paso de los movimientos de suelo a las estructuras visibles; se trata de una tarea preparatoria fundamental para avanzar con las instalaciones que cambiarán la realidad hídrica de la zona sur."
+    }
+  ],
+  "datos_duros": {
+    "inversion_total": "Más de $21.000 millones (fondos provinciales)",
+    "poblacion_beneficiada": "Más de 75.000 habitantes en 30 barrios del sur (645 Viviendas, Valle Azul, Frutillar Alto y pampa de Huenuleo)",
+    "capacidad_produccion": "700 m³/hora en fase inicial hasta 1.000 m³/hora (24 millones de litros diarios)",
+    "infraestructura_componentes": "Toma en Lago Gutiérrez, planta potabilizadora, cisternas de reserva, estaciones de impulsión y más de 6.000 metros de nuevas cañerías",
+    "plazo_obra": "24 meses contractuales"
+  },
+  "area": "Gestión Pública",
+  "fecha": "2026-09-28",
+  "foto": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/09/elcordillerano/images/02/78/98/2789894_35907cb062c98b397c6fadad99a1859c0367c7fbf44f81ee71fcc18f6e748fcc/md.webp",
+  "updated_at": "2026-09-29T12:06:35.518Z",
+  "imagen_url": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/09/elcordillerano/images/02/78/98/2789894_35907cb062c98b397c6fadad99a1859c0367c7fbf44f81ee71fcc18f6e748fcc/md.webp",
+  "media": {
+    "credito": "Prensa Aguas Rionegrinas / El Cordillerano",
+    "requiere_foto": false,
+    "imagen_url": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/09/elcordillerano/images/02/78/98/2789894_35907cb062c98b397c6fadad99a1859c0367c7fbf44f81ee71fcc18f6e748fcc/md.webp"
+  },
+  "url": "https://www.elcordillerano.com.ar/noticias/2026/09/28/264505-ya-toma-forma-la-obra-de-agua-impulsada-por-weretilneck-para-mas-de-75000-vecinos-de-bariloche"
+}

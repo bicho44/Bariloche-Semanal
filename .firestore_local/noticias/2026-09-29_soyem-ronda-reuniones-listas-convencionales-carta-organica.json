@@ -1,0 +1,39 @@
+{
+  "id": "2026-09-29_soyem-ronda-reuniones-listas-convencionales-carta-organica",
+  "titular": "El SOYEM abrió una ronda de reuniones con los candidatos a convencionales para fijar la agenda laboral en la reforma de la Carta Orgánica",
+  "hecho_central": "El sindicato de municipales (SOYEM) activó el ciclo 'La Carta Orgánica en movimiento desde la voz de los trabajadores', reuniéndose con candidatos de PAVE y Fuerza Bariloche para exigir que la nueva Convención Municipal Constituyente del 1 de noviembre preserve la estabilidad laboral y la carrera administrativa.",
+  "fecha_publicacion": "2026-09-29",
+  "area_id": "gestion-publica",
+  "dossier_id": null,
+  "seguimiento_id": "carta-organica-reforma",
+  "fuente": {
+    "id": "anbariloche",
+    "nombre": "ANBariloche",
+    "url_nota": "https://www.anbariloche.com.ar/noticias/2026/09/29/118573-soyem-se-reune-con-espacios-que-participan-de-la-eleccion-de-convencionales"
+  },
+  "cuerpo_html": "<p class=\"c-dossier-link\">📌 <em>Seguimiento: <a href=\"/seguimientos/carta-organica-reforma\">Actualización de la Carta Orgánica Municipal</a></em></p>\n<p>Con la mirada puesta en las elecciones del próximo 1 de noviembre, <strong>el Sindicato de Obreros y Empleados Municipales (SOYEM) puso en marcha este martes una ronda de audiencias institucionales con las fuerzas políticas que competirán por las 15 bancas de convencionales constituyentes</strong>, según consignó <a href=\"https://www.anbariloche.com.ar/noticias/2026/09/29/118573-soyem-se-reune-con-espacios-que-participan-de-la-eleccion-de-convencionales\" target=\"_blank\" rel=\"noopener noreferrer\">ANBariloche</a>.</p>\n<p>Bajo la consigna <em>«La Carta Orgánica en movimiento desde la voz de los trabajadores»</em>, la conducción gremial recibió en su sede a referentes de <strong>Participación Vecinal (PAVE)</strong> —encabezados por Norberto Rodríguez y Pablo Delgado— y de <strong>Fuerza Bariloche</strong> —con la presencia de Andrea Galaverna, Mabel Oviedo y Josefina González Elizondo—. El gremio busca comprometer a los candidatos en la defensa de la estabilidad laboral del empleo público, los concursos para cargos jerárquicos y la intangibilidad del estatuto municipal frente a intentos de precarización o flexibilización.</p>\n<blockquote cite=\"https://www.anbariloche.com.ar/noticias/2026/09/29/118573-soyem-se-reune-con-espacios-que-participan-de-la-eleccion-de-convencionales\"><p>«La modernización del Estado municipal no puede hacerse a costa de los derechos adquiridos. La carrera administrativa es la garantía de que las políticas públicas trasciendan a los gobiernos de turno», plantearon desde el sindicato.</p></blockquote>\n<p>La entidad continuará las reuniones con el resto de las listas habilitadas en la Boleta Única y abrirá talleres deliberativos con sus afiliados.</p>",
+  "citas": [
+    {
+      "autor": "Comisión Directiva SOYEM",
+      "cargo": "Sindicato de Obreros y Empleados Municipales",
+      "texto": "Buscamos generar espacios de debate para que la voz de los trabajadores municipales esté presente en la reforma, garantizando que el nuevo texto respete la carrera administrativa y la función pública como pilares del Estado local."
+    }
+  ],
+  "datos_duros": {
+    "ciclo_gremial": "'La Carta Orgánica en movimiento desde la voz de los trabajadores'",
+    "fuerzas_reunidas": "Participación Vecinal (PAVE) y Fuerza Bariloche",
+    "referentes_politicos": "Norberto Rodríguez y Pablo Delgado (PAVE); Andrea Galaverna, Mabel Oviedo y Josefina González Elizondo (Fuerza Bariloche)",
+    "acciones_complementarias": "Encuesta interna al personal municipal, videos explicativos y conversatorios presenciales en sede gremial"
+  },
+  "area": "Gestión Pública",
+  "fecha": "2026-09-29",
+  "foto": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/09/anbariloche/images/02/79/19/2791929_8e3e902ac48d297a2e6dea74480da375e4b33dbe234685965beb3e9f2a0ad456/md.webp",
+  "updated_at": "2026-10-01T13:27:11.563Z",
+  "imagen_url": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/09/anbariloche/images/02/79/19/2791929_8e3e902ac48d297a2e6dea74480da375e4b33dbe234685965beb3e9f2a0ad456/md.webp",
+  "media": {
+    "credito": "Foto: Prensa SOYEM / ANBariloche",
+    "requiere_foto": false,
+    "imagen_url": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/09/anbariloche/images/02/79/19/2791929_8e3e902ac48d297a2e6dea74480da375e4b33dbe234685965beb3e9f2a0ad456/md.webp"
+  },
+  "url": "https://www.anbariloche.com.ar/noticias/2026/09/29/118573-soyem-se-reune-con-espacios-que-participan-de-la-eleccion-de-convencionales"
+}

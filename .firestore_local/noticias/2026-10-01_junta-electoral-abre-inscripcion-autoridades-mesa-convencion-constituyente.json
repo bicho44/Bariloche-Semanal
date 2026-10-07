@@ -1,0 +1,40 @@
+{
+  "id": "2026-10-01_junta-electoral-abre-inscripcion-autoridades-mesa-convencion-constituyente",
+  "titular": "La Junta Electoral abrió la inscripción para autoridades de mesa de la Convención Constituyente con un viático de $100.000",
+  "hecho_central": "La Junta Electoral Municipal de Bariloche habilitó el registro virtual y presencial para postulantes a desempeñarse como autoridades de mesa durante la elección de convencionales constituyentes del 1 de noviembre de 2026 para reformar la Carta Orgánica Municipal, fijando una compensación de $100.000 con asistencia obligatoria a la capacitación técnica durante octubre.",
+  "fecha_publicacion": "2026-10-01",
+  "area_id": "gestion-publica",
+  "dossier_id": null,
+  "seguimiento_id": "carta-organica-reforma",
+  "fuente": {
+    "id": "el-cordillerano",
+    "nombre": "Diario El Cordillerano",
+    "url_nota": "https://www.elcordillerano.com.ar/noticias/2026/10/01/265086-la-junta-electoral-de-bariloche-abre-la-inscripcion-para-ser-autoridad-de-mesa"
+  },
+  "cuerpo_html": "<p class=\"c-dossier-link\">📌 <em>Seguimiento: <a href=\"/seguimientos/carta-organica-reforma\">Actualización de la Carta Orgánica Municipal</a></em></p>\n<p>El calendario institucional hacia la histórica reforma de la Carta Orgánica Municipal ingresó este jueves 1° de octubre en una etapa operativa decisiva: <strong>la Junta Electoral Municipal de Bariloche confirmó la apertura formal del registro de postulantes para desempeñarse como autoridades de mesa durante la elección de convencionales constituyentes del próximo 1 de noviembre de 2026</strong>, según consignó <a href=\"https://www.elcordillerano.com.ar/noticias/2026/10/01/265086-la-junta-electoral-de-bariloche-abre-la-inscripcion-para-ser-autoridad-de-mesa\" target=\"_blank\" rel=\"noopener noreferrer\">El Cordillerano</a>.</p>\n<p>El organismo electoral fijó una asignación compensatoria de <strong>$100.000 para cada ciudadano designado</strong> que cumpla efectivamente con sus funciones el día del comicio y complete previamente el programa de capacitación técnica y logística obligatorio previsto para la segunda quincena de octubre. La convocatoria está abierta a ciudadanos mayores de 18 años que sepan leer y escribir y figuren en el padrón electoral del ejido barilochense.</p>\n<blockquote cite=\"https://www.elcordillerano.com.ar/noticias/2026/10/01/265086-la-junta-electoral-de-bariloche-abre-la-inscripcion-para-ser-autoridad-de-mesa\">\n<p>«El rol de las autoridades de mesa resulta la columna vertebral que garantiza la transparencia y legitimidad del escrutinio en una jornada que marcará el rumbo institucional de Bariloche para las próximas décadas», señalaron desde la Junta Electoral.</p>\n</blockquote>\n<p>El trámite de postulación podrá completarse a partir de este viernes tanto de manera digital mediante el portal oficial del Municipio (bariloche.gov.ar) como en formato presencial en la sede de calle 24 de Septiembre Nº 12 (1º Piso), de lunes a viernes en el horario de 8:00 a 13:00.</p>",
+  "citas": [
+    {
+      "autor": "Junta Electoral Municipal de San Carlos de Bariloche",
+      "cargo": "Resolución y Convocatoria Oficial",
+      "texto": "La designación como autoridad de mesa constituye una carga pública fundamental para garantizar la transparencia, fiscalización y legitimidad del proceso constituyente del 1 de noviembre que reformará la Carta Magna local."
+    }
+  ],
+  "datos_duros": {
+    "viatico_compensatorio": "$100.000 por autoridad de mesa designada",
+    "fecha_eleccion": "1 de noviembre de 2026",
+    "apertura_inscripcion": "Viernes 2 de octubre de 2026",
+    "modalidades_registro": "Virtual en bariloche.gov.ar y presencial en calle 24 de Septiembre Nº 12, 1º Piso (lunes a viernes de 8:00 a 13:00 hs)",
+    "requisitos_habilitantes": "Mayor de 18 años, figurar en el padrón municipal de Bariloche, saber leer y escribir, y asistencia obligatoria a capacitación técnica"
+  },
+  "area": "Gestión Pública",
+  "fecha": "2026-10-01",
+  "foto": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/09/elcordillerano/images/02/76/36/2763630_903d256aa1383c1549da2c67124f40fbebc26413a61c7741d5857880d36fdbaa/md.webp",
+  "updated_at": "2026-10-02T12:17:07.490Z",
+  "imagen_url": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/09/elcordillerano/images/02/76/36/2763630_903d256aa1383c1549da2c67124f40fbebc26413a61c7741d5857880d36fdbaa/md.webp",
+  "media": {
+    "credito": "Prensa Municipalidad de Bariloche / El Cordillerano",
+    "requiere_foto": false,
+    "imagen_url": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/09/elcordillerano/images/02/76/36/2763630_903d256aa1383c1549da2c67124f40fbebc26413a61c7741d5857880d36fdbaa/md.webp"
+  },
+  "url": "https://www.elcordillerano.com.ar/noticias/2026/10/01/265086-la-junta-electoral-de-bariloche-abre-la-inscripcion-para-ser-autoridad-de-mesa"
+}

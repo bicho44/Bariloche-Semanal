@@ -1,0 +1,35 @@
+{
+  "id": "2026-10-05_convencion-carta-organica-primer-dia-200-inscriptos-autoridades-mesa",
+  "titular": "Cerca de 200 ciudadanos se inscribieron en el primer día de convocatoria para autoridades de mesa de la Convención",
+  "hecho_central": "La Junta Electoral Municipal registró casi 200 postulaciones durante la primera jornada de inscripción virtual y presencial para cubrir las 666 posiciones de autoridades de mesa que fiscalizarán las elecciones de convencionales constituyentes del 1 de noviembre, fijando un viático de $100.000 con capacitaciones obligatorias en octubre y cierre de padrones con impresión provincial.",
+  "fecha_publicacion": "2026-10-05",
+  "area_id": "gestion-publica",
+  "dossier_id": null,
+  "seguimiento_id": "carta-organica-reforma",
+  "fuente": {
+    "id": "anbariloche",
+    "nombre": "ANBariloche",
+    "url_nota": "https://www.anbariloche.com.ar/noticias/2026/10/05/119091-registraron-cerca-de-200-inscriptos-en-el-primer-dia-de-convocatoria-para-autoridades-de-mesa"
+  },
+  "media": {
+    "imagen_url": "https://anbariloche-s3.cdn.net.ar/s3i233/2024/10/anbariloche/images/01/17/99/1179932_37c204ea9a53be658d94f5d5b171d14faff7f7f541f9f4567ecaf6b511b3d8b8/md.webp",
+    "credito": "Foto: Marcelo Martínez / ANBariloche",
+    "requiere_foto": false
+  },
+  "cuerpo_html": "<p class=\"c-dossier-link\">📌 <em>Seguimiento: <a href=\"/seguimientos/carta-organica-reforma\">Actualización de la Carta Orgánica Municipal</a></em></p>\n<p>El engranaje cívico hacia el comicio constituyente del 1 de noviembre mostró un marcado dinamismo popular: <strong>la Junta Electoral Municipal de Bariloche registró cerca de 200 postulantes durante la primera jornada de apertura del registro para desempeñarse como autoridades de mesa</strong>, según consignó <a href=\"https://www.anbariloche.com.ar/noticias/2026/10/05/119091-registraron-cerca-de-200-inscriptos-en-el-primer-dia-de-convocatoria-para-autoridades-de-mesa\" target=\"_blank\" rel=\"noopener noreferrer\">ANBariloche</a>.</p>\n<p>El organismo electoral procura cubrir un total de <strong>666 puestos entre presidentes de mesa, vocales y delegados de establecimientos educativos</strong>, quienes percibirán una asignación compensatoria de $100.000 sujeta a la aprobación de los cursos técnicos obligatorios que se dictarán durante la segunda quincena de octubre en Bomberos Centro, el Gimnasio Municipal Nº 3 y los Kilómetros. Asimismo, tras el cierre de padrones impresos en Viedma por la Dirección de Asuntos Electorales de la Provincia, la Junta confirmó que el 22 de octubre regirá la prohibición de actos oficiales y advirtió que no actuará de oficio ante quejas virtuales por propaganda, exigiendo denuncias formales con prueba documental en su sede.</p>\n<blockquote cite=\"https://www.anbariloche.com.ar/noticias/2026/10/05/119091-registraron-cerca-de-200-inscriptos-en-el-primer-dia-de-convocatoria-para-autoridades-de-mesa\">\n<p>«La masiva participación inicial confirma el compromiso de los vecinos con la fiscalización democrática de una convención que debatirá el diseño del Estado municipal durante 60 días corridos», remarcó la funcionaria electoral Dana Guzmán.</p>\n</blockquote>\n<p>La Junta trasladará su cabecera logística a la sala de sesiones del Concejo Deliberante en los días previos a la votación para coordinar el despliegue de urnas y la Boleta Única.</p>",
+  "citas": [
+    {
+      "autor": "Dana Guzmán",
+      "cargo": "Referente de la Junta Electoral Municipal de Bariloche",
+      "texto": "Tuvimos una respuesta muy destacada en el primer día. Las autoridades de mesa son la garantía de transparencia para una elección que definirá la nueva Carta Orgánica. Además, aclaramos que cualquier denuncia de proselitismo irregular debe radicarse formalmente en la junta con pruebas materiales."
+    }
+  ],
+  "datos_duros": {
+    "inscriptos_primer_dia": "Cerca de 200 ciudadanos registrados",
+    "dotacion_total_requerida": "666 autoridades de mesa (presidentes, vocales y coordinadores de colegios)",
+    "viatico_compensatorio": "$100.000 por jornada electoral cumplida",
+    "fecha_comicios": "1 de noviembre de 2026 (elección de 15 convencionales constituyentes titulares y 15 suplentes)",
+    "sedes_capacitacion": "Cuartel Central de Bomberos Voluntarios, Gimnasio Municipal Nº 3 y sede de los Kilómetros"
+  },
+  "updated_at": "2026-10-05T23:03:02.571Z"
+}

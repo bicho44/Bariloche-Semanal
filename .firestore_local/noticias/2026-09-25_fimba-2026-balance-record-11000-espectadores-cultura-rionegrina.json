@@ -1,0 +1,40 @@
+{
+  "id": "2026-09-25_fimba-2026-balance-record-11000-espectadores-cultura-rionegrina",
+  "titular": "El FIMBA 2026 cerró con más de 11.000 espectadores, 446 músicos y 25 conciertos en seis escenarios de la ciudad",
+  "hecho_central": "La Secretaría de Cultura de Río Negro presentó el balance de cierre del Festival Internacional de Música de Bariloche (FIMBA 2026), que reunió a más de 11.000 asistentes en 25 conciertos gratuitos a lo largo de 5 días, movilizando a 446 músicos y consolidando la oferta cultural de baja temporada.",
+  "fecha_publicacion": "2026-09-25",
+  "area_id": "vida-social-cultura",
+  "dossier_id": null,
+  "seguimiento_id": null,
+  "fuente": {
+    "id": "prensa-rio-negro",
+    "nombre": "Prensa Gobierno de Río Negro",
+    "url_nota": "https://prensa.rionegro.gov.ar/articulo/61736/fimba-cinco-dias-que-hicieron-de-bariloche-un-punto-de-encuentro-musical?n=OTE"
+  },
+  "cuerpo_html": "<p>Con un balance que superó todas las previsiones de convocatoria, la Secretaría de Cultura de Río Negro dio por finalizada la edición 2026 del <strong>Festival Internacional de Música de Bariloche (FIMBA)</strong>, certamen que durante cinco jornadas convocó a <strong>más de 11.000 espectadores</strong> a lo largo de 25 conciertos con entrada libre y gratuita en seis salas de la ciudad, según reportó <a href=\"https://prensa.rionegro.gov.ar/articulo/61736/fimba-cinco-dias-que-hicieron-de-bariloche-un-punto-de-encuentro-musical?n=OTE\" target=\"_blank\" rel=\"noopener noreferrer\">Prensa Río Negro</a>.</p>\n<p>El festival movilizó a <strong>446 músicos locales, nacionales e internacionales</strong> y a un equipo operativo de 60 técnicos y productores, abarcando escenarios de la talla del Teatro La Baita, la Iglesia Catedral Nuestra Señora del Nahuel Huapi, Estación Araucanía y el Camping Musical Bariloche. La edición ratificó el modelo de articulación entre la Provincia, el Emprotur, la Asociación Hotelera Gastronómica, la UNRN y empresas locales como INVAP y Mamuschka, potenciando la llegada de visitantes durante el cambio de estación hacia la primavera.</p>\n<blockquote cite=\"https://prensa.rionegro.gov.ar/articulo/61736/fimba-cinco-dias-que-hicieron-de-bariloche-un-punto-de-encuentro-musical?n=OTE\"><p>«No se trata sólo de organizar un festival, sino de construir una política donde la cultura circule por el territorio, nuestros artistas encuentren nuevas oportunidades y Bariloche ocupe un lugar de excelencia en la escena musical sudamericana», remarcó el Secretario de Cultura rionegrino, Martín Fraile Milstein.</p></blockquote>\n<p>La agenda artística local da paso ahora al cierre del Festival Audiovisual Bariloche (FAB 2026) y al inicio del ciclo gastronómico Bariloche a la Carta (BALC) a comienzos de octubre.</p>",
+  "citas": [
+    {
+      "autor": "Martín Fraile Milstein",
+      "cargo": "Secretario de Cultura de la Provincia de Río Negro",
+      "texto": "El FIMBA tiene una identidad propia y forma parte de una política cultural que entendemos que tenemos que fortalecer. No se trata solamente de organizar un festival: se trata de generar un espacio donde nuestros artistas puedan encontrarse con grandes referentes, donde los públicos puedan acceder a propuestas diversas y donde Bariloche y Río Negro puedan ocupar un lugar cada vez más importante en la escena cultural."
+    }
+  ],
+  "datos_duros": {
+    "asistencia_total": "Más de 11.000 espectadores",
+    "conciertos_realizados": "25 funciones gratuitas",
+    "escenarios": "6 salas y espacios culturales barilochenses (Teatro La Baita, Iglesia Catedral, Estación Araucanía, Camping Musical, SCUM y Puerto San Carlos)",
+    "musicos_en_escena": "446 artistas locales, nacionales e internacionales",
+    "equipo_produccion": "60 trabajadores culturales directos e indirectos"
+  },
+  "area": "Vida Social, Cultura & Comunidad",
+  "fecha": "2026-09-25",
+  "foto": "https://prensa.rionegro.gov.ar/_next/image?url=https%3A%2F%2Fsilvercoder.rionegro.gov.ar%2Ffiles%2F1790363362_af1cfe32b4b8f538c8a6.jpg&w=1920&q=75",
+  "updated_at": "2026-09-28T12:21:58.750Z",
+  "imagen_url": "https://prensa.rionegro.gov.ar/_next/image?url=https%3A%2F%2Fsilvercoder.rionegro.gov.ar%2Ffiles%2F1790363362_af1cfe32b4b8f538c8a6.jpg&w=1920&q=75",
+  "media": {
+    "credito": "Prensa Secretaría de Cultura de Río Negro",
+    "requiere_foto": false,
+    "imagen_url": "https://prensa.rionegro.gov.ar/_next/image?url=https%3A%2F%2Fsilvercoder.rionegro.gov.ar%2Ffiles%2F1790363362_af1cfe32b4b8f538c8a6.jpg&w=1920&q=75"
+  },
+  "url": "https://prensa.rionegro.gov.ar/articulo/61736/fimba-cinco-dias-que-hicieron-de-bariloche-un-punto-de-encuentro-musical?n=OTE"
+}

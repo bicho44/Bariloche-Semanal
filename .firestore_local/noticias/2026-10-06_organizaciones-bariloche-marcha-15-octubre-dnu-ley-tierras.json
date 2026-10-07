@@ -1,0 +1,34 @@
+{
+  "id": "2026-10-06_organizaciones-bariloche-marcha-15-octubre-dnu-ley-tierras",
+  "titular": "Más de 60 organizaciones de Bariloche coordinan una gran marcha para el 15 de octubre contra la extranjerización de tierras",
+  "hecho_central": "Representantes de sindicatos (UnTER, CTA), investigadores del Conicet y CNEA, estudiantes de la UNCo y UNRN, asambleas socioambientales y comunidades originarias (Lof Melo) acordaron una agenda de movilizaciones en Bariloche que culminará el jueves 15 de octubre con una marcha de Onelli y Moreno al Centro Cívico, en rechazo al fallo de la Corte que ratificó la derogación de la Ley de Tierras mediante el DNU 70/2023.",
+  "fecha_publicacion": "2026-10-06",
+  "area_id": "gestion-publica",
+  "dossier_id": "crisis-habitacional-urbanismo",
+  "seguimiento_id": "crisis-habitacional-urbanismo",
+  "fuente": {
+    "id": "anbariloche",
+    "nombre": "ANBariloche",
+    "url_nota": "https://www.anbariloche.com.ar/noticias/2026/10/06/119202-organizaciones-de-bariloche-se-preparan-para-una-gran-marcha-contra-el-dnu-702023-y-la-extranjerizacion-de-tierras"
+  },
+  "media": {
+    "imagen_url": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/10/anbariloche/images/02/79/99/2799981_md.webp",
+    "credito": "Foto: Marcelo Martínez / ANBariloche",
+    "requiere_foto": false
+  },
+  "cuerpo_html": "<p class=\"c-dossier-link\">📌 <em>Seguimiento: <a href=\"/seguimientos/crisis-habitacional-urbanismo\">Crisis Habitacional y Alquileres en Bariloche</a></em></p>\n<p>El impacto del reciente fallo de la Corte Suprema de Justicia que rehabilitó el artículo 154 del DNU 70/2023 y convalidó la derogación de la Ley de Tierras Rurales (Ley 26.737) desató una masiva articulación multisectorial en la ciudad: <strong>más de 60 referentes de organizaciones sindicales, estudiantiles, científicas, vecinales y comunidades originarias se reunieron este martes en Bariloche para coordinar una agenda de protesta que confluirá en una gran marcha hacia el Centro Cívico el próximo jueves 15 de octubre</strong>, según consignó <a href=\"https://www.anbariloche.com.ar/noticias/2026/10/06/119202-organizaciones-de-bariloche-se-preparan-para-una-gran-marcha-contra-el-dnu-702023-y-la-extranjerizacion-de-tierras\" target=\"_blank\" rel=\"noopener noreferrer\">ANBariloche</a>.</p>\n<p>Del plenario participaron dirigentes de UnTER, la CTA, delegados de Parques Nacionales, investigadores de CNEA y Conicet, centros de estudiantes del CRUB y la UNRN, el Consejo Social de Tierras y comunidades mapuches como el Lof Melo. La marcha local coincidirá con la Marcha Federal Universitaria y con la sesión especial solicitada en la Cámara de Diputados para tratar el DNU. La agenda de resistencia incluirá actividades previas como el 31° Abrazo al Limay este jueves 8 en Dina Huapi y la columna comunitaria 'Igkañpeiñ Mapu' el lunes 12.</p>\n<blockquote cite=\"https://www.anbariloche.com.ar/noticias/2026/10/06/119202-organizaciones-de-bariloche-se-preparan-para-una-gran-marcha-contra-el-dnu-702023-y-la-extranjerizacion-de-tierras\">\n<p>«La Patagonia no se vende: la caída de los límites a la compra de campos por parte de capitales foráneos amenaza el acceso al agua, los bosques nativos y profundiza la crisis de hábitat que ya expulsa a las familias de Bariloche», advirtieron las entidades convocantes.</p>\n</blockquote>\n<p>La concentración principal partirá el 15 de octubre a las 18:00 desde Onelli y Moreno para recorrer las arterias céntricas hasta la plaza principal.</p>",
+  "citas": [
+    {
+      "autor": "Mesa Multisectorial de Organizaciones de Bariloche",
+      "cargo": "Documento de Convocatoria Unificada",
+      "texto": "La derogación de la Ley de Tierras Rurales desprotege los bienes comunes y abre la puerta a la extranjerización indiscriminada de cuencas hídricas y zonas de frontera en la Patagonia; saldremos a la calle en defensa de nuestra soberanía territorial."
+    }
+  ],
+  "datos_duros": {
+    "participantes_reunion": "Más de 60 delegados de organizaciones sociales, sindicales, universitarias y territoriales",
+    "fecha_marcha_central": "Jueves 15 de octubre de 2026 a las 18:00 hs (concentración 17:30 en Onelli y Moreno)",
+    "motivo_institucional": "Fallo de la Corte Suprema que revocó sentencia de Cámara y mantuvo la derogación de la Ley 26.737 de Tierras Rurales",
+    "agenda_previa": "Ruidazo este martes 6 en Plaza de los Pañuelos, 31° Abrazo al Limay el jueves 8 y movilización 'Igkañpeiñ Mapu' el lunes 12"
+  },
+  "updated_at": "2026-10-06T23:07:34.371Z"
+}

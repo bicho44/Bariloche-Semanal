@@ -1,0 +1,42 @@
+{
+  "id": "2026-10-03_natatorio-municipal-playa-centenario-hormigonado-bases-h30",
+  "titular": "Avanzan las bases del Natatorio Municipal en Playa Centenario: colaron hormigón de limpieza y preparan el llenado con H30",
+  "hecho_central": "El intendente Walter Cortés y la asesora letrada Yanina Sánchez supervisaron la obra del futuro Natatorio Municipal en Playa Centenario, donde se volcaron 14 m³ de hormigón de limpieza H8 y se completaron mallas de armadura de 12 mm para dar paso la próxima semana al colado masivo de hormigón H30 en las bases de la pileta semiolímpica de 2 metros de profundidad.",
+  "area_id": "gestion-publica",
+  "seguimiento_id": "infraestructura-terminal-rutas",
+  "fuente": {
+    "id": "bariloche-informa",
+    "nombre": "Bariloche Informa (Prensa Municipal)",
+    "url_nota": "https://barilocheinforma.gob.ar/de-la-obra-al-sueno-de-ver-a-los-vecinos-nadar-cortes-recorrio-el-futuro-natatorio-municipal/"
+  },
+  "cuerpo_html": "<p class=\"c-dossier-link\">📌 <em>Seguimiento: <a href=\"/seguimientos/infraestructura-terminal-rutas\">Nueva Terminal de Ómnibus, Rotonda Esandi y Rutas</a></em></p>\n<p>La infraestructura deportiva pública de Bariloche sumó este sábado un avance estructural de envergadura: <strong>el intendente Walter Cortés supervisó en Playa Centenario el avance de obra del futuro Natatorio Municipal, donde concluyó la colocación del hormigón de limpieza y el armado de las armaduras de hierro que sostendrán el vaso de la pileta semiolímpica</strong>, según reportó <a href=\"https://barilocheinforma.gob.ar/de-la-obra-al-sueno-de-ver-a-los-vecinos-nadar-cortes-recorrio-el-futuro-natatorio-municipal/\" target=\"_blank\" rel=\"noopener noreferrer\">Bariloche Informa</a>.</p>\n<p>Los trabajos demandaron la descarga de <strong>14 metros cúbicos de hormigón H8 mediante dos camiones mixer</strong>, conformando una capa de limpieza de entre 5 y 6 centímetros sobre el suelo natural. Sobre ese lecho se montan las parrillas estructurales conformadas por una doble malla de hierro de 12 milímetros cada 15 centímetros, las cuales requerirán más de 1.000 ataduras por tramo para garantizar la rigidez previa al llenado con hormigón de alta resistencia H30 proyectado para la próxima semana. La pileta contará con 45 centímetros de base y una profundidad uniforme de 2 metros, reglamentaria para torneos oficiales.</p>\n<blockquote cite=\"https://barilocheinforma.gob.ar/de-la-obra-al-sueno-de-ver-a-los-vecinos-nadar-cortes-recorrio-el-futuro-natatorio-municipal/\">\n<p>«Esto queda para toda una generación. Quizás nosotros ya no estemos más, pero esta pileta va a seguir estando como espacio de integración deportiva para que los chicos de todos los barrios aprendan a nadar frente al lago», enfatizó Cortés durante la recorrida técnica.</p>\n</blockquote>\n<p>La intervención en la costanera este se perfila como la principal obra deportiva comunal de la actual administración, apuntando a descongestionar la demanda de natación formativa y terapéutica en la ciudad.</p>",
+  "citas": [
+    {
+      "autor": "Walter Cortés",
+      "cargo": "Intendente Municipal de San Carlos de Bariloche",
+      "texto": "Como verás, esto queda para toda una generación. Quizás nosotros ya no estemos más, pero esto va a seguir estando. La pileta tiene que ser un sinónimo de crecimiento, de deporte y de juntar a las familias de los barrios."
+    }
+  ],
+  "datos_duros": {
+    "volumen_hormigon_limpieza": "14 metros cúbicos de hormigón H8 (2 camiones mixer)",
+    "estructura_bases": "Bases de 45 cm de altura con doble armadura de hierro de 12 mm cada 15 cm",
+    "complejidad_mallas": "26 mallas estructurales con 1.080 ataduras cada 10,8 metros",
+    "caracteristica_pileta": "Profundidad uniforme de 2 metros adaptada a normativas de federaciones acuáticas",
+    "ubicacion": "Playa Centenario (costanera este de Bariloche)",
+    "proxima_fase": "Llenado con hormigón H30 de alta resistencia y ejecución de tabiques perimetrales"
+  },
+  "area": "Gestión Pública",
+  "fecha": "2026-10-01",
+  "foto": "https://barilocheinforma.gob.ar/wp-content/uploads/2026/10/mix5-1024x576.jpg",
+  "updated_at": "2026-10-05T12:16:36.745Z",
+  "curada_manualmente": true,
+  "imagen_url": "https://barilocheinforma.gob.ar/wp-content/uploads/2026/10/mix5-1024x576.jpg",
+  "media": {
+    "credito": "Prensa Municipalidad de Bariloche / Bariloche Opina",
+    "requiere_foto": false,
+    "imagen_url": "https://barilocheinforma.gob.ar/wp-content/uploads/2026/10/mix5-1024x576.jpg"
+  },
+  "dossier_id": "infraestructura-terminal-rutas",
+  "url": "https://barilocheinforma.gob.ar/de-la-obra-al-sueno-de-ver-a-los-vecinos-nadar-cortes-recorrio-el-futuro-natatorio-municipal/",
+  "fecha_publicacion": "2026-10-01"
+}

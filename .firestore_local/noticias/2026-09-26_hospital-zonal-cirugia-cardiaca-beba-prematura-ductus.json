@@ -1,0 +1,45 @@
+{
+  "id": "2026-09-26_hospital-zonal-cirugia-cardiaca-beba-prematura-ductus",
+  "titular": "Hito médico en el Hospital Zonal: operaron con éxito del corazón a una beba prematura de 1,3 kg y evitaron una derivación de riesgo",
+  "hecho_central": "El servicio de Neonatología del Hospital Zonal Ramón Carrillo realizó con éxito una cirugía cardiovascular de cierre de ductus arterioso a una recién nacida prematura de 32 días de vida y 1,331 kg, evitando un traslado crítico a Buenos Aires al movilizar a especialistas infantiles hacia la ciudad.",
+  "fecha_publicacion": "2026-09-26",
+  "area_id": "gestion-publica",
+  "dossier_id": null,
+  "seguimiento_id": null,
+  "fuente": {
+    "id": "prensa-rio-negro",
+    "nombre": "Prensa Gobierno de Río Negro",
+    "url_nota": "https://prensa.rionegro.gov.ar/articulo/61734/hito-en-bariloche-operaron-con-exito-a-beba-prematura-de-alta-complejidad-en-el-hospital-publico?n=OTE"
+  },
+  "cuerpo_html": "<p>En un logro que ratifica la jerarquía de la salud pública rionegrina, el <strong>Hospital Zonal Ramón Carrillo de Bariloche concretó con éxito una cirugía cardiovascular de alta complejidad en una recién nacida prematura de apenas 32 días de vida y 1,331 kilogramos de peso</strong>, según reportó <a href=\"https://prensa.rionegro.gov.ar/articulo/61734/hito-en-bariloche-operaron-con-exito-a-beba-prematura-de-alta-complejidad-en-el-hospital-publico?n=OTE\" target=\"_blank\" rel=\"noopener noreferrer\">Prensa Río Negro</a>.</p>\n<p>La intervención consistió en el cierre quirúrgico del ductus arterioso, un conducto vascular fetal que no cerró espontáneamente ni respondió al tratamiento farmacológico inicial, poniendo en severo riesgo la oxigenación y función cardíaca de la beba. En lugar de someter a la pequeña a un peligroso vuelo sanitario hacia centros de mayor complejidad en Buenos Aires, el hospital articuló el traslado de los cirujanos cardiovasculares pediátricos <strong>Dr. Pérez Grosero y Dra. Cecilia Zular</strong> para operar en quirófano local.</p>\n<blockquote cite=\"https://prensa.rionegro.gov.ar/articulo/61734/hito-en-bariloche-operaron-con-exito-a-beba-prematura-de-alta-complejidad-en-el-hospital-publico?n=OTE\"><p>«La paciente tenía 33.4 semanas corregidas y un estado sumamente delicado. Poder realizar la práctica acá demuestra la valía de contar con una terapia intensiva neonatal de nivel 3B, lo que evitó un desarraigo y un traslado que amenazaba su vida», explicó el equipo de neonatología del nosocomio.</p></blockquote>\n<p>La recién nacida cursa su posoperatorio en incubadora bajo monitoreo permanente, confirmando la capacidad operativa del hospital cabecera de la Zona Andina para absorber contingencias pediátricas críticas.</p>",
+  "citas": [
+    {
+      "autor": "Dr. Martín Vega",
+      "cargo": "Médico neonatólogo del Hospital Zonal Bariloche",
+      "texto": "Queríamos informar sobre la realización de una cirugía cardiovascular, un cierre de una patología llamada ductus arterioso que comprometía la vida de la paciente. Si bien se intenta cerrar de forma farmacológica, al fallar la medicación se procedió a la cirugía con éxito."
+    },
+    {
+      "autor": "Noelia Cárdenas",
+      "cargo": "Especialista en enfermería neonatal",
+      "texto": "Esta cirugía se pudo realizar gracias a que el equipo cardiovascular infantil se trasladó hacia la zona y la realizó acá, ya que contamos con una Neonatología de complejidad 3B que nos da la posibilidad de no tener que trasladar a la paciente."
+    }
+  ],
+  "datos_duros": {
+    "peso_paciente": "1,331 kilogramos",
+    "edad_gestacional": "32 días de vida (33.4 semanas de edad gestacional corregida)",
+    "patologia": "Ductus arterioso permeable refractario a medicación farmacológica",
+    "complejidad_servicio": "Neonatología categoría 3B del Hospital Zonal Bariloche",
+    "cirujanos_intervinientes": "Dr. Pérez Grosero y Dra. Cecilia Zular en articulación con equipo local"
+  },
+  "area": "Gestión Pública",
+  "fecha": "2026-09-26",
+  "foto": "https://prensa.rionegro.gov.ar/_next/image?url=https%3A%2F%2Fsilvercoder.rionegro.gov.ar%2Ffiles%2F1790361332_3e46405a9e964a1f898a.jpeg&w=1920&q=75",
+  "updated_at": "2026-09-28T12:18:27.961Z",
+  "imagen_url": "https://prensa.rionegro.gov.ar/_next/image?url=https%3A%2F%2Fsilvercoder.rionegro.gov.ar%2Ffiles%2F1790361332_3e46405a9e964a1f898a.jpeg&w=1920&q=75",
+  "media": {
+    "credito": "Prensa Hospital Zonal Bariloche / Gobierno de Río Negro",
+    "requiere_foto": false,
+    "imagen_url": "https://prensa.rionegro.gov.ar/_next/image?url=https%3A%2F%2Fsilvercoder.rionegro.gov.ar%2Ffiles%2F1790361332_3e46405a9e964a1f898a.jpeg&w=1920&q=75"
+  },
+  "url": "https://prensa.rionegro.gov.ar/articulo/61734/hito-en-bariloche-operaron-con-exito-a-beba-prematura-de-alta-complejidad-en-el-hospital-publico?n=OTE"
+}

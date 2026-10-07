@@ -1,0 +1,40 @@
+{
+  "id": "2026-10-03_balc-invita-ocho-grandes-cocinas-llegan-al-centro-civico",
+  "titular": "BALC Invita reunirá a ocho prestigiosas cocinas de autor en el Centro Cívico del 9 al 12 de octubre",
+  "hecho_central": "La Asociación Empresaria Hotelera Gastronómica de Bariloche (AEHGB) y el EMPROTUR confirmaron la grilla del espacio 'BALC Invita' dentro de la 13ª edición de Bariloche a la Carta, donde chefs galardonados como Pablo Quiven (Madurado), Emanuel Yañez García y Florencia Lafalla (Ánima, Prix Baron B) y brigadas de hoteles como Llao Llao y Sheraton cocinarán platos exclusivos en el Centro Cívico.",
+  "area_id": "turismo",
+  "seguimiento_id": "temporada-turistica-nieve",
+  "fuente": {
+    "id": "bariloche-opina",
+    "nombre": "Bariloche Opina",
+    "url_nota": "https://www.barilocheopina.com/noticias/2026/10/03/95331-balc-invita-2026-ocho-grandes-cocinas-llegan-al-centro-civico"
+  },
+  "cuerpo_html": "<p class=\"c-dossier-link\">📌 <em>Seguimiento: <a href=\"/seguimientos/temporada-turistica-nieve\">Temporada Turística, Nieve y Conectividad</a></em></p>\n<p>La gastronomía patagónica se prepara para su cita cumbre en el corazón de la ciudad: <strong>la Asociación Empresaria Hotelera Gastronómica de Bariloche (AEHGB) confirmó este sábado la grilla estelar de 'BALC Invita', el espacio que trasladará a ocho prestigiosas cocinas de restaurantes de autor y grandes hoteles directamente a la carpa del Centro Cívico</strong>, según consignó <a href=\"https://www.barilocheopina.com/noticias/2026/10/03/95331-balc-invita-2026-ocho-grandes-cocinas-llegan-al-centro-civico\" target=\"_blank\" rel=\"noopener noreferrer\">Bariloche Opina</a>.</p>\n<p>La propuesta, que se extenderá durante las cuatro jornadas de feria entre el <strong>9 y el 12 de octubre de 12:00 a medianoche</strong>, reunirá a los chefs detrás de los mostradores para elaborar recetas exclusivas que no forman parte de sus cartas habituales. El cronograma abrirá el viernes 9 con Pablo Quiven (Madurado) y La Encontrada Wine Bistró de El Bolsón; el sábado 10 continuará con Alejandro Clausen (Huinid Hoteles) y Black Summit (fuegos y producto andino); el domingo 11 será el turno de Ánima —el premiado restaurante de la Reserva El Trébol liderado por Florencia Lafalla y Emanuel Yañez García— junto a TRE Restó; cerrando el lunes 12 con las brigadas de Llao Llao Resort (Mariano Cacchiotti) y Sheraton Bariloche (Aníbal Ramírez).</p>\n<blockquote cite=\"https://www.barilocheopina.com/noticias/2026/10/03/95331-balc-invita-2026-ocho-grandes-cocinas-llegan-al-centro-civico\">\n<p>«El espíritu de este formato es democratizar las mejores mesas de la cordillera, permitiendo que residentes y turistas interactúen cara a cara con los cocineros y degusten platos de alta técnica a precios accesibles», explicaron desde la organización de BALC.</p>\n</blockquote>\n<p>El festival espera convocar a más de 40.000 personas a lo largo del fin de semana largo, consolidando la desestacionalización turística tras la reciente distinción de Lonely Planet.</p>",
+  "citas": [
+    {
+      "autor": "Comisión Organizadora Bariloche a la Carta (BALC 2026)",
+      "cargo": "Presentación Oficial del Circuito Gastronómico",
+      "texto": "BALC Invita permite democratizar la alta cocina patagónica: proyectos galardonados que habitualmente operan a pocos cubiertos trasladan su identidad y sus fuegos al Centro Cívico con platos creados especialmente para la feria."
+    }
+  ],
+  "datos_duros": {
+    "fechas_feria_centro_civico": "9 al 12 de octubre de 2026 (de 12:00 a 00:00 hs)",
+    "cocinas_participantes": "Madurado, La Encontrada (El Bolsón), Huinid Hoteles, Black Summit, Ánima (El Trébol), TRE Restó de Vinos, Llao Llao Resort y Sheraton Bariloche",
+    "chefs_destacados": "Pablo Quiven, Alejandro Clausen, Lucas Rivas, Ariel Pérez, Emanuel Yañez García, Florencia Lafalla, Mariano Cacchiotti y Aníbal Ramírez",
+    "organizacion": "Asociación Empresaria Hotelera Gastronómica de Bariloche (AEHGB) con apoyo del EMPROTUR y Municipio"
+  },
+  "area": "Pulso Turístico",
+  "fecha": "2026-10-01",
+  "foto": "https://barilocheopina-s3.cdn.net.ar/s3i233/2026/10/barilocheopina/images/02/79/76/2797672_ff9f0df56301506c7c3583443593d2c020c26296a2b1def8331cd4c4a604dd41/md.webp",
+  "updated_at": "2026-10-05T12:14:49.250Z",
+  "curada_manualmente": true,
+  "imagen_url": "https://barilocheopina-s3.cdn.net.ar/s3i233/2026/10/barilocheopina/images/02/79/76/2797672_ff9f0df56301506c7c3583443593d2c020c26296a2b1def8331cd4c4a604dd41/md.webp",
+  "media": {
+    "credito": "Prensa BALC / Bariloche Opina",
+    "requiere_foto": false,
+    "imagen_url": "https://barilocheopina-s3.cdn.net.ar/s3i233/2026/10/barilocheopina/images/02/79/76/2797672_ff9f0df56301506c7c3583443593d2c020c26296a2b1def8331cd4c4a604dd41/md.webp"
+  },
+  "dossier_id": "temporada-turistica-nieve",
+  "url": "https://www.barilocheopina.com/noticias/2026/10/03/95331-balc-invita-2026-ocho-grandes-cocinas-llegan-al-centro-civico",
+  "fecha_publicacion": "2026-10-01"
+}

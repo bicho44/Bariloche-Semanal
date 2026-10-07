@@ -66,7 +66,7 @@ export class DossiersService {
     const dossier = await this.repo.getById(slug);
     if (!dossier) return null;
 
-    const timeline = [...(dossier.timeline || []), hito].sort((a, b) => a.fecha.localeCompare(b.fecha));
+    const timeline = [...(dossier.timeline || []), hito].sort((a, b) => String(a.fecha || '').localeCompare(String(b.fecha || '')));
     return this.actualizar(slug, { timeline });
   }
 }

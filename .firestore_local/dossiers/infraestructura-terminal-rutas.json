@@ -3,25 +3,92 @@
   "titulo": "Nueva Terminal de Ómnibus, Rotonda Esandi y Ruta 40",
   "area_id": "gestion-publica",
   "estado": "activo",
-  "resumen_contexto": "Obras clave de conectividad: finalización de la estación terminal en octubre, rotonda en Esandi y mantenimiento de Ruta 40 Sur.",
+  "resumen_contexto": "Conectividad barrial y obras viales: la Justicia levantó la cautelar y autorizó continuar la apertura de la calle de 16 metros entre los barrios 112 y 150 Viviendas con exigencias de drenajes pluviales.",
   "actores_clave": [
     "walter-cortes",
-    "vialidad-nacional",
-    "empresas-transporte"
+    "unrn",
+    "obras-publicas-rionegro",
+    "recursos-hidricos",
+    "vialidad-nacional"
   ],
   "timeline": [
     {
-      "fecha": "2026-08-24",
-      "hito": "Reclamo unificado del sector turístico por bacheo y obras en Ruta 40."
+      "fecha": "2026-08-20",
+      "hito": "Avanzan terminaciones interiores en la Nueva Terminal de Ómnibus en el acceso este."
     },
     {
-      "fecha": "2026-09-08",
-      "hito": "Anuncian entrega de la nueva Terminal para fines de octubre y rotonda en Esandi."
+      "fecha": "2026-09-16",
+      "hito": "Vialidad y Municipio acuerdan proyecto técnico para ensanche y asfalto de Ruta 80 al Aeropuerto.",
+      "fuente_url": "https://www.barilocheopina.com/noticias/2026/09/16/94369-ruta-80-se-acerca-una-obra-clave-para-el-acceso-al-aeropuerto-de-bariloche"
     },
     {
-      "fecha": "2026-09-08",
-      "hito": "Desprendimiento en ladera de Ruta 40 con tránsito asistido entre Gutiérrez y Mascardi."
+      "fecha": "2026-09-17",
+      "hito": "Apertura de ofertas de licitación para repavimentar Ruta 82 y red de agua en Valle Gas ($1.200M).",
+      "fuente_url": "https://prensa.rionegro.gov.ar"
+    },
+    {
+      "fecha": "2026-09-21",
+      "hito": "Cortés y Weretilneck firmaron el convenio de Compensación Financiera Transitoria ($2.350M anuales para bacheo).",
+      "noticia_id": "2026-09-21_firma-convenio-compensacion-financiera-cortes-weretilneck",
+      "fuente_url": "https://barilocheinforma.gob.ar/bariloche-se-sumo-al-acuerdo-provincial-de-compensacion-financiera/"
+    },
+    {
+      "fecha": "2026-09-23",
+      "hito": "Alerta roja por temporal: Vialidad Nacional corta de forma preventiva la Ruta 40 en Siete Lagos por riesgo de derrumbes en laderas saturadas.",
+      "noticia_id": "2026-09-23_alerta-roja-temporal-corte-ruta-40-cierre-senderos-pnnh",
+      "fuente_url": "https://www.anbariloche.com.ar/noticias/2026/09/23/117982-alerta-roja-cortan-la-ruta-40-en-siete-lagos-y-piden-evitar-viajar-durante-la-noche"
+    },
+    {
+      "fecha": "2026-09-24",
+      "hito": "La Legislatura de Río Negro sancionó con 35 votos a favor la ley de Compensación Financiera Transitoria ($2.350M anuales para Bariloche y $1.071M para Dina Huapi).",
+      "noticia_id": "2026-09-24_legislatura-aprobo-compensacion-municipal-bariloche-fondos-bacheo",
+      "fuente_url": "https://www.elcordillerano.com.ar/noticias/2026/09/24/263941-se-aprobo-la-compensacion-municipal-el-paso-clave-de-la-legislatura-que-fortalece-a-las-comunas"
+    },
+    {
+      "fecha": "2026-09-26",
+      "hito": "Violento choque frontal en la curva de Península San Pedro (Bustillo km 20) dejó dos heridos y un auto al borde del lago, cortando el tránsito por horas.",
+      "noticia_id": "2026-09-26_choque-frontal-bustillo-km20-peninsula-san-pedro-lago",
+      "fuente_url": "https://www.elcordillerano.com.ar/noticias/2026/09/26/264229-brutal-choque-en-el-oeste-de-bariloche-dejo-dos-heridos-y-un-auto-al-borde-de-caer-al-lago"
+    },
+    {
+      "fecha": "2026-09-30",
+      "hito": "La Municipalidad volcó 9,5 m³ de hormigón H30 en el camino de acceso a corrales del Ecoparque de Llao Llao para permitir el ingreso de tráileres de traslado equino.",
+      "noticia_id": "2026-09-30_hormigonado-camino-corrales-ecoparque-llao-llao-cuidado-animal",
+      "fuente_url": "https://www.elcordillerano.com.ar/noticias/2026/09/30/264918-el-futuro-ecoparque-de-llao-llao-suma-mejoras-para-el-cuidado-animal"
+    },
+    {
+      "fecha": "2026-10-02",
+      "hito": "El Municipio incrementó el valor de la Unidad Fija a $2.155 para las multas de tránsito de octubre mediante la Resolución 00003333-I-2026.",
+      "noticia_id": "2026-10-02_municipio-aumento-multas-transito-unidad-fija-2155",
+      "fuente_url": "https://www.anbariloche.com.ar/noticias/2026/10/02/118872-el-municipio-aumento-las-multas-de-transito-la-unidad-fija-alcanzo-los-2155"
+    },
+    {
+      "fecha": "2026-10-03",
+      "hito": "El Municipio volcó 14 m³ de hormigón H8 en las bases del Natatorio de Playa Centenario y avanzó en la construcción de 4 reductores y badén en avenida de la Virreyna.",
+      "noticia_id": "2026-10-03_natatorio-municipal-playa-centenario-hormigonado-bases-h30",
+      "fuente_url": "https://barilocheinforma.gob.ar/de-la-obra-al-sueno-de-ver-a-los-vecinos-nadar-cortes-recorrio-el-futuro-natatorio-municipal/"
+    },
+    {
+      "fecha": "2026-10-05",
+      "hito": "Las obras de conexión de servicios en el campus propio de 3.200 m² de la UNRN alcanzaron hasta un 88% de avance para finalizar en noviembre; en paralelo, la pasarela de Cuyín Manzano llegó al 40%.",
+      "noticia_id": "2026-10-05_campus-unrn-este-obras-servicios-finalizacion-noviembre",
+      "fuente_url": "https://www.anbariloche.com.ar/noticias/2026/10/05/119088-resta-solo-la-conexion-de-servicios-para-que-la-unrn-estrene-su-edificio-propio-en-bariloche"
+    },
+    {
+      "fecha": "2026-10-06",
+      "hito": "La Justicia rechazó un amparo colectivo ambiental y levantó la suspensión de la obra vial entre los barrios 112 y 150 Viviendas, ordenando al Municipio ejecutar drenes pluviales.",
+      "noticia_id": "2026-10-06_justicia-rechazo-amparo-ambiental-habilito-obra-vial-barrios-112-150-viviendas",
+      "fuente_url": "https://www.anbariloche.com.ar/noticias/2026/10/06/119214-la-justicia-rechazo-un-amparo-ambiental-y-levanto-la-suspension-de-una-obra-vial-en-bariloche"
     }
   ],
-  "ultima_actualizacion": "2026-09-11T14:20:39.273Z"
+  "cronica_html": "<div class=\"c-dossier-article\">\n<p class=\"c-lead\">El mapa de obras públicas en Bariloche combina hitos de infraestructura comunitaria con el avance de corredores educativos y de conectividad: la conexión de servicios en el campus propio de la UNRN, las bases del Natatorio en Playa Centenario y la pasarela de Cuyín Manzano marcan la agenda de inversiones antes del inicio de la veda estival.</p>\n<h3>1. Antecedentes y génesis</h3>\n<p>El déficit de infraestructura urbana y vial de Bariloche responde a décadas de rezago en inversión pública frente a una tasa de crecimiento demográfico constante. Este cuadro se agravó tras el freno de transferencias del Estado nacional para obras civiles de envergadura, obligando a la Provincia de Río Negro y al Municipio a estructurar mecanismos de financiamiento propio —como la Ley de Compensación Municipal ($2.350M anuales) o partidas de ministerios provinciales— para terminar obras paralizadas y reactivar la conectividad barrial.</p>\n<h3>2. Últimos acontecimientos y novedades</h3>\n<p>En el sector este de la ciudad, el nuevo <strong>edificio propio de la Universidad Nacional de Río Negro (UNRN)</strong> ingresó en su etapa culminante: con financiamiento provincial, las obras de conexión de servicios alcanzan un <strong>88% en electricidad y un 80% en redes de agua potable y cloacas</strong>, previendo su finalización en noviembre para abrir sus 3.200 m² y 12 aulas en el ciclo lectivo de marzo de 2027, concentrando 20 carreras que hoy alquilan inmuebles dispersos.</p>\n<p>Sobre la costa del lago Nahuel Huapi, el intendente Walter Cortés supervisó el hormigonado de limpieza (14 m³ de H8) en el predio del futuro <strong>Natatorio Municipal de Playa Centenario</strong>, donde cuadrillas técnicas completaron las mallas de armadura de 12 mm para iniciar el llenado masivo de las bases con hormigón H30 para la pileta semiolímpica de 2 metros de profundidad. En paralelo, en la cuenca andina, la emblemática <strong>pasarela sobre el río Cuyín Manzano superó el 40% de avance</strong>, montando una estructura reticulada de 105 metros para terminar con 34 años de aislamiento de familias rurales tras la crecida de 1992.</p>\n<blockquote cite=\"https://barilocheinforma.gob.ar/de-la-obra-al-sueno-de-ver-a-los-vecinos-nadar-cortes-recorrio-el-futuro-natatorio-municipal/\">\n<p>«Esto queda para toda una generación. Quizás nosotros ya no estemos más, pero este natatorio va a seguir estando como espacio de integración deportiva para las familias de los barrios.» — Walter Cortés, Intendente de Bariloche.</p>\n</blockquote>\n<aside class=\"c-dossier-data\">\n<h4>Métricas del tablero de obras e infraestructura</h4>\n<ul>\n<li><strong>Campus UNRN Este:</strong> 3.200 m² cubiertos; 88% de avance en tendido eléctrico y 80% en agua/cloacas (apertura en marzo de 2027).</li>\n<li><strong>Natatorio Playa Centenario:</strong> 14 m³ de hormigón H8 colados; bases estructurales de 45 cm con hierro de 12 mm para pileta oficial de 2 m de profundidad.</li>\n<li><strong>Pasarela Cuyín Manzano:</strong> 105 metros de longitud y 40% de ejecución para terminar con aislamiento histórico de pobladores rurales.</li>\n<li><strong>Nueva Terminal de Ómnibus:</strong> 92% de obra civil en etapa de terminaciones interiores.</li>\n<li><strong>Seguridad Vial Barrial:</strong> Construcción de 4 reductores y badén pluvial de hormigón en avenida de la Virreyna.</li>\n</ul>\n</aside>\n<h3>3. Actores e intereses en disputa</h3>\n<p>El intendente Cortés busca capitalizar la obra pública municipal con recursos genuinos para mostrar gestión de cercanía antes de la temporada estival. Desde el gobierno provincial de Alberto Weretilneck se prioriza blindar proyectos estratégicos como el campus de la UNRN y la infraestructura hídrica, mientras las cámaras de transporte y turismo presionan para que Vialidad Nacional finalice la rotonda de avenida Esandi y repavimente accesos troncales antes del pico turístico de verano.</p>\n<h3>4. Hacia dónde va: próximos pasos e instancias clave</h3>\n<p>Durante octubre y noviembre se aguarda la inauguración de la conexión de servicios de la UNRN, el llenado con hormigón H30 de las piletas del natatorio comunal y la entrega de obra de la Nueva Terminal de Ómnibus, al tiempo que se activarán las primeras cuadrillas de bacheo en caliente financiadas por la Compensación Municipal sobre avenidas Bustillo y Pioneros.</p>\n</div>",
+  "fecha_ultima_cronica": "2026-10-06",
+  "media": {
+    "imagen_url": "https://barilocheopina-s3.cdn.net.ar/s3i233/2026/10/barilocheopina/images/02/79/75/2797580_md.webp",
+    "credito": "Prensa Municipalidad de Bariloche / Bariloche Opina",
+    "requiere_foto": false,
+    "prompt_nanobanana": "Ilustración editorial en estilo animación 2D que representa el desarrollo de infraestructura y conectividad en Bariloche: una moderna terminal de transporte de líneas curvas y techos de madera, buses transitando por una ruta cordillerana bien señalizada rodeada de pinos y montañas, y una cuadrilla de obras civiles trabajando en una rotonda urbana. Estilo de póster de viaje modernista, sombras planas, líneas geométricas limpias, paleta en azul cobalto, ocre, asfalto y verde andino, sin texto."
+  },
+  "ultima_actualizacion": "2026-10-06",
+  "updated_at": "2026-10-06T23:07:37.004Z"
 }

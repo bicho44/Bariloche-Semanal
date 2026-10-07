@@ -1,0 +1,40 @@
+{
+  "id": "2026-09-26_choque-frontal-bustillo-km20-peninsula-san-pedro-lago",
+  "titular": "Violento choque frontal en el kilómetro 20 de Bustillo dejó dos heridos y un auto a centímetros de desbarrancar hacia el lago",
+  "hecho_central": "Una colisión frontal entre dos vehículos en la sinuosa curva del acceso a Península San Pedro sobre avenida Bustillo dejó como saldo dos heridos, incluyendo un adulto con fractura y un menor, quedando uno de los autos suspendido al borde del barranco hacia el lago Nahuel Huapi.",
+  "fecha_publicacion": "2026-09-26",
+  "area_id": "gestion-publica",
+  "dossier_id": null,
+  "seguimiento_id": "infraestructura-terminal-rutas",
+  "fuente": {
+    "id": "el-cordillerano",
+    "nombre": "Diario El Cordillerano",
+    "url_nota": "https://www.elcordillerano.com.ar/noticias/2026/09/26/264229-brutal-choque-en-el-oeste-de-bariloche-dejo-dos-heridos-y-un-auto-al-borde-de-caer-al-lago"
+  },
+  "cuerpo_html": "<p class=\"c-dossier-link\">📌 <em>Seguimiento: <a href=\"/seguimientos/infraestructura-terminal-rutas\">Nueva Terminal de Ómnibus, Rotonda Esandi y Rutas</a></em></p>\n<p>Un impresionante siniestro vial conmovió este sábado al oeste barilochense: <strong>dos personas resultaron heridas tras un violento choque frontal entre dos automóviles ocurrido al mediodía sobre avenida Bustillo, a la altura del kilómetro 20</strong>, en una cerrada curva próxima al acceso a Península San Pedro, según consignó <a href=\"https://www.elcordillerano.com.ar/noticias/2026/09/26/264229-brutal-choque-en-el-oeste-de-bariloche-dejo-dos-heridos-y-un-auto-al-borde-de-caer-al-lago\" target=\"_blank\" rel=\"noopener noreferrer\">El Cordillerano</a>.</p>\n<p>La colisión involucró a un Volkswagen Suran y a un Toyota Yaris gris; este último fue desplazado hacia la banquina externa y <strong>quedó detenido al borde mismo del precipicio que da a las aguas del lago Nahuel Huapi</strong>. Dotaciones de Bomberos Voluntarios Campanario, ambulancias y personal policial trabajaron intensamente en el lugar para inmovilizar al conductor del Suran —quien sufrió una fractura en un brazo— y asistir a un menor de edad con politraumatismos.</p>\n<blockquote cite=\"https://www.elcordillerano.com.ar/noticias/2026/09/26/264229-brutal-choque-en-el-oeste-de-bariloche-dejo-dos-heridos-y-un-auto-al-borde-de-caer-al-lago\"><p>«La calzada mojada por las lluvias intermitentes y el exceso de velocidad en un sector de curvas ciegas volvieron a provocar un hecho que de milagro no terminó en tragedia sobre el lago», señalaron los rescatistas actuantes.</p></blockquote>\n<p>El tránsito por la principal vía de conectividad del oeste permaneció cortado en ambas manos durante más de dos horas, reactivando los reclamos vecinales por señalización luminosa y radares reductores en los tramos críticos de Bustillo.</p>",
+  "citas": [
+    {
+      "autor": "Bomberos Voluntarios Campanario",
+      "cargo": "Reporte de Emergencias Viales Oeste",
+      "texto": "El impacto fue de extrema violencia en una curva muy cerrada y con calzada resbaladiza por las lluvias; el rodado menor quedó detenido sobre el declive de la banquina a escasos centímetros de caer al lago."
+    }
+  ],
+  "datos_duros": {
+    "ubicacion": "Avenida Bustillo kilómetro 20 (curva de ingreso a Península San Pedro)",
+    "vehiculos_involucrados": "Toyota Yaris gris (al borde del desbarranque) y Volkswagen Suran con daños estructurales",
+    "heridos": "2 personas asistidas (un hombre con presunta fractura en miembro superior y un menor de edad)",
+    "intervencion": "Bomberos Voluntarios Campanario, Policía de Río Negro y ambulancia",
+    "afectacion_vial": "Corte total de tránsito y desvíos por más de dos horas"
+  },
+  "area": "Gestión Pública",
+  "fecha": "2026-09-26",
+  "foto": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/09/elcordillerano/images/02/78/76/2787686_4bba0b7e67e2bb1ad26fd9aceed08231487cbe45b70fc4e83a1dd07546649e34/md.webp",
+  "updated_at": "2026-09-28T12:14:43.051Z",
+  "imagen_url": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/09/elcordillerano/images/02/78/76/2787686_4bba0b7e67e2bb1ad26fd9aceed08231487cbe45b70fc4e83a1dd07546649e34/md.webp",
+  "media": {
+    "credito": "Foto: Bomberos Campanario / El Cordillerano",
+    "requiere_foto": false,
+    "imagen_url": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/09/elcordillerano/images/02/78/76/2787686_4bba0b7e67e2bb1ad26fd9aceed08231487cbe45b70fc4e83a1dd07546649e34/md.webp"
+  },
+  "url": "https://www.elcordillerano.com.ar/noticias/2026/09/26/264229-brutal-choque-en-el-oeste-de-bariloche-dejo-dos-heridos-y-un-auto-al-borde-de-caer-al-lago"
+}

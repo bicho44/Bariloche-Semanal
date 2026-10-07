@@ -1,0 +1,41 @@
+{
+  "id": "2026-10-02_municipio-aumento-multas-transito-unidad-fija-2155",
+  "titular": "El Municipio aumentó las multas de tránsito por el alza de combustibles: la Unidad Fija alcanzó los $2.155",
+  "hecho_central": "El intendente Walter Cortés emitió la Resolución Nº 00003333-I-2026 que elevó el valor de la Unidad Fija (UF) para las multas de tránsito a $2.155 para todo el mes de octubre, ajustando las penalidades tipificadas en la Ordenanza 2375-CM-12 por el incremento nacional de las naftas para preservar el valor real de las sanciones económicas.",
+  "area_id": "gestion-publica",
+  "seguimiento_id": "infraestructura-terminal-rutas",
+  "fuente": {
+    "id": "anbariloche",
+    "nombre": "ANBariloche",
+    "url_nota": "https://www.anbariloche.com.ar/noticias/2026/10/02/118872-el-municipio-aumento-las-multas-de-transito-la-unidad-fija-alcanzo-los-2155"
+  },
+  "cuerpo_html": "<p class=\"c-dossier-link\">📌 <em>Seguimiento: <a href=\"/seguimientos/infraestructura-terminal-rutas\">Nueva Terminal de Ómnibus, Rotonda Esandi y Rutas</a></em></p>\n<p>En el marco de la actualización periódica del régimen contravencional municipal, <strong>el intendente Walter Cortés promulgó este viernes la Resolución Nº 00003333-I-2026, fijando en $2.155 el valor de la Unidad Fija (UF) aplicable a las infracciones de tránsito durante todo el mes de octubre</strong>, según confirmó <a href=\"https://www.anbariloche.com.ar/noticias/2026/10/02/118872-el-municipio-aumento-las-multas-de-transito-la-unidad-fija-alcanzo-los-2155\" target=\"_blank\" rel=\"noopener noreferrer\">ANBariloche</a>.</p>\n<p>La medida se encuadra en las pautas establecidas por la Ordenanza 2375-CM-12, que indexa el valor de la unidad de referencia a las variaciones en el precio del litro de combustible en las estaciones de servicio de la ciudad tras los aumentos autorizados a nivel nacional durante septiembre. El nuevo coeficiente impactará de lleno en las liquidaciones correspondientes a faltas graves y muy graves, entre las que se cuentan los excesos de velocidad sobre avenidas troncales como Bustillo y Pioneros (código MG.1), giros indebidos y cruces con luz roja.</p>\n<blockquote cite=\"https://www.anbariloche.com.ar/noticias/2026/10/02/118872-el-municipio-aumento-las-multas-de-transito-la-unidad-fija-alcanzo-los-2155\">\n<p>«El sistema de conversión automática resguarda el valor de las multas para que las penalidades mantengan su efecto sancionatorio y preventivo frente a las oscilaciones inflacionarias de los insumos viales», fundamenta el texto oficial comunal.</p>\n</blockquote>\n<p>Los infractores que opten por el régimen de pago voluntario dentro de los plazos administrativos mantendrán los descuentos previstos por la normativa vigente.</p>",
+  "citas": [
+    {
+      "autor": "Poder Ejecutivo Municipal",
+      "cargo": "Resolución 00003333-I-2026",
+      "texto": "La actualización mensual de la Unidad Fija se ejecuta de forma reglada para evitar la depreciación económica de las sanciones viales ante el incremento de combustibles, asegurando el poder disuasorio de las normas de tránsito urbano."
+    }
+  ],
+  "datos_duros": {
+    "valor_unidad_fija_uf": "$2.155 (vigente del 1 al 31 de octubre de 2026)",
+    "norma_reglamentaria": "Resolución Nº 00003333-I-2026 del Poder Ejecutivo Municipal",
+    "ordenanza_marco": "Ordenanza Nº 2375-CM-12 (artículos 66 y 73 del Anexo II)",
+    "infracciones_graves_afectadas": "Códigos MG.1 (exceso de velocidad), MG.4 (circulación en contramano) y MG.6 (semáforo en rojo)",
+    "criterio_indexacion": "Precio de venta al público de combustibles líquidos en surtidores locales"
+  },
+  "area": "Gestión Pública",
+  "fecha": "2026-09-30",
+  "foto": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/10/anbariloche/images/02/79/63/2796381_44118ea580185709fabf5230d06f75b56c6b56eeda970754d230cbfb815779b0/md.webp",
+  "updated_at": "2026-10-05T12:19:16.702Z",
+  "curada_manualmente": true,
+  "imagen_url": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/10/anbariloche/images/02/79/63/2796381_44118ea580185709fabf5230d06f75b56c6b56eeda970754d230cbfb815779b0/md.webp",
+  "media": {
+    "credito": "Prensa Municipalidad de Bariloche / ANBariloche",
+    "requiere_foto": false,
+    "imagen_url": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/10/anbariloche/images/02/79/63/2796381_44118ea580185709fabf5230d06f75b56c6b56eeda970754d230cbfb815779b0/md.webp"
+  },
+  "dossier_id": "infraestructura-terminal-rutas",
+  "url": "https://www.anbariloche.com.ar/noticias/2026/10/02/118872-el-municipio-aumento-las-multas-de-transito-la-unidad-fija-alcanzo-los-2155",
+  "fecha_publicacion": "2026-09-30"
+}

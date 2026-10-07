@@ -1,0 +1,39 @@
+{
+  "id": "2026-09-26_dina-huapi-loteo-46-parcelas-servicios-invap-suelo-urbano",
+  "titular": "La Provincia e INVAP acordaron un loteo de 46 parcelas con servicios en Dina Huapi para trabajadores de la empresa",
+  "hecho_central": "En el marco del 50° aniversario de INVAP, el Gobierno provincial y la firma tecnológica firmaron un convenio marco para incorporar tierras al programa Río Negro Suelo Urbano y desarrollar infraestructura completa (agua, luz, gas, alumbrado y apertura de calles) para 46 lotes residenciales en Dina Huapi.",
+  "fecha_publicacion": "2026-09-26",
+  "area_id": "gestion-publica",
+  "dossier_id": null,
+  "seguimiento_id": null,
+  "fuente": {
+    "id": "bariloche-opina",
+    "nombre": "Bariloche Opina",
+    "url_nota": "https://www.barilocheopina.com/noticias/2026/09/26/94942-dina-huapi-proyectan-46-lotes-con-servicios-para-personal-de-invap"
+  },
+  "cuerpo_html": "<p>En el marco de las actividades conmemorativas por el 50° aniversario de INVAP, el <strong>Gobierno de Río Negro y la empresa tecnológica estatal suscribieron un convenio marco para urbanizar 46 lotes residenciales en la localidad de Dina Huapi</strong> destinados al personal de la firma, según informó <a href=\"https://www.barilocheopina.com/noticias/2026/09/26/94942-dina-huapi-proyectan-46-lotes-con-servicios-para-personal-de-invap\" target=\"_blank\" rel=\"noopener noreferrer\">Bariloche Opina</a>.</p>\n<p>El entendimiento articula la incorporación de inmuebles de la empresa al programa provincial <strong>Río Negro Suelo Urbano</strong> bajo la órbita técnica del Instituto de Planificación y Promoción de la Vivienda (IPPV). El plan contempla la ejecución integral de redes de <strong>agua potable, tendido eléctrico, gas natural domiciliario, alumbrado público y apertura de trazas viales</strong> para dotar de servicios básicos a las parcelas.</p>\n<blockquote cite=\"https://www.barilocheopina.com/noticias/2026/09/26/94942-dina-huapi-proyectan-46-lotes-con-servicios-para-personal-de-invap\"><p>«El acuerdo establece una agenda de trabajo coordinada para incorporar tierras de la empresa al programa Suelo Urbano y gestionar el financiamiento necesario para su infraestructura», destacaron las autoridades durante el acto encabezado por el presidente de INVAP, Vicente Campenni, y el gerente general, Darío Giussi.</p></blockquote>\n<p>La iniciativa representa un paso clave para mitigar la persistente crisis de acceso a la tierra en la comarca andina, permitiendo radicar a cuadros profesionales y científicos en Dina Huapi con servicios esenciales consolidados.</p>",
+  "citas": [
+    {
+      "autor": "Acuerdo Marco Provincia - INVAP",
+      "cargo": "Convenio Institucional Río Negro Suelo Urbano",
+      "texto": "El acuerdo establece una agenda de trabajo conjunto para incorporar tierras de la empresa al programa Río Negro Suelo Urbano y desarrollar la infraestructura necesaria para resolver la demanda habitacional del personal científico y técnico."
+    }
+  ],
+  "datos_duros": {
+    "lotes_proyectados": "46 parcelas residenciales en Dina Huapi",
+    "programa_provincial": "Río Negro Suelo Urbano a través del IPPV",
+    "servicios_garantizados": "Redes de agua potable, energía eléctrica, gas natural, alumbrado público y apertura de trazas viales",
+    "actores_firmantes": "Vicente Campenni (presidente de INVAP), Darío Giussi (CEO) y autoridades provinciales"
+  },
+  "area": "Gestión Pública",
+  "fecha": "2026-09-26",
+  "foto": "https://barilocheopina-s3.cdn.net.ar/s3i233/2026/09/barilocheopina/images/02/78/75/2787597_423db0c75531dc322adb5812d8f06bc05fa825dc572c2b4f84a86d4109a84691/md.webp",
+  "updated_at": "2026-09-28T12:17:55.114Z",
+  "imagen_url": "https://barilocheopina-s3.cdn.net.ar/s3i233/2026/09/barilocheopina/images/02/78/75/2787597_423db0c75531dc322adb5812d8f06bc05fa825dc572c2b4f84a86d4109a84691/md.webp",
+  "media": {
+    "credito": "Prensa Gobierno de Río Negro / Bariloche Opina",
+    "requiere_foto": false,
+    "imagen_url": "https://barilocheopina-s3.cdn.net.ar/s3i233/2026/09/barilocheopina/images/02/78/75/2787597_423db0c75531dc322adb5812d8f06bc05fa825dc572c2b4f84a86d4109a84691/md.webp"
+  },
+  "url": "https://www.barilocheopina.com/noticias/2026/09/26/94942-dina-huapi-proyectan-46-lotes-con-servicios-para-personal-de-invap"
+}

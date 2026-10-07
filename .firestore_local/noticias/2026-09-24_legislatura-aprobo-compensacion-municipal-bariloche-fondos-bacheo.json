@@ -1,0 +1,47 @@
+{
+  "id": "2026-09-24_legislatura-aprobo-compensacion-municipal-bariloche-fondos-bacheo",
+  "titular": "La Legislatura de Río Negro aprobó por ley la Compensación Municipal que garantiza más de $2.350 millones anuales para Bariloche",
+  "hecho_central": "Con 35 votos a favor y 8 en contra, la Legislatura rionegrina sancionó el proyecto de ley que ratifica la Compensación Financiera Transitoria para 14 municipios y 13 comisiones de fomento, asegurando a Bariloche $2.350.831.387 anuales y a Dina Huapi $1.071.083.602 con fondos del Tesoro Provincial sin modificar los índices de la Ley 1.946.",
+  "fecha_publicacion": "2026-09-24",
+  "area_id": "gestion-publica",
+  "dossier_id": null,
+  "seguimiento_id": "infraestructura-terminal-rutas",
+  "fuente": {
+    "id": "el-cordillerano",
+    "nombre": "Diario El Cordillerano",
+    "url_nota": "https://www.elcordillerano.com.ar/noticias/2026/09/24/263941-se-aprobo-la-compensacion-municipal-el-paso-clave-de-la-legislatura-que-fortalece-a-las-comunas"
+  },
+  "cuerpo_html": "<p class=\"c-dossier-link\">📌 <em>Seguimiento: <a href=\"/seguimientos/infraestructura-terminal-rutas\">Nueva Terminal de Ómnibus, Rotonda Esandi y Rutas</a></em></p>\n<p>En una sesión decisiva para las cuentas públicas locales, la <strong>Legislatura de Río Negro sancionó este jueves 24 de septiembre el esquema de Compensación Financiera Transitoria</strong>, blindando por ley el acuerdo suscripto entre el gobernador Alberto Weretilneck y los jefes comunales que asegura a San Carlos de Bariloche una asignación anual de <strong>$2.350.831.387 transferidos de forma automática y mensual</strong>, según informó <a href=\"https://www.elcordillerano.com.ar/noticias/2026/09/24/263941-se-aprobo-la-compensacion-municipal-el-paso-clave-de-la-legislatura-que-fortalece-a-las-comunas\" target=\"_blank\" rel=\"noopener noreferrer\">El Cordillerano</a>.</p>\n<p>La votación arrojó una contundente mayoría de <strong>35 votos a favor contra 8 negativos</strong>. El dispositivo legal establece que la Provincia inyectará alrededor de $1.029 millones mensuales provenientes del Tesoro Provincial sin recortar recursos a ninguna otra comuna ni alterar los coeficientes históricos de la Ley de Coparticipación 1.946, subsanando el rezago demográfico acumulado. Para la vecina localidad de Dina Huapi, el paquete garantiza $1.071.083.602 anuales.</p>\n<blockquote cite=\"https://www.elcordillerano.com.ar/noticias/2026/09/24/263941-se-aprobo-la-compensacion-municipal-el-paso-clave-de-la-legislatura-que-fortalece-a-las-comunas\"><p>«Nadie se animó a hacer lo que hoy estamos haciendo aquí, a tomar la decisión de reparar, como lo hizo el gobernador. Con los nuevos componentes se detectó que 14 municipios iban a quedar desfasados», remarcó el miembro informante Lucas Pica (JSRN).</p></blockquote>\n<p>Con la sanción parlamentaria definitiva, el intendente Walter Cortés dispondrá de la garantía legal de estos fondos afectados para activar las licitaciones de material asfáltico y cuadrillas de bacheo troncal sobre las avenidas Bustillo, Pioneros y Esandi apenas concluya el período de temporales climáticos.</p>",
+  "citas": [
+    {
+      "autor": "Lucas Pica",
+      "cargo": "Legislador provincial (JSRN) y miembro informante",
+      "texto": "Nadie se animó a hacer lo que hoy estamos haciendo aquí, a tomar la decisión de reparar, como lo hizo el gobernador. Se detectó que hay 14 municipios que si no se modificaba el esquema iban a quedar desfasados, no se les estaba dando lo que les correspondía."
+    },
+    {
+      "autor": "Ariel Bernatene",
+      "cargo": "Legislador provincial (UCR)",
+      "texto": "Para el radicalismo, los municipios no son meros administradores de recursos. Son el primer eslabón de la cadena, los que tienen una relación directa con la comunidad. Y este proyecto trae una respuesta concreta porque los índices están desactualizados."
+    }
+  ],
+  "datos_duros": {
+    "votacion": "35 votos a favor, 8 en contra",
+    "monto_mensual_provincia": "$1.029 millones mensuales de recursos propios del Tesoro",
+    "monto_anual_bariloche": "$2.350.831.387",
+    "monto_anual_dina_huapi": "$1.071.083.602",
+    "monto_anual_cipolletti": "$3.832.872.960",
+    "monto_anual_el_bolson": "$1.653.996.966",
+    "destino_fondos_locales": "Bacheo en caliente, recuperación de calzada en avenidas Bustillo y Pioneros, y renovación de luminarias"
+  },
+  "area": "Gestión Pública",
+  "fecha": "2026-09-24",
+  "foto": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/09/elcordillerano/images/02/78/51/2785103_3867f339828cdaa94b1320594f2571a6e5abba84b1901e99f9c45845f488843e/md.webp",
+  "updated_at": "2026-09-25T00:06:45.020Z",
+  "imagen_url": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/09/elcordillerano/images/02/78/51/2785103_3867f339828cdaa94b1320594f2571a6e5abba84b1901e99f9c45845f488843e/md.webp",
+  "media": {
+    "credito": "Prensa Legislatura de Río Negro / Quorum",
+    "requiere_foto": false,
+    "imagen_url": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/09/elcordillerano/images/02/78/51/2785103_3867f339828cdaa94b1320594f2571a6e5abba84b1901e99f9c45845f488843e/md.webp"
+  },
+  "url": "https://www.elcordillerano.com.ar/noticias/2026/09/24/263941-se-aprobo-la-compensacion-municipal-el-paso-clave-de-la-legislatura-que-fortalece-a-las-comunas"
+}

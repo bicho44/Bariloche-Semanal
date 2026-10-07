@@ -1,0 +1,41 @@
+{
+  "id": "2026-10-04_comision-auxilio-rescate-tres-mujeres-sendero-refugio-frey",
+  "titular": "La Comisión de Auxilio rescató en buen estado a tres caminantes extraviadas en el sendero al refugio Frey",
+  "hecho_central": "Brigadistas de la Comisión de Auxilio del Club Andino Bariloche (CAX) y guardaparques del Parque Nacional Nahuel Huapi desplegaron un operativo en el sendero a refugio Frey tras perderse contacto el sábado por la tarde con tres mujeres (dos de Buenos Aires y una local), localizándolas sanas y salvas en descenso desde la zona de Piedritas.",
+  "area_id": "turismo",
+  "seguimiento_id": "temporada-turistica-nieve",
+  "fuente": {
+    "id": "anbariloche",
+    "nombre": "ANBariloche",
+    "url_nota": "https://www.anbariloche.com.ar/noticias/2026/10/04/118998-buscaban-a-tres-mujeres-en-el-sendero-al-refugio-frey-y-aparecieron-en-buen-estado"
+  },
+  "cuerpo_html": "<p class=\"c-dossier-link\">📌 <em>Seguimiento: <a href=\"/seguimientos/temporada-turistica-nieve\">Temporada Turística, Nieve y Conectividad</a></em></p>\n<p>Un intenso operativo de búsqueda en el corazón del Parque Nacional Nahuel Huapi concluyó este domingo con alivio: <strong>la Comisión de Auxilio del Club Andino Bariloche (CAX) y rescatistas de montaña localizaron en buen estado de salud a tres mujeres que se habían extraviado mientras ascendían hacia el Refugio Frey</strong>, según consignó <a href=\"https://www.anbariloche.com.ar/noticias/2026/10/04/118998-buscaban-a-tres-mujeres-en-el-sendero-al-refugio-frey-y-aparecieron-en-buen-estado\" target=\"_blank\" rel=\"noopener noreferrer\">ANBariloche</a>.</p>\n<p>La alarma se encendió en las últimas horas del sábado cuando las excursionistas —dos de ellas procedentes de Buenos Aires y una residente local— fueron divisadas por otros montañistas en el sector de <strong>Piedritas</strong> caminando a ritmo muy lento y con escasa luz natural, perdiéndose su rastro en una zona de mallín anegado. A primera hora de la mañana dominical, personal del refugio inició un barrido descendente y detectó pisadas frescas, lo que permitió a la patrulla de la CAX interceptarlas mientras desandaban la senda por sus propios medios hacia la base del Cerro Catedral.</p>\n<blockquote cite=\"https://www.anbariloche.com.ar/noticias/2026/10/04/118998-buscaban-a-tres-mujeres-en-el-sendero-al-refugio-frey-y-aparecieron-en-buen-estado\">\n<p>«La prudencia de detenerse al caer la noche y no internarse en pendientes peligrosas fue clave para evitar un cuadro de hipotermia severa con las bajas temperaturas del fin de semana», señalaron los brigadistas andinos.</p>\n</blockquote>\n<p>El episodio reitera las advertencias de Parques Nacionales respecto al cumplimiento obligatorio del Registro de Trekking gratuito y la necesidad de planificar las salidas con margen horario frente a la inestabilidad de la primavera andina.</p>",
+  "citas": [
+    {
+      "autor": "Comisión de Auxilio (CAX) Club Andino Bariloche",
+      "cargo": "Reporte de Operaciones de Montaña",
+      "texto": "El rastreo de huellas en descenso desde Piedritas fue determinante para confirmar que las caminantes regresaban por sus propios medios tras desorientarse en el mallín; el operativo concluyó exitosamente con las tres personas en perfecto estado de salud."
+    }
+  ],
+  "datos_duros": {
+    "personas_asistidas": "Tres mujeres (dos turistas de Buenos Aires y una residente barilochense)",
+    "sendero_intervenido": "Picada tradicional a Refugio Frey (Cerro Catedral, Parque Nacional Nahuel Huapi)",
+    "punto_critico_localizacion": "Sector de mallín y bosque cercano a Piedritas (más de 1.400 msnm)",
+    "condiciones_climaticas": "Temperaturas cercanas a 0°C, lloviznas persistentes y visibilidad reducida por niebla",
+    "fuerzas_operativas": "Comisión de Auxilio del Club Andino Bariloche (CAX) y personal de refugio"
+  },
+  "area": "Pulso Turístico",
+  "fecha": "2026-10-02",
+  "foto": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/10/anbariloche/images/02/79/86/2798636_bfeea012bcafd066e27e94cd443108d6f4d14394131f4d839de58f4e37150de6/md.webp",
+  "updated_at": "2026-10-05T12:12:21.765Z",
+  "curada_manualmente": true,
+  "imagen_url": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/10/anbariloche/images/02/79/86/2798636_bfeea012bcafd066e27e94cd443108d6f4d14394131f4d839de58f4e37150de6/md.webp",
+  "media": {
+    "credito": "Prensa Club Andino Bariloche / ANBariloche",
+    "requiere_foto": false,
+    "imagen_url": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/10/anbariloche/images/02/79/86/2798636_bfeea012bcafd066e27e94cd443108d6f4d14394131f4d839de58f4e37150de6/md.webp"
+  },
+  "dossier_id": "temporada-turistica-nieve",
+  "url": "https://www.anbariloche.com.ar/noticias/2026/10/04/118998-buscaban-a-tres-mujeres-en-el-sendero-al-refugio-frey-y-aparecieron-en-buen-estado",
+  "fecha_publicacion": "2026-10-02"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "2026-09-22_fab-debate-acceso-comunitario-montana",
+  "fecha_publicacion": "2026-09-22",
+  "titular": "El FAB abrió el debate sobre el acceso social a la montaña con el estreno de 'La montaña desde la ventana'",
+  "hecho_central": "En el marco del Festival Audiovisual Bariloche, el documental de la Fundación San José Obrero y el proyecto 'Vamos a la Montaña' colmó la sala y puso en agenda la histórica brecha de acceso a la cordillera para jóvenes de los barrios populares.",
+  "area_id": "turismo",
+  "dossier_id": "catedral-concesion",
+  "fuente": {
+    "id": "anbariloche",
+    "nombre": "ANBariloche",
+    "url_nota": "https://www.anbariloche.com.ar/noticias/2026/09/22/117832-las-producciones-locales-protagonizaron-el-primer-dia-del-festival-audiovisual-bariloche"
+  },
+  "novedad_respecto_a_dias_previos": "Estreno de La montaña desde la ventana en el FAB, que expone la brecha social de acceso a los cerros e interpela las políticas del modelo Catedral.",
+  "datos_duros": {
+    "producciones_fab": 97,
+    "entidad": "Fundación San José Obrero",
+    "marco": "14ª edición del FAB"
+  },
+  "citas": [
+    {
+      "autor": "Fernando Fernández Herrero (Fundación San José Obrero)",
+      "texto": "Si el cerro es de todos, ¿por qué hay pibes que crecieron mirando la montaña por la ventana y nunca pudieron pisarla? La brecha no es geográfica, es social y cultural."
+    }
+  ],
+  "entidades": {
+    "actores": [
+      "fundacion-san-jose-obrero",
+      "fernando-fernandez-herrero",
+      "fab-2026",
+      "capsa"
+    ],
+    "lugares": [
+      "cerro-catedral",
+      "bariloche",
+      "teatro-la-baita"
+    ]
+  },
+  "cobertura_cruzada": 3,
+  "cuerpo_html": "<p class=\"c-dossier-link\">📌 <em>Dossier: <a href=\"/dossiers/catedral-concesion\">Concesión y Modelo Cerro Catedral</a></em></p>\n<p>La primera jornada de proyecciones del Festival Audiovisual Bariloche (FAB 2026) tuvo un momento de fuerte resonancia comunitaria con el estreno a sala llena del cortometraje documental <strong>'La montaña desde la ventana'</strong>, dirigido por Sebastián Oscar Fuentes y producido por la Fundación San José Obrero, según reportó <a href=\"https://www.anbariloche.com.ar/noticias/2026/09/22/117832-las-producciones-locales-protagonizaron-el-primer-dia-del-festival-audiovisual-bariloche\" target=\"_blank\" rel=\"noopener noreferrer\">ANBariloche</a>.</p>\n<p>La pieza audiovisual registra la experiencia del dispositivo 'Vamos a la Montaña' durante una ascensión al Refugio López protagonizada por jóvenes del Alto barilochense que, a pesar de haber crecido a escasos kilómetros de los cordones cordilleranos, jamás habían tenido la posibilidad material de ascender a un cerro. La proyección interpeló al público y a los realizadores sobre la contradicción estructural entre la imagen turística internacional de Bariloche y las barreras socioeconómicas que limitan el disfrute de la naturaleza a sus propios habitantes.</p>\n<blockquote cite=\"https://www.anbariloche.com.ar/noticias/2026/09/22/117832-las-producciones-locales-protagonizaron-el-primer-dia-del-festival-audiovisual-bariloche\"><p>«Si el cerro es de todos, ¿por qué hay pibes que crecieron mirando la montaña por la ventana y nunca pudieron pisarla? La brecha no es geográfica, es social y cultural», plantearon los coordinadores del proyecto tras la proyección.</p></blockquote>\n<p>El debate cobra especial vigencia mientras en el Concejo Deliberante se monitorean los balances de esquí social de la concesión de Cerro Catedral y se demanda un marco permanente de gratuidad e infraestructura de acceso comunitario a los refugios andinos.</p>",
+  "area": "Pulso Turístico",
+  "fecha": "2026-09-22",
+  "foto": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/09/anbariloche/images/02/78/09/2780965_ea0adf17ea774195a1c13049426d31bbeed0152118dde20e466968d3d8234d08/md.webp",
+  "updated_at": "2026-09-25T00:16:23.959Z",
+  "imagen_url": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/09/anbariloche/images/02/78/09/2780965_ea0adf17ea774195a1c13049426d31bbeed0152118dde20e466968d3d8234d08/md.webp",
+  "media": {
+    "credito": "Foto: Prensa FAB / Archivo San José Obrero",
+    "imagen_url": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/09/anbariloche/images/02/78/09/2780965_ea0adf17ea774195a1c13049426d31bbeed0152118dde20e466968d3d8234d08/md.webp"
+  },
+  "url": "https://www.anbariloche.com.ar/noticias/2026/09/22/117832-las-producciones-locales-protagonizaron-el-primer-dia-del-festival-audiovisual-bariloche"
+}

@@ -79,8 +79,8 @@ export async function obtenerResumenDashboard(req: Request, res: Response): Prom
     // Desglose ediciones
     let edicionesEnviadas = 0;
     let edicionesBorrador = 0;
-    for (const e of edicionesList) {
-      if (e.estado === 'enviado') edicionesEnviadas++;
+    for (const e of (edicionesList || [])) {
+      if (e.estado === 'enviado' || e.estado === 'enviado_a_suscriptores') edicionesEnviadas++;
       else edicionesBorrador++;
     }
 

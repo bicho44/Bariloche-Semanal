@@ -1,0 +1,36 @@
+{
+  "id": "2026-09-30_cerro-catedral-adelanta-preventa-pase-residente-2027-operacion-octubre",
+  "titular": "Cerro Catedral abre la preventa del Pase Residente 2027 a $640.000 y extiende la operación de esquí hasta el 4 de octubre",
+  "hecho_central": "En el marco de las celebraciones por los 90 años del centro invernal, Catedral Alta Patagonia (CAPSA) confirmó el lanzamiento anticipado de la preventa del Pase Residente Classic 2027 a partir de este jueves 1° de octubre con una tarifa congelada de $640.000 y facilidades de pago, al tiempo que ratificó la continuidad operativa de los medios de elevación habilitados en la ladera sur y cumbre hasta el domingo 4 de octubre.",
+  "fecha_publicacion": "2026-09-30",
+  "area_id": "turismo",
+  "dossier_id": null,
+  "seguimiento_id": "catedral-concesion",
+  "fuente": {
+    "id": "el-cordillerano",
+    "nombre": "Diario El Cordillerano",
+    "url_nota": "https://www.elcordillerano.com.ar/noticias/2026/09/29/264664-cerro-catedral-adelanta-la-venta-del-pase-residente-2027-comienza-el-1-de-octubre"
+  },
+  "media": {
+    "imagen_url": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/06/elcordillerano/images/02/64/56/2645687_0337c39c2b21d5bf70f7da77dcb50636f68d828bfcc57ae207dc9df2b21fe330/md.webp",
+    "credito": "Prensa Catedral Alta Patagonia / El Cordillerano",
+    "requiere_foto": false
+  },
+  "cuerpo_html": "<p class=\"c-dossier-link\">📌 <em>Seguimiento: <a href=\"/seguimientos/catedral-concesion\">Concesión y Modelo Cerro Catedral</a></em></p>\n<p>En coincidencia con los 90 años de actividad de la montaña y en vísperas del cierre de temporada, <strong>Catedral Alta Patagonia (CAPSA) anunció el inicio de la preventa anticipada del Pase Residente Classic 2027 a partir de este jueves 1° de octubre con una tarifa fijada en $640.000</strong>, según confirmó <a href=\"https://www.elcordillerano.com.ar/noticias/2026/09/29/264664-cerro-catedral-adelanta-la-venta-del-pase-residente-2027-comienza-el-1-de-octubre\" target=\"_blank\" rel=\"noopener noreferrer\">El Cordillerano</a>.</p>\n<p>La medida comercial busca brindar certidumbre financiera a los esquiadores locales de Bariloche y Dina Huapi mediante planes de cuotas en un escenario de alta inflación. En simultáneo, la empresa ratificó que las pistas superiores permanecerán operativas hasta el próximo <strong>domingo 4 de octubre</strong>, manteniendo habilitadas la Telecabina Amancay, la Telesilla Diente de Caballo y la Telesilla Séxtuple en el horario habitual de 9:00 a 17:00 para el público esquiador y peatones, aprovechando las recientes nevadas tardías que consolidaron espesores en las cotas más altas.</p>\n<blockquote cite=\"https://www.elcordillerano.com.ar/noticias/2026/09/29/264664-cerro-catedral-adelanta-la-venta-del-pase-residente-2027-comienza-el-1-de-octubre\">\n<p>«La preventa del pase residente a tarifa congelada representa un compromiso concreto con los barilochenses que disfrutan del cerro todo el invierno, coronando una temporada con gran acompañamiento comunitario», señalaron desde la concesionaria.</p>\n</blockquote>\n<p>Con esta definición de calendario, el cerro ingresa en su último tramo de actividad antes del receso técnico programado por el EAMCEC para las tareas de mantenimiento de cara a las actividades estivales.</p>",
+  "citas": [
+    {
+      "autor": "Catedral Alta Patagonia (CAPSA)",
+      "cargo": "Concesionaria Cerro Catedral",
+      "texto": "Al celebrar los 90 años de historia de la montaña, queremos reafirmar el lazo indisoluble con la comunidad de Bariloche y Dina Huapi adelantando la preventa del Pase Residente Classic 2027 a tarifa congelada, a la vez que extendemos la operación de esquí y peatones hasta el 4 de octubre gracias a las excelentes condiciones de nieve en cumbre."
+    }
+  ],
+  "datos_duros": {
+    "tarifa_preventa_residente": "$640.000 (Pase Classic residente temporada 2027)",
+    "fecha_lanzamiento_preventa": "Jueves 1° de octubre de 2026",
+    "vigencia_operativa_primavera": "Hasta el domingo 4 de octubre de 2026 (de 9:00 a 17:00 hs)",
+    "medios_habilitados": "Telecabina Amancay, Diente de Caballo y Telesilla Séxtuple",
+    "beneficiarios": "Residentes con domicilio acreditado en Bariloche y Dina Huapi",
+    "contexto_institucional": "90° aniversario de Cerro Catedral bajo concesión CAPSA hasta 2056 y fiscalización EAMCEC"
+  },
+  "updated_at": "2026-09-30T23:03:03.714Z"
+}

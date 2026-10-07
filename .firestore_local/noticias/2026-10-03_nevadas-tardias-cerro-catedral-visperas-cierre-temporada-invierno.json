@@ -1,0 +1,41 @@
+{
+  "id": "2026-10-03_nevadas-tardias-cerro-catedral-visperas-cierre-temporada-invierno",
+  "titular": "Nevadas tardías en cumbre coronan el fin de semana de cierre de temporada de esquí en Cerro Catedral",
+  "hecho_central": "Un frente frío cordillerano generó nuevas nevadas en las cotas altas de Cerro Catedral mientras en el casco urbano persistieron las lluvias con ráfagas de 74 km/h, asegurando excelentes condiciones de nieve en polvo para el último fin de semana de esquí y peatones antes de la clausura operativa programada para este domingo 4 de octubre.",
+  "area_id": "turismo",
+  "seguimiento_id": "catedral-concesion",
+  "fuente": {
+    "id": "el-cordillerano",
+    "nombre": "Diario El Cordillerano",
+    "url_nota": "https://www.elcordillerano.com.ar/noticias/2026/10/03/265467-nieva-en-catedral-y-llueve-en-la-ciudad-hasta-cuando-seguiran-las-precipitaciones-en-bariloche"
+  },
+  "cuerpo_html": "<p class=\"c-dossier-link\">📌 <em>Seguimiento: <a href=\"/seguimientos/catedral-concesion\">Concesión y Obras de Modernización en Cerro Catedral (CAPSA)</a></em></p>\n<p>En una despedida invernal marcada por la generosidad climática en las alturas, <strong>Cerro Catedral registró este sábado 3 de octubre una copiosa nevada en sus laderas intermedias y cumbre, vistiendo de blanco el centro de esquí en la antesala de su cierre operativo previsto para este domingo 4</strong>, según reportó <a href=\"https://www.elcordillerano.com.ar/noticias/2026/10/03/265467-nieva-en-catedral-y-llueve-en-la-ciudad-hasta-cuando-seguiran-las-precipitaciones-en-bariloche\" target=\"_blank\" rel=\"noopener noreferrer\">El Cordillerano</a>.</p>\n<p>Mientras en el ejido urbano y las costas del lago predominaron lloviznas persistentes y ráfagas de viento de hasta 74 km/h, por encima de los 1.600 metros de altitud el ingreso de aire polar consolidó un manto de nieve en polvo que permitió operar con normalidad los sectores de Telecabina Amancay, Diente de Caballo y la Telesilla Séxtuple. Cientos de esquiadores residentes y turistas aprovecharon las pistas acondicionadas en lo que constituye la última ventana de ascensos invernales de la temporada 2026.</p>\n<blockquote cite=\"https://www.elcordillerano.com.ar/noticias/2026/10/03/265467-nieva-en-catedral-y-llueve-en-la-ciudad-hasta-cuando-seguiran-las-precipitaciones-en-bariloche\">\n<p>«El pasaje de un frente húmedo y frío asegura temperaturas bajo cero en cotas altas, permitiendo coronar una temporada que celebró los 90 años del centro de deportes invernales», confirmaron desde la Autoridad Interjurisdiccional de Cuencas (AIC).</p>\n</blockquote>\n<p>Tras el cese de los medios de elevación al término de la jornada dominical, CAPSA iniciará el período de receso técnico para dar paso a las tareas de mantenimiento y a la reconversión de senderos para el turismo de verano, mientras avanza la preventa del Pase Residente 2027 a tarifa promocional.</p>",
+  "citas": [
+    {
+      "autor": "Autoridad Interjurisdiccional de Cuencas (AIC)",
+      "cargo": "Reporte Meteorológico de Cordillera",
+      "texto": "El ingreso de un pulso de aire frío mantiene precipitaciones níveas en alta montaña y lluvias en cotas bajas, con persistencia de condiciones húmedas e inestables en la zona de los lagos durante el inicio de octubre."
+    }
+  ],
+  "datos_duros": {
+    "fecha_cierre_temporada_esqui": "Domingo 4 de octubre de 2026 (9:00 a 17:00 hs)",
+    "condiciones_climaticas": "Nevadas en cumbre, lluvias en la base y vientos con ráfagas de hasta 74 km/h",
+    "pronostico_aic": "Ingreso de aire polar con inestabilidad hasta el martes 6 de octubre",
+    "medios_habilitados": "Telecabina Amancay, Telesilla Diente de Caballo y Telesilla Séxtuple",
+    "marco_comercial": "Vigencia de la preventa anticipada del Pase Residente 2027 a tarifa congelada de $640.000"
+  },
+  "area": "Pulso Turístico",
+  "fecha": "2026-10-01",
+  "foto": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/10/elcordillerano/images/02/79/75/2797590_60b4c5d1317580a6b3eda3d802c87970b312a491b1d6b93b96f06a15fd830918/md.webp",
+  "updated_at": "2026-10-05T12:17:46.599Z",
+  "curada_manualmente": true,
+  "imagen_url": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/10/elcordillerano/images/02/79/75/2797590_60b4c5d1317580a6b3eda3d802c87970b312a491b1d6b93b96f06a15fd830918/md.webp",
+  "media": {
+    "credito": "Foto: Eugenia Neme / El Cordillerano",
+    "requiere_foto": false,
+    "imagen_url": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/10/elcordillerano/images/02/79/75/2797590_60b4c5d1317580a6b3eda3d802c87970b312a491b1d6b93b96f06a15fd830918/md.webp"
+  },
+  "dossier_id": "catedral-concesion",
+  "url": "https://www.elcordillerano.com.ar/noticias/2026/10/03/265467-nieva-en-catedral-y-llueve-en-la-ciudad-hasta-cuando-seguiran-las-precipitaciones-en-bariloche",
+  "fecha_publicacion": "2026-10-01"
+}

@@ -1,0 +1,39 @@
+{
+  "id": "2026-09-27_el-manso-operativo-emergencia-asistencia-pasarela-filo-cerro",
+  "titular": "Operativo de emergencia en El Manso: auxilian por el filo del cerro a pobladores aislados tras la rotura de una pasarela fluvial",
+  "hecho_central": "Cuadrillas provinciales, la Comisión de Fomento y Parques Nacionales debieron abrir pasos peatonales por los filos de la montaña para alcanzar a vecinos incomunicados luego de que la pasarela del kilómetro 24 (confluencia Foyel y Manso) quedara descalzada por la fuerza del agua, mientras se distribuyen víveres, combustible y forraje en lanchas y camiones.",
+  "fecha_publicacion": "2026-09-27",
+  "area_id": "gestion-publica",
+  "dossier_id": null,
+  "seguimiento_id": "ceb-municipio-servicios",
+  "fuente": {
+    "id": "el-cordillerano",
+    "nombre": "Diario El Cordillerano",
+    "url_nota": "https://www.elcordillerano.com.ar/noticias/2026/09/27/264310-el-manso-gran-despliegue-para-asistir-a-familias-aisladas-por-la-crecida-del-rio"
+  },
+  "cuerpo_html": "<p class=\"c-dossier-link\">📌 <em>Seguimiento: <a href=\"/seguimientos/ceb-municipio-servicios\">Relación Municipio - CEB y Servicios Públicos</a></em></p>\n<p>El operativo de asistencia ante la histórica crecida de la cuenca andina sur sumó este domingo un capítulo de alto despliegue territorial: <strong>rescatistas de Protección Civil, guardaparques y personal comunal debieron cruzar a pie por el filo de los cerros para asistir a familias rurales aisladas en El Manso</strong> tras quedar inhabilitada la pasarela peatonal del kilómetro 24, según consignó <a href=\"https://www.elcordillerano.com.ar/noticias/2026/09/27/264310-el-manso-gran-despliegue-para-asistir-a-familias-aisladas-por-la-crecida-del-rio\" target=\"_blank\" rel=\"noopener noreferrer\">El Cordillerano</a>.</p>\n<p>El curso del río Manso descalzó uno de los estribos de la estructura metálica que conecta con el sector de Puente Verde, cortando la única vía de acceso regular para varios establecimientos rurales. Las cuadrillas lograron tender una senda alternativa de emergencia por la ladera boscosa para evacuar preventivamente a una pobladora de 72 años y abastecer con módulos alimentarios, frazadas y medicamentos a vecinos que decidieron permanecer en sus campos.</p>\n<blockquote cite=\"https://www.elcordillerano.com.ar/noticias/2026/09/27/264310-el-manso-gran-despliegue-para-asistir-a-familias-aisladas-por-la-crecida-del-rio\"><p>«Disponemos de camiones, camionetas y embarcaciones ligeras para garantizar los traslados y el alimento balanceado para los animales. El gobernador Weretilneck monitorea de forma permanente las acciones para asegurar la provisión de combustible y víveres», confirmó el comisionado Carlos Almansan.</p></blockquote>\n<p>La asistencia a los pequeños productores ganaderos se mantendrá reforzada mediante la entrega de fardos de forraje para mitigar las pérdidas económicas en las pasturas anegadas.</p>",
+  "citas": [
+    {
+      "autor": "Carlos Almansan",
+      "cargo": "Comisionado de Fomento de El Manso",
+      "texto": "La prioridad de los equipos en terreno es garantizar que ninguna familia quede desatendida y lograr el cruce del río en aquellos puntos donde el caudal condiciona el paso. El gobernador se mantiene en comunicación constante para seguir de cerca los operativos."
+    }
+  ],
+  "datos_duros": {
+    "infraestructura_danada": "Pasarela peatonal descalzada en el km 24 (Puente Verde y confluencia de ríos Foyel y Manso)",
+    "despliegue_logistico": "Camiones, camionetas de doble tracción y lanchas de rescate",
+    "vecinos_asistidos": "Pobladores rurales incomunicados y rescate preventivo a vecina de 72 años que vive sola",
+    "coordinacion_operativa": "Comisionado Carlos Almansan y comunicación directa con el gobernador Alberto Weretilneck"
+  },
+  "area": "Gestión Pública",
+  "fecha": "2026-09-27",
+  "foto": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/09/elcordillerano/images/02/78/85/2788505_5a7979c05955f4663b1df0d45ca98984037ca1e2c1f5248ac197f1086bedfa68/md.webp",
+  "updated_at": "2026-09-28T12:13:19.130Z",
+  "imagen_url": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/09/elcordillerano/images/02/78/85/2788505_5a7979c05955f4663b1df0d45ca98984037ca1e2c1f5248ac197f1086bedfa68/md.webp",
+  "media": {
+    "credito": "Prensa Parque Nacional Nahuel Huapi / El Cordillerano",
+    "requiere_foto": false,
+    "imagen_url": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/09/elcordillerano/images/02/78/85/2788505_5a7979c05955f4663b1df0d45ca98984037ca1e2c1f5248ac197f1086bedfa68/md.webp"
+  },
+  "url": "https://www.elcordillerano.com.ar/noticias/2026/09/27/264310-el-manso-gran-despliegue-para-asistir-a-familias-aisladas-por-la-crecida-del-rio"
+}

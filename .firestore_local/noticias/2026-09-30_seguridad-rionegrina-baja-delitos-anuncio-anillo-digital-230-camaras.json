@@ -1,0 +1,38 @@
+{
+  "id": "2026-09-30_seguridad-rionegrina-baja-delitos-anuncio-anillo-digital-230-camaras",
+  "titular": "La Provincia reportó una baja del 27% en delitos contra la propiedad en Bariloche y anunció la ampliación a 230 cámaras y anillo digital",
+  "hecho_central": "El Ministerio de Seguridad y Justicia de Río Negro presentó su balance oficial de los primeros nueve meses de 2026, destacando una reducción del 34,3% en robos y del 17,6% en hurtos en Bariloche, al tiempo que confirmó el avance de una inversión bienal de $6.700 millones para desplegar 18 lectores automáticos de patentes (LPR) y ampliar el sistema de videovigilancia urbana de 95 a 230 cámaras monitoreadas por el Centro Inteligente de Seguridad.",
+  "fecha_publicacion": "2026-09-30",
+  "area_id": "gestion-publica",
+  "dossier_id": null,
+  "seguimiento_id": "ceb-municipio-servicios",
+  "fuente": {
+    "id": "anbariloche",
+    "nombre": "ANBariloche",
+    "url_nota": "https://www.anbariloche.com.ar/noticias/2026/09/30/118674-la-provincia-informo-una-baja-de-robos-y-hurtos-en-bariloche-y-anuncio-mas-camaras-de-seguridad"
+  },
+  "media": {
+    "imagen_url": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/09/anbariloche/images/02/79/37/2793799_92f8adafd82044c3f9e34e0049bec27f171a559fc57627e85f85fa328bfb59f8/md.webp",
+    "credito": "Foto gentileza: Ministerio de Seguridad y Justicia / ANBariloche",
+    "requiere_foto": false
+  },
+  "cuerpo_html": "<p class=\"c-dossier-link\">📌 <em>Seguimiento: <a href=\"/seguimientos/ceb-municipio-servicios\">Relación Municipio - CEB y Servicios Públicos</a></em></p>\n<p>En el cierre del tercer trimestre del año, <strong>el Gobierno de Río Negro difundió las estadísticas oficiales de criminalidad para Bariloche, anunciando una baja del 27% en los delitos contra la propiedad entre enero y septiembre de 2026</strong> en comparación con el mismo período de 2025, según informó <a href=\"https://www.anbariloche.com.ar/noticias/2026/09/30/118674-la-provincia-informo-una-baja-de-robos-y-hurtos-en-bariloche-y-anuncio-mas-camaras-de-seguridad\" target=\"_blank\" rel=\"noopener noreferrer\">ANBariloche</a>.</p>\n<p>De acuerdo con el desglose del Ministerio de Seguridad y Justicia, <strong>los robos registraron una contracción del 34,34% al pasar de 865 a 568 casos (297 hechos menos)</strong>, mientras que los hurtos disminuyeron un 17,67% (de 679 a 559 denuncias). En el microcentro barilochense, bajo órbita de la Comisaría 2°, los delitos patrimoniales cedieron un 28,8%. Para sostener esta tendencia, la Provincia anunció la ampliación de la red de videovigilancia: la ciudad ya pasó de 50 a 95 cámaras activas y tiene en marcha la instalación de domos para alcanzar los 230 dispositivos integrados a un anillo digital de 18 lectores de patentes (LPR).</p>\n<blockquote cite=\"https://www.anbariloche.com.ar/noticias/2026/09/30/118674-la-provincia-informo-una-baja-de-robos-y-hurtos-en-bariloche-y-anuncio-mas-camaras-de-seguridad\">\n<p>«La combinación de presencia preventiva en los barrios con tecnología de punta y monitoreo inteligente explica el quiebre de la curva delictiva en la Zona Andina, donde se invirtieron más de $6.700 millones en los últimos dos años», subrayaron desde la cartera de Seguridad.</p>\n</blockquote>\n<p>El esquema preventivo se complementará con la incorporación progresiva de nuevos operadores en el Centro Inteligente de Seguridad y el refuerzo de los patrullajes nocturnos tras la finalización del Operativo Invierno.</p>",
+  "citas": [
+    {
+      "autor": "Ministerio de Seguridad y Justicia de Río Negro",
+      "cargo": "Reporte Oficial de Seguridad Ciudadana",
+      "texto": "La articulación entre el despliegue policial en calle junto a juntas vecinales y comerciantes, sumada a la inversión tecnológica que llevó de 50 a 95 cámaras y proyecta 230 dispositivos con lectores de patentes, fundamenta el descenso del 27% en los delitos patrimoniales en Bariloche."
+    }
+  ],
+  "datos_duros": {
+    "reduccion_global_delitos": "27% de disminución en delitos contra la propiedad (enero-septiembre 2026 vs 2025)",
+    "baja_robos": "34,34% de caída (de 865 a 568 hechos; 297 robos menos)",
+    "baja_hurtos": "17,67% de caída (de 679 a 559 hechos)",
+    "jurisdiccion_centro_comisaria_segunda": "28,8% de reducción en robos y hurtos (de 556 a 396 hechos)",
+    "parque_camaras_monitoreo": "Incremento de 50 a 95 domos (+90%) con proyecto en curso para alcanzar 230 cámaras",
+    "anillo_digital": "18 lectores automáticos de patentes (LPR) en accesos y corredores estratégicos",
+    "inversion_seguridad": "$6.700 millones volcados a equipamiento en los últimos dos años",
+    "detenciones_judiciales": "153 detenidos por causas judiciales (17 por mes) y 332 demorados por antecedentes en Comisaría 2°"
+  },
+  "updated_at": "2026-09-30T23:03:04.246Z"
+}

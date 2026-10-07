@@ -1,0 +1,44 @@
+{
+  "id": "2026-09-24_crecida-arroyo-nireco-turbiedad-planta-pilar-agua-potable",
+  "titular": "La crecida del arroyo Ñireco por el temporal provocó alerta vecinal y obligó a paralizar la Planta Potabilizadora Pilar",
+  "hecho_central": "El temporal de lluvia provocó un brusco incremento en el caudal del arroyo Ñireco, generando preocupación por riesgo de desborde en barrios San Francisco I y 150 Viviendas, mientras Aguas Rionegrinas debió frenar la captación en la Planta Pilar por turbiedad extrema, afectando a 8 barrios del sur.",
+  "fecha_publicacion": "2026-09-24",
+  "area_id": "gestion-publica",
+  "dossier_id": null,
+  "seguimiento_id": "ceb-municipio-servicios",
+  "fuente": {
+    "id": "el-cordillerano",
+    "nombre": "Diario El Cordillerano",
+    "url_nota": "https://www.elcordillerano.com.ar/noticias/2026/09/24/263902-preocupacion-de-los-vecinos-por-la-crecida-del-arroyo-ireco"
+  },
+  "cuerpo_html": "<p class=\"c-dossier-link\">📌 <em>Seguimiento: <a href=\"/seguimientos/ceb-municipio-servicios\">Relación Municipio - CEB y Servicios Públicos</a></em></p>\n<p>Las consecuencias del temporal extraordinario impactaron de lleno en el ejido urbano: <strong>la marcada crecida en el caudal del arroyo Ñireco reactivó la alarma en los asentamientos ribereños</strong> de San Francisco I y el barrio 150 Viviendas, al tiempo que forzó a Aguas Rionegrinas a <strong>paralizar el proceso de potabilización en la Planta Pilar</strong> debido a los altos niveles de greda y turbiedad arrastrados por la corriente, según informó <a href=\"https://www.elcordillerano.com.ar/noticias/2026/09/24/263902-preocupacion-de-los-vecinos-por-la-crecida-del-arroyo-ireco\" target=\"_blank\" rel=\"noopener noreferrer\">El Cordillerano</a>.</p>\n<p>La salida de servicio de la planta generó despresurización de redes y faltantes transitorios de agua potable en ocho populosas barriadas del sur: <strong>Pilar I, Pilar II, Dos Valles, 645 Viviendas, Valle Azul, Reina Mora, Entre Cerros y Lomas del Cauquén</strong>. Mientras cuadrillas de Protección Civil y de la delegación municipal efectuaban tareas de desvío y contención en la conflictiva esquina de calles Los Ñires y Neuquén, la empresa estatal solicitó el cuidado estricto de los tanques de reserva domiciliaria.</p>\n<blockquote cite=\"https://www.elcordillerano.com.ar/noticias/2026/09/24/263902-preocupacion-de-los-vecinos-por-la-crecida-del-arroyo-ireco\"><p>«El caudal viene muy cargado; cada vez que llueve así tememos revivir lo que pasó en 2002 cuando el agua entró a las casas. Necesitamos con urgencia que se licite la limpieza integral del cauce», reclamó Daniela Gaspar, dirigenta vecinal del sector.</p></blockquote>\n<p>Las cuadrillas provinciales mantienen monitoreo visual sobre el cauce para reactivar los filtros en cuanto descienda la carga de sólidos en suspensión tras el pico del temporal.</p>",
+  "citas": [
+    {
+      "autor": "Daniela Gaspar",
+      "cargo": "Referente de la Junta Vecinal barrio 150 Viviendas (San Francisco I)",
+      "texto": "El caudal del río viene bastante fuerte, por ahora no ha llegado a su límite, pero con toda esta lluvia es tremendo y preocupante para los vecinos de la zona. Esperemos que merme el agua y se limpie."
+    },
+    {
+      "autor": "Aguas Rionegrinas (ARSA)",
+      "cargo": "Comunicado Técnico Operativo",
+      "texto": "Los equipos operativos continúan monitoreando de manera permanente las condiciones del río Ñireco y trabajan para restablecer el funcionamiento de la planta y normalizar progresivamente el suministro una vez que mejore la calidad del agua."
+    }
+  ],
+  "datos_duros": {
+    "barrios_afectados_agua": "Pilar I, Pilar II, Dos Valles, 645 Viviendas, Valle Azul, Reina Mora, Entre Cerros y Lomas del Cauquén",
+    "interrupcion_planta": "Fuera de servicio hasta después de las 16 hs por lodo y sedimentos",
+    "sectores_riesgo_anegamiento": "Calles Los Ñires y Neuquén, San Cayetanito y 150 Viviendas",
+    "antecedente_critico": "Inundaciones del invierno de 2002 con evacuación de familias"
+  },
+  "area": "Gestión Pública",
+  "fecha": "2026-09-24",
+  "foto": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/09/elcordillerano/images/02/78/47/2784712_90416e6b0fa8c8e443a550b934256c9c10577982ab1556971fc9c4640f4e082d/md.webp",
+  "updated_at": "2026-09-28T12:23:56.924Z",
+  "imagen_url": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/09/elcordillerano/images/02/78/47/2784712_90416e6b0fa8c8e443a550b934256c9c10577982ab1556971fc9c4640f4e082d/md.webp",
+  "media": {
+    "credito": "Fotos: Euge Neme / El Cordillerano",
+    "requiere_foto": false,
+    "imagen_url": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/09/elcordillerano/images/02/78/47/2784712_90416e6b0fa8c8e443a550b934256c9c10577982ab1556971fc9c4640f4e082d/md.webp"
+  },
+  "url": "https://www.elcordillerano.com.ar/noticias/2026/09/24/263902-preocupacion-de-los-vecinos-por-la-crecida-del-arroyo-ireco"
+}

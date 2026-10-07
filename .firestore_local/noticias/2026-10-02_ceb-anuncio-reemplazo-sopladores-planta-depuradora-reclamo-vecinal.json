@@ -1,0 +1,35 @@
+{
+  "id": "2026-10-02_ceb-anuncio-reemplazo-sopladores-planta-depuradora-reclamo-vecinal",
+  "titular": "Tras el reclamo vecinal, la CEB admitió averías en la planta depuradora y anunció el recambio de sopladores de aireación",
+  "hecho_central": "Ante la intimación de ocho juntas vecinales del Paseo del Este, la Cooperativa de Electricidad Bariloche (CEB) reconoció que se registran ruidos y olores superiores a los normales en la planta de Modesta Victoria por desperfectos mecánicos en los sopladores de aireación y sobrecarga por infiltración pluvial, confirmando el reemplazo urgente de los equipos biológicos.",
+  "fecha_publicacion": "2026-10-02",
+  "area_id": "gestion-publica",
+  "dossier_id": null,
+  "seguimiento_id": "ceb-municipio-servicios",
+  "fuente": {
+    "id": "anbariloche",
+    "nombre": "ANBariloche",
+    "url_nota": "https://www.anbariloche.com.ar/noticias/2026/10/02/118839-tras-el-desprendimiento-de-olores-fetidos-la-ceb-anuncio-el-reemplazo-de-equipamiento-en-la-planta-depuradora"
+  },
+  "media": {
+    "imagen_url": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/10/anbariloche/images/02/79/49/2794965_253faaccdeebdb89dab6813e6f1107edcb5635620c6c0bbbfe74c4aa472dfd51/md.webp",
+    "credito": "Foto: Marcelo Martínez / ANBariloche",
+    "requiere_foto": false
+  },
+  "cuerpo_html": "<p class=\"c-dossier-link\">📌 <em>Seguimiento: <a href=\"/seguimientos/ceb-municipio-servicios\">Relación Municipio - CEB y Servicios Públicos</a></em></p>\n<p>En una rápida reacción institucional tras el malestar expresado por las conducciones barriales del ingreso este, <strong>la Cooperativa de Electricidad Bariloche (CEB) admitió públicamente este viernes la existencia de ruidos y olores superiores a los niveles ordinarios en la Planta Depuradora de Efluentes Cloacales y confirmó el recambio urgente de sus sopladores de aireación</strong>, según informó <a href=\"https://www.anbariloche.com.ar/noticias/2026/10/02/118839-tras-el-desprendimiento-de-olores-fetidos-la-ceb-anuncio-el-reemplazo-de-equipamiento-en-la-planta-depuradora\" target=\"_blank\" rel=\"noopener noreferrer\">ANBariloche</a>.</p>\n<p>De acuerdo con el informe técnico oficial de la prestadora, el inconveniente radica en averías mecánicas focalizadas en los equipos encargados de inyectar oxígeno al proceso biológico de depuración. Esta merma de capacidad redujo la oxigenación de los líquidos, favoreciendo emanaciones fétidas hacia el entorno. A este cuadro se sumó la sobrecarga volumétrica provocada por la infiltración de agua de lluvia en los colectores troncales durante las precipitaciones recientes, tensionando la capacidad del complejo ubicado sobre calle Modesta Victoria.</p>\n<blockquote cite=\"https://www.anbariloche.com.ar/noticias/2026/10/02/118839-tras-el-desprendimiento-de-olores-fetidos-la-ceb-anuncio-el-reemplazo-de-equipamiento-en-la-planta-depuradora\">\n<p>«Se tomó la determinación operativa de sustituir los sopladores averiados por tecnología de mayor robustez y se destinaron cuadrillas a monitoreos permanentes para normalizar el tratamiento antes del verano», consignó la conducción de la CEB, solicitando la comprensión de los vecinos.</p>\n</blockquote>\n<p>La intervención busca dar respuesta concreta al petitorio presentado en la víspera por ocho juntas vecinales nucleadas en el Paseo del Este, que habían exigido certidumbre ambiental frente a las próximas temporadas de altas temperaturas.</p>",
+  "citas": [
+    {
+      "autor": "Consejo de Administración CEB",
+      "cargo": "Comunicado Oficial de Saneamiento Urbano",
+      "texto": "La problemática se origina en desperfectos mecánicos en los equipos de aireación fundamentales para el tratamiento biológico. Confirmamos la decisión de reemplazar los sopladores averiados para normalizar las instalaciones y pedimos disculpas a los vecinos por las molestias."
+    }
+  ],
+  "datos_duros": {
+    "entidad_prestadora": "Cooperativa de Electricidad Bariloche (CEB) / Servicio de Saneamiento",
+    "causa_tecnica_admitida": "Averías mecánicas en sopladores de aireación secundaria que reducen el oxígeno en el tratamiento biológico",
+    "agravante_operativo": "Infiltración de aguas de lluvia en la red colectora cloacal que sobreexige las piletas de calle Modesta Victoria",
+    "barrios_vecinos": "La Colina, Costa del Sol, Aldea del Este, Pinar del Sol, Las Victorias, Altos de Pinar del Sol, Villa Verde y Las Marías",
+    "compromiso_asumido": "Reemplazo de sopladores averiados por equipos de mayor confiabilidad y ajustes operativos progresivos"
+  },
+  "updated_at": "2026-10-02T23:03:01.790Z"
+}

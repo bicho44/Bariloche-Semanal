@@ -1,0 +1,40 @@
+{
+  "id": "2026-10-03_obras-viales-reductores-baden-hormigon-avenida-virreyna",
+  "titular": "El Municipio completó la primera etapa de reductores de velocidad y badén de hormigón en avenida de la Virreyna",
+  "hecho_central": "Cuadrillas municipales de Bacheo finalizaron la construcción de la primera mitad de cuatro reductores de velocidad y colaron hormigón sobre un badén transversal en avenida de la Virreyna, restando 12 metros de cuneta revestida para ordenar los escurrimientos pluviales y reducir la siniestralidad vial en el sector.",
+  "area_id": "gestion-publica",
+  "seguimiento_id": "infraestructura-terminal-rutas",
+  "fuente": {
+    "id": "bariloche-informa",
+    "nombre": "Bariloche Informa (Prensa Municipal)",
+    "url_nota": "https://barilocheinforma.gob.ar/reductores-y-baden-una-semana-de-avances-en-avenida-de-la-virreyna/"
+  },
+  "cuerpo_html": "<p class=\"c-dossier-link\">📌 <em>Seguimiento: <a href=\"/seguimientos/infraestructura-terminal-rutas\">Nueva Terminal de Ómnibus, Rotonda Esandi y Rutas</a></em></p>\n<p>En respuesta a reiteradas demandas vecinales por exceso de velocidad y anegamientos en días de precipitaciones intensas, <strong>cuadrillas de la Secretaría de Obras y Servicios Públicos de Bariloche concluyeron este sábado la primera fase de construcción de cuatro reductores de velocidad y el hormigonado transversal de un badén sobre avenida de la Virreyna</strong>, según detalló <a href=\"https://barilocheinforma.gob.ar/reductores-y-baden-una-semana-de-avances-en-avenida-de-la-virreyna/\" target=\"_blank\" rel=\"noopener noreferrer\">Bariloche Informa</a>.</p>\n<p>Los trabajos de la cuadrilla municipal de Bacheo permitieron hormigonar la primera mitad de los cuatro reductores y la franja central del badén de escurrimiento superficial, habilitando el paso vehicular alternado mientras fragua el material. En los próximos días se avanzará con las mitades restantes y la ejecución de <strong>12 metros lineales de cuneta revestida</strong>, necesaria para canalizar los caudales pluviales y evitar la degradación prematura de la calzada asfáltica.</p>\n<blockquote cite=\"https://barilocheinforma.gob.ar/reductores-y-baden-una-semana-de-avances-en-avenida-de-la-virreyna/\">\n<p>«El objetivo es pacificar el tránsito en una arteria de alto flujo barrial y asegurar un drenaje hidráulico controlado para que el agua no deteriore el pavimento ni ingrese a los frentes de las viviendas», señalaron desde el equipo vial comunal.</p>\n</blockquote>\n<p>La intervención se suma a los operativos de reparación de calzadas que el Municipio desarrolla en distintos puntos de la ciudad previo a la temporada estival.</p>",
+  "citas": [
+    {
+      "autor": "Secretaría de Obras y Servicios Públicos",
+      "cargo": "Reporte de Cuadrillas Viales",
+      "texto": "La intervención en avenida de la Virreyna busca dar una solución integral que combine seguridad vial frente a los excesos de velocidad con un badén y cunetas de hormigón que encaucen el agua de lluvia y protejan el asfalto."
+    }
+  ],
+  "datos_duros": {
+    "dispositivos_viales": "4 reductores de velocidad tipo lomo de burro y 1 badén pluvial de hormigón",
+    "obras_drenaje": "12 metros lineales de cuneta revestida en ejecución",
+    "area_interviniente": "Cuadrilla Municipal de Bacheo / Secretaría de Obras y Servicios Públicos",
+    "arteria_intervenida": "Avenida de la Virreyna (circulación este-oeste)"
+  },
+  "area": "Gestión Pública",
+  "fecha": "2026-10-01",
+  "foto": "https://barilocheinforma.gob.ar/wp-content/uploads/2026/10/redu3-1024x550.jpg",
+  "updated_at": "2026-10-05T12:15:39.585Z",
+  "curada_manualmente": true,
+  "imagen_url": "https://barilocheinforma.gob.ar/wp-content/uploads/2026/10/redu3-1024x550.jpg",
+  "media": {
+    "credito": "Prensa Municipalidad de Bariloche / Bariloche Opina",
+    "requiere_foto": false,
+    "imagen_url": "https://barilocheinforma.gob.ar/wp-content/uploads/2026/10/redu3-1024x550.jpg"
+  },
+  "dossier_id": "infraestructura-terminal-rutas",
+  "url": "https://barilocheinforma.gob.ar/reductores-y-baden-una-semana-de-avances-en-avenida-de-la-virreyna/",
+  "fecha_publicacion": "2026-10-01"
+}

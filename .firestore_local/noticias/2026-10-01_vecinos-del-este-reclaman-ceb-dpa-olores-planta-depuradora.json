@@ -1,0 +1,40 @@
+{
+  "id": "2026-10-01_vecinos-del-este-reclaman-ceb-dpa-olores-planta-depuradora",
+  "titular": "Vecinos del Este elevaron reclamos a la CEB y al DPA por emanaciones fétidas de la planta depuradora antes del verano",
+  "hecho_central": "Referentes de ocho juntas vecinales nucleadas en el Paseo del Este presentaron notas formales ante la Cooperativa de Electricidad Bariloche (CEB) y el Departamento Provincial de Aguas (DPA) exigiendo informes técnicos y obras preventivas urgentes, tras constatar la reaparición prematura de olores cloacales durante las jornadas templadas de septiembre debido a desperfectos en los aireadores de la planta de Modesta Victoria.",
+  "fecha_publicacion": "2026-10-01",
+  "area_id": "gestion-publica",
+  "dossier_id": null,
+  "seguimiento_id": "ceb-municipio-servicios",
+  "fuente": {
+    "id": "anbariloche",
+    "nombre": "ANBariloche",
+    "url_nota": "https://www.anbariloche.com.ar/noticias/2026/10/01/118767-vecinos-del-este-denuncian-olores-fetidos-en-la-zona-aledana-a-la-planta-depuradora"
+  },
+  "cuerpo_html": "<p class=\"c-dossier-link\">📌 <em>Seguimiento: <a href=\"/seguimientos/ceb-municipio-servicios\">Relación Municipio - CEB y Servicios Públicos</a></em></p>\n<p>La recurrente problemática ambiental que afecta a los barrios del ingreso este de la ciudad encendió alarmas tempranas: <strong>referentes de ocho juntas vecinales nucleadas en torno al Paseo del Este elevaron este jueves reclamos formales al Departamento Provincial de Aguas (DPA) y a la Cooperativa de Electricidad Bariloche (CEB) por emanaciones fétidas provenientes de la Planta Depuradora de Líquidos Cloacales</strong>, según consignó <a href=\"https://www.anbariloche.com.ar/noticias/2026/10/01/118767-vecinos-del-este-denuncian-olores-fetidos-en-la-zona-aledana-a-la-planta-depuradora\" target=\"_blank\" rel=\"noopener noreferrer\">ANBariloche</a>.</p>\n<p>La presentación fue impulsada por la Mesa de Trabajo de la Comisión de Acción Territorial (CAT 1), que nuclea a las conducciones barriales de <strong>La Colina, Costa del Sol, Aldea del Este, Pinar del Sol, Las Victorias, Altos de Pinar del Sol, Villa Verde y Las Marías</strong>. Los vecinos denunciaron que los olores nauseabundos reaparecieron durante la tercera semana de septiembre con marcas térmicas de apenas 15°C, obligando a las familias a clausurar ventanas en horarios vespertinos, lo que anticipa un cuadro crítico de cara a los meses de calor estival.</p>\n<blockquote cite=\"https://www.anbariloche.com.ar/noticias/2026/10/01/118767-vecinos-del-este-denuncian-olores-fetidos-en-la-zona-aledana-a-la-planta-depuradora\">\n<p>«Históricamente esto ocurría con 30 grados en enero, pero que suceda ahora con 15 grados es una señal de que algo está fallando. Pedimos precisiones técnicas sobre el funcionamiento de los aireadores y un plan de contingencia urgente», reclamó Valeria Gessaghi, titular de la Junta Vecinal La Colina.</p>\n</blockquote>\n<p>Desde la CEB se comprometieron a brindar un informe técnico en un plazo no mayor a diez días hábiles, mientras los vecinos no descartan recurrir a la Defensoría del Pueblo rionegrina para exigir monitoreos continuos en la descarga al lago Nahuel Huapi.</p>",
+  "citas": [
+    {
+      "autor": "Valeria Gessaghi",
+      "cargo": "Presidenta de la Junta Vecinal La Colina",
+      "texto": "Nos alarmó que en septiembre, con apenas 15 o 16 grados, ya hayamos tenido que cerrar puertas y ventanas por los olores nauseabundos. Exigimos saber qué plan de contingencia real tiene la CEB para que esto no colapse cuando lleguen los calores del verano."
+    }
+  ],
+  "datos_duros": {
+    "barrios_afectados": "Villa Verde, Costa del Sol, La Colina, Aldea del Este, Pinar del Sol, Las Victorias, Altos de Pinar del Sol y Las Marías (CAT 1)",
+    "entidades_reclamadas": "Cooperativa de Electricidad Bariloche (CEB) y Departamento Provincial de Aguas (DPA)",
+    "presentacion_formal": "30 de septiembre de 2026 ante presidencia de la CEB",
+    "plazo_oficial_estimado": "10 días hábiles para informe de situación",
+    "causa_operativa": "Falla y desperfecto en aireadores secundarios de tratamiento biológico de efluentes"
+  },
+  "area": "Gestión Pública",
+  "fecha": "2026-10-01",
+  "foto": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/10/anbariloche/images/02/79/49/2794965_253faaccdeebdb89dab6813e6f1107edcb5635620c6c0bbbfe74c4aa472dfd51/md.webp",
+  "updated_at": "2026-10-02T12:18:59.648Z",
+  "imagen_url": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/10/anbariloche/images/02/79/49/2794965_253faaccdeebdb89dab6813e6f1107edcb5635620c6c0bbbfe74c4aa472dfd51/md.webp",
+  "media": {
+    "credito": "Foto: Archivo ANBariloche",
+    "requiere_foto": false,
+    "imagen_url": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/10/anbariloche/images/02/79/49/2794965_253faaccdeebdb89dab6813e6f1107edcb5635620c6c0bbbfe74c4aa472dfd51/md.webp"
+  },
+  "url": "https://www.anbariloche.com.ar/noticias/2026/10/01/118767-vecinos-del-este-denuncian-olores-fetidos-en-la-zona-aledana-a-la-planta-depuradora"
+}

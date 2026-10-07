@@ -1,0 +1,40 @@
+{
+  "id": "2026-09-26_emergencia-crecida-rio-manso-foyel-asistencia-67-familias",
+  "titular": "Emergencia climática: la crecida de los ríos Foyel y Manso afecta a 67 familias y despliegan operativo de asistencia permanente",
+  "hecho_central": "La persistencia de las lluvias en la cordillera provocó el desborde y aumento extremo en los caudales de los ríos Manso y Foyel, afectando a 67 familias (153 personas) en El Manso Inferior, descalzando pasarelas peatonales y activando las Escuelas 92 y 213 como centros de contingencia.",
+  "fecha_publicacion": "2026-09-26",
+  "area_id": "gestion-publica",
+  "dossier_id": null,
+  "seguimiento_id": "ceb-municipio-servicios",
+  "fuente": {
+    "id": "bariloche-opina",
+    "nombre": "Bariloche Opina",
+    "url_nota": "https://www.barilocheopina.com/noticias/2026/09/26/94939-asisten-a-67-familias-afectadas-por-las-lluvias-en-el-manso"
+  },
+  "cuerpo_html": "<p class=\"c-dossier-link\">📌 <em>Seguimiento: <a href=\"/seguimientos/ceb-municipio-servicios\">Relación Municipio - CEB y Servicios Públicos</a></em></p>\n<p>El temporal pluvial cordillerano derivó en una delicada situación hidrológica en la cuenca andina sur: <strong>la marcada crecida en los caudales de los ríos Foyel y Manso mantiene incomunicadas y en situación de vulnerabilidad a 67 familias (153 personas)</strong> en el paraje El Manso Inferior, según consignó <a href=\"https://www.barilocheopina.com/noticias/2026/09/26/94939-asisten-a-67-familias-afectadas-por-las-lluvias-en-el-manso\" target=\"_blank\" rel=\"noopener noreferrer\">Bariloche Opina</a>.</p>\n<p>Las corrientes fluviales descalzaron las bases de una pasarela peatonal estratégica a la altura del kilómetro 24 (en inmediaciones de Puente Verde), obligando a cuadrillas de Protección Civil y rescatistas a avanzar por senderos de montaña sobre los filos de los cerros para asistir a pobladores rurales. Entre los vecinos censados se cuentan nueve adultos mayores y tres lactantes. Preventivamente, el Ministerio de Educación acondicionó las <strong>Escuelas 92 y 213</strong> como refugios temporales dotados de agua y víveres.</p>\n<blockquote cite=\"https://www.barilocheopina.com/noticias/2026/09/26/94939-asisten-a-67-familias-afectadas-por-las-lluvias-en-el-manso\"><p>«Se desplegó maquinaria pesada de Vialidad Rionegrina y 200 fardos de forraje para los animales de los productores, mientras sostenemos la asistencia casa por casa ante el riesgo de que el deshielo incremente aún más el cauce», detalló el ministro Juan Pablo Muena.</p></blockquote>\n<p>Las autoridades vigilan el comportamiento del río en la confluencia fronteriza con Chile, donde el escurrimiento de cuenca continuará bajo presión hídrica durante las próximas 48 horas.</p>",
+  "citas": [
+    {
+      "autor": "Juan Pablo Muena",
+      "cargo": "Ministro de Desarrollo Humano de Río Negro",
+      "texto": "Equipos de Protección Civil, Vialidad y agentes sanitarios recorren los sectores afectados casa por casa, incluso abriendo huellas a pie por el filo de los cerros para asistir a vecinos aislados y asegurar frazadas, módulos alimentarios y agua."
+    }
+  ],
+  "datos_duros": {
+    "familias_afectadas": "67 familias relevadas (153 personas, entre ellas 3 niños menores de 2 años y 9 adultos mayores)",
+    "infraestructura_danada": "Pasarela peatonal descalzada en el km 24 (Puente Verde y confluencia de ríos)",
+    "centros_evacuacion": "Escuelas 92 y 213 de El Manso Inferior preparadas con víveres y agua potable",
+    "asistencia_rural": "200 fardos de alfalfa y pellets para forraje ganadero",
+    "alerta_hidrologico": "Crecida adicional prevista por incremento térmico y deshielo en nacientes"
+  },
+  "area": "Gestión Pública",
+  "fecha": "2026-09-26",
+  "foto": "https://barilocheopina-s3.cdn.net.ar/s3i233/2026/09/barilocheopina/images/02/78/74/2787439_8c05973d859880e55584ee8a04bf4c32988351ce43f13c91eff27470890c8376/md.webp",
+  "updated_at": "2026-09-28T12:15:57.917Z",
+  "imagen_url": "https://barilocheopina-s3.cdn.net.ar/s3i233/2026/09/barilocheopina/images/02/78/74/2787439_8c05973d859880e55584ee8a04bf4c32988351ce43f13c91eff27470890c8376/md.webp",
+  "media": {
+    "credito": "Protección Civil Río Negro / Bariloche Opina",
+    "requiere_foto": false,
+    "imagen_url": "https://barilocheopina-s3.cdn.net.ar/s3i233/2026/09/barilocheopina/images/02/78/74/2787439_8c05973d859880e55584ee8a04bf4c32988351ce43f13c91eff27470890c8376/md.webp"
+  },
+  "url": "https://www.barilocheopina.com/noticias/2026/09/26/94939-asisten-a-67-familias-afectadas-por-las-lluvias-en-el-manso"
+}

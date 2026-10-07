@@ -1,0 +1,49 @@
+{
+  "id": "2026-09-23_municipio-incorpora-dos-camiones-aguateros-emergencias",
+  "fecha_publicacion": "2026-09-23",
+  "titular": "El Municipio incorporó dos nuevos camiones aguateros equipados para emergencias y distribución barrial",
+  "hecho_central": "La Municipalidad de Bariloche sumó dos nuevos camiones cisterna de gran porte con motobombas de alta presión, destinados a garantizar agua potable en barrios periféricos y servir de ataque rápido ante incendios de interfase.",
+  "area_id": "gestion-publica",
+  "dossier_id": null,
+  "fuente": {
+    "id": "bariloche-informa",
+    "nombre": "Bariloche Informa",
+    "url_nota": "https://barilocheinforma.gob.ar/la-municipalidad-suma-dos-camiones-aguateros-con-equipamiento-para-emergencias/"
+  },
+  "novedad_respecto_a_dias_previos": "Adquisición y puesta en servicio efectiva de dos unidades 0km con equipamiento dual de abastecimiento y combate de fuego antes de la veda estival de quemas.",
+  "datos_duros": {
+    "unidades_incorporadas": 2,
+    "equipamiento": "Motobombas de alta presion",
+    "areas_cobertura": "Barrios del Alto y faldeos"
+  },
+  "citas": [
+    {
+      "autor": "Walter Cortés",
+      "texto": "Seguimos equipando al Municipio con recursos propios. Estos camiones no solo garantizan agua donde no llega la red, sino que son herramientas clave para cuidar a los barrios de los incendios forestales."
+    }
+  ],
+  "entidades": {
+    "actores": [
+      "municipalidad-bariloche",
+      "walter-cortes",
+      "proteccion-civil"
+    ],
+    "lugares": [
+      "centro-civico",
+      "barrios-del-alto",
+      "bariloche"
+    ]
+  },
+  "cobertura_cruzada": 2,
+  "cuerpo_html": "<p>La Municipalidad de San Carlos de Bariloche incorporó formalmente a su parque automotor <strong>dos camiones cisterna 0km de gran porte equipados con motobombas de alta presión</strong>, una inversión orientada a mitigar la histórica vulnerabilidad hídrica de los barrios altos y reforzar la capacidad de respuesta ante incendios forestales de interfase, según informó <a href=\"https://barilocheinforma.gob.ar/la-municipalidad-suma-dos-camiones-aguateros-con-equipamiento-para-emergencias/\" target=\"_blank\" rel=\"noopener noreferrer\">Bariloche Informa</a>.</p>\n<p>Las unidades operarán bajo un esquema dual coordinado entre la Secretaría de Servicios Públicos y Protección Civil: por un lado, garantizarán el reparto regular de agua potable en asentamientos y zonas periurbanas donde las redes formales de distribución aún no llegan; por el otro, servirán como puntos de abastecimiento rápido de caudales para las autobombas de bomberos y brigadistas del SPLIF durante los meses de verano.</p>\n<blockquote cite=\"https://barilocheinforma.gob.ar/la-municipalidad-suma-dos-camiones-aguateros-con-equipamiento-para-emergencias/\"><p>«Seguimos equipando al Municipio con recursos propios. Estos camiones no solo garantizan agua donde no llega la red, sino que son herramientas clave para cuidar a los barrios de los incendios forestales», subrayó el intendente Walter Cortés durante la presentación en el Centro Cívico.</p></blockquote>\n<p>La incorporación se concreta a escasos días de la entrada en vigencia de la veda estival de quemas fijada por el SPLIF para el 1 de octubre, apuntalando el esquema logístico comunal frente a la temporada de alto riesgo ígneo.</p>",
+  "area": "Gestión Pública",
+  "fecha": "2026-09-23",
+  "foto": "https://barilocheinforma.gob.ar/wp-content/uploads/2026/09/camio2.jpg",
+  "updated_at": "2026-09-25T00:08:50.078Z",
+  "imagen_url": "https://barilocheinforma.gob.ar/wp-content/uploads/2026/09/camio2.jpg",
+  "media": {
+    "credito": "Foto: Prensa Municipalidad de Bariloche / Bariloche Informa",
+    "imagen_url": "https://barilocheinforma.gob.ar/wp-content/uploads/2026/09/camio2.jpg"
+  },
+  "url": "https://barilocheinforma.gob.ar/la-municipalidad-suma-dos-camiones-aguateros-con-equipamiento-para-emergencias/"
+}

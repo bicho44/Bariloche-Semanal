@@ -1,0 +1,40 @@
+{
+  "id": "2026-10-04_taxis-bariloche-fuerte-caida-actividad-congelan-tarifas-exigen-control-apps",
+  "titular": "Propietarios de taxis alertan por una fuerte caída en la actividad: congelan tarifas y reclaman fiscalizar a las apps",
+  "hecho_central": "El presidente de la Asociación de Propietarios de Taxis de Bariloche, Carlos Di Franco, advirtió que tras un repunte invernal que duró apenas 60 días la actividad cayó abruptamente, por lo que decidieron no pedir aumento de tarifas para mantener competitividad frente a Uber y Cabify, exigiendo al Municipio controles efectivos ante el vencimiento del plazo de regularización de plataformas.",
+  "area_id": "gestion-publica",
+  "seguimiento_id": "transporte-urbano-mibus",
+  "fuente": {
+    "id": "el-cordillerano",
+    "nombre": "Diario El Cordillerano",
+    "url_nota": "https://www.elcordillerano.com.ar/noticias/2026/10/04/265431-caida-de-la-actividad-la-asociacion-de-propietarios-de-taxis-advierte-por-la-crisis-del-sector-en-bariloche"
+  },
+  "cuerpo_html": "<p class=\"c-dossier-link\">📌 <em>Seguimiento: <a href=\"/seguimientos/transporte-urbano-mibus\">Transporte Urbano de Pasajeros y Concesión Mi Bus</a></em></p>\n<p>El cierre formal de la temporada invernal reavivó la preocupación en el sector del transporte regulado de pasajeros: <strong>la Asociación de Propietarios de Taxis de Bariloche advirtió este domingo sobre un abrupto freno en el volumen de viajes y confirmó que mantendrá congeladas las tarifas vigentes para intentar preservar la competitividad frente a las aplicaciones móviles</strong>, según consignó <a href=\"https://www.elcordillerano.com.ar/noticias/2026/10/04/265431-caida-de-la-actividad-la-asociacion-de-propietarios-de-taxis-advierte-por-la-crisis-del-sector-en-bariloche\" target=\"_blank\" rel=\"noopener noreferrer\">El Cordillerano</a>.</p>\n<p>El titular de la entidad, <strong>Carlos Di Franco</strong>, explicó que el movimiento generado durante el invierno se limitó a una ventana de apenas 60 días, tras la cual las paradas volvieron a exhibir extensas filas de vehículos inactivos. Frente a ese escenario de retracción del poder adquisitivo, la asamblea de propietarios resolvió por amplia mayoría no trasladar nuevos pedidos de ajuste a la bajada de bandera en el Concejo Deliberante, priorizando sostener el flujo de usuarios residentes y corporativos.</p>\n<blockquote cite=\"https://www.elcordillerano.com.ar/noticias/2026/10/04/265431-caida-de-la-actividad-la-asociacion-de-propietarios-de-taxis-advierte-por-la-crisis-del-sector-en-bariloche\">\n<p>«El período concedido a las aplicaciones para adecuarse a la ordenanza ya expiró; sin embargo, no vemos inspecciones en las calles. La falta de fiscalización municipal genera una competencia desleal imposible de sobrellevar», denunció Di Franco.</p>\n</blockquote>\n<p>En paralelo, la dirigencia taxista se mostró abierta a debatir el otorgamiento de nuevas licencias para peones de taxis siempre que el análisis se apoye en estudios técnicos de oferta y demanda y no en presiones políticas coyunturales.</p>",
+  "citas": [
+    {
+      "autor": "Carlos Di Franco",
+      "cargo": "Presidente de la Asociación de Propietarios de Taxis de Bariloche",
+      "texto": "No tuvimos una temporada satisfactoria; el impulso duró 60 días y ya se paralizó. Estamos pidiendo que se hagan cumplir los controles sobre las aplicaciones porque la competencia es totalmente desleal."
+    }
+  ],
+  "datos_duros": {
+    "duracion_repunte_invernal": "Apenas 60 días con posterior parálisis de viajes",
+    "definicion_tarifaria": "Congelamiento voluntario de la tarifa actual sin solicitud de aumentos al Concejo",
+    "reclamo_regulatorio": "Exigencia de fiscalización municipal efectiva sobre choferes de aplicaciones con plazos vencidos",
+    "debate_licencias": "Apertura a analizar pedidos de nuevas licencias para choferes según marco normativo"
+  },
+  "area": "Gestión Pública",
+  "fecha": "2026-10-02",
+  "foto": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/05/elcordillerano/images/02/58/19/2581971_1fd938cd5d0a166fe387b557d61ceef108866b4db1d8a7285d46ef30c3d9feae/md.webp",
+  "updated_at": "2026-10-05T12:14:14.131Z",
+  "curada_manualmente": true,
+  "imagen_url": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/05/elcordillerano/images/02/58/19/2581971_1fd938cd5d0a166fe387b557d61ceef108866b4db1d8a7285d46ef30c3d9feae/md.webp",
+  "media": {
+    "credito": "Foto: Facu Pardo / El Cordillerano",
+    "requiere_foto": false,
+    "imagen_url": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/05/elcordillerano/images/02/58/19/2581971_1fd938cd5d0a166fe387b557d61ceef108866b4db1d8a7285d46ef30c3d9feae/md.webp"
+  },
+  "dossier_id": "transporte-urbano-mibus",
+  "url": "https://www.elcordillerano.com.ar/noticias/2026/10/04/265431-caida-de-la-actividad-la-asociacion-de-propietarios-de-taxis-advierte-por-la-crisis-del-sector-en-bariloche",
+  "fecha_publicacion": "2026-10-02"
+}

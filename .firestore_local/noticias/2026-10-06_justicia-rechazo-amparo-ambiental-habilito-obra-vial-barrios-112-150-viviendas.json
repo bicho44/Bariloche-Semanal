@@ -1,0 +1,34 @@
+{
+  "id": "2026-10-06_justicia-rechazo-amparo-ambiental-habilito-obra-vial-barrios-112-150-viviendas",
+  "titular": "La Justicia rechazó un amparo ambiental y levantó la suspensión de la obra vial entre los barrios 112 y 150 Viviendas",
+  "hecho_central": "El Juzgado Civil y Comercial rechazó el amparo colectivo ambiental que frenaba la apertura de la calle de 16 metros de ancho entre los barrios 112 y 150 Viviendas, levantando la medida cautelar tras constatar mediante inspección ocular e informes técnicos de Planeamiento que no se acreditó daño sobre el humedal 'El Abrazo', ordenando a la Municipalidad ejecutar drenes y obras de manejo de aguas pluviales para canalizar los 250 metros de escurrimientos permanentes.",
+  "fecha_publicacion": "2026-10-06",
+  "area_id": "gestion-publica",
+  "dossier_id": "infraestructura-terminal-rutas",
+  "seguimiento_id": "infraestructura-terminal-rutas",
+  "fuente": {
+    "id": "anbariloche",
+    "nombre": "ANBariloche",
+    "url_nota": "https://www.anbariloche.com.ar/noticias/2026/10/06/119214-la-justicia-rechazo-un-amparo-ambiental-y-levanto-la-suspension-de-una-obra-vial-en-bariloche"
+  },
+  "media": {
+    "imagen_url": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/08/anbariloche/images/02/76/35/2763566_md.webp",
+    "credito": "Prensa Municipalidad de Bariloche / ANBariloche",
+    "requiere_foto": false
+  },
+  "cuerpo_html": "<p class=\"c-dossier-link\">📌 <em>Seguimiento: <a href=\"/seguimientos/infraestructura-terminal-rutas\">Nueva Terminal de Ómnibus, Rotonda Esandi y Rutas</a></em></p>\n<p>La conectividad vial en el sector sur de Bariloche superó este martes una traba legal de alta repercusión vecinal: <strong>la Justicia provincial rechazó el amparo colectivo ambiental que mantenía paralizada la apertura de una calle entre los barrios 112 y 150 Viviendas y levantó la medida cautelar que frenaba los trabajos municipales</strong>, según informó <a href=\"https://www.anbariloche.com.ar/noticias/2026/10/06/119214-la-justicia-rechazo-un-amparo-ambiental-y-levanto-la-suspension-de-una-obra-vial-en-bariloche\" target=\"_blank\" rel=\"noopener noreferrer\">ANBariloche</a>.</p>\n<p>La resolución judicial fue adoptada tras una exhaustiva inspección ocular en el terreno y el análisis de informes elaborados por las áreas comunales de Planeamiento y Áreas Protegidas. La magistrada interviniente desestimó los planteos que advertían sobre un presunto daño irreversible sobre el humedal 'El Abrazo', determinando que no se demostró que el sector afectado contara con delimitación técnica oficial bajo esa figura. No obstante, el fallo impuso al Ejecutivo municipal la obligación de ejecutar <strong>drenes subsuperficiales y canales para conducir un escurrimiento permanente de 250 metros lineales</strong> que drena hacia el arroyo Ñireco, garantizando la estabilidad del suelo y evitando anegamientos en las viviendas linderas.</p>\n<blockquote cite=\"https://www.anbariloche.com.ar/noticias/2026/10/06/119214-la-justicia-rechazo-un-amparo-ambiental-y-levanto-la-suspension-de-una-obra-vial-en-bariloche\">\n<p>«La nueva traza de 16 metros de ancho se integra a un entorno netamente urbano y consolidado con servicios, resultando necesaria para la conectividad del barrio siempre que se respeten las medidas de mitigación hidráulica», fundamenta la sentencia.</p>\n</blockquote>\n<p>Con este fallo favorable, las máquinas viales del Municipio podrán retomar los movimientos de suelo y consolidación de calzada en los próximos días.</p>",
+  "citas": [
+    {
+      "autor": "Juzgado Civil y Comercial de Bariloche",
+      "cargo": "Sentencia Judicial Ambiental",
+      "texto": "No se incorporaron pruebas técnicas suficientes que acrediten una alteración ambiental dañosa e irreversible; el sector se encuentra consolidado con infraestructura urbana y la nueva calle optimizará la conectividad comunitaria bajo estrictas medidas de manejo hídrico."
+    }
+  ],
+  "datos_duros": {
+    "objeto_litigio": "Apertura de traza vial de 16 metros de ancho entre los barrios 112 y 150 Viviendas",
+    "resolucion_judicial": "Rechazo del amparo ambiental colectivo y levantamiento de la suspensión cautelar dictada en agosto",
+    "condiciones_hidricas": "Desagüe de 250 metros lineales con surgencias permanentes y escurrimientos subsuperficiales hacia la cuenca del Ñireco",
+    "exigencias_ambientales": "Mantenimiento de cauce natural, drenes subterráneos de conducción y canalización de excedentes pluviales"
+  },
+  "updated_at": "2026-10-06T23:07:33.690Z"
+}

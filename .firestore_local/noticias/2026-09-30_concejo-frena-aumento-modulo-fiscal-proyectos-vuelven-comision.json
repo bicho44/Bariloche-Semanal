@@ -1,0 +1,46 @@
+{
+  "id": "2026-09-30_concejo-frena-aumento-modulo-fiscal-proyectos-vuelven-comision",
+  "titular": "El Concejo frenó el aumento del módulo fiscal a $492 y el oficialismo devolvió los proyectos a comisión ante la falta de votos",
+  "hecho_central": "En una jornada legislativa cargada de fricción y reclamos vecinales en la sala de sesiones, el Concejo Municipal resolvió enviar nuevamente a comisión el proyecto de ordenanza 722/26 que buscaba elevar el módulo fiscal de $373 a $492 (31,9% de suba), retirando además el proyecto 753/26 de Estacionamiento Medido al no reunir los ocho votos de mayoría especial indispensables para su convalidación en el recinto.",
+  "fecha_publicacion": "2026-09-30",
+  "area_id": "gestion-publica",
+  "dossier_id": null,
+  "seguimiento_id": "carta-organica-reforma",
+  "fuente": {
+    "id": "anbariloche",
+    "nombre": "ANBariloche",
+    "url_nota": "https://www.anbariloche.com.ar/noticias/2026/09/30/118647-se-freno-el-aumento-del-modulo-fiscal-y-volvio-a-comisiones"
+  },
+  "media": {
+    "imagen_url": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/09/anbariloche/images/02/79/37/2793708_8ababb53f3a6bf1d03b7325f2f1a973935b615ecb7372362e325861080c2baa0/md.webp",
+    "credito": "Prensa Concejo Municipal / ANBariloche",
+    "requiere_foto": false
+  },
+  "cuerpo_html": "<p class=\"c-dossier-link\">📌 <em>Seguimiento: <a href=\"/seguimientos/carta-organica-reforma\">Actualización de la Carta Orgánica Municipal</a></em></p>\n<p>En una jornada marcada por un clima de extrema tirantez política en los pasillos legislativos, <strong>el Concejo Municipal resolvió este miércoles 30 de septiembre frenar el tratamiento del proyecto de ordenanza 722/26, que proponía elevar el módulo fiscal de $373 a $492</strong>, remitiendo el expediente a comisiones ante la certeza de que el oficialismo no alcanzaría la mayoría especial de ocho votos reglamentarios, según consignó <a href=\"https://www.anbariloche.com.ar/noticias/2026/09/30/118647-se-freno-el-aumento-del-modulo-fiscal-y-volvio-a-comisiones\" target=\"_blank\" rel=\"noopener noreferrer\">ANBariloche</a>.</p>\n<p>La maniobra parlamentaria también arrastró al proyecto 753/26, ideado para reformular el cuadro tarifario del Estacionamiento Medido. Si bien la Comisión de Gobierno y Legales había emitido horas antes un dictamen de mayoría por 6 votos a 4, la negativa de los bloques opositores —que denunciaron la entrega intempestiva de los informes financieros de Hacienda la noche anterior— forzó al Ejecutivo a retirar el texto antes de consumar un revés público en el recinto, mientras la Secretaría de Hacienda alertaba por el impacto en el pago de futuras obligaciones salariales.</p>\n<blockquote cite=\"https://www.anbariloche.com.ar/noticias/2026/09/30/118647-se-freno-el-aumento-del-modulo-fiscal-y-volvio-a-comisiones\">\n<p>«La economía municipal no se resuelve solo cobrando más: antes de convalidar un incremento del 31,9% en la unidad de cálculo de todas las tasas, exigimos conocer cómo se gasta y avanzar con el proyecto de auditoría externa integral», remarcaron ediles de la oposición durante la conferencia de prensa previa.</p>\n</blockquote>\n<p>De esta manera, el módulo fiscal continuará congelado en $373, postergando la definición tributaria comunal para las próximas semanas de cara al cierre presupuestario de fin de año.</p>",
+  "citas": [
+    {
+      "autor": "Gerardo Del Río",
+      "cargo": "Concejal oficialista",
+      "texto": "El ajuste del módulo fiscal responde a las necesidades presupuestarias del Municipio para sostener el financiamiento de obras, servicios y masa salarial. No hubo falta de información; es una iniciativa trabajada técnicamente durante meses."
+    },
+    {
+      "autor": "Julieta Wallace",
+      "cargo": "Concejala opositora (Bloque Incluyendo Bariloche)",
+      "texto": "Un informe clave remitido por la Secretaría de Hacienda ingresó a las 19:30 de la víspera de la sesión extraordinaria, impidiendo un análisis exhaustivo y responsable del impacto tributario en las comisiones legislativas."
+    },
+    {
+      "autor": "Laura Totonelli",
+      "cargo": "Concejala (Bloque JSRN)",
+      "texto": "La economía municipal tiene ingresos y egresos. Antes de incrementar la presión fiscal directa sobre los contribuyentes, el Municipio debe transparentar los gastos y buscar herramientas alternativas como el recupero de contribuciones por mejoras."
+    }
+  ],
+  "datos_duros": {
+    "valor_actual_modulo": "$373 (vigente sin cambios desde junio de 2025)",
+    "valor_pretendido": "$492 (ajuste del 31,9% impulsado por el Ejecutivo)",
+    "mayoria_requerida": "8 votos sobre 11 concejales (mayoría especial)",
+    "dictamen_comision_previo": "6 votos a favor y 4 en contra en Gobierno y Legales",
+    "expedientes_enviados_a_comision": "Proyecto 722/26 (Módulo Fiscal) y Proyecto 753/26 (Estacionamiento Medido)",
+    "iniciativa_opositora_paralela": "Proyecto 759/26 de auditoría externa integral sobre gastos municipales"
+  },
+  "updated_at": "2026-09-30T23:03:02.422Z"
+}

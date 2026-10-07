@@ -1,0 +1,42 @@
+{
+  "id": "2026-10-05_campus-unrn-este-obras-servicios-finalizacion-noviembre",
+  "titular": "Resta solo la conexión de servicios para que la UNRN estrene su edificio propio de 3.200 m² en Bariloche",
+  "hecho_central": "El Gobierno de Río Negro ejecuta las obras de infraestructura básica para conectar las redes de electricidad (88% de avance), agua y cloacas (80%) y nexos sanitarios en el nuevo edificio de 3.200 m² de la Universidad Nacional de Río Negro en el sector este de Bariloche, con finalización prevista para noviembre y apertura académica en el primer cuatrimestre de 2027 para concentrar 20 carreras.",
+  "area_id": "gestion-publica",
+  "seguimiento_id": "infraestructura-terminal-rutas",
+  "fuente": {
+    "id": "anbariloche",
+    "nombre": "ANBariloche",
+    "url_nota": "https://www.anbariloche.com.ar/noticias/2026/10/05/119088-resta-solo-la-conexion-de-servicios-para-que-la-unrn-estrene-su-edificio-propio-en-bariloche"
+  },
+  "cuerpo_html": "<p class=\"c-dossier-link\">📌 <em>Seguimiento: <a href=\"/seguimientos/infraestructura-terminal-rutas\">Nueva Terminal de Ómnibus, Rotonda Esandi y Rutas</a></em></p>\n<p>La consolidación del polo universitario andino dio este lunes un paso decisivo hacia su concreción definitiva: <strong>el Gobierno de Río Negro avanza en la ejecución de las obras de conexión de servicios básicos para habilitar el edificio propio de la Universidad Nacional de Río Negro (UNRN) en el sector este de Bariloche</strong>, según reportó <a href=\"https://www.anbariloche.com.ar/noticias/2026/10/05/119088-resta-solo-la-conexion-de-servicios-para-que-la-unrn-estrene-su-edificio-propio-en-bariloche\" target=\"_blank\" rel=\"noopener noreferrer\">ANBariloche</a>.</p>\n<p>La estructura edilicia de <strong>3.200 metros cuadrados, que alberga 12 aulas magnas y laboratorios de física, química y óptica</strong>, había quedado paralizada en su fase operativa tras la interrupción de transferencias del gobierno nacional para las redes de infraestructura. La Provincia asumió el financiamiento integral de los nexos técnicos, alcanzando actualmente un <strong>88% de avance en tendido eléctrico y un 80% en agua potable y desagües cloacales</strong>, con fecha de entrega comprometida para fines de noviembre. A ello se suma la pavimentación del playón de estacionamiento completado por el Municipio.</p>\n<blockquote cite=\"https://www.anbariloche.com.ar/noticias/2026/10/05/119088-resta-solo-la-conexion-de-servicios-para-que-la-unrn-estrene-su-edificio-propio-en-bariloche\">\n<p>«Disponer de sede propia a partir de marzo de 2027 terminará con la dispersión de estudiantes y docentes en múltiples inmuebles alquilados, consolidando una identidad comunitaria y ampliando los márgenes horarios de investigación», celebró el vicerrector de la Sede Andina, Diego Aguiar.</p>\n</blockquote>\n<p>La concentración de las 20 carreras de la UNRN en el Este transformará el perfil urbano de la zona, integrándose al corredor de desarrollo científico que nuclea a INVAP y al Parque Productivo Tecnológico Industrial (PITBA).</p>",
+  "citas": [
+    {
+      "autor": "Diego Aguiar",
+      "cargo": "Vicerrector de la Sede Andina de la UNRN",
+      "texto": "La ayuda de la Provincia ha sido enorme porque colaboró en traer los servicios de electricidad, agua y cloacas. Esto va a permitir compartir espacios, dejar de pagar alquileres restrictivos y fortalecer la identidad universitaria al tener un edificio propio."
+    }
+  ],
+  "datos_duros": {
+    "superficie_edificio": "3.200 metros cuadrados, 12 aulas y laboratorios de física, química y óptica",
+    "avance_servicios": "88% en red eléctrica y 80% en nexos de agua y cloacas",
+    "inversion_provincial": "Financiamiento de redes de servicios tras la paralización de fondos nacionales",
+    "aporte_municipal": "Construcción de playón de estacionamiento por parte de la Municipalidad de Bariloche",
+    "fecha_finalizacion_servicios": "Noviembre de 2026; inicio de actividades académicas en marzo de 2027",
+    "carreras_concentradas": "20 carreras que actualmente funcionan en edificios alquilados dispersos"
+  },
+  "area": "Gestión Pública",
+  "fecha": "2026-10-01",
+  "foto": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/10/anbariloche/images/02/79/99/2799978_1ce968e87b3d63876436a5c69038cab5267aa80d7d7cd3a093da2f3858e003ec/md.webp",
+  "updated_at": "2026-10-06T12:02:10.035Z",
+  "curada_manualmente": true,
+  "imagen_url": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/10/anbariloche/images/02/79/99/2799978_1ce968e87b3d63876436a5c69038cab5267aa80d7d7cd3a093da2f3858e003ec/md.webp",
+  "media": {
+    "credito": "Fotos: Gobierno de Río Negro / ANBariloche",
+    "requiere_foto": false,
+    "imagen_url": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/10/anbariloche/images/02/79/99/2799978_1ce968e87b3d63876436a5c69038cab5267aa80d7d7cd3a093da2f3858e003ec/md.webp"
+  },
+  "dossier_id": "infraestructura-terminal-rutas",
+  "url": "https://www.anbariloche.com.ar/noticias/2026/10/05/119088-resta-solo-la-conexion-de-servicios-para-que-la-unrn-estrene-su-edificio-propio-en-bariloche",
+  "fecha_publicacion": "2026-10-01"
+}

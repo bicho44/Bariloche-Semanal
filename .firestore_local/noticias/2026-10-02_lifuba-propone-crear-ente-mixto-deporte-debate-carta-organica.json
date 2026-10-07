@@ -1,0 +1,34 @@
+{
+  "id": "2026-10-02_lifuba-propone-crear-ente-mixto-deporte-debate-carta-organica",
+  "titular": "LIFUBA propuso la creación de un Ente Mixto del Deporte y busca incorporar políticas deportivas a la Carta Orgánica",
+  "hecho_central": "En conferencia de prensa, el presidente de la Liga de Fútbol de Bariloche (LIFUBA), Horacio Fuentes, presentó un paquete de iniciativas que incluye la conformación de un Ente Mixto junto a la Subsecretaría de Deportes comunal, una mutual de cobertura para futbolistas y reuniones con candidatos constituyentes para blindar el fomento deportivo en la reforma de la Carta Orgánica.",
+  "fecha_publicacion": "2026-10-02",
+  "area_id": "deportes",
+  "dossier_id": null,
+  "seguimiento_id": "carta-organica-reforma",
+  "fuente": {
+    "id": "anbariloche",
+    "nombre": "ANBariloche",
+    "url_nota": "https://www.anbariloche.com.ar/noticias/2026/10/02/118914-lifuba-propone-crear-un-ente-mixto-para-fortalecer-al-deporte-de-bariloche"
+  },
+  "media": {
+    "imagen_url": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/10/anbariloche/images/02/79/67/2796755_b1a870c25c1a238daf9e944c8bb5890c94ba20fc729f746b6318b7b6bf026045/md.webp",
+    "credito": "Foto: Marcelo Martínez / ANBariloche",
+    "requiere_foto": false
+  },
+  "cuerpo_html": "<p class=\"c-dossier-link\">📌 <em>Seguimiento: <a href=\"/seguimientos/carta-organica-reforma\">Actualización de la Carta Orgánica Municipal</a></em></p>\n<p>Con la mirada puesta en dotar de financiamiento sustentable al tejido asociativo barrial, <strong>la Liga de Fútbol de Bariloche (LIFUBA) presentó este viernes un ambicioso paquete de proyectos institucionales, entre los que sobresale la creación de un Ente Mixto del Deporte y la inclusión de cláusulas de fomento deportivo dentro de la reforma de la Carta Orgánica</strong>, según reportó <a href=\"https://www.anbariloche.com.ar/noticias/2026/10/02/118914-lifuba-propone-crear-un-ente-mixto-para-fortalecer-al-deporte-de-bariloche\" target=\"_blank\" rel=\"noopener noreferrer\">ANBariloche</a>.</p>\n<p>Durante la rueda de prensa encabezada por su titular, <strong>Horacio Fuentes</strong>, la entidad rectora del fútbol local detalló que el ente propuesto busca articular directamente a las instituciones de base con la Subsecretaría de Deportes municipal para generar partidas presupuestarias específicas e infraestructura. Paralelamente, la dirigencia anunció la conformación de una mutual para futbolistas —destinada a brindar asistencia médica y social a los deportistas federados— e informó la entrega de nuevos módulos de tribunas y sanitarios en distintas canchas de la ciudad.</p>\n<blockquote cite=\"https://www.anbariloche.com.ar/noticias/2026/10/02/118914-lifuba-propone-crear-un-ente-mixto-para-fortalecer-al-deporte-de-bariloche\">\n<p>«El deporte en Bariloche cumple una función de contención social irremplazable; ya iniciamos reuniones con los candidatos a convencionales constituyentes del 1 de noviembre para que la nueva Constitución municipal reconozca al deporte como un derecho social con financiamiento garantizado», aseveró Fuentes.</p>\n</blockquote>\n<p>La propuesta abre una nueva vía de debate en la campaña constituyente, buscando incorporar el desarrollo de clubes formativos en la agenda prioritaria de la futura Convención.</p>",
+  "citas": [
+    {
+      "autor": "Horacio Fuentes",
+      "cargo": "Presidente de LIFUBA",
+      "texto": "El deporte barilochense necesita herramientas de financiamiento y planificación que trasciendan a los gobiernos. Estamos dialogando con las listas de convencionales para que la nueva Carta Orgánica contemple mecanismos concretos que sostengan a los clubes de barrio."
+    }
+  ],
+  "datos_duros": {
+    "entidad_impulsora": "Liga de Fútbol de Bariloche (LIFUBA)",
+    "proyectos_presentados": "Ente Mixto del Deporte Municipal, Mutual de Cobertura para Futbolistas y plan de infraestructura para canchas",
+    "infraestructura_entregada": "Módulos de tribunas y baterías sanitarias para clubes barriales de la liga",
+    "vinculacion_institucional": "Ronda de propuestas con candidatos a convencionales constituyentes para el comicio del 1 de noviembre"
+  },
+  "updated_at": "2026-10-02T23:03:03.722Z"
+}

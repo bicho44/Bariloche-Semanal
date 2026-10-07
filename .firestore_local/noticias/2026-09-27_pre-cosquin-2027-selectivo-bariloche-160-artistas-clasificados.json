@@ -1,0 +1,40 @@
+{
+  "id": "2026-09-27_pre-cosquin-2027-selectivo-bariloche-160-artistas-clasificados",
+  "titular": "Más de 160 artistas rionegrinos compitieron en Bariloche en el selectivo provincial del Pre-Cosquín 2027",
+  "hecho_central": "Durante las jornadas del 26 y 27 de septiembre, San Carlos de Bariloche albergó una nueva instancia provincial del Pre-Cosquín, convocando a 160 participantes en rubros de danza, música, malambo y poesía folclórica para definir la delegación que representará a Río Negro en el escenario Atahualpa Yupanqui en enero de 2027.",
+  "fecha_publicacion": "2026-09-27",
+  "area_id": "vida-social-cultura",
+  "dossier_id": null,
+  "seguimiento_id": null,
+  "fuente": {
+    "id": "prensa-rio-negro",
+    "nombre": "Prensa Gobierno de Río Negro",
+    "url_nota": "https://prensa.rionegro.gov.ar/articulo/61517/bariloche-vuelve-a-ser-una-puerta-de-entrada-al-escenario-de-cosquin?n=OTE"
+  },
+  "cuerpo_html": "<p>Consolidando su rol como epicentro cultural de la Norpatagonia, <strong>San Carlos de Bariloche fue sede durante este fin de semana del certamen selectivo Pre-Cosquín 2027</strong>, convocando a más de <strong>160 bailarines, músicos, cantantes y malambistas</strong> procedentes de diversas regiones de la provincia para ganarse un lugar en el escenario mayor Atahualpa Yupanqui, según reportó <a href=\"https://prensa.rionegro.gov.ar/articulo/61517/bariloche-vuelve-a-ser-una-puerta-de-entrada-al-escenario-de-cosquin?n=OTE\" target=\"_blank\" rel=\"noopener noreferrer\">Prensa Río Negro</a>.</p>\n<p>Las pruebas clasificatorias se distribuyeron entre el Gimnasio Municipal N° 1 «Padre Videla» y el Microcine del Puerto San Carlos, abarcando categorías de solista vocal, conjunto folclórico, malambo femenino y masculino, pareja de danza tradicional y canción inédita. Un jurado federal de notables evaluó a los postulantes durante extensas rondas que contaron con gran concurrencia de familias y delegaciones del interior provincial.</p>\n<blockquote cite=\"https://prensa.rionegro.gov.ar/articulo/61517/bariloche-vuelve-a-ser-una-puerta-de-entrada-al-escenario-de-cosquin?n=OTE\"><p>«Poder contar con esta sede en Bariloche acorta distancias para nuestros artistas populares y garantiza que la provincia llegue a la emblemática plaza Próspero Molina con una embajada artística potente y representativa de nuestra geografía», valoraron desde la organización cultural.</p></blockquote>\n<p>Los ganadores de cada rubro iniciarán en las próximas semanas los ensayos preparatorios para la ronda final que se disputará en la provincia de Córdoba en las primeras semanas de enero de 2027.</p>",
+  "citas": [
+    {
+      "autor": "Secretaría de Cultura de Río Negro",
+      "cargo": "Comité Organizador Pre-Cosquín Sede Bariloche",
+      "texto": "Bariloche vuelve a ser una puerta de entrada al escenario mayor del folclore nacional. La calidad técnica y expresiva de los 160 postulantes demuestra la vigencia de la identidad andina y patagónica en nuestras infancias y jóvenes artistas."
+    }
+  ],
+  "datos_duros": {
+    "inscriptos_totales": "Aproximadamente 160 artistas de distintas localidades rionegrinas",
+    "fechas_selectivo": "26 y 27 de septiembre de 2026",
+    "sedes": "Gimnasio Municipal N° 1 y Puerto San Carlos",
+    "rubros_en_competencia": "Canto, música instrumental, danza folclórica, malambo individual/combinado y expresión oral",
+    "destino_clasificatorio": "Plaza Próspero Molina (Cosquín, Córdoba) en enero de 2027"
+  },
+  "area": "Vida Social, Cultura & Comunidad",
+  "fecha": "2026-09-27",
+  "foto": "https://prensa.rionegro.gov.ar/_next/image?url=https%3A%2F%2Fsilvercoder.rionegro.gov.ar%2Ffiles%2F1789588834_d86d978fdad78d77dbed.jpg&w=1920&q=75",
+  "updated_at": "2026-09-28T12:14:06.546Z",
+  "imagen_url": "https://prensa.rionegro.gov.ar/_next/image?url=https%3A%2F%2Fsilvercoder.rionegro.gov.ar%2Ffiles%2F1789588834_d86d978fdad78d77dbed.jpg&w=1920&q=75",
+  "media": {
+    "credito": "Prensa Gobierno de Río Negro",
+    "requiere_foto": false,
+    "imagen_url": "https://prensa.rionegro.gov.ar/_next/image?url=https%3A%2F%2Fsilvercoder.rionegro.gov.ar%2Ffiles%2F1789588834_d86d978fdad78d77dbed.jpg&w=1920&q=75"
+  },
+  "url": "https://prensa.rionegro.gov.ar/articulo/61517/bariloche-vuelve-a-ser-una-puerta-de-entrada-al-escenario-de-cosquin?n=OTE"
+}

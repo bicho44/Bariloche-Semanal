@@ -1,37 +1,53 @@
 {
   "id": "catedral-concesion",
+  "titulo": "Concesión y Modelo Cerro Catedral",
   "area_id": "turismo",
   "estado": "activo",
-  "resumen_contexto": "Seguimiento del plan de inversión contractual de la concesionaria CAPSA en Cerro Catedral, incluyendo nuevos medios de elevación, sistema de fabricación de nieve artificial y litigios ambientales en torno a pistas en la ladera sur.",
-  "titulo": "Concesión y Obras de Modernización en Cerro Catedral (CAPSA)",
+  "resumen_contexto": "Operación invernal y cierre de temporada: nevadas tardías en cumbre acompañan el último fin de semana de esquí en Catedral antes de la clausura este domingo 4 de octubre.",
   "actores_clave": [
-    "Municipio de San Carlos de Bariloche",
-    "CAPSA",
-    "EAMCEC (Ente Autárquico Municipal)",
-    "Club Andino Bariloche (CAB)",
-    "Comunidad Vecinal Villa Catedral"
+    "walter-cortes",
+    "capsa",
+    "concejo-deliberante",
+    "eamcec"
   ],
-  "ultima_actualizacion": "2024-11-12",
-  "cronica_html": "<div class=\"c-dossier-article\"><p class=\"c-lead\">El centro de esquí más importante de Sudamérica atraviesa una etapa de redefinición donde conviven una temporada invernal de alta concurrencia, tensiones abiertas por el canon municipal y el estacionamiento, y la exigencia ciudadana de una democratización efectiva de la montaña.</p><h3>1. Antecedentes y génesis</h3><p>El vínculo entre San Carlos de Bariloche y la empresa Catedral Alta Patagonia (CAPSA) tiene como piedra basal la renegociación contractual aprobada por el Concejo Deliberante en 2018, que extendió la concesión del cerro hasta el año 2056 a cambio de un plan de modernización de medios de elevación e infraestructura. Sin embargo, el esquema tarifario de pases, los costos de acceso vehicular y la fiscalización del Ente Autárquico Municipal del Cerro Catedral (EAMCEC) se mantuvieron como focos permanentes de fricción con los residentes, los instructores independientes y las cámaras comerciales.</p><h3>2. Últimos acontecimientos y novedades</h3><p>En el tramo final de la temporada invernal 2026, el debate sumó un nuevo capítulo tras confirmarse que más de <strong>1.000 vecinos y escolares barilochenses</strong> completaron las jornadas de bautismo e iniciación en la nieve mediante pases y equipamiento 100% bonificados, según reportó <a href=\"https://www.barilocheopina.com/noticias/2026/09/16/94408-mas-de-1000-residentes-tuvieron-su-primera-experiencia-en-la-nieve-en-catedral\" target=\"_blank\" rel=\"noopener noreferrer\">Bariloche Opina</a>. Este hito social se produce mientras la comisión especial del Concejo Deliberante analiza los balances de canon y estacionamiento presentados por el Ejecutivo municipal.</p><blockquote cite=\"https://www.barilocheopina.com/noticias/2026/09/16/94408-mas-de-1000-residentes-tuvieron-su-primera-experiencia-en-la-nieve-en-catedral\"><p>«El objetivo es que ningún chico o vecino de Bariloche crezca sin conocer la nieve ni la montaña por cuestiones económicas», subrayaron las coordinaciones del programa social conjunto.</p></blockquote><aside class=\"c-dossier-data\"><h4>Cifras y parámetros clave de la concesión</h4><ul><li><strong>Vigencia contractual:</strong> Hasta el año 2056 bajo contrato renegociado.</li><li><strong>Programa social 2026:</strong> 1.000 estudiantes y residentes con acceso y equipamiento gratuito en la base.</li><li><strong>Comisión de seguimiento:</strong> Integrada por concejales, técnicos del EAMCEC y representantes vecinales.</li><li><strong>Cierre proyectado de pistas:</strong> Primeros días de octubre de 2026, supeditado a las condiciones de nieve en cumbre.</li></ul></aside><h3>3. Actores e intereses en disputa</h3><p>El escenario institucional enfrenta diversas visiones sobre el modelo de explotación de la montaña. Por un lado, la concesionaria CAPSA prioriza el recupero de las inversiones en los nuevos medios de elevación y el posicionamiento del cerro como destino premium internacional. Por el otro, el intendente Walter Cortés y los bloques legislativos reclaman una mayor participación comunitaria en los ingresos del centro invernal, auditorías estrictas sobre el cobro de playas de estacionamiento y garantías para que los clubes locales y residentes no queden marginados por los valores tarifarios.</p><h3>4. Hacia dónde va: próximos pasos e instancias clave</h3><p>Con la temporada invernal entrando en su mes de cierre, el foco se trasladará a la rendición anual de cuentas que el EAMCEC y la concesionaria deberán elevar al Concejo Deliberante antes del 30 de noviembre. Dicha instancia definirá las pautas de fiscalización para las actividades de montaña de la temporada de verano 2026/2027 y el canon a liquidar en las arcas públicas municipales.</p></div>",
   "timeline": [
     {
-      "fecha": "2026-08-27",
-      "hito": "Apertura de comisión especial en el Concejo por reclamos de Catedral.",
-      "noticia_id": "",
-      "fuente_url": ""
-    },
-    {
-      "fecha": "2026-08-31",
-      "hito": "Debate público sobre tarifas de estacionamiento y canon del centro de esquí.",
-      "noticia_id": "",
-      "fuente_url": ""
+      "fecha": "2026-09-16",
+      "hito": "Cierre del programa de bautismo de nieve con 1.000 residentes y estudiantes beneficiados en la base de Catedral.",
+      "fuente_url": "https://www.barilocheopina.com/noticias/2026/09/16/94408-mas-de-1000-residentes-tuvieron-su-primera-experiencia-en-la-nieve-en-catedral"
     },
     {
       "fecha": "2026-09-18",
-      "hito": "Más de 1.000 residentes completaron el programa de iniciación en la nieve en Catedral.",
-      "noticia_id": "2026-09-18_programa-nieve-residentes-catedral-primeros-pasos",
-      "fuente_url": "https://www.barilocheopina.com/noticias/2026/09/16/94408-mas-de-1000-residentes-tuvieron-su-primera-experiencia-en-la-nieve-en-catedral"
+      "hito": "CAPSA anuncia extensión de temporada hasta el 12 de octubre y preventa de pase residente 2027 a $640.000.",
+      "fuente_url": "https://www.anbariloche.com.ar/noticias/2026/09/18/117553-cerro-catedral-extiende-la-temporada-hasta-el-12-de-octubre-y-adelanta-la-venta-de-pases-para-residentes-2027"
+    },
+    {
+      "fecha": "2026-09-22",
+      "hito": "El documental 'La montaña desde la ventana' en el FAB reinstala el debate sobre el acceso social a los cerros y refugios.",
+      "noticia_id": "2026-09-22_fab-debate-acceso-comunitario-montana",
+      "fuente_url": "https://www.anbariloche.com.ar/noticias/2026/09/22/117832-las-producciones-locales-protagonizaron-el-primer-dia-del-festival-audiovisual-bariloche"
+    },
+    {
+      "fecha": "2026-09-30",
+      "hito": "CAPSA anunció la preventa del Pase Residente Classic 2027 a tarifa congelada de $640.000 a partir del 1° de octubre y extendió la operación de medios hasta el domingo 4 de octubre.",
+      "noticia_id": "2026-09-30_cerro-catedral-adelanta-preventa-pase-residente-2027-operacion-octubre",
+      "fuente_url": "https://www.elcordillerano.com.ar/noticias/2026/09/29/264664-cerro-catedral-adelanta-la-venta-del-pase-residente-2027-comienza-el-1-de-octubre"
+    },
+    {
+      "fecha": "2026-10-03",
+      "hito": "Nuevas nevadas en alta montaña acompañaron el fin de semana de despedida de la temporada de esquí en Cerro Catedral previo al cierre operativo fijado para el 4 de octubre.",
+      "noticia_id": "2026-10-03_nevadas-tardias-cerro-catedral-visperas-cierre-temporada-invierno",
+      "fuente_url": "https://www.elcordillerano.com.ar/noticias/2026/10/03/265467-nieva-en-catedral-y-llueve-en-la-ciudad-hasta-cuando-seguiran-las-precipitaciones-en-bariloche"
     }
   ],
-  "fecha_ultima_cronica": "2026-09-18"
+  "cronica_html": "<div class=\"c-dossier-article\">\n<p class=\"c-lead\">La concesión y el modelo de explotación de Cerro Catedral conjugan la prolongación operativa de la temporada invernal con una creciente discusión sobre la democratización efectiva de la montaña, las contraprestaciones comunitarias y la fiscalización del canon municipal.</p>\n<h3>1. Antecedentes y génesis</h3>\n<p>La relación contractual entre el Municipio de Bariloche y la empresa Catedral Alta Patagonia (CAPSA) se rige bajo la prórroga contractual aprobada por el Concejo Deliberante en 2018, que extendió la explotación del centro de esquí hasta el año 2056 a cambio de un plan director de modernización de medios de elevación. Sin embargo, el encarecimiento progresivo de los pases de residentes, el cobro de estacionamientos en la base y las tensiones en torno al rol de contralor del Ente Autárquico Municipal del Cerro Catedral (EAMCEC) mantienen encendido el debate sobre quién accede realmente a la montaña.</p>\n<h3>2. Últimos acontecimientos y novedades</h3>\n<p>En el plano social y cultural, el estreno del documental <strong>'La montaña desde la ventana'</strong> (Fundación San José Obrero) durante el FAB 2026 expuso la persistente brecha que impide a jóvenes de barrios periféricos conocer los refugios andinos, según reportó <a href=\"https://www.anbariloche.com.ar/noticias/2026/09/22/117832-las-producciones-locales-protagonizaron-el-primer-dia-del-festival-audiovisual-bariloche\" target=\"_blank\" rel=\"noopener noreferrer\">ANBariloche</a>. El hito reabre la discusión sobre las contraprestaciones del centro de esquí, que en septiembre completó su ciclo de bautismo de nieve para 1.000 escolares pero enfrenta demandas de continuidad en los circuitos de trekking estival.</p>\n<blockquote cite=\"https://www.anbariloche.com.ar/noticias/2026/09/22/117832-las-producciones-locales-protagonizaron-el-primer-dia-del-festival-audiovisual-bariloche\"><p>«Si el cerro es de todos, ¿por qué hay pibes que crecieron mirando la montaña por la ventana y nunca pudieron pisarla? La brecha no es geográfica, es social y cultural», plantearon desde los colectivos comunitarios.</p></blockquote>\n<aside class=\"c-dossier-data\">\n<h4>Métricas y compromisos del modelo Catedral</h4>\n<ul>\n<li><strong>Vigencia contractual:</strong> Explotación concesionada hasta 2056 bajo fiscalización del EAMCEC.</li>\n<li><strong>Esquí social 2026:</strong> 1.000 estudiantes y residentes con traslados y pases bonificados en la base.</li>\n<li><strong>Operación de primavera:</strong> Pistas en cotas altas operativas hasta el 12 de octubre; preventa pase residente 2027 a $640.000.</li>\n<li><strong>Rendición fiscal:</strong> Balance anual obligatorio de canon y estacionamiento exigido por el Concejo antes del 30 de noviembre.</li>\n</ul>\n</aside>\n<h3>3. Actores e intereses en disputa</h3>\n<p>El intendente Walter Cortés insiste en que las utilidades del cerro deben reflejarse de forma tangible en infraestructura urbana y subsidios de transporte para los barrios populares. Desde la concesionaria CAPSA, en tanto, remarcan el esfuerzo de inversión en sistemas de fabricación de nieve y medios desembragables, posicionando al complejo como destino internacional premium en Sudamérica. Paralelamente, clubes andinos y guías de montaña reclaman garantías de acceso peatonal irrestricto a los senderos tradicionales.</p>\n<h3>4. Hacia dónde va: próximos pasos e instancias clave</h3>\n<p>La atención política se concentrará en la comisión de seguimiento del Concejo Deliberante hacia fines de octubre, donde se examinarán los balances financieros de la temporada invernal 2026 y las cláusulas del programa de actividades sociales de montaña para el verano 2026/2027.</p>\n</div>",
+  "fecha_ultima_cronica": "2026-10-03",
+  "media": {
+    "imagen_url": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/06/elcordillerano/images/02/64/56/2645687_0337c39c2b21d5bf70f7da77dcb50636f68d828bfcc57ae207dc9df2b21fe330/md.webp",
+    "credito": "Prensa Catedral Alta Patagonia / El Cordillerano",
+    "requiere_foto": false,
+    "prompt_nanobanana": "Ilustración editorial en estilo animación 2D de alta montaña andina: imponentes cumbres nevadas y agujas graníticas del Cerro Catedral, con medios de elevación modernos (telecabinas y aerosillas) ascendiendo las laderas. En la base, el contraste armónico entre la aldea alpina de montaña y un grupo diverso de esquiadores locales y niños de escuelas públicas con sus pases residentes. Estilo gráfico plano con texturas sutiles, paleta blanca nieve, gris roca, azul cielo y madera de lenga. Composición cinematográfica limpia, sin texto."
+  },
+  "ultima_actualizacion": "2026-10-03",
+  "updated_at": "2026-10-06T23:07:36.202Z"
 }

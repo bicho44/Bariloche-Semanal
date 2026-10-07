@@ -1,0 +1,45 @@
+{
+  "id": "transporte-urbano-mibus",
+  "titulo": "Transporte Urbano de Pasajeros y Concesión Mi Bus",
+  "area_id": "gestion-publica",
+  "estado": "activo",
+  "resumen_contexto": "Redefinición del transporte urbano: redacción del nuevo pliego licitatorio, 39.000 vecinos con boleto residente en la SUBE ($1.749,98) y taxis en alerta por caída de actividad y falta de control a apps.",
+  "actores_clave": [
+    "walter-cortes",
+    "mi-bus",
+    "transito-transporte",
+    "asociacion-propietarios-taxis",
+    "uta",
+    "juntas-vecinales"
+  ],
+  "timeline": [
+    {
+      "fecha": "2026-09-29",
+      "hito": "El Municipio finaliza la redacción técnica del nuevo pliego de licitación del transporte urbano y prevé remitirlo al Concejo en octubre.",
+      "noticia_id": "2026-09-29_nuevo-pliego-transporte-urbano-pasajeros-concejo-octubre",
+      "fuente_url": "https://www.barilocheopina.com/noticias/2026/09/29/95077-el-nuevo-pliego-del-transporte-avanza-y-podria-llegar-al-concejo-en-octubre"
+    },
+    {
+      "fecha": "2026-10-01",
+      "hito": "Más de 39.000 vecinos renovaron el Boleto Residente en la SUBE con tarifa bonificada de $1.749,98, con plazo improrrogable fijado hasta el 30 de noviembre.",
+      "noticia_id": "2026-10-01_transporte-urbano-plazo-actualizar-boleto-residente-sube-noviembre",
+      "fuente_url": "https://www.anbariloche.com.ar/noticias/2026/10/01/118758-hay-tiempo-hasta-el-30-de-noviembre-para-actualizar-el-beneficio-en-la-sube"
+    },
+    {
+      "fecha": "2026-10-04",
+      "hito": "Propietarios de taxis resolvieron no aumentar tarifas tras advertir una fuerte caída pos-temporada y reclamaron la fiscalización de las aplicaciones de transporte.",
+      "noticia_id": "2026-10-04_taxis-bariloche-fuerte-caida-actividad-congelan-tarifas-exigen-control-apps",
+      "fuente_url": "https://www.elcordillerano.com.ar/noticias/2026/10/04/265431-caida-de-la-actividad-la-asociacion-de-propietarios-de-taxis-advierte-por-la-crisis-del-sector-en-bariloche"
+    }
+  ],
+  "cronica_html": "<div class=\"c-dossier-article\">\n<p class=\"c-lead\">El sistema de transporte urbano de Bariloche atraviesa un momento bisagra: mientras avanza la confección del nuevo pliego licitatorio tras años de subsidios y quejas vecinales, más de 39.000 residentes actualizaron el boleto en la SUBE y los taxis congelaron tarifas para resistir la competencia de las aplicaciones.</p>\n<h3>1. Antecedentes y génesis</h3>\n<p>El transporte público de colectivos en Bariloche está operado de manera monopólica por la empresa Transporte Amancay SRL (Mi Bus) bajo un contrato de concesión rubricado en 2017 que arrastra permanentes controversias por el valor del boleto, frecuencias insuficientes en barrios del Alto y del Oeste, y una constante dependencia de subsidios estatales cruzados. Con el vencimiento de la concesión en el horizonte y la quita de transferencias del Fondo Compensador nacional en 2024, la sustentabilidad financiera del servicio recayó casi exclusivamente sobre la masa de usuarios locales y aportes discrecionales de Provincia y Municipio.</p>\n<h3>2. Últimos acontecimientos y novedades</h3>\n<p>En el plano operativo municipal, el Ejecutivo que encabeza Walter Cortés avanza en la redacción final del <strong>nuevo pliego de licitación pública nacional</strong> para concesionar el sistema de colectivos, proyectando la división en dos unidades de negocio o cuencas territoriales para quebrar el monopolio y redefinir recorridos en los barrios periféricos. Paralelamente, la Subsecretaría de Tránsito y Transporte ratificó que más de <strong>39.000 vecinos ya revalidaron su condición en la tarjeta SUBE</strong> para mantener la tarifa plana subsidiada de $1.749,98 por viaje hasta el 30 de noviembre.</p>\n<p>En el transporte semipúblico, la Asociación de Propietarios de Taxis confirmó este inicio de octubre una caída abrupta de viajes tras un repunte invernal que duró apenas 60 días. Frente a este panorama de recesión local, los permisionarios resolvieron por asamblea no solicitar aumentos tarifarios al Concejo Deliberante para no perder pasajeros, al tiempo que elevaron un duro reclamo al Ejecutivo para que se efectivicen controles de calle sobre las aplicaciones móviles (Uber, Cabify), cuyos plazos de adecuación ya vencieron.</p>\n<blockquote cite=\"https://www.elcordillerano.com.ar/noticias/2026/10/04/265431-caida-de-la-actividad-la-asociacion-de-propietarios-de-taxis-advierte-por-la-crisis-del-sector-en-bariloche\">\n<p>«El repunte invernal duró apenas dos meses y la actividad se paralizó. Mantendremos la tarifa actual para seguir siendo competitivos, pero exigimos que el Municipio fiscalice de una vez por todas a las aplicaciones que operan en condiciones desleales.» — Carlos Di Franco, titular de Propietarios de Taxis.</p>\n</blockquote>\n<aside class=\"c-dossier-data\">\n<h4>Métricas del sistema de movilidad y transporte</h4>\n<ul>\n<li><strong>Boleto Residente SUBE:</strong> $1.749,98 por viaje en todas las secciones (hasta 4 cancelaciones diarias).</li>\n<li><strong>Padrón de beneficiarios TUP:</strong> Más de 39.000 usuarios locales empadronados.</li>\n<li><strong>Fecha límite de renovación:</strong> 30 de noviembre de 2026 (terminales TAS y app SUBE).</li>\n<li><strong>Flota y nuevo pliego:</strong> Proyecto de licitación por zonas para exigir flota renovada con rampas de accesibilidad.</li>\n<li><strong>Sector Taxis:</strong> Tarifa congelada voluntariamente; reclamo de fiscalización sobre plataformas digitales.</li>\n</ul>\n</aside>\n<h3>3. Actores e intereses en disputa</h3>\n<p>La tensión se distribuye en tres frentes: por un lado, la empresa Mi Bus y la Unión Tranviarios Automotor (UTA), que condicionan la prestación a la acreditación en término de salarios y subsidios combustibles; por otro, la Comisión de Tránsito y Transporte del Concejo, donde las juntas vecinales exigen que el nuevo pliego incluya frecuencias nocturnas y líneas transversales sin transbordo céntrico; y finalmente, los taxistas que litigan contra la expansión no controlada del transporte por plataformas en accesos y terminales.</p>\n<h3>4. Hacia dónde va: próximos pasos e instancias clave</h3>\n<p>El intendente Cortés enviará el proyecto del nuevo pliego licitatorio al Concejo Deliberante en las próximas semanas para abrir el debate parlamentario y convocar a audiencia pública antes de fin de año. En simultáneo, Tránsito municipal deberá definir si activa operativos de secuestro vehicular a choferes de apps sin habilitación o promueve una reforma regulatoria en el código contravencional.</p>\n</div>",
+  "fecha_ultima_cronica": "2026-10-06",
+  "media": {
+    "imagen_url": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/10/elcordillerano/images/02/79/90/2799015_35907cb062c98b397c6fadad99a1859c0367c7fbf44f81ee71fcc18f6e748fcc/md.webp",
+    "credito": "Foto: Facu Pardo / El Cordillerano",
+    "requiere_foto": false,
+    "prompt_nanobanana": "Ilustración editorial en estilo animación 2D que ilustra la movilidad urbana en Bariloche: un colectivo urbano moderno de piso bajo recorriendo una avenida costanera junto al lago Nahuel Huapi, trabajadores y estudiantes esperando en una parada comunitaria con su tarjeta SUBE, mientras un taxi blanco y un auto de aplicación circulan en segundo plano. Perspectiva dinámica, colores planos con iluminación suave de atardecer patagónico, trazos limpios, estilo cómic europeo independiente, sin texto."
+  },
+  "ultima_actualizacion": "2026-10-06",
+  "updated_at": "2026-10-06T23:07:40.652Z"
+}

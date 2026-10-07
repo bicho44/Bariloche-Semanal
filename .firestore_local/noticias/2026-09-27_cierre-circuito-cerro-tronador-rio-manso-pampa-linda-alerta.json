@@ -1,0 +1,40 @@
+{
+  "id": "2026-09-27_cierre-circuito-cerro-tronador-rio-manso-pampa-linda-alerta",
+  "titular": "Cerraron el circuito al Cerro Tronador y condicionaron el acceso a Cascada Los Alerces por desborde del río Manso Superior",
+  "hecho_central": "La Intendencia del Parque Nacional Nahuel Huapi clausuró el camino vehicular hacia Pampa Linda y Cerro Tronador debido a que las aguas del río Manso taparon la traza, manteniendo a 19 personas aisladas en hosterías de la zona (18 trabajadores y un turista evacuado de forma asistida por Gendarmería), mientras el crecimiento del lago Mascardi amenaza el paso a Cascada Los Alerces sobre la Ruta 81.",
+  "fecha_publicacion": "2026-09-27",
+  "area_id": "turismo",
+  "dossier_id": null,
+  "seguimiento_id": "temporada-turistica-nieve",
+  "fuente": {
+    "id": "el-cordillerano",
+    "nombre": "Diario El Cordillerano",
+    "url_nota": "https://www.elcordillerano.com.ar/noticias/2026/09/27/264331-cerraron-el-circuito-a-cerro-tronador-por-crecida-del-rio-manso-y-condicionaron-el-acceso-a-cascada-los-alerces"
+  },
+  "cuerpo_html": "<p class=\"c-dossier-link\">📌 <em>Seguimiento: <a href=\"/seguimientos/temporada-turistica-nieve\">Temporada Turística, Nieve y Conectividad</a></em></p>\n<p>El impacto del prolongado frente de tormenta en la alta cordillera derivó en el <strong>cierre total y por tiempo indeterminado del circuito turístico hacia Pampa Linda y Cerro Tronador</strong>, luego de que el caudal desbordado del río Manso Superior cubriera por completo la calzada de ripio, según reportó <a href=\"https://www.elcordillerano.com.ar/noticias/2026/09/27/264331-cerraron-el-circuito-a-cerro-tronador-por-crecida-del-rio-manso-y-condicionaron-el-acceso-a-cascada-los-alerces\" target=\"_blank\" rel=\"noopener noreferrer\">El Cordillerano</a>.</p>\n<p>La crecida mantuvo aisladas preventivamente a 19 personas que se encontraban en el valle, en su gran mayoría personal de mantenimiento y servicios de los complejos hoteleros y refugios, además de un turista que fue evacuado mediante maniobras operativas coordinadas por efectivos del Escuadrón 34 de Gendarmería Nacional y guardaparques. Paralelamente, las autoridades alertaron que el acceso a <strong>Cascada Los Alerces</strong> se encuentra supeditado al comportamiento del lago Mascardi, cuyas aguas comenzaron a invadir la banquina en el sector de Playa Negra sobre la <strong>Ruta Provincial 81</strong>.</p>\n<blockquote cite=\"https://www.elcordillerano.com.ar/noticias/2026/09/27/264331-cerraron-el-circuito-a-cerro-tronador-por-crecida-del-rio-manso-y-condicionaron-el-acceso-a-cascada-los-alerces\"><p>«Se solicita a los visitantes y transportistas respetar de forma estricta las indicaciones y no intentar circular hacia los sectores restringidos hasta que disminuya el nivel de los ríos y se evalúe el estado estructural de los terraplenes», informaron desde el Parque Nacional Nahuel Huapi.</p></blockquote>\n<p>Las cuadrillas de Parques continuarán con guardias permanentes en el puesto de Los Rápidos para monitorear el comportamiento de las cuencas durante el inicio de la semana.</p>",
+  "citas": [
+    {
+      "autor": "Intendencia Parque Nacional Nahuel Huapi",
+      "cargo": "Reporte Oficial de Transitabilidad Andina",
+      "texto": "En el sector de Pampa Linda permanecen 19 personas en perfecto estado de salud, en su gran mayoría trabajadores de hosterías. Se coordinó la salida asistida de un turista con Gendarmería y el camino a Tronador continúa cerrado hasta nuevo aviso ante el riesgo vial por desborde fluvial."
+    }
+  ],
+  "datos_duros": {
+    "estado_camino": "Clausurado por desborde fluvial sobre la calzada",
+    "personas_en_el_sector": "19 personas en perfecto estado (18 trabajadores de hosterías y 1 turista evacuado de forma asistida)",
+    "operativo_rescate": "Gendarmería Nacional y guardaparques de Parques Nacionales",
+    "acceso_cascada_los_alerces": "Condicionado por anegamiento del lago Mascardi en Playa Negra (Ruta Provincial 81)",
+    "persistencia_climatica": "Precipitaciones continuas y alerta por deshielo en alta montaña"
+  },
+  "area": "Pulso Turístico",
+  "fecha": "2026-09-27",
+  "foto": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/09/elcordillerano/images/02/78/88/2788880_03bd8e7449b378a019f577b02bc6db4bf5723f61780f1c3d1931fc30302e4ad5/md.webp",
+  "updated_at": "2026-09-28T12:12:39.343Z",
+  "imagen_url": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/09/elcordillerano/images/02/78/88/2788880_03bd8e7449b378a019f577b02bc6db4bf5723f61780f1c3d1931fc30302e4ad5/md.webp",
+  "media": {
+    "credito": "Prensa Parque Nacional Nahuel Huapi / El Cordillerano",
+    "requiere_foto": false,
+    "imagen_url": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/09/elcordillerano/images/02/78/88/2788880_03bd8e7449b378a019f577b02bc6db4bf5723f61780f1c3d1931fc30302e4ad5/md.webp"
+  },
+  "url": "https://www.elcordillerano.com.ar/noticias/2026/09/27/264331-cerraron-el-circuito-a-cerro-tronador-por-crecida-del-rio-manso-y-condicionaron-el-acceso-a-cascada-los-alerces"
+}

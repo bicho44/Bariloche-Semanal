@@ -9,8 +9,14 @@ export class FuentesService {
     if (soloActivas) {
       return fuentes.filter(f => f.activo === true);
     }
-    // Ordenar por prioridad ascendente (1 primero) y luego por nombre
-    return fuentes.sort((a, b) => a.prioridad - b.prioridad || a.nombre.localeCompare(b.nombre));
+    // Ordenar por prioridad ascendente (1 primero) y luego por nombre con protección contra valores undefined
+    return fuentes.sort((a, b) => {
+      const prioDiff = (a.prioridad ?? 1) - (b.prioridad ?? 1);
+      if (prioDiff !== 0) return prioDiff;
+      const nomA = String(a.nombre || a.id || '');
+      const nomB = String(b.nombre || b.id || '');
+      return nomA.localeCompare(nomB);
+    });
   }
 
   async obtenerPorId(id: string): Promise<Fuente | null> {

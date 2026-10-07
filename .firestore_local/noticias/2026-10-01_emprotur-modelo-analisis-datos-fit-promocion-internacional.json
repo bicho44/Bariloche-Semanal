@@ -1,0 +1,39 @@
+{
+  "id": "2026-10-01_emprotur-modelo-analisis-datos-fit-promocion-internacional",
+  "titular": "El EMPROTUR expuso en la FIT 2026 su estrategia de inteligencia de datos para desestacionalizar la demanda turística",
+  "hecho_central": "En el panel FIT TECH de la Feria Internacional de Turismo en Buenos Aires, el EMPROTUR de Bariloche presentó su modelo de gestión basado en analítica predictiva de datos de visitantes (búsquedas, anticipación de compra, conectividad aérea y gasto promedio), apuntado a captar mercados estratégicos como Brasil, Estados Unidos, México y Reino Unido para sostener la afluencia durante las temporadas intermedias.",
+  "fecha_publicacion": "2026-10-01",
+  "area_id": "turismo",
+  "dossier_id": null,
+  "seguimiento_id": "temporada-turistica-nieve",
+  "fuente": {
+    "id": "anbariloche",
+    "nombre": "ANBariloche",
+    "url_nota": "https://www.anbariloche.com.ar/noticias/2026/10/01/118755-bariloche-expuso-su-modelo-de-promocion-turistica-en-la-fit-2026"
+  },
+  "cuerpo_html": "<p class=\"c-dossier-link\">📌 <em>Seguimiento: <a href=\"/seguimientos/temporada-turistica-nieve\">Temporada Turística, Nieve y Conectividad</a></em></p>\n<p>En el marco de la Feria Internacional de Turismo (FIT) 2026 desarrollada en el predio ferial de La Rural en Buenos Aires, <strong>San Carlos de Bariloche expuso este jueves su modelo de promoción turística apoyado en el procesamiento y análisis sistemático de datos de mercado</strong>, según informó <a href=\"https://www.anbariloche.com.ar/noticias/2026/10/01/118755-bariloche-expuso-su-modelo-de-promocion-turistica-en-la-fit-2026\" target=\"_blank\" rel=\"noopener noreferrer\">ANBariloche</a>.</p>\n<p>La presentación tuvo lugar en el auditorio FIT TECH y estuvo a cargo de la licenciada <strong>Martina Gelardi, responsable de Planificación Estratégica del Ente Mixto de Promoción Turística (EMPROTUR)</strong>, quien compartió panel con autoridades turísticas de Guatemala y Yucatán. La estrategia expuesta apunta a sustituir las decisiones promocionales basadas en intuición empírica por un monitoreo estricto de indicadores digitales: tráfico y oferta de vuelos comerciales, búsquedas en metabuscadores globales, curvas de anticipación de reserva, duración de estadía y gasto promedio por pasajero.</p>\n<blockquote cite=\"https://www.anbariloche.com.ar/noticias/2026/10/01/118755-bariloche-expuso-su-modelo-de-promocion-turistica-en-la-fit-2026\">\n<p>«Conocer en detalle los hábitos de consumo de los viajeros permite optimizar cada peso invertido por el sector público y privado, dirigiendo las campañas internacionales hacia mercados de alto impacto como Brasil, Estados Unidos, México y el Reino Unido», remarcó Gelardi.</p>\n</blockquote>\n<p>El objetivo central del dispositivo consiste en atenuar las caídas de demanda durante la primavera y el otoño, consolidando a Bariloche como un destino competitivo los doce meses del año.</p>",
+  "citas": [
+    {
+      "autor": "Martina Gelardi",
+      "cargo": "Responsable de Planificación Estratégica del EMPROTUR",
+      "texto": "Profundizar en el conocimiento de la demanda permite incrementar la eficiencia en la inversión de recursos públicos y diseñar acciones dirigidas a públicos específicos para atenuar la estacionalidad y generar movimiento sostenido todo el año."
+    }
+  ],
+  "datos_duros": {
+    "panel_academico": "Espacio FIT TECH, Feria Internacional de Turismo (FIT 2026, La Rural, Buenos Aires)",
+    "mercados_prioritarios": "Brasil, Estados Unidos, México y Reino Unido",
+    "metricas_analizadas": "Conectividad aérea, búsquedas online de pasajes/alojamiento, tiempos de anticipación, estadía media y nivel de gasto",
+    "representacion_institucional": "EMPROTUR Bariloche junto a delegaciones internacionales de Guatemala y Yucatán"
+  },
+  "area": "Pulso Turístico",
+  "fecha": "2026-10-01",
+  "foto": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/10/anbariloche/images/02/79/48/2794830_9bed36a6d5e007c66311f1c82a22c5cad137bac93007c79e3f38fcf01fdb46f2/md.webp",
+  "updated_at": "2026-10-02T12:16:34.286Z",
+  "imagen_url": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/10/anbariloche/images/02/79/48/2794830_9bed36a6d5e007c66311f1c82a22c5cad137bac93007c79e3f38fcf01fdb46f2/md.webp",
+  "media": {
+    "credito": "Prensa EMPROTUR / ANBariloche",
+    "requiere_foto": false,
+    "imagen_url": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/10/anbariloche/images/02/79/48/2794830_9bed36a6d5e007c66311f1c82a22c5cad137bac93007c79e3f38fcf01fdb46f2/md.webp"
+  },
+  "url": "https://www.anbariloche.com.ar/noticias/2026/10/01/118755-bariloche-expuso-su-modelo-de-promocion-turistica-en-la-fit-2026"
+}

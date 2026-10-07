@@ -1,27 +1,32 @@
 {
   "id": "crisis-habitacional-urbanismo",
-  "titulo": "Crisis Habitacional, Alquileres & Densificación",
+  "titulo": "Crisis Habitacional y Alquileres en Bariloche",
   "area_id": "alquileres-inmobiliario",
   "estado": "activo",
-  "resumen_contexto": "Escasez de oferta de alquiler permanente frente al turismo temporario y debate por aumento de alturas en el centro.",
+  "resumen_contexto": "Tierras y soberanía territorial: más de 60 organizaciones sociales, sindicales y estudiantiles convocaron a una marcha central el 15 de octubre contra la extranjerización de tierras tras el fallo de la Corte.",
   "actores_clave": [
-    "instituto-tierras",
-    "colegio-arquitectos",
-    "asociacion-inquilinos"
+    "asociacion-inquilinos",
+    "colegio-martilleros",
+    "imtvhs",
+    "concejo-deliberante",
+    "walter-cortes"
   ],
   "timeline": [
     {
-      "fecha": "2026-09-03",
-      "hito": "Colegio de Arquitectos defiende proyecto de aumento de alturas en el centro."
-    },
-    {
-      "fecha": "2026-09-07",
-      "hito": "Entrega de escrituras de regularización dominial social por Ley Pierri."
-    },
-    {
-      "fecha": "2026-09-09",
-      "hito": "Encuesta censal en hogares sobre emergencia habitacional en barrios del faldeo."
+      "fecha": "2026-10-06",
+      "hito": "Más de 60 organizaciones sindicales, ambientales y estudiantiles convocaron a una marcha para el 15 de octubre contra el DNU 70/2023 y la extranjerización de tierras en Bariloche.",
+      "noticia_id": "2026-10-06_organizaciones-bariloche-marcha-15-octubre-dnu-ley-tierras",
+      "fuente_url": "https://www.anbariloche.com.ar/noticias/2026/10/06/119202-organizaciones-de-bariloche-se-preparan-para-una-gran-marcha-contra-el-dnu-702023-y-la-extranjerizacion-de-tierras"
     }
   ],
-  "ultima_actualizacion": "2026-09-11T14:20:39.276Z"
+  "cronica_html": "<div class=\"c-dossier-article\">\n<p class=\"c-lead\">La emergencia habitacional de Bariloche constituye la herida social más profunda de la ciudad: la escasez crítica de alquileres permanentes frente a la dolarización del mercado turístico temporario expulsa a familias trabajadoras hacia la periferia y tensiona las políticas de acceso al suelo urbano.</p>\n<h3>1. Antecedentes y génesis</h3>\n<p>El boom turístico pospandemia y el crecimiento demográfico exponencial agravaron una asimetría histórica: mientras la plaza hotelera y parahotelera formal se expandía, miles de viviendas residenciales migraron masivamente hacia el alquiler temporario turístico (ATT), atraídas por la rentabilidad en moneda extranjera y la desregulación de plataformas como Airbnb y Booking. Como contrapartida, más de 12.000 familias inquilinas de Bariloche quedaron atrapadas en un cuello de botella habitacional marcado por contratos informales, exigencias de garantías inaccesibles y valores que insumen más del 60% del ingreso promedio familiar.</p>\n<h3>2. Últimos acontecimientos y novedades</h3>\n<p>El Instituto Municipal de Tierras y Viviendas para el Hábitat Social (IMTVHS) y la Subsecretaría de Planeamiento Urbano iniciaron el relevamiento de parcelas fiscales en el sur y este de la ciudad para proyectar loteos sociales con servicios básicos, mientras la Asociación de Inquilinos de Bariloche elevó al Concejo Deliberante y a los candidatos a convencionales constituyentes una propuesta formal para incorporar en la nueva Carta Orgánica la declaración de la vivienda como derecho humano inalienable y la creación de un banco municipal de tierras no especulativas.</p>\n<p>En paralelo, la fiscalización de los alojamientos turísticos temporarios no registrados continúa siendo un foco de fricción: las cámaras hoteleras exigen controles tributarios rigurosos para erradicar la competencia desleal, en tanto las organizaciones sociales demandan topes al porcentaje de viviendas que pueden destinarse al turismo en zonas residenciales tradicionales para frenar la expulsión de vecinos y docentes de los barrios.</p>\n<blockquote cite=\"https://www.anbariloche.com.ar\">\n<p>«Bariloche no puede ser una ciudad pensada exclusivamente para quienes la visitan tres semanas al año mientras los médicos, maestros, policías y trabajadores gastronómicos no consiguen un techo donde vivir.» — Colectivo de Inquilinos Autoconvocados de Bariloche.</p>\n</blockquote>\n<aside class=\"c-dossier-data\">\n<h4>Métricas del déficit habitacional y mercado inmobiliario</h4>\n<ul>\n<li><strong>Familias inquilinas estimadas:</strong> Más de 12.000 hogares en el ejido barilochense.</li>\n<li><strong>Alojamiento turístico temporario (ATT):</strong> Más de 4.500 unidades estimadas, con alto porcentaje de informalidad.</li>\n<li><strong>Impacto en ingresos:</strong> El costo de alquiler y expensas insume entre el 55% y el 70% del salario medio local.</li>\n<li><strong>Demanda en el IMTVHS:</strong> Registro de demanda habitacional con más de 8.000 inscriptos a la espera de loteos sociales.</li>\n<li><strong>Marco constitucional:</strong> Debate para incluir el acceso a la tierra y hábitat digno en la reforma de la Carta Orgánica del 1 de noviembre.</li>\n</ul>\n</aside>\n<h3>3. Actores e intereses en disputa</h3>\n<p>La tensión enfrenta a la Asociación de Inquilinos y centrales sindicales —que exigen regulación de precios, incentivos fiscales para alquileres permanentes y freno a la turistificación salvaje— con el sector desarrollador inmobiliario y propietarios particulares nucleados en el Colegio de Martilleros, quienes argumentan que cualquier restricción o control de precios retrae aún más la oferta disponible. En el centro, el Estado municipal busca equilibrar la recaudación de tasas y la atracción de inversiones con la contención social en asentamientos precarios del Alto.</p>\n<h3>4. Hacia dónde va: próximos pasos e instancias clave</h3>\n<p>La definición de una política habitacional de largo plazo dependerá de los consensos alcanzados en la Convención Constituyente que sesionará a partir de noviembre, donde se definirá si el Municipio adquiere facultades para regular el uso del suelo, gravar la vivienda ociosa y crear fondos específicos para urbanizar barrios populares con infraestructura básica.</p>\n</div>",
+  "fecha_ultima_cronica": "2026-10-06",
+  "media": {
+    "imagen_url": null,
+    "credito": null,
+    "requiere_foto": true,
+    "prompt_nanobanana": "Ilustración editorial conceptual en estilo animación 2D sobre la crisis habitacional en la cordillera: una pintoresca ladera de montaña en Bariloche donde contrastan cabañas turísticas iluminadas con candados y carteles de reserva temporal frente a la silueta de una familia trabajadora local con mochilas escolares buscando hogar. De fondo, los cerros nevados y el lago bajo la bruma crepuscular. Tono reflexivo y humano, estilo flat design editorial de revista de análisis político, paleta sobria en azul noche, ámbar cálido y grises andinos, sin texto ni palabras."
+  },
+  "ultima_actualizacion": "2026-10-06",
+  "updated_at": "2026-10-06T23:07:38.803Z"
 }

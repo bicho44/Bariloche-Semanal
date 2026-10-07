@@ -1,0 +1,45 @@
+{
+  "id": "2026-10-04_fuerzas-politicas-defensoria-repudian-violencia-sesion-concejo-modulo-fiscal",
+  "titular": "Fuerzas políticas y la Defensoría del Pueblo repudiaron las agresiones en el Concejo y exigen garantías democráticas",
+  "hecho_central": "Partidos con representación legislativa (Primero Río Negro, Podemos Bariloche, Fuerza Bariloche y PAVE) y la Defensoría del Pueblo condenaron las agresiones, amedrentamientos a concejales y amenazas de muerte a trabajadores de prensa ocurridos durante el debate por el módulo fiscal, mientras el Ministerio Público Fiscal abrió una causa penal por intimidación contra funcionarios municipales.",
+  "area_id": "gestion-publica",
+  "seguimiento_id": "carta-organica-reforma",
+  "fuente": {
+    "id": "anbariloche",
+    "nombre": "ANBariloche",
+    "url_nota": "https://www.anbariloche.com.ar/noticias/2026/10/02/118887-diversos-sectores-rechazaron-los-episodios-ocurridos-en-la-sesion-extraordinaria-del-miercoles-en-el-concejo"
+  },
+  "cuerpo_html": "<p class=\"c-dossier-link\">📌 <em>Seguimiento: <a href=\"/seguimientos/carta-organica-reforma\">Actualización de la Carta Orgánica Municipal</a></em></p>\n<p>La tensión política desatada en los pasillos comunales tras el fallido intento de incrementar el módulo fiscal derivó este fin de semana en un repudio institucional generalizado: <strong>diversos bloques partidarios con representación parlamentaria junto a la Defensoría del Pueblo de Bariloche condenaron enérgicamente los episodios de violencia, aprietes verbales e intimidaciones físicas ocurridos durante la sesión extraordinaria del Concejo Municipal</strong>, según reportó <a href=\"https://www.anbariloche.com.ar/noticias/2026/10/02/118887-diversos-sectores-rechazaron-los-episodios-ocurridos-en-la-sesion-extraordinaria-del-miercoles-en-el-concejo\" target=\"_blank\" rel=\"noopener noreferrer\">ANBariloche</a>.</p>\n<p>Los pronunciamientos de <strong>Primero Río Negro, Podemos Bariloche, Fuerza Bariloche y el Partido Participación Vecinal (PAVE)</strong> hicieron foco en las amenazas de muerte sufridas por un colaborador legislativo en las puertas del recinto —hecho que ya motivó una denuncia penal formal ante el Ministerio Público Fiscal contra dos funcionarios de la Delegación Lago Moreno— y en los intentos de impedir que trabajadores de prensa filmaran el plenario. En paralelo, la Defensoría del Pueblo emitió una recomendación dirigida al intendente Walter Cortés exigiendo códigos de conducta ética a la planta política y garantías de seguridad para el normal funcionamiento legislativo.</p>\n<blockquote cite=\"https://www.anbariloche.com.ar/noticias/2026/10/02/118887-diversos-sectores-rechazaron-los-episodios-ocurridos-en-la-sesion-extraordinaria-del-miercoles-en-el-concejo\">\n<p>«La exigencia de auditorías contables sobre el gasto público es una obligación republicana, no un pretexto para el amedrentamiento patoteril frente a la falta de consensos», remarcaron las fuerzas opositoras en sus documentos.</p>\n</blockquote>\n<p>El conflicto institucional promete escalar en las próximas sesiones ordinarias, en momentos en que la ciudad se encamina a elegir los convencionales constituyentes que reformarán la Carta Orgánica local el próximo 1 de noviembre.</p>",
+  "citas": [
+    {
+      "autor": "Primero Río Negro",
+      "cargo": "Comunicado Oficial 'No nos van a callar'",
+      "texto": "Filmar y transmitir una sesión pública es un derecho ciudadano inalienable. Las amenazas de muerte y el hostigamiento físico en los pasillos municipales constituyen un retroceso institucional gravísimo que no vamos a tolerar."
+    },
+    {
+      "autor": "Podemos Bariloche",
+      "cargo": "Documento de Fijación de Posición Institucional",
+      "texto": "Solicitar auditorías externas sobre las cuentas públicas es un deber ético frente a la ciudadanía. La violencia y la patota no pueden reemplazar a las mayorías democráticas en el Concejo Deliberante."
+    }
+  ],
+  "datos_duros": {
+    "fuerzas_politicas_firmantes": "Primero Río Negro, Podemos Bariloche, Fuerza Bariloche y Partido Participación Vecinal (PAVE)",
+    "intervencion_organismo_control": "Resolución de recomendación de la Defensoría del Pueblo exigiendo pautas éticas y seguridad en el recinto",
+    "causa_penal": "Denuncia en el Ministerio Público Fiscal por amenazas de muerte radicada por asesor legislativo contra dos funcionarios municipales de la delegación Lago Moreno",
+    "contexto_parlamentario": "Freno y pase a comisión del proyecto de suba del módulo fiscal a $492 y rechazo a la auditoría externa integral"
+  },
+  "area": "Gestión Pública",
+  "fecha": "2026-10-02",
+  "foto": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/10/anbariloche/images/02/79/65/2796540_b5d28bcc011d7c808209e4815f9f4773a29d77f0a678163282a32ea2128f88a7/md.webp",
+  "updated_at": "2026-10-05T12:13:00.175Z",
+  "curada_manualmente": true,
+  "imagen_url": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/10/anbariloche/images/02/79/65/2796540_b5d28bcc011d7c808209e4815f9f4773a29d77f0a678163282a32ea2128f88a7/md.webp",
+  "media": {
+    "credito": "Foto: Marcelo Martínez / ANBariloche",
+    "requiere_foto": false,
+    "imagen_url": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/10/anbariloche/images/02/79/65/2796540_b5d28bcc011d7c808209e4815f9f4773a29d77f0a678163282a32ea2128f88a7/md.webp"
+  },
+  "dossier_id": "carta-organica-reforma",
+  "url": "https://www.anbariloche.com.ar/noticias/2026/10/02/118887-diversos-sectores-rechazaron-los-episodios-ocurridos-en-la-sesion-extraordinaria-del-miercoles-en-el-concejo",
+  "fecha_publicacion": "2026-10-02"
+}

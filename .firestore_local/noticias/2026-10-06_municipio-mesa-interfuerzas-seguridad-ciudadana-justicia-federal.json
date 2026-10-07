@@ -1,0 +1,35 @@
+{
+  "id": "2026-10-06_municipio-mesa-interfuerzas-seguridad-ciudadana-justicia-federal",
+  "titular": "Bariloche conformó la Mesa de Seguridad Interfuerzas junto a la Justicia Federal y provincial",
+  "hecho_central": "En el edificio Polivalente de Juan Herman y Quaglia, la Municipalidad puso en marcha el Plan Integral Interfuerzas para la Seguridad Ciudadana reuniendo a la Policía de Río Negro, Gendarmería Nacional, Prefectura, PSA, Policía Federal, al juez federal Leandro Gómez Constenla y a la fiscal jefa Betiana Cendón para coordinar mapas de riesgo barrial, despliegue conjunto y monitoreo de accesos.",
+  "fecha_publicacion": "2026-10-06",
+  "area_id": "gestion-publica",
+  "dossier_id": "ceb-municipio-servicios",
+  "seguimiento_id": "ceb-municipio-servicios",
+  "fuente": {
+    "id": "bariloche-opina",
+    "nombre": "Bariloche Opina",
+    "url_nota": "https://www.barilocheopina.com/noticias/2026/10/06/95451-bariloche-creo-una-mesa-de-trabajo-para-coordinar-acciones-de-seguridad"
+  },
+  "media": {
+    "imagen_url": "https://barilocheopina-s3.cdn.net.ar/s3i233/2026/10/barilocheopina/images/02/79/98/2799833_md.webp",
+    "credito": "Prensa Municipalidad de Bariloche / Bariloche Opina",
+    "requiere_foto": false
+  },
+  "cuerpo_html": "<p class=\"c-dossier-link\">📌 <em>Seguimiento: <a href=\"/seguimientos/ceb-municipio-servicios\">Relación Municipio - CEB y Servicios Públicos</a></em></p>\n<p>En una iniciativa dirigida a unificar criterios de prevención en los barrios del Alto y accesos estratégicos, <strong>la Municipalidad de Bariloche puso en marcha este martes la Mesa de Trabajo del Plan Integral Interfuerzas para la Seguridad Ciudadana, congregando en un mismo ámbito operativo a fuerzas policiales provinciales, federales y a los máximos referentes del fuero penal</strong>, según reportó <a href=\"https://www.barilocheopina.com/noticias/2026/10/06/95451-bariloche-creo-una-mesa-de-trabajo-para-coordinar-acciones-de-seguridad\" target=\"_blank\" rel=\"noopener noreferrer\">Bariloche Opina</a>.</p>\n<p>El plenario se desarrolló en las instalaciones del Gimnasio Polivalente (Juan Herman y Quaglia) y contó con la participación de la Policía de Río Negro, Gendarmería Nacional, Prefectura Naval, Policía de Seguridad Aeroportuaria (PSA) y Policía Federal Argentina, junto al juez federal titular de Bariloche, <strong>Leandro Gómez Constenla</strong>, la fiscal jefa <strong>Betiana Cendón</strong> y los titulares de Protección y Seguridad Ciudadana comunales, Carlos Madjinca y Carlos Bais. El temario abordó la delimitación de competencias jurisdiccionales, la confección de mapas de calor delictivo en sectores vulnerables y la complementación del patrullaje territorial con el Centro de Monitoreo Urbano y el nuevo anillo digital de lectores de patentes.</p>\n<blockquote cite=\"https://www.barilocheopina.com/noticias/2026/10/06/95451-bariloche-creo-una-mesa-de-trabajo-para-coordinar-acciones-de-seguridad\">\n<p>«La seguridad ciudadana requiere terminar con las divisiones de jurisdicción y coordinar una presencia disuasiva coordinada que brinde tranquilidad a las familias en las paradas de colectivo y centros comerciales barriales», puntualizaron las autoridades municipales.</p>\n</blockquote>\n<p>El cuerpo acordó mantener reuniones periódicas de seguimiento y articular operativos conjuntos de control vehicular y nocturnidad de cara a la temporada estival.</p>",
+  "citas": [
+    {
+      "autor": "Carlos Bais",
+      "cargo": "Subsecretario de Seguridad Ciudadana municipal",
+      "texto": "Lo único que nos motiva es el ciudadano. La seguridad debe abordarse desde una perspectiva integral, inclusiva y democrática, articulando a todas las fuerzas para responder con rapidez a las demandas vecinales."
+    }
+  ],
+  "datos_duros": {
+    "sede_encuentro": "Edificio Polivalente (avenida Juan Herman y Quaglia, Alto barilochense)",
+    "fuerzas_participantes": "Policía de Río Negro, Gendarmería Nacional, Prefectura Naval, PSA y Policía Federal Argentina",
+    "representacion_judicial": "Juez Federal titular Leandro Gómez Constenla y Fiscal Jefa provincial Betiana Cendón",
+    "autoridades_municipales": "Secretaría Legal y Técnica (Yanina Sánchez), Protección Ciudadana (Carlos Madjinca) y Seguridad Ciudadana (Carlos Bais)",
+    "objetivo_operativo": "Diagnóstico conjunto de zonas de riesgo, protocolos de disuasión y articulación con el anillo digital de cámaras"
+  },
+  "updated_at": "2026-10-06T23:07:35.524Z"
+}
