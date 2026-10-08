@@ -45,16 +45,28 @@ export class DossiersService {
       timeline: datos.timeline || [],
       cronica_html: datos.cronica_html || '',
       fecha_ultima_cronica: datos.fecha_ultima_cronica || (datos.cronica_html ? new Date().toISOString().split('T')[0] : undefined),
+      media: datos.media || (datos.prompt_nanobanana ? { imagen_url: '', prompt_nanobanana: datos.prompt_nanobanana } : undefined),
+      prompt_nanobanana: datos.prompt_nanobanana || datos.media?.prompt_nanobanana || undefined,
+      curada_manualmente: datos.curada_manualmente !== undefined ? Boolean(datos.curada_manualmente) : true,
       ultima_actualizacion: datos.ultima_actualizacion || new Date().toISOString(),
     };
     return this.repo.set(slug, nuevoDossier);
   }
 
   async actualizar(slug: string, partial: Partial<Dossier>): Promise<Dossier | null> {
-    const dataToUpdate = {
+    const dataToUpdate: Partial<Dossier> = {
       ...partial,
       ultima_actualizacion: new Date().toISOString(),
     };
+    if (partial.curada_manualmente !== undefined) {
+      dataToUpdate.curada_manualmente = Boolean(partial.curada_manualmente);
+    }
+    if (partial.prompt_nanobanana !== undefined && !dataToUpdate.media?.prompt_nanobanana) {
+      dataToUpdate.media = {
+        ...(dataToUpdate.media || { imagen_url: '' }),
+        prompt_nanobanana: partial.prompt_nanobanana,
+      };
+    }
     return this.repo.update(slug, dataToUpdate);
   }
 

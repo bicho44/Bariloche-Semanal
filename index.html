@@ -9,6 +9,97 @@
     <meta property="og:description" content="Observatorio periodístico y panel de administración CRUD sobre Firebase Firestore para Bariloche Semanal" />
     <meta property="og:type" content="website" />
     <meta name="twitter:card" content="summary_large_image" />
+    <script>
+      /**
+       * Supresión de errores de WebSocket HMR en el entorno AI Studio / Cloud Run proxy.
+       * HMR está desactivado por diseño en el contenedor; este shim evita que el script
+       * cliente de Vite intente conexiones WebSocket fallidas y ensucie la consola.
+       */
+      (function() {
+        if (typeof window === 'undefined') return;
+
+        // 1. Silenciar unhandled rejections del transportador de vite
+        window.addEventListener('unhandledrejection', function(event) {
+          var msg = event && event.reason && (event.reason.message || String(event.reason));
+          if (msg && (msg.includes('WebSocket') || msg.includes('vite') || msg.includes('transport'))) {
+            event.preventDefault();
+          }
+        });
+
+        // 2. Interceptar consola de error para vite websocket
+        var origConsoleError = console.error;
+        console.error = function() {
+          var firstArg = arguments[0];
+          if (typeof firstArg === 'string' && (
+            firstArg.includes('[vite] failed to connect to websocket') ||
+            firstArg.includes('WebSocket closed without opened')
+          )) {
+            return;
+          }
+          origConsoleError.apply(console, arguments);
+        };
+
+        // 3. Shim para new WebSocket('...vite-hmr')
+        var OrigWS = window.WebSocket;
+        if (!OrigWS) return;
+
+        function MockHmrSocket(url, protocols) {
+          var target = document.createDocumentFragment();
+          this.url = url;
+          this.protocols = protocols;
+          this.readyState = 0; // CONNECTING
+          this.binaryType = 'blob';
+          this.bufferedAmount = 0;
+          this.protocol = Array.isArray(protocols) ? protocols[0] : (protocols || 'vite-hmr');
+
+          var self = this;
+          this.addEventListener = function(type, listener, options) {
+            target.addEventListener(type, listener, options);
+          };
+          this.removeEventListener = function(type, listener, options) {
+            target.removeEventListener(type, listener, options);
+          };
+          this.dispatchEvent = function(event) {
+            return target.dispatchEvent(event);
+          };
+
+          this.send = function() {};
+          this.close = function() {
+            self.readyState = 3; // CLOSED
+            var ev = new Event('close');
+            if (typeof self.onclose === 'function') self.onclose(ev);
+            self.dispatchEvent(ev);
+          };
+
+          setTimeout(function() {
+            self.readyState = 1; // OPEN
+            var ev = new Event('open');
+            if (typeof self.onopen === 'function') self.onopen(ev);
+            self.dispatchEvent(ev);
+          }, 10);
+        }
+
+        MockHmrSocket.CONNECTING = 0;
+        MockHmrSocket.OPEN = 1;
+        MockHmrSocket.CLOSING = 2;
+        MockHmrSocket.CLOSED = 3;
+
+        window.WebSocket = function(url, protocols) {
+          var isHmr = (protocols === 'vite-hmr') ||
+                      (Array.isArray(protocols) && protocols.indexOf('vite-hmr') !== -1) ||
+                      (typeof url === 'string' && url.indexOf('token=') !== -1);
+          if (isHmr) {
+            return new MockHmrSocket(url, protocols);
+          }
+          return new OrigWS(url, protocols);
+        };
+        window.WebSocket.CONNECTING = 0;
+        window.WebSocket.OPEN = 1;
+        window.WebSocket.CLOSING = 2;
+        window.WebSocket.CLOSED = 3;
+        window.WebSocket.prototype = OrigWS.prototype;
+      })();
+    </script>
   </head>
   <body>
     <div id="root"></div>

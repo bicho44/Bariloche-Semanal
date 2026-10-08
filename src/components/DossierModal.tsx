@@ -19,8 +19,12 @@ import {
   ArrowUp,
   ArrowDown,
   ExternalLink,
+  ShieldCheck,
+  Sparkles,
+  Image as ImageIcon,
 } from 'lucide-react';
 import { Dossier, AreaId, EstadoDossier, HitoTimeline } from '../types/index.js';
+import { DualImageSelector } from './DualImageSelector.js';
 
 interface DossierModalProps {
   isOpen: boolean;
@@ -58,6 +62,14 @@ export const DossierModal: React.FC<DossierModalProps> = ({
   const [tabCronica, setTabCronica] = useState<'editor' | 'preview'>('editor');
   const textareaRef = useRef<HTMLTextAreaElement>(null);
 
+  // Media & Ilustración 2D (Prompt Nanobanana)
+  const [imagenUrl, setImagenUrl] = useState('');
+  const [creditoFoto, setCreditoFoto] = useState('');
+  const [promptNanobanana, setPromptNanobanana] = useState('');
+
+  // Blindaje Editorial
+  const [curadaManualmente, setCuradaManualmente] = useState<boolean>(true);
+
   // Timeline Dinámico
   const [timeline, setTimeline] = useState<HitoTimeline[]>([]);
   const [nuevoHitoFecha, setNuevoHitoFecha] = useState(new Date().toISOString().split('T')[0]);
@@ -77,6 +89,10 @@ export const DossierModal: React.FC<DossierModalProps> = ({
       setCronicaHtml(dossierAEditar.cronica_html || '');
       setFechaUltimaCronica(dossierAEditar.fecha_ultima_cronica || (dossierAEditar.cronica_html ? new Date().toISOString().split('T')[0] : ''));
       setTabCronica('editor');
+      setImagenUrl(dossierAEditar.media?.imagen_url || '');
+      setCreditoFoto(dossierAEditar.media?.credito || '');
+      setPromptNanobanana(dossierAEditar.prompt_nanobanana || dossierAEditar.media?.prompt_nanobanana || '');
+      setCuradaManualmente(dossierAEditar.curada_manualmente !== undefined ? Boolean(dossierAEditar.curada_manualmente) : true);
       setTimeline(dossierAEditar.timeline || []);
     } else {
       setTitulo('');
@@ -87,9 +103,31 @@ export const DossierModal: React.FC<DossierModalProps> = ({
       setCronicaHtml('');
       setFechaUltimaCronica('');
       setTabCronica('editor');
+      setImagenUrl('');
+      setCreditoFoto('');
+      setPromptNanobanana('');
+      setCuradaManualmente(true);
       setTimeline([]);
     }
   }, [dossierAEditar, isOpen]);
+
+  const insertCuatroActos = () => {
+    const plantilla = `<h3>Acto 1: Antecedentes</h3>
+<p>Contexto de origen, marco histórico y antecedentes necesarios para comprender cómo surgió el conflicto en Bariloche...</p>
+
+<h3>Acto 2: Novedades</h3>
+<p>Los acontecimientos recientes, decisiones administrativas, medidas judiciales o sucesos de los últimos días...</p>
+
+<h3>Acto 3: Actores en Disputa</h3>
+<p>Las posturas, intereses y declaraciones de cada uno de los sectores involucrados en el debate...</p>
+
+<h3>Acto 4: Hacia Dónde Va</h3>
+<p>Proyecciones, escenarios futuros, plazos inminentes y el impacto previsto para la comunidad barilochense...</p>`;
+    setCronicaHtml(plantilla);
+    if (!fechaUltimaCronica) {
+      setFechaUltimaCronica(new Date().toISOString().split('T')[0]);
+    }
+  };
 
   const insertHtmlTag = (openTag: string, closeTag: string, placeholder = 'texto') => {
     const textarea = textareaRef.current;
@@ -165,13 +203,20 @@ export const DossierModal: React.FC<DossierModalProps> = ({
     setSaving(true);
     try {
       await onSave({
-        titulo,
+        titulo: titulo.trim(),
         area_id: areaId,
         estado,
-        resumen_contexto: resumenContexto,
+        resumen_contexto: resumenContexto.trim(),
         actores_clave: actoresClave,
         cronica_html: cronicaHtml,
         fecha_ultima_cronica: fechaUltimaCronica || (cronicaHtml ? new Date().toISOString().split('T')[0] : undefined),
+        media: {
+          imagen_url: imagenUrl || '',
+          credito: creditoFoto || '',
+          prompt_nanobanana: promptNanobanana || '',
+        },
+        prompt_nanobanana: promptNanobanana || '',
+        curada_manualmente: curadaManualmente,
         timeline,
       });
       onClose();
@@ -209,6 +254,37 @@ export const DossierModal: React.FC<DossierModalProps> = ({
               {error}
             </div>
           )}
+
+          {/* Blindaje Editorial: Curada Manualmente */}
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 p-3.5 bg-emerald-50/80 border border-emerald-200/90 rounded-xl shadow-2xs">
+            <div className="flex items-center gap-2.5">
+              <input
+                type="checkbox"
+                id="dossier-curada-manualmente"
+                checked={curadaManualmente}
+                onChange={(e) => setCuradaManualmente(e.target.checked)}
+                className="w-4 h-4 rounded text-emerald-800 border-slate-300 focus:ring-emerald-600 cursor-pointer"
+              />
+              <label htmlFor="dossier-curada-manualmente" className="text-xs text-slate-800 cursor-pointer select-none">
+                <span className="font-bold flex items-center gap-1.5 text-emerald-950">
+                  <ShieldCheck className="w-4 h-4 text-emerald-700" />
+                  Curada Manualmente (Blindaje Editorial)
+                </span>
+                <span className="text-[11px] text-slate-600 block">
+                  Activo: Evita que los scripts automáticos e IA pisen las ediciones del director en este dossier.
+                </span>
+              </label>
+            </div>
+            <span
+              className={`text-[10px] font-bold px-2.5 py-1 rounded-full border self-start sm:self-center uppercase tracking-wider ${
+                curadaManualmente
+                  ? 'bg-emerald-100 text-emerald-800 border-emerald-300'
+                  : 'bg-slate-100 text-slate-500 border-slate-200'
+              }`}
+            >
+              {curadaManualmente ? 'Protegido' : 'Auto-actualizable'}
+            </span>
+          </div>
 
           <div>
             <label className="block text-xs font-semibold uppercase tracking-wider text-slate-700 mb-1">
@@ -430,6 +506,16 @@ export const DossierModal: React.FC<DossierModalProps> = ({
                   >
                     <List className="w-3.5 h-3.5" />
                   </button>
+                  <div className="w-px h-4 bg-slate-200 mx-0.5" />
+                  <button
+                    type="button"
+                    onClick={insertCuatroActos}
+                    className="px-2 py-1 text-blue-950 bg-blue-100/80 hover:bg-blue-200 rounded flex items-center gap-1 text-[11px] font-bold border border-blue-300 shadow-2xs transition-all cursor-pointer"
+                    title="Insertar plantilla narrativa en cuatro actos: Antecedentes, Novedades, Actores en disputa y Hacia dónde va"
+                  >
+                    <Sparkles className="w-3.5 h-3.5 text-blue-800" />
+                    <span>Plantilla 4 Actos</span>
+                  </button>
                 </div>
 
                 <textarea
@@ -437,7 +523,7 @@ export const DossierModal: React.FC<DossierModalProps> = ({
                   rows={8}
                   value={cronicaHtml || ''}
                   onChange={(e) => setCronicaHtml(e.target.value)}
-                  placeholder="<p>Escribe o pega aquí la crónica de fondo periodística del dossier...</p>"
+                  placeholder="<p>Escribe o pega aquí la crónica de fondo periodística del dossier (o usa el botón 'Plantilla 4 Actos')...</p>"
                   className="w-full px-3 py-2 text-xs font-mono border border-slate-300 rounded-lg bg-white focus:ring-2 focus:ring-blue-600 focus:outline-none"
                 />
               </div>
@@ -451,11 +537,78 @@ export const DossierModal: React.FC<DossierModalProps> = ({
                 ) : (
                   <div className="flex flex-col items-center justify-center py-8 text-slate-400">
                     <FileText className="w-6 h-6 mb-1 opacity-40" />
-                    <p className="italic">La crónica periodística está vacía. Redáctala en la pestaña 'Editor'.</p>
+                    <p className="italic">La crónica periodística está vacía. Redáctala en la pestaña 'Editor' o usa la plantilla en 4 actos.</p>
                   </div>
                 )}
               </div>
             )}
+          </div>
+
+          {/* BLOQUE MEDIA & ILUSTRACIÓN EDITORIAL (PROMPT NANOBANANA) */}
+          <div className="p-4 bg-slate-50 border border-slate-200 rounded-xl space-y-3.5">
+            <div className="flex items-center justify-between border-b border-slate-200 pb-2">
+              <div>
+                <h3 className="text-xs font-bold text-slate-800 flex items-center gap-1.5">
+                  <ImageIcon className="w-4 h-4 text-blue-900" />
+                  <span>Media & Arte Editorial (Prompt Nanobanana / 2D)</span>
+                </h3>
+                <p className="text-[11px] text-slate-500">
+                  Flyer o ilustración de portada e instrucción para la generación de arte 2D editorial por IA.
+                </p>
+              </div>
+              {imagenUrl ? (
+                <span className="text-[10px] font-bold text-emerald-800 bg-emerald-100 border border-emerald-300 px-2 py-0.5 rounded-full uppercase tracking-wider">
+                  Arte Asignado
+                </span>
+              ) : (
+                <span className="text-[10px] font-medium text-slate-500 bg-slate-100 px-2 py-0.5 rounded-full">
+                  Sin imagen
+                </span>
+              )}
+            </div>
+
+            {/* Selector dual de imagen */}
+            <DualImageSelector
+              label="Arte de Portada del Dossier (Flyer o Ilustración Editorial)"
+              value={imagenUrl}
+              onChange={(url) => setImagenUrl(url)}
+              helperText="Sube el archivo a Storage/servidor o ingresa una URL web con previsualización en vivo."
+            />
+
+            {/* Crédito */}
+            <div>
+              <label className="block text-xs font-semibold uppercase tracking-wider text-slate-700 mb-1">
+                Crédito del Arte / Fotógrafo / Ilustrador
+              </label>
+              <input
+                type="text"
+                placeholder="Ej: Ilustración Bariloche Semanal / Nanobanana Gemini"
+                value={creditoFoto}
+                onChange={(e) => setCreditoFoto(e.target.value)}
+                className="w-full px-3 py-2 text-xs border border-slate-300 rounded-lg bg-white"
+              />
+            </div>
+
+            {/* Campo prompt_nanobanana */}
+            <div>
+              <div className="flex items-center justify-between mb-1">
+                <label className="text-xs font-semibold uppercase tracking-wider text-slate-700 flex items-center gap-1.5">
+                  <Sparkles className="w-3.5 h-3.5 text-amber-600" />
+                  <span>Prompt Nanobanana (Instrucción de ilustración 2D editorial)</span>
+                </label>
+                <span className="text-[10px] text-slate-400 font-mono">Gemini Imagen / 2D</span>
+              </div>
+              <textarea
+                rows={3}
+                placeholder="Instrucción detallada de arte editorial 2D (ej: Ilustración editorial en estilo grabado patagónico 2D, con tonos azules profundos y ocres terrosos, representando el Centro Cívico bajo la nevada y el debate del transporte público...)"
+                value={promptNanobanana}
+                onChange={(e) => setPromptNanobanana(e.target.value)}
+                className="w-full px-3 py-2 text-xs border border-slate-300 rounded-lg bg-white font-mono focus:ring-2 focus:ring-blue-600 focus:outline-none"
+              />
+              <p className="text-[11px] text-slate-500 mt-1">
+                Prompt empleado para generar ilustraciones 2D conceptuales que encabezan este dossier en las ediciones del newsletter y en la web.
+              </p>
+            </div>
           </div>
 
           {/* GESTOR INTERACTIVO DE TIMELINE CON FUENTE_URL Y REORDENAMIENTO */}

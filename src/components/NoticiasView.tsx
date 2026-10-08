@@ -378,16 +378,26 @@ export const NoticiasView: React.FC<NoticiasViewProps> = ({ fuentes, dossiers })
                         <div className="font-medium text-slate-800 truncate" title={fuenteNombre}>
                           {fuenteNombre}
                         </div>
-                        {fuenteUrl && (
-                          <a
-                            href={fuenteUrl}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="text-[11px] text-blue-600 hover:underline flex items-center gap-0.5 mt-0.5"
-                          >
-                            Nota original <ExternalLink className="w-2.5 h-2.5" />
-                          </a>
-                        )}
+                        <div className="flex flex-wrap items-center gap-1.5 mt-0.5">
+                          {fuenteUrl && (
+                            <a
+                              href={fuenteUrl}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="text-[11px] text-blue-600 hover:underline flex items-center gap-0.5 font-medium"
+                            >
+                              Nota original <ExternalLink className="w-2.5 h-2.5" />
+                            </a>
+                          )}
+                          {((item.fuentes_consultadas && item.fuentes_consultadas.length > 1) || (item.cobertura_cruzada && item.cobertura_cruzada > 1)) && (
+                            <span
+                              className="inline-flex items-center gap-0.5 text-[10px] font-bold text-blue-900 bg-blue-50 border border-blue-200 px-1.5 py-0.2 rounded"
+                              title={item.fuentes_consultadas?.map(f => f.nombre).join(', ') || 'Cobertura cruzada en múltiples medios'}
+                            >
+                              {item.cobertura_cruzada || item.fuentes_consultadas?.length} medios
+                            </span>
+                          )}
+                        </div>
                       </td>
 
                       <td className="py-3 px-4">

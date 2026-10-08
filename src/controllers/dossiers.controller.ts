@@ -29,7 +29,20 @@ export async function obtenerDossier(req: Request, res: Response): Promise<void>
 
 export async function crearDossier(req: Request, res: Response): Promise<void> {
   try {
-    const { id, titulo, area_id, estado, resumen_contexto, actores_clave, timeline } = req.body;
+    const {
+      id,
+      titulo,
+      area_id,
+      estado,
+      resumen_contexto,
+      actores_clave,
+      timeline,
+      cronica_html,
+      fecha_ultima_cronica,
+      media,
+      prompt_nanobanana,
+      curada_manualmente,
+    } = req.body;
 
     if (!titulo || !area_id || !resumen_contexto) {
       res.status(400).json({
@@ -46,6 +59,11 @@ export async function crearDossier(req: Request, res: Response): Promise<void> {
       resumen_contexto,
       actores_clave: actores_clave || [],
       timeline: timeline || [],
+      cronica_html: cronica_html || '',
+      fecha_ultima_cronica: fecha_ultima_cronica || (cronica_html ? new Date().toISOString().split('T')[0] : undefined),
+      media: media || (prompt_nanobanana ? { imagen_url: '', prompt_nanobanana } : undefined),
+      prompt_nanobanana: prompt_nanobanana || media?.prompt_nanobanana || undefined,
+      curada_manualmente: curada_manualmente !== undefined ? Boolean(curada_manualmente) : true,
     });
 
     res.status(201).json(creado);

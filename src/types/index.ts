@@ -11,6 +11,14 @@ export type CategoriaAgenda = 'cultura' | 'deportes' | 'institucional' | 'capaci
 
 export type TipoAccesoAgenda = 'gratuito' | 'arancelado' | 'con_inscripcion';
 
+export type EstadoEventoAgenda = 'vigente' | 'hoy' | 'concluido';
+
+export interface FuenteConsultada {
+  id: string; // slug de la fuente (ej: 'anbariloche', 'el-cordillerano')
+  nombre: string;
+  url_nota: string;
+}
+
 export type TipoFuente = 
   | 'diario' 
   | 'institucional' 
@@ -96,6 +104,7 @@ export interface Noticia {
   entidades?: { actores: string[]; lugares: string[] };
   tags?: string[];
   cobertura_cruzada?: number;
+  fuentes_consultadas?: FuenteConsultada[];
   created_at?: string;
 }
 
@@ -108,8 +117,15 @@ export interface Dossier {
   resumen_contexto: string;
   actores_clave: string[];
   timeline: HitoTimeline[];
-  cronica_html?: string; // Artículo explicativo de fondo / crónica narrativa
+  cronica_html?: string; // Artículo explicativo de fondo / crónica narrativa en cuatro actos
   fecha_ultima_cronica?: string;
+  media?: {
+    imagen_url: string;
+    credito?: string;
+    prompt_nanobanana?: string;
+  };
+  prompt_nanobanana?: string; // Instrucción de ilustración 2D editorial para Gemini Imagen / Nanobanana
+  curada_manualmente?: boolean;
   ultima_actualizacion?: string;
 }
 
@@ -119,14 +135,16 @@ export interface EventoAgenda {
   titulo: string;
   categoria: CategoriaAgenda;
   fecha_inicio: string; // YYYY-MM-DD
-  fecha_fin: string;
-  horario?: string;
+  fecha_fin: string; // YYYY-MM-DD
+  horario?: string; // ej: "21:00 hs"
   lugar: string;
   tipo_acceso: TipoAccesoAgenda;
-  descripcion_corta: string;
+  arancel_estimado?: string; // ej: "Entrada libre", "$3.500 anticipadas"
+  descripcion_corta: string; // max 200 caracteres
   url_info: string;
   imagen_url?: string;
   destacado?: boolean;
+  estado?: EstadoEventoAgenda; // 'vigente' | 'hoy' | 'concluido'
   noticia_origen_id?: string;
   created_at?: string;
 }

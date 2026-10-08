@@ -13,8 +13,28 @@ import { WeatherWidget } from './components/WeatherWidget.js';
 import { ConfiguracionBranding, Fuente, Dossier } from './types/index.js';
 import { ShieldCheck, MapPin, Database } from 'lucide-react';
 
+function getInitialTab(): AdminTab {
+  if (typeof window === 'undefined') return 'dashboard';
+  const path = window.location.pathname.replace(/^\/admin\/?/, '').replace(/^\//, '');
+  const validTabs: AdminTab[] = [
+    'dashboard',
+    'noticias',
+    'agenda',
+    'dossiers',
+    'fuentes',
+    'anunciantes',
+    'branding',
+    'ediciones',
+    'api_docs',
+  ];
+  if (validTabs.includes(path as AdminTab)) {
+    return path as AdminTab;
+  }
+  return 'dashboard';
+}
+
 export default function App() {
-  const [currentTab, setCurrentTab] = useState<AdminTab>('dashboard');
+  const [currentTab, setCurrentTab] = useState<AdminTab>(getInitialTab);
   const [branding, setBranding] = useState<ConfiguracionBranding | null>(null);
   const [fuentes, setFuentes] = useState<Fuente[]>([]);
   const [dossiers, setDossiers] = useState<Dossier[]>([]);
@@ -25,6 +45,24 @@ export default function App() {
     detectedEmail?: string | null;
     message?: string;
   } | null>(null);
+
+  const handleSelectTab = useCallback((tab: AdminTab) => {
+    setCurrentTab(tab);
+    if (typeof window !== 'undefined') {
+      const targetPath = tab === 'dashboard' ? '/admin' : `/admin/${tab}`;
+      if (window.location.pathname !== targetPath) {
+        window.history.pushState({ tab }, '', targetPath);
+      }
+    }
+  }, []);
+
+  useEffect(() => {
+    const handlePopState = () => {
+      setCurrentTab(getInitialTab());
+    };
+    window.addEventListener('popstate', handlePopState);
+    return () => window.removeEventListener('popstate', handlePopState);
+  }, []);
 
   const fetchDbStatus = useCallback(async () => {
     try {
@@ -86,7 +124,7 @@ export default function App() {
       {/* Barra Lateral / Sidebar */}
       <Sidebar
         currentTab={currentTab}
-        onSelectTab={setCurrentTab}
+        onSelectTab={handleSelectTab}
         branding={branding}
         dbStatus={dbStatus}
       />
@@ -100,7 +138,7 @@ export default function App() {
               <MapPin className="w-3.5 h-3.5 text-blue-900" />
               <button
                 type="button"
-                onClick={() => setCurrentTab('branding')}
+                onClick={() => handleSelectTab('branding')}
                 className="hover:text-blue-900 hover:underline cursor-pointer font-medium text-slate-700"
                 title="Configurar ciudad y clima en Identidad & Branding"
               >
@@ -122,7 +160,7 @@ export default function App() {
             <WeatherWidget
               variant="compact"
               climaConfig={branding?.clima}
-              onOpenBranding={() => setCurrentTab('branding')}
+              onOpenBranding={() => handleSelectTab('branding')}
             />
           </div>
         </header>
@@ -132,7 +170,7 @@ export default function App() {
           <div className="max-w-7xl mx-auto">
             {currentTab === 'dashboard' && (
               <DashboardView
-                onNavigate={setCurrentTab}
+                onNavigate={handleSelectTab}
                 branding={branding}
                 dbStatus={dbStatus}
               />

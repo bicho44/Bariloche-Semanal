@@ -74,8 +74,12 @@ app.use('/api', (err: any, req: express.Request, res: express.Response, next: ex
 async function startServer() {
   if (process.env.NODE_ENV !== 'production') {
     // Configuración de Vite como middleware en desarrollo
+    // Desactivamos HMR para evitar errores de conexión WebSocket en entornos bajo proxy/iframe
     const vite = await createViteServer({
-      server: { middlewareMode: true },
+      server: {
+        middlewareMode: true,
+        hmr: false,
+      },
       appType: 'spa',
     });
     app.use(vite.middlewares);

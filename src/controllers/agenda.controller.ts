@@ -4,7 +4,14 @@ import { agendaService } from '../services/agenda.service.js';
 export async function listarAgenda(req: Request, res: Response): Promise<void> {
   try {
     const todos = req.query.todos === 'true';
-    const eventos = await agendaService.listar(!todos);
+    const soloVigentes = req.query.solo_vigentes === 'true' || (!todos && req.query.todos !== undefined);
+    const categoria = typeof req.query.categoria === 'string' ? req.query.categoria : undefined;
+
+    const eventos = await agendaService.listar({
+      soloVigentes: req.query.todos === 'false' || req.query.solo_vigentes === 'true',
+      todos: todos && req.query.solo_vigentes !== 'true',
+      categoria,
+    });
     res.json(eventos);
   } catch (err: unknown) {
     const error = err as Error;
@@ -38,15 +45,19 @@ export async function crearEventoAgenda(req: Request, res: Response): Promise<vo
       horario,
       lugar,
       tipo_acceso,
+      arancel_estimado,
       descripcion_corta,
       url_info,
       imagen_url,
+      destacado,
+      estado,
       noticia_origen_id,
     } = req.body;
 
-    if (!titulo || !categoria || !fecha_inicio || !fecha_fin || !lugar || !tipo_acceso || !descripcion_corta) {
+    const effectiveFechaFin = fecha_fin || fecha_inicio;
+    if (!titulo || !categoria || !fecha_inicio || !effectiveFechaFin || !lugar || !tipo_acceso || !descripcion_corta) {
       res.status(400).json({
-        error: 'Campos requeridos faltantes: titulo, categoria, fecha_inicio, fecha_fin, lugar, tipo_acceso, descripcion_corta',
+        error: 'Campos requeridos faltantes: titulo, categoria, fecha_inicio, lugar, tipo_acceso, descripcion_corta',
       });
       return;
     }
@@ -56,13 +67,16 @@ export async function crearEventoAgenda(req: Request, res: Response): Promise<vo
       titulo,
       categoria,
       fecha_inicio,
-      fecha_fin,
+      fecha_fin: effectiveFechaFin,
       horario,
       lugar,
       tipo_acceso,
+      arancel_estimado: arancel_estimado || (tipo_acceso === 'gratuito' ? 'Entrada libre' : ''),
       descripcion_corta,
       url_info: url_info || '',
       imagen_url,
+      destacado: Boolean(destacado),
+      estado: estado || 'vigente',
       noticia_origen_id,
     });
 

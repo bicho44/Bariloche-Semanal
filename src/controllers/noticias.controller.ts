@@ -72,6 +72,8 @@ export async function crearNoticia(req: Request, res: Response): Promise<void> {
       media,
       entidades,
       cobertura_cruzada,
+      fuentes_consultadas,
+      curada_manualmente,
     } = req.body;
 
     if (!titular || typeof titular !== 'string' || titular.trim().length < 10) {
@@ -105,7 +107,9 @@ export async function crearNoticia(req: Request, res: Response): Promise<void> {
       citas: citas || [],
       media: media || { imagen_url: '', credito: '' },
       entidades: entidades || { actores: [], lugares: [] },
-      cobertura_cruzada: cobertura_cruzada || 1,
+      cobertura_cruzada: cobertura_cruzada || (Array.isArray(fuentes_consultadas) && fuentes_consultadas.length > 0 ? fuentes_consultadas.length : 1),
+      fuentes_consultadas: Array.isArray(fuentes_consultadas) ? fuentes_consultadas : [],
+      curada_manualmente: curada_manualmente !== undefined ? Boolean(curada_manualmente) : true,
     });
 
     res.status(201).json(creada);

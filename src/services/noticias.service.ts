@@ -185,7 +185,8 @@ export function normalizeNoticia(raw: any): Noticia {
     foto: imagenUrl,
     entidades: raw.entidades || { actores: [], lugares: [] },
     tags: raw.tags || [],
-    cobertura_cruzada: raw.cobertura_cruzada || 1,
+    fuentes_consultadas: Array.isArray(raw.fuentes_consultadas) ? raw.fuentes_consultadas : [],
+    cobertura_cruzada: raw.cobertura_cruzada || (Array.isArray(raw.fuentes_consultadas) && raw.fuentes_consultadas.length > 0 ? raw.fuentes_consultadas.length : 1),
     created_at: raw.created_at || new Date().toISOString(),
   };
 }
@@ -295,8 +296,9 @@ export class NoticiasService {
       url: datos.fuente?.url_nota || datos.url || '',
       seguimiento_id: seguimientoId,
       dossier_id: seguimientoId, // Retrocompatibilidad con Firestore
-      curada_manualmente: true, // Bandera de curaduría humana aprobada
-      cobertura_cruzada: datos.cobertura_cruzada || 1,
+      curada_manualmente: datos.curada_manualmente !== undefined ? Boolean(datos.curada_manualmente) : true,
+      fuentes_consultadas: Array.isArray(datos.fuentes_consultadas) ? datos.fuentes_consultadas : [],
+      cobertura_cruzada: datos.cobertura_cruzada || (Array.isArray(datos.fuentes_consultadas) && datos.fuentes_consultadas.length > 0 ? datos.fuentes_consultadas.length : 1),
       citas: datos.citas || [],
       entidades: datos.entidades || { actores: [], lugares: [] },
       datos_duros: datos.datos_duros || {},
@@ -340,7 +342,21 @@ export class NoticiasService {
     }
 
     // Bandera de Curaduría Humana (aprobación editorial)
-    updates.curada_manualmente = true;
+    if (partial.curada_manualmente !== undefined) {
+      updates.curada_manualmente = Boolean(partial.curada_manualmente);
+    } else {
+      updates.curada_manualmente = true;
+    }
+
+    if (partial.fuentes_consultadas !== undefined) {
+      updates.fuentes_consultadas = Array.isArray(partial.fuentes_consultadas) ? partial.fuentes_consultadas : [];
+    }
+
+    if (partial.cobertura_cruzada !== undefined) {
+      updates.cobertura_cruzada = Number(partial.cobertura_cruzada) || 1;
+    } else if (partial.fuentes_consultadas && Array.isArray(partial.fuentes_consultadas)) {
+      updates.cobertura_cruzada = Math.max(1, partial.fuentes_consultadas.length);
+    }
 
     // Sincronizar campos bidireccionales de área
     if (partial.area_id && AREA_LABEL_MAP[partial.area_id]) {

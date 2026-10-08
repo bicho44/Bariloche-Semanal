@@ -13,6 +13,9 @@ import {
   FileText,
   ExternalLink,
   CheckCircle2,
+  ShieldCheck,
+  Sparkles,
+  Image as ImageIcon,
 } from 'lucide-react';
 import { Dossier, EstadoDossier } from '../types/index.js';
 import { DossierModal } from './DossierModal.js';
@@ -241,6 +244,22 @@ export const DossiersView: React.FC<DossiersViewProps> = ({ onRefreshDossiers })
                             <span>Sin crónica</span>
                           </span>
                         )}
+
+                        {/* Indicador de Blindaje Editorial */}
+                        {d.curada_manualmente && (
+                          <span className="inline-flex items-center gap-1 text-[10px] font-semibold text-emerald-800 bg-emerald-50 border border-emerald-300 px-2 py-0.5 rounded-full" title="Blindado contra sobrescritura automática">
+                            <ShieldCheck className="w-3 h-3 text-emerald-600" />
+                            <span>Curada</span>
+                          </span>
+                        )}
+
+                        {/* Indicador de Prompt Nanobanana */}
+                        {(d.prompt_nanobanana || d.media?.prompt_nanobanana) && (
+                          <span className="inline-flex items-center gap-1 text-[10px] font-semibold text-purple-800 bg-purple-50 border border-purple-200 px-2 py-0.5 rounded-full" title="Ilustración 2D generable vía IA Nanobanana">
+                            <Sparkles className="w-3 h-3 text-purple-600" />
+                            <span>Arte Nanobanana</span>
+                          </span>
+                        )}
                       </div>
 
                       <h3 className="text-base font-bold text-slate-900 leading-snug">{d.titulo}</h3>
@@ -366,6 +385,46 @@ export const DossiersView: React.FC<DossiersViewProps> = ({ onRefreshDossiers })
                           </div>
                         )}
                       </div>
+
+                      {/* Sección Media & Prompt Nanobanana */}
+                      {(d.media?.imagen_url || d.prompt_nanobanana || d.media?.prompt_nanobanana) && (
+                        <div className="border-t border-slate-200 pt-3">
+                          <h4 className="text-xs font-bold uppercase tracking-wider text-slate-700 flex items-center gap-1.5 mb-2">
+                            <ImageIcon className="w-3.5 h-3.5 text-blue-800" />
+                            <span>Media & Arte Editorial</span>
+                          </h4>
+                          <div className="bg-white p-3.5 rounded-lg border border-slate-200 flex flex-col sm:flex-row gap-3 items-start">
+                            {d.media?.imagen_url && (
+                              <div className="w-24 h-24 rounded-lg overflow-hidden bg-slate-100 border border-slate-200 shrink-0">
+                                <img
+                                  src={d.media.imagen_url}
+                                  referrerPolicy="no-referrer"
+                                  alt={d.titulo}
+                                  className="w-full h-full object-cover"
+                                />
+                              </div>
+                            )}
+                            <div className="space-y-1.5 min-w-0 flex-1 text-xs">
+                              {d.media?.credito && (
+                                <p className="text-slate-500 font-medium">
+                                  Crédito: <span className="text-slate-800">{d.media.credito}</span>
+                                </p>
+                              )}
+                              {(d.prompt_nanobanana || d.media?.prompt_nanobanana) && (
+                                <div className="p-2.5 bg-purple-50/70 border border-purple-200/80 rounded-lg">
+                                  <div className="flex items-center gap-1 text-[11px] font-bold text-purple-900 mb-0.5">
+                                    <Sparkles className="w-3 h-3 text-purple-700" />
+                                    <span>Prompt Nanobanana (2D Editorial):</span>
+                                  </div>
+                                  <p className="font-mono text-[11px] text-purple-950 leading-relaxed italic">
+                                    "{d.prompt_nanobanana || d.media?.prompt_nanobanana}"
+                                  </p>
+                                </div>
+                              )}
+                            </div>
+                          </div>
+                        </div>
+                      )}
                     </div>
                   )}
                 </div>
