@@ -967,7 +967,8 @@ export const NoticiaModal: React.FC<NoticiaModalProps> = ({
               label="Foto Principal de la Noticia"
               value={imagenUrl || ''}
               onChange={(url) => setImagenUrl(url)}
-              helperText="Elige un archivo directo de tu equipo para subir o ingresa una URL web directa. La visualización incorpora referrerpolicy='no-referrer' contra bloqueos de CDN."
+              folder="noticias"
+              helperText="Elige un archivo directo de tu equipo para subir a Firebase Storage (noticias/YYYY/MM) o ingresa una URL web. Sin dependencias externas."
             />
 
             <div>

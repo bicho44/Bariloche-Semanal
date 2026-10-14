@@ -1,10 +1,14 @@
 import fs from 'fs';
 import path from 'path';
-import { getFirebaseStorage, checkStorageAvailability, STORAGE_BUCKET } from '../config/firebase.js';
+import crypto from 'crypto';
+import { getFirebaseStorage, checkStorageAvailability, getActiveStorageBucket } from '../config/firebase.js';
 
 export interface UploadResult {
   url: string;
   storage_path: string;
+  folder?: string;
+  bucket?: string;
+  is_cloud?: boolean;
 }
 
 export interface RemoteFetchResult extends UploadResult {
@@ -13,10 +17,74 @@ export interface RemoteFetchResult extends UploadResult {
 
 const PUBLIC_UPLOADS_DIR = path.join(process.cwd(), 'public', 'uploads');
 
-function ensureUploadsDir(): void {
-  if (!fs.existsSync(PUBLIC_UPLOADS_DIR)) {
-    fs.mkdirSync(PUBLIC_UPLOADS_DIR, { recursive: true });
+function ensureUploadsDir(subDir?: string): string {
+  const targetDir = subDir ? path.join(PUBLIC_UPLOADS_DIR, subDir) : PUBLIC_UPLOADS_DIR;
+  if (!fs.existsSync(targetDir)) {
+    fs.mkdirSync(targetDir, { recursive: true });
   }
+  return targetDir;
+}
+
+/**
+ * Genera una ruta jerárquica y ordenada para Firebase Storage y almacenamiento local.
+ * Estructuras soportadas:
+ * - noticias: noticias/YYYY/MM/slug-de-foto_timestamp.ext
+ * - agenda: agenda/YYYY/MM/slug-evento_timestamp.ext
+ * - anunciantes: anunciantes/YYYY/slug-marca_timestamp.ext
+ * - ediciones: ediciones/YYYY/edicion-semana_timestamp.ext
+ * - dossiers: dossiers/{slug-dossier}/slug-foto_timestamp.ext
+ * - branding: branding/slug-asset_timestamp.ext
+ * - general: media/YYYY/MM/slug-archivo_timestamp.ext
+ */
+export function buildOrganizedStoragePath(
+  originalName: string,
+  mimeType: string,
+  folder: string = 'noticias',
+  subContext?: string
+): { storagePath: string; fileName: string; directory: string; cleanFolder: string } {
+  const now = new Date();
+  const year = now.getFullYear().toString();
+  const month = (now.getMonth() + 1).toString().padStart(2, '0');
+  const timestamp = Date.now();
+
+  const rawExt = path.extname(originalName).toLowerCase();
+  const ext = rawExt || (
+    mimeType.includes('png') ? '.png' :
+    mimeType.includes('webp') ? '.webp' :
+    mimeType.includes('gif') ? '.gif' :
+    mimeType.includes('svg') ? '.svg' : '.jpg'
+  );
+
+  const baseName = path.basename(originalName, rawExt)
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '') // Quitar acentos/tildes
+    .replace(/[^a-z0-9_-]/g, '_')
+    .replace(/_+/g, '_')
+    .slice(0, 45) || 'imagen';
+
+  const fileName = `${baseName}_${timestamp}${ext}`;
+
+  let cleanFolder = folder.toLowerCase().replace(/[^a-z0-9_-]/g, '') || 'noticias';
+  let directory = '';
+
+  if (cleanFolder === 'noticias' || cleanFolder === 'agenda') {
+    directory = `${cleanFolder}/${year}/${month}`;
+  } else if (cleanFolder === 'anunciantes' || cleanFolder === 'ediciones') {
+    directory = `${cleanFolder}/${year}`;
+  } else if (cleanFolder === 'dossiers') {
+    const cleanSub = subContext
+      ? subContext.toLowerCase().replace(/[^a-z0-9_-]/g, '').slice(0, 40)
+      : `${year}`;
+    directory = `dossiers/${cleanSub}`;
+  } else if (cleanFolder === 'branding') {
+    directory = 'branding';
+  } else {
+    directory = `${cleanFolder}/${year}/${month}`;
+  }
+
+  const storagePath = `${directory}/${fileName}`;
+  return { storagePath, fileName, directory, cleanFolder };
 }
 
 /**
@@ -37,79 +105,101 @@ export function resolvePublicUrl(urlPath: string, hostHeader?: string): string {
 }
 
 export class MediaService {
-  async uploadImage(fileBuffer: Buffer, originalName: string, mimeType: string): Promise<UploadResult> {
-    ensureUploadsDir();
+  async uploadImage(
+    fileBuffer: Buffer,
+    originalName: string,
+    mimeType: string,
+    folder: string = 'noticias',
+    subContext?: string
+  ): Promise<UploadResult> {
+    const { storagePath, fileName, directory, cleanFolder } = buildOrganizedStoragePath(
+      originalName,
+      mimeType,
+      folder,
+      subContext
+    );
 
-    const timestamp = Date.now();
-    const ext = path.extname(originalName) || (mimeType.includes('png') ? '.png' : mimeType.includes('webp') ? '.webp' : mimeType.includes('gif') ? '.gif' : mimeType.includes('svg') ? '.svg' : '.jpg');
-    const baseName = path.basename(originalName, ext).replace(/[^a-zA-Z0-9_-]/g, '_').slice(0, 50) || 'imagen';
-    const fileName = `${timestamp}_${baseName}${ext.toLowerCase()}`;
-    const storagePath = `media/${fileName}`;
+    // Asegurar directorio local correspondiente
+    ensureUploadsDir(directory);
 
     // 1. Verificar si Firebase Storage está habilitado y el bucket existe
     const storageActive = await checkStorageAvailability();
+    const activeBucket = getActiveStorageBucket();
 
     if (storageActive) {
       try {
         const storage = getFirebaseStorage();
         if (storage) {
-          const bucket = storage.bucket(STORAGE_BUCKET);
+          const bucket = storage.bucket(activeBucket);
           const file = bucket.file(storagePath);
+          const downloadToken = crypto.randomUUID();
 
+          // Subir a Firebase Storage con metadatos de token permanente y caché optimizada
           await file.save(fileBuffer, {
             metadata: {
               contentType: mimeType,
               cacheControl: 'public, max-age=31536000',
+              metadata: {
+                firebaseStorageDownloadTokens: downloadToken,
+                uploadedBy: 'bariloche-semanal',
+                folder: cleanFolder,
+              },
             },
           });
 
-          // Guardar copia local también para redundancia y fallback inmediato
-          const localPath = path.join(PUBLIC_UPLOADS_DIR, fileName);
-          fs.writeFileSync(localPath, fileBuffer);
+          // Guardar copia local simultánea para redundancia y respuesta ultrarrápida
+          const localFilePath = path.join(PUBLIC_UPLOADS_DIR, storagePath);
+          fs.writeFileSync(localFilePath, fileBuffer);
 
+          // Intentar marcar público en el bucket
           try {
             await file.makePublic();
-            const publicUrl = `https://storage.googleapis.com/${STORAGE_BUCKET}/${storagePath}`;
-            console.info(`[MediaService] Imagen subida a Firebase Storage: ${publicUrl}`);
-
-            return {
-              url: publicUrl,
-              storage_path: storagePath,
-            };
           } catch {
-            const [signedUrl] = await file.getSignedUrl({
-              action: 'read',
-              expires: '03-09-2491',
-            });
-            return {
-              url: signedUrl,
-              storage_path: storagePath,
-            };
+            // Ignorado si el bucket usa permisos uniformes de nivel de bucket (UBLA)
           }
+
+          // URL canónica de Firebase Storage accesible en web y OpenGraph con el token permanente
+          const canonicalFirebaseUrl = `https://firebasestorage.googleapis.com/v0/b/${activeBucket}/o/${encodeURIComponent(storagePath)}?alt=media&token=${downloadToken}`;
+          console.info(`[MediaService] Imagen organizada en Firebase Storage (${storagePath}): ${canonicalFirebaseUrl}`);
+
+          return {
+            url: canonicalFirebaseUrl,
+            storage_path: storagePath,
+            folder: cleanFolder,
+            bucket: activeBucket,
+            is_cloud: true,
+          };
         }
       } catch (err: unknown) {
         const errMsg = (err as Error)?.message || 'Cloud Storage no disponible';
-        console.info(`[MediaService] Guardando en servidor local (${errMsg}).`);
+        console.warn(`[MediaService] Error en Firebase Storage (${errMsg}). Usando almacenamiento local organizado.`);
       }
     }
 
-    // 2. Almacenamiento local seguro en el servidor (/uploads)
-    const localPath = path.join(PUBLIC_UPLOADS_DIR, fileName);
-    fs.writeFileSync(localPath, fileBuffer);
-    const localUrl = `/uploads/${fileName}`;
+    // 2. Almacenamiento local seguro en el servidor (/uploads/carpeta/...)
+    const localFilePath = path.join(PUBLIC_UPLOADS_DIR, storagePath);
+    fs.writeFileSync(localFilePath, fileBuffer);
+    const localUrl = `/uploads/${storagePath}`;
+
+    console.info(`[MediaService] Imagen almacenada localmente: ${localUrl}`);
 
     return {
       url: localUrl,
-      storage_path: `local/${fileName}`,
+      storage_path: storagePath,
+      folder: cleanFolder,
+      is_cloud: false,
     };
   }
 
   /**
    * Descarga una imagen desde cualquier URL remota (de portales de noticias o anunciantes),
-   * y la guarda de forma permanente en el almacenamiento (Firebase Storage / uploads del servidor).
-   * Así, la imagen nunca más dependerá de si el portal original la borra, cambia o restringe.
+   * y la guarda de forma organizada y permanente en Firebase Storage (o local como fallback).
    */
-  async fetchAndSaveRemoteImage(remoteUrl: string): Promise<RemoteFetchResult> {
+  async fetchAndSaveRemoteImage(
+    remoteUrl: string,
+    folder: string = 'noticias',
+    subContext?: string
+  ): Promise<RemoteFetchResult> {
     if (!remoteUrl || (!remoteUrl.startsWith('http://') && !remoteUrl.startsWith('https://'))) {
       throw new Error('La URL remota debe comenzar con http:// o https://');
     }
@@ -141,7 +231,7 @@ export class MediaService {
       originalName += ext;
     }
 
-    const uploadResult = await this.uploadImage(buffer, originalName, contentType);
+    const uploadResult = await this.uploadImage(buffer, originalName, contentType, folder, subContext);
 
     return {
       ...uploadResult,

@@ -436,14 +436,16 @@ export const BrandingView: React.FC<BrandingViewProps> = ({ branding, onUpdateBr
                 label="Isologotipo Principal del Medio"
                 value={logoUrl || ''}
                 onChange={(url) => setLogoUrl(url)}
-                helperText="Formato sugerido: PNG transparente o SVG de alta resolución."
+                folder="branding"
+                helperText="Formato sugerido: PNG transparente o SVG de alta resolución (almacenado en branding/)."
               />
 
               <DualImageSelector
                 label="Favicon / Icono de Navegador"
                 value={faviconUrl || ''}
                 onChange={(url) => setFaviconUrl(url)}
-                helperText="Formato sugerido: Cuadrado 1:1 (PNG o ICO)."
+                folder="branding"
+                helperText="Formato sugerido: Cuadrado 1:1 (PNG o ICO almacenado en branding/)."
               />
             </div>
 

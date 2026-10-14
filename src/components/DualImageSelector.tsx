@@ -19,6 +19,8 @@ interface DualImageSelectorProps {
   onChange: (url: string) => void;
   helperText?: string;
   className?: string;
+  folder?: string;
+  subContext?: string;
 }
 
 /**
@@ -113,6 +115,8 @@ export const DualImageSelector: React.FC<DualImageSelectorProps> = ({
   onChange,
   helperText = 'Sube un archivo o ingresa una URL web. Las imágenes son accesibles y resilientes globalmente.',
   className = '',
+  folder = 'noticias',
+  subContext,
 }) => {
   const safeValue = typeof value === 'string' ? value : '';
   const inputId = useId();
@@ -167,6 +171,12 @@ export const DualImageSelector: React.FC<DualImageSelectorProps> = ({
         const formData = new FormData();
         formData.append('archivo_imagen', fileToUpload, file.name);
         formData.append('file', fileToUpload, file.name);
+        if (folder) {
+          formData.append('folder', folder);
+        }
+        if (subContext) {
+          formData.append('subContext', subContext);
+        }
 
         const response = await fetch('/api/media/upload', {
           method: 'POST',
@@ -201,6 +211,8 @@ export const DualImageSelector: React.FC<DualImageSelectorProps> = ({
               base64: base64Data,
               nombre: file.name,
               mimeType: file.type || 'image/jpeg',
+              folder,
+              subContext,
             }),
           });
 
@@ -257,7 +269,7 @@ export const DualImageSelector: React.FC<DualImageSelectorProps> = ({
       const res = await fetch('/api/media/fetch-remote', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ url: safeValue }),
+        body: JSON.stringify({ url: safeValue, folder, subContext }),
       });
       const data = await res.json();
       if (!res.ok) {
@@ -509,12 +521,13 @@ export const DualImageSelector: React.FC<DualImageSelectorProps> = ({
                 </span>
                 {safeValue.startsWith('/uploads/') && (
                   <span className="text-[10px] bg-emerald-100 text-emerald-800 px-1.5 py-0.5 rounded font-semibold">
-                    Alojada local/servidor
+                    Almacenamiento Local {folder ? `• /${folder}` : ''}
                   </span>
                 )}
-                {safeValue.startsWith('https://storage.googleapis.com') && (
-                  <span className="text-[10px] bg-blue-100 text-blue-800 px-1.5 py-0.5 rounded font-semibold">
-                    Cloud Storage
+                {(safeValue.includes('firebasestorage.googleapis.com') || safeValue.startsWith('https://storage.googleapis.com')) && (
+                  <span className="text-[10px] bg-blue-100 text-blue-800 px-1.5 py-0.5 rounded font-semibold inline-flex items-center gap-1">
+                    <span className="w-1.5 h-1.5 rounded-full bg-blue-600"></span>
+                    Firebase Storage {folder ? `• ${folder}` : ''}
                   </span>
                 )}
               </div>

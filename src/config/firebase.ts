@@ -9,7 +9,8 @@ let dbInstance: Firestore | null = null;
 let storageInstance: Storage | null = null;
 
 const PROJECT_ID = process.env.FIREBASE_PROJECT_ID || 'bariloche-semanal';
-const STORAGE_BUCKET = process.env.FIREBASE_STORAGE_BUCKET || `${PROJECT_ID}.appspot.com`;
+let activeStorageBucket = process.env.FIREBASE_STORAGE_BUCKET || 'bariloche-semanal.firebasestorage.app';
+const STORAGE_BUCKET = activeStorageBucket;
 
 let hasValidServiceAccount = false;
 let isFirestoreRemoteAvailable = false;
@@ -127,7 +128,7 @@ export function getDb(): Firestore | null {
 }
 
 export async function checkStorageAvailability(): Promise<boolean> {
-  if (isStorageChecked) {
+  if (isStorageChecked && isStorageRemoteAvailable !== null) {
     return isStorageRemoteAvailable === true;
   }
 
@@ -149,23 +150,64 @@ export async function checkStorageAvailability(): Promise<boolean> {
       storageInstance = getStorage(adminApp);
     }
 
-    const bucket = storageInstance.bucket(STORAGE_BUCKET);
-    const [exists] = await bucket.exists();
-    if (exists) {
-      isStorageRemoteAvailable = true;
-      console.info(`[Firebase Storage] Bucket '${STORAGE_BUCKET}' verificado y disponible.`);
-    } else {
-      isStorageRemoteAvailable = false;
-      console.info(`[Firebase Storage] Bucket '${STORAGE_BUCKET}' no existe en Firebase. Operando en almacenamiento local seguro (/uploads).`);
+    // Probar candidatos de bucket en orden de preferencia
+    const candidateBuckets = [
+      process.env.FIREBASE_STORAGE_BUCKET,
+      'bariloche-semanal.firebasestorage.app',
+      `${PROJECT_ID}.firebasestorage.app`,
+      `${PROJECT_ID}.appspot.com`,
+    ].filter(Boolean) as string[];
+
+    const uniqueCandidates = Array.from(new Set(candidateBuckets));
+    let foundBucket = false;
+
+    for (const candidate of uniqueCandidates) {
+      try {
+        const bucket = storageInstance.bucket(candidate);
+        const [exists] = await bucket.exists();
+        if (exists) {
+          activeStorageBucket = candidate;
+          isStorageRemoteAvailable = true;
+          foundBucket = true;
+          console.info(`[Firebase Storage] Bucket '${candidate}' verificado y disponible.`);
+          break;
+        }
+      } catch (err: unknown) {
+        const msg = (err as Error)?.message || '';
+        // Si el bucket existe pero falta permiso exists (común en service accounts con solo Storage Object Admin)
+        if (msg.includes('storage.buckets.get') || msg.includes('Permission denied')) {
+          activeStorageBucket = candidate;
+          isStorageRemoteAvailable = true;
+          foundBucket = true;
+          console.info(`[Firebase Storage] Bucket '${candidate}' seleccionado con credenciales de cuenta de servicio.`);
+          break;
+        }
+      }
+    }
+
+    if (!foundBucket) {
+      // Si la Service Account es válida y se habilitó explícitamente Storage en la consola de Firebase
+      if (hasValidServiceAccount) {
+        activeStorageBucket = process.env.FIREBASE_STORAGE_BUCKET || 'bariloche-semanal.firebasestorage.app';
+        isStorageRemoteAvailable = true;
+        console.info(`[Firebase Storage] Cuenta de servicio activa; operando con bucket configurado '${activeStorageBucket}'.`);
+      } else {
+        isStorageRemoteAvailable = false;
+        console.info(`[Firebase Storage] Firebase Storage no disponible. Operando en almacenamiento local seguro (/uploads).`);
+      }
     }
   } catch (err: unknown) {
     isStorageRemoteAvailable = false;
     const msg = (err as Error)?.message || 'No disponible';
-    console.info(`[Firebase Storage] Firebase Storage no activo en el proyecto (${msg}). Operando en almacenamiento local (/uploads).`);
+    console.info(`[Firebase Storage] Fallback a almacenamiento local (/uploads): ${msg}`);
   }
 
   isStorageChecked = true;
   return isStorageRemoteAvailable === true;
+}
+
+export function getActiveStorageBucket(): string {
+  return activeStorageBucket;
 }
 
 export function getFirebaseStorage(): Storage | null {
@@ -204,7 +246,7 @@ export function getDatabaseStatus() {
   return {
     mode: isFirestoreRemoteAvailable ? 'cloud_firestore' : 'local_persistence',
     projectId: PROJECT_ID,
-    storageBucket: STORAGE_BUCKET,
+    storageBucket: activeStorageBucket,
     storageAvailable: isStorageRemoteAvailable === true,
     hasValidServiceAccount,
     detectedEmail: detectedServiceAccountEmail,

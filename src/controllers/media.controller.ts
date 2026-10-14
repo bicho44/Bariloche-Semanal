@@ -60,7 +60,10 @@ export async function uploadMedia(req: Request, res: Response): Promise<void> {
       return;
     }
 
-    const result = await mediaService.uploadImage(fileBuffer, originalName, mimeType);
+    const folder = (req.body?.folder || req.query?.folder || 'noticias') as string;
+    const subContext = (req.body?.subContext || req.query?.subContext) as string | undefined;
+
+    const result = await mediaService.uploadImage(fileBuffer, originalName, mimeType, folder, subContext);
 
     // Adjuntar versión pública absoluta para clientes externos/newsletters
     const publicUrl = resolvePublicUrl(result.url, req.get('host'));
@@ -121,7 +124,7 @@ export async function proxyMedia(req: Request, res: Response): Promise<void> {
  * Body: { url: "https://..." }
  */
 export async function fetchRemoteMedia(req: Request, res: Response): Promise<void> {
-  const { url } = req.body || {};
+  const { url, folder, subContext } = req.body || {};
 
   if (!url || typeof url !== 'string') {
     res.status(400).json({ error: 'Campo "url" es requerido en el cuerpo JSON' });
@@ -129,7 +132,11 @@ export async function fetchRemoteMedia(req: Request, res: Response): Promise<voi
   }
 
   try {
-    const result = await mediaService.fetchAndSaveRemoteImage(url.trim());
+    const result = await mediaService.fetchAndSaveRemoteImage(
+      url.trim(),
+      folder || 'noticias',
+      subContext
+    );
     const publicUrl = resolvePublicUrl(result.url, req.get('host'));
 
     res.status(201).json({

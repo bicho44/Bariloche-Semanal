@@ -427,7 +427,8 @@ export const EventoModal: React.FC<EventoModalProps> = ({
               label="Flyer o Afiche del Evento (Selector Dual Obligatorio)"
               value={imagenUrl}
               onChange={(url) => setImagenUrl(url)}
-              helperText="Sube el archivo del afiche directo a Firebase Storage / servidor o ingresa una URL web con previsualización."
+              folder="agenda"
+              helperText="Sube el archivo del afiche directo a Firebase Storage (agenda/YYYY/MM) o ingresa una URL web con previsualización."
             />
           </div>
         </form>

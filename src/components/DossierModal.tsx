@@ -572,7 +572,9 @@ export const DossierModal: React.FC<DossierModalProps> = ({
               label="Arte de Portada del Dossier (Flyer o Ilustración Editorial)"
               value={imagenUrl}
               onChange={(url) => setImagenUrl(url)}
-              helperText="Sube el archivo a Storage/servidor o ingresa una URL web con previsualización en vivo."
+              folder="dossiers"
+              subContext={dossierAEditar?.slug || 'general'}
+              helperText="Sube el archivo a Firebase Storage (dossiers/{slug}) o ingresa una URL web con previsualización en vivo."
             />
 
             {/* Crédito */}

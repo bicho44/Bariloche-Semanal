@@ -214,7 +214,8 @@ export const AnuncianteModal: React.FC<AnuncianteModalProps> = ({
             label="Banner Publicitario (Selector Dual Obligatorio)"
             value={bannerUrl || ''}
             onChange={(url) => setBannerUrl(url)}
-            helperText="Formato recomendado: Banner horizontal (600x120px o 300x250px). Sube el archivo directo o pega su URL."
+            folder="anunciantes"
+            helperText="Formato recomendado: Banner horizontal (600x120px o 300x250px). Sube el archivo a Firebase Storage (anunciantes/YYYY) o pega su URL."
           />
 
           <div className="flex items-center justify-between p-3 bg-slate-50 border border-slate-200 rounded-xl">
