@@ -213,6 +213,16 @@ export interface DatosClima {
   pronostico_diario?: PronosticoDia[];
 }
 
+export interface ConfiguracionOptimizacionImagenes {
+  auto_convertir_webp: boolean;
+  calidad_compresion: number; // 1 a 100 (Recomendado 80)
+  preservar_canal_alfa: boolean;
+  color_fondo_alfa?: string; // Hexadecimal cuando preservar_canal_alfa es falso (ej. #ffffff)
+  formato_recorte_predeterminado?: '16:9' | '4:3' | '1:1' | 'libre';
+  max_ancho?: number; // ej. 1920 px
+  max_alto?: number; // ej. 1080 px
+}
+
 export interface ConfiguracionBranding {
   id?: string;
   nombre_medio: string;
@@ -234,6 +244,7 @@ export interface ConfiguracionBranding {
     sitio_web?: string;
   };
   clima?: ConfiguracionClima;
+  optimizacion_imagenes?: ConfiguracionOptimizacionImagenes;
   updated_at?: string;
 }
 

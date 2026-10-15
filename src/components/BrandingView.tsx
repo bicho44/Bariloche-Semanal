@@ -13,6 +13,10 @@ import {
   CloudSun,
   MapPin,
   Search,
+  Sliders,
+  Settings,
+  Database,
+  ShieldCheck,
 } from 'lucide-react';
 import { ConfiguracionBranding, ConfiguracionClima } from '../types/index.js';
 import { DualImageSelector } from './DualImageSelector.js';
@@ -63,6 +67,15 @@ export const BrandingView: React.FC<BrandingViewProps> = ({ branding, onUpdateBr
   const [instagram, setInstagram] = useState('@barilochesemanal');
   const [sitioWeb, setSitioWeb] = useState('https://barilochesemanal.com.ar');
 
+  // Optimización Fotográfica & Conversión WebP (Sharp)
+  const [autoConvertirWebp, setAutoConvertirWebp] = useState<boolean>(true);
+  const [calidadCompresion, setCalidadCompresion] = useState<number>(80);
+  const [preservarCanalAlfa, setPreservarCanalAlfa] = useState<boolean>(true);
+  const [colorFondoAlfa, setColorFondoAlfa] = useState<string>('#ffffff');
+  const [formatoRecortePredeterminado, setFormatoRecortePredeterminado] = useState<'16:9' | '4:3' | '1:1' | 'libre'>('16:9');
+  const [maxAncho, setMaxAncho] = useState<number>(1920);
+  const [maxAlto, setMaxAlto] = useState<number>(1080);
+
   const [saving, setSaving] = useState(false);
   const [savedSuccess, setSavedSuccess] = useState(false);
   const [error, setError] = useState<string | null>(null);
@@ -90,6 +103,17 @@ export const BrandingView: React.FC<BrandingViewProps> = ({ branding, onUpdateBr
         setLatitudClima(typeof branding.clima.latitud === 'number' ? branding.clima.latitud : -41.1335);
         setLongitudClima(typeof branding.clima.longitud === 'number' ? branding.clima.longitud : -71.3103);
         setClimaActivo(branding.clima.activo !== false);
+      }
+
+      // Cargar configuración de optimización de imágenes WebP
+      if (branding.optimizacion_imagenes) {
+        setAutoConvertirWebp(branding.optimizacion_imagenes.auto_convertir_webp !== false);
+        setCalidadCompresion(branding.optimizacion_imagenes.calidad_compresion ?? 80);
+        setPreservarCanalAlfa(branding.optimizacion_imagenes.preservar_canal_alfa !== false);
+        setColorFondoAlfa(branding.optimizacion_imagenes.color_fondo_alfa || '#ffffff');
+        setFormatoRecortePredeterminado(branding.optimizacion_imagenes.formato_recorte_predeterminado || '16:9');
+        setMaxAncho(branding.optimizacion_imagenes.max_ancho || 1920);
+        setMaxAlto(branding.optimizacion_imagenes.max_alto || 1080);
       }
     }
   }, [branding]);
@@ -164,6 +188,15 @@ export const BrandingView: React.FC<BrandingViewProps> = ({ branding, onUpdateBr
         longitud: Number(longitudClima),
         activo: climaActivo,
       },
+      optimizacion_imagenes: {
+        auto_convertir_webp: autoConvertirWebp,
+        calidad_compresion: Number(calidadCompresion),
+        preservar_canal_alfa: preservarCanalAlfa,
+        color_fondo_alfa: colorFondoAlfa,
+        formato_recorte_predeterminado: formatoRecortePredeterminado,
+        max_ancho: Number(maxAncho),
+        max_alto: Number(maxAlto),
+      },
     };
 
     try {
@@ -194,11 +227,14 @@ export const BrandingView: React.FC<BrandingViewProps> = ({ branding, onUpdateBr
     <div className="space-y-6">
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
         <div>
-          <h1 className="text-xl font-bold text-slate-900 tracking-tight">
-            Identidad Visual, Ciudad & Branding
-          </h1>
-          <p className="text-xs text-slate-500">
-            Personalización institucional del observatorio, ubicación meteorológica y newsletters en <code className="text-blue-700 font-mono">configuracion/branding</code>
+          <div className="flex items-center gap-2">
+            <Settings className="w-5 h-5 text-blue-900" />
+            <h1 className="text-xl font-bold text-slate-900 tracking-tight">
+              Settings & Preferencias del Sistema
+            </h1>
+          </div>
+          <p className="text-xs text-slate-500 mt-0.5">
+            Configuración general del observatorio, ubicación meteorológica, motor fotográfico WebP y parámetros en <code className="text-blue-700 font-mono">configuracion/branding</code>
           </p>
         </div>
         {savedSuccess && (
@@ -449,7 +485,215 @@ export const BrandingView: React.FC<BrandingViewProps> = ({ branding, onUpdateBr
               />
             </div>
 
-            {/* 4. Paleta de Colores HEX */}
+            {/* 4. OPTIMIZACIÓN FOTOGRÁFICA & CONVERSIÓN WEBP (MOTOR SHARP) */}
+            <div className="p-5 bg-white rounded-xl border border-slate-200 shadow-xs space-y-5">
+              <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-100 pb-3">
+                <h2 className="text-sm font-bold text-slate-800 flex items-center gap-2">
+                  <Sliders className="w-4 h-4 text-purple-700" />
+                  <span>Optimización Fotográfica & Conversión WebP (Sharp)</span>
+                </h2>
+                <span className="text-[10px] bg-purple-50 text-purple-700 border border-purple-200 px-2 py-0.5 rounded font-bold uppercase tracking-wider">
+                  Motor de Rendimiento
+                </span>
+              </div>
+
+              <p className="text-xs text-slate-500">
+                Regula el procesamiento fotográfico automático del servidor. Todas las imágenes subidas o importadas desde enlaces externos se optimizan a formato WebP reduciendo drásticamente el peso y tiempo de carga sin pérdida de nitidez.
+              </p>
+
+              {/* Toggle de Conversión Automática a WebP */}
+              <div className="flex items-start sm:items-center justify-between gap-4 p-3 bg-slate-50 rounded-xl border border-slate-200">
+                <div>
+                  <label className="text-xs font-bold text-slate-800 block cursor-pointer">
+                    Conversión Automática a WebP
+                  </label>
+                  <p className="text-[11px] text-slate-500">
+                    Convierte automáticamente imágenes JPEG, PNG y fotos externas al formato WebP al subir.
+                  </p>
+                </div>
+                <label className="relative inline-flex items-center cursor-pointer shrink-0">
+                  <input
+                    type="checkbox"
+                    checked={autoConvertirWebp}
+                    onChange={(e) => setAutoConvertirWebp(e.target.checked)}
+                    className="sr-only peer"
+                  />
+                  <div className="w-11 h-6 bg-slate-300 peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-slate-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-blue-900"></div>
+                </label>
+              </div>
+
+              {/* Slider de Calidad de Compresión */}
+              <div className="space-y-2 p-3 bg-slate-50 rounded-xl border border-slate-200">
+                <div className="flex items-center justify-between">
+                  <label className="text-xs font-bold text-slate-800 flex items-center gap-1.5">
+                    <span>Nivel de Calidad de Compresión WebP</span>
+                    <span className="text-[10px] text-slate-400 font-normal">(10 a 100)</span>
+                  </label>
+                  <span className="text-xs font-mono font-bold bg-white px-2.5 py-0.5 rounded border border-slate-300 text-blue-900">
+                    {calidadCompresion}%
+                  </span>
+                </div>
+                <input
+                  type="range"
+                  min="30"
+                  max="100"
+                  step="5"
+                  value={calidadCompresion}
+                  onChange={(e) => setCalidadCompresion(Number(e.target.value))}
+                  className="w-full h-2 bg-slate-200 rounded-lg appearance-none cursor-pointer accent-blue-900"
+                />
+                <div className="flex justify-between text-[10px] text-slate-500 font-medium">
+                  <span>30% (Ultra ligera)</span>
+                  <span className="text-blue-800 font-bold">80% (Equilibrio periodístico ideal)</span>
+                  <span>100% (Máxima fidelidad)</span>
+                </div>
+              </div>
+
+              {/* Manejo de Transparencia (Canal Alfa) */}
+              <div className="space-y-3 p-3 bg-slate-50 rounded-xl border border-slate-200">
+                <div className="flex items-start sm:items-center justify-between gap-4">
+                  <div>
+                    <label className="text-xs font-bold text-slate-800 block cursor-pointer">
+                      Preservar Canal Alfa (Transparencia)
+                    </label>
+                    <p className="text-[11px] text-slate-500">
+                      Mantiene el fondo transparente en PNGs e infografías convertidas a WebP. Si se desactiva, se reemplaza por un fondo sólido.
+                    </p>
+                  </div>
+                  <label className="relative inline-flex items-center cursor-pointer shrink-0">
+                    <input
+                      type="checkbox"
+                      checked={preservarCanalAlfa}
+                      onChange={(e) => setPreservarCanalAlfa(e.target.checked)}
+                      className="sr-only peer"
+                    />
+                    <div className="w-11 h-6 bg-slate-300 peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-slate-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-blue-900"></div>
+                  </label>
+                </div>
+
+                {/* Si no preserva canal alfa, seleccionar color de fondo sólido */}
+                {!preservarCanalAlfa && (
+                  <div className="pt-2 border-t border-slate-200 space-y-2 animate-in fade-in duration-150">
+                    <label className="block text-xs font-semibold text-slate-700">
+                      Color de fondo sólido para rellenar transparencias:
+                    </label>
+                    <div className="flex items-center gap-3">
+                      <div className="flex items-center gap-2">
+                        <input
+                          type="color"
+                          value={colorFondoAlfa}
+                          onChange={(e) => setColorFondoAlfa(e.target.value)}
+                          className="w-8 h-8 rounded-lg border border-slate-300 cursor-pointer p-0.5"
+                        />
+                        <input
+                          type="text"
+                          value={colorFondoAlfa}
+                          onChange={(e) => setColorFondoAlfa(e.target.value)}
+                          className="w-24 px-2 py-1 text-xs font-mono border border-slate-300 rounded uppercase"
+                        />
+                      </div>
+                      <div className="flex items-center gap-1.5">
+                        <span className="text-[11px] text-slate-500">Paleta sugerida:</span>
+                        {[
+                          { label: 'Blanco', hex: '#ffffff' },
+                          { label: 'Gris', hex: '#f8fafc' },
+                          { label: 'Oscuro', hex: '#0f172a' },
+                          { label: 'Azul', hex: colorPrimario || '#1e3a8a' },
+                        ].map((p) => (
+                          <button
+                            key={p.hex}
+                            type="button"
+                            onClick={() => setColorFondoAlfa(p.hex)}
+                            className="px-2 py-0.5 text-[10px] font-semibold border rounded-md cursor-pointer hover:bg-slate-100"
+                            style={{ borderColor: p.hex }}
+                          >
+                            {p.label}
+                          </button>
+                        ))}
+                      </div>
+                    </div>
+                  </div>
+                )}
+              </div>
+
+              {/* Formato de Recorte Predeterminado */}
+              <div className="space-y-2 p-3 bg-slate-50 rounded-xl border border-slate-200">
+                <label className="block text-xs font-bold text-slate-800">
+                  Proporción de Recorte Predeterminada en Editor
+                </label>
+                <div className="grid grid-cols-2 sm:grid-cols-4 gap-2">
+                  {[
+                    { value: '16:9', label: '16:9 Panorámica', desc: 'Noticias & Portadas' },
+                    { value: '4:3', label: '4:3 Estándar', desc: 'Fotoperiodismo' },
+                    { value: '1:1', label: '1:1 Cuadrado', desc: 'Logos & Redes' },
+                    { value: 'libre', label: 'Libre', desc: 'Sin restricción' },
+                  ].map((ratio) => (
+                    <button
+                      key={ratio.value}
+                      type="button"
+                      onClick={() => setFormatoRecortePredeterminado(ratio.value as any)}
+                      className={`p-2.5 rounded-lg border text-left cursor-pointer transition-all ${
+                        formatoRecortePredeterminado === ratio.value
+                          ? 'bg-blue-900 text-white border-blue-900 shadow-xs'
+                          : 'bg-white hover:bg-slate-100 text-slate-700 border-slate-300'
+                      }`}
+                    >
+                      <div className="text-xs font-bold">{ratio.label}</div>
+                      <div className={`text-[10px] ${formatoRecortePredeterminado === ratio.value ? 'text-blue-100' : 'text-slate-500'}`}>
+                        {ratio.desc}
+                      </div>
+                    </button>
+                  ))}
+                </div>
+              </div>
+
+              {/* Límites de Resolución Máxima */}
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 p-3 bg-slate-50 rounded-xl border border-slate-200">
+                <div>
+                  <label className="block text-xs font-bold text-slate-800 mb-1">
+                    Ancho Máximo (px)
+                  </label>
+                  <input
+                    type="number"
+                    min="640"
+                    max="3840"
+                    step="80"
+                    value={maxAncho}
+                    onChange={(e) => setMaxAncho(Number(e.target.value))}
+                    className="w-full px-3 py-1.5 text-xs font-mono border border-slate-300 rounded-lg bg-white"
+                  />
+                  <span className="text-[10px] text-slate-500">Recomendado: 1920 px (Full HD)</span>
+                </div>
+                <div>
+                  <label className="block text-xs font-bold text-slate-800 mb-1">
+                    Alto Máximo (px)
+                  </label>
+                  <input
+                    type="number"
+                    min="480"
+                    max="2160"
+                    step="60"
+                    value={maxAlto}
+                    onChange={(e) => setMaxAlto(Number(e.target.value))}
+                    className="w-full px-3 py-1.5 text-xs font-mono border border-slate-300 rounded-lg bg-white"
+                  />
+                  <span className="text-[10px] text-slate-500">Recomendado: 1080 px (Full HD)</span>
+                </div>
+              </div>
+
+              {/* Ficha Informativa de Beneficios WebP */}
+              <div className="p-3 bg-gradient-to-r from-blue-50 to-indigo-50 border border-blue-200 rounded-xl flex items-start gap-3">
+                <Sparkles className="w-4 h-4 text-blue-700 shrink-0 mt-0.5" />
+                <div className="text-xs text-blue-900 space-y-1">
+                  <div className="font-bold">Ventajas de WebP en Bariloche Semanal:</div>
+                  <p className="text-[11px] text-blue-800 leading-relaxed">
+                    Las fotos en WebP ocupan entre <strong>30% y 50% menos peso</strong> que un JPEG tradicional sin pérdida visual. Esto garantiza carga instantánea para lectores con conectividad móvil 4G/5G en Bariloche y la zona cordillerana.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* 5. Paleta de Colores HEX */}
             <div className="p-5 bg-white rounded-xl border border-slate-200 shadow-xs space-y-4">
               <h2 className="text-sm font-bold text-slate-800 flex items-center gap-2">
                 <Sparkles className="w-4 h-4 text-amber-600" />
@@ -681,10 +925,43 @@ export const BrandingView: React.FC<BrandingViewProps> = ({ branding, onUpdateBr
                 ) : (
                   <>
                     <Save className="w-4 h-4" />
-                    <span>Guardar Cambios de Identidad & Ciudad</span>
+                    <span>Guardar Settings & Preferencias</span>
                   </>
                 )}
               </button>
+
+              {/* Tarjeta de Infraestructura & Backend */}
+              <div className="p-4 rounded-xl bg-slate-50 border border-slate-200 text-xs space-y-2.5">
+                <div className="flex items-center justify-between text-slate-800 font-bold border-b border-slate-200 pb-2">
+                  <span className="flex items-center gap-1.5">
+                    <Database className="w-3.5 h-3.5 text-blue-900" />
+                    <span>Infraestructura & Persistencia</span>
+                  </span>
+                  <span className="text-[10px] bg-emerald-100 text-emerald-800 px-1.5 py-0.5 rounded font-semibold inline-flex items-center gap-1">
+                    <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
+                    En línea
+                  </span>
+                </div>
+
+                <div className="space-y-1.5 text-[11px] text-slate-600">
+                  <div className="flex items-center justify-between">
+                    <span>Base de Datos:</span>
+                    <span className="font-mono font-semibold text-slate-800">bariloche-semanal</span>
+                  </div>
+                  <div className="flex items-center justify-between">
+                    <span>Almacenamiento:</span>
+                    <span className="font-semibold text-slate-800">Firebase Storage + /uploads</span>
+                  </div>
+                  <div className="flex items-center justify-between">
+                    <span>Motor Fotográfico:</span>
+                    <span className="font-semibold text-purple-800">Sharp (WebP / Alpha)</span>
+                  </div>
+                  <div className="flex items-center justify-between">
+                    <span>Conexión:</span>
+                    <span className="text-emerald-700 font-semibold">Admin SDK Inicializado</span>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>

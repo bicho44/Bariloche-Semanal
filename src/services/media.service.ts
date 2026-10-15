@@ -1,7 +1,10 @@
 import fs from 'fs';
 import path from 'path';
 import crypto from 'crypto';
+import sharp, { type WebpOptions } from 'sharp';
 import { getFirebaseStorage, checkStorageAvailability, getActiveStorageBucket } from '../config/firebase.js';
+import { brandingService } from './branding.service.js';
+import { ConfiguracionOptimizacionImagenes } from '../types/index.js';
 
 export interface UploadResult {
   url: string;
@@ -9,10 +12,36 @@ export interface UploadResult {
   folder?: string;
   bucket?: string;
   is_cloud?: boolean;
+  formato_original?: string;
+  formato_final?: string;
+  peso_original_bytes?: number;
+  peso_final_bytes?: number;
+  ahorro_porcentaje?: number;
+  dimensiones?: { width?: number; height?: number };
+  canal_alfa?: boolean;
 }
 
 export interface RemoteFetchResult extends UploadResult {
   original_url: string;
+}
+
+export interface OptimizeOptions extends Partial<ConfiguracionOptimizacionImagenes> {
+  nombre_personalizado?: string;
+}
+
+export interface ProcessedImageResult {
+  buffer: Buffer;
+  mimeType: string;
+  extension: string;
+  originalFormat: string;
+  finalFormat: string;
+  originalSizeBytes: number;
+  finalSizeBytes: number;
+  ahorroPorcentaje: number;
+  width?: number;
+  height?: number;
+  hasAlpha: boolean;
+  convertedToWebp: boolean;
 }
 
 const PUBLIC_UPLOADS_DIR = path.join(process.cwd(), 'public', 'uploads');
@@ -48,12 +77,15 @@ export function buildOrganizedStoragePath(
   const timestamp = Date.now();
 
   const rawExt = path.extname(originalName).toLowerCase();
-  const ext = rawExt || (
-    mimeType.includes('png') ? '.png' :
-    mimeType.includes('webp') ? '.webp' :
-    mimeType.includes('gif') ? '.gif' :
-    mimeType.includes('svg') ? '.svg' : '.jpg'
-  );
+  let ext = rawExt;
+
+  if (mimeType.includes('webp')) {
+    ext = '.webp';
+  } else if (!ext) {
+    ext = mimeType.includes('png') ? '.png' :
+      mimeType.includes('gif') ? '.gif' :
+      mimeType.includes('svg') ? '.svg' : '.jpg';
+  }
 
   const baseName = path.basename(originalName, rawExt)
     .toLowerCase()
@@ -105,16 +137,189 @@ export function resolvePublicUrl(urlPath: string, hostHeader?: string): string {
 }
 
 export class MediaService {
+  /**
+   * Procesa, optimiza y convierte la imagen a formato WebP utilizando Sharp.
+   * Respeta o remueve el canal alfa (transparencia) y ajusta la compresión
+   * basándose en la configuración de Branding e Identidad o parámetros personalizados.
+   */
+  async processAndOptimizeImage(
+    inputBuffer: Buffer,
+    originalMime: string,
+    customOptions?: OptimizeOptions
+  ): Promise<ProcessedImageResult> {
+    const originalSizeBytes = inputBuffer.length;
+
+    // SVG: Nunca convertir con sharp (es formato vectorial que se preserva idéntico)
+    if (originalMime.includes('svg') || inputBuffer.toString('utf-8', 0, 100).includes('<svg')) {
+      return {
+        buffer: inputBuffer,
+        mimeType: 'image/svg+xml',
+        extension: '.svg',
+        originalFormat: 'svg',
+        finalFormat: 'svg',
+        originalSizeBytes,
+        finalSizeBytes: originalSizeBytes,
+        ahorroPorcentaje: 0,
+        hasAlpha: true,
+        convertedToWebp: false,
+      };
+    }
+
+    // Obtener configuración de branding guardada en Firestore
+    let brandingConfig: ConfiguracionOptimizacionImagenes | undefined;
+    try {
+      const branding = await brandingService.obtener();
+      brandingConfig = branding.optimizacion_imagenes;
+    } catch (e) {
+      console.warn('[MediaService] No se pudo leer configuración de branding, usando valores por defecto:', (e as Error)?.message);
+    }
+
+    const autoConvert = customOptions?.auto_convertir_webp ?? brandingConfig?.auto_convertir_webp ?? true;
+    const quality = customOptions?.calidad_compresion ?? brandingConfig?.calidad_compresion ?? 80;
+    const preserveAlpha = customOptions?.preservar_canal_alfa ?? brandingConfig?.preservar_canal_alfa ?? true;
+    const alphaBgColor = customOptions?.color_fondo_alfa ?? brandingConfig?.color_fondo_alfa ?? '#ffffff';
+    const maxWidth = customOptions?.max_ancho ?? brandingConfig?.max_ancho ?? 1920;
+    const maxHeight = customOptions?.max_alto ?? brandingConfig?.max_alto ?? 1080;
+
+    try {
+      const imageInstance = sharp(inputBuffer);
+      const metadata = await imageInstance.metadata();
+
+      const originalFormat = metadata.format || originalMime.replace('image/', '') || 'jpeg';
+      const hasAlpha = Boolean(metadata.hasAlpha);
+      const width = metadata.width;
+      const height = metadata.height;
+
+      // Si no se desea convertir y ya es WebP
+      if (!autoConvert && originalFormat === 'webp') {
+        return {
+          buffer: inputBuffer,
+          mimeType: 'image/webp',
+          extension: '.webp',
+          originalFormat,
+          finalFormat: 'webp',
+          originalSizeBytes,
+          finalSizeBytes: originalSizeBytes,
+          ahorroPorcentaje: 0,
+          width,
+          height,
+          hasAlpha,
+          convertedToWebp: false,
+        };
+      }
+
+      // Inicializar pipeline de Sharp
+      let pipeline = sharp(inputBuffer, { animated: false });
+
+      // 1. Redimensionar si supera límites máximos manteniendo proporciones (sin upscaling)
+      if (width && height && (width > maxWidth || height > maxHeight)) {
+        pipeline = pipeline.resize({
+          width: maxWidth,
+          height: maxHeight,
+          fit: 'inside',
+          withoutEnlargement: true,
+        });
+      }
+
+      // 2. Tratamiento de canal alfa (transparencia)
+      if (hasAlpha && !preserveAlpha) {
+        // Aplanar contra el color sólido seleccionado en Branding
+        pipeline = pipeline.flatten({ background: alphaBgColor });
+      }
+
+      // 3. Conversión a WebP o compresión en formato original
+      let finalFormat = originalFormat;
+      let finalMime = originalMime;
+      let finalExt = path.extname(originalMime) || '.jpg';
+
+      if (autoConvert || originalFormat === 'webp') {
+        finalFormat = 'webp';
+        finalMime = 'image/webp';
+        finalExt = '.webp';
+
+        const webpConfig: WebpOptions = {
+          quality: Math.min(Math.max(quality, 10), 100),
+          effort: 4, // Algoritmo balanceado para velocidad y compresión óptima
+        };
+
+        if (hasAlpha && preserveAlpha) {
+          webpConfig.alphaQuality = 90;
+        }
+
+        pipeline = pipeline.webp(webpConfig);
+      } else {
+        if (originalFormat === 'jpeg' || originalFormat === 'jpg') {
+          pipeline = pipeline.jpeg({ quality, mozjpeg: true });
+        } else if (originalFormat === 'png') {
+          pipeline = pipeline.png({ compressionLevel: 8 });
+        }
+      }
+
+      const outputBuffer = await pipeline.toBuffer();
+      const finalSizeBytes = outputBuffer.length;
+      const ahorroPorcentaje = originalSizeBytes > 0
+        ? Math.max(0, Math.round(((originalSizeBytes - finalSizeBytes) / originalSizeBytes) * 100))
+        : 0;
+
+      const finalMeta = await sharp(outputBuffer).metadata();
+
+      console.info(
+        `[MediaService] Imagen optimizada: ${originalFormat} (${(originalSizeBytes / 1024).toFixed(1)} KB) -> ` +
+        `${finalFormat} (${(finalSizeBytes / 1024).toFixed(1)} KB). Ahorro: ${ahorroPorcentaje}%. ` +
+        `Dimensiones: ${finalMeta.width}x${finalMeta.height} px. Alpha: ${finalMeta.hasAlpha ? 'Preservado' : 'Sin alpha'}.`
+      );
+
+      return {
+        buffer: outputBuffer,
+        mimeType: finalMime,
+        extension: finalExt,
+        originalFormat,
+        finalFormat,
+        originalSizeBytes,
+        finalSizeBytes,
+        ahorroPorcentaje,
+        width: finalMeta.width || width,
+        height: finalMeta.height || height,
+        hasAlpha: Boolean(finalMeta.hasAlpha),
+        convertedToWebp: finalFormat === 'webp',
+      };
+    } catch (sharpError) {
+      console.warn('[MediaService] Advertencia en optimización Sharp, usando imagen original:', (sharpError as Error)?.message);
+      return {
+        buffer: inputBuffer,
+        mimeType: originalMime,
+        extension: path.extname(originalMime) || '.jpg',
+        originalFormat: 'unknown',
+        finalFormat: 'unknown',
+        originalSizeBytes,
+        finalSizeBytes: originalSizeBytes,
+        ahorroPorcentaje: 0,
+        hasAlpha: false,
+        convertedToWebp: false,
+      };
+    }
+  }
+
   async uploadImage(
     fileBuffer: Buffer,
     originalName: string,
     mimeType: string,
     folder: string = 'noticias',
-    subContext?: string
+    subContext?: string,
+    customOptions?: OptimizeOptions
   ): Promise<UploadResult> {
-    const { storagePath, fileName, directory, cleanFolder } = buildOrganizedStoragePath(
-      originalName,
-      mimeType,
+    // 1. Optimizar y convertir automáticamente a WebP
+    const processed = await this.processAndOptimizeImage(fileBuffer, mimeType, customOptions);
+
+    let effectiveName = originalName;
+    if (processed.convertedToWebp && !effectiveName.toLowerCase().endsWith('.webp')) {
+      const rawExt = path.extname(effectiveName);
+      effectiveName = rawExt ? effectiveName.slice(0, -rawExt.length) + '.webp' : `${effectiveName}.webp`;
+    }
+
+    const { storagePath, directory, cleanFolder } = buildOrganizedStoragePath(
+      effectiveName,
+      processed.mimeType,
       folder,
       subContext
     );
@@ -122,7 +327,7 @@ export class MediaService {
     // Asegurar directorio local correspondiente
     ensureUploadsDir(directory);
 
-    // 1. Verificar si Firebase Storage está habilitado y el bucket existe
+    // 2. Verificar si Firebase Storage está habilitado y el bucket existe
     const storageActive = await checkStorageAvailability();
     const activeBucket = getActiveStorageBucket();
 
@@ -135,21 +340,24 @@ export class MediaService {
           const downloadToken = crypto.randomUUID();
 
           // Subir a Firebase Storage con metadatos de token permanente y caché optimizada
-          await file.save(fileBuffer, {
+          await file.save(processed.buffer, {
             metadata: {
-              contentType: mimeType,
+              contentType: processed.mimeType,
               cacheControl: 'public, max-age=31536000',
               metadata: {
                 firebaseStorageDownloadTokens: downloadToken,
                 uploadedBy: 'bariloche-semanal',
                 folder: cleanFolder,
+                formato_original: processed.originalFormat,
+                formato_final: processed.finalFormat,
+                ahorro_porcentaje: `${processed.ahorroPorcentaje}%`,
               },
             },
           });
 
           // Guardar copia local simultánea para redundancia y respuesta ultrarrápida
           const localFilePath = path.join(PUBLIC_UPLOADS_DIR, storagePath);
-          fs.writeFileSync(localFilePath, fileBuffer);
+          fs.writeFileSync(localFilePath, processed.buffer);
 
           // Intentar marcar público en el bucket
           try {
@@ -160,7 +368,7 @@ export class MediaService {
 
           // URL canónica de Firebase Storage accesible en web y OpenGraph con el token permanente
           const canonicalFirebaseUrl = `https://firebasestorage.googleapis.com/v0/b/${activeBucket}/o/${encodeURIComponent(storagePath)}?alt=media&token=${downloadToken}`;
-          console.info(`[MediaService] Imagen organizada en Firebase Storage (${storagePath}): ${canonicalFirebaseUrl}`);
+          console.info(`[MediaService] Imagen WebP en Firebase Storage (${storagePath}): ${canonicalFirebaseUrl}`);
 
           return {
             url: canonicalFirebaseUrl,
@@ -168,6 +376,13 @@ export class MediaService {
             folder: cleanFolder,
             bucket: activeBucket,
             is_cloud: true,
+            formato_original: processed.originalFormat,
+            formato_final: processed.finalFormat,
+            peso_original_bytes: processed.originalSizeBytes,
+            peso_final_bytes: processed.finalSizeBytes,
+            ahorro_porcentaje: processed.ahorroPorcentaje,
+            dimensiones: { width: processed.width, height: processed.height },
+            canal_alfa: processed.hasAlpha,
           };
         }
       } catch (err: unknown) {
@@ -176,29 +391,37 @@ export class MediaService {
       }
     }
 
-    // 2. Almacenamiento local seguro en el servidor (/uploads/carpeta/...)
+    // 3. Almacenamiento local seguro en el servidor (/uploads/carpeta/...)
     const localFilePath = path.join(PUBLIC_UPLOADS_DIR, storagePath);
-    fs.writeFileSync(localFilePath, fileBuffer);
+    fs.writeFileSync(localFilePath, processed.buffer);
     const localUrl = `/uploads/${storagePath}`;
 
-    console.info(`[MediaService] Imagen almacenada localmente: ${localUrl}`);
+    console.info(`[MediaService] Imagen WebP almacenada localmente: ${localUrl}`);
 
     return {
       url: localUrl,
       storage_path: storagePath,
       folder: cleanFolder,
       is_cloud: false,
+      formato_original: processed.originalFormat,
+      formato_final: processed.finalFormat,
+      peso_original_bytes: processed.originalSizeBytes,
+      peso_final_bytes: processed.finalSizeBytes,
+      ahorro_porcentaje: processed.ahorroPorcentaje,
+      dimensiones: { width: processed.width, height: processed.height },
+      canal_alfa: processed.hasAlpha,
     };
   }
 
   /**
    * Descarga una imagen desde cualquier URL remota (de portales de noticias o anunciantes),
-   * y la guarda de forma organizada y permanente en Firebase Storage (o local como fallback).
+   * la optimiza y convierte a WebP, y la guarda de forma organizada y permanente en Firebase Storage (o local como fallback).
    */
   async fetchAndSaveRemoteImage(
     remoteUrl: string,
     folder: string = 'noticias',
-    subContext?: string
+    subContext?: string,
+    customOptions?: OptimizeOptions
   ): Promise<RemoteFetchResult> {
     if (!remoteUrl || (!remoteUrl.startsWith('http://') && !remoteUrl.startsWith('https://'))) {
       throw new Error('La URL remota debe comenzar con http:// o https://');
@@ -231,7 +454,7 @@ export class MediaService {
       originalName += ext;
     }
 
-    const uploadResult = await this.uploadImage(buffer, originalName, contentType, folder, subContext);
+    const uploadResult = await this.uploadImage(buffer, originalName, contentType, folder, subContext, customOptions);
 
     return {
       ...uploadResult,

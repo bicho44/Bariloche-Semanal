@@ -35,6 +35,15 @@ export class BrandingService {
         longitud: -71.3103,
         activo: true,
       },
+      optimizacion_imagenes: {
+        auto_convertir_webp: true,
+        calidad_compresion: 80,
+        preservar_canal_alfa: true,
+        color_fondo_alfa: '#ffffff',
+        formato_recorte_predeterminado: '16:9',
+        max_ancho: 1920,
+        max_alto: 1080,
+      },
       updated_at: new Date().toISOString(),
     };
 
@@ -64,6 +73,18 @@ export class BrandingService {
           activo: true,
         }),
         ...(partial.clima || {}),
+      },
+      optimizacion_imagenes: {
+        ...(actual.optimizacion_imagenes || {
+          auto_convertir_webp: true,
+          calidad_compresion: 80,
+          preservar_canal_alfa: true,
+          color_fondo_alfa: '#ffffff',
+          formato_recorte_predeterminado: '16:9',
+          max_ancho: 1920,
+          max_alto: 1080,
+        }),
+        ...(partial.optimizacion_imagenes || {}),
       },
       updated_at: new Date().toISOString(),
     };

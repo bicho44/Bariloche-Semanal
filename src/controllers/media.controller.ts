@@ -63,7 +63,40 @@ export async function uploadMedia(req: Request, res: Response): Promise<void> {
     const folder = (req.body?.folder || req.query?.folder || 'noticias') as string;
     const subContext = (req.body?.subContext || req.query?.subContext) as string | undefined;
 
-    const result = await mediaService.uploadImage(fileBuffer, originalName, mimeType, folder, subContext);
+    // Opciones de optimización recibidas por query o body
+    const customOptions: any = {};
+    if (req.body?.calidad_compresion !== undefined || req.query?.calidad_compresion !== undefined) {
+      customOptions.calidad_compresion = Number(req.body?.calidad_compresion || req.query?.calidad_compresion);
+    } else if (req.body?.calidad !== undefined || req.query?.calidad !== undefined) {
+      customOptions.calidad_compresion = Number(req.body?.calidad || req.query?.calidad);
+    }
+
+    if (req.body?.auto_convertir_webp !== undefined || req.query?.auto_convertir_webp !== undefined) {
+      const val = req.body?.auto_convertir_webp ?? req.query?.auto_convertir_webp;
+      customOptions.auto_convertir_webp = val === true || val === 'true' || val === 1 || val === '1';
+    }
+
+    if (req.body?.preservar_canal_alfa !== undefined || req.query?.preservar_canal_alfa !== undefined) {
+      const val = req.body?.preservar_canal_alfa ?? req.query?.preservar_canal_alfa;
+      customOptions.preservar_canal_alfa = val === true || val === 'true' || val === 1 || val === '1';
+    } else if (req.body?.preservar_alfa !== undefined || req.query?.preservar_alfa !== undefined) {
+      const val = req.body?.preservar_alfa ?? req.query?.preservar_alfa;
+      customOptions.preservar_canal_alfa = val === true || val === 'true' || val === 1 || val === '1';
+    }
+
+    if (req.body?.color_fondo_alfa || req.query?.color_fondo_alfa) {
+      customOptions.color_fondo_alfa = String(req.body?.color_fondo_alfa || req.query?.color_fondo_alfa);
+    }
+
+    if (req.body?.max_ancho || req.query?.max_ancho) {
+      customOptions.max_ancho = Number(req.body?.max_ancho || req.query?.max_ancho);
+    }
+
+    if (req.body?.max_alto || req.query?.max_alto) {
+      customOptions.max_alto = Number(req.body?.max_alto || req.query?.max_alto);
+    }
+
+    const result = await mediaService.uploadImage(fileBuffer, originalName, mimeType, folder, subContext, customOptions);
 
     // Adjuntar versión pública absoluta para clientes externos/newsletters
     const publicUrl = resolvePublicUrl(result.url, req.get('host'));
@@ -124,25 +157,51 @@ export async function proxyMedia(req: Request, res: Response): Promise<void> {
  * Body: { url: "https://..." }
  */
 export async function fetchRemoteMedia(req: Request, res: Response): Promise<void> {
-  const { url, folder, subContext } = req.body || {};
+  const {
+    url,
+    folder,
+    subContext,
+    calidad,
+    calidad_compresion,
+    auto_convertir_webp,
+    preservar_alfa,
+    preservar_canal_alfa,
+    color_fondo_alfa,
+  } = req.body || {};
 
   if (!url || typeof url !== 'string') {
     res.status(400).json({ error: 'Campo "url" es requerido en el cuerpo JSON' });
     return;
   }
 
+  const customOptions: any = {};
+  if (calidad_compresion !== undefined || calidad !== undefined) {
+    customOptions.calidad_compresion = Number(calidad_compresion ?? calidad);
+  }
+  if (auto_convertir_webp !== undefined) {
+    customOptions.auto_convertir_webp = auto_convertir_webp === true || auto_convertir_webp === 'true';
+  }
+  if (preservar_canal_alfa !== undefined || preservar_alfa !== undefined) {
+    const val = preservar_canal_alfa ?? preservar_alfa;
+    customOptions.preservar_canal_alfa = val === true || val === 'true';
+  }
+  if (color_fondo_alfa) {
+    customOptions.color_fondo_alfa = String(color_fondo_alfa);
+  }
+
   try {
     const result = await mediaService.fetchAndSaveRemoteImage(
       url.trim(),
       folder || 'noticias',
-      subContext
+      subContext,
+      customOptions
     );
     const publicUrl = resolvePublicUrl(result.url, req.get('host'));
 
     res.status(201).json({
       ...result,
       public_url: publicUrl,
-      mensaje: 'Imagen remota descargada y hospedada permanentemente con éxito',
+      mensaje: 'Imagen remota descargada, convertida y hospedada permanentemente con éxito',
     });
   } catch (err: unknown) {
     const error = err as Error;

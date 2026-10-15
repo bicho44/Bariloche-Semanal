@@ -9,6 +9,7 @@ import {
   Palette,
   Mail,
   Database,
+  Settings,
   ArrowRight,
   RefreshCw,
   CheckCircle2,
@@ -391,22 +392,22 @@ export const DashboardView: React.FC<DashboardViewProps> = ({
           </div>
         </div>
 
-        {/* Card 7: Identidad & Branding */}
+        {/* Card 7: Settings & Preferencias */}
         <div
-          onClick={() => onNavigate('branding')}
-          className="group p-5 bg-white rounded-2xl border border-slate-200 hover:border-rose-300 hover:shadow-md transition-all cursor-pointer flex flex-col justify-between"
+          onClick={() => onNavigate('settings')}
+          className="group p-5 bg-white rounded-2xl border border-slate-200 hover:border-blue-300 hover:shadow-md transition-all cursor-pointer flex flex-col justify-between"
         >
           <div>
             <div className="flex items-center justify-between mb-3">
-              <div className="w-10 h-10 rounded-xl bg-rose-50 border border-rose-100 flex items-center justify-center text-rose-700 group-hover:scale-105 transition-transform">
-                <Palette className="w-5 h-5" />
+              <div className="w-10 h-10 rounded-xl bg-blue-50 border border-blue-100 flex items-center justify-center text-blue-700 group-hover:scale-105 transition-transform">
+                <Settings className="w-5 h-5" />
               </div>
-              <span className="text-xs font-semibold text-rose-600 group-hover:translate-x-0.5 transition-transform flex items-center gap-0.5">
+              <span className="text-xs font-semibold text-blue-600 group-hover:translate-x-0.5 transition-transform flex items-center gap-0.5">
                 Ajustar <ChevronRight className="w-3.5 h-3.5" />
               </span>
             </div>
             <div className="text-xs font-semibold text-slate-500 uppercase tracking-wider">
-              Identidad & Branding
+              Settings & Preferencias
             </div>
             <div className="text-base font-bold text-slate-900 mt-2 truncate">
               {branding?.nombre_medio || 'Bariloche Semanal'}
@@ -427,13 +428,13 @@ export const DashboardView: React.FC<DashboardViewProps> = ({
                 style={{ backgroundColor: branding?.colores?.acento || '#0284c7' }}
                 title="Color Acento"
               />
-              <span className="text-[11px] text-slate-500 ml-1">Paleta institucional</span>
+              <span className="text-[11px] text-slate-500 ml-1">Clima, WebP e Identidad</span>
             </div>
           </div>
 
           <div className="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between text-[11px] text-slate-500">
-            <span>Logotipo, colores & contacto</span>
-            <span className="font-semibold text-rose-700">Configurar →</span>
+            <span>Parámetros y sistema</span>
+            <span className="font-semibold text-blue-700">Configurar →</span>
           </div>
         </div>
 

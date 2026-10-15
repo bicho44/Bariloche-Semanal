@@ -5,13 +5,12 @@ import {
   Calendar,
   FolderArchive,
   Radio,
-  Sparkles,
   Megaphone,
-  Palette,
   Mail,
   ExternalLink,
-  Layers,
   Database,
+  Settings,
+  ShieldCheck,
 } from 'lucide-react';
 import { ConfiguracionBranding } from '../types/index.js';
 
@@ -22,9 +21,10 @@ export type AdminTab =
   | 'dossiers'
   | 'fuentes'
   | 'anunciantes'
-  | 'branding'
   | 'ediciones'
-  | 'api_docs';
+  | 'api_docs'
+  | 'settings'
+  | 'branding';
 
 interface SidebarProps {
   currentTab: AdminTab;
@@ -39,6 +39,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
   branding,
   dbStatus,
 }) => {
+  // Módulos editoriales y de gestión periodística
   const menuItems = [
     { id: 'dashboard' as AdminTab, label: 'Dashboard General', icon: LayoutDashboard },
     { id: 'noticias' as AdminTab, label: 'Noticias', icon: Newspaper, countKey: 'noticias' },
@@ -46,12 +47,12 @@ export const Sidebar: React.FC<SidebarProps> = ({
     { id: 'dossiers' as AdminTab, label: 'Temas en Seguimiento', icon: FolderArchive, countKey: 'dossiers' },
     { id: 'fuentes' as AdminTab, label: 'Fuentes y Medios', icon: Radio, countKey: 'fuentes' },
     { id: 'anunciantes' as AdminTab, label: 'Auspiciantes & Banners', icon: Megaphone, countKey: 'anunciantes' },
-    { id: 'branding' as AdminTab, label: 'Identidad & Branding', icon: Palette },
     { id: 'ediciones' as AdminTab, label: 'Ediciones Newsletter', icon: Mail },
     { id: 'api_docs' as AdminTab, label: 'Consola API REST', icon: Database },
   ];
 
   const primaryColor = branding?.colores?.primario || '#1e3a8a';
+  const isSettingsActive = currentTab === 'settings' || currentTab === 'branding';
 
   return (
     <aside className="w-64 bg-slate-900 text-slate-200 flex flex-col shrink-0 border-r border-slate-800 select-none">
@@ -88,7 +89,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
         </div>
       </div>
 
-      {/* Navigation */}
+      {/* Navigation - Módulos de Gestión */}
       <nav className="flex-1 px-3 py-2 space-y-1 overflow-y-auto">
         <div className="px-2 py-1 text-[10px] font-bold uppercase tracking-wider text-slate-500">
           Módulos de Gestión
@@ -102,7 +103,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
               onClick={() => onSelectTab(item.id)}
               className={`w-full flex items-center justify-between px-3 py-2 rounded-lg text-xs font-medium transition-colors text-left cursor-pointer ${
                 isActive
-                  ? 'bg-blue-600/20 text-blue-400 border-l-2 border-blue-500'
+                  ? 'bg-blue-600/20 text-blue-400 border-l-2 border-blue-500 font-semibold'
                   : 'text-slate-400 hover:bg-slate-800/60 hover:text-slate-200'
               }`}
             >
@@ -115,37 +116,71 @@ export const Sidebar: React.FC<SidebarProps> = ({
         })}
       </nav>
 
-      {/* Footer info */}
-      <div className="p-3 border-t border-slate-800/80 bg-slate-950/40 text-[11px] text-slate-400 space-y-1">
-        <div className="flex items-center justify-between">
-          <span className="flex items-center gap-1.5">
-            <span
-              className={`w-1.5 h-1.5 rounded-full ${
-                dbStatus?.mode === 'cloud_firestore'
-                  ? 'bg-emerald-400 animate-pulse'
-                  : 'bg-emerald-500'
-              }`}
-            />
-            Firestore:
-          </span>
-          <span className="font-mono text-[10px] text-slate-300">
-            {dbStatus?.projectId || 'bariloche-semanal'}
-          </span>
-        </div>
-        <div className="flex items-center justify-between">
-          <span>Modo:</span>
-          <span className="text-[10px] text-emerald-400 font-semibold">CRUD Firestore</span>
-        </div>
-        <div className="pt-1 flex items-center justify-between">
-          <a
-            href="/api/health"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-[10px] text-blue-400 hover:underline flex items-center gap-0.5"
+      {/* Footer del Sistema: Settings & Preferencias + Estado Firestore */}
+      <div className="p-3 border-t border-slate-800/80 bg-slate-950/60 space-y-2">
+        {/* Acceso a Settings / Configuración y Preferencias */}
+        <button
+          type="button"
+          onClick={() => onSelectTab('settings')}
+          className={`w-full flex items-center justify-between px-3 py-2 rounded-xl text-xs font-semibold transition-all cursor-pointer ${
+            isSettingsActive
+              ? 'bg-blue-600 text-white shadow-sm font-bold border border-blue-500'
+              : 'text-slate-300 hover:bg-slate-800/80 hover:text-white bg-slate-900/60 border border-slate-800/90'
+          }`}
+          title="Ajustes generales, clima, motor fotográfico WebP e identidad institucional"
+        >
+          <div className="flex items-center gap-2.5">
+            <Settings className={`w-4 h-4 ${isSettingsActive ? 'text-white' : 'text-blue-400'}`} />
+            <span>Settings & Preferencias</span>
+          </div>
+          <span
+            className={`text-[9px] px-1.5 py-0.5 rounded font-mono uppercase tracking-wider ${
+              isSettingsActive
+                ? 'bg-blue-700/80 text-blue-100'
+                : 'bg-slate-800 text-slate-400'
+            }`}
           >
-            Estado API <ExternalLink className="w-2.5 h-2.5" />
-          </a>
-          <span className="text-[10px] text-slate-500">v3.0.0</span>
+            Ajustes
+          </span>
+        </button>
+
+        {/* Tarjeta de Estado de Firestore / Persistencia */}
+        <div
+          onClick={() => onSelectTab('settings')}
+          className="p-2.5 rounded-xl bg-slate-900/40 border border-slate-800/70 text-[11px] text-slate-400 space-y-1 hover:border-slate-700 hover:bg-slate-900/70 cursor-pointer transition-colors"
+          title="Click para ver configuración del sistema y estado de Firestore"
+        >
+          <div className="flex items-center justify-between">
+            <span className="flex items-center gap-1.5 font-medium">
+              <span
+                className={`w-1.5 h-1.5 rounded-full ${
+                  dbStatus?.mode === 'cloud_firestore'
+                    ? 'bg-emerald-400 animate-pulse'
+                    : 'bg-emerald-500'
+                }`}
+              />
+              Firestore:
+            </span>
+            <span className="font-mono text-[10px] text-slate-300 font-semibold truncate max-w-[120px]">
+              {dbStatus?.projectId || 'bariloche-semanal'}
+            </span>
+          </div>
+          <div className="flex items-center justify-between">
+            <span>Modo:</span>
+            <span className="text-[10px] text-emerald-400 font-semibold">CRUD Firestore</span>
+          </div>
+          <div className="pt-1 flex items-center justify-between border-t border-slate-800/50 mt-1">
+            <a
+              href="/api/health"
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={(e) => e.stopPropagation()}
+              className="text-[10px] text-blue-400 hover:underline flex items-center gap-0.5"
+            >
+              Estado API <ExternalLink className="w-2.5 h-2.5" />
+            </a>
+            <span className="text-[10px] text-slate-500 font-mono">v3.0.0</span>
+          </div>
         </div>
       </div>
     </aside>

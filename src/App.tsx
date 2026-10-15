@@ -16,6 +16,9 @@ import { ShieldCheck, MapPin, Database } from 'lucide-react';
 function getInitialTab(): AdminTab {
   if (typeof window === 'undefined') return 'dashboard';
   const path = window.location.pathname.replace(/^\/admin\/?/, '').replace(/^\//, '');
+  if (path === 'branding' || path === 'preferencias' || path === 'settings') {
+    return 'settings';
+  }
   const validTabs: AdminTab[] = [
     'dashboard',
     'noticias',
@@ -23,6 +26,7 @@ function getInitialTab(): AdminTab {
     'dossiers',
     'fuentes',
     'anunciantes',
+    'settings',
     'branding',
     'ediciones',
     'api_docs',
@@ -138,9 +142,9 @@ export default function App() {
               <MapPin className="w-3.5 h-3.5 text-blue-900" />
               <button
                 type="button"
-                onClick={() => handleSelectTab('branding')}
+                onClick={() => handleSelectTab('settings')}
                 className="hover:text-blue-900 hover:underline cursor-pointer font-medium text-slate-700"
-                title="Configurar ciudad y clima en Identidad & Branding"
+                title="Configurar ciudad, clima y preferencias generales"
               >
                 {branding?.clima?.ciudad || 'San Carlos de Bariloche'}
               </button>
@@ -150,6 +154,8 @@ export default function App() {
                   ? 'Dashboard General'
                   : currentTab === 'api_docs'
                   ? 'Consola API REST'
+                  : currentTab === 'settings' || currentTab === 'branding'
+                  ? 'Settings & Preferencias'
                   : currentTab.charAt(0).toUpperCase() + currentTab.slice(1)}
               </span>
             </div>
@@ -160,7 +166,7 @@ export default function App() {
             <WeatherWidget
               variant="compact"
               climaConfig={branding?.clima}
-              onOpenBranding={() => handleSelectTab('branding')}
+              onOpenBranding={() => handleSelectTab('settings')}
             />
           </div>
         </header>
@@ -194,7 +200,7 @@ export default function App() {
 
             {currentTab === 'anunciantes' && <AnunciantesView />}
 
-            {currentTab === 'branding' && (
+            {(currentTab === 'settings' || currentTab === 'branding') && (
               <BrandingView branding={branding} onUpdateBranding={setBranding} />
             )}
 

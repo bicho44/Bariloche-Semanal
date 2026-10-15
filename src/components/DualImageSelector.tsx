@@ -10,8 +10,11 @@ import {
   Download,
   ShieldCheck,
   Globe,
+  Crop,
+  Sparkles,
 } from 'lucide-react';
 import { getProxiedImageUrl } from '../utils/image.js';
+import { ImageCropperModal, AspectRatioType } from './ImageCropperModal.js';
 
 interface DualImageSelectorProps {
   label: string;
@@ -131,6 +134,15 @@ export const DualImageSelector: React.FC<DualImageSelectorProps> = ({
   const [isProxiedPreview, setIsProxiedPreview] = useState<boolean>(false);
   const [previewSrc, setPreviewSrc] = useState<string>(safeValue);
   const [isDragging, setIsDragging] = useState<boolean>(false);
+  const [isCropperOpen, setIsCropperOpen] = useState<boolean>(false);
+  const [cropperSource, setCropperSource] = useState<string>('');
+  const [optimizationStats, setOptimizationStats] = useState<{
+    formatoOriginal?: string;
+    formatoFinal?: string;
+    ahorroPorcentaje?: number;
+    ancho?: number;
+    alto?: number;
+  } | null>(null);
   const fileInputRef = useRef<HTMLInputElement>(null);
 
   // Sincronizar el modo y la vista previa cuando safeValue cambia externamente
@@ -148,9 +160,13 @@ export const DualImageSelector: React.FC<DualImageSelectorProps> = ({
     }
   }, [safeValue]);
 
-  const processFile = async (file: File) => {
+  const processFile = async (file: File | Blob, customFileName?: string) => {
+    const isBlob = !(file instanceof File);
+    const fileName = isBlob ? (customFileName || `recorte_${Date.now()}.jpg`) : file.name;
+    const fileMime = file.type || 'image/jpeg';
+
     // Validación previa
-    if (!file.type.startsWith('image/')) {
+    if (!fileMime.startsWith('image/')) {
       setError('El archivo seleccionado debe ser una imagen válida (JPG, PNG, WEBP, GIF o SVG)');
       return;
     }
@@ -160,17 +176,18 @@ export const DualImageSelector: React.FC<DualImageSelectorProps> = ({
     setUploadSuccess(null);
 
     try {
-      // 1. Optimización previa para evitar NetworkError con fotos grandes
-      const { fileToUpload } = await optimizeImageIfNeeded(file);
+      // 1. Optimización previa para evitar caídas de red si es un archivo gigante
+      const fileToUpload = isBlob ? file : (await optimizeImageIfNeeded(file)).fileToUpload;
 
       let finalUrl = '';
       let serverErrorDetail = '';
+      let responseData: any = null;
 
       // 2. Estrategia A: Subida multipart/form-data al backend
       try {
         const formData = new FormData();
-        formData.append('archivo_imagen', fileToUpload, file.name);
-        formData.append('file', fileToUpload, file.name);
+        formData.append('archivo_imagen', fileToUpload, fileName);
+        formData.append('file', fileToUpload, fileName);
         if (folder) {
           formData.append('folder', folder);
         }
@@ -184,23 +201,22 @@ export const DualImageSelector: React.FC<DualImageSelectorProps> = ({
         });
 
         const rawText = await response.text();
-        let data: any = null;
         try {
-          data = JSON.parse(rawText);
+          responseData = JSON.parse(rawText);
         } catch {
           // El texto no es JSON
         }
 
-        if (response.ok && data?.url) {
-          finalUrl = data.url;
+        if (response.ok && responseData?.url) {
+          finalUrl = responseData.url;
         } else {
-          serverErrorDetail = data?.error || (rawText.length < 150 ? rawText : `HTTP ${response.status}`);
+          serverErrorDetail = responseData?.error || (rawText.length < 150 ? rawText : `HTTP ${response.status}`);
         }
       } catch {
         // Fallback silencioso a base64
       }
 
-      // 3. Estrategia B: Fallback JSON Base64 (si falló multipart por proxy o abort)
+      // 3. Estrategia B: Fallback JSON Base64
       if (!finalUrl) {
         try {
           const base64Data = await readFileAsDataUrl(fileToUpload);
@@ -209,25 +225,24 @@ export const DualImageSelector: React.FC<DualImageSelectorProps> = ({
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({
               base64: base64Data,
-              nombre: file.name,
-              mimeType: file.type || 'image/jpeg',
+              nombre: fileName,
+              mimeType: fileMime,
               folder,
               subContext,
             }),
           });
 
           const rawText = await fallbackResponse.text();
-          let fallbackData: any = null;
           try {
-            fallbackData = JSON.parse(rawText);
+            responseData = JSON.parse(rawText);
           } catch {
             // El texto no es JSON
           }
 
-          if (fallbackResponse.ok && fallbackData?.url) {
-            finalUrl = fallbackData.url;
+          if (fallbackResponse.ok && responseData?.url) {
+            finalUrl = responseData.url;
           } else {
-            const fallbackMsg = fallbackData?.error || (rawText.length < 150 ? rawText : `HTTP ${fallbackResponse.status}`);
+            const fallbackMsg = responseData?.error || (rawText.length < 150 ? rawText : `HTTP ${fallbackResponse.status}`);
             throw new Error(fallbackMsg || serverErrorDetail || 'Error al procesar la imagen en el servidor');
           }
         } catch (fallbackErr: unknown) {
@@ -238,8 +253,25 @@ export const DualImageSelector: React.FC<DualImageSelectorProps> = ({
 
       if (finalUrl) {
         onChange(finalUrl);
-        setUploadSuccess('¡Imagen almacenada y disponible en el servidor!');
-        setTimeout(() => setUploadSuccess(null), 4000);
+
+        if (responseData?.ahorro_porcentaje !== undefined || responseData?.formato_final) {
+          setOptimizationStats({
+            formatoOriginal: responseData.formato_original,
+            formatoFinal: responseData.formato_final,
+            ahorroPorcentaje: responseData.ahorro_porcentaje,
+            ancho: responseData.dimensiones?.width,
+            alto: responseData.dimensiones?.height,
+          });
+
+          const msg = responseData.formato_final === 'webp'
+            ? `¡Optimizada a WebP! Ahorro del ${responseData.ahorro_porcentaje || 0}% (${responseData.dimensiones?.width || ''}x${responseData.dimensiones?.height || ''} px)`
+            : '¡Imagen almacenada y disponible en el servidor!';
+          setUploadSuccess(msg);
+        } else {
+          setUploadSuccess('¡Imagen almacenada y disponible en el servidor!');
+        }
+
+        setTimeout(() => setUploadSuccess(null), 5000);
       } else {
         throw new Error('No se recibió la URL de la imagen subida');
       }
@@ -253,6 +285,24 @@ export const DualImageSelector: React.FC<DualImageSelectorProps> = ({
         fileInputRef.current.value = '';
       }
     }
+  };
+
+  const handleOpenCropper = async () => {
+    const srcToUse = previewSrc || safeValue;
+    if (!srcToUse) return;
+
+    // Si es una imagen remota que pueda tener problemas de CORS en canvas,
+    // utilizar el proxy del backend para cargarla limpiamente
+    if (srcToUse.startsWith('http://') || srcToUse.startsWith('https://')) {
+      setCropperSource(getProxiedImageUrl(srcToUse));
+    } else {
+      setCropperSource(srcToUse);
+    }
+    setIsCropperOpen(true);
+  };
+
+  const handleCropperConfirm = async (croppedBlob: Blob, _croppedDataUrl: string, info: { width: number; height: number; aspectRatio: AspectRatioType }) => {
+    await processFile(croppedBlob, `recorte_${info.aspectRatio}_${Date.now()}.jpg`);
   };
 
   /**
@@ -513,8 +563,8 @@ export const DualImageSelector: React.FC<DualImageSelectorProps> = ({
                 </div>
               </div>
             )}
-            <div className="flex items-start justify-between gap-2 mb-1.5">
-              <div className="flex items-center gap-1.5 text-xs font-medium text-slate-700">
+            <div className="flex flex-wrap items-start justify-between gap-2 mb-1.5">
+              <div className="flex flex-wrap items-center gap-1.5 text-xs font-medium text-slate-700">
                 <ImageIcon className="w-3.5 h-3.5 text-blue-800" />
                 <span>
                   {isProxiedPreview ? 'Vista previa vía Proxy Resiliente:' : 'Vista previa de imagen:'}
@@ -530,14 +580,31 @@ export const DualImageSelector: React.FC<DualImageSelectorProps> = ({
                     Firebase Storage {folder ? `• ${folder}` : ''}
                   </span>
                 )}
+                {(safeValue.includes('.webp') || optimizationStats?.formatoFinal === 'webp') && (
+                  <span className="text-[10px] bg-purple-100 text-purple-800 px-1.5 py-0.5 rounded font-semibold inline-flex items-center gap-1">
+                    <Sparkles className="w-3 h-3 text-purple-600" />
+                    WebP Optimizado
+                    {optimizationStats?.ahorroPorcentaje ? ` • -${optimizationStats.ahorroPorcentaje}%` : ''}
+                  </span>
+                )}
               </div>
-              <button
-                type="button"
-                onClick={handleClear}
-                className="text-[11px] text-red-600 hover:text-red-800 flex items-center gap-0.5 font-medium cursor-pointer"
-              >
-                <X className="w-3 h-3" /> Quitar imagen
-              </button>
+              <div className="flex items-center gap-3">
+                <button
+                  type="button"
+                  onClick={handleOpenCropper}
+                  className="text-[11px] text-blue-800 hover:text-blue-950 bg-blue-50 hover:bg-blue-100 px-2.5 py-1 rounded-md flex items-center gap-1 font-semibold cursor-pointer border border-blue-200 transition-colors shadow-2xs"
+                  title="Abrir editor de recorte interactivo"
+                >
+                  <Crop className="w-3 h-3 text-blue-700" /> Recortar / Encuadrar
+                </button>
+                <button
+                  type="button"
+                  onClick={handleClear}
+                  className="text-[11px] text-red-600 hover:text-red-800 flex items-center gap-0.5 font-medium cursor-pointer"
+                >
+                  <X className="w-3 h-3" /> Quitar imagen
+                </button>
+              </div>
             </div>
             <div className="relative h-36 w-full rounded-md overflow-hidden bg-slate-100 flex items-center justify-center border border-slate-200">
               {imgError ? (
@@ -556,11 +623,16 @@ export const DualImageSelector: React.FC<DualImageSelectorProps> = ({
                 />
               )}
             </div>
-            <div className="mt-1.5 flex items-center justify-between text-[10px] text-slate-500 font-mono">
+            <div className="mt-1.5 flex flex-wrap items-center justify-between gap-1 text-[10px] text-slate-500 font-mono">
               <span className="truncate max-w-md">URL: {safeValue}</span>
               {isProxiedPreview && (
                 <span className="text-blue-700 font-sans font-medium text-[11px] shrink-0">
                   Protegida con proxy anti-hotlinking
+                </span>
+              )}
+              {optimizationStats?.ancho && (
+                <span className="text-slate-600 font-sans font-medium text-[10px]">
+                  {optimizationStats.ancho} × {optimizationStats.alto} px
                 </span>
               )}
             </div>
@@ -596,6 +668,15 @@ export const DualImageSelector: React.FC<DualImageSelectorProps> = ({
       </div>
 
       <p className="text-[11px] text-slate-500">{helperText}</p>
+
+      {/* Modal de recorte interactivo */}
+      <ImageCropperModal
+        isOpen={isCropperOpen}
+        imageSrc={cropperSource}
+        initialAspectRatio="16:9"
+        onClose={() => setIsCropperOpen(false)}
+        onConfirm={handleCropperConfirm}
+      />
     </div>
   );
 };
