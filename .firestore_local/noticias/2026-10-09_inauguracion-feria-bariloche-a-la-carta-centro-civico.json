@@ -1,0 +1,54 @@
+{
+  "id": "2026-10-09_inauguracion-feria-bariloche-a-la-carta-centro-civico",
+  "titular": "Abrió la Feria de Bariloche a la Carta en el Centro Cívico: más de 100 stands, sabores patagónicos y Córdoba como provincia invitada",
+  "hecho_central": "Quedó formalmente abierta al público la Feria Gastronómica de Bariloche a la Carta (BALC 2026) en la plaza del Centro Cívico. Con una carpa gigante de productores rionegrinos, más de 100 puestos de comida, clases magistrales de cocina, catas y descuentos del 20% en restaurantes, el evento marca el inicio del fin de semana largo de octubre con un nivel de reservas hoteleras que supera el 80% en la ciudad.",
+  "area_id": "vida-social-cultura",
+  "dossier_id": "temporada-turistica-nieve",
+  "seguimiento_id": "temporada-turistica-nieve",
+  "fuente": {
+    "id": "bariloche-opina",
+    "nombre": "Bariloche Opina",
+    "url_nota": "https://www.barilocheopina.com/noticias/2026/10/09/95640-abrio-la-feria-de-bariloche-a-la-carta-2026-con-sabores-de-todo-el-pais-y-cordoba-como-invitada"
+  },
+  "fuentes_consultadas": [
+    {
+      "id": "bariloche-opina",
+      "nombre": "Bariloche Opina",
+      "url_nota": "https://www.barilocheopina.com/noticias/2026/10/09/95640-abrio-la-feria-de-bariloche-a-la-carta-2026-con-sabores-de-todo-el-pais-y-cordoba-como-invitada"
+    },
+    {
+      "id": "diario-rio-negro",
+      "nombre": "Diario Río Negro",
+      "url_nota": "https://www.rionegro.com.ar/gastronomia/bariloche-a-la-carta-2026-se-vive-a-pleno-la-agenda-de-este-viernes-9-de-octubre-con-chefs-sabores-y-musica-4753142/"
+    }
+  ],
+  "cobertura_cruzada": 2,
+  "cuerpo_html": "<p class=\"c-dossier-link\">📌 <em>Seguimiento: <a href=\"/seguimientos/temporada-turistica-nieve\">Temporada Turística, Nieve y Conectividad</a></em></p>\n<p>El corazón cívico de Bariloche se convirtió este viernes en la gran vidriera culinaria de la Patagonia con la <strong>apertura oficial de la Feria Gastronómica de Bariloche a la Carta (BALC 2026)</strong>, según relevaron en cobertura conjunta <a href=\"https://www.barilocheopina.com/noticias/2026/10/09/95640-abrio-la-feria-de-bariloche-a-la-carta-2026-con-sabores-de-todo-el-pais-y-cordoba-como-invitada\" target=\"_blank\" rel=\"noopener noreferrer\">Bariloche Opina</a> y <a href=\"https://www.rionegro.com.ar/gastronomia/bariloche-a-la-carta-2026-se-vive-a-pleno-la-agenda-de-este-viernes-9-de-octubre-con-chefs-sabores-y-musica-4753142/\" target=\"_blank\" rel=\"noopener noreferrer\">Diario Río Negro</a>.</p>\n<p>Con más de 100 puestos que reúnen a chacareros del Alto Valle, ahumaderos andinos, bodegas de la estepa y pescaderías del golfo San Matías, el evento tracciona la llegada de miles de visitantes para el fin de semana extralargo de octubre, que presenta una ocupación hotelera que supera el 80%. La 13ª edición sumó como atractivo especial a Córdoba como primera provincia invitada, con clases de cocina en vivo y degustaciones cruzadas de productos regionales.</p>",
+  "citas": [
+    {
+      "autor": "Lucio Bellora",
+      "cargo": "Director de Bariloche a la Carta",
+      "texto": "La feria del BALC en el Centro Cívico es el gran punto de encuentro donde los productores de los valles, la estepa y el mar rionegrino dialogan directamente con los vecinos y turistas que colman Bariloche."
+    }
+  ],
+  "datos_duros": {
+    "expositores": "Más de 100 stands de productores, bodegas, cervecerías y restaurantes",
+    "duracion_feria": "Del viernes 9 al lunes 12 de octubre de 12:00 a 00:00 hs",
+    "provincia_invitada": "Córdoba, con stands de salames de Caroya, quesos serranos y cocina en vivo",
+    "impacto_turistico": "Ocupación hotelera proyectada por encima del 80% para el fin de semana largo"
+  },
+  "area": "Vida Social, Cultura & Comunidad",
+  "fecha": "2026-10-05",
+  "foto": "https://barilocheopina-s3.cdn.net.ar/s3i233/2026/10/barilocheopina/images/02/80/69/2806950_88c4b89549a25278b3b4360237e7b5ef6bb6e9cfb3a9be51cdbab9b802992cf3/lg.webp",
+  "updated_at": "2026-10-12T14:09:15.470Z",
+  "curada_manualmente": false,
+  "imagen_url": "https://barilocheopina-s3.cdn.net.ar/s3i233/2026/10/barilocheopina/images/02/80/69/2806950_88c4b89549a25278b3b4360237e7b5ef6bb6e9cfb3a9be51cdbab9b802992cf3/lg.webp",
+  "media": {
+    "credito": "Prensa BALC / Bariloche Opina",
+    "requiere_foto": true,
+    "prompt_nanobanana": "Ilustración editorial en estilo animación 2D festiva y cálida: la plaza del Centro Cívico de Bariloche con la imponente carpa blanca de Bariloche a la Carta iluminada con guirnaldas de luces al atardecer, cientos de vecinos y turistas degustando platos regionales, stands de madera con quesos, truchas y chocolates, y el lago Nahuel Huapi de fondo. Estilo gráfico luminoso, paleta en madera clara, azul crepúsculo, amarillo cálido y verde bosque, sin texto.",
+    "imagen_url": "https://barilocheopina-s3.cdn.net.ar/s3i233/2026/10/barilocheopina/images/02/80/69/2806950_88c4b89549a25278b3b4360237e7b5ef6bb6e9cfb3a9be51cdbab9b802992cf3/lg.webp"
+  },
+  "url": "https://www.barilocheopina.com/noticias/2026/10/09/95640-abrio-la-feria-de-bariloche-a-la-carta-2026-con-sabores-de-todo-el-pais-y-cordoba-como-invitada",
+  "fecha_publicacion": "2026-10-05"
+}

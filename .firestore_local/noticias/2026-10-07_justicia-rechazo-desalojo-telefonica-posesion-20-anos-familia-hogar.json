@@ -1,0 +1,48 @@
+{
+  "id": "2026-10-07_justicia-rechazo-desalojo-telefonica-posesion-20-anos-familia-hogar",
+  "titular": "La Justicia rechazó el desalojo de Telefónica y reconoció la posesión de más de 20 años de una familia sobre su vivienda",
+  "hecho_central": "El Juzgado Civil de Bariloche rechazó la demanda de reivindicación interpuesta por Telefónica Móviles Argentina para desalojar y recuperar un departamento en el barrio Nicolás Levalle. El fallo consideró plenamente probada la defensa de prescripción adquisitiva (usucapión) opuesta por una madre de cuatro hijos que habita el inmueble desde 2003 de manera pública, pacífica e ininterrumpida, habiendo costeado refacciones integrales y conexión de gas en 2005 tras encontrar la propiedad abandonada y sin sanitarios.",
+  "fecha_publicacion": "2026-10-07",
+  "area_id": "alquileres-inmobiliario",
+  "dossier_id": "crisis-habitacional-urbanismo",
+  "seguimiento_id": "crisis-habitacional-urbanismo",
+  "fuente": {
+    "id": "anbariloche",
+    "nombre": "ANBariloche",
+    "url_nota": "https://www.anbariloche.com.ar/noticias/2026/10/07/119280-la-justicia-rechazo-un-reclamo-de-telefonica-y-una-familia-conservara-su-hogar"
+  },
+  "fuentes_consultadas": [
+    {
+      "id": "anbariloche",
+      "nombre": "ANBariloche",
+      "url_nota": "https://www.anbariloche.com.ar/noticias/2026/10/07/119280-la-justicia-rechazo-un-reclamo-de-telefonica-y-una-familia-conservara-su-hogar"
+    },
+    {
+      "id": "bariloche-opina",
+      "nombre": "Bariloche Opina",
+      "url_nota": "https://www.barilocheopina.com/noticias/2026/10/07/95508-una-familia-ocupo-un-departamento-durante-mas-de-20-anos-y-la-justicia-rechazo-el-reclamo-de-telefonica"
+    }
+  ],
+  "cobertura_cruzada": 2,
+  "media": {
+    "imagen_url": "https://anbariloche1.cdn.net.ar/252/anbariloche/images/90/90/909071_18b7b70208a76b414a9657b3dca5fc8ead3243752fe953cb7b4b8c82c0b8ee79/md.webp",
+    "requiere_foto": true,
+    "prompt_nanobanana": "Ilustración editorial en estilo animación 2D con enfoque social y humano: una vivienda barrial andina con ventanas iluminadas al anochecer en Bariloche, una madre y sus hijos alrededor de una mesa familiar cálida con estufa a gas encendida, mientras afuera se observa la silueta de los cerros patagónicos y un plano arquitectónico sobre la mesa. Estilo flat design con iluminación suave crepuscular, paleta en tonos ámbar, azul noche, madera y verde pino, sin texto.",
+    "credito": "Un fallo civil del Poder Judicial rechazó la demanda de reivindicación que presentó Telefónica Móviles Argentina. Foto: ilustrativa. "
+  },
+  "cuerpo_html": "<p class=\"c-dossier-link\">📌 <em>Seguimiento: <a href=\"/seguimientos/crisis-habitacional-urbanismo\">Crisis Habitacional y Alquileres en Bariloche</a></em></p>\n<p>Un fallo civil sentó un precedente de fuerte impacto social en el marco de la emergencia habitacional que atraviesa la ciudad: <strong>la Justicia provincial rechazó una demanda de desalojo iniciada por Telefónica Móviles Argentina y permitió que una familia conserve el departamento que habita desde hace más de dos décadas en el barrio Nicolás Levalle</strong>, según informaron en cobertura conjunta <a href=\"https://www.anbariloche.com.ar/noticias/2026/10/07/119280-la-justicia-rechazo-un-reclamo-de-telefonica-y-una-familia-conservara-su-hogar\" target=\"_blank\" rel=\"noopener noreferrer\">ANBariloche</a> y <a href=\"https://www.barilocheopina.com/noticias/2026/10/07/95508-una-familia-ocupo-un-departamento-durante-mas-de-20-anos-y-la-justicia-rechazo-el-reclamo-de-telefonica\" target=\"_blank\" rel=\"noopener noreferrer\">Bariloche Opina</a>.</p>\n<p>La empresa multinacional acreditó la titularidad registral del inmueble —adquirido históricamente tras la privatización de Entel— y pretendía su restitución alegando haber tomado conocimiento de la ocupación recién en 2023. Sin embargo, la mujer demandada demostró haber ingresado en 2003 junto a sus cuatro hijos menores en una situación de extrema vulnerabilidad, encontrando el inmueble destruido y sin servicios. Con el testimonio de vecinos, inscripciones escolares y la <strong>instalación de la red de gas natural solventada por la familia en 2005</strong>, el tribunal acreditó una posesión pública, pacífica e ininterrumpida superior a los 20 años exigidos por el Código Civil para la prescripción adquisitiva.</p>\n<blockquote cite=\"https://www.anbariloche.com.ar/noticias/2026/10/07/119280-la-justicia-rechazo-un-reclamo-de-telefonica-y-una-familia-conservara-su-hogar\">\n<p>«El derecho formal de dominio se enfrentó a más de veinte años de posesión y mejoras continuas que garantizaron un hogar digno; no existió ningún acto idóneo que interrumpiera el cómputo legal a favor de los ocupantes.» — Fundamentos de la sentencia civil del Poder Judicial de Bariloche.</p>\n</blockquote>\n<p>La resolución, aunque apelable, fue celebrada por agrupaciones de inquilinos y movimientos territoriales que señalan el contraste entre las miles de propiedades desocupadas o especulativas en Bariloche y la desesperada falta de techo para los trabajadores locales.</p>",
+  "citas": [
+    {
+      "autor": "Juzgado Civil y Comercial de Bariloche",
+      "cargo": "Sentencia Judicial de Primera Instancia",
+      "texto": "El derecho registral de la empresa se enfrentó con una posesión pública, pacífica y continua que ya había superado los veinte años cuando el conflicto llegó a los tribunales; no se acreditó ningún acto previo capaz de interrumpir el plazo legal de prescripción."
+    }
+  ],
+  "datos_duros": {
+    "objeto_juicio": "Demanda de reivindicación inmobiliaria interpuesta por Telefónica Móviles Argentina",
+    "resolucion_judicial": "Rechazo de desalojo en primera instancia por prescripción adquisitiva veinteañal",
+    "antiguedad_posesion": "Más de 20 años continuos (ingreso en 2003 junto a cuatro hijos menores)",
+    "mejoras_acreditadas": "Instalación de gas natural (2005), vidrios, pisos, sanitarios y refacciones completas"
+  },
+  "updated_at": "2026-10-08T14:02:38.539Z"
+}

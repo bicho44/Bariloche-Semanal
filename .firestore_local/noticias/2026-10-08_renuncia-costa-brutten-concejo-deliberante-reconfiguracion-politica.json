@@ -1,0 +1,59 @@
+{
+  "id": "2026-10-08_renuncia-costa-brutten-concejo-deliberante-reconfiguracion-politica",
+  "titular": "Sismo político en el Concejo Deliberante: renunció el concejal Leandro Costa Brutten tras una denuncia y se reconfiguran las mayorías parlamentarias",
+  "hecho_central": "El concejal de la oposición Leandro Costa Brutten (bloque Incluyendo Bariloche) formalizó su renuncia indeclinable a la banca del Concejo Municipal tras reconocer un episodio de violencia contra su expareja. La salida del legislador, que ejercía un férreo rol de contralor y denuncias sistemáticas contra el Ejecutivo, abre una profunda reconfiguración en el equilibrio de fuerzas parlamentario y en la presidencia de comisiones clave como Gobierno y Hacienda.",
+  "area_id": "gestion-publica",
+  "dossier_id": "carta-organica-reforma",
+  "seguimiento_id": "carta-organica-reforma",
+  "fuente": {
+    "id": "el-cordillerano",
+    "nombre": "Diario El Cordillerano",
+    "url_nota": "https://www.elcordillerano.com.ar/noticias/2026/10/08/266361-walter-cortes-tras-la-renuncia-de-leandro-costa-brutten-en-los-infortunios-de-la-vida-no-me-meto"
+  },
+  "fuentes_consultadas": [
+    {
+      "id": "el-cordillerano",
+      "nombre": "Diario El Cordillerano",
+      "url_nota": "https://www.elcordillerano.com.ar/noticias/2026/10/08/266361-walter-cortes-tras-la-renuncia-de-leandro-costa-brutten-en-los-infortunios-de-la-vida-no-me-meto"
+    },
+    {
+      "id": "el-cordillerano",
+      "nombre": "Diario El Cordillerano",
+      "url_nota": "https://www.elcordillerano.com.ar/noticias/2026/10/07/266274-costa-brutten-reconocio-un-episodio-de-violencia-contra-su-exesposa-y-anuncio-que-renunciara-como-concejal"
+    }
+  ],
+  "cobertura_cruzada": 2,
+  "cuerpo_html": "<p class=\"c-dossier-link\">📌 <em>Seguimiento: <a href=\"/seguimientos/carta-organica-reforma\">Debate por la Reforma de la Carta Orgánica y Gobernabilidad</a></em></p>\n<p>Un terremoto político sacudió este jueves la estructura interna del Concejo Deliberante de Bariloche: <strong>el concejal opositor Leandro Costa Brutten (Incluyendo Bariloche) formalizó su renuncia indeclinable</strong> a la banca municipal tras admitir públicamente un grave episodio de violencia contra su exesposa, según reportó <a href=\"https://www.elcordillerano.com.ar/noticias/2026/10/07/266274-costa-brutten-reconocio-un-episodio-de-violencia-contra-su-exesposa-y-anuncio-que-renunciara-como-concejal\" target=\"_blank\" rel=\"noopener noreferrer\">Diario El Cordillerano</a> al difundir el comunicado del edil.</p>\n<p>La dimisión de Costa Brutten, quien encabezaba las denuncias más virulentas contra la administración de Walter Cortés respecto a compras directas y contrataciones de maquinaria, altera de raíz el escenario parlamentario local. Consultado este jueves sobre el impacto de la renuncia, <a href=\"https://www.elcordillerano.com.ar/noticias/2026/10/08/266361-walter-cortes-tras-la-renuncia-de-leandro-costa-brutten-en-los-infortunios-de-la-vida-no-me-meto\" target=\"_blank\" rel=\"noopener noreferrer\">el intendente Walter Cortés manifestó en diálogo con El Cordillerano</a> que no opinará de asuntos privados pero ratificó que el oficialismo buscará destrabar expedientes de obra en el cuerpo legislativo.</p>\n<p>La vacancia deberá ser cubierta en los próximos días por corrimiento de la lista electoral de la fuerza política de origen, obligando a renegociar la integración de las comisiones de Gobierno y Legales y de Presupuesto.</p>",
+  "citas": [
+    {
+      "autor": "Walter Cortés",
+      "cargo": "Intendente de San Carlos de Bariloche",
+      "texto": "En los infortunios de la vida de las personas no me meto; cada uno sabe cómo actúa. En lo institucional, nosotros seguimos trabajando con el Concejo en las ordenanzas que la ciudad necesita."
+    },
+    {
+      "autor": "Leandro Costa Brutten",
+      "cargo": "Ex concejal municipal",
+      "texto": "Tomo esta decisión de forma indeclinable para no entorpecer el normal funcionamiento de las instituciones y para ponerme a disposición de lo que corresponda en el ámbito personal y judicial."
+    }
+  ],
+  "datos_duros": {
+    "banca_legislativa": "1 banca de concejal en juego por vacancia definitiva",
+    "suplencia_electoral": "Asunción por corrimiento de lista de la fuerza política Incluyendo Bariloche",
+    "comisiones_afectadas": "Gobierno y Legales, y comisión de Hacienda y Presupuesto",
+    "impacto_politico": "Modificación del quórum opositor para el tratamiento de licitaciones y reforma de la Carta Orgánica"
+  },
+  "area": "Gestión Pública",
+  "fecha": "2026-10-04",
+  "foto": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/06/elcordillerano/images/02/62/04/2620434_f63ce89aabfddee3e607589d1266e98036455d3b4aa959a5a5799f2316c06660/md.webp",
+  "updated_at": "2026-10-09T12:38:38.778Z",
+  "curada_manualmente": false,
+  "imagen_url": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/06/elcordillerano/images/02/62/04/2620434_f63ce89aabfddee3e607589d1266e98036455d3b4aa959a5a5799f2316c06660/md.webp",
+  "media": {
+    "credito": "Diario El Cordillerano / Concejo Municipal",
+    "requiere_foto": true,
+    "prompt_nanobanana": "Ilustración editorial en estilo animación 2D y arte plano: sala de sesiones del Concejo Deliberante de Bariloche con bancas de madera andina, micrófonos y el escudo municipal de fondo, una banca vacía con una carpeta de expedientes cerrada, mientras entra una luz tenue desde las ventanas del Centro Cívico. Estilo sobrio, flat design, paleta en azul institucional, caoba, gris piedra y bronce, sin texto.",
+    "imagen_url": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/06/elcordillerano/images/02/62/04/2620434_f63ce89aabfddee3e607589d1266e98036455d3b4aa959a5a5799f2316c06660/md.webp"
+  },
+  "url": "https://www.elcordillerano.com.ar/noticias/2026/10/08/266361-walter-cortes-tras-la-renuncia-de-leandro-costa-brutten-en-los-infortunios-de-la-vida-no-me-meto",
+  "fecha_publicacion": "2026-10-04"
+}

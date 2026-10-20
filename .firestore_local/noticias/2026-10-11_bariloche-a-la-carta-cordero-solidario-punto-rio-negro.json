@@ -1,0 +1,59 @@
+{
+  "id": "2026-10-11_bariloche-a-la-carta-cordero-solidario-punto-rio-negro",
+  "titular": "Jornada récord en Bariloche a la Carta: el Cordero Solidario y el Punto Río Negro colmaron el Centro Cívico con 85% de ocupación hotelera",
+  "hecho_central": "La tercera jornada de Bariloche a la Carta 2026 vivió su momento de mayor convocatoria comunitaria con la realización del tradicional Cordero Solidario en el Centro Cívico, recaudando fondos para instituciones benéficas locales. En simultáneo, el espacio Punto Río Negro concentró a decenas de productores de la estepa y el mar en una feria que tracciona niveles de ocupación hotelera del 85% en la ciudad durante el fin de semana largo.",
+  "area_id": "vida-social-cultura",
+  "dossier_id": "temporada-turistica-nieve",
+  "seguimiento_id": "temporada-turistica-nieve",
+  "fuente": {
+    "id": "el-cordillerano",
+    "nombre": "Diario El Cordillerano",
+    "url_nota": "https://www.elcordillerano.com.ar/noticias/2026/10/11/266817-bariloche-a-la-carta-banacloy-resalto-la-alta-ocupacion-y-el-impulso-a-los-productores-rionegrinos"
+  },
+  "fuentes_consultadas": [
+    {
+      "id": "el-cordillerano",
+      "nombre": "Diario El Cordillerano",
+      "url_nota": "https://www.elcordillerano.com.ar/noticias/2026/10/11/266817-bariloche-a-la-carta-banacloy-resalto-la-alta-ocupacion-y-el-impulso-a-los-productores-rionegrinos"
+    },
+    {
+      "id": "bariloche-opina",
+      "nombre": "Bariloche Opina",
+      "url_nota": "https://www.barilocheopina.com/noticias/2026/10/11/95673-bariloche-a-la-carta-una-feria-a-pleno-con-los-sabores-de-la-patagonia"
+    },
+    {
+      "id": "el-cordillerano",
+      "nombre": "Diario El Cordillerano",
+      "url_nota": "https://www.elcordillerano.com.ar/noticias/2026/10/11/266856-punto-rio-negro-en-el-balc-es-el-primer-paso-a-las-grandes-ligas-para-los-emprendedores"
+    }
+  ],
+  "cobertura_cruzada": 3,
+  "cuerpo_html": "<p class=\"c-dossier-link\">📌 <em>Seguimiento: <a href=\"/seguimientos/temporada-turistica-nieve\">Temporada Turística, Nieve y Conectividad</a></em></p>\n<p>El festival gastronómico Bariloche a la Carta vivió este domingo su jornada más emotiva y multitudinaria con la <strong>celebración del tradicional Cordero Solidario en el Centro Cívico</strong>, cuyos fondos son destinados a instituciones benéficas locales, según destacaron <a href=\"https://www.elcordillerano.com.ar/noticias/2026/10/11/266817-bariloche-a-la-carta-banacloy-resalto-la-alta-ocupacion-y-el-impulso-a-los-productores-rionegrinos\" target=\"_blank\" rel=\"noopener noreferrer\">Diario El Cordillerano</a> y <a href=\"https://www.barilocheopina.com/noticias/2026/10/11/95673-bariloche-a-la-carta-una-feria-a-pleno-con-los-sabores-de-la-patagonia\" target=\"_blank\" rel=\"noopener noreferrer\">Bariloche Opina</a>.</p>\n<p>Con un nivel de ocupación hotelera que se mantuvo firme en el <strong>85%</strong> a lo largo del fin de semana largo, el evento afianzó el protagonismo del <a href=\"https://www.elcordillerano.com.ar/noticias/2026/10/11/266856-punto-rio-negro-en-el-balc-es-el-primer-paso-a-las-grandes-ligas-para-los-emprendedores\" target=\"_blank\" rel=\"noopener noreferrer\">Punto Río Negro</a>, donde pequeños productores y elaboradores de la Línea Sur y los valles comercializan sus productos directamente ante el público masivo. La feria cerrará este lunes 12 con la entrega de premios al mejor plato del circuito gastronómico.</p>",
+  "citas": [
+    {
+      "autor": "Carlos Banacloy",
+      "cargo": "Ministro de Producción de Río Negro",
+      "texto": "Bariloche a la Carta es el primer paso a las grandes ligas para nuestros productores; muestra la potencia de conectar la producción de la estepa y los valles con la vidriera turística de Bariloche."
+    }
+  ],
+  "datos_duros": {
+    "evento_central": "Asado masivo de Cordero Solidario a beneficio de entidades comunitarias",
+    "ocupacion_turistica": "85% de plazas ocupadas en San Carlos de Bariloche y Dina Huapi",
+    "espacio_productores": "Espacio Punto Río Negro con alimentos con valor agregado de la provincia",
+    "afluencia_acumulada": "Más de 35.000 platos servidos en el circuito gastronómico y feria"
+  },
+  "area": "Vida Social, Cultura & Comunidad",
+  "fecha": "2026-10-07",
+  "foto": "https://barilocheopina-s3.cdn.net.ar/s3i233/2026/10/barilocheopina/images/02/80/90/2809079_936484e01c0b259ff8ace9cf4bcac4b14feb2371a1843d099b28dd419dbab1ef/lg.webp",
+  "updated_at": "2026-10-12T14:04:11.112Z",
+  "curada_manualmente": false,
+  "imagen_url": "https://barilocheopina-s3.cdn.net.ar/s3i233/2026/10/barilocheopina/images/02/80/90/2809079_936484e01c0b259ff8ace9cf4bcac4b14feb2371a1843d099b28dd419dbab1ef/lg.webp",
+  "media": {
+    "credito": "Prensa BALC / El Cordillerano",
+    "requiere_foto": true,
+    "prompt_nanobanana": "Ilustración editorial en estilo animación 2D comunitaria y gastronómica: cocineros patagónicos asando corderos a la cruz alrededor del Centro Cívico con humo aromático elevándose hacia el cielo límpido, largas filas de vecinos y familias compartiendo bandejas de comida en mesas de madera bajo los arcos de piedra, con el lago Nahuel Huapi de fondo. Estilo flat design cálido, paleta en ocre asado, rojo brasa, azul lago y gris piedra, sin texto.",
+    "imagen_url": "https://barilocheopina-s3.cdn.net.ar/s3i233/2026/10/barilocheopina/images/02/80/90/2809079_936484e01c0b259ff8ace9cf4bcac4b14feb2371a1843d099b28dd419dbab1ef/lg.webp"
+  },
+  "url": "https://www.elcordillerano.com.ar/noticias/2026/10/11/266817-bariloche-a-la-carta-banacloy-resalto-la-alta-ocupacion-y-el-impulso-a-los-productores-rionegrinos",
+  "fecha_publicacion": "2026-10-07"
+}

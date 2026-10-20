@@ -1,0 +1,54 @@
+{
+  "id": "2026-10-08_provincia-inicio-obra-acceso-aeropuerto-4475-millones",
+  "titular": "Comenzó la transformación del acceso al Aeropuerto de Bariloche: una inversión provincial de $4.475 millones para modernizar el ingreso este",
+  "hecho_central": "El Gobierno de Río Negro y Vialidad Rionegrina iniciaron formalmente los trabajos de infraestructura vial en el acceso al Aeropuerto Internacional Teniente Luis Candelaria de Bariloche. La obra, con un presupuesto asignado superior a los $4.475 millones, comprende la repavimentación integral, ensanche de calzada, construcción de dársenas de giro, rotondas distribuidoras y una ciclovía para ordenar el nudo vial de mayor tránsito turístico de la ciudad.",
+  "area_id": "gestion-publica",
+  "dossier_id": "conectividad-aerea-inversion",
+  "seguimiento_id": "conectividad-aerea-inversion",
+  "fuente": {
+    "id": "prensa-rio-negro",
+    "nombre": "Prensa Gobierno de Río Negro",
+    "url_nota": "https://prensa.rionegro.gov.ar/articulo/62008/bariloche-comenzo-la-obra-que-impulsa-weretilneck-para-transformar-el-acceso-al-aeropuerto?n=OTE"
+  },
+  "fuentes_consultadas": [
+    {
+      "id": "prensa-rio-negro",
+      "nombre": "Prensa Gobierno de Río Negro",
+      "url_nota": "https://prensa.rionegro.gov.ar/articulo/62008/bariloche-comenzo-la-obra-que-impulsa-weretilneck-para-transformar-el-acceso-al-aeropuerto?n=OTE"
+    },
+    {
+      "id": "el-cordillerano",
+      "nombre": "Diario El Cordillerano",
+      "url_nota": "https://www.elcordillerano.com.ar/noticias/2026/10/08/266331-bariloche-comenzo-la-obra-que-impulsa-weretilneck-para-transformar-el-acceso-al-aeropuerto"
+    }
+  ],
+  "cobertura_cruzada": 2,
+  "cuerpo_html": "<p class=\"c-dossier-link\">📌 <em>Seguimiento: <a href=\"/seguimientos/conectividad-aerea-inversion\">Conectividad Aérea e Inversión Pública</a></em></p>\n<p>El Gobierno de Río Negro dio inicio este jueves a una de las obras viales más demandadas por el sector turístico y productivo de la región andina: <strong>la remodelación integral del acceso al Aeropuerto Internacional Teniente Luis Candelaria de Bariloche</strong>, que demandará una inversión provincial superior a los <strong>$4.475 millones</strong>, según reportó oficialmente <a href=\"https://prensa.rionegro.gov.ar/articulo/62008/bariloche-comenzo-la-obra-que-impulsa-weretilneck-para-transformar-el-acceso-al-aeropuerto?n=OTE\" target=\"_blank\" rel=\"noopener noreferrer\">Prensa Río Negro</a> y relevó en cobertura local <a href=\"https://www.elcordillerano.com.ar/noticias/2026/10/08/266331-bariloche-comenzo-la-obra-que-impulsa-weretilneck-para-transformar-el-acceso-al-aeropuerto\" target=\"_blank\" rel=\"noopener noreferrer\">Diario El Cordillerano</a>.</p>\n<p>El proyecto, ejecutado a través de Vialidad Rionegrina, busca subsanar el histórico cuello de botella que se genera en el empalme de la ruta de acceso con la Circunvalación y la Ruta 40 Este durante las temporadas altas de invierno y verano. Los trabajos contemplan la repavimentación y ensanche de la calzada principal, la construcción de rotondas distribuidoras para ordenar los giros hacia los estacionamientos y hangares, y una senda aeróbica con ciclovía iluminada.</p>\n<blockquote cite=\"https://prensa.rionegro.gov.ar/articulo/62008/bariloche-comenzo-la-obra-que-impulsa-weretilneck-para-transformar-el-acceso-al-aeropuerto?n=OTE\"><p>«El aeropuerto de Bariloche es la puerta de entrada a la Patagonia y requería de manera urgente un acceso seguro, moderno y jerarquizado a la altura del segundo destino aéreo más transitado del país», destacó el gobernador Alberto Weretilneck.</p></blockquote>",
+  "citas": [
+    {
+      "autor": "Alberto Weretilneck",
+      "cargo": "Gobernador de Río Negro",
+      "texto": "El aeropuerto de Bariloche es la puerta de entrada a la Patagonia y requería de manera urgente un acceso seguro, moderno y jerarquizado a la altura del segundo destino aéreo más transitado del país."
+    }
+  ],
+  "datos_duros": {
+    "inversion_total": "$4.475 millones ($4.475.000.000 de fondos provinciales)",
+    "plazo_obra": "360 días corridos de ejecución",
+    "intervencion_vial": "Repavimentación, ensanche a 4 carriles en sectores críticos y rotondas de enlace",
+    "conectividad_sustentable": "Incorporación de ciclovía y senda peatonal iluminada hasta la RN 237"
+  },
+  "area": "Gestión Pública",
+  "fecha": "2026-10-04",
+  "foto": "https://silvercoder.rionegro.gov.ar/files/1791458319_c68d4d2021c767a1c099.jpeg",
+  "updated_at": "2026-10-09T12:37:38.214Z",
+  "curada_manualmente": false,
+  "imagen_url": "https://silvercoder.rionegro.gov.ar/files/1791458319_c68d4d2021c767a1c099.jpeg",
+  "media": {
+    "credito": "Prensa Gobierno de Río Negro / El Cordillerano",
+    "requiere_foto": true,
+    "prompt_nanobanana": "Ilustración editorial en estilo animación 2D y arte plano: cuadrillas viales y maquinaria pesada asfaltando y perfilando una moderna avenida de acceso aeroportuario en Bariloche, con la torre de control y la pista al fondo bajo el imponente marco de la cordillera andina y pinos patagónicos. Estilo gráfico limpio, líneas definidas, paleta en azul institucional, ocre asfalto, amarillo vial y verde andino, sin texto.",
+    "imagen_url": "https://silvercoder.rionegro.gov.ar/files/1791458319_c68d4d2021c767a1c099.jpeg"
+  },
+  "url": "https://prensa.rionegro.gov.ar/articulo/62008/bariloche-comenzo-la-obra-que-impulsa-weretilneck-para-transformar-el-acceso-al-aeropuerto?n=OTE",
+  "fecha_publicacion": "2026-10-04"
+}

@@ -43,6 +43,16 @@ const AREA_MAP_FROM_LABEL: Record<string, AreaId> = {
   'vida-social-cultura': 'vida-social-cultura',
   'en el radar': 'en-el-radar',
   'en-el-radar': 'en-el-radar',
+  'poder': 'poder',
+  'poder y obras': 'poder',
+  'poder-obras': 'poder',
+  'montana': 'montana',
+  'montaña': 'montana',
+  'montaña y turismo': 'montana',
+  'montana-turismo': 'montana',
+  'urbano': 'urbano',
+  'pulso urbano': 'urbano',
+  'pulso-urbano': 'urbano',
 };
 
 const AREA_LABEL_MAP: Record<AreaId, string> = {
@@ -53,6 +63,9 @@ const AREA_LABEL_MAP: Record<AreaId, string> = {
   'alquileres-inmobiliario': 'Alquileres & Mercado Inmobiliario',
   'vida-social-cultura': 'Vida Social, Cultura & Comunidad',
   'en-el-radar': 'En el Radar',
+  'poder': 'Poder & Obras',
+  'montana': 'Montaña & Turismo',
+  'urbano': 'Pulso Urbano',
 };
 
 function slugify(text: string): string {
@@ -173,6 +186,7 @@ export function normalizeNoticia(raw: any): Noticia {
     curada_manualmente: Boolean(raw.curada_manualmente),
     titular: raw.titular || 'Sin titular',
     hecho_central: raw.hecho_central || '',
+    por_que_importa_el_domingo: typeof raw.por_que_importa_el_domingo === 'string' && raw.por_que_importa_el_domingo.trim() ? raw.por_que_importa_el_domingo.trim() : undefined,
     novedad_respecto_a_dias_previos: raw.novedad_respecto_a_dias_previos || undefined,
     cuerpo_html: raw.cuerpo_html || '',
     datos_duros: raw.datos_duros || {},
@@ -296,6 +310,7 @@ export class NoticiasService {
       url: datos.fuente?.url_nota || datos.url || '',
       seguimiento_id: seguimientoId,
       dossier_id: seguimientoId, // Retrocompatibilidad con Firestore
+      por_que_importa_el_domingo: datos.por_que_importa_el_domingo?.trim() || undefined,
       curada_manualmente: datos.curada_manualmente !== undefined ? Boolean(datos.curada_manualmente) : true,
       fuentes_consultadas: Array.isArray(datos.fuentes_consultadas) ? datos.fuentes_consultadas : [],
       cobertura_cruzada: datos.cobertura_cruzada || (Array.isArray(datos.fuentes_consultadas) && datos.fuentes_consultadas.length > 0 ? datos.fuentes_consultadas.length : 1),
@@ -317,6 +332,10 @@ export class NoticiasService {
 
   async actualizar(id: string, partial: Partial<Noticia>): Promise<Noticia | null> {
     const updates: Record<string, unknown> = { ...partial };
+
+    if (partial.por_que_importa_el_domingo !== undefined) {
+      updates.por_que_importa_el_domingo = partial.por_que_importa_el_domingo?.trim() || undefined;
+    }
 
     // Validación estricta anti-huérfanas para titular
     if (partial.titular !== undefined) {

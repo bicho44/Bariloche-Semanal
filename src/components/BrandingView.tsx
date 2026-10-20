@@ -862,9 +862,9 @@ export const BrandingView: React.FC<BrandingViewProps> = ({ branding, onUpdateBr
                 className="p-5 rounded-xl border border-slate-200 shadow-sm text-center space-y-3"
                 style={{ backgroundColor: colorFondo }}
               >
-                {logoUrl ? (
+                {logoUrl && logoUrl.trim() !== '' ? (
                   <img
-                    src={logoUrl}
+                    src={logoUrl.trim()}
                     referrerPolicy="no-referrer"
                     alt="Logo"
                     className="h-14 mx-auto object-contain"

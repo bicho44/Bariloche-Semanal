@@ -1,0 +1,48 @@
+{
+  "id": "2026-10-13_ate-ratifico-paro-nacional-marcha-ley-tierras-bariloche",
+  "titular": "ATE ratificó el paro nacional de 24 horas para este jueves y se sumará a la marcha en defensa de la Ley de Tierras en Bariloche",
+  "hecho_central": "La seccional Bariloche de la Asociación Trabajadores del Estado (ATE) confirmó su adhesión a la jornada nacional de paro de 24 horas convocada para este jueves 15 de octubre. La medida afectará la atención en organismos nacionales y provinciales, confluenciando en la movilización multisectorial convocada por más de 60 organizaciones sociales y sindicales en defensa de la soberanía territorial, la Ley de Tierras y la recomposición de salarios estatales.",
+  "dossier_id": "crisis-habitacional-urbanismo",
+  "seguimiento_id": "crisis-habitacional-urbanismo",
+  "fuente": {
+    "id": "bariloche-opina",
+    "nombre": "Bariloche Opina",
+    "url_nota": "https://www.barilocheopina.com/noticias/2026/10/13/95751-ate-convoco-a-un-paro-nacional-de-24-horas-para-este-jueves"
+  },
+  "fuentes_consultadas": [
+    {
+      "id": "bariloche-opina",
+      "nombre": "Bariloche Opina",
+      "url_nota": "https://www.barilocheopina.com/noticias/2026/10/13/95751-ate-convoco-a-un-paro-nacional-de-24-horas-para-este-jueves"
+    }
+  ],
+  "cobertura_cruzada": 1,
+  "cuerpo_html": "<p class=\"c-dossier-link\">📌 <em>Seguimiento: <a href=\"/seguimientos/crisis-habitacional-urbanismo\">Crisis Habitacional, Soberanía Territorial y Conflictos Laborales</a></em></p>\n<p>La tensión sindical y comunitaria alcanzará su punto álgido este jueves en la cordillera: <strong>la Asociación Trabajadores del Estado (ATE) ratificó un paro nacional de 24 horas y confirmó su adhesión a la gran marcha en defensa de la Ley de Tierras en Bariloche</strong>, según anunció <a href=\"https://www.barilocheopina.com/noticias/2026/10/13/95751-ate-convoco-a-un-paro-nacional-de-24-horas-para-este-jueves\" target=\"_blank\" rel=\"noopener noreferrer\">Bariloche Opina</a>.</p>\n<p>La huelga paralizará la administración en delegaciones de Parques Nacionales, el Centro Atómico y dependencias provinciales, confluyendo con las asambleas ambientales y las centrales gremiales (UnTER y CTA) en una movilización que partirá a las 17:30 desde la Escuela de Arte La Llave hasta la plaza del Centro Cívico. El reclamo cobra nuevo impulso tras la medida cautelar de la Corte Suprema que frenó la derogación de la Ley 26.737, exigiendo el cese de los despidos en organismos científicos y la recomposición de los salarios estatales.</p>",
+  "citas": [
+    {
+      "autor": "ATE Bariloche",
+      "texto": "Paramos este jueves contra el ajuste en los organismos del Estado y marchamos junto a la comunidad en defensa de nuestras tierras y nuestros recursos naturales; la Patagonia no se entrega."
+    }
+  ],
+  "datos_duros": {
+    "medida_de_fuerza": "Paro total de actividades de 24 horas el jueves 15 de octubre de 2026",
+    "organismos_afectados": "Parques Nacionales, SENASA, CNEA, Conicet, IPROSS y porteros de escuelas",
+    "movilizacion_unitaria": "Concentración a las 17:30 hs desde la Escuela La Llave hacia el Centro Cívico",
+    "consigna_central": "Defensa de la Ley de Tierras tras el fallo de la Corte Suprema y paritarias libres"
+  },
+  "area": "Vida Social, Cultura & Comunidad",
+  "fecha": "2026-10-09",
+  "foto": "https://barilocheopina-s2.cdn.net.ar/st2i1700/2023/06/barilocheopina/images/52/88/528865_9aa9234993fdcc97ab4a97db025a02bb96d48a79390d3a97b15be93e834ab9a0/md.webp",
+  "updated_at": "2026-10-14T15:09:48.798Z",
+  "curada_manualmente": false,
+  "imagen_url": "https://barilocheopina-s2.cdn.net.ar/st2i1700/2023/06/barilocheopina/images/52/88/528865_9aa9234993fdcc97ab4a97db025a02bb96d48a79390d3a97b15be93e834ab9a0/md.webp",
+  "media": {
+    "credito": "Prensa ATE Bariloche / Bariloche Opina",
+    "requiere_foto": true,
+    "prompt_nanobanana": "Ilustración editorial en estilo animación 2D sobre movilización ciudadana y gremial: una marcha de trabajadores estatales, docentes y vecinos con banderas y pancartas descendiendo por las calles de Bariloche hacia los arcos de piedra del Centro Cívico bajo la luz del atardecer, con cerros nevados al fondo. Estilo flat design expresivo, paleta en verde ATE, azul patagónico, ocre urbano y blanco nieve, sin texto.",
+    "imagen_url": "https://barilocheopina-s2.cdn.net.ar/st2i1700/2023/06/barilocheopina/images/52/88/528865_9aa9234993fdcc97ab4a97db025a02bb96d48a79390d3a97b15be93e834ab9a0/md.webp"
+  },
+  "area_id": "vida-social-cultura",
+  "url": "https://www.barilocheopina.com/noticias/2026/10/13/95751-ate-convoco-a-un-paro-nacional-de-24-horas-para-este-jueves",
+  "fecha_publicacion": "2026-10-09"
+}

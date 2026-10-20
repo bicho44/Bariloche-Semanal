@@ -1,0 +1,49 @@
+{
+  "id": "2026-10-12_puerto-montt-bariloche-vuelo-directo-meta-2027",
+  "titular": "Conexión aérea Bariloche - Puerto Montt: intendentes y cámaras fijaron como meta dejar la ruta operativa en 2027",
+  "hecho_central": "Tras las reuniones bilaterales mantenidas durante Bariloche a la Carta, el alcalde de Puerto Montt, Rodrigo Wainraihgt, y el intendente Walter Cortés confirmaron que las gestiones para el vuelo directo de 45 minutos apuntan a que la ruta comercial binacional quede inaugurada formalmente durante el primer semestre de 2027. La propuesta cuenta con el respaldo de las cámaras hoteleras de ambos países y será formalizada ante las cancillerías en noviembre.",
+  "area_id": "gestion-publica",
+  "dossier_id": "infraestructura-terminal-rutas",
+  "seguimiento_id": "infraestructura-terminal-rutas",
+  "fuente": {
+    "id": "el-cordillerano",
+    "nombre": "Diario El Cordillerano",
+    "url_nota": "https://www.elcordillerano.com.ar/noticias/2026/10/12/266997-gran-participacion-de-puerto-montt-en-bariloche-a-la-carta-esperamos-que-en-2027-quede-operativa-la-conexion-aerea"
+  },
+  "fuentes_consultadas": [
+    {
+      "id": "el-cordillerano",
+      "nombre": "Diario El Cordillerano",
+      "url_nota": "https://www.elcordillerano.com.ar/noticias/2026/10/12/266997-gran-participacion-de-puerto-montt-en-bariloche-a-la-carta-esperamos-que-en-2027-quede-operativa-la-conexion-aerea"
+    }
+  ],
+  "cobertura_cruzada": 1,
+  "cuerpo_html": "<p class=\"c-dossier-link\">📌 <em>Seguimiento: <a href=\"/seguimientos/infraestructura-terminal-rutas\">Infraestructura Vial, Terminal y Conectividad Urbana</a></em></p>\n<p>El proyecto para restablecer el puente aéreo entre la Patagonia argentina y el sur chileno sumó compromisos de calendario concretos: <strong>autoridades de Bariloche y Puerto Montt confirmaron que el objetivo bilateral es que el vuelo directo quede operativo en 2027</strong>, según reportó <a href=\"https://www.elcordillerano.com.ar/noticias/2026/10/12/266997-gran-participacion-de-puerto-montt-en-bariloche-a-la-carta-esperamos-que-en-2027-quede-operativa-la-conexion-aerea\" target=\"_blank\" rel=\"noopener noreferrer\">Diario El Cordillerano</a> al cierre de Bariloche a la Carta.</p>\n<p>El alcalde chileno Rodrigo Wainraihgt y el intendente Walter Cortés coincidieron en que el puente aéreo de 45 minutos conectará dos regiones con identidades complementarias (los fiordos del Pacífico y los lagos andinos), facilitando no solo el turismo receptivo de larga distancia sino también los intercambios sanitarios y comerciales. La iniciativa será presentada formalmente ante las cancillerías de ambos países durante la próxima cumbre del Comité de Integración Los Lagos.</p>",
+  "citas": [
+    {
+      "autor": "Rodrigo Wainraihgt",
+      "cargo": "Alcalde de Puerto Montt",
+      "texto": "Esperamos que en 2027 quede plenamente operativa la conexión aérea entre Bariloche y Puerto Montt; es una deuda histórica para la integración de nuestros pueblos y una oportunidad extraordinaria para el turismo bioceánico."
+    }
+  ],
+  "datos_duros": {
+    "plazo_operativo_meta": "Primer semestre de 2027 para el vuelo inaugural",
+    "tiempo_viaje": "Reducción de 8 horas por tierra a 45 minutos por vía aérea",
+    "participacion_chilena": "Fuerte presencia de Puerto Montt en BALC con salmón y cocina costera",
+    "instancia_diplomatica": "Presentación formal en el plenario binacional del Comité Los Lagos en noviembre"
+  },
+  "area": "Gestión Pública",
+  "fecha": "2026-10-08",
+  "foto": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/10/elcordillerano/images/02/81/02/2810215_e90af993d71b4840b35464069f2a12f81e44bd91360d3c685c3d78efcf0bea2e/md.webp",
+  "updated_at": "2026-10-14T15:13:10.014Z",
+  "curada_manualmente": false,
+  "imagen_url": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/10/elcordillerano/images/02/81/02/2810215_e90af993d71b4840b35464069f2a12f81e44bd91360d3c685c3d78efcf0bea2e/md.webp",
+  "media": {
+    "credito": "Alcaldía de Puerto Montt / El Cordillerano",
+    "requiere_foto": true,
+    "prompt_nanobanana": "Ilustración editorial en estilo animación 2D institucional: autoridades de Bariloche y Puerto Montt estrechando manos en una sala de conferencias con un ventanal hacia el lago Nahuel Huapi, con banderas de Argentina y Chile y un mapa de la ruta aérea binacional en pantalla. Tono diplomático y moderno, paleta en azul marino, celeste patagónico, rojo y blanco, sin texto.",
+    "imagen_url": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/10/elcordillerano/images/02/81/02/2810215_e90af993d71b4840b35464069f2a12f81e44bd91360d3c685c3d78efcf0bea2e/md.webp"
+  },
+  "url": "https://www.elcordillerano.com.ar/noticias/2026/10/12/266997-gran-participacion-de-puerto-montt-en-bariloche-a-la-carta-esperamos-que-en-2027-quede-operativa-la-conexion-aerea",
+  "fecha_publicacion": "2026-10-08"
+}

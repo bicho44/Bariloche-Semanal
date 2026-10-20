@@ -1,32 +1,64 @@
 {
   "id": "crisis-habitacional-urbanismo",
-  "titulo": "Crisis Habitacional y Alquileres en Bariloche",
-  "area_id": "alquileres-inmobiliario",
+  "titulo": "Acceso a la Tierra, Emergencia Habitacional y Disputas por la Ley de Tierras en la Cordillera",
+  "area_id": "urbano",
   "estado": "activo",
-  "resumen_contexto": "Tierras y soberanía territorial: más de 60 organizaciones sociales, sindicales y estudiantiles convocaron a una marcha central el 15 de octubre contra la extranjerización de tierras tras el fallo de la Corte.",
+  "criterio_inclusion": "Políticas de suelo urbano y loteos sociales del Instituto Municipal de Tierra y Vivienda (IMTVHS), reforma administrativa con Catastro, litigios judiciales posesorios y comunitarios en Bariloche, y fallos sobre la vigencia de la Ley 26.737 de Tierras Rurales.",
+  "prohibido_incluir": "Operaciones inmobiliarias privadas ordinarias o conflictos entre particulares sin relevancia institucional o colectiva.",
+  "resumen_contexto": "Tras la medida cautelar de la Corte Suprema que frenó la derogación de la Ley de Tierras a raíz de un amparo impulsado desde Bariloche y dos fallos locales sobre tenencia y desalojos, universidades públicas, gremios (ATE Parques, UnTER) y organizaciones sociales se movilizaron el 15 de octubre hacia el Centro Cívico en defensa de la soberanía territorial y el presupuesto universitario.",
   "actores_clave": [
-    "asociacion-inquilinos",
-    "colegio-martilleros",
-    "imtvhs",
-    "concejo-deliberante",
-    "walter-cortes"
+    "Corte Suprema de Justicia de la Nación y fuero Civil de Bariloche",
+    "UNRN Sede Andina, UNCo Bariloche, ATE Parques Nacionales y UnTER",
+    "Instituto Municipal de Tierra y Vivienda para el Hábitat Social (IMTVHS)",
+    "Organizaciones sociales, ambientales y comunidades de Bariloche"
   ],
+  "datos_duros_verificados": {
+    "fallo_corte_suprema": "Suspensión cautelar del artículo del DNU 70/2023 que derogaba la Ley 26.737 de Tierras (09/10/2026)",
+    "fallo_civil_posesion": "Rechazo de desalojo de Telefónica a familia con más de 20 años de posesión (07/10/2026)",
+    "movilizacion_bariloche": "Marcha multisectorial el 15/10/2026 desde Onelli y Moreno al Centro Cívico",
+    "fuente_corte_suprema": "https://www.elcordillerano.com.ar/noticias/2026/10/09/266634-la-corte-suprema-suspendio-el-articulo-del-dnu-70-que-deroga-la-ley-de-tierras",
+    "propuesta_fusion_imtvhs": "Propuesta del Ejecutivo (19/10/2026) para fusionar el Instituto de Tierra y Vivienda con Catastro en la nueva Carta Orgánica"
+  },
+  "cronica_html": "<div class=\"c-dossier-article\">\n<p class=\"c-lead\">La disputa legal y social por la tenencia de la tierra y la protección de las cuencas hídricas andinas sumó en octubre resoluciones judiciales de alto impacto en Bariloche: tras el fallo de la Corte Suprema que suspendió la derogación de la Ley de Tierras a partir de un amparo local, las universidades públicas y los gremios estatales confluyeron este 15 de octubre en una movilización desde el Alto hasta el Centro Cívico.</p>\n\n<h3>1. Antecedentes y qué está en juego en el expediente</h3>\n<p>En la región cordillerana de Río Negro convergen dos tensiones estructurales sobre el suelo: en el ámbito urbano, el déficit habitacional y los litigios por posesión y desalojos; y en el área rural y de frontera, el debate por la vigencia de la Ley 26.737 de Tierras Rurales —cuya derogación había sido dispuesta por el DNU 70/2023—, norma que limita la compra extranjera de campos con cabeceras de ríos y espejos de agua.</p>\n\n<h3>2. Bitácora documentada de hitos recientes</h3>\n<ul>\n<li><strong>[14/10 y 15/10/2026] Frente unificado y marcha por la Ley de Tierras y las Universidades:</strong> En una conferencia en el CRUB encabezada por el vicerrector de la UNRN Diego Aguiar y delegados de ATE Parques Nacionales y UnTER, más de 60 organizaciones convocaron a la marcha del 15 de octubre desde Onelli y Moreno hacia el Centro Cívico en defensa de los límites a la extranjerización de tierras con espejos de agua y por el financiamiento universitario, según reportó <a href=\"https://www.elcordillerano.com.ar/noticias/2026/10/14/267396-en-bariloche-anunciaron-una-marcha-uniendo-reclamos-universidades-y-soberania-territorial\" target=\"_blank\" rel=\"noopener noreferrer\">Diario El Cordillerano</a>.</li>\n<li><strong>[09/10/2026] Cautelar de la Corte Suprema por la Ley de Tierras:</strong> El máximo tribunal nacional hizo lugar a una medida cautelar impulsada desde Bariloche y suspendió la aplicación del artículo del DNU 70/2023 que derogaba la Ley de Tierras, según informó <a href=\"https://www.elcordillerano.com.ar/noticias/2026/10/09/266634-la-corte-suprema-suspendio-el-articulo-del-dnu-70-que-deroga-la-ley-de-tierras\" target=\"_blank\" rel=\"noopener noreferrer\">Diario El Cordillerano</a>.</li>\n<li><strong>[07/10 y 08/10/2026] Fallos civiles sobre vivienda y tierras en la zona andina:</strong> El fuero Civil de Bariloche rechazó una acción de desalojo de Telefónica reconociendo más de 20 años de posesión pacífica a una familia local (<a href=\"https://www.anbariloche.com.ar/noticias/2026/10/07/119280-la-justicia-rechazo-un-reclamo-de-telefonica-y-una-familia-conservara-su-hogar\" target=\"_blank\" rel=\"noopener noreferrer\">ANBariloche</a>), mientras la Cámara de Apelaciones anuló por defectos procesales la sentencia de primera instancia en el litigio del cerro Belvedere y ordenó dictar un nuevo pronunciamiento (<a href=\"https://www.rionegro.com.ar/justicia/la-justicia-anulo-el-fallo-que-obligaba-a-una-comunidad-mapuche-a-devolverle-tierras-a-ginobili-y-ordeno-una-nueva-sentencia-4752503/\" target=\"_blank\" rel=\"noopener noreferrer\">Diario Río Negro</a>).</li>\n</ul>\n\n<blockquote cite=\"https://www.elcordillerano.com.ar/noticias/2026/10/14/267396-en-bariloche-anunciaron-una-marcha-uniendo-reclamos-universidades-y-soberania-territorial\">\n<p>«Derogar la Ley de Tierras significa perder los límites a la venta a manos extranjeras en zonas de frontera con espejos de agua. En la Norpatagonia andina hay un enorme interés en territorios con cuerpos de agua», advirtió Marcelo Rojas, delegado de ATE en Parques Nacionales.</p>\n</blockquote>\n\n<aside class=\"c-dossier-data\">\n<h4>Tablero de control: Tierra, Hábitat y Soberanía</h4>\n<ul>\n<li><strong>Cautelar Corte Suprema:</strong> Suspendida la derogación de la Ley 26.737 de Tierras Rurales (09/10/2026).</li>\n<li><strong>Jurisprudencia civil local:</strong> Rechazo de desalojo por posesión veinteañal acreditada (07/10/2026).</li>\n<li><strong>Movilización en Bariloche:</strong> Confluencia de UNRN, UNCo, ATE Parques y gremios docentes el 15/10/2026.</li>\n</ul>\n</aside>\n\n<h3>3. Mapa de posiciones comprobadas</h3>\n<p>Los gremios estatales de Parques Nacionales, las universidades públicas y las organizaciones amparistas reclaman la plena vigencia parlamentaria de la Ley 26.737 para resguardar cuencas lacustres y zonas de seguridad de frontera, mientras en el Congreso Nacional los bloques oficialistas y aliados han bloqueado hasta el momento el quórum para tratar su blindaje legislativo.</p>\n\n<h3>4. Próximas instancias confirmadas</h3>\n<p>El expediente judicial por el fondo de la constitucionalidad de la derogación de la Ley de Tierras continúa en trámite ante la Justicia Federal tras la cautelar de la Corte Suprema, sin fecha oficial de sentencia definitiva confirmada al cierre.</p>\n</div>",
   "timeline": [
     {
-      "fecha": "2026-10-06",
-      "hito": "Más de 60 organizaciones sindicales, ambientales y estudiantiles convocaron a una marcha para el 15 de octubre contra el DNU 70/2023 y la extranjerización de tierras en Bariloche.",
-      "noticia_id": "2026-10-06_organizaciones-bariloche-marcha-15-octubre-dnu-ley-tierras",
-      "fuente_url": "https://www.anbariloche.com.ar/noticias/2026/10/06/119202-organizaciones-de-bariloche-se-preparan-para-una-gran-marcha-contra-el-dnu-702023-y-la-extranjerizacion-de-tierras"
+      "fecha": "2026-10-07",
+      "hito": "La Justicia civil de Bariloche rechazó una demanda de desalojo de Telefónica y reconoció la posesión veinteañal de una familia trabajadora sobre su vivienda.",
+      "noticia_id": "2026-10-07_justicia-rechazo-desalojo-telefonica-posesion-20-anos-familia-hogar",
+      "fuente_url": "https://www.anbariloche.com.ar/noticias/2026/10/07/119280-la-justicia-rechazo-un-reclamo-de-telefonica-y-una-familia-conservara-su-hogar"
+    },
+    {
+      "fecha": "2026-10-08",
+      "hito": "La Cámara de Apelaciones en lo Civil anuló el fallo de primera instancia en el litigio de tierras en cerro Belvedere y ordenó dictar una nueva sentencia.",
+      "noticia_id": "2026-10-08_justicia-anulo-fallo-tierras-ginobili-paichil-antriao",
+      "fuente_url": "https://www.rionegro.com.ar/justicia/la-justicia-anulo-el-fallo-que-obligaba-a-una-comunidad-mapuche-a-devolverle-tierras-a-ginobili-y-ordeno-una-nueva-sentencia-4752503/"
+    },
+    {
+      "fecha": "2026-10-09",
+      "hito": "La Corte Suprema de Justicia de la Nación suspendió el artículo del DNU 70/2023 que derogaba la Ley de Tierras tras un amparo colectivo originado en Bariloche.",
+      "noticia_id": "2026-10-09_corte-suprema-suspendio-derogacion-ley-tierras-amparo-bariloche",
+      "fuente_url": "https://www.elcordillerano.com.ar/noticias/2026/10/09/266634-la-corte-suprema-suspendio-el-articulo-del-dnu-70-que-deroga-la-ley-de-tierras"
+    },
+    {
+      "fecha": "2026-10-14",
+      "hito": "UNRN, UNCo, ATE Parques Nacionales, UnTER y organismos de DD.HH. convocaron en el CRUB a una marcha unificada para el 15 de octubre en defensa de la Ley de Tierras y la universidad pública.",
+      "noticia_id": "2026-10-14_marcha-universitaria-soberania-ley-tierras-bariloche",
+      "fuente_url": "https://www.elcordillerano.com.ar/noticias/2026/10/14/267396-en-bariloche-anunciaron-una-marcha-uniendo-reclamos-universidades-y-soberania-territorial"
+    },
+    {
+      "fecha": "2026-10-19",
+      "hito": "El intendente Walter Cortés propuso fusionar el Instituto Municipal de Tierra y Vivienda con Catastro dentro de la reforma de la Carta Orgánica para agilizar regularizaciones dominiales.",
+      "noticia_id": "2026-10-19_cortes-reforma-carta-organica-fusion-tierra-catastro-arraigo",
+      "fuente_url": "https://www.elcordillerano.com.ar/noticias/2026/10/19/268226-cortes-hablo-sobre-la-reforma-y-de-generar-un-proyecto-de-mas-obras-para-bariloche-en-los-proximos-anos"
     }
   ],
-  "cronica_html": "<div class=\"c-dossier-article\">\n<p class=\"c-lead\">La emergencia habitacional de Bariloche constituye la herida social más profunda de la ciudad: la escasez crítica de alquileres permanentes frente a la dolarización del mercado turístico temporario expulsa a familias trabajadoras hacia la periferia y tensiona las políticas de acceso al suelo urbano.</p>\n<h3>1. Antecedentes y génesis</h3>\n<p>El boom turístico pospandemia y el crecimiento demográfico exponencial agravaron una asimetría histórica: mientras la plaza hotelera y parahotelera formal se expandía, miles de viviendas residenciales migraron masivamente hacia el alquiler temporario turístico (ATT), atraídas por la rentabilidad en moneda extranjera y la desregulación de plataformas como Airbnb y Booking. Como contrapartida, más de 12.000 familias inquilinas de Bariloche quedaron atrapadas en un cuello de botella habitacional marcado por contratos informales, exigencias de garantías inaccesibles y valores que insumen más del 60% del ingreso promedio familiar.</p>\n<h3>2. Últimos acontecimientos y novedades</h3>\n<p>El Instituto Municipal de Tierras y Viviendas para el Hábitat Social (IMTVHS) y la Subsecretaría de Planeamiento Urbano iniciaron el relevamiento de parcelas fiscales en el sur y este de la ciudad para proyectar loteos sociales con servicios básicos, mientras la Asociación de Inquilinos de Bariloche elevó al Concejo Deliberante y a los candidatos a convencionales constituyentes una propuesta formal para incorporar en la nueva Carta Orgánica la declaración de la vivienda como derecho humano inalienable y la creación de un banco municipal de tierras no especulativas.</p>\n<p>En paralelo, la fiscalización de los alojamientos turísticos temporarios no registrados continúa siendo un foco de fricción: las cámaras hoteleras exigen controles tributarios rigurosos para erradicar la competencia desleal, en tanto las organizaciones sociales demandan topes al porcentaje de viviendas que pueden destinarse al turismo en zonas residenciales tradicionales para frenar la expulsión de vecinos y docentes de los barrios.</p>\n<blockquote cite=\"https://www.anbariloche.com.ar\">\n<p>«Bariloche no puede ser una ciudad pensada exclusivamente para quienes la visitan tres semanas al año mientras los médicos, maestros, policías y trabajadores gastronómicos no consiguen un techo donde vivir.» — Colectivo de Inquilinos Autoconvocados de Bariloche.</p>\n</blockquote>\n<aside class=\"c-dossier-data\">\n<h4>Métricas del déficit habitacional y mercado inmobiliario</h4>\n<ul>\n<li><strong>Familias inquilinas estimadas:</strong> Más de 12.000 hogares en el ejido barilochense.</li>\n<li><strong>Alojamiento turístico temporario (ATT):</strong> Más de 4.500 unidades estimadas, con alto porcentaje de informalidad.</li>\n<li><strong>Impacto en ingresos:</strong> El costo de alquiler y expensas insume entre el 55% y el 70% del salario medio local.</li>\n<li><strong>Demanda en el IMTVHS:</strong> Registro de demanda habitacional con más de 8.000 inscriptos a la espera de loteos sociales.</li>\n<li><strong>Marco constitucional:</strong> Debate para incluir el acceso a la tierra y hábitat digno en la reforma de la Carta Orgánica del 1 de noviembre.</li>\n</ul>\n</aside>\n<h3>3. Actores e intereses en disputa</h3>\n<p>La tensión enfrenta a la Asociación de Inquilinos y centrales sindicales —que exigen regulación de precios, incentivos fiscales para alquileres permanentes y freno a la turistificación salvaje— con el sector desarrollador inmobiliario y propietarios particulares nucleados en el Colegio de Martilleros, quienes argumentan que cualquier restricción o control de precios retrae aún más la oferta disponible. En el centro, el Estado municipal busca equilibrar la recaudación de tasas y la atracción de inversiones con la contención social en asentamientos precarios del Alto.</p>\n<h3>4. Hacia dónde va: próximos pasos e instancias clave</h3>\n<p>La definición de una política habitacional de largo plazo dependerá de los consensos alcanzados en la Convención Constituyente que sesionará a partir de noviembre, donde se definirá si el Municipio adquiere facultades para regular el uso del suelo, gravar la vivienda ociosa y crear fondos específicos para urbanizar barrios populares con infraestructura básica.</p>\n</div>",
-  "fecha_ultima_cronica": "2026-10-06",
   "media": {
-    "imagen_url": null,
-    "credito": null,
+    "credito": "Prensa ATE Bariloche / Bariloche Opina",
     "requiere_foto": true,
-    "prompt_nanobanana": "Ilustración editorial conceptual en estilo animación 2D sobre la crisis habitacional en la cordillera: una pintoresca ladera de montaña en Bariloche donde contrastan cabañas turísticas iluminadas con candados y carteles de reserva temporal frente a la silueta de una familia trabajadora local con mochilas escolares buscando hogar. De fondo, los cerros nevados y el lago bajo la bruma crepuscular. Tono reflexivo y humano, estilo flat design editorial de revista de análisis político, paleta sobria en azul noche, ámbar cálido y grises andinos, sin texto ni palabras."
+    "imagen_url": "https://firebasestorage.googleapis.com/v0/b/bariloche-semanal.firebasestorage.app/o/dossiers%2Fgeneral%2Fmanifestacionate_1792075995995.webp?alt=media&token=4e1ff3fb-95e6-4bea-848e-c50ae21467e0",
+    "prompt_nanobanana": "Ilustración editorial en estilo animación 2D sobre hábitat y soberanía patagónica: camiones mixer de hormigón trabajando en la estructura metálica del Gimnasio Municipal N° 6 en el barrio Arrayanes en el Alto de Bariloche, conviviendo con asamblea ciudadana de docentes, estudiantes y guardaparques con pancartas en defensa de la tierra pública y los lagos andinos. Estilo dinámico y sobrio, paleta en gris hormigón, rojo óxido, verde bosque, ocre tierra y azul patagónico, sin texto."
   },
-  "ultima_actualizacion": "2026-10-06",
-  "updated_at": "2026-10-06T23:07:38.803Z"
+  "fecha_ultima_cronica": "2026-10-19",
+  "ultima_actualizacion": "2026-10-20T12:55:12.750Z",
+  "updated_at": "2026-10-20T12:55:12.750Z"
 }

@@ -1,0 +1,48 @@
+{
+  "id": "2026-10-10_gobierno-provincial-convoco-paritarias-unter-14-octubre",
+  "titular": "Tensión salarial docente: el Gobierno de Río Negro convocó formalmente a UnTER a paritarias para el 14 de octubre",
+  "hecho_central": "La Secretaría de Trabajo de la provincia formalizó la convocatoria al gremio docente UnTER a una audiencia paritaria salarial para el próximo miércoles 14 de octubre a las 10:00 en Viedma. El llamado del Ejecutivo provincial responde a las medidas de fuerza y reclamos de las seccionales andinas que denuncian pérdida del poder adquisitivo frente a la inflación y demoras en el mantenimiento de establecimientos escolares.",
+  "area_id": "gestion-publica",
+  "dossier_id": "carta-organica-reforma",
+  "seguimiento_id": "carta-organica-reforma",
+  "fuente": {
+    "id": "anbariloche",
+    "nombre": "ANBariloche",
+    "url_nota": "https://www.anbariloche.com.ar/noticias/2026/10/10/119604-tras-los-reclamos-el-gobierno-convoco-a-unter-a-paritarias-para-el-14-de-octubre"
+  },
+  "fuentes_consultadas": [
+    {
+      "id": "anbariloche",
+      "nombre": "ANBariloche",
+      "url_nota": "https://www.anbariloche.com.ar/noticias/2026/10/10/119604-tras-los-reclamos-el-gobierno-convoco-a-unter-a-paritarias-para-el-14-de-octubre"
+    }
+  ],
+  "cobertura_cruzada": 1,
+  "cuerpo_html": "<p class=\"c-dossier-link\">📌 <em>Seguimiento: <a href=\"/seguimientos/carta-organica-reforma\">Gestión Pública y Conflictos Laborales Estatales</a></em></p>\n<p>Tras una escalada de reclamos y advertencias de nuevas medidas de fuerza en las escuelas rionegrinas, <strong>el Gobierno provincial convocó formalmente a la UnTER a una audiencia paritaria para el miércoles 14 de octubre</strong> en Viedma, según informó <a href=\"https://www.anbariloche.com.ar/noticias/2026/10/10/119604-tras-los-reclamos-el-gobierno-convoco-a-unter-a-paritarias-para-el-14-de-octubre\" target=\"_blank\" rel=\"noopener noreferrer\">ANBariloche</a>.</p>\n<p>La notificación oficial de la Secretaría de Trabajo descomprime provisoriamente la tensión en la seccional Bariloche del gremio docente, donde las asambleas venían exigiendo una recomposición salarial al básico que compense la inflación acumulada en el tercer trimestre. La negociación del 14 de octubre será determinante para definir la normalidad de las clases en el tramo final del ciclo lectivo 2026.</p>",
+  "citas": [
+    {
+      "autor": "Secretaría de Trabajo de Río Negro",
+      "texto": "Convocamos a las partes a una mesa de diálogo paritario con el objetivo de preservar el ciclo lectivo y acercar posiciones respecto al esquema salarial del último trimestre del año."
+    }
+  ],
+  "datos_duros": {
+    "fecha_paritaria": "Miércoles 14 de octubre de 2026 a las 10:00 hs en la Secretaría de Trabajo (Viedma)",
+    "gremio_participante": "Unión de Trabajadores de la Educación de Río Negro (UnTER)",
+    "reclamo_principal": "Recomposición salarial al básico y actualización de sumas remunerativas",
+    "alcance_provincial": "Impacto sobre más de 20.000 docentes en escuelas de toda la provincia"
+  },
+  "area": "Gestión Pública",
+  "fecha": "2026-10-06",
+  "foto": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/10/anbariloche/images/02/80/77/2807737_ecc7010bb12e2d3682d92adc9d019edc3941c4358616274ac2436eacf67fae05/lg.webp",
+  "updated_at": "2026-10-12T14:08:24.183Z",
+  "curada_manualmente": false,
+  "imagen_url": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/10/anbariloche/images/02/80/77/2807737_ecc7010bb12e2d3682d92adc9d019edc3941c4358616274ac2436eacf67fae05/lg.webp",
+  "media": {
+    "credito": "Prensa UnTER / ANBariloche",
+    "requiere_foto": true,
+    "prompt_nanobanana": "Ilustración editorial en estilo animación 2D sobre educación pública patagónica: una mesa de negociación institucional con carpetas salariales, una bandera provincial de Río Negro y de fondo la silueta de un aula escolar andina con pizarrón y ventanales con vista a la cordillera. Tono sobrio, líneas vectoriales limpias, paleta en azul institucional, verde bosque, ocre y blanco tiza, sin texto.",
+    "imagen_url": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/10/anbariloche/images/02/80/77/2807737_ecc7010bb12e2d3682d92adc9d019edc3941c4358616274ac2436eacf67fae05/lg.webp"
+  },
+  "url": "https://www.anbariloche.com.ar/noticias/2026/10/10/119604-tras-los-reclamos-el-gobierno-convoco-a-unter-a-paritarias-para-el-14-de-octubre",
+  "fecha_publicacion": "2026-10-06"
+}

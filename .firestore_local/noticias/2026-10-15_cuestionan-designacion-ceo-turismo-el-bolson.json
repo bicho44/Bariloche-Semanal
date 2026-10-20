@@ -1,0 +1,54 @@
+{
+  "id": "2026-10-15_cuestionan-designacion-ceo-turismo-el-bolson",
+  "titular": "Polémica en la Comarca Andina: prestadores de El Bolsón cuestionan la designación del nuevo CEO de Turismo por sus honorarios y residencia",
+  "hecho_central": "La designación oficial de Diego Conca al frente de la Agencia de Turismo de El Bolsón (ATEB) desató este jueves 15 de octubre un intenso debate entre prestadores independientes y autoridades del sector en la Comarca Andina. Las objeciones de los operadores locales se concentran en que el directivo residiría habitualmente en Buenos Aires y percibiría una remuneración prevista superior a los haberes del intendente municipal, en tanto que la titular de la ATEB, Adriana Del Agua, y el presidente de la Cámara de Turismo local, Diego Cordero, defendieron enfáticamente su contratación por concurso de antecedentes para profesionalizar la estrategia promocional estival.",
+  "dossier_id": "temporada-turistica-nieve",
+  "seguimiento_id": "temporada-turistica-nieve",
+  "fuente": {
+    "id": "bariloche-opina",
+    "nombre": "Bariloche Opina",
+    "url_nota": "https://www.barilocheopina.com/noticias/2026/10/15/95852-cuestionan-al-nuevo-ceo-de-turismo-de-el-bolson-por-sus-honorarios-y-residencia"
+  },
+  "fuentes_consultadas": [
+    {
+      "id": "bariloche-opina",
+      "nombre": "Bariloche Opina",
+      "url_nota": "https://www.barilocheopina.com/noticias/2026/10/15/95852-cuestionan-al-nuevo-ceo-de-turismo-de-el-bolson-por-sus-honorarios-y-residencia"
+    }
+  ],
+  "cobertura_cruzada": 1,
+  "cuerpo_html": "<p class=\"c-dossier-link\">📌 <em>Seguimiento: <a href=\"/seguimientos/temporada-turistica-nieve\">Políticas de Promoción, Gobernanza Turística y Comarca Andina</a></em></p>\n<p>La institucionalidad turística de la Comarca Andina del Paralelo 42 quedó envuelta este jueves 15 de octubre en una acalorada discusión política y sectorial: prestadores turísticos de El Bolsón expresaron su malestar por las condiciones de contratación del <strong>nuevo CEO de la Agencia de Turismo de El Bolsón (ATEB), Diego Conca</strong>.</p>\n<p>De acuerdo con la información publicada por <a href=\"https://www.barilocheopina.com/noticias/2026/10/15/95852-cuestionan-al-nuevo-ceo-de-turismo-de-el-bolson-por-sus-honorarios-y-residencia\" target=\"_blank\" rel=\"noopener noreferrer\">Bariloche Opina</a>, las objeciones planteadas por los operadores locales giran en torno a dos ejes sensibles: por un lado, señalan que los honorarios pactados para el flamante directivo superarían el haber mensual que percibe el intendente municipal; por otro, cuestionan que el ejecutivo mantendría su residencia habitual en la Ciudad de Buenos Aires, lo que a criterio de los prestadores resentirá la presencia y el conocimiento en territorio de las complejidades comarcales.</p>\n<p>Frente a las críticas, la presidenta del directorio de la ATEB, Adriana Del Agua, y el titular de la Cámara de Turismo de El Bolsón, Diego Cordero, salieron a respaldar enfáticamente la designación. Ambos dirigentes subrayaron que Conca fue seleccionado mediante un concurso público de antecedentes profesionales con el fin de otorgar un perfil técnico y de alta competitividad comercial a la agencia mixta, en un momento donde la comarca necesita maximizar su captación de visitantes frente al repliegue del consumo nacional y en plena transición hacia la temporada estival 2027.</p>",
+  "citas": [
+    {
+      "autor": "Prestadores turísticos independientes de El Bolsón",
+      "texto": "Cuestionamos que la conducción ejecutiva de la agencia turística recaiga en una persona que reside en Buenos Aires y con una remuneración superior a la del intendente, en un momento en que la comarca necesita arraigo y austeridad en la gestión."
+    },
+    {
+      "autor": "Adriana Del Agua, presidenta de la Agencia de Turismo de El Bolsón (ATEB)",
+      "texto": "La incorporación de Conca se produjo tras un riguroso concurso público para jerarquizar la gestión de la ATEB y potenciar el posicionamiento de El Bolsón en los principales centros emisores del país de cara a la temporada alta."
+    }
+  ],
+  "datos_duros": {
+    "organismo": "Agencia de Turismo de El Bolsón (ATEB)",
+    "funcionario_designado": "Diego Conca (CEO ejecutivo)",
+    "ejes_de_controversia": "Nivel de honorarios por encima de la escala del intendente y residencia fijada en Buenos Aires",
+    "respaldos_institucionales": "Adriana Del Agua (presidenta de ATEB) y Diego Cordero (presidente de la Cámara de Turismo de El Bolsón)",
+    "mecanismo_seleccion": "Selección mediante concurso público de antecedentes profesionales",
+    "contexto_comarcal": "Transición hacia el verano tras el éxito gastronómico del BALC y el Oktober Fest en la cordillera"
+  },
+  "area": "Gestión Pública",
+  "fecha": "2026-10-11",
+  "foto": "https://barilocheopina-s3.cdn.net.ar/s3i233/2026/10/barilocheopina/images/02/81/45/2814527_3ab90a50db2dbbfe6cec6d066f00a335253d8f9b33687d611943f3d57e67f729/md.webp",
+  "updated_at": "2026-10-16T12:11:43.720Z",
+  "curada_manualmente": false,
+  "imagen_url": "https://barilocheopina-s3.cdn.net.ar/s3i233/2026/10/barilocheopina/images/02/81/45/2814527_3ab90a50db2dbbfe6cec6d066f00a335253d8f9b33687d611943f3d57e67f729/md.webp",
+  "media": {
+    "credito": "Prensa ATEB / Bariloche Opina / Bariloche Semanal",
+    "requiere_foto": true,
+    "prompt_nanobanana": "Ilustración editorial en estilo animación 2D sobre dirigencia turística en la Comarca Andina: el valle de El Bolsón con las cumbres imponentes del cerro Piltriquitrón de fondo, un cartel rústico de madera de la Agencia de Turismo y un grupo de prestadores de cabañas y guías de montaña debatiendo en la plaza Pagano frente a un mapa turístico regional. Estilo límpido y moderno, paleta en verde bosque, ocre madera, azul andino y gris piedra, sin texto.",
+    "imagen_url": "https://barilocheopina-s3.cdn.net.ar/s3i233/2026/10/barilocheopina/images/02/81/45/2814527_3ab90a50db2dbbfe6cec6d066f00a335253d8f9b33687d611943f3d57e67f729/md.webp"
+  },
+  "area_id": "gestion-publica",
+  "url": "https://www.barilocheopina.com/noticias/2026/10/15/95852-cuestionan-al-nuevo-ceo-de-turismo-de-el-bolson-por-sus-honorarios-y-residencia",
+  "fecha_publicacion": "2026-10-11"
+}

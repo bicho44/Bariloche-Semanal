@@ -34,6 +34,9 @@ export async function crearDossier(req: Request, res: Response): Promise<void> {
       titulo,
       area_id,
       estado,
+      criterio_inclusion,
+      prohibido_incluir,
+      datos_duros_verificados,
       resumen_contexto,
       actores_clave,
       timeline,
@@ -56,6 +59,9 @@ export async function crearDossier(req: Request, res: Response): Promise<void> {
       titulo,
       area_id,
       estado: estado || 'activo',
+      criterio_inclusion,
+      prohibido_incluir,
+      datos_duros_verificados: datos_duros_verificados || {},
       resumen_contexto,
       actores_clave: actores_clave || [],
       timeline: timeline || [],
@@ -76,7 +82,11 @@ export async function crearDossier(req: Request, res: Response): Promise<void> {
 export async function actualizarDossier(req: Request, res: Response): Promise<void> {
   try {
     const { slug } = req.params;
-    const actualizado = await dossiersService.actualizar(slug, req.body);
+    const bodyConCurada = {
+      ...req.body,
+      curada_manualmente: req.body.curada_manualmente !== undefined ? Boolean(req.body.curada_manualmente) : true,
+    };
+    const actualizado = await dossiersService.actualizar(slug, bodyConCurada);
     if (!actualizado) {
       res.status(404).json({ error: `Dossier con slug '${slug}' no encontrado` });
       return;
@@ -91,14 +101,19 @@ export async function actualizarDossier(req: Request, res: Response): Promise<vo
 export async function agregarHitoDossier(req: Request, res: Response): Promise<void> {
   try {
     const { slug } = req.params;
-    const { fecha, hito, noticia_id } = req.body;
+    const { fecha, hito, noticia_id, fuente_url } = req.body;
 
     if (!fecha || !hito) {
       res.status(400).json({ error: 'Campos requeridos: fecha, hito' });
       return;
     }
 
-    const actualizado = await dossiersService.agregarHitoTimeline(slug, { fecha, hito, noticia_id });
+    const actualizado = await dossiersService.agregarHitoTimeline(slug, {
+      fecha,
+      hito,
+      noticia_id,
+      fuente_url,
+    });
     if (!actualizado) {
       res.status(404).json({ error: `Dossier con slug '${slug}' no encontrado` });
       return;
@@ -122,5 +137,51 @@ export async function eliminarDossier(req: Request, res: Response): Promise<void
   } catch (err: unknown) {
     const error = err as Error;
     res.status(500).json({ error: 'Error al eliminar dossier', detalle: error.message });
+  }
+}
+
+/**
+ * POST /api/editorial/deep-dive
+ * Genera crónica de fondo / deep-dive blindado contra alucinaciones utilizando el SDK @google/genai
+ */
+export async function generarDeepDiveEditorial(req: Request, res: Response): Promise<void> {
+  try {
+    const {
+      slug,
+      dossier_id,
+      dossier,
+      criterio_inclusion,
+      prohibido_incluir,
+      datos_duros_verificados,
+      instrucciones_adicionales,
+      guardar,
+    } = req.body || {};
+
+    const targetSlug = slug || dossier_id || dossier?.id;
+    if (!targetSlug && !dossier?.titulo) {
+      res.status(400).json({
+        error: 'Debe especificar el slug del dossier o enviar el objeto dossier con título y contexto para redactar la crónica.',
+      });
+      return;
+    }
+
+    const resultado = await dossiersService.redactarCronicaDeepDive({
+      slug: targetSlug,
+      dossier,
+      criterio_inclusion,
+      prohibido_incluir,
+      datos_duros_verificados,
+      instrucciones_adicionales,
+      guardar: Boolean(guardar),
+    });
+
+    res.json(resultado);
+  } catch (err: unknown) {
+    const error = err as Error;
+    console.error('[Editorial Deep-Dive Error]:', error);
+    res.status(500).json({
+      error: 'Error al redactar deep-dive editorial con Gemini',
+      detalle: error.message,
+    });
   }
 }

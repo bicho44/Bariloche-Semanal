@@ -1,101 +1,75 @@
 {
   "id": "ceb-municipio-servicios",
-  "titulo": "Relación Municipio - CEB y Servicios Públicos",
-  "area_id": "gestion-publica",
+  "titulo": "Servicios Públicos Críticos: Cooperativa de Electricidad Bariloche (CEB), Saneamiento y Crisis Hídrica (ARSA)",
+  "area_id": "poder",
   "estado": "activo",
-  "resumen_contexto": "Seguridad ciudadana y coordinación pública: el Municipio conformó la Mesa de Seguridad Interfuerzas junto a la Policía de Río Negro, fuerzas federales y la Justicia Federal y provincial.",
+  "criterio_inclusion": "Elecciones de delegados y gobernanza de la CEB, cortes y obras en la red eléctrica y línea ALIPIBA, funcionamiento y ampliación de la planta depuradora cloacal, y crisis de abastecimiento de agua potable de Aguas Rionegrinas (ARSA), turbiedad del río Ñireco y obras de captación hídrica.",
+  "prohibido_incluir": "Cortes domiciliarios aislados sin impacto barrial o reclamos particulares no verificados.",
+  "resumen_contexto": "En la antesala de las elecciones distritales de la CEB convocadas para el 7 de noviembre (84 delegados titulares), un colapso en la línea de alta tensión ALIPIBA operada por EdERSA dejó sin energía a Bariloche y Dina Huapi el 14 de octubre, obligando a la cooperativa a encender generación térmica de emergencia para sostener hospitales y el bombeo cloacal.",
   "actores_clave": [
-    "ceb",
-    "walter-cortes",
-    "dpa",
-    "juntas-vecinales-este",
-    "arsa"
+    "Consejo de Administración de la CEB (Alejandro Pozas)",
+    "Empresa de Energía Río Negro (EdERSA) y EPRE",
+    "Listas de candidatos a delegados distritales de la CEB",
+    "Vecinos del Este y Departamento Provincial de Aguas (DPA)",
+    "Aguas Rionegrinas (ARSA)",
+    "Pablo Haedo"
   ],
+  "datos_duros_verificados": {
+    "eleccion_delegados_ceb": "2026-11-07",
+    "delegados_a_renovar": "84 titulares y 37 suplentes",
+    "cierre_padron_ceb": "2026-10-16",
+    "potencia_linea_alipiba": "132 kV",
+    "fuente_convocatoria_ceb": "https://www.elcordillerano.com.ar/noticias/2026/10/06/265977-la-ceb-convoca-a-elecciones-de-delegados-de-distrito",
+    "turbiedad_rio_nireco": "Picos de 700 a 800 NTU el 19/10/2026 (16 veces por encima del límite operativo de 50 NTU de Planta Pilar)",
+    "obra_hidrica_estructural": "Nueva toma en Lago Gutiérrez + 2 perforaciones en Planta Pilar en ejecución por ARSA",
+    "fuente_crisis_hidrica": "https://www.elcordillerano.com.ar/noticias/2026/10/19/268310-la-turbiedad-del-ireco-supera-15-veces-los-niveles-habituales-y-complica-el-suministro-de-agua-en-bariloche"
+  },
+  "cronica_html": "<div class=\"c-dossier-article\">\n<p class=\"c-lead\">La Cooperativa de Electricidad Bariloche (CEB) transita las semanas previas a sus elecciones distritales del 7 de noviembre bajo una doble exigencia operativa: tras las intimaciones vecinales por el funcionamiento de los aireadores en la planta depuradora del Este, el apagón regional del miércoles 14 de octubre en la línea ALIPIBA volvió a exponer la vulnerabilidad del abastecimiento eléctrico externo del que dependen Bariloche y Dina Huapi.</p>\n\n<h3>1. Antecedentes y qué está en juego en el expediente</h3>\n<p>La CEB administra los dos servicios críticos de mayor escala en el ejido de Bariloche y Dina Huapi: la distribución de energía eléctrica y el sistema de saneamiento cloacal sobre la cuenca del lago Nahuel Huapi. En materia energética, la cooperativa se abastece del Sistema Argentino de Interconexión a través de una única línea de alta tensión de 132 kV (ALIPIBA) operada aguas arriba por EdERSA, contando únicamente con generación térmica de respaldo en la central La Paloma para cubrir consumos esenciales ante colapsos externos.</p>\n\n<h3>2. Bitácora documentada de hitos recientes</h3>\n<ul>\n<li><strong>[14/10/2026] Apagón regional por falla en línea ALIPIBA:</strong> Cerca de las 10:30 hs se produjo un corte total de suministro eléctrico en Bariloche, Dina Huapi y Villa Mascardi por una salida de servicio en las instalaciones de transporte de EdERSA sobre el corredor ALIPIBA, según informaron <a href=\"https://www.elcordillerano.com.ar/noticias/2026/10/14/267375-apagon-en-bariloche-y-dina-huapi-un-corte-de-energia-afecto-a-toda-la-region\" target=\"_blank\" rel=\"noopener noreferrer\">Diario El Cordillerano</a> y <a href=\"https://www.barilocheopina.com/noticias/2026/10/14/95799-corte-general-de-luz-en-bariloche-la-ceb-espera-informacion-de-edersa\" target=\"_blank\" rel=\"noopener noreferrer\">Bariloche Opina</a>. La CEB debió poner en marcha sus generadores diésel en La Paloma para asistir al Hospital Zonal y a las plantas de bombeo sanitario.</li>\n<li><strong>[06/10/2026] Convocatoria a elecciones distritales en la CEB:</strong> El Consejo de Administración convocó oficialmente a elecciones para el sábado 7 de noviembre con el fin de renovar 84 delegados titulares, 37 suplentes, consejeros y síndicos en los 21 distritos cooperativos, según reportó <a href=\"https://www.elcordillerano.com.ar/noticias/2026/10/06/265977-la-ceb-convoca-a-elecciones-de-delegados-de-distrito\" target=\"_blank\" rel=\"noopener noreferrer\">Diario El Cordillerano</a>.</li>\n<li><strong>[01/10 y 02/10/2026] Reclamo vecinal y recambio de aireadores en la Planta Depuradora:</strong> Tras la denuncia de juntas vecinales del Este ante el DPA por olores fétidos en la costa de Modesta Victoria (<a href=\"https://www.anbariloche.com.ar/noticias/2026/10/01/118767-vecinos-del-este-denuncian-olores-fetidos-en-la-zona-aledana-a-la-planta-depuradora\" target=\"_blank\" rel=\"noopener noreferrer\">ANBariloche</a>), la CEB admitió desperfectos mecánicos en los sopladores de aireación del módulo antiguo y anunció la compra e instalación de nuevos equipos (<a href=\"https://www.anbariloche.com.ar/noticias/2026/10/02/118839-tras-el-desprendimiento-de-olores-fetidos-la-ceb-anuncio-el-reemplazo-de-equipamiento-en-la-planta-depuradora\" target=\"_blank\" rel=\"noopener noreferrer\">ANBariloche</a>).</li>\n</ul>\n\n<blockquote cite=\"https://www.barilocheopina.com/noticias/2026/10/14/95799-corte-general-de-luz-en-bariloche-la-ceb-espera-informacion-de-edersa\">\n<p>«El inconveniente se originó fuera del área de concesión de la CEB, en las redes de transporte operadas por EdERSA; activamos de inmediato la generación propia en La Paloma para sostener los servicios prioritarios», informó oficialmente la cooperativa.</p>\n</blockquote>\n\n<aside class=\"c-dossier-data\">\n<h4>Tablero de control: CEB, Energía y Saneamiento</h4>\n<ul>\n<li><strong>Elecciones distritales CEB:</strong> Sábado 7 de noviembre de 2026 (renovación de 84 delegados titulares y 37 suplentes).</li>\n<li><strong>Cierre de padrones cooperativos:</strong> Viernes 16 de octubre de 2026.</li>\n<li><strong>Contingencia energética:</strong> Apagón regional el 14/10/2026 por falla externa en línea ALIPIBA (132 kV - EdERSA).</li>\n<li><strong>Saneamiento cloacal:</strong> Compromiso de recambio de sopladores de aireación en la planta de Modesta Victoria.</li>\n</ul>\n</aside>\n\n<h3>3. Mapa de posiciones comprobadas</h3>\n<p>La conducción actual de la CEB deslinda responsabilidades por los cortes troncales señalando la falta de inversión en el transporte provincial operado por EdERSA, mientras vecinos de los barrios del Este mantienen el monitoreo con el DPA para verificar que el recambio de sopladores en la planta depuradora elimine los vuelcos malolientes antes del verano.</p>\n\n<h3>4. Próximas instancias confirmadas</h3>\n<p>Este viernes 16 de octubre vence el plazo de exhibición y depuración de padrones en la CEB, paso previo a la oficialización de listas rumbo a las elecciones de delegados distritales del sábado 7 de noviembre de 2026.</p>\n</div>",
   "timeline": [
     {
-      "fecha": "2026-08-10",
-      "hito": "Reunión técnica entre secretarios municipales y el Consejo de Administración de la CEB por alumbrado público."
-    },
-    {
-      "fecha": "2026-09-17",
-      "hito": "La CEB suma vehículos eléctricos a su flota de cuadrillas urbanas.",
-      "fuente_url": "https://www.barilocheopina.com"
-    },
-    {
       "fecha": "2026-09-21",
-      "hito": "Corte de luz programado en el microcentro (Elflein y Rolando) para mantenimiento de subestación.",
+      "hito": "Corte de energía programado por la CEB en el microcentro (Elflein y Rolando) para mantenimiento preventivo de subestación transformadora.",
       "noticia_id": "2026-09-21_ceb-corte-programado-energia-centro",
       "fuente_url": "https://www.anbariloche.com.ar/noticias/2026/09/21/117781-corte-de-luz-programado-este-martes-en-una-zona-del-centro-de-bariloche"
     },
     {
-      "fecha": "2026-09-24",
-      "hito": "Crecida del arroyo Ñireco paralizó la Planta Pilar de ARSA por turbiedad, dejando sin agua a 8 barrios del sur barilochense.",
-      "noticia_id": "2026-09-24_crecida-arroyo-nireco-turbiedad-planta-pilar-agua-potable",
-      "fuente_url": "https://www.elcordillerano.com.ar/noticias/2026/09/24/263902-preocupacion-de-los-vecinos-por-la-crecida-del-arroyo-ireco"
-    },
-    {
-      "fecha": "2026-09-25",
-      "hito": "Tres deslaves en la barda del arroyo Ñireco generaron alarma en barrio 150 Viviendas por álamos con raíces expuestas; la CEB programó cortes preventivos en Don Bosco y macrocentro.",
-      "noticia_id": "2026-09-25_tres-deslaves-barda-nireco-barrio-150-viviendas-peligro-arboles",
-      "fuente_url": "https://www.elcordillerano.com.ar/noticias/2026/09/25/264058-tres-deslaves-en-la-zona-de-la-barda-del-barrio-150-viviendas-hay-peligro-de-caida-de-arboles"
-    },
-    {
-      "fecha": "2026-09-26",
-      "hito": "Crecida extraordinaria de los ríos Manso y Foyel afectó a 67 familias rurales, descalzó pasarelas y activó centros de evacuación; se mantiene alerta por deshielos.",
-      "noticia_id": "2026-09-26_emergencia-crecida-rio-manso-foyel-asistencia-67-familias",
-      "fuente_url": "https://www.barilocheopina.com/noticias/2026/09/26/94939-asisten-a-67-familias-afectadas-por-las-lluvias-en-el-manso"
-    },
-    {
-      "fecha": "2026-09-27",
-      "hito": "Rescatistas debieron cruzar a pie por el filo de la montaña en El Manso para abastecer a familias incomunicadas tras descalzarse la pasarela del km 24.",
-      "noticia_id": "2026-09-27_el-manso-operativo-emergencia-asistencia-pasarela-filo-cerro",
-      "fuente_url": "https://www.elcordillerano.com.ar/noticias/2026/09/27/264310-el-manso-gran-despliegue-para-asistir-a-familias-aisladas-por-la-crecida-del-rio"
-    },
-    {
-      "fecha": "2026-09-28",
-      "hito": "Comenzó el hormigonado de la nueva planta potabilizadora del Lago Gutiérrez ($21.000M y 24 millones de litros diarios para 30 barrios del sur).",
-      "noticia_id": "2026-09-28_hormigonado-planta-agua-lago-gutierrez-75000-vecinos-sur",
-      "fuente_url": "https://www.elcordillerano.com.ar/noticias/2026/09/28/264505-ya-toma-forma-la-obra-de-agua-impulsada-por-weretilneck-para-mas-de-75000-vecinos-de-bariloche"
-    },
-    {
-      "fecha": "2026-09-29",
-      "hito": "Rotura de un caño maestro de 250 mm provocada por una máquina privada afectó el suministro de agua en gran parte de Bariloche.",
-      "noticia_id": "2026-09-29_rotura-cano-maestro-250mm-afecta-suministro-agua-bariloche",
-      "fuente_url": "https://www.anbariloche.com.ar/noticias/2026/09/29/118564-rotura-de-un-cano-afecta-el-servicio-de-agua-en-gran-parte-de-bariloche"
-    },
-    {
-      "fecha": "2026-09-30",
-      "hito": "El Ministerio de Seguridad y Justicia informó una baja de 27% en delitos contra la propiedad y anunció la incorporación de 18 lectores LPR y 230 cámaras en Bariloche.",
-      "noticia_id": "2026-09-30_seguridad-rionegrina-baja-delitos-anuncio-anillo-digital-230-camaras",
-      "fuente_url": "https://www.anbariloche.com.ar/noticias/2026/09/30/118674-la-provincia-informo-una-baja-de-robos-y-hurtos-en-bariloche-y-anuncio-mas-camaras-de-seguridad"
-    },
-    {
       "fecha": "2026-10-01",
-      "hito": "Vecinos del Este presentaron reclamos formales a la CEB y al DPA por olores fétidos provenientes de fallas en aireadores de la planta depuradora de Modesta Victoria.",
+      "hito": "Vecinos del Este presentaron reclamos formales ante la CEB y el DPA por olores provenientes de fallas en los aireadores de la planta depuradora de Modesta Victoria.",
       "noticia_id": "2026-10-01_vecinos-del-este-reclaman-ceb-dpa-olores-planta-depuradora",
       "fuente_url": "https://www.anbariloche.com.ar/noticias/2026/10/01/118767-vecinos-del-este-denuncian-olores-fetidos-en-la-zona-aledana-a-la-planta-depuradora"
     },
     {
       "fecha": "2026-10-02",
-      "hito": "La CEB reconoció averías en los sopladores de aireación de la planta depuradora de Modesta Victoria y anunció su recambio tecnológico tras la intimación de vecinos del Este.",
+      "hito": "La CEB reconoció averías en los sopladores de aireación de la planta depuradora cloacal y anunció el recambio de equipamiento.",
       "noticia_id": "2026-10-02_ceb-anuncio-reemplazo-sopladores-planta-depuradora-reclamo-vecinal",
       "fuente_url": "https://www.anbariloche.com.ar/noticias/2026/10/02/118839-tras-el-desprendimiento-de-olores-fetidos-la-ceb-anuncio-el-reemplazo-de-equipamiento-en-la-planta-depuradora"
     },
     {
       "fecha": "2026-10-06",
-      "hito": "Se constituyó la Mesa de Trabajo Interfuerzas para la Seguridad Ciudadana con el Municipio, fuerzas federales, provinciales y la Justicia Federal en el Polivalente.",
-      "noticia_id": "2026-10-06_municipio-mesa-interfuerzas-seguridad-ciudadana-justicia-federal",
-      "fuente_url": "https://www.barilocheopina.com/noticias/2026/10/06/95451-bariloche-creo-una-mesa-de-trabajo-para-coordinar-acciones-de-seguridad"
+      "hito": "La CEB convocó oficialmente a asambleas electorales de distrito para el sábado 7 de noviembre con el fin de elegir 84 delegados titulares y 37 suplentes.",
+      "noticia_id": "2026-10-06_ceb-convoco-elecciones-delegados-7-noviembre-84-titulares",
+      "fuente_url": "https://www.elcordillerano.com.ar/noticias/2026/10/06/265977-la-ceb-convoca-a-elecciones-de-delegados-de-distrito"
+    },
+    {
+      "fecha": "2026-10-14",
+      "hito": "Una falla en la línea troncal de 132 kV ALIPIBA operada por EdERSA provocó un apagón masivo en Bariloche y Dina Huapi; la CEB debió activar generación diésel en La Paloma para sostener servicios críticos.",
+      "noticia_id": "2026-10-14_apagon-regional-ceb-edersa-alipiba",
+      "fuente_url": "https://www.elcordillerano.com.ar/noticias/2026/10/14/267375-apagon-en-bariloche-y-dina-huapi-un-corte-de-energia-afecto-a-toda-la-region"
+    },
+    {
+      "fecha": "2026-10-19",
+      "hito": "ARSA informó que la turbiedad del río Ñireco escaló a 700-800 NTU (16 veces sobre el límite de 50 NTU de Planta Pilar), afectando a doce barrios del Alto y Este mientras avanza la nueva toma en el lago Gutiérrez y la CEB repone equipos en la planta depuradora.",
+      "noticia_id": "2026-10-19_turbiedad-rio-nireco-800-ntu-arsa-obra-toma-lago-gutierrez",
+      "fuente_url": "https://www.elcordillerano.com.ar/noticias/2026/10/19/268310-la-turbiedad-del-ireco-supera-15-veces-los-niveles-habituales-y-complica-el-suministro-de-agua-en-bariloche"
     }
   ],
-  "cronica_html": "<div class=\"c-dossier-article\">\n<p class=\"c-lead\">La relación entre la Cooperativa de Electricidad Bariloche (CEB), el Municipio y la comunidad vecinal enfrenta un foco de alta sensibilidad ambiental: la crisis operativa en la Planta Depuradora de Modesta Victoria por emanaciones fétidas prematuras provocó intimaciones de ocho juntas del Este y forzó a la cooperativa a comprometer el recambio urgente de sopladores biológicos.</p>\n<h3>1. Antecedentes y génesis</h3>\n<p>La CEB es la concesionaria histórica del servicio de saneamiento cloacal y distribución eléctrica de San Carlos de Bariloche. El saneamiento en particular representa un desafío estructural por la protección ambiental del lago Nahuel Huapi. Aunque la inauguración del segundo módulo de la Planta Depuradora en 2021 quintuplicó la capacidad de procesamiento para más de 180.000 habitantes equivalentes, la infraestructura arrastra cuellos de botella severos: conexiones cloacales clandestinas, bombeos costeros que desbordan con lluvias intensas y la falta de inversiones de fondo en mantenimiento electromecánico por disputas de tarifas con el Departamento Provincial de Aguas (DPA).</p>\n<h3>2. Últimos acontecimientos y novedades</h3>\n<p>La alarma estalló en los últimos días de septiembre cuando vecinos de ocho barrios ribereños y residenciales del ingreso este (La Colina, Costa del Sol, Aldea del Este, Pinar del Sol, Las Victorias, Altos de Pinar del Sol, Villa Verde y Las Marías, nucleados en la CAT 1) comenzaron a percibir olores cloacales nauseabundos y zumbidos mecánicos anómalos con marcas térmicas de apenas 15°C, un fenómeno que históricamente solo ocurría con calores de 30°C en pleno verano.</p>\n<p>Ante la presentación de petitorios formales y la advertencia de recurrir a la Justicia y a la Defensoría del Pueblo, el Consejo de Administración de la CEB emitió un comunicado oficial reconociendo desperfectos mecánicos graves en los <strong>sopladores de aireación secundaria</strong>, equipos vitales para oxigenar las bacterias del tratamiento biológico. La prestadora admitió que la falta de oxígeno redujo la eficacia del proceso, agravada por la infiltración masiva de agua de lluvia en los colectores troncales tras los temporales recientes. Para mitigar el problema, la CEB confirmó la compra y recambio de sopladores averiados por tecnología de mayor confiabilidad.</p>\n<blockquote cite=\"https://www.anbariloche.com.ar/noticias/2026/10/02/118839-tras-el-desprendimiento-de-olores-fetidos-la-ceb-anuncio-el-reemplazo-de-equipamiento-en-la-planta-depuradora\">\n<p>«El problema radica en fallas en los sopladores de aireación indispensables para el proceso biológico. Resolvimos sustituirlos de urgencia y pedimos disculpas a los vecinos; trabajamos para normalizar el servicio antes de los calores del verano.» — Consejo de Administración de la CEB.</p>\n</blockquote>\n<aside class=\"c-dossier-data\">\n<h4>Métricas del saneamiento y servicios esenciales</h4>\n<ul>\n<li><strong>Capacidad de tratamiento:</strong> Planta de Modesta Victoria diseñada para 180.000 habitantes equivalentes.</li>\n<li><strong>Equipamiento en crisis:</strong> Sopladores de aireación biológica secundaria averiados en proceso de reemplazo.</li>\n<li><strong>Barrios afectados:</strong> 8 juntas vecinales nucleadas en torno al Paseo del Este (CAT 1).</li>\n<li><strong>Plazo de informe técnico:</strong> 10 días hábiles comprometidos ante los vecinos por la CEB.</li>\n<li><strong>Obras de agua potable:</strong> Avance en el colado de hormigón en la nueva planta del Lago Gutiérrez ($21.000M para 75.000 vecinos).</li>\n</ul>\n</aside>\n<h3>3. Actores e intereses en disputa</h3>\n<p>En este escenario convergen la CEB —que argumenta retraso tarifario y sobrecarga hidráulica por conexiones pluviales irregulares a la red cloacal—, el Departamento Provincial de Aguas (DPA) como autoridad de aplicación y control de vuelcos al lago, el Municipio que exige garantías sanitarias para la imagen turística de la ciudad, y las juntas vecinales movilizadas que exigen monitoreos químicos independientes y un plan de contingencia estival.</p>\n<h3>4. Hacia dónde va: próximos pasos e instancias clave</h3>\n<p>Durante la segunda quincena de octubre, la CEB deberá presentar a los vecinos el cronograma de instalación de los nuevos sopladores y los resultados de los muestreos de calidad de efluentes tratados vertidos al Nahuel Huapi. Asimismo, el Municipio y ARSA monitorearán el avance de la nueva planta potabilizadora de Lago Gutiérrez, una inversión de $21.000 millones para resolver los cortes estivales en 30 barrios del Alto.</p>\n</div>",
-  "fecha_ultima_cronica": "2026-10-06",
   "media": {
-    "imagen_url": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/10/anbariloche/images/02/79/49/2794965_253faaccdeebdb89dab6813e6f1107edcb5635620c6c0bbbfe74c4aa472dfd51/md.webp",
-    "credito": "Foto: Marcelo Martínez / ANBariloche",
-    "requiere_foto": false,
-    "prompt_nanobanana": "Ilustración editorial en estilo animación 2D y arte conceptual plano: vista aérea estilizada de la costa este de Bariloche sobre el lago Nahuel Huapi, con una moderna planta de tratamiento y saneamiento de aguas, sopladores biológicos y tuberías subterráneas integradas al paisaje cordillerano. Vecinos en la costa observando el agua cristalina del lago y bosques de cipreses. Paleta en tonos azul cerúleo, verde bosque, gris hormigón y acentos en amarillo señalético. Diseño geométrico limpio, vectorizado, atmósfera andina clara, sin texto."
+    "requiere_foto": true,
+    "prompt_nanobanana": "Ilustración editorial en estilo animación 2D sobre servicios esenciales y naturaleza: el arroyo Ñireco caudaloso y turbio descendiendo por el bosque andino hacia la toma de captación de la Planta Potabilizadora Pilar, con operarios con mameluco azul y cascos amarillos inspeccionando las compuertas y los piletones de sedimentación en el faldeo sur de Bariloche. Paleta en marrón arcilla, azul petróleo, verde ciprés y gris plomo, sin texto.",
+    "credito": "Catalogo Bariloche",
+    "imagen_url": "https://firebasestorage.googleapis.com/v0/b/bariloche-semanal.firebasestorage.app/o/dossiers%2Fgeneral%2Femergencia-energetica_1792075394149.webp?alt=media&token=9d12c5f7-f899-4994-9d72-2f907aa83b73"
   },
-  "ultima_actualizacion": "2026-10-06",
-  "updated_at": "2026-10-06T23:07:38.200Z"
+  "fecha_ultima_cronica": "2026-10-19",
+  "ultima_actualizacion": "2026-10-20T12:55:11.690Z",
+  "updated_at": "2026-10-20T12:55:11.690Z"
 }

@@ -1,0 +1,50 @@
+{
+  "id": "2026-10-15_sube-bariloche-actualizacion-obligatoria-boleto-residente",
+  "titular": "SUBE en Bariloche: convocan a todos los usuarios del Boleto Residente a revalidar la tarjeta antes del 30 de noviembre",
+  "hecho_central": "La jefa de la Unidad de Gestión SUBE en Bariloche, Estela Testore, informó este jueves 15 de octubre que todos los vecinos que cuenten con el beneficio del Boleto Residente en el Transporte Urbano de Pasajeros (TUP) deberán pasar su tarjeta plástica por una Terminal Automática SUBE (TAS) o impactar el chip a través de la app móvil con tecnología NFC antes del próximo 30 de noviembre. La actualización resulta obligatoria para mantener el descuento diferencial del 25% y evitar que el sistema les cobre automáticamente la tarifa plana sin subsidio local, en tanto que jubilados y pensionados bajo Tarifa Social Federal no requieren realizar el trámite.",
+  "dossier_id": "transporte-urbano-mibus",
+  "seguimiento_id": "transporte-urbano-mibus",
+  "fuente": {
+    "id": "bariloche-opina",
+    "nombre": "Bariloche Opina",
+    "url_nota": "https://www.barilocheopina.com/noticias/2026/10/15/95855-sube-en-bariloche-todos-los-usuarios-del-boleto-residente-deben-actualizar-la-tarjeta"
+  },
+  "fuentes_consultadas": [
+    {
+      "id": "bariloche-opina",
+      "nombre": "Bariloche Opina",
+      "url_nota": "https://www.barilocheopina.com/noticias/2026/10/15/95855-sube-en-bariloche-todos-los-usuarios-del-boleto-residente-deben-actualizar-la-tarjeta"
+    }
+  ],
+  "cobertura_cruzada": 1,
+  "cuerpo_html": "<p class=\"c-dossier-link\">📌 <em>Seguimiento: <a href=\"/seguimientos/transporte-urbano-mibus\">Transporte Urbano de Pasajeros, Tarifas y Concesión Mi Bus</a></em></p>\n<p>De cara al cierre del año calendario y a las puertas de la audiencia pública del próximo 28 de octubre donde se debatirá la tarifa y recorridos del transporte público, la Unidad de Gestión SUBE de la Municipalidad emitió este 15 de octubre un recordatorio operativo de vital importancia para los usuarios locales: <strong>todos los beneficiarios del Boleto Residente deben revalidar sus tarjetas plásticas antes del 30 de noviembre</strong>.</p>\n<p>En declaraciones recogidas por <a href=\"https://www.barilocheopina.com/noticias/2026/10/15/95855-sube-en-bariloche-todos-los-usuarios-del-boleto-residente-deben-actualizar-la-tarjeta\" target=\"_blank\" rel=\"noopener noreferrer\">Bariloche Opina</a>, la responsable local del sistema, Estela Testore, detalló que la acreditación del atributo requiere acercar la tarjeta a cualquiera de las Terminales Automáticas SUBE (TAS) distribuidas en la ciudad, acreditar el saldo mediante la app móvil oficial en dispositivos con tecnología NFC o solicitar la actualización manual al chofer de la unidad al abordar.</p>\n<p>Testore remarcó que quienes no completen este paso antes del plazo límite comenzarán a abonar la tarifa plana normal sin el subsidio comunal del 25% a partir del 1 de diciembre, hasta tanto regularicen el plástico. La funcionaria diferenció esta exigencia de la Tarifa Social Federal destinada a jubilados y pensionados (que se renueva automáticamente mediante cruces con la base de datos de ANSES) e invitó a quienes aún no tramitaron el beneficio de residente a concurrir a la oficina del Centro Cívico con DNI con domicilio en Bariloche.</p>",
+  "citas": [
+    {
+      "autor": "Estela Testore, jefa de SUBE Bariloche",
+      "texto": "Estamos convocando a todos los que ya hicieron su boleto residente a que vuelvan a pasar la tarjeta por una terminal automática SUBE o por la app con NFC. Si no lo hacen antes del 30 de noviembre, el sistema comenzará a cobrarles el boleto normal hasta que actualicen el chip de forma correcta."
+    }
+  ],
+  "datos_duros": {
+    "plazo_limite": "Lunes 30 de noviembre de 2026",
+    "beneficio_alcanzado": "Boleto Residente de Bariloche en líneas de Mi Bus",
+    "mecanismo_actualizacion": "Aproximación en Terminales Automáticas SUBE (TAS), teléfonos Android con NFC o aviso al chofer",
+    "consecuencia_incumplimiento": "Cobro de tarifa normal plena a partir del 1 de diciembre hasta completar la revalidación",
+    "excepciones": "Tarifa Social Federal (jubilados, pensionados y AUH se actualizan automáticamente vía ANSES)",
+    "sede_atencion": "Oficina SUBE Centro Cívico, lunes a viernes de 8:00 a 15:00 hs (tarjeta nueva a $1.500)"
+  },
+  "area": "Gestión Pública",
+  "fecha": "2026-10-11",
+  "foto": "https://barilocheopina-s3.cdn.net.ar/s3i233/2025/10/barilocheopina/images/02/31/33/2313373_79b51a83f4cd3f7686044b999c796d5227908be590d3ec381df976ecbf65df81/md.webp",
+  "updated_at": "2026-10-16T12:14:48.913Z",
+  "curada_manualmente": false,
+  "imagen_url": "https://barilocheopina-s3.cdn.net.ar/s3i233/2025/10/barilocheopina/images/02/31/33/2313373_79b51a83f4cd3f7686044b999c796d5227908be590d3ec381df976ecbf65df81/md.webp",
+  "media": {
+    "credito": "Prensa Municipio de Bariloche / Bariloche Opina / Bariloche Semanal",
+    "requiere_foto": true,
+    "prompt_nanobanana": "Ilustración editorial en estilo animación 2D sobre transporte y comunidad: un usuario apoyando su tarjeta plástica SUBE en una Terminal Automática azul en los arcos de piedra del Centro Cívico de Bariloche, con un colectivo urbano de Mi Bus circulando al fondo bajo la suave lluvia andina. Estilo gráfico flat vectorizado, paleta en azul cian SUBE, amarillo señal, gris piedra y verde ciprés, sin texto.",
+    "imagen_url": "https://barilocheopina-s3.cdn.net.ar/s3i233/2025/10/barilocheopina/images/02/31/33/2313373_79b51a83f4cd3f7686044b999c796d5227908be590d3ec381df976ecbf65df81/md.webp"
+  },
+  "area_id": "gestion-publica",
+  "url": "https://www.barilocheopina.com/noticias/2026/10/15/95855-sube-en-bariloche-todos-los-usuarios-del-boleto-residente-deben-actualizar-la-tarjeta",
+  "fecha_publicacion": "2026-10-11"
+}

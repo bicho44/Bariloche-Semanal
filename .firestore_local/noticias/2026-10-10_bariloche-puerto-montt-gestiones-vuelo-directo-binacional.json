@@ -1,0 +1,54 @@
+{
+  "id": "2026-10-10_bariloche-puerto-montt-gestiones-vuelo-directo-binacional",
+  "titular": "Bariloche y Puerto Montt avanzan en gestiones para abrir una conexión aérea directa entre los lagos patagónicos",
+  "hecho_central": "En el marco de las actividades institucionales de Bariloche a la Carta, el intendente Walter Cortés mantuvo un encuentro bilateral con autoridades de Puerto Montt y de la Región de Los Lagos (Chile). Acordaron impulsar formalmente ante las cancillerías y autoridades aerocomerciales de ambos países la apertura de una ruta aérea regular que conecte ambas ciudades en menos de 45 minutos sin escalas en Buenos Aires ni Santiago, potenciando el turismo y el intercambio comercial de la Patagonia binacional.",
+  "area_id": "gestion-publica",
+  "dossier_id": "infraestructura-terminal-rutas",
+  "seguimiento_id": "infraestructura-terminal-rutas",
+  "fuente": {
+    "id": "bariloche-opina",
+    "nombre": "Bariloche Opina",
+    "url_nota": "https://www.barilocheopina.com/noticias/2026/10/10/95655-bariloche-y-puerto-montt-avanzan-en-gestiones-para-una-conexion-aerea-directa"
+  },
+  "fuentes_consultadas": [
+    {
+      "id": "bariloche-opina",
+      "nombre": "Bariloche Opina",
+      "url_nota": "https://www.barilocheopina.com/noticias/2026/10/10/95655-bariloche-y-puerto-montt-avanzan-en-gestiones-para-una-conexion-aerea-directa"
+    },
+    {
+      "id": "el-cordillerano",
+      "nombre": "Diario El Cordillerano",
+      "url_nota": "https://www.elcordillerano.com.ar/noticias/2026/10/09/266673-bariloche-y-puerto-montt-avanzan-en-las-gestiones-para-tener-un-vuelo-directo"
+    }
+  ],
+  "cobertura_cruzada": 2,
+  "cuerpo_html": "<p class=\"c-dossier-link\">📌 <em>Seguimiento: <a href=\"/seguimientos/infraestructura-terminal-rutas\">Infraestructura Vial, Terminal y Conectividad Urbana</a></em></p>\n<p>La integración regional patagónica sumó un proyecto de conectividad de alto impacto estratégico: <strong>el intendente Walter Cortés y autoridades municipales y consulares de Puerto Montt acordaron este sábado avanzar en gestiones binacionales para habilitar un vuelo directo</strong> entre ambas ciudades, según reportó <a href=\"https://www.barilocheopina.com/noticias/2026/10/10/95655-bariloche-y-puerto-montt-avanzan-en-gestiones-para-una-conexion-aerea-directa\" target=\"_blank\" rel=\"noopener noreferrer\">Bariloche Opina</a> y detalló en cobertura complementaria <a href=\"https://www.elcordillerano.com.ar/noticias/2026/10/09/266673-bariloche-y-puerto-montt-avanzan-en-las-gestiones-para-tener-un-vuelo-directo\" target=\"_blank\" rel=\"noopener noreferrer\">Diario El Cordillerano</a>.</p>\n<p>La iniciativa busca unir los aeropuertos Teniente Candelaria y El Tepual en un trayecto de apenas <strong>45 minutos de vuelo</strong>, superando las complejidades logísticas que hoy demandan cruces terrestres por los pasos Cardenal Samoré o Pérez Rosales sujetos a inclemencias climáticas. Las gestiones serán elevadas a las cancillerías de ambos países y a las autoridades de aviación civil (ANAC y DGAC) para tentar a operadores aerocomerciales regionales, consolidando un circuito turístico bioceánico que conecte la estepa con el Pacífico.</p>",
+  "citas": [
+    {
+      "autor": "Walter Cortés",
+      "cargo": "Intendente de Bariloche",
+      "texto": "Bariloche y Puerto Montt son ciudades hermanas separadas por una cordillera que hoy se cruza en horas por tierra; un vuelo directo consolidaría un circuito turístico internacional único en el cono sur."
+    }
+  ],
+  "datos_duros": {
+    "tiempo_vuelo_estimado": "45 minutos entre los aeropuertos El Tepual (Puerto Montt) y Candelaria (Bariloche)",
+    "demanda_potencial": "Corredor turístico integrado de los lagos andinos y conexión bioceánica",
+    "gestiones_bilaterales": "Presentación conjunta ante la ANAC (Argentina) y la DGAC (Chile)",
+    "articulacion_empresaria": "Respaldo de cámaras hoteleras de Bariloche y la Asociación de Turismo de Los Lagos"
+  },
+  "area": "Gestión Pública",
+  "fecha": "2026-10-06",
+  "foto": "https://barilocheopina-s3.cdn.net.ar/s3i233/2026/10/barilocheopina/images/02/80/81/2808131_c3f3037e77b7f1d0d518226f2cdf740ceda555165b5c7208330a328fac635686/lg.webp",
+  "updated_at": "2026-10-12T14:06:47.006Z",
+  "curada_manualmente": false,
+  "imagen_url": "https://barilocheopina-s3.cdn.net.ar/s3i233/2026/10/barilocheopina/images/02/80/81/2808131_c3f3037e77b7f1d0d518226f2cdf740ceda555165b5c7208330a328fac635686/lg.webp",
+  "media": {
+    "credito": "Prensa Municipalidad de Bariloche / Bariloche Opina",
+    "requiere_foto": true,
+    "prompt_nanobanana": "Ilustración editorial en estilo animación 2D y mapa conceptual andino: una aeronave bimotor cruzando las cumbres nevadas de la cordillera de los Andes entre el lago Nahuel Huapi de Bariloche y el seno de Reloncaví de Puerto Montt, con banderas de Argentina y Chile estilizadas y paisajes de alerces y araucarias bajo el cielo límpido. Estilo flat design límpido, paleta en azul andino, verde bosque, ocre tierra y blanco nieve, sin texto.",
+    "imagen_url": "https://barilocheopina-s3.cdn.net.ar/s3i233/2026/10/barilocheopina/images/02/80/81/2808131_c3f3037e77b7f1d0d518226f2cdf740ceda555165b5c7208330a328fac635686/lg.webp"
+  },
+  "url": "https://www.barilocheopina.com/noticias/2026/10/10/95655-bariloche-y-puerto-montt-avanzan-en-gestiones-para-una-conexion-aerea-directa",
+  "fecha_publicacion": "2026-10-06"
+}

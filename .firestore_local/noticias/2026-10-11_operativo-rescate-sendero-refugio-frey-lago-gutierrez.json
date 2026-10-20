@@ -1,0 +1,48 @@
+{
+  "id": "2026-10-11_operativo-rescate-sendero-refugio-frey-lago-gutierrez",
+  "titular": "Operativo de auxilio en el sendero a Refugio Frey: evacuaron en camilla y lancha a una excursionista lesionada",
+  "hecho_central": "Guardaparques del Parque Nacional Nahuel Huapi, rescatistas de la Comisión de Auxilio (CAX) del Club Andino Bariloche y personal náutico coordinaron un operativo de evacuación de emergencia para asistir a una mujer lesionada en el sendero que conduce al Refugio Frey. Tras estabilizarla, fue descendida en camilla hasta Playa Muñoz y trasladada en embarcación por las aguas del lago Gutiérrez hasta la seccional, donde una ambulancia la derivó al Hospital Zonal.",
+  "dossier_id": "parque-nahuel-huapi-gestion",
+  "seguimiento_id": "parque-nahuel-huapi-gestion",
+  "fuente": {
+    "id": "semanario-bariloche",
+    "nombre": "Semanario Bariloche",
+    "url_nota": "https://semanariobariloche.com.ar/operativo-de-evacuacion-en-sendero-a-refugio-frey/"
+  },
+  "fuentes_consultadas": [
+    {
+      "id": "semanario-bariloche",
+      "nombre": "Semanario Bariloche",
+      "url_nota": "https://semanariobariloche.com.ar/operativo-de-evacuacion-en-sendero-a-refugio-frey/"
+    }
+  ],
+  "cobertura_cruzada": 1,
+  "cuerpo_html": "<p class=\"c-dossier-link\">📌 <em>Seguimiento: <a href=\"/seguimientos/parque-nahuel-huapi-gestion\">Parque Nacional Nahuel Huapi: Conservación y Coexistencia</a></em></p>\n<p>Por segunda vez en 48 horas, los equipos de emergencia del Parque Nacional Nahuel Huapi debieron desplegar un operativo de auxilio en senderos de montaña: <strong>una excursionista lesionada fue evacuada en camilla y lancha tras accidentarse en la senda que conduce al Refugio Frey</strong>, según reportó <a href=\"https://semanariobariloche.com.ar/operativo-de-evacuacion-en-sendero-a-refugio-frey/\" target=\"_blank\" rel=\"noopener noreferrer\">Semanario Bariloche</a>.</p>\n<p>La mujer sufrió una lesión incapacitante que le impidió regresar por sus propios medios. Una patrulla de guardaparques y voluntarios de la CAX del Club Andino Bariloche la inmovilizó en el terreno y la porteó hasta Playa Muñoz, donde se completó la evacuación en una embarcación a motor por el lago Gutiérrez hacia la seccional de guardaparques. El episodio motivó una nueva advertencia de la APN sobre la obligatoriedad del registro de trekking y la necesidad de calcular los tiempos de regreso antes de la caída del sol.</p>",
+  "citas": [
+    {
+      "autor": "Parque Nacional Nahuel Huapi",
+      "texto": "Se insiste en la importancia de realizar siempre el Registro de Trekking gratuito, planificar salidas con margen de luz solar diurna y llevar el equipamiento técnico necesario antes de emprender senderos de alta dificultad."
+    }
+  ],
+  "datos_duros": {
+    "lugar_accidente": "Sendero tradicional a Refugio Frey en inmediaciones de Playa Muñoz",
+    "modalidad_traslado": "Camilla de montaña pedestre y lancha rápida por el lago Gutiérrez hasta seccional",
+    "organismos_coordinados": "Cuerpo de Guardaparques de la APN, CAX del Club Andino Bariloche y personal lacustre",
+    "alerta_reiterada": "Segundo rescate en 48 horas en áreas remotas del Parque Nahuel Huapi tras el caso Arrayanes"
+  },
+  "area": "Gestión Pública",
+  "fecha": "2026-10-07",
+  "foto": "https://semanariobariloche.com.ar/wp-content/uploads/2026/10/img_4321.jpeg",
+  "updated_at": "2026-10-12T14:05:20.447Z",
+  "curada_manualmente": false,
+  "imagen_url": "https://semanariobariloche.com.ar/wp-content/uploads/2026/10/img_4321.jpeg",
+  "media": {
+    "credito": "Club Andino Bariloche / Parques Nacionales",
+    "requiere_foto": true,
+    "prompt_nanobanana": "Ilustración editorial en estilo animación 2D sobre rescate andino: rescatistas de la Comisión de Auxilio y guardaparques con mochilas y camilla Kong descendiendo por un sendero boscoso de coihues hacia la playa de guijarros del lago Gutiérrez, donde espera una lancha de rescate entre aguas cristalinas y cumbres graníticas de fondo. Estética patagónica límpida, paleta en verde bosque, gris granito, azul lago y naranja de rescate, sin texto.",
+    "imagen_url": "https://semanariobariloche.com.ar/wp-content/uploads/2026/10/img_4321.jpeg"
+  },
+  "area_id": "gestion-publica",
+  "url": "https://semanariobariloche.com.ar/operativo-de-evacuacion-en-sendero-a-refugio-frey/",
+  "fecha_publicacion": "2026-10-07"
+}

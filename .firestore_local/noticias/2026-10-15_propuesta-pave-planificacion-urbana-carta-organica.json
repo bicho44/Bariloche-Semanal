@@ -1,0 +1,50 @@
+{
+  "id": "2026-10-15_propuesta-pave-planificacion-urbana-carta-organica",
+  "titular": "Carta Orgánica: PAVE propone frenar la especulación inmobiliaria con moratoria a loteos y consultas vinculantes",
+  "hecho_central": "El espacio Participación Vecinal (PAVE) —que ocupa el puesto N° 11 en la boleta para las elecciones constituyentes del 1 de noviembre y postula a Norberto Rodríguez— presentó formalmente su plataforma de reforma urbana para Bariloche. La iniciativa plantea incorporar una moratoria temporal sobre grandes desarrollos y loteos inmobiliarios de escala hasta contar con estudios técnicos de riesgo ambiental y capacidad de carga por delegación, junto con la creación del sistema MOVEPA para otorgar carácter vinculante y anónimo a las audiencias públicas vecinales sobre el uso del suelo, costas públicas y cerros.",
+  "dossier_id": "crisis-habitacional-urbanismo",
+  "seguimiento_id": "crisis-habitacional-urbanismo",
+  "fuente": {
+    "id": "anbariloche",
+    "nombre": "ANBariloche",
+    "url_nota": "https://www.anbariloche.com.ar/noticias/2026/10/15/120059-planificacion-urbana-la-propuesta-de-pave-para-frenar-la-especulacion-y-otorgar-poder-vinculante-a-los-vecinos-en-la-carta-organica"
+  },
+  "fuentes_consultadas": [
+    {
+      "id": "anbariloche",
+      "nombre": "ANBariloche",
+      "url_nota": "https://www.anbariloche.com.ar/noticias/2026/10/15/120059-planificacion-urbana-la-propuesta-de-pave-para-frenar-la-especulacion-y-otorgar-poder-vinculante-a-los-vecinos-en-la-carta-organica"
+    }
+  ],
+  "cobertura_cruzada": 1,
+  "cuerpo_html": "<p class=\"c-dossier-link\">📌 <em>Seguimiento: <a href=\"/seguimientos/crisis-habitacional-urbanismo\">Crisis Habitacional, Planificación Urbana y Acceso a la Tierra</a></em></p>\n<p>La cuenta regresiva hacia los comicios del próximo 1 de noviembre donde Bariloche elegirá a los 15 convencionales constituyentes sumó este jueves 15 de octubre una propuesta de fondo orientada a redefinir el modelo de ciudad: el espacio <strong>Participación Vecinal (PAVE) presentó su plataforma para incorporar en la Carta Orgánica límites estrictos a la especulación inmobiliaria</strong>.</p>\n<p>La lista, encabezada por el investigador y especialista en desarrollo urbano Norberto Rodríguez, sostiene que el crecimiento desordenado de las últimas décadas respondió a la connivencia oficial con grandes desarrolladores en detrimento de los servicios básicos para los barrios. Según detalló <a href=\"https://www.anbariloche.com.ar/noticias/2026/10/15/120059-planificacion-urbana-la-propuesta-de-pave-para-frenar-la-especulacion-y-otorgar-poder-vinculante-a-los-vecinos-en-la-carta-organica\" target=\"_blank\" rel=\"noopener noreferrer\">ANBariloche</a>, la propuesta central contempla una moratoria temporal a la aprobación de loteos y megaproyectos urbanísticos hasta tanto el Municipio elabore diagnósticos científicos de capacidad de carga, estudios ambientales localizados y mapas de riesgo por delegación.</p>\n<p>Asimismo, PAVE promueve consagrar la metodología MOVEPA (Movimiento Vecinal Participativo) para terminar con el esquema de audiencias públicas no vinculantes. El mecanismo propone un circuito de cuatro etapas que culmina en una votación comunitaria directa y anónima sobre decisiones estratégicas que involucren el patrimonio público y ambiental de la ciudad, como el Cerro Catedral, el Cerro Otto, el Parque Municipal Llao Llao y los accesos a las costas lacustres.</p>",
+  "citas": [
+    {
+      "autor": "Norberto Rodríguez, candidato a convencional constituyente (PAVE)",
+      "texto": "La gestión urbana de Bariloche priorizó históricamente a los grandes desarrolladores por encima de las necesidades comunitarias. Planteamos suspender las autorizaciones a megaproyectos hasta contar con estudios de capacidad de carga y que las audiencias vecinales sean vinculantes para proteger cerros, bosques y costas."
+    }
+  ],
+  "datos_duros": {
+    "espacio_politico": "Participación Vecinal (PAVE) - Lista 11 para la Convención Constituyente",
+    "primer_candidato": "Norberto Javier Rodríguez (investigador académico y especialista en desarrollo urbano)",
+    "propuesta_central": "Moratoria y suspensión preventiva de autorizaciones a grandes loteos y megaproyectos (sin afectar obras unifamiliares)",
+    "estudios_tecnicos": "Tres mapeos obligatorios por delegación: ambiental, de infraestructura y de riesgo hídrico y de ladera",
+    "metodologia_movepa": "Procedimiento de consulta vecinal en cuatro etapas con votación comunitaria vinculante sobre el patrimonio natural",
+    "reforma_institucional": "Transición hacia un modelo parlamentario local que reduzca el hiperpresidencialismo del Ejecutivo"
+  },
+  "area": "Gestión Pública",
+  "fecha": "2026-10-11",
+  "foto": "https://anbariloche-s3.cdn.net.ar/s3i233/2025/08/anbariloche/images/02/24/70/2247095_28ab854ae15e8ae45a80508ba6ca8ce5b0143bc6f35ff3328ffaaf5c04b598be/md.webp",
+  "updated_at": "2026-10-16T12:14:04.094Z",
+  "curada_manualmente": false,
+  "imagen_url": "https://anbariloche-s3.cdn.net.ar/s3i233/2025/08/anbariloche/images/02/24/70/2247095_28ab854ae15e8ae45a80508ba6ca8ce5b0143bc6f35ff3328ffaaf5c04b598be/md.webp",
+  "media": {
+    "credito": "Marcelo Martínez / ANBariloche / Bariloche Semanal",
+    "requiere_foto": true,
+    "prompt_nanobanana": "Ilustración editorial en estilo animación 2D sobre ordenamiento territorial andino: un mapa topográfico detallado de San Carlos de Bariloche con curvas de nivel, lagos y zonas de preservación boscosa sobre una mesa de madera, rodeado por vecinos de juntas vecinales y arquitectos debatiendo con carpetas de la Carta Orgánica. Tono analítico y cívico, paleta en verde bosque nativo, azul Nahuel Huapi, ocre tierra y gris piedra, sin texto.",
+    "imagen_url": "https://anbariloche-s3.cdn.net.ar/s3i233/2025/08/anbariloche/images/02/24/70/2247095_28ab854ae15e8ae45a80508ba6ca8ce5b0143bc6f35ff3328ffaaf5c04b598be/md.webp"
+  },
+  "area_id": "gestion-publica",
+  "url": "https://www.anbariloche.com.ar/noticias/2026/10/15/120059-planificacion-urbana-la-propuesta-de-pave-para-frenar-la-especulacion-y-otorgar-poder-vinculante-a-los-vecinos-en-la-carta-organica",
+  "fecha_publicacion": "2026-10-11"
+}

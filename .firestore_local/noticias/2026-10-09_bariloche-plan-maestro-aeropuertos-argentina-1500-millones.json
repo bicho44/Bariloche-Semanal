@@ -1,0 +1,48 @@
+{
+  "id": "2026-10-09_bariloche-plan-maestro-aeropuertos-argentina-1500-millones",
+  "titular": "Bariloche fue incluida en el plan de obras de US$ 1.500 millones de Aeropuertos Argentina para modernizar su terminal internacional",
+  "hecho_central": "La concesionaria Aeropuertos Argentina (Corporación América Airports) confirmó que el Aeropuerto Internacional Teniente Luis Candelaria de Bariloche integrará su plan maestro de inversiones de US$ 1.500 millones para el período 2026-2028. La inyección de capital privado, financiada mediante colocaciones en los mercados de capitales, abarcará la ampliación del área de preembarque, modernización de pasarelas telescópicas y extensión de la plataforma de aeronaves.",
+  "area_id": "gestion-publica",
+  "dossier_id": "infraestructura-terminal-rutas",
+  "seguimiento_id": "infraestructura-terminal-rutas",
+  "fuente": {
+    "id": "anbariloche",
+    "nombre": "ANBariloche",
+    "url_nota": "https://www.anbariloche.com.ar/noticias/2026/10/09/119583-bariloche-esta-entre-los-aeropuertos-que-recibiran-obras-dentro-de-un-plan-de-us-1500-millones"
+  },
+  "fuentes_consultadas": [
+    {
+      "id": "anbariloche",
+      "nombre": "ANBariloche",
+      "url_nota": "https://www.anbariloche.com.ar/noticias/2026/10/09/119583-bariloche-esta-entre-los-aeropuertos-que-recibiran-obras-dentro-de-un-plan-de-us-1500-millones"
+    }
+  ],
+  "cobertura_cruzada": 1,
+  "cuerpo_html": "<p class=\"c-dossier-link\">📌 <em>Seguimiento: <a href=\"/seguimientos/infraestructura-terminal-rutas\">Infraestructura Vial, Terminal y Conectividad Urbana</a></em></p>\n<p>Apenas 24 horas después de que la Provincia iniciara la repavimentación del acceso este por $4.475 millones, <strong>la empresa concesionaria Aeropuertos Argentina confirmó que Bariloche forma parte de su plan maestro de inversiones de US$ 1.500 millones</strong>, según reveló un informe exclusivo de <a href=\"https://www.anbariloche.com.ar/noticias/2026/10/09/119583-bariloche-esta-entre-los-aeropuertos-que-recibiran-obras-dentro-de-un-plan-de-us-1500-millones\" target=\"_blank\" rel=\"noopener noreferrer\">ANBariloche</a>.</p>\n<p>El programa prevé la intervención de áreas operativas críticas para responder a la demanda de vuelos nacionales e internacionales, incluyendo la extensión de la plataforma de aeronaves, la modernización de los sistemas de escaneo y control de seguridad, y la ampliación del sector de preembarque. Con este anuncio, el nudo de conectividad aérea de Bariloche consolida una sincronización inédita entre la inversión pública provincial en rutas y el financiamiento privado corporativo en infraestructura edilicia.</p>",
+  "citas": [
+    {
+      "autor": "Aeropuertos Argentina",
+      "texto": "Para hacer frente a los compromisos de modernización y acompañar el crecimiento exponencial del turismo receptivo en el interior del país, recurriremos a financiamiento en los mercados de capitales para acelerar las obras en destinos estratégicos como Bariloche."
+    }
+  ],
+  "datos_duros": {
+    "inversion_global": "Plan maestro de US$ 1.500 millones en terminales concesionadas de Argentina",
+    "obras_bariloche": "Ampliación de salas de preembarque, modernización de pasarelas y plataformas de rodaje",
+    "sinergia_publico_privada": "Articulación con la obra vial provincial de $4.475 millones en el acceso de Ruta 80",
+    "volumen_pasajeros": "Más de 2,5 millones de pasajeros anuales procesados en la terminal barilochense"
+  },
+  "area": "Gestión Pública",
+  "fecha": "2026-10-05",
+  "foto": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/10/anbariloche/images/02/80/73/2807319_ec20d6bdfe4791c4c0c118bdae926b3e26985dac2e537cd9deb67d96c962b4a1/lg.webp",
+  "updated_at": "2026-10-12T14:10:18.627Z",
+  "curada_manualmente": false,
+  "imagen_url": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/10/anbariloche/images/02/80/73/2807319_ec20d6bdfe4791c4c0c118bdae926b3e26985dac2e537cd9deb67d96c962b4a1/lg.webp",
+  "media": {
+    "credito": "Aeropuertos Argentina / ANBariloche",
+    "requiere_foto": true,
+    "prompt_nanobanana": "Ilustración editorial en estilo animación 2D y arquitectura moderna: la fachada y pista del Aeropuerto de Bariloche con nuevos ventanales panorámicos y pasarelas de embarque de madera y vidrio, aviones comerciales en plataforma bajo la silueta imponente de las montañas nevadas al atardecer. Estilo póster de aviación contemporáneo, líneas limpias y colores elegantes (azul noche, plata, naranja crepuscular y madera andina), sin texto.",
+    "imagen_url": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/10/anbariloche/images/02/80/73/2807319_ec20d6bdfe4791c4c0c118bdae926b3e26985dac2e537cd9deb67d96c962b4a1/lg.webp"
+  },
+  "url": "https://www.anbariloche.com.ar/noticias/2026/10/09/119583-bariloche-esta-entre-los-aeropuertos-que-recibiran-obras-dentro-de-un-plan-de-us-1500-millones",
+  "fecha_publicacion": "2026-10-05"
+}

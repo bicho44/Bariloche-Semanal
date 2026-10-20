@@ -23,6 +23,7 @@ import {
   crearEventoAgenda,
   actualizarEventoAgenda,
   eliminarEventoAgenda,
+  purgarEventosVencidos,
 } from '../controllers/agenda.controller.js';
 
 import {
@@ -32,6 +33,7 @@ import {
   actualizarDossier,
   agregarHitoDossier,
   eliminarDossier,
+  generarDeepDiveEditorial,
 } from '../controllers/dossiers.controller.js';
 
 import {
@@ -89,13 +91,17 @@ router.delete('/noticias/:id', eliminarNoticia);
 // 3. Agenda
 router.get('/agenda', listarAgenda);
 router.post('/agenda', crearEventoAgenda);
+router.post('/agenda/purgar-vencidos', purgarEventosVencidos);
+router.delete('/agenda/vencidos', purgarEventosVencidos);
 router.get('/agenda/:id', obtenerEventoAgenda);
 router.patch('/agenda/:id', actualizarEventoAgenda);
 router.delete('/agenda/:id', eliminarEventoAgenda);
 
-// 4. Dossiers
+// 4. Dossiers & Editorial Deep-Dive con Gemini
 router.get('/dossiers', listarDossiers);
 router.post('/dossiers', crearDossier);
+router.post('/editorial/deep-dive', generarDeepDiveEditorial);
+router.post('/dossiers/deep-dive', generarDeepDiveEditorial);
 router.get('/dossiers/:slug', obtenerDossier);
 router.patch('/dossiers/:slug', actualizarDossier);
 router.post('/dossiers/:slug/hitos', agregarHitoDossier);

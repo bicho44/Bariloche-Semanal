@@ -1,69 +1,85 @@
 {
   "id": "carta-organica-reforma",
-  "titulo": "Debate por la Reforma de la Carta Orgánica",
-  "area_id": "gestion-publica",
-  "estado": "en_seguimiento",
-  "resumen_contexto": "Convención Constituyente del 1 de noviembre: 13 listas oficializadas en Boleta Única, 200 autoridades inscriptas ($100k viáticos) y tensión en el Concejo por el freno al módulo fiscal.",
+  "titulo": "Reforma de la Carta Orgánica y Convención Constituyente 2026",
+  "area_id": "poder",
+  "estado": "activo",
+  "criterio_inclusion": "Proceso electoral de convencionales constituyentes del 1 de noviembre de 2026, propuestas de reforma de artículos de la Carta Orgánica Municipal, padrón y autoridades de mesa de la Junta Electoral Municipal, y debates sobre coparticipación y autonomía financiera municipal.",
+  "prohibido_incluir": "Política partidaria provincial o nacional ajena a la Carta Orgánica de Bariloche, actividades de gestión ordinaria sin impacto estatutario.",
+  "resumen_contexto": "Con 13 listas oficializadas rumbo a la elección de 15 convencionales constituyentes del 1 de noviembre, el debate suma planteos vecinales y sectoriales: PAVE propuso moratoria a grandes loteos y consultas vinculantes (MOVEPA), vecinos del sur impulsan la 'Cláusula Vertedero' para obligar al cierre del basural, +Bariloche planteó eliminar la reelección inmediata del intendente y LiFuBa pidió un Ente Mixto del Deporte.",
   "actores_clave": [
-    "walter-cortes",
-    "concejo-deliberante",
-    "junta-electoral",
-    "soyem",
-    "bloques-opositores",
-    "defensoria-del-pueblo"
+    "Junta Electoral Municipal (JEM)",
+    "13 listas oficializadas a Convencionales Constituyentes (+Bariloche, PAVE, Fuerza Bariloche, PUL, entre otras)",
+    "Sindicato de Obreros y Empleados Municipales (SOYEM)",
+    "Liga de Fútbol de Bariloche (LiFuBa) y Juntas Vecinales del Sur"
   ],
+  "datos_duros_verificados": {
+    "fecha_eleccion": "2026-11-01",
+    "convencionales_a_elegir": 15,
+    "listas_oficializadas": 13,
+    "sistema_votacion": "Boleta Única Papel (BUP)",
+    "viatico_autoridades_mesa": "$100.000",
+    "fuente_oficial_padron": "https://www.elcordillerano.com.ar/noticias/2026/10/01/265086-la-junta-electoral-de-bariloche-abre-la-inscripcion-para-ser-autoridad-de-mesa",
+    "propuesta_ejecutivo_cortes": "Fusión de Tierra y Vivienda con Catastro, tope de 15 días a inversiones y 10 años de residencia para candidatos (19/10/2026)",
+    "fuente_propuesta_ejecutivo": "https://www.elcordillerano.com.ar/noticias/2026/10/19/268226-cortes-hablo-sobre-la-reforma-y-de-generar-un-proyecto-de-mas-obras-para-bariloche-en-los-proximos-anos"
+  },
+  "cronica_html": "<div class=\"c-dossier-article\">\n<p class=\"c-lead\">De cara a los comicios del domingo 1 de noviembre en los que San Carlos de Bariloche elegirá a los 15 convencionales encargados de reformar su Carta Orgánica Municipal, la campaña entró en su tramo programático: la lista Participación Vecinal (PAVE) presentó su proyecto para establecer por vía estatutaria una moratoria a grandes loteos y consultas vecinales vinculantes, sumándose al planteo de juntas del sur por una «Cláusula Vertedero» de cumplimiento forzoso.</p>\n\n<h3>1. Antecedentes y qué está en juego en el expediente</h3>\n<p>La Carta Orgánica Municipal vigente fue sancionada en 2007 y rige el diseño institucional, el régimen electoral, el control presupuestario y los mecanismos de planificación urbana y ambiental de Bariloche. Para su revisión, el padrón local fue convocado a las urnas el domingo 1 de noviembre de 2026 bajo el sistema de Boleta Única Papel (BUP), con 13 listas oficializadas que competirán por las 15 bancas de convencionales constituyentes.</p>\n\n<h3>2. Bitácora documentada de hitos recientes</h3>\n<ul>\n<li><strong>[15/10/2026] Planificación urbana y voto vinculante (PAVE):</strong> El espacio Participación Vecinal (PAVE), encabezado por el investigador Norberto Rodríguez, propuso incorporar en el texto constitucional una moratoria preventiva a los grandes desarrollos inmobiliarios hasta contar con estudios de impacto acumulado y capacidad de carga de servicios por delegación, además de implementar la metodología MOVEPA para otorgar carácter vinculante a las decisiones vecinales sobre bienes comunes (Cerro Catedral, Cerro Otto, costas y bosques), según reportó <a href=\"https://www.anbariloche.com.ar/noticias/2026/10/15/120059-planificacion-urbana-la-propuesta-de-pave-para-frenar-la-especulacion-y-otorgar-poder-vinculante-a-los-vecinos-en-la-carta-organica\" target=\"_blank\" rel=\"noopener noreferrer\">ANBariloche</a>.</li>\n<li><strong>[13/10/2026] «Cláusula Vertedero» de rango constitucional:</strong> Referentes vecinales de la Pampa de Huenuleo propusieron incluir una cláusula transitoria que obligue de manera improrrogable al cierre y traslado del vertedero de Ruta 40, impidiendo que futuras ordenanzas posterguen el plazo ambiental, según informó <a href=\"https://www.elcordillerano.com.ar/noticias/2026/10/13/267132-clausula-vertedero-que-ningun-gobierno-pueda-abandonar-la-obligacion-de-cerrarlo\" target=\"_blank\" rel=\"noopener noreferrer\">Diario El Cordillerano</a>.</li>\n<li><strong>[01/10 al 05/10/2026] Operativo electoral y autoridades de mesa:</strong> La Junta Electoral Municipal abrió el registro de autoridades de mesa con un viático oficial de $100.000, sumando cerca de 200 inscriptos en la primera jornada, según consignaron <a href=\"https://www.elcordillerano.com.ar/noticias/2026/10/01/265086-la-junta-electoral-de-bariloche-abre-la-inscripcion-para-ser-autoridad-de-mesa\" target=\"_blank\" rel=\"noopener noreferrer\">Diario El Cordillerano</a> y <a href=\"https://www.anbariloche.com.ar/noticias/2026/10/05/119091-registraron-cerca-de-200-inscriptos-en-el-primer-dia-de-convocatoria-para-autoridades-de-mesa\" target=\"_blank\" rel=\"noopener noreferrer\">ANBariloche</a>.</li>\n<li><strong>[25/09 al 02/10/2026] Planteos políticos, gremiales y deportivos:</strong> El espacio +Bariloche propuso eliminar la reelección consecutiva del intendente y elegir concejales por circuitos barriales (<a href=\"https://www.elcordillerano.com.ar/noticias/2026/09/25/264076-cuatro-anos-y-basta-bariloche-propone-terminar-con-la-reeleccion-inmediata-y-llevar-los-barrios-al-concejo-municipal\" target=\"_blank\" rel=\"noopener noreferrer\">El Cordillerano</a>); el gremio municipal SOYEM inició rondas con las listas para resguardar la estabilidad laboral (<a href=\"https://www.anbariloche.com.ar/noticias/2026/09/29/118573-soyem-se-reune-con-espacios-que-participan-de-la-eleccion-de-convencionales\" target=\"_blank\" rel=\"noopener noreferrer\">ANBariloche</a>); y LiFuBa solicitó incorporar un Ente Mixto del Deporte (<a href=\"https://www.anbariloche.com.ar/noticias/2026/10/02/118914-lifuba-propone-crear-un-ente-mixto-para-fortalecer-al-deporte-de-bariloche\" target=\"_blank\" rel=\"noopener noreferrer\">ANBariloche</a>).</li>\n</ul>\n\n<blockquote cite=\"https://www.anbariloche.com.ar/noticias/2026/10/15/120059-planificacion-urbana-la-propuesta-de-pave-para-frenar-la-especulacion-y-otorgar-poder-vinculante-a-los-vecinos-en-la-carta-organica\">\n<p>«Proponemos una moratoria preventiva para grandes emprendimientos inmobiliarios hasta tanto se cuente con estudios ambientales integrales y planes por delegación, y que las audiencias y consultas tengan carácter vinculante real», expuso Norberto Rodríguez (PAVE).</p>\n</blockquote>\n\n<aside class=\"c-dossier-data\">\n<h4>Tablero de control de la Convención Constituyente</h4>\n<ul>\n<li><strong>Fecha de comicios:</strong> Domingo 1 de noviembre de 2026 (Boleta Única Papel).</li>\n<li><strong>Cargos y oferta electoral:</strong> 15 convencionales constituyentes disputados entre 13 listas oficializadas.</li>\n<li><strong>Viático autoridades de mesa:</strong> $100.000 fijados por la Junta Electoral Municipal (~200 inscriptos iniciales).</li>\n<li><strong>Ejes en debate documentados:</strong> Moratoria urbana y voto vinculante (PAVE), Cláusula Vertedero (vecinos del sur), fin de reelección (+Bariloche) y Ente del Deporte (LiFuBa).</li>\n</ul>\n</aside>\n\n<h3>3. Mapa de posiciones comprobadas</h3>\n<p>Las plataformas documentadas hasta la fecha exhiben tres agendas diferenciadas: las listas vecinalistas y académicas como PAVE priorizan poner límites estatutarios al mercado inmobiliario y tornar vinculantes las consultas ambientales; espacios políticos como +Bariloche enfocan su propuesta en el rediseño del sistema político (fin de la reelección inmediata y concejales por circuitos); y las organizaciones gremiales (SOYEM) y deportivas (LiFuBa) buscan blindar derechos adquiridos y fondos específicos en el nuevo texto.</p>\n\n<h3>4. Próximas instancias confirmadas</h3>\n<p>Durante la segunda quincena de octubre la Junta Electoral Municipal completará la designación y capacitación obligatoria de las autoridades de mesa para los comicios constituyentes del domingo 1 de noviembre de 2026.</p>\n</div>",
   "timeline": [
     {
       "fecha": "2026-09-25",
-      "hito": "+Bariloche presentó su plataforma para la Convención proponiendo prohibir la reelección consecutiva del intendente e incorporar representación barrial directa por circuitos en el Concejo Deliberante.",
+      "hito": "+Bariloche presentó su plataforma para la Convención proponiendo prohibir la reelección consecutiva del intendente e incorporar representación barrial por circuitos en el Concejo.",
       "noticia_id": "2026-09-25_carta-organica-propuesta-mas-bariloche-fin-reeleccion-concejales-circuitos",
       "fuente_url": "https://www.elcordillerano.com.ar/noticias/2026/09/25/264076-cuatro-anos-y-basta-bariloche-propone-terminar-con-la-reeleccion-inmediata-y-llevar-los-barrios-al-concejo-municipal"
     },
     {
       "fecha": "2026-09-29",
-      "hito": "El SOYEM abrió una ronda de reuniones con candidatos a convencionales (PAVE y Fuerza Bariloche) para fijar postura sobre estabilidad y carrera administrativa.",
+      "hito": "El SOYEM abrió una ronda de reuniones con candidatos a convencionales (PAVE y Fuerza Bariloche) para fijar postura sobre estabilidad y carrera administrativa en la Carta Orgánica.",
       "noticia_id": "2026-09-29_soyem-ronda-reuniones-listas-convencionales-carta-organica",
       "fuente_url": "https://www.anbariloche.com.ar/noticias/2026/09/29/118573-soyem-se-reune-con-espacios-que-participan-de-la-eleccion-de-convencionales"
     },
     {
-      "fecha": "2026-09-30",
-      "hito": "El Concejo Municipal frenó el aumento del módulo fiscal a $492 y devolvió el proyecto a comisión ante la falta de 8 votos de mayoría especial, tras duros cruces con vecinos y reclamos opositores de auditoría previa.",
-      "noticia_id": "2026-09-30_concejo-frena-aumento-modulo-fiscal-proyectos-vuelven-comision",
-      "fuente_url": "https://www.anbariloche.com.ar/noticias/2026/09/30/118647-se-freno-el-aumento-del-modulo-fiscal-y-volvio-a-comisiones"
-    },
-    {
       "fecha": "2026-10-01",
-      "hito": "La Junta Electoral Municipal abrió la inscripción para autoridades de mesa para la Convención del 1 de noviembre, fijando un viático de $100.000 con capacitación técnica en octubre.",
+      "hito": "La Junta Electoral Municipal abrió la inscripción de autoridades de mesa para la elección constituyente del 1 de noviembre, fijando un viático de $100.000.",
       "noticia_id": "2026-10-01_junta-electoral-abre-inscripcion-autoridades-mesa-convencion-constituyente",
       "fuente_url": "https://www.elcordillerano.com.ar/noticias/2026/10/01/265086-la-junta-electoral-de-bariloche-abre-la-inscripcion-para-ser-autoridad-de-mesa"
     },
     {
       "fecha": "2026-10-02",
-      "hito": "LIFUBA abrió conversaciones con candidatos a convencionales constituyentes para incorporar la creación de un Ente Mixto del Deporte y el financiamiento de clubes en la nueva Carta Orgánica.",
+      "hito": "LiFuBa propuso a los candidatos a convencionales incorporar la creación de un Ente Mixto del Deporte con presupuesto específico en la nueva Carta Orgánica.",
       "noticia_id": "2026-10-02_lifuba-propone-crear-ente-mixto-deporte-debate-carta-organica",
       "fuente_url": "https://www.anbariloche.com.ar/noticias/2026/10/02/118914-lifuba-propone-crear-un-ente-mixto-para-fortalecer-al-deporte-de-bariloche"
     },
     {
-      "fecha": "2026-10-04",
-      "hito": "Fuerzas políticas opositoras y la Defensoría del Pueblo condenaron las agresiones y amenazas en el Concejo Deliberante durante el tratamiento del módulo fiscal, con denuncias penales en trámite.",
-      "noticia_id": "2026-10-04_fuerzas-politicas-defensoria-repudian-violencia-sesion-concejo-modulo-fiscal",
-      "fuente_url": "https://www.anbariloche.com.ar/noticias/2026/10/02/118887-diversos-sectores-rechazaron-los-episodios-ocurridos-en-la-sesion-extraordinaria-del-miercoles-en-el-concejo"
-    },
-    {
       "fecha": "2026-10-05",
-      "hito": "La Junta Electoral Municipal registró cerca de 200 postulantes en el primer día de inscripción para autoridades de mesa (viático de $100.000) de cara a la elección constituyente del 1 de noviembre.",
+      "hito": "La Junta Electoral registró cerca de 200 postulantes en el primer día de convocatoria para autoridades de mesa de los comicios constituyentes.",
       "noticia_id": "2026-10-05_convencion-carta-organica-primer-dia-200-inscriptos-autoridades-mesa",
       "fuente_url": "https://www.anbariloche.com.ar/noticias/2026/10/05/119091-registraron-cerca-de-200-inscriptos-en-el-primer-dia-de-convocatoria-para-autoridades-de-mesa"
+    },
+    {
+      "fecha": "2026-10-13",
+      "hito": "Vecinos de barrios del sur impulsan incorporar una 'Cláusula Vertedero' con rango constitucional para impedir nuevas prórrogas al cierre del basural sobre Ruta 40.",
+      "noticia_id": "2026-10-13_clausula-constitucional-vertedero-carta-organica",
+      "fuente_url": "https://www.elcordillerano.com.ar/noticias/2026/10/13/267132-clausula-vertedero-que-ningun-gobierno-pueda-abandonar-la-obligacion-de-cerrarlo"
+    },
+    {
+      "fecha": "2026-10-15",
+      "hito": "La lista Participación Vecinal (PAVE), encabezada por Norberto Rodríguez, propuso incluir en la Carta Orgánica una moratoria preventiva a grandes loteos y consultas populares vinculantes (sistema MOVEPA).",
+      "noticia_id": "2026-10-15_propuesta-pave-planificacion-urbana-carta-organica",
+      "fuente_url": "https://www.anbariloche.com.ar/noticias/2026/10/15/120059-planificacion-urbana-la-propuesta-de-pave-para-frenar-la-especulacion-y-otorgar-poder-vinculante-a-los-vecinos-en-la-carta-organica"
+    },
+    {
+      "fecha": "2026-10-19",
+      "hito": "El intendente Walter Cortés definió los ejes del Ejecutivo para la Carta Orgánica: fusionar Tierra y Vivienda con Catastro, fijar un plazo máximo de 15 días para aprobar proyectos de inversión y exigir 10 años de residencia a los candidatos.",
+      "noticia_id": "2026-10-19_cortes-reforma-carta-organica-fusion-tierra-catastro-arraigo",
+      "fuente_url": "https://www.elcordillerano.com.ar/noticias/2026/10/19/268226-cortes-hablo-sobre-la-reforma-y-de-generar-un-proyecto-de-mas-obras-para-bariloche-en-los-proximos-anos"
     }
   ],
-  "cronica_html": "<div class=\"c-dossier-article\">\n<p class=\"c-lead\">El proceso de actualización de la Carta Orgánica Municipal de San Carlos de Bariloche ingresó en una fase de máxima tensión política: el debate por la reforma constitucional del 1 de noviembre coincide con una crisis de gobernabilidad en el Concejo Deliberante tras el freno al aumento del módulo fiscal y denuncias penales por hostigamiento.</p>\n<h3>1. Antecedentes y génesis</h3>\n<p>Sancionada en 1986 y con una reforma sustancial en 2007, la Carta Orgánica Municipal de Bariloche es la ley suprema del ejido local. Tras casi dos décadas de vigencia, el intendente Walter Cortés impulsó la necesidad de una Convención Constituyente Actualizadora alegando que el diseño institucional de 2007 resultó engorroso, hiperburocrático y desfasado respecto al crecimiento demográfico de la ciudad (que hoy supera los 160.000 habitantes). La convocatoria fijó para el <strong>domingo 1 de noviembre de 2026</strong> la elección de 15 convencionales constituyentes titulares y 15 suplentes, quienes tendrán un plazo perentorio de 60 días corridos para sesionar y redactar el nuevo texto.</p>\n<h3>2. Últimos acontecimientos y novedades</h3>\n<p>A cuatro semanas de la votación, la arena institucional se vio sacudida por la sesión extraordinaria del Concejo Municipal del 30 de septiembre. El oficialismo intentó sancionar sobre tablas el proyecto 722/26 para elevar el <strong>módulo fiscal de $373 a $492 (un incremento del 31,9%)</strong> junto a una reforma del Estacionamiento Medido. La oposición en pleno —integrada por ediles de Incluyendo Bariloche, JSRN y bloques independientes— bloqueó la iniciativa denunciando que la Secretaría de Hacienda remitió los informes financieros la noche anterior a las 19:30, exigiendo en paralelo el tratamiento del proyecto de auditoría externa integral sobre los gastos del Ejecutivo.</p>\n<p>Ante la imposibilidad de reunir la mayoría especial de 8 votos, el oficialismo debió retirar ambos proyectos hacia comisiones, mientras el secretario de Hacienda advertía que sin actualización tarifaria peligraba el pago de salarios. La tensión escaló de inmediato: militantes y funcionarios coparon el recinto con abucheos y, en las puertas del palacio comunal, un asesor de prensa fue amenazado de muerte para impedirle filmar la sesión, radicando una denuncia penal formal ante el Ministerio Público Fiscal contra funcionarios de la delegación Lago Moreno. El episodio motivó un repudio unánime de cuatro fuerzas partidarias y una recomendación de la Defensoría del Pueblo.</p>\n<blockquote cite=\"https://www.anbariloche.com.ar/noticias/2026/10/02/118887-diversos-sectores-rechazaron-los-episodios-ocurridos-en-la-sesion-extraordinaria-del-miercoles-en-el-concejo\">\n<p>«Filmar y transmitir una sesión pública es un derecho ciudadano inalienable. Exigir auditorías contables no puede responderse con patoterismo ni violencia institucional frente a la falta de consensos legítimos.» — Pronunciamiento conjunto de bloques legislativos opositores.</p>\n</blockquote>\n<aside class=\"c-dossier-data\">\n<h4>Métricas del proceso constituyente e institucional</h4>\n<ul>\n<li><strong>Fecha de comicios:</strong> Domingo 1 de noviembre de 2026 (15 convencionales titulares y 15 suplentes).</li>\n<li><strong>Padrón electoral:</strong> Cerrado el 2 de octubre; impresión provincial a cargo de Asuntos Electorales.</li>\n<li><strong>Autoridades de mesa:</strong> 666 posiciones requeridas; cerca de 200 inscriptos en el primer día con viático de $100.000.</li>\n<li><strong>Módulo fiscal municipal:</strong> Congelado en $373 (pretendido: $492, suba del 31,9%).</li>\n<li><strong>Oferta electoral:</strong> 13 listas oficializadas que competirán mediante Boleta Única con fotografía de cabecera.</li>\n</ul>\n</aside>\n<h3>3. Actores e intereses en disputa</h3>\n<p>En el centro del tablero se posiciona el intendente Walter Cortés, quien busca una Carta Orgánica que fortalezca el poder de decisión del Ejecutivo, agilice compras y licitaciones, y reconfigure el rol de los organismos de control. Desde la oposición legislativa y sectores sindicales como el SOYEM reclaman blindar la carrera administrativa, preservar los concursos públicos y consagrar auditorías contables independientes. Paralelamente, entidades de base como la Liga de Fútbol de Bariloche (LIFUBA) han iniciado rondas de trabajo con los candidatos para incorporar el deporte como derecho constitucional con financiamiento propio a través de un Ente Mixto.</p>\n<h3>4. Hacia dónde va: próximos pasos e instancias clave</h3>\n<p>El cronograma electoral ingresa en su etapa más crítica: durante la primera quincena de octubre la Junta Electoral Municipal completará la fiscalización de las autoridades de mesa y dictará las capacitaciones obligatorias en Bomberos Centro, Gimnasio Municipal Nº 3 y los Kilómetros. El <strong>22 de octubre</strong> regirá el inicio de la veda para actos de gobierno, en tanto que en el Concejo Deliberante continuará la pulseada por el módulo fiscal en la Comisión de Gobierno y Legales, donde el oficialismo intentará reformular el proyecto para destrabar fondos antes de fin de año.</p>\n</div>",
-  "fecha_ultima_cronica": "2026-10-06",
   "media": {
-    "imagen_url": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/09/anbariloche/images/02/79/37/2793708_8ababb53f3a6bf1d03b7325f2f1a973935b615ecb7372362e325861080c2baa0/md.webp",
-    "credito": "Prensa Concejo Municipal / ANBariloche",
-    "requiere_foto": false,
-    "prompt_nanobanana": "Ilustración editorial en estilo animación 2D minimalista y moderna sobre la reforma institucional en Bariloche: el emblemático edificio de piedra y madera del Centro Cívico con la torre del reloj de fondo, un grupo de ciudadanos y representantes debatiendo alrededor de un gran libro abierto que simboliza la Carta Magna municipal, con una urna de votación y la Boleta Única en primer plano. Líneas limpias, colores planos sobrios (azul profundo patagónico, madera cálida, blanco nieve y detalles en dorado), estética refinada tipo novela gráfica europea, sin texto."
+    "requiere_foto": true,
+    "imagen_url": null,
+    "credito": "Prensa Junta Electoral / ANBariloche / El Cordillerano",
+    "prompt_nanobanana": "Ilustración editorial en estilo animación 2D sobre democracia participativa patagónica: vecinos de Bariloche reunidos en una asamblea ciudadana frente a planos urbanos de bosques, lagos y barrios de montaña, depositando su voto en una urna con el Centro Cívico de piedra y madera de fondo. Tono cívico y sobrio, paleta en azul pizarra, madera de lenga, verde bosque y ocre piedra, sin texto."
   },
-  "ultima_actualizacion": "2026-10-06",
-  "updated_at": "2026-10-06T23:07:39.400Z"
+  "fecha_ultima_cronica": "2026-10-19",
+  "ultima_actualizacion": "2026-10-20T12:55:09.842Z",
+  "updated_at": "2026-10-20T12:55:09.842Z"
 }

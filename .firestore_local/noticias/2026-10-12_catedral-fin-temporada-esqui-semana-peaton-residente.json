@@ -1,0 +1,48 @@
+{
+  "id": "2026-10-12_catedral-fin-temporada-esqui-semana-peaton-residente",
+  "titular": "Cerro Catedral cerró la temporada de esquí y puso en marcha la Semana Peatón Residente Gratuita",
+  "hecho_central": "Catedral Alta Patagonia completó este lunes feriado el último día de operación de pistas de esquí de la temporada invernal 2026 e inició en simultáneo la Semana Peatón Residente Gratuita. La propuesta ofrece 500 ascensos diarios bonificados para vecinos de Bariloche y Dina Huapi por telecabina Amancay y telesilla Diente de Caballo hasta el 17 de octubre, marcando el inicio de la transición de montaña hacia el verano.",
+  "area_id": "turismo",
+  "dossier_id": "catedral-concesion",
+  "seguimiento_id": "catedral-concesion",
+  "fuente": {
+    "id": "bariloche-opina",
+    "nombre": "Bariloche Opina",
+    "url_nota": "https://www.barilocheopina.com/noticias/2026/10/09/95631-catedral-ofrece-ascensos-gratuitos-para-residentes-del-12-al-17-de-octubre"
+  },
+  "fuentes_consultadas": [
+    {
+      "id": "bariloche-opina",
+      "nombre": "Bariloche Opina",
+      "url_nota": "https://www.barilocheopina.com/noticias/2026/10/09/95631-catedral-ofrece-ascensos-gratuitos-para-residentes-del-12-al-17-de-octubre"
+    }
+  ],
+  "cobertura_cruzada": 1,
+  "cuerpo_html": "<p class=\"c-dossier-link\">📌 <em>Seguimiento: <a href=\"/seguimientos/catedral-concesion\">Concesión y Modelo Cerro Catedral</a></em></p>\n<p>El centro de deportes invernales más grande de Sudamérica despidió este lunes sus pistas de nieve: <strong>Catedral Alta Patagonia dio por concluida la temporada de esquí 2026 e inauguró la Semana Peatón Residente Gratuita</strong>, según informó <a href=\"https://www.barilocheopina.com/noticias/2026/10/09/95631-catedral-ofrece-ascensos-gratuitos-para-residentes-del-12-al-17-de-octubre\" target=\"_blank\" rel=\"noopener noreferrer\">Bariloche Opina</a>.</p>\n<p>Hasta el sábado 17 de octubre, los habitantes de Bariloche y Dina Huapi podrán subir sin costo por la telecabina Amancay y la telesilla Diente de Caballo hasta los 1.800 metros de altura, con un cupo diario de 500 lugares previa reserva digital y acreditación de DNI en la base. La iniciativa marca el inicio del receso técnico en el que la concesionaria acondicionará los medios de cara a la temporada de trekking y turismo estival 2026/2027.</p>",
+  "citas": [
+    {
+      "autor": "Catedral Alta Patagonia",
+      "texto": "Despedimos una gran temporada de nieve y abrimos la montaña a nuestros vecinos para que disfruten de la primavera andina con pases 100% bonificados."
+    }
+  ],
+  "datos_duros": {
+    "cierre_invernal": "Fin formal de la operación de esquí este lunes 12 de octubre",
+    "programa_residente": "Semana Peatón Gratuita del 12 al 17 de octubre con 500 turnos por jornada",
+    "medios_habilitados": "Telecabina Amancay y Telesilla Diente de Caballo para acceso peatonal",
+    "preventa_2027": "Pase Residente Classic 2027 en etapa de preventa a $640.000"
+  },
+  "area": "Pulso Turístico",
+  "fecha": "2026-10-08",
+  "foto": "https://barilocheopina-s3.cdn.net.ar/s3i233/2026/10/barilocheopina/images/02/80/67/2806757_c92aaa6b99a61f885cdb245e0f6a23d4bf010519359e67fff58b1c2507723a75/md.webp",
+  "updated_at": "2026-10-14T15:13:58.825Z",
+  "curada_manualmente": false,
+  "imagen_url": "https://barilocheopina-s3.cdn.net.ar/s3i233/2026/10/barilocheopina/images/02/80/67/2806757_c92aaa6b99a61f885cdb245e0f6a23d4bf010519359e67fff58b1c2507723a75/md.webp",
+  "media": {
+    "credito": "Prensa CAPSA / Bariloche Opina",
+    "requiere_foto": true,
+    "prompt_nanobanana": "Ilustración editorial en estilo animación 2D primaveral: la telecabina Amancay ascendiendo sobre laderas con parches de nieve y lengas en floración, con peatones contemplando el lago Nahuel Huapi desde el parador superior de montaña. Estilo límpido, colores azul cielo, blanco nieve, verde bosque y madera andina, sin texto.",
+    "imagen_url": "https://barilocheopina-s3.cdn.net.ar/s3i233/2026/10/barilocheopina/images/02/80/67/2806757_c92aaa6b99a61f885cdb245e0f6a23d4bf010519359e67fff58b1c2507723a75/md.webp"
+  },
+  "url": "https://www.barilocheopina.com/noticias/2026/10/09/95631-catedral-ofrece-ascensos-gratuitos-para-residentes-del-12-al-17-de-octubre",
+  "fecha_publicacion": "2026-10-08"
+}

@@ -1,0 +1,54 @@
+{
+  "id": "2026-10-11_renuncia-diego-piquin-agencia-turismo-rio-negro-crisis",
+  "titular": "Terremoto político en Turismo de Río Negro: renunció Diego Piquín y el ministro Banacloy deslindó explicaciones sobre su salida",
+  "hecho_central": "La dimisión indeclinable de Diego Piquín como director ejecutivo de la Agencia de Turismo de Río Negro (ex titular del EMPROTUR Bariloche) generó un fuerte cimbronazo político en el gabinete provincial. En declaraciones públicas durante el festival BALC, el ministro de Producción Carlos Banacloy reconoció su sorpresa y marcó distancia («las explicaciones de por qué se va las tiene que dar él, no yo»), mientras referentes empresariales del turismo privado calificaron la renuncia como una sensible pérdida técnica en vísperas del verano 2026/2027.",
+  "area_id": "turismo",
+  "dossier_id": "temporada-turistica-nieve",
+  "seguimiento_id": "temporada-turistica-nieve",
+  "fuente": {
+    "id": "el-cordillerano",
+    "nombre": "Diario El Cordillerano",
+    "url_nota": "https://www.elcordillerano.com.ar/noticias/2026/10/11/266850-el-ministro-de-produccion-sobre-la-renuncia-de-piquin-a-turismo-las-explicaciones-de-por-que-se-va-las-tiene-que-dar-el-no-yo-"
+  },
+  "fuentes_consultadas": [
+    {
+      "id": "el-cordillerano",
+      "nombre": "Diario El Cordillerano",
+      "url_nota": "https://www.elcordillerano.com.ar/noticias/2026/10/11/266850-el-ministro-de-produccion-sobre-la-renuncia-de-piquin-a-turismo-las-explicaciones-de-por-que-se-va-las-tiene-que-dar-el-no-yo-"
+    },
+    {
+      "id": "el-cordillerano",
+      "nombre": "Diario El Cordillerano",
+      "url_nota": "https://www.elcordillerano.com.ar/noticias/2026/10/10/266760-diego-piquin-renuncio-a-la-agencia-de-turismo-de-rio-negro-era-un-gran-valor-es-una-perdida-indicaron-desde-atur"
+    }
+  ],
+  "cobertura_cruzada": 2,
+  "cuerpo_html": "<p class=\"c-dossier-link\">📌 <em>Seguimiento: <a href=\"/seguimientos/temporada-turistica-nieve\">Temporada Turística y Gobernanza Pública</a></em></p>\n<p>Un temblor institucional sacudió este domingo la estructura del turismo provincial en Río Negro: <strong>Diego Piquín formalizó su renuncia indeclinable a la presidencia de la Agencia de Turismo</strong>, abriendo interrogantes sobre el rumbo de la política de promoción a semanas del inicio de la temporada estival, según informó <a href=\"https://www.elcordillerano.com.ar/noticias/2026/10/10/266760-diego-piquin-renuncio-a-la-agencia-de-turismo-de-rio-negro-era-un-gran-valor-es-una-perdida-indicaron-desde-atur\" target=\"_blank\" rel=\"noopener noreferrer\">Diario El Cordillerano</a>.</p>\n<p>Consultado durante la feria BALC, el ministro de Producción <a href=\"https://www.elcordillerano.com.ar/noticias/2026/10/11/266850-el-ministro-de-produccion-sobre-la-renuncia-de-piquin-a-turismo-las-explicaciones-de-por-que-se-va-las-tiene-que-dar-el-no-yo-\" target=\"_blank\" rel=\"noopener noreferrer\">Carlos Banacloy no ocultó su malestar y afirmó tajante</a>: «Las explicaciones de por qué se va las tiene que dar él, no yo». Piquín, quien comandó durante años el EMPROTUR de Bariloche y contaba con el respaldo de las cámaras del sector privado, permanecerá en el cargo hasta el 30 de noviembre mientras el gobernador Alberto Weretilneck define a su sucesor.</p>",
+  "citas": [
+    {
+      "autor": "Carlos Banacloy",
+      "cargo": "Ministro de Desarrollo Económico y Producción de Río Negro",
+      "texto": "A mí me toma por sorpresa. Creo que se hizo una apuesta fuerte a él como persona, y si considera que no está para poder continuar, tendrá sus razones. Las explicaciones de por qué se va las tiene que dar él, no yo."
+    }
+  ],
+  "datos_duros": {
+    "cargo_renunciante": "Director Ejecutivo de la Agencia de Turismo de Río Negro (en funciones hasta el 30/11)",
+    "antecedente_tecnico": "Ex Director Ejecutivo del EMPROTUR Bariloche con amplia inserción en el empresariado",
+    "reaccion_ministerial": "Declaraciones de Carlos Banacloy confirmando que adujo 'razones personales'",
+    "momento_politico": "Renuncia comunicada durante el desarrollo de Bariloche a la Carta y a dos meses del verano"
+  },
+  "area": "Pulso Turístico",
+  "fecha": "2026-10-07",
+  "foto": "https://elcordillerano-s3.cdn.net.ar/s3i233/2025/07/elcordillerano/images/02/20/42/2204227_6117533be40307f14a3796b33dda023a7b7a53e239400a13bd6be6c91c4f6c4e/md.webp",
+  "updated_at": "2026-10-12T14:03:26.551Z",
+  "curada_manualmente": false,
+  "imagen_url": "https://elcordillerano-s3.cdn.net.ar/s3i233/2025/07/elcordillerano/images/02/20/42/2204227_6117533be40307f14a3796b33dda023a7b7a53e239400a13bd6be6c91c4f6c4e/md.webp",
+  "media": {
+    "credito": "Diario El Cordillerano / Bariloche Semanal",
+    "requiere_foto": true,
+    "prompt_nanobanana": "Ilustración editorial en estilo animación 2D sobre política institucional: un despacho gubernamental sobrio con ventanal hacia el lago Nahuel Huapi, una credencial institucional y una carpeta de renuncia sobre una mesa de madera patagónica, con funcionarios dialogando en penumbra. Tono analítico, líneas estilizadas, paleta en azul marino institucional, gris pizarra, caoba y blanco papel, sin texto.",
+    "imagen_url": "https://elcordillerano-s3.cdn.net.ar/s3i233/2025/07/elcordillerano/images/02/20/42/2204227_6117533be40307f14a3796b33dda023a7b7a53e239400a13bd6be6c91c4f6c4e/md.webp"
+  },
+  "url": "https://www.elcordillerano.com.ar/noticias/2026/10/11/266850-el-ministro-de-produccion-sobre-la-renuncia-de-piquin-a-turismo-las-explicaciones-de-por-que-se-va-las-tiene-que-dar-el-no-yo-",
+  "fecha_publicacion": "2026-10-07"
+}

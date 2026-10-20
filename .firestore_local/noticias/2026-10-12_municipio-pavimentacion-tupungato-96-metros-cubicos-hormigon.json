@@ -1,0 +1,48 @@
+{
+  "id": "2026-10-12_municipio-pavimentacion-tupungato-96-metros-cubicos-hormigon",
+  "titular": "Avanza el plan vial en el Alto: el Municipio colocó 96 metros cúbicos de hormigón para pavimentar calle Tupungato",
+  "hecho_central": "La Secretaría de Obras y Servicios Públicos completó la segunda etapa consecutiva de pavimentación sobre calle Tupungato, totalizando 96 metros cúbicos de hormigón H30 volcados para completar 120 metros lineales de calzada rígida. La obra conecta las arterias Brown y Esandi, facilitando el egreso de los barrios populosos del Alto con mano de obra y maquinaria comunal propia.",
+  "area_id": "gestion-publica",
+  "dossier_id": "infraestructura-terminal-rutas",
+  "seguimiento_id": "infraestructura-terminal-rutas",
+  "fuente": {
+    "id": "bariloche-opina",
+    "nombre": "Bariloche Opina",
+    "url_nota": "https://www.barilocheopina.com/noticias/2026/10/12/95679-avanza-la-pavimentacion-de-tupungato-colocaron-96-metros-cubicos-de-hormigon"
+  },
+  "fuentes_consultadas": [
+    {
+      "id": "bariloche-opina",
+      "nombre": "Bariloche Opina",
+      "url_nota": "https://www.barilocheopina.com/noticias/2026/10/12/95679-avanza-la-pavimentacion-de-tupungato-colocaron-96-metros-cubicos-de-hormigon"
+    }
+  ],
+  "cobertura_cruzada": 1,
+  "cuerpo_html": "<p class=\"c-dossier-link\">📌 <em>Seguimiento: <a href=\"/seguimientos/infraestructura-terminal-rutas\">Infraestructura Vial, Terminal y Conectividad Urbana</a></em></p>\n<p>El plan de asfalto barrial con cuadrillas municipales aceleró sus tiempos durante el fin de semana largo: <strong>la Municipalidad de Bariloche colocó 96 metros cúbicos de hormigón H30 en la calle Tupungato</strong>, alcanzando los 120 metros lineales de nueva calzada, según informó <a href=\"https://www.barilocheopina.com/noticias/2026/10/12/95679-avanza-la-pavimentacion-de-tupungato-colocaron-96-metros-cubicos-de-hormigon\" target=\"_blank\" rel=\"noopener noreferrer\">Bariloche Opina</a>.</p>\n<p>La traza intervenida constituye un desvío estratégico para el tránsito que desciende desde el barrio 150 Viviendas y la zona sur hacia la avenida Esandi. El Ejecutivo local destacó que el uso de hormigón elaborado en la propia planta municipal abarata los costos operativos y permite sostener el ritmo de pavimentación en calles con pronunciadas pendientes andinas.</p>",
+  "citas": [
+    {
+      "autor": "Obras Públicas Bariloche",
+      "texto": "El hormigonado de Tupungato se realizó a ritmo sostenido durante el fin de semana para entregar la calzada fraguada a los vecinos y optimizar las vías de conexión del Alto."
+    }
+  ],
+  "datos_duros": {
+    "volumen_hormigon": "96 metros cúbicos de hormigón elaborado H30",
+    "longitud_pavimentada": "120 metros lineales concluidos en dos jornadas",
+    "conectividad_barrial": "Enlace directo entre avenida Brown y calle Esandi",
+    "recursos_utilizados": "Equipos motohormigoneros y personal de la planta municipal"
+  },
+  "area": "Gestión Pública",
+  "fecha": "2026-10-08",
+  "foto": "https://barilocheopina-s3.cdn.net.ar/s3i233/2026/10/barilocheopina/images/02/80/98/2809882_1438d872f38eb8fb8774808520c22fb08ebef38fe0b242f7c7a87e7f5b2de305/md.webp",
+  "updated_at": "2026-10-14T15:12:19.246Z",
+  "curada_manualmente": false,
+  "imagen_url": "https://barilocheopina-s3.cdn.net.ar/s3i233/2026/10/barilocheopina/images/02/80/98/2809882_1438d872f38eb8fb8774808520c22fb08ebef38fe0b242f7c7a87e7f5b2de305/md.webp",
+  "media": {
+    "credito": "Prensa Municipalidad de Bariloche / Bariloche Opina",
+    "requiere_foto": true,
+    "prompt_nanobanana": "Ilustración editorial en estilo animación 2D urbana: camiones hormigoneros municipales trabajando sobre una pendiente asfaltada en un barrio alto de Bariloche, operarios alisando el hormigón fresco con reglas de aluminio, casas cordilleranas de madera y cerros de fondo bajo el sol de primavera. Estilo limpio y moderno, paleta en gris cemento, amarillo maquinaria, azul institucional y verde pino, sin texto.",
+    "imagen_url": "https://barilocheopina-s3.cdn.net.ar/s3i233/2026/10/barilocheopina/images/02/80/98/2809882_1438d872f38eb8fb8774808520c22fb08ebef38fe0b242f7c7a87e7f5b2de305/md.webp"
+  },
+  "url": "https://www.barilocheopina.com/noticias/2026/10/12/95679-avanza-la-pavimentacion-de-tupungato-colocaron-96-metros-cubicos-de-hormigon",
+  "fecha_publicacion": "2026-10-08"
+}

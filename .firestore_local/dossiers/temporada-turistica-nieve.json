@@ -1,108 +1,116 @@
 {
   "id": "temporada-turistica-nieve",
-  "titulo": "Temporada Turística, Nieve y Conectividad",
-  "area_id": "turismo",
+  "titulo": "Gobernanza Turística (EMPROTUR / BALC), Concesión Cerro Catedral y Parque Nacional Nahuel Huapi",
+  "area_id": "montana",
   "estado": "activo",
-  "resumen_contexto": "Gastronomía y tecnología: BALC 2026 incorporó un sistema web de pedidos desde el celular para agilizar la entrega en la feria del Centro Cívico del 9 al 12 de octubre.",
+  "criterio_inclusion": "Gobernanza del EMPROTUR y Cámara de Turismo, balances y premios de Bariloche a la Carta (BALC), conectividad aérea y estudiantil, concesión del Cerro Catedral (CAPSA), fiscalización del EAMCEC y tarifas de pases residentes, y resoluciones de manejo y seguridad del Parque Nacional Nahuel Huapi.",
+  "prohibido_incluir": "Promociones comerciales privadas de agencias de viaje o eventos sociales sin impacto en la política turística regional.",
+  "resumen_contexto": "Seguimiento unificado del motor económico y ambiental de Bariloche en la transición invierno-verano: cierre de la temporada 2026 en el Cerro Catedral con más de 17.500 residentes y preventa del Pase Residente 2027 a $640.000, balance de Bariloche a la Carta (BALC 2026) con 88% de ocupación y +110.000 consumidores entre feria y circuito gastronómico, renovación de autoridades en la Cámara de Turismo (Néstor Denoya), gestiones del EMPROTUR por el turismo estudiantil chileno y el vuelo a Puerto Montt, y prohibición total de uso del fuego en el Parque Nacional Nahuel Huapi hasta abril de 2027.",
   "actores_clave": [
-    "emprotur",
-    "aehgb",
-    "capsa",
-    "splif",
-    "parque-nacional-nahuel-huapi"
+    "Cámara de Turismo de Bariloche (Néstor Denoya)",
+    "Asociación Empresaria Hotelera Gastronómica de Bariloche (AEHGB) y BALC",
+    "EMPROTUR y Secretaría de Turismo Municipal",
+    "Alcaldía y Cámara de Comercio de Puerto Montt (Chile)",
+    "Catedral Alta Patagonia S.A. (CAPSA)",
+    "Ente Autárquico Municipal Cerro Catedral (EAMCEC)",
+    "Ejecutivo Municipal y Concejo Deliberante",
+    "Club Andino Bariloche (CAB) y asociaciones de esquí y montaña",
+    "Parque Nacional Nahuel Huapi"
   ],
+  "datos_duros_verificados": {
+    "asistentes_feria_balc_2026": "Más de 50.000 personas (88% de ocupación en el fin de semana largo)",
+    "plato_de_oro_balc_2026": "Restaurante Brazarte - Hotel Sheraton (Chef Aníbal Ramírez, 'Cortejo de Trucha Patagónica')",
+    "presidente_camara_turismo": "Néstor Denoya (ATEBA), acompañado por Silvia Luzzardi (AHT) y Pablo Molteni (Hostels y Campings)",
+    "meta_vuelo_puerto_montt": "Primer semestre de 2027 (vuelo de 45 minutos)",
+    "fuente_camara_turismo": "https://www.elcordillerano.com.ar/noticias/2026/10/14/267483-la-camara-de-turismo-de-bariloche-renovo-parte-de-su-conduccion-y-sumo-nuevas-voces",
+    "alerta_turismo_estudiantil_chile": "Incidencia de fletes y traslados internos en Bariloche planteada por 140 operadores en Santiago (16/10/2026)",
+    "fuente_alerta_chile": "https://www.barilocheopina.com/noticias/2026/10/16/95972-bariloche-busca-evitar-que-los-costos-del-transporte-afecten-los-viajes-estudiantiles-desde-chile",
+    "premios_oficiales_balc_2026": "Menú Punto Río Negro a Solís; Plato de Oro a Brazarte (Hotel Sheraton)",
+    "balance_publico_balc_2026": "+45.000 en feria del Centro Cívico, +65.000 en circuito de restaurantes",
+    "fuente_premios_balc": "https://www.elcordillerano.com.ar/noticias/2026/10/17/267980-bariloche-a-la-carta-estos-son-los-restaurantes-y-propuestas-gastronomicas-ganadoras",
+    "fin_concesion_capsa": "2056",
+    "residentes_beneficiados_2026": "Más de 17.500 vecinos",
+    "preventa_pase_residente_2027": "$640.000 (desde el 01/10/2026)",
+    "semana_peaton_residente": "12 al 17 de octubre de 2026 (500 pases diarios gratuitos)",
+    "fuente_balance": "https://www.elcordillerano.com.ar/noticias/2026/10/13/267255-cerro-catedral-cerro-la-temporada-con-mas-de-17500-residentes-y-una-fuerte-agenda-deportiva-y-social",
+    "prohibicion_fuego_pnnh": "Prohibición absoluta de hacer fuego en el Parque Nacional Nahuel Huapi extendida hasta el 30/04/2027"
+  },
+  "cronica_html": "<article class=\"c-dossier-article\">\n  <h3>1. Antecedentes y Marco Estructural</h3>\n  <p>La economía turística y de montaña de San Carlos de Bariloche articula la regulación pública y privada sobre tres pilares: la concesión del <strong>Cerro Catedral</strong> a CAPSA hasta 2056 bajo fiscalización del ente municipal <strong>EAMCEC</strong>, la promoción y conectividad impulsada por el <strong>EMPROTUR</strong> y la <strong>Cámara de Turismo de Bariloche</strong> (renovada bajo la presidencia de Néstor Denoya), y el manejo ambiental del <strong>Parque Nacional Nahuel Huapi (PNNH)</strong> en la antesala de la temporada estival de trekking y refugios de montaña.</p>\n  <aside class=\"c-dossier-data\">\n    <h4>Ficha Técnica Verificada</h4>\n    <ul>\n      <li><strong>Balance Cerro Catedral 2026:</strong> Más de 17.500 residentes beneficiados; Pase Residente Classic 2027 en preventa a $640.000.</li>\n      <li><strong>Balance Bariloche a la Carta 2026:</strong> 88% de ocupación hotelera, +45.000 visitantes en el Centro Cívico y +65.000 cubiertos en el circuito; Plato de Oro para Brazarte (Hotel Sheraton) y Menú Río Negro para Solís.</li>\n      <li><strong>Conducción Cámara de Turismo:</strong> Néstor Denoya (ATEBA), Silvia Luzzardi (AHT) y Pablo Molteni (Hostels y Campings).</li>\n      <li><strong>Conectividad Internacional:</strong> Gestiones con Puerto Montt para vuelo directo de 45 minutos en el primer semestre de 2027 y alerta en Santiago de Chile por costos de transporte interno en el segmento estudiantil.</li>\n    </ul>\n  </aside>\n  <h3>2. Bitácora Documental de Hitos Verificados</h3>\n  <ul>\n    <li><strong>[16/09/2026]</strong> Cierre del programa escolar y municipal de bautismo de nieve en Cerro Catedral con más de 1.000 residentes (<a href=\"https://www.barilocheopina.com/noticias/2026/09/16/94408-mas-de-1000-residentes-tuvieron-su-primera-experiencia-en-la-nieve-en-catedral\" target=\"_blank\" rel=\"noopener noreferrer\">Bariloche Opina</a>).</li>\n    <li><strong>[30/09/2026]</strong> CAPSA lanzó la preventa del Pase Residente Classic 2027 a tarifa congelada de $640.000 (<a href=\"https://www.elcordillerano.com.ar/noticias/2026/09/29/264664-cerro-catedral-adelanta-la-venta-del-pase-residente-2027-comienza-el-1-de-octubre\" target=\"_blank\" rel=\"noopener noreferrer\">El Cordillerano</a>).</li>\n    <li><strong>[02/10/2026]</strong> Lonely Planet distinguió a Bariloche y la Región de los Lagos en el 2° puesto mundial de Best in Travel 2027 (<a href=\"https://www.barilocheopina.com/noticias/2026/10/02/95292-bariloche-la-unica-elegida-de-sudamerica-en-el-best-in-travel-2027\" target=\"_blank\" rel=\"noopener noreferrer\">Bariloche Opina</a>).</li>\n    <li><strong>[12/10/2026]</strong> Cerró la temporada de esquí en Catedral (dando paso a la Semana Peatón Residente con 500 pases diarios gratuitos del 12 al 17/10) y culminó la feria de BALC 2026 con el acuerdo junto al alcalde de Puerto Montt, Rodrigo Wainraihgt, para reactivar el vuelo transandino en 2027 (<a href=\"https://www.elcordillerano.com.ar/noticias/2026/10/12/266997-gran-participacion-de-puerto-montt-en-bariloche-a-la-carta-esperamos-que-en-2027-quede-operativa-la-conexion-aerea\" target=\"_blank\" rel=\"noopener noreferrer\">El Cordillerano</a>).</li>\n    <li><strong>[13/10/2026]</strong> CAPSA publicó el balance final de la temporada invernal 2026 registrando más de 17.500 residentes en pistas (<a href=\"https://www.elcordillerano.com.ar/noticias/2026/10/13/267255-cerro-catedral-cerro-la-temporada-con-mas-de-17500-residentes-y-una-fuerte-agenda-deportiva-y-social\" target=\"_blank\" rel=\"noopener noreferrer\">El Cordillerano</a>).</li>\n    <li><strong>[14/10/2026]</strong> La Cámara de Turismo renovó su conducción con Néstor Denoya al frente e incorporó al sector de hostels (<a href=\"https://www.elcordillerano.com.ar/noticias/2026/10/14/267483-la-camara-de-turismo-de-bariloche-renovo-parte-de-su-conduccion-y-sumo-nuevas-voces\" target=\"_blank\" rel=\"noopener noreferrer\">El Cordillerano</a>).</li>\n    <li><strong>[16/10/2026]</strong> El EMPROTUR advirtió tras una misión ante 140 operadores en Santiago de Chile que el costo del transporte receptivo local amenaza la competitividad del turismo estudiantil chileno (<a href=\"https://www.barilocheopina.com/noticias/2026/10/16/95972-bariloche-busca-evitar-que-los-costos-del-transporte-afecten-los-viajes-estudiantiles-desde-chile\" target=\"_blank\" rel=\"noopener noreferrer\">Bariloche Opina</a>).</li>\n    <li><strong>[17/10/2026]</strong> AEHGB y EMPROTUR premiaron a Solís (Mejor Menú Punto Río Negro) y Brazarte (Plato de Oro) en el cierre de BALC 2026 (<a href=\"https://www.elcordillerano.com.ar/noticias/2026/10/17/267980-bariloche-a-la-carta-estos-son-los-restaurantes-y-propuestas-gastronomicas-ganadoras\" target=\"_blank\" rel=\"noopener noreferrer\">El Cordillerano</a>).</li>\n  </ul>\n  <h3>3. Mapa de Posiciones Comprobadas</h3>\n  <p>Las cámaras empresariales (AEHGB, Cámara de Turismo y ATEBA) celebraron el impacto promocional de BALC 2026 pero coinciden con el EMPROTUR en la necesidad de contener costos internos de transporte y servicios para no perder mercado regional frente a Brasil y Chile.</p>\n  <h3>4. Próximas Instancias Confirmadas</h3>\n  <p>Vigencia de la prohibición total de hacer fuego en el Parque Nacional Nahuel Huapi hasta el <strong>30 de abril de 2027</strong>; gestiones técnicas ante aerolíneas low cost para habilitar la ruta aérea Bariloche–Puerto Montt en el <strong>primer semestre de 2027</strong>.</p>\n</article>",
   "timeline": [
     {
-      "fecha": "2026-09-17",
-      "hito": "Presentación formal de Bariloche a la Carta 2026 con más de 70 locales y Córdoba como invitada.",
-      "fuente_url": "https://www.barilocheopina.com/noticias/2026/09/17/94471-balc-2026-bariloche-a-la-carta-se-prepara-para-una-nueva-edicion-con-cordoba-como-invitada"
+      "fecha": "2026-09-16",
+      "hito": "Cierre del programa municipal y escolar de bautismo de nieve con más de 1.000 residentes y estudiantes beneficiados en la base de Catedral.",
+      "noticia_id": "",
+      "fuente_url": "https://www.barilocheopina.com/noticias/2026/09/16/94408-mas-de-1000-residentes-tuvieron-su-primera-experiencia-en-la-nieve-en-catedral"
     },
     {
-      "fecha": "2026-09-18",
-      "hito": "Catedral confirma extensión de temporada hasta el 12 de octubre y lanza venta de pase residente 2027 a $640.000.",
-      "fuente_url": "https://www.anbariloche.com.ar/noticias/2026/09/18/117553-cerro-catedral-extiende-la-temporada-hasta-el-12-de-octubre-y-adelanta-la-venta-de-pases-para-residentes-2027"
-    },
-    {
-      "fecha": "2026-09-21",
-      "hito": "Frente frío aportó nieve polvo en cumbre (-5°C) consolidando las condiciones para el esquí de primavera.",
-      "noticia_id": "2026-09-21_primavera-nevadas-catedral-bajas-temperaturas",
-      "fuente_url": "https://www.barilocheopina.com/noticias/2026/09/21/94606-la-primavera-comenzo-con-frio-y-algunos-copos-de-nieve-en-bariloche"
-    },
-    {
-      "fecha": "2026-09-24",
-      "hito": "Bariloche acumuló 68 mm de lluvia en 24 horas superando el promedio de todo septiembre, con agua-nieve en cumbre y saturación de laderas.",
-      "noticia_id": "2026-09-24_temporal-record-lluvia-bariloche-68mm-24-horas-smn",
-      "fuente_url": "https://www.elcordillerano.com.ar/noticias/2026/09/24/263938-en-24-horas-cayo-en-bariloche-mas-lluvia-de-la-que-suele-acumular-todo-septiembre"
-    },
-    {
-      "fecha": "2026-09-25",
-      "hito": "SPLIF Bariloche y guardabosques de Llao Llao completaron capacitación en motobombas forestales con el SNMF ante la proximidad de la temporada seca.",
-      "noticia_id": "2026-09-25_splif-guardabosques-llao-llao-capacitacion-motobombas-forestales",
-      "fuente_url": "https://www.anbariloche.com.ar/amp/noticias/2026/09/25/118231-capacitaron-a-combatientes-y-guardabosques-para-el-uso-de-motobombas-forestales"
-    },
-    {
-      "fecha": "2026-09-27",
-      "hito": "Parques Nacionales clausuró el camino a Pampa Linda y Tronador por crecida extrema del río Manso Superior (19 aislados en hosterías); Bariloche presentó en la FIT 2026 su stand de refugios andinos.",
-      "noticia_id": "2026-09-27_cierre-circuito-cerro-tronador-rio-manso-pampa-linda-alerta",
-      "fuente_url": "https://www.elcordillerano.com.ar/noticias/2026/09/27/264331-cerraron-el-circuito-a-cerro-tronador-por-crecida-del-rio-manso-y-condicionaron-el-acceso-a-cascada-los-alerces"
-    },
-    {
-      "fecha": "2026-09-28",
-      "hito": "El EMPROTUR inició rondas técnicas comerciales en la FIT con Aerolíneas Argentinas y Sky para blindar la conectividad aérea de verano.",
-      "noticia_id": "2026-09-28_emprotur-fit-rondas-conectividad-aerolineas-verano-2027",
-      "fuente_url": "https://www.barilocheopina.com/noticias/2026/09/28/95020-natacha-vazquez-queremos-seguir-sosteniendo-la-conectividad-de-bariloche-en-el-tiempo"
-    },
-    {
-      "fecha": "2026-09-29",
-      "hito": "El río Manso bajó en Pampa Linda pero el puente dañado mantiene cerrado el acceso a Tronador; onda de crecida avanza hacia El Manso inferior.",
-      "noticia_id": "2026-09-29_crecida-rio-manso-desciende-pampa-linda-onda-valle-el-manso",
-      "fuente_url": "https://www.barilocheopina.com/noticias/2026/09/29/95074-la-crecida-del-rio-manso-comienza-a-bajar-en-pampa-linda-pero-avanza-hacia-otros-sectores"
-    },
-    {
-      "fecha": "2026-10-01",
-      "hito": "El SPLIF fijó para el 5 de octubre el inicio de la veda total de quemas en Bariloche, Dina Huapi y Llanquín; en paralelo, el EMPROTUR expuso en la FIT su modelo de datos para mitigar la estacionalidad.",
-      "noticia_id": "2026-10-01_splif-prohibicion-total-quemas-bariloche-dina-huapi-temporada-estival",
-      "fuente_url": "https://www.barilocheopina.com/noticias/2026/10/01/95205-desde-el-lunes-5-de-octubre-quedan-prohibidas-las-quemas-en-bariloche-dina-huapi-y-villa-llanquin"
+      "fecha": "2026-09-30",
+      "hito": "CAPSA lanzó la preventa del Pase Residente Classic 2027 a tarifa congelada de $640.000 a partir del 1 de octubre.",
+      "noticia_id": "2026-09-30_cerro-catedral-adelanta-preventa-pase-residente-2027-operacion-octubre",
+      "fuente_url": "https://www.elcordillerano.com.ar/noticias/2026/09/29/264664-cerro-catedral-adelanta-la-venta-del-pase-residente-2027-comienza-el-1-de-octubre"
     },
     {
       "fecha": "2026-10-02",
-      "hito": "Lonely Planet ubicó a Bariloche y la Región de los Lagos como el 2º mejor destino del mundo en Best in Travel 2027, siendo la única ciudad seleccionada de Sudamérica.",
+      "hito": "Lonely Planet eligió a Bariloche y la Región de los Lagos en el 2° puesto mundial de Best in Travel 2027, siendo el único destino de Sudamérica en el ranking.",
       "noticia_id": "2026-10-02_lonely-planet-elige-bariloche-best-in-travel-2027-sudamerica",
       "fuente_url": "https://www.barilocheopina.com/noticias/2026/10/02/95292-bariloche-la-unica-elegida-de-sudamerica-en-el-best-in-travel-2027"
     },
     {
-      "fecha": "2026-10-03",
-      "hito": "Se presentó el circuito 'BALC Invita' con ocho restaurantes y hoteles de autor (Ánima, Madurado, Huinid, Llao Llao) que cocinarán platos exclusivos en el Centro Cívico del 9 al 12 de octubre.",
-      "noticia_id": "2026-10-03_balc-invita-ocho-grandes-cocinas-llegan-al-centro-civico",
-      "fuente_url": "https://www.barilocheopina.com/noticias/2026/10/03/95331-balc-invita-2026-ocho-grandes-cocinas-llegan-al-centro-civico"
+      "fecha": "2026-10-09",
+      "hito": "Abrió la Feria Gastronómica de Bariloche a la Carta 2026 en el Centro Cívico con más de 100 expositores y un circuito de 90 restaurantes.",
+      "noticia_id": "2026-10-09_inauguracion-feria-bariloche-a-la-carta-centro-civico",
+      "fuente_url": "https://www.barilocheopina.com/noticias/2026/10/09/95640-abrio-la-feria-de-bariloche-a-la-carta-2026-con-sabores-de-todo-el-pais-y-cordoba-como-invitada"
     },
     {
-      "fecha": "2026-10-04",
-      "hito": "Se realizó el lanzamiento oficial de Bariloche a la Carta 2026 en Radisson Blu con más de 100 referentes; en montaña, la CAX rescató a tres caminantes en el sendero a Frey.",
-      "noticia_id": "2026-10-04_radisson-blu-lanzamiento-oficial-balc-2026-polo-gastronomico",
-      "fuente_url": "https://www.anbariloche.com.ar/noticias/2026/10/04/118989-radisson-blu-bariloche-epicentro-del-lanzamiento-de-bariloche-a-la-carta"
+      "fecha": "2026-10-09",
+      "hito": "CAPSA anunció la Semana Peatón Residente Gratuita con 500 pases diarios bonificados en telecabina Amancay del 12 al 17 de octubre para vecinos con DNI en Bariloche y Dina Huapi.",
+      "noticia_id": "2026-10-09_catedral-semana-peaton-residente-gratuita-ascensos",
+      "fuente_url": "https://www.barilocheopina.com/noticias/2026/10/09/95631-catedral-ofrece-ascensos-gratuitos-para-residentes-del-12-al-17-de-octubre"
     },
     {
-      "fecha": "2026-10-05",
-      "hito": "Comenzó Bariloche a la Carta 2026 con un circuito de más de 90 restaurantes y hoteles con menús promocionales y descuentos hasta el 12 de octubre.",
-      "noticia_id": "2026-10-05_comenzo-bariloche-a-la-carta-circuito-90-restaurantes",
-      "fuente_url": "https://www.barilocheopina.com/noticias/2026/10/05/95346-comienza-bariloche-a-la-carta-mas-de-90-propuestas-para-recorrer-la-gastronomia-de-la-ciudad"
+      "fecha": "2026-10-12",
+      "hito": "BALC 2026 cerró con más de 50.000 visitantes y 88% de ocupación hotelera; en el marco del evento, autoridades de Bariloche y Puerto Montt fijaron como meta el primer semestre de 2027 para inaugurar el vuelo directo binacional.",
+      "noticia_id": "2026-10-12_cierre-record-bariloche-a-la-carta-promocion-brasil",
+      "fuente_url": "https://www.elcordillerano.com.ar/noticias/2026/10/12/266997-gran-participacion-de-puerto-montt-en-bariloche-a-la-carta-esperamos-que-en-2027-quede-operativa-la-conexion-aerea"
     },
     {
-      "fecha": "2026-10-06",
-      "hito": "Bariloche a la Carta anunció la incorporación de pedidos y pagos desde smartphones para reducir esperas en la feria gastronómica del Centro Cívico.",
-      "noticia_id": "2026-10-06_balc-2026-pedidos-celular-feria-centro-civico-innovacion",
-      "fuente_url": "https://www.barilocheopina.com/noticias/2026/10/06/95439-balc-suma-pedidos-desde-el-celular-para-elegir-platos-y-retirarlos-cuando-esten-listos"
+      "fecha": "2026-10-12",
+      "hito": "Finalizó oficialmente la temporada de pistas de esquí en Catedral tras cuatro meses de actividad y comenzó la Semana Peatón Residente Gratuita.",
+      "noticia_id": "2026-10-12_catedral-fin-temporada-esqui-semana-peaton-residente",
+      "fuente_url": "https://www.barilocheopina.com/noticias/2026/10/09/95631-catedral-ofrece-ascensos-gratuitos-para-residentes-del-12-al-17-de-octubre"
+    },
+    {
+      "fecha": "2026-10-13",
+      "hito": "CAPSA difundió el balance oficial de la temporada invernal 2026 informando más de 17.500 residentes beneficiados en programas de esquí social, escolar y deportivo.",
+      "noticia_id": "2026-10-13_catedral-balance-temporada-17500-residentes-beneficiados",
+      "fuente_url": "https://www.elcordillerano.com.ar/noticias/2026/10/13/267255-cerro-catedral-cerro-la-temporada-con-mas-de-17500-residentes-y-una-fuerte-agenda-deportiva-y-social"
+    },
+    {
+      "fecha": "2026-10-14",
+      "hito": "El restaurante Brazarte (chef Aníbal Ramírez) ganó el Plato de Oro de BALC 2026 y la Cámara de Turismo de Bariloche ratificó a Néstor Denoya en la presidencia incorporando a Hostels y Campings.",
+      "noticia_id": "2026-10-14_nestor-denoya-reeleccion-camara-turismo-bariloche",
+      "fuente_url": "https://www.elcordillerano.com.ar/noticias/2026/10/14/267483-la-camara-de-turismo-de-bariloche-renovo-parte-de-su-conduccion-y-sumo-nuevas-voces"
+    },
+    {
+      "fecha": "2026-10-16",
+      "hito": "El EMPROTUR advirtió desde Santiago de Chile que los costos del transporte interno amenazan la competitividad del turismo estudiantil chileno para noviembre y diciembre.",
+      "noticia_id": "2026-10-16_emprotur-chile-costos-transporte-turismo-estudiantil",
+      "fuente_url": "https://www.barilocheopina.com/noticias/2026/10/16/95972-bariloche-busca-evitar-que-los-costos-del-transporte-afecten-los-viajes-estudiantiles-desde-chile"
+    },
+    {
+      "fecha": "2026-10-17",
+      "hito": "La AEHGB y el EMPROTUR entregaron los premios de Bariloche a la Carta 2026: Solís ganó el Menú Punto Río Negro y Brazarte obtuvo el Plato de Oro, cerrando una edición con 45.000 asistentes en la feria.",
+      "noticia_id": "2026-10-17_balc-2026-entrega-premios-solis-brazarte-aehgb",
+      "fuente_url": "https://www.elcordillerano.com.ar/noticias/2026/10/17/267980-bariloche-a-la-carta-estos-son-los-restaurantes-y-propuestas-gastronomicas-ganadoras"
     }
   ],
-  "cronica_html": "<div class=\"c-dossier-article\">\n<p class=\"c-lead\">Bariloche protagoniza una transición turística virtuosa: tras despedir una temporada invernal histórica coronada por nevadas tardías en Cerro Catedral, la ciudad fue elegida por Lonely Planet como el 2º mejor destino del mundo para 2027 e inauguró la 13ª edición de Bariloche a la Carta con más de 90 restaurantes.</p>\n<h3>1. Antecedentes y génesis</h3>\n<p>El turismo es el principal motor económico de Bariloche y la Comarca Andina, representando más del 40% del empleo directo e indirecto. Sin embargo, el destino enfrenta el desafío estructural de la estacionalidad: los marcados picos de demanda en invierno (esquí en Catedral) y verano (playas lacustres) suelen dar paso a valles pronunciados en otoño y primavera. Para combatir este fenómeno, el Ente Mixto de Promoción Turística (EMPROTUR) y la Asociación Empresaria Hotelera Gastronómica (AEHGB) diseñaron productos ancla desestacionalizadores como el festival gastronómico Bariloche a la Carta (BALC) y acuerdos aerocomerciales de conectividad continua.</p>\n<h3>2. Últimos acontecimientos y novedades</h3>\n<p>El calendario turístico vivió una semana de definiciones internacionales. La célebre guía de viajes <strong>Lonely Planet consagró a Bariloche y la Región de los Lagos en el 2º puesto de su prestigioso ranking global 'Best in Travel 2027'</strong> entre 25 destinos del planeta, destacándola como la única representante de Sudamérica por su combinación de naturaleza, trekking andino, deportes de montaña y gastronomía identitaria. El anuncio coincidió con la presentación del modelo de analítica predictiva de datos del EMPROTUR en la Feria Internacional de Turismo (FIT 2026) en Buenos Aires, orientado a captar visitantes de Brasil, EE.UU., México y Europa en temporadas intermedias.</p>\n<p>En la montaña, Cerro Catedral concluyó formalmente su temporada de esquí el <strong>domingo 4 de octubre</strong> tras celebrar su 90° aniversario, favorecido por una nevada tardía en cotas altas que permitió esquiar en nieve en polvo hasta el último día, mientras avanza la preventa del Pase Residente 2027 a $640.000. De inmediato, el protagonismo pasó al Centro Cívico con el lanzamiento oficial de <strong>Bariloche a la Carta 2026 (del 5 al 12 de octubre)</strong>, con más de 90 establecimientos que ofrecen menús especiales de 1 a 3 pasos con 20% de descuento y la carpa 'BALC Invita' con 8 cocinas galardonadas (Ánima, Madurado, Huinid, Llao Llao y Sheraton).</p>\n<blockquote cite=\"https://www.barilocheopina.com/noticias/2026/10/02/95292-bariloche-la-unica-elegida-de-sudamerica-en-el-best-in-travel-2027\">\n<p>«Que Lonely Planet nos coloque en el podio mundial como el único destino sudamericano valida el esfuerzo conjunto por mostrar la riqueza de Bariloche durante las cuatro estaciones.» — Eric Guzmán, Secretario de Turismo y titular del EMPROTUR.</p>\n</blockquote>\n<aside class=\"c-dossier-data\">\n<h4>Métricas del tablero de turismo y conectividad</h4>\n<ul>\n<li><strong>Reconocimiento mundial:</strong> 2º puesto en Lonely Planet Best in Travel 2027 (único destino sudamericano).</li>\n<li><strong>Circuito BALC 2026:</strong> Más de 90 restaurantes, bodegones y hoteles adheridos con 20% de descuento (5 al 12 de octubre).</li>\n<li><strong>Feria gastronómica Centro Cívico:</strong> 9 al 12 de octubre de 12:00 a 00:00 hs con clases magistrales y 'BALC Invita'.</li>\n<li><strong>Cerro Catedral:</strong> Cierre de medios de elevación invernales el 4 de octubre; preventa Pase Residente 2027 a $640.000.</li>\n<li><strong>Prevención forestal:</strong> Veda total de quemas del SPLIF en Bariloche, Dina Huapi y Llanquín a partir del 5 de octubre.</li>\n</ul>\n</aside>\n<h3>3. Actores e intereses en disputa</h3>\n<p>El bloque empresarial y estatal articula políticas de desestacionalización para sostener los niveles de empleo y consumo, en tanto las brigadas del SPLIF y guardaparques de Parques Nacionales ponen el foco en la prevención: con el cierre del ciclo invernal y el ascenso de las temperaturas, la veda total de quemas a partir del 5 de octubre busca evitar incendios de interfase en un contexto de sequía primaveral.</p>\n<h3>4. Hacia dónde va: próximos pasos e instancias clave</h3>\n<p>El punto culminante de la primavera será el fin de semana largo del 9 al 12 de octubre con la carpa de productores de BALC en el Centro Cívico, que espera superar los 40.000 asistentes. Posteriormente, el EMPROTUR desplegará la campaña de promoción para el verano 2026/2027 en los principales centros emisores del país y el Cono Sur.</p>\n</div>",
-  "fecha_ultima_cronica": "2026-10-06",
   "media": {
-    "imagen_url": "https://barilocheopina-s3.cdn.net.ar/s3i233/2026/10/barilocheopina/images/02/79/68/2796850_md.webp",
-    "credito": "Prensa EMPROTUR / Bariloche Opina",
-    "requiere_foto": false,
-    "prompt_nanobanana": "Ilustración editorial en estilo animación 2D estilizada sobre las cuatro estaciones en Bariloche: una composición panorámica que muestra el florecimiento primaveral con retamas amarillas, el azul profundo del lago Nahuel Huapi con veleros, y los picos andinos todavía cubiertos de nieve en el fondo. Elementos gastronómicos sutiles (una trucha patagónica, frutos rojos, chocolate artesanal) en un picnic frente al lago. Estilo arte vectorial contemporáneo, colores vivos y equilibrados, trazo elegante y cálido, sin texto."
+    "imagen_url": "https://firebasestorage.googleapis.com/v0/b/bariloche-semanal.firebasestorage.app/o/dossiers%2Fgeneral%2Fterminal_ato_new_1792076152497.webp?alt=media&token=6a11e217-cce7-4a6e-b38b-f471acd18528",
+    "requiere_foto": true,
+    "credito": "Prensa CAPSA / El Cordillerano",
+    "prompt_nanobanana": "Ilustración editorial en estilo animación 2D de montaña: la base del Cerro Catedral con esquiadores locales, niños con pecheras escolares y familias celebrando el fin de temporada frente al parador andino de madera, con las cumbres nevadas y cañones de nieve en reposo bajo la luz dorada de la tarde. Estilo nítido, paleta en azul andino, blanco nieve, madera tostada y rojo invierno, sin texto."
   },
-  "ultima_actualizacion": "2026-10-06",
-  "updated_at": "2026-10-06T23:07:37.662Z"
+  "fecha_ultima_cronica": "2026-10-19",
+  "ultima_actualizacion": "2026-10-20T12:55:12.259Z",
+  "updated_at": "2026-10-20T12:55:12.259Z"
 }

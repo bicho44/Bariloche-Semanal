@@ -90,17 +90,19 @@ export async function crearNoticia(req: Request, res: Response): Promise<void> {
       return;
     }
 
-    const sid = seguimiento_id || dossier_id || null;
+    const sid = req.body.dossier_id || req.body.seguimiento_id || null;
 
     const creada = await noticiasService.crear({
       id,
       fecha_publicacion,
+      beat_id: req.body.beat_id,
       fuente,
       area_id,
       seguimiento_id: sid,
       dossier_id: sid,
       titular: titular.trim(),
       hecho_central,
+      por_que_importa_el_domingo: req.body.por_que_importa_el_domingo?.trim() || undefined,
       novedad_respecto_a_dias_previos,
       cuerpo_html: cuerpo_html || '',
       datos_duros: datos_duros || {},
@@ -133,7 +135,21 @@ export async function actualizarNoticia(req: Request, res: Response): Promise<vo
       return;
     }
 
-    const actualizada = await noticiasService.actualizar(id, req.body);
+    const sid = req.body.dossier_id !== undefined
+      ? (req.body.dossier_id || null)
+      : (req.body.seguimiento_id !== undefined ? (req.body.seguimiento_id || null) : undefined);
+
+    const updatePayload: Record<string, unknown> = {
+      ...req.body,
+      ...(sid !== undefined ? { dossier_id: sid, seguimiento_id: sid } : {}),
+      ...(req.body.por_que_importa_el_domingo !== undefined
+        ? { por_que_importa_el_domingo: req.body.por_que_importa_el_domingo?.trim() || undefined }
+        : {}),
+      curada_manualmente: req.body.curada_manualmente !== undefined ? Boolean(req.body.curada_manualmente) : true,
+      updated_at: new Date().toISOString(),
+    };
+
+    const actualizada = await noticiasService.actualizar(id, updatePayload);
     if (!actualizada) {
       res.status(404).json({ error: `Noticia con id '${id}' no encontrada` });
       return;

@@ -1,0 +1,49 @@
+{
+  "id": "2026-10-14_nestor-denoya-reeleccion-camara-turismo-bariloche",
+  "titular": "Néstor Denoya fue ratificado como presidente de la Cámara de Turismo de Bariloche e integran a nuevos sectores",
+  "hecho_central": "La Cámara de Turismo de San Carlos de Bariloche renovó parcialmente su comisión directiva este miércoles 14 de octubre, ratificando la continuidad de Néstor Denoya (ATEBA) en la presidencia y Silvia Luzzardi (AHT) en la vicepresidencia. La entidad sumó a Pablo Molteni (Asociación de Hostels y Campings) en la secretaría y consolidó la presencia de todos los actores del ecosistema turístico local (AEHGB, AAVYTUBA, CAPSA con Helgamaría Salvatelli, rentadoras de autos y el Bariloche Bureau) para encarar las gestiones de conectividad aérea, tarifas y promoción estival.",
+  "dossier_id": "temporada-turistica-nieve",
+  "seguimiento_id": "temporada-turistica-nieve",
+  "fuente": {
+    "id": "el-cordillerano",
+    "nombre": "Diario El Cordillerano",
+    "url_nota": "https://www.elcordillerano.com.ar/noticias/2026/10/14/267483-la-camara-de-turismo-de-bariloche-renovo-parte-de-su-conduccion-y-sumo-nuevas-voces"
+  },
+  "fuentes_consultadas": [
+    {
+      "id": "el-cordillerano",
+      "nombre": "Diario El Cordillerano",
+      "url_nota": "https://www.elcordillerano.com.ar/noticias/2026/10/14/267483-la-camara-de-turismo-de-bariloche-renovo-parte-de-su-conduccion-y-sumo-nuevas-voces"
+    }
+  ],
+  "cobertura_cruzada": 1,
+  "cuerpo_html": "<p class=\"c-dossier-link\">📌 <em>Seguimiento: <a href=\"/seguimientos/temporada-turistica-nieve\">Temporada Turística, Conectividad y Políticas de Promoción</a></em></p>\n<p>En una etapa de reconfiguración institucional para la principal industria económica de la ciudad, la <a href=\"https://www.elcordillerano.com.ar/noticias/2026/10/14/267483-la-camara-de-turismo-de-bariloche-renovo-parte-de-su-conduccion-y-sumo-nuevas-voces\" target=\"_blank\" rel=\"noopener noreferrer\">Cámara de Turismo de Bariloche</a> completó este miércoles 14 de octubre su asamblea general ordinaria con la renovación parcial de su comisión directiva, <strong>ratificando a Néstor Denoya (ATEBA) en la presidencia</strong> y a Silvia Luzzardi (AHT) en la vicepresidencia.</p>\n<p>La nueva grilla directiva destaca por una apertura explícita a segmentos que venían reclamando mayor incidencia en las decisiones colectivas: el dirigente Pablo Molteni, de la Asociación de Hostels y Campings, asumió como secretario general de la entidad, mientras que la prosecretaría quedó a cargo de Orieta Lillo Arenas (AEHGB) y la tesorería en manos de Federico Arellano Stuke (AAVYTUBA), acompañado por Andrea Lucanera (Cámara de Alquiladores). Como vocales titulares ingresaron Lucila Boero y Carlos Pelli (Bariloche Bureau), Belén García Bertone (AEHGB), Omar Herrera (AAVYTUBA) y Valeria Waroquiers (Hostels y Campings), en tanto que en el órgano de fiscalización juraron Diego De Barba y Helgamaría Salvatelli, en representación de CAPSA.</p>\n<p>El respaldo a Denoya aporta estabilidad al bloque empresarial en un momento de fuerte tensión con la esfera provincial tras la renuncia del ministro Diego Piquín y la incertidumbre por el financiamiento del EMPROTUR. La Cámara se fijó como prioridades inmediatas destrabar la conectividad aérea internacional directa con Chile (tras las recientes gestiones bilaterales con Puerto Montt), amortiguar el impacto tarifario en la hotelería y consolidar la agenda promocional de cara al verano 2027.</p>",
+  "citas": [
+    {
+      "autor": "Néstor Denoya, presidente reelecto de la Cámara de Turismo de Bariloche",
+      "texto": "La renovación fortalece la participación de los distintos segmentos de la actividad en espacios estratégicos de decisión para trabajar articulados en el desarrollo, la conectividad y la competitividad de Bariloche."
+    }
+  ],
+  "datos_duros": {
+    "conduccion_ratificada": "Presidente Néstor Denoya (ATEBA) y Vicepresidenta Silvia Luzzardi (AHT)",
+    "nueva_secretaria": "Pablo Molteni (Asociación de Hostels y Campings)",
+    "articulacion_empresarial": "Participación de AEHGB, AAVYTUBA, Bariloche Bureau, CAPSA y alquiladores de autos",
+    "organo_fiscalizador": "Diego De Barba (AEHGB) y Helgamaría Salvatelli (CAPSA) como revisores de cuentas",
+    "ejes_estrategicos": "Conectividad aérea internacional, promoción de baja y alta temporada, y competitividad del destino"
+  },
+  "area": "Gestión Pública",
+  "fecha": "2026-10-10",
+  "foto": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/10/elcordillerano/images/02/81/38/2813882_e78770e6b8198d98250ac98cdfa772a0f6d49f4d032763d60265b1aa50cf537e/md.webp",
+  "updated_at": "2026-10-15T13:34:01.073Z",
+  "curada_manualmente": false,
+  "imagen_url": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/10/elcordillerano/images/02/81/38/2813882_e78770e6b8198d98250ac98cdfa772a0f6d49f4d032763d60265b1aa50cf537e/md.webp",
+  "media": {
+    "credito": "Prensa Cámara de Turismo de Bariloche / El Cordillerano",
+    "requiere_foto": true,
+    "prompt_nanobanana": "Ilustración editorial en estilo animación 2D de dirigencia turística: mesa de directorio con referentes del sector hotelero, gastronómico y de montaña reunidos en un salón con ventanal hacia el lago Nahuel Huapi y el Centro Cívico, mapas de conectividad aérea sobre la mesa y maquetas de cerros andinos. Estilo corporativo cálido, paleta en azul lago, madera de lenga, beige cálido y dorado tenue, sin texto.",
+    "imagen_url": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/10/elcordillerano/images/02/81/38/2813882_e78770e6b8198d98250ac98cdfa772a0f6d49f4d032763d60265b1aa50cf537e/md.webp"
+  },
+  "area_id": "gestion-publica",
+  "url": "https://www.elcordillerano.com.ar/noticias/2026/10/14/267483-la-camara-de-turismo-de-bariloche-renovo-parte-de-su-conduccion-y-sumo-nuevas-voces",
+  "fecha_publicacion": "2026-10-10"
+}

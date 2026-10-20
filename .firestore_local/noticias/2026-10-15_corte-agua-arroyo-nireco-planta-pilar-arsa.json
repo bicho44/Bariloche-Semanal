@@ -1,0 +1,54 @@
+{
+  "id": "2026-10-15_corte-agua-arroyo-nireco-planta-pilar-arsa",
+  "titular": "Por la turbiedad extrema en el arroyo Ñireco, Aguas Rionegrinas extendió el corte de agua en la Planta Pilar y afecta a ocho barrios",
+  "hecho_central": "Las intensas precipitaciones registradas en la cuenca andina provocaron niveles extraordinarios de turbiedad y arrastre de sedimentos en las aguas del arroyo Ñireco, obligando a Aguas Rionegrinas (ARSA) a mantener paralizada la producción y el filtrado en la Planta Potabilizadora Pilar este jueves 15 de octubre. La contingencia genera baja presión e interrupción del suministro de agua potable en al menos ocho barrios del faldeo sur y del Alto de Bariloche (Pilar I y II, Dos Valles, 645 Viviendas, Valle Azul, Reina Mora, Entre Cerros y Lomas del Cauquén), mientras personal operativo monitorea la fuente de captación para reanudar el tratamiento bajo parámetros químicos y físicos seguros.",
+  "dossier_id": "ceb-municipio-servicios",
+  "seguimiento_id": "ceb-municipio-servicios",
+  "fuente": {
+    "id": "anbariloche",
+    "nombre": "ANBariloche",
+    "url_nota": "https://www.anbariloche.com.ar/noticias/2026/10/15/120026-extienden-el-corte-de-agua-en-la-planta-pilar-por-las-condiciones-de-turbiedad-en-el-ireco"
+  },
+  "fuentes_consultadas": [
+    {
+      "id": "anbariloche",
+      "nombre": "ANBariloche",
+      "url_nota": "https://www.anbariloche.com.ar/noticias/2026/10/15/120026-extienden-el-corte-de-agua-en-la-planta-pilar-por-las-condiciones-de-turbiedad-en-el-ireco"
+    },
+    {
+      "id": "el-cordillerano",
+      "nombre": "Diario El Cordillerano",
+      "url_nota": "https://www.elcordillerano.com.ar/noticias/2026/10/15/267554-por-la-alta-turbiedad-en-el-arroyo-ireco-se-extiende-el-corte-de-agua-en-varios-barrios-de-bariloche"
+    }
+  ],
+  "cobertura_cruzada": 2,
+  "cuerpo_html": "<p class=\"c-dossier-link\">📌 <em>Seguimiento: <a href=\"/seguimientos/ceb-municipio-servicios\">Crisis de Servicios Públicos, Redes Sanitarias y Relación Provincia-Municipio</a></em></p>\n<p>A menos de 24 horas del apagón regional de electricidad que afectó a la cordillera, otro servicio esencial volvió a entrar en crisis en Bariloche: la empresa estatal <a href=\"https://www.anbariloche.com.ar/noticias/2026/10/15/120026-extienden-el-corte-de-agua-en-la-planta-pilar-por-las-condiciones-de-turbiedad-en-el-ireco\" target=\"_blank\" rel=\"noopener noreferrer\">Aguas Rionegrinas (ARSA)</a> informó que debió mantener paralizado el tratamiento y bombeo en la <strong>Planta Potabilizadora Pilar debido a la alta turbiedad arrastrada por el arroyo Ñireco</strong>.</p>\n<p>El incremento extraordinario de sedimentos en suspensión, lodo y material orgánico en la toma de captación superficial responde al deshielo acelerado y las abundantes lluvias que azotaron las altas cuencas en los últimos días. Según relevó <a href=\"https://www.elcordillerano.com.ar/noticias/2026/10/15/267554-por-la-alta-turbiedad-en-el-arroyo-ireco-se-extiende-el-corte-de-agua-en-varios-barrios-de-bariloche\" target=\"_blank\" rel=\"noopener noreferrer\">Diario El Cordillerano</a>, la interrupción productiva afecta directamente a una vasta franja poblacional de barrios populosos del Alto y faldeo sur, entre ellos Pilar I y II, Dos Valles, 645 Viviendas, Valle Azul, Reina Mora, Entre Cerros y Lomas del Cauquén.</p>\n<p>Desde la prestataria provincial solicitaron a los usuarios restringir al máximo el uso del recurso y cuidar los niveles de los tanques domiciliarios para evitar el desabastecimiento total, en tanto los equipos técnicos aguardan que los parámetros físico-químicos del agua cruda en el lecho del Ñireco permitan reiniciar el filtrado sin comprometer la seguridad sanitaria ni obturar las membranas de la planta potabilizadora.</p>",
+  "citas": [
+    {
+      "autor": "Comunicado oficial de Aguas Rionegrinas (ARSA)",
+      "texto": "Debido a los elevados niveles de turbiedad registrados en el arroyo Ñireco, se extiende la interrupción del funcionamiento de la Planta Pilar. La continuidad de los trabajos y la normalización del servicio estarán sujetas a la evolución del agua en la fuente de captación para retomar el tratamiento bajo parámetros adecuados."
+    }
+  ],
+  "datos_duros": {
+    "planta_afectada": "Planta Potabilizadora Pilar de Aguas Rionegrinas (ARSA)",
+    "fuente_captacion": "Arroyo Ñireco con niveles críticos de turbiedad y sedimentos",
+    "barrios_alcanzados": "Pilar I y II, Dos Valles, 645 Viviendas, Valle Azul, Reina Mora, Entre Cerros y Lomas del Cauquén",
+    "vias_contacto_guardia": "Línea gratuita 0800-999-24827 y WhatsApp ARSA 2920 402808",
+    "recomendacion_sanitaria": "Extremar el cuidado de las reservas en tanques domiciliarios y hervir agua en caso de turbiedad residual"
+  },
+  "area": "Gestión Pública",
+  "fecha": "2026-10-11",
+  "foto": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/10/anbariloche/images/02/81/45/2814539_6112bc78fef44f4044a19642a4a8e26a7665427ba80964e2494e9601e46f5946/md.webp",
+  "updated_at": "2026-10-16T12:13:33.725Z",
+  "curada_manualmente": false,
+  "imagen_url": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/10/anbariloche/images/02/81/45/2814539_6112bc78fef44f4044a19642a4a8e26a7665427ba80964e2494e9601e46f5946/md.webp",
+  "media": {
+    "credito": "Aguas Rionegrinas / El Cordillerano / ANBariloche / Bariloche Semanal",
+    "requiere_foto": true,
+    "prompt_nanobanana": "Ilustración editorial en estilo animación 2D sobre servicios esenciales y naturaleza: el arroyo Ñireco caudaloso y turbio descendiendo por el bosque andino hacia la toma de captación de la Planta Potabilizadora Pilar, con operarios con mameluco azul y cascos amarillos inspeccionando las compuertas y los piletones de sedimentación en el faldeo sur de Bariloche. Paleta en marrón arcilla, azul petróleo, verde ciprés y gris plomo, sin texto.",
+    "imagen_url": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/10/anbariloche/images/02/81/45/2814539_6112bc78fef44f4044a19642a4a8e26a7665427ba80964e2494e9601e46f5946/md.webp"
+  },
+  "area_id": "gestion-publica",
+  "url": "https://www.anbariloche.com.ar/noticias/2026/10/15/120026-extienden-el-corte-de-agua-en-la-planta-pilar-por-las-condiciones-de-turbiedad-en-el-ireco",
+  "fecha_publicacion": "2026-10-11"
+}

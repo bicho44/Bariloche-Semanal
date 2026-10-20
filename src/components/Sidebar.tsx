@@ -59,9 +59,9 @@ export const Sidebar: React.FC<SidebarProps> = ({
       {/* Brand Header */}
       <div className="p-4 border-b border-slate-800">
         <div className="flex items-center gap-3">
-          {branding?.logo_url ? (
+          {branding?.logo_url?.trim() ? (
             <img
-              src={branding.logo_url}
+              src={branding.logo_url.trim()}
               referrerPolicy="no-referrer"
               alt="Logo"
               className="w-9 h-9 rounded-lg object-contain bg-white/10 p-1"

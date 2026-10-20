@@ -1,53 +1,63 @@
 {
   "id": "catedral-concesion",
-  "titulo": "Concesión y Modelo Cerro Catedral",
-  "area_id": "turismo",
+  "titulo": "Concesión del Cerro Catedral, Pases Residentes y Fiscalización EAMCEC",
+  "area_id": "montana",
   "estado": "activo",
-  "resumen_contexto": "Operación invernal y cierre de temporada: nevadas tardías en cumbre acompañan el último fin de semana de esquí en Catedral antes de la clausura este domingo 4 de octubre.",
+  "criterio_inclusion": "Exclusivamente la concesión del centro invernal Cerro Catedral a CAPSA, resoluciones y control del ente municipal EAMCEC, tarifas de pases para residentes y turistas, obras del Master Plan en la montaña y programas de acceso comunitario al cerro.",
+  "prohibido_incluir": "Pronósticos meteorológicos generales de la ciudad, eventos gastronómicos urbanos (BALC) o actividades de otros cerros no vinculados a la concesión de Catedral.",
+  "resumen_contexto": "Cerro Catedral cerró su temporada de esquí 2026 tras cuatro meses ininterrumpidos de operación con un balance oficial de más de 17.500 residentes alcanzados por pases bonificados y programas sociales, mientras hasta el sábado 17 de octubre se desarrolla la Semana Peatón Residente Gratuita con 500 cupos diarios en telecabina Amancay.",
   "actores_clave": [
-    "walter-cortes",
-    "capsa",
-    "concejo-deliberante",
-    "eamcec"
+    "Catedral Alta Patagonia S.A. (CAPSA)",
+    "Ente Autárquico Municipal Cerro Catedral (EAMCEC)",
+    "Ejecutivo Municipal y Concejo Deliberante",
+    "Club Andino Bariloche (CAB) y asociaciones de esquí y montaña"
   ],
+  "datos_duros_verificados": {
+    "fin_concesion_capsa": "2056",
+    "residentes_beneficiados_2026": "Más de 17.500 vecinos",
+    "preventa_pase_residente_2027": "$640.000 (desde el 01/10/2026)",
+    "semana_peaton_residente": "12 al 17 de octubre de 2026 (500 pases diarios gratuitos)",
+    "fuente_balance": "https://www.elcordillerano.com.ar/noticias/2026/10/13/267255-cerro-catedral-cerro-la-temporada-con-mas-de-17500-residentes-y-una-fuerte-agenda-deportiva-y-social"
+  },
+  "cronica_html": "<div class=\"c-dossier-article\">\n<p class=\"c-lead\">Con el cierre formal de las pistas de esquí el lunes 12 de octubre tras cuatro meses de operación continua, Catedral Alta Patagonia (CAPSA) presentó su balance de la temporada invernal 2026 reportando más de 17.500 vecinos alcanzados por pases residentes y programas sociales, mientras hasta el sábado 17 continúa activa la Semana Peatón Residente Gratuita.</p>\n\n<h3>1. Antecedentes y qué está en juego en el expediente</h3>\n<p>La concesión del centro invernal Cerro Catedral a la firma CAPSA —extendida hasta el año 2056 mediante la readecuación contractual de 2018— se encuentra bajo la órbita de control del Ente Autárquico Municipal Cerro Catedral (EAMCEC). Los ejes permanentes de seguimiento ciudadano comprenden el valor y las condiciones del Pase Residente, el alcance de los programas gratuitos para escuelas públicas y el mantenimiento de los medios de elevación.</p>\n\n<h3>2. Bitácora documentada de hitos recientes</h3>\n<ul>\n<li><strong>[13/10/2026] Balance oficial de temporada con 17.500 residentes:</strong> La concesionaria informó que durante los cuatro meses de operación (15 de junio al 12 de octubre) más de 17.500 residentes de Bariloche y la región accedieron a la montaña mediante pases diferenciales, programas escolares, clubes deportivos y bautismos de nieve, según publicó <a href=\"https://www.elcordillerano.com.ar/noticias/2026/10/13/267255-cerro-catedral-cerro-la-temporada-con-mas-de-17500-residentes-y-una-fuerte-agenda-deportiva-y-social\" target=\"_blank\" rel=\"noopener noreferrer\">Diario El Cordillerano</a>.</li>\n<li><strong>[09/10 al 17/10/2026] Semana Peatón Residente Gratuita:</strong> Entre el lunes 12 y el sábado 17 de octubre se habilitó un cupo diario de 500 pases peatonales sin cargo en la telecabina Amancay para vecinos con DNI en Bariloche y Dina Huapi (previa inscripción web), según reportó <a href=\"https://www.barilocheopina.com/noticias/2026/10/09/95631-catedral-ofrece-ascensos-gratuitos-para-residentes-del-12-al-17-de-octubre\" target=\"_blank\" rel=\"noopener noreferrer\">Bariloche Opina</a>.</li>\n<li><strong>[30/09/2026] Preventa del Pase Residente Classic 2027:</strong> La empresa abrió el 1 de octubre la venta anticipada del Pase Residente Classic para el invierno 2027 a un valor de $640.000, según consignó <a href=\"https://www.elcordillerano.com.ar/noticias/2026/09/29/264664-cerro-catedral-adelanta-la-venta-del-pase-residente-2027-comienza-el-1-de-octubre\" target=\"_blank\" rel=\"noopener noreferrer\">Diario El Cordillerano</a>.</li>\n</ul>\n\n<blockquote cite=\"https://www.elcordillerano.com.ar/noticias/2026/10/13/267255-cerro-catedral-cerro-la-temporada-con-mas-de-17500-residentes-y-una-fuerte-agenda-deportiva-y-social\">\n<p>«Cerramos una temporada invernal que combinó cuatro meses de nieve en pista con un despliegue social y deportivo que permitió que más de 17.500 residentes vivieran la montaña», destacaron desde CAPSA en su balance de cierre.</p>\n</blockquote>\n\n<aside class=\"c-dossier-data\">\n<h4>Tablero de control: Concesión Cerro Catedral</h4>\n<ul>\n<li><strong>Residentes alcanzados (Invierno 2026):</strong> Más de 17.500 vecinos entre pases residentes, clubes y programas sociales.</li>\n<li><strong>Período operativo de pistas:</strong> 15 de junio al 12 de octubre de 2026 (4 meses).</li>\n<li><strong>Semana Peatón Residente Gratuita:</strong> 500 cupos diarios del 12 al 17 de octubre por telecabina Amancay.</li>\n<li><strong>Preventa Pase Residente Classic 2027:</strong> $640.000 (vigente desde el 1 de octubre).</li>\n</ul>\n</aside>\n\n<h3>3. Mapa de posiciones comprobadas</h3>\n<p>CAPSA destaca el volumen de residentes y atletas locales que utilizaron las instalaciones durante los cuatro meses de nieve, mientras al cierre de esta semana no se registraron nuevas resoluciones públicas del directorio del EAMCEC respecto del cronograma de verano.</p>\n\n<h3>4. Próximas instancias confirmadas</h3>\n<p>La Semana Peatón Residente Gratuita concluye este sábado 17 de octubre, tras lo cual los medios de elevación ingresan en su etapa programada de mantenimiento técnico inter-temporada previo a la apertura estival.</p>\n</div>",
   "timeline": [
     {
       "fecha": "2026-09-16",
-      "hito": "Cierre del programa de bautismo de nieve con 1.000 residentes y estudiantes beneficiados en la base de Catedral.",
+      "hito": "Cierre del programa municipal y escolar de bautismo de nieve con más de 1.000 residentes y estudiantes beneficiados en la base de Catedral.",
       "fuente_url": "https://www.barilocheopina.com/noticias/2026/09/16/94408-mas-de-1000-residentes-tuvieron-su-primera-experiencia-en-la-nieve-en-catedral"
     },
     {
-      "fecha": "2026-09-18",
-      "hito": "CAPSA anuncia extensión de temporada hasta el 12 de octubre y preventa de pase residente 2027 a $640.000.",
-      "fuente_url": "https://www.anbariloche.com.ar/noticias/2026/09/18/117553-cerro-catedral-extiende-la-temporada-hasta-el-12-de-octubre-y-adelanta-la-venta-de-pases-para-residentes-2027"
-    },
-    {
-      "fecha": "2026-09-22",
-      "hito": "El documental 'La montaña desde la ventana' en el FAB reinstala el debate sobre el acceso social a los cerros y refugios.",
-      "noticia_id": "2026-09-22_fab-debate-acceso-comunitario-montana",
-      "fuente_url": "https://www.anbariloche.com.ar/noticias/2026/09/22/117832-las-producciones-locales-protagonizaron-el-primer-dia-del-festival-audiovisual-bariloche"
-    },
-    {
       "fecha": "2026-09-30",
-      "hito": "CAPSA anunció la preventa del Pase Residente Classic 2027 a tarifa congelada de $640.000 a partir del 1° de octubre y extendió la operación de medios hasta el domingo 4 de octubre.",
+      "hito": "CAPSA lanzó la preventa del Pase Residente Classic 2027 a tarifa congelada de $640.000 a partir del 1 de octubre.",
       "noticia_id": "2026-09-30_cerro-catedral-adelanta-preventa-pase-residente-2027-operacion-octubre",
       "fuente_url": "https://www.elcordillerano.com.ar/noticias/2026/09/29/264664-cerro-catedral-adelanta-la-venta-del-pase-residente-2027-comienza-el-1-de-octubre"
     },
     {
-      "fecha": "2026-10-03",
-      "hito": "Nuevas nevadas en alta montaña acompañaron el fin de semana de despedida de la temporada de esquí en Cerro Catedral previo al cierre operativo fijado para el 4 de octubre.",
-      "noticia_id": "2026-10-03_nevadas-tardias-cerro-catedral-visperas-cierre-temporada-invierno",
-      "fuente_url": "https://www.elcordillerano.com.ar/noticias/2026/10/03/265467-nieva-en-catedral-y-llueve-en-la-ciudad-hasta-cuando-seguiran-las-precipitaciones-en-bariloche"
+      "fecha": "2026-10-09",
+      "hito": "CAPSA anunció la Semana Peatón Residente Gratuita con 500 pases diarios bonificados en telecabina Amancay del 12 al 17 de octubre para vecinos con DNI en Bariloche y Dina Huapi.",
+      "noticia_id": "2026-10-09_catedral-semana-peaton-residente-gratuita-ascensos",
+      "fuente_url": "https://www.barilocheopina.com/noticias/2026/10/09/95631-catedral-ofrece-ascensos-gratuitos-para-residentes-del-12-al-17-de-octubre"
+    },
+    {
+      "fecha": "2026-10-12",
+      "hito": "Finalizó oficialmente la temporada de pistas de esquí en Catedral tras cuatro meses de actividad y comenzó la Semana Peatón Residente Gratuita.",
+      "noticia_id": "2026-10-12_catedral-fin-temporada-esqui-semana-peaton-residente",
+      "fuente_url": "https://www.barilocheopina.com/noticias/2026/10/09/95631-catedral-ofrece-ascensos-gratuitos-para-residentes-del-12-al-17-de-octubre"
+    },
+    {
+      "fecha": "2026-10-13",
+      "hito": "CAPSA difundió el balance oficial de la temporada invernal 2026 informando más de 17.500 residentes beneficiados en programas de esquí social, escolar y deportivo.",
+      "noticia_id": "2026-10-13_catedral-balance-temporada-17500-residentes-beneficiados",
+      "fuente_url": "https://www.elcordillerano.com.ar/noticias/2026/10/13/267255-cerro-catedral-cerro-la-temporada-con-mas-de-17500-residentes-y-una-fuerte-agenda-deportiva-y-social"
     }
   ],
-  "cronica_html": "<div class=\"c-dossier-article\">\n<p class=\"c-lead\">La concesión y el modelo de explotación de Cerro Catedral conjugan la prolongación operativa de la temporada invernal con una creciente discusión sobre la democratización efectiva de la montaña, las contraprestaciones comunitarias y la fiscalización del canon municipal.</p>\n<h3>1. Antecedentes y génesis</h3>\n<p>La relación contractual entre el Municipio de Bariloche y la empresa Catedral Alta Patagonia (CAPSA) se rige bajo la prórroga contractual aprobada por el Concejo Deliberante en 2018, que extendió la explotación del centro de esquí hasta el año 2056 a cambio de un plan director de modernización de medios de elevación. Sin embargo, el encarecimiento progresivo de los pases de residentes, el cobro de estacionamientos en la base y las tensiones en torno al rol de contralor del Ente Autárquico Municipal del Cerro Catedral (EAMCEC) mantienen encendido el debate sobre quién accede realmente a la montaña.</p>\n<h3>2. Últimos acontecimientos y novedades</h3>\n<p>En el plano social y cultural, el estreno del documental <strong>'La montaña desde la ventana'</strong> (Fundación San José Obrero) durante el FAB 2026 expuso la persistente brecha que impide a jóvenes de barrios periféricos conocer los refugios andinos, según reportó <a href=\"https://www.anbariloche.com.ar/noticias/2026/09/22/117832-las-producciones-locales-protagonizaron-el-primer-dia-del-festival-audiovisual-bariloche\" target=\"_blank\" rel=\"noopener noreferrer\">ANBariloche</a>. El hito reabre la discusión sobre las contraprestaciones del centro de esquí, que en septiembre completó su ciclo de bautismo de nieve para 1.000 escolares pero enfrenta demandas de continuidad en los circuitos de trekking estival.</p>\n<blockquote cite=\"https://www.anbariloche.com.ar/noticias/2026/09/22/117832-las-producciones-locales-protagonizaron-el-primer-dia-del-festival-audiovisual-bariloche\"><p>«Si el cerro es de todos, ¿por qué hay pibes que crecieron mirando la montaña por la ventana y nunca pudieron pisarla? La brecha no es geográfica, es social y cultural», plantearon desde los colectivos comunitarios.</p></blockquote>\n<aside class=\"c-dossier-data\">\n<h4>Métricas y compromisos del modelo Catedral</h4>\n<ul>\n<li><strong>Vigencia contractual:</strong> Explotación concesionada hasta 2056 bajo fiscalización del EAMCEC.</li>\n<li><strong>Esquí social 2026:</strong> 1.000 estudiantes y residentes con traslados y pases bonificados en la base.</li>\n<li><strong>Operación de primavera:</strong> Pistas en cotas altas operativas hasta el 12 de octubre; preventa pase residente 2027 a $640.000.</li>\n<li><strong>Rendición fiscal:</strong> Balance anual obligatorio de canon y estacionamiento exigido por el Concejo antes del 30 de noviembre.</li>\n</ul>\n</aside>\n<h3>3. Actores e intereses en disputa</h3>\n<p>El intendente Walter Cortés insiste en que las utilidades del cerro deben reflejarse de forma tangible en infraestructura urbana y subsidios de transporte para los barrios populares. Desde la concesionaria CAPSA, en tanto, remarcan el esfuerzo de inversión en sistemas de fabricación de nieve y medios desembragables, posicionando al complejo como destino internacional premium en Sudamérica. Paralelamente, clubes andinos y guías de montaña reclaman garantías de acceso peatonal irrestricto a los senderos tradicionales.</p>\n<h3>4. Hacia dónde va: próximos pasos e instancias clave</h3>\n<p>La atención política se concentrará en la comisión de seguimiento del Concejo Deliberante hacia fines de octubre, donde se examinarán los balances financieros de la temporada invernal 2026 y las cláusulas del programa de actividades sociales de montaña para el verano 2026/2027.</p>\n</div>",
-  "fecha_ultima_cronica": "2026-10-03",
   "media": {
-    "imagen_url": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/06/elcordillerano/images/02/64/56/2645687_0337c39c2b21d5bf70f7da77dcb50636f68d828bfcc57ae207dc9df2b21fe330/md.webp",
-    "credito": "Prensa Catedral Alta Patagonia / El Cordillerano",
-    "requiere_foto": false,
-    "prompt_nanobanana": "Ilustración editorial en estilo animación 2D de alta montaña andina: imponentes cumbres nevadas y agujas graníticas del Cerro Catedral, con medios de elevación modernos (telecabinas y aerosillas) ascendiendo las laderas. En la base, el contraste armónico entre la aldea alpina de montaña y un grupo diverso de esquiadores locales y niños de escuelas públicas con sus pases residentes. Estilo gráfico plano con texturas sutiles, paleta blanca nieve, gris roca, azul cielo y madera de lenga. Composición cinematográfica limpia, sin texto."
+    "prompt_nanobanana": "Ilustración editorial en estilo animación 2D de montaña: la base del Cerro Catedral con esquiadores locales, niños con pecheras escolares y familias celebrando el fin de temporada frente al parador andino de madera, con las cumbres nevadas y cañones de nieve en reposo bajo la luz dorada de la tarde. Estilo nítido, paleta en azul andino, blanco nieve, madera tostada y rojo invierno, sin texto.",
+    "requiere_foto": true,
+    "credito": "Prensa CAPSA / El Cordillerano",
+    "imagen_url": "https://firebasestorage.googleapis.com/v0/b/bariloche-semanal.firebasestorage.app/o/dossiers%2Fgeneral%2Fterminal_ato_new_1792076152497.webp?alt=media&token=6a11e217-cce7-4a6e-b38b-f471acd18528"
   },
-  "ultima_actualizacion": "2026-10-03",
-  "updated_at": "2026-10-06T23:07:36.202Z"
+  "fecha_ultima_cronica": "2026-10-13",
+  "ultima_actualizacion": "2026-10-19T23:07:09.112Z",
+  "updated_at": "2026-10-19T23:07:09.112Z"
 }

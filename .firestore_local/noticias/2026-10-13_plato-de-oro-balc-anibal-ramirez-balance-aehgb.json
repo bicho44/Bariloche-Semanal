@@ -1,0 +1,54 @@
+{
+  "id": "2026-10-13_plato-de-oro-balc-anibal-ramirez-balance-aehgb",
+  "titular": "Bariloche a la Carta coronó a Aníbal Ramírez con el Plato de Oro y la Asociación Hotelera destacó que el evento «aún no tiene techo»",
+  "hecho_central": "El certamen culinario de Bariloche a la Carta 2026 definió a sus ganadores: el chef Aníbal Ramírez se alzó con el codiciado 'Plato de Oro' por segundo año consecutivo. En el análisis del evento, el presidente de la Asociación Empresaria Hotelera Gastronómica de Bariloche (AEHGB), Martín Lago, valoró la masiva respuesta de vecinos y visitantes, remarcando que la iniciativa demostró consolidarse como un motor económico contracíclico que tracciona trabajo y visibilidad productiva para toda la región.",
+  "area_id": "vida-social-cultura",
+  "dossier_id": "temporada-turistica-nieve",
+  "seguimiento_id": "temporada-turistica-nieve",
+  "fuente": {
+    "id": "el-cordillerano",
+    "nombre": "Diario El Cordillerano",
+    "url_nota": "https://www.elcordillerano.com.ar/noticias/2026/10/13/267210-bariloche-a-la-carta-anibal-ramirez-se-quedo-con-el-plato-de-oro-por-segundo-ano-consecutivo"
+  },
+  "fuentes_consultadas": [
+    {
+      "id": "el-cordillerano",
+      "nombre": "Diario El Cordillerano",
+      "url_nota": "https://www.elcordillerano.com.ar/noticias/2026/10/13/267210-bariloche-a-la-carta-anibal-ramirez-se-quedo-con-el-plato-de-oro-por-segundo-ano-consecutivo"
+    },
+    {
+      "id": "el-cordillerano",
+      "nombre": "Diario El Cordillerano",
+      "url_nota": "https://www.elcordillerano.com.ar/noticias/2026/10/13/267192-analisis-de-bariloche-a-la-carta-es-un-evento-que-tiene-piso-pero-aun-no-le-conocemos-el-techo"
+    }
+  ],
+  "cobertura_cruzada": 2,
+  "cuerpo_html": "<p class=\"c-dossier-link\">📌 <em>Seguimiento: <a href=\"/seguimientos/temporada-turistica-nieve\">Temporada Turística, Nieve y Conectividad</a></em></p>\n<p>La premiación del certamen gastronómico más relevante de la Patagonia coronó este martes a sus figuras: <strong>el cocinero Aníbal Ramírez se consagró con el Plato de Oro de Bariloche a la Carta 2026</strong> por segundo año consecutivo tras la votación popular de miles de comensales, según reportó <a href=\"https://www.elcordillerano.com.ar/noticias/2026/10/13/267210-bariloche-a-la-carta-anibal-ramirez-se-quedo-con-el-plato-de-oro-por-segundo-ano-consecutivo\" target=\"_blank\" rel=\"noopener noreferrer\">Diario El Cordillerano</a>.</p>\n<p>Al trazar un balance del festival, el titular de la Asociación Hotelera Gastronómica, Martín Lago, destacó que <a href=\"https://www.elcordillerano.com.ar/noticias/2026/10/13/267192-analisis-de-bariloche-a-la-carta-es-un-evento-que-tiene-piso-pero-aun-no-le-conocemos-el-techo\" target=\"_blank\" rel=\"noopener noreferrer\">«BALC es un evento que tiene piso pero aún no le conocemos el techo»</a>, subrayando la consolidación de una sinergia público-privada que sostuvo ocupación plena en hoteles de 4 y 5 estrellas e inyectó un circuito de consumo masivo para los locales gastronómicos barilochenses antes del verano.</p>",
+  "citas": [
+    {
+      "autor": "Martín Lago",
+      "cargo": "Presidente de la AEHGB",
+      "texto": "Bariloche a la Carta es un evento que tiene piso pero aún no le conocemos el techo; cada año se reinventa conectando a la alta cocina con los pequeños productores y volcando miles de comensales a los restaurantes."
+    }
+  ],
+  "datos_duros": {
+    "plato_de_oro": "Obtenido por el chef Aníbal Ramírez por segundo año consecutivo",
+    "votacion_popular": "Miles de votos registrados a través de la plataforma digital del BALC",
+    "balance_institucional": "Evaluación de la Asociación Empresaria Hotelera Gastronómica de Bariloche (AEHGB)",
+    "impacto_economico": "Dinamización de 90 restaurantes, 100 productores rionegrinos y cadena de valor"
+  },
+  "area": "Vida Social, Cultura & Comunidad",
+  "fecha": "2026-10-09",
+  "foto": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/10/elcordillerano/images/02/80/96/2809694_e6a8668e25e889de7c9106eb110e6d72d29ea3608fa94f6a5fce296f72d8d61c/md.webp",
+  "updated_at": "2026-10-14T15:11:11.717Z",
+  "curada_manualmente": false,
+  "imagen_url": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/10/elcordillerano/images/02/80/96/2809694_e6a8668e25e889de7c9106eb110e6d72d29ea3608fa94f6a5fce296f72d8d61c/md.webp",
+  "media": {
+    "credito": "Prensa BALC / El Cordillerano",
+    "requiere_foto": true,
+    "prompt_nanobanana": "Ilustración editorial en estilo animación 2D gastronómica: un chef patagónico sonriente levantando un trofeo dorado con forma de gorro de cocinero en una cocina abierta moderna de madera y acero, rodeado de platos con trucha ahumada, hongos andinos y frutos rojos, con ventanales hacia el lago Nahuel Huapi. Estilo gráfico luminoso, paleta en oro cálido, madera andina, blanco pulcro y azul lago, sin texto.",
+    "imagen_url": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/10/elcordillerano/images/02/80/96/2809694_e6a8668e25e889de7c9106eb110e6d72d29ea3608fa94f6a5fce296f72d8d61c/md.webp"
+  },
+  "url": "https://www.elcordillerano.com.ar/noticias/2026/10/13/267210-bariloche-a-la-carta-anibal-ramirez-se-quedo-con-el-plato-de-oro-por-segundo-ano-consecutivo",
+  "fecha_publicacion": "2026-10-09"
+}

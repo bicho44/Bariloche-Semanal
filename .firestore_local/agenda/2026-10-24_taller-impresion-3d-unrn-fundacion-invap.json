@@ -1,0 +1,19 @@
+{
+  "id": "2026-10-24_taller-impresion-3d-unrn-fundacion-invap",
+  "titulo": "Taller Introductorio de Impresión 3D (UNRN Sede Andina + Fundación INVAP)",
+  "categoria": "capacitacion",
+  "fecha_inicio": "2026-10-24",
+  "fecha_fin": "2026-11-07",
+  "horario": "Sábados de 10:00 a 13:00 hs (24/10, 31/10 y 07/11)",
+  "lugar": "Edificio Malvinas Argentinas (UNRN Sede Andina), Anasagasti 1463, Bariloche",
+  "direccion": "Anasagasti 1463, San Carlos de Bariloche",
+  "mapa_url": "https://www.google.com/maps/search/?api=1&query=UNRN+Anasagasti+1463+San+Carlos+de+Bariloche",
+  "tipo_acceso": "con_inscripcion",
+  "arancel_estimado": "Gratuito con cupo limitado a 30 personas",
+  "descripcion_corta": "Tres encuentros teórico-prácticos dictados por el Equipo de Manufactura Aditiva de INVAP sobre tecnología FDM, laminado con Ultimaker Cura e impresión de piezas.",
+  "url_info": "https://www.elcordillerano.com.ar/noticias/2026/10/13/267231-dos-instituciones-de-bariloche-ofrecen-taller-de-introduccion-a-la-impresion-3d",
+  "url_tickets": "https://forms.gle/DoHB1JDHfCpYgSmj9",
+  "imagen_url": null,
+  "estado_temporal": "vigente",
+  "updated_at": "2026-10-20T12:55:18.625Z"
+}

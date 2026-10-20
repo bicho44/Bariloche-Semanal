@@ -22,6 +22,11 @@ import {
   ShieldCheck,
   Sparkles,
   Image as ImageIcon,
+  CheckCircle2,
+  AlertTriangle,
+  Database,
+  Ban,
+  Target,
 } from 'lucide-react';
 import { Dossier, AreaId, EstadoDossier, HitoTimeline } from '../types/index.js';
 import { DualImageSelector } from './DualImageSelector.js';
@@ -41,6 +46,9 @@ const AREAS: { id: AreaId; label: string }[] = [
   { id: 'alquileres-inmobiliario', label: 'Alquileres e Inmobiliario' },
   { id: 'vida-social-cultura', label: 'Vida Social y Cultura' },
   { id: 'en-el-radar', label: 'En el Radar' },
+  { id: 'poder', label: 'Poder & Obras' },
+  { id: 'montana', label: 'Montaña & Turismo' },
+  { id: 'urbano', label: 'Pulso Urbano' },
 ];
 
 export const DossierModal: React.FC<DossierModalProps> = ({
@@ -53,13 +61,22 @@ export const DossierModal: React.FC<DossierModalProps> = ({
   const [areaId, setAreaId] = useState<AreaId>('gestion-publica');
   const [estado, setEstado] = useState<EstadoDossier>('activo');
   const [resumenContexto, setResumenContexto] = useState('');
+
+  // Blindaje y Alcance Documental
+  const [criterioInclusion, setCriterioInclusion] = useState('');
+  const [prohibidoIncluir, setProhibidoIncluir] = useState('');
+  const [datosDurosKey, setDatosDurosKey] = useState('');
+  const [datosDurosVal, setDatosDurosVal] = useState('');
+  const [datosDurosVerificados, setDatosDurosVerificados] = useState<Record<string, string | number>>({});
+
   const [actoresClave, setActoresClave] = useState<string[]>([]);
   const [nuevoActor, setNuevoActor] = useState('');
 
-  // Crónica de Fondo (HTML)
+  // Crónica de Fondo (HTML) y Generación IA
   const [cronicaHtml, setCronicaHtml] = useState('');
   const [fechaUltimaCronica, setFechaUltimaCronica] = useState('');
   const [tabCronica, setTabCronica] = useState<'editor' | 'preview'>('editor');
+  const [generatingDeepDive, setGeneratingDeepDive] = useState(false);
   const textareaRef = useRef<HTMLTextAreaElement>(null);
 
   // Media & Ilustración 2D (Prompt Nanobanana)
@@ -85,6 +102,9 @@ export const DossierModal: React.FC<DossierModalProps> = ({
       setAreaId(dossierAEditar.area_id || 'gestion-publica');
       setEstado(dossierAEditar.estado || 'activo');
       setResumenContexto(dossierAEditar.resumen_contexto || '');
+      setCriterioInclusion(dossierAEditar.criterio_inclusion || '');
+      setProhibidoIncluir(dossierAEditar.prohibido_incluir || '');
+      setDatosDurosVerificados(dossierAEditar.datos_duros_verificados || {});
       setActoresClave(dossierAEditar.actores_clave || []);
       setCronicaHtml(dossierAEditar.cronica_html || '');
       setFechaUltimaCronica(dossierAEditar.fecha_ultima_cronica || (dossierAEditar.cronica_html ? new Date().toISOString().split('T')[0] : ''));
@@ -99,6 +119,9 @@ export const DossierModal: React.FC<DossierModalProps> = ({
       setAreaId('gestion-publica');
       setEstado('activo');
       setResumenContexto('');
+      setCriterioInclusion('');
+      setProhibidoIncluir('');
+      setDatosDurosVerificados({});
       setActoresClave([]);
       setCronicaHtml('');
       setFechaUltimaCronica('');
@@ -112,17 +135,26 @@ export const DossierModal: React.FC<DossierModalProps> = ({
   }, [dossierAEditar, isOpen]);
 
   const insertCuatroActos = () => {
-    const plantilla = `<h3>Acto 1: Antecedentes</h3>
-<p>Contexto de origen, marco histórico y antecedentes necesarios para comprender cómo surgió el conflicto en Bariloche...</p>
+    const plantilla = `<h3>1. Antecedentes y Marco Estructural</h3>
+<p>Contexto de origen, marco normativo, ordenanzas y antecedentes históricos contrastados que dieron inicio al expediente en Bariloche...</p>
 
-<h3>Acto 2: Novedades</h3>
-<p>Los acontecimientos recientes, decisiones administrativas, medidas judiciales o sucesos de los últimos días...</p>
+<h3>2. Bitácora Documental de Hitos Verificados</h3>
+<ul class="space-y-1.5 list-disc pl-5">
+  <li><strong>[DD/MM/YYYY]:</strong> Acontecimiento verificado con enlace a la fuente oficial o periodística: <a href="https://" target="_blank" rel="noopener noreferrer" class="text-blue-700 underline">Nota de prensa</a>.</li>
+</ul>
 
-<h3>Acto 3: Actores en Disputa</h3>
-<p>Las posturas, intereses y declaraciones de cada uno de los sectores involucrados en el debate...</p>
+<h3>3. Mapa de Posiciones Comprobadas</h3>
+<p>Posturas declaradas fehacientemente por el municipio, la provincia, las partes en disputa y los sectores vecinales sin inferir opiniones no comprobadas...</p>
 
-<h3>Acto 4: Hacia Dónde Va</h3>
-<p>Proyecciones, escenarios futuros, plazos inminentes y el impacto previsto para la comunidad barilochense...</p>`;
+<h3>4. Próximas Instancias Confirmadas</h3>
+<p>Fechas oficiales de audiencias, licitaciones o plazos judiciales. Si no existe fecha cierta fijada institucionalmente, consignar: <em>Sin fecha oficial confirmada al cierre</em>.</p>
+
+<aside class="c-dossier-data">
+  <h4>Cifras y Ficha Técnica Verificada (Trazabilidad 1:1)</h4>
+  <ul>
+    <li><strong>Estado del expediente:</strong> En seguimiento documental</li>
+  </ul>
+</aside>`;
     setCronicaHtml(plantilla);
     if (!fechaUltimaCronica) {
       setFechaUltimaCronica(new Date().toISOString().split('T')[0]);
@@ -154,6 +186,22 @@ export const DossierModal: React.FC<DossierModalProps> = ({
 
   const handleRemoveActor = (actor: string) => {
     setActoresClave(actoresClave.filter((a) => a !== actor));
+  };
+
+  const handleAddDatoDuro = () => {
+    if (!datosDurosKey.trim() || !datosDurosVal.trim()) return;
+    setDatosDurosVerificados({
+      ...datosDurosVerificados,
+      [datosDurosKey.trim()]: datosDurosVal.trim(),
+    });
+    setDatosDurosKey('');
+    setDatosDurosVal('');
+  };
+
+  const handleRemoveDatoDuro = (key: string) => {
+    const updated = { ...datosDurosVerificados };
+    delete updated[key];
+    setDatosDurosVerificados(updated);
   };
 
   const handleAddHito = () => {
@@ -192,6 +240,57 @@ export const DossierModal: React.FC<DossierModalProps> = ({
     setTimeline(reordered);
   };
 
+  // Redacción y actualización automatizada de Deep-Dive con Gemini API (@google/genai)
+  const handleGenerarDeepDive = async () => {
+    if (!titulo.trim()) {
+      setError('Por favor indica al menos el título del expediente para redactar la crónica con IA.');
+      return;
+    }
+
+    setGeneratingDeepDive(true);
+    setError(null);
+    try {
+      const res = await fetch('/api/editorial/deep-dive', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          slug: dossierAEditar?.id,
+          dossier: {
+            id: dossierAEditar?.id,
+            titulo: titulo.trim(),
+            area_id: areaId,
+            resumen_contexto: resumenContexto.trim(),
+            criterio_inclusion: criterioInclusion.trim() || undefined,
+            prohibido_incluir: prohibidoIncluir.trim() || undefined,
+            datos_duros_verificados: datosDurosVerificados,
+            actores_clave: actoresClave,
+            timeline,
+          },
+          criterio_inclusion: criterioInclusion.trim() || undefined,
+          prohibido_incluir: prohibidoIncluir.trim() || undefined,
+          datos_duros_verificados: datosDurosVerificados,
+        }),
+      });
+
+      if (!res.ok) {
+        const errData = await res.json().catch(() => ({}));
+        throw new Error(errData.error || errData.detalle || 'Error al generar la crónica documental');
+      }
+
+      const data = await res.json();
+      if (data.cronica_html) {
+        setCronicaHtml(data.cronica_html);
+        setFechaUltimaCronica(data.fecha_ultima_cronica || new Date().toISOString().split('T')[0]);
+        setTabCronica('preview');
+      }
+    } catch (err: unknown) {
+      const errorObj = err as Error;
+      setError(`Error al generar crónica con Gemini: ${errorObj.message}`);
+    } finally {
+      setGeneratingDeepDive(false);
+    }
+  };
+
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!titulo.trim() || !resumenContexto.trim()) {
@@ -207,6 +306,9 @@ export const DossierModal: React.FC<DossierModalProps> = ({
         area_id: areaId,
         estado,
         resumen_contexto: resumenContexto.trim(),
+        criterio_inclusion: criterioInclusion.trim() || undefined,
+        prohibido_incluir: prohibidoIncluir.trim() || undefined,
+        datos_duros_verificados: datosDurosVerificados,
         actores_clave: actoresClave,
         cronica_html: cronicaHtml,
         fecha_ultima_cronica: fechaUltimaCronica || (cronicaHtml ? new Date().toISOString().split('T')[0] : undefined),
@@ -216,7 +318,7 @@ export const DossierModal: React.FC<DossierModalProps> = ({
           prompt_nanobanana: promptNanobanana || '',
         },
         prompt_nanobanana: promptNanobanana || '',
-        curada_manualmente: curadaManualmente,
+        curada_manualmente: true, // Siempre marcado como true al editar desde el panel web
         timeline,
       });
       onClose();
@@ -268,21 +370,15 @@ export const DossierModal: React.FC<DossierModalProps> = ({
               <label htmlFor="dossier-curada-manualmente" className="text-xs text-slate-800 cursor-pointer select-none">
                 <span className="font-bold flex items-center gap-1.5 text-emerald-950">
                   <ShieldCheck className="w-4 h-4 text-emerald-700" />
-                  Curada Manualmente (Blindaje Editorial)
+                  Curada Manualmente (Blindaje Editorial Activo)
                 </span>
                 <span className="text-[11px] text-slate-600 block">
-                  Activo: Evita que los scripts automáticos e IA pisen las ediciones del director en este dossier.
+                  Al guardar desde el panel web, queda protegida contra sobreescrituras automáticas nocturnas.
                 </span>
               </label>
             </div>
-            <span
-              className={`text-[10px] font-bold px-2.5 py-1 rounded-full border self-start sm:self-center uppercase tracking-wider ${
-                curadaManualmente
-                  ? 'bg-emerald-100 text-emerald-800 border-emerald-300'
-                  : 'bg-slate-100 text-slate-500 border-slate-200'
-              }`}
-            >
-              {curadaManualmente ? 'Protegido' : 'Auto-actualizable'}
+            <span className="text-[10px] font-bold px-2.5 py-1 rounded-full border bg-emerald-100 text-emerald-800 border-emerald-300 self-start sm:self-center uppercase tracking-wider">
+              Curada Manualmente
             </span>
           </div>
 
@@ -328,7 +424,8 @@ export const DossierModal: React.FC<DossierModalProps> = ({
                 className="w-full px-3 py-2 text-xs border border-slate-300 rounded-lg bg-white"
               >
                 <option value="activo">Activo (En desarrollo activo)</option>
-                <option value="en_seguimiento">En Seguimiento (Latente)</option>
+                <option value="en_seguimiento">En Seguimiento (Vigilancia periódica)</option>
+                <option value="latente">Latente (A la espera de resoluciones)</option>
                 <option value="resuelto">Resuelto / Concluido</option>
               </select>
             </div>
@@ -348,6 +445,113 @@ export const DossierModal: React.FC<DossierModalProps> = ({
             />
           </div>
 
+          {/* NUEVOS CAMPOS: CRITERIO DE INCLUSIÓN Y PROHIBIDO INCLUIR (BLINDAJE DE ALCANCE) */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 p-4 bg-slate-50 border border-slate-200 rounded-xl">
+            <div>
+              <div className="flex items-center gap-1.5 mb-1">
+                <Target className="w-3.5 h-3.5 text-blue-900" />
+                <label className="text-xs font-bold uppercase tracking-wider text-slate-800">
+                  Criterio de Inclusión Estricto
+                </label>
+              </div>
+              <textarea
+                rows={3}
+                placeholder="Qué temas incluye estrictamente este expediente (ej: Plazos de concesión Cerro Catedral, canon municipal a pagar, inversiones en medios de elevación y resoluciones del EAMCEC)..."
+                value={criterioInclusion}
+                onChange={(e) => setCriterioInclusion(e.target.value)}
+                className="w-full px-3 py-2 text-xs border border-slate-300 rounded-lg bg-white focus:ring-2 focus:ring-blue-600 focus:outline-none"
+              />
+              <span className="text-[10px] text-slate-500 block mt-0.5">
+                Define el alcance temático cerrado del dossier frente a redactores y a Gemini.
+              </span>
+            </div>
+
+            <div>
+              <div className="flex items-center gap-1.5 mb-1">
+                <Ban className="w-3.5 h-3.5 text-red-700" />
+                <label className="text-xs font-bold uppercase tracking-wider text-slate-800">
+                  Prohibido Incluir (Exclusiones Explícitas)
+                </label>
+              </div>
+              <textarea
+                rows={3}
+                placeholder="Qué temas cercanos quedan excluidos para evitar derivación (ej: Accidentes de tránsito en la ruta de acceso al cerro, tarifas de pases de esquí comerciales, eventos privados de marcas)..."
+                value={prohibidoIncluir}
+                onChange={(e) => setProhibidoIncluir(e.target.value)}
+                className="w-full px-3 py-2 text-xs border border-slate-300 rounded-lg bg-white focus:ring-2 focus:ring-red-600 focus:outline-none"
+              />
+              <span className="text-[10px] text-slate-500 block mt-0.5">
+                Evita derivación temática y alucinaciones en la crónica de fondo.
+              </span>
+            </div>
+          </div>
+
+          {/* NUEVO CAMPO: DATOS DUROS VERIFICADOS (FICHA TÉCNICA INMUTABLE) */}
+          <div className="p-4 bg-slate-50 border border-slate-200 rounded-xl space-y-2.5">
+            <div className="flex items-center justify-between">
+              <label className="text-xs font-bold uppercase tracking-wider text-slate-800 flex items-center gap-1.5">
+                <Database className="w-4 h-4 text-blue-900" />
+                <span>Datos Duros Verificados (Ficha Técnica Inmutable)</span>
+              </label>
+              <span className="text-[11px] text-slate-500">
+                Cifras inmutables que no deben alterarse (expedientes, montos, ordenanzas, plazos)
+              </span>
+            </div>
+
+            <div className="grid grid-cols-1 sm:grid-cols-12 gap-2 bg-white p-2.5 rounded-lg border border-slate-200">
+              <div className="sm:col-span-5">
+                <input
+                  type="text"
+                  placeholder="Dato / Concepto (ej: Inversión Comprometida)"
+                  value={datosDurosKey}
+                  onChange={(e) => setDatosDurosKey(e.target.value)}
+                  className="w-full px-2.5 py-1.5 text-xs border border-slate-300 rounded-md"
+                />
+              </div>
+              <div className="sm:col-span-5">
+                <input
+                  type="text"
+                  placeholder="Valor verificado (ej: USD 22.000.000 / Ord. 2929-CM-18)"
+                  value={datosDurosVal}
+                  onChange={(e) => setDatosDurosVal(e.target.value)}
+                  className="w-full px-2.5 py-1.5 text-xs border border-slate-300 rounded-md"
+                />
+              </div>
+              <div className="sm:col-span-2">
+                <button
+                  type="button"
+                  onClick={handleAddDatoDuro}
+                  className="w-full py-1.5 bg-blue-900 text-white text-xs font-semibold rounded-md hover:bg-blue-800 flex items-center justify-center gap-1 cursor-pointer shadow-2xs"
+                >
+                  <Plus className="w-3.5 h-3.5" />
+                  <span>Fijar</span>
+                </button>
+              </div>
+            </div>
+
+            {Object.keys(datosDurosVerificados).length > 0 && (
+              <div className="flex flex-wrap gap-2 pt-1">
+                {Object.entries(datosDurosVerificados).map(([key, val]) => (
+                  <div
+                    key={key}
+                    className="flex items-center gap-1.5 bg-white px-2.5 py-1 rounded-lg border border-slate-200 text-xs shadow-2xs"
+                  >
+                    <span className="text-slate-500 font-medium">{key}:</span>
+                    <strong className="text-blue-900 font-semibold">{val}</strong>
+                    <button
+                      type="button"
+                      onClick={() => handleRemoveDatoDuro(key)}
+                      className="text-slate-400 hover:text-red-600 ml-1 cursor-pointer"
+                      title="Eliminar dato"
+                    >
+                      <X className="w-3 h-3" />
+                    </button>
+                  </div>
+                ))}
+              </div>
+            )}
+          </div>
+
           {/* Actores Clave */}
           <div className="p-4 bg-slate-50 border border-slate-200 rounded-xl space-y-2">
             <label className="block text-xs font-bold uppercase tracking-wider text-slate-800">
@@ -356,7 +560,7 @@ export const DossierModal: React.FC<DossierModalProps> = ({
             <div className="flex gap-2">
               <input
                 type="text"
-                placeholder="Nombre o entidad (ej: Walter Cortés, Concejo Deliberante, UTA Río Negro)"
+                placeholder="Nombre o entidad (ej: Walter Cortés, Concejo Deliberante, Capsa)"
                 value={nuevoActor || ''}
                 onChange={(e) => setNuevoActor(e.target.value)}
                 className="flex-1 px-3 py-1.5 text-xs border border-slate-300 rounded-lg bg-white"
@@ -391,20 +595,40 @@ export const DossierModal: React.FC<DossierModalProps> = ({
             )}
           </div>
 
-          {/* CRÓNICA DE FONDO (HTML) */}
+          {/* CRÓNICA DE FONDO (HTML) + BOTÓN GENERADOR DEEP-DIVE IA */}
           <div className="p-4 bg-slate-50 border border-slate-200 rounded-xl space-y-3">
             <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-200 pb-2.5">
               <div>
                 <h3 className="text-xs font-bold text-slate-800 flex items-center gap-1.5">
                   <FileText className="w-4 h-4 text-blue-900" />
-                  <span>Crónica Periodística de Fondo (HTML)</span>
+                  <span>Crónica Periodística de Fondo / Informe Documental (HTML)</span>
                 </h3>
                 <p className="text-[11px] text-slate-500">
-                  Artículo explicativo de fondo que sintetiza el conflicto longitudinal con rigor y contexto.
+                  Estructura obligatoria: 1. Antecedentes fijos, 2. Bitácora fechada, 3. Mapa de posiciones, 4. Próximas instancias.
                 </p>
               </div>
 
               <div className="flex items-center gap-2">
+                <button
+                  type="button"
+                  onClick={handleGenerarDeepDive}
+                  disabled={generatingDeepDive}
+                  className="px-3 py-1.5 bg-gradient-to-r from-blue-900 to-indigo-800 text-white text-xs font-bold rounded-lg shadow-xs hover:from-blue-800 hover:to-indigo-700 flex items-center gap-1.5 cursor-pointer disabled:opacity-50 transition-all"
+                  title="Redactar o actualizar el informe con Gemini aplicando las reglas anti-alucinación"
+                >
+                  {generatingDeepDive ? (
+                    <>
+                      <Loader2 className="w-3.5 h-3.5 animate-spin" />
+                      <span>Redactando...</span>
+                    </>
+                  ) : (
+                    <>
+                      <Sparkles className="w-3.5 h-3.5 text-amber-300" />
+                      <span>Redactar con IA (Deep-Dive)</span>
+                    </>
+                  )}
+                </button>
+
                 <div className="flex items-center gap-1">
                   <span className="text-[11px] text-slate-500 font-medium">Fecha crónica:</span>
                   <input
@@ -514,39 +738,38 @@ export const DossierModal: React.FC<DossierModalProps> = ({
                     title="Insertar plantilla narrativa en cuatro actos: Antecedentes, Novedades, Actores en disputa y Hacia dónde va"
                   >
                     <Sparkles className="w-3.5 h-3.5 text-blue-800" />
-                    <span>Plantilla 4 Actos</span>
+                    <span>Estructura 4 Bloques</span>
                   </button>
                 </div>
 
                 <textarea
                   ref={textareaRef}
-                  rows={8}
-                  value={cronicaHtml || ''}
+                  rows={10}
+                  placeholder="Redacta o edita la crónica de investigación en HTML..."
+                  value={cronicaHtml}
                   onChange={(e) => setCronicaHtml(e.target.value)}
-                  placeholder="<p>Escribe o pega aquí la crónica de fondo periodística del dossier (o usa el botón 'Plantilla 4 Actos')...</p>"
-                  className="w-full px-3 py-2 text-xs font-mono border border-slate-300 rounded-lg bg-white focus:ring-2 focus:ring-blue-600 focus:outline-none"
+                  className="w-full p-3 font-mono text-xs border border-slate-300 rounded-lg bg-white focus:ring-2 focus:ring-blue-600 focus:outline-none leading-relaxed"
                 />
               </div>
             ) : (
-              <div className="bg-white p-4 rounded-lg border border-slate-200 min-h-[160px] text-xs text-slate-800">
-                {cronicaHtml && cronicaHtml.trim().length > 0 ? (
+              <div className="bg-white p-5 rounded-lg border border-slate-200 min-h-[220px]">
+                {cronicaHtml ? (
                   <div
+                    className="prose prose-sm max-w-none text-slate-800 leading-relaxed space-y-3 font-sans"
                     dangerouslySetInnerHTML={{ __html: cronicaHtml }}
-                    className="prose prose-xs max-w-none space-y-2 leading-relaxed text-slate-800"
                   />
                 ) : (
-                  <div className="flex flex-col items-center justify-center py-8 text-slate-400">
-                    <FileText className="w-6 h-6 mb-1 opacity-40" />
-                    <p className="italic">La crónica periodística está vacía. Redáctala en la pestaña 'Editor' o usa la plantilla en 4 actos.</p>
-                  </div>
+                  <p className="text-slate-400 italic text-xs text-center py-10">
+                    No hay contenido redactado aún para la crónica de este seguimiento.
+                  </p>
                 )}
               </div>
             )}
           </div>
 
-          {/* BLOQUE MEDIA & ILUSTRACIÓN EDITORIAL (PROMPT NANOBANANA) */}
-          <div className="p-4 bg-slate-50 border border-slate-200 rounded-xl space-y-3.5">
-            <div className="flex items-center justify-between border-b border-slate-200 pb-2">
+          {/* MEDIA & ARTE EDITORIAL */}
+          <div className="p-4 bg-slate-50 border border-slate-200 rounded-xl space-y-3">
+            <div className="flex items-center justify-between border-b border-slate-200 pb-2.5">
               <div>
                 <h3 className="text-xs font-bold text-slate-800 flex items-center gap-1.5">
                   <ImageIcon className="w-4 h-4 text-blue-900" />
@@ -573,7 +796,7 @@ export const DossierModal: React.FC<DossierModalProps> = ({
               value={imagenUrl}
               onChange={(url) => setImagenUrl(url)}
               folder="dossiers"
-              subContext={dossierAEditar?.slug || 'general'}
+              subContext={dossierAEditar?.id || 'general'}
               helperText="Sube el archivo a Firebase Storage (dossiers/{slug}) o ingresa una URL web con previsualización en vivo."
             />
 

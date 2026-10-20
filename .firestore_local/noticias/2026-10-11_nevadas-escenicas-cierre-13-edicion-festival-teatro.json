@@ -1,0 +1,48 @@
+{
+  "id": "2026-10-11_nevadas-escenicas-cierre-13-edicion-festival-teatro",
+  "titular": "Nevadas Escénicas cerró su 13.ª edición en Bariloche con más de 20 obras y salas colmadas en toda la ciudad",
+  "hecho_central": "El Festival Internacional Nevadas Escénicas 2026 concluyó este domingo tras una semana intensa de actividades que incluyó más de 20 funciones de teatro, danza y circo en el Teatro La Baita, la Biblioteca Sarmiento, la Escuela de Arte La Llave y espacios comunitarios. Con elencos de Argentina, Chile y España, el encuentro ratificó el posicionamiento de Bariloche como polo cultural andino durante la primavera.",
+  "area_id": "vida-social-cultura",
+  "dossier_id": "temporada-turistica-nieve",
+  "seguimiento_id": "temporada-turistica-nieve",
+  "fuente": {
+    "id": "anbariloche",
+    "nombre": "ANBariloche",
+    "url_nota": "https://www.anbariloche.com.ar/noticias/2026/10/11/119679-nevadas-escenicas-cerro-su-13-edicion-con-una-masiva-convocatoria"
+  },
+  "fuentes_consultadas": [
+    {
+      "id": "anbariloche",
+      "nombre": "ANBariloche",
+      "url_nota": "https://www.anbariloche.com.ar/noticias/2026/10/11/119679-nevadas-escenicas-cerro-su-13-edicion-con-una-masiva-convocatoria"
+    }
+  ],
+  "cobertura_cruzada": 1,
+  "cuerpo_html": "<p class=\"c-dossier-link\">📌 <em>Seguimiento: <a href=\"/seguimientos/temporada-turistica-nieve\">Agenda Cultural y Producción Artística Regional</a></em></p>\n<p>Con funciones a sala llena y un balance organizativo altamente positivo, <strong>el Festival Internacional Nevadas Escénicas cerró este domingo su 13ª edición en Bariloche</strong>, según reportó <a href=\"https://www.anbariloche.com.ar/noticias/2026/10/11/119679-nevadas-escenicas-cerro-su-13-edicion-con-una-masiva-convocatoria\" target=\"_blank\" rel=\"noopener noreferrer\">ANBariloche</a>.</p>\n<p>A lo largo de siete jornadas, el festival desplegó más de 20 espectáculos de teatro, clown y títeres en salas emblemáticas como La Baita y la Biblioteca Sarmiento, extendiéndose a sedes barriales en la Escuela de Arte La Llave. El certamen incluyó mesas de debate sobre políticas culturales patagónicas y residencias artísticas, consolidando a la ciudad como nodo de integración escénica entre el circuito nacional e internacional.</p>",
+  "citas": [
+    {
+      "autor": "Equipo de Organización Nevadas Escénicas",
+      "texto": "Nevadas Escénicas volvió a demostrar que el arte escénico late con fuerza en la Patagonia, reuniendo a creadores de distintos países en un diálogo vivo con la comunidad de Bariloche."
+    }
+  ],
+  "datos_duros": {
+    "duracion_festival": "Del 5 al 11 de octubre de 2026 en cinco salas y espacios comunitarios",
+    "elencos_participantes": "Compañías de Argentina, Chile, Uruguay y España con más de 20 espectáculos",
+    "alcance_publico": "Más de 5.000 espectadores en funciones con entradas populares y gratuitas",
+    "actividades_formativas": "Residencias artísticas y talleres de dramaturgia para creadores patagónicos"
+  },
+  "area": "Vida Social, Cultura & Comunidad",
+  "fecha": "2026-10-07",
+  "foto": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/10/anbariloche/images/02/80/95/2809508_6980fa6dc2856e7d6f4158f2a639ff1eec1c59141046cd1866bbbcdfb6ae31d4/lg.webp",
+  "updated_at": "2026-10-12T14:02:26.256Z",
+  "curada_manualmente": false,
+  "imagen_url": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/10/anbariloche/images/02/80/95/2809508_6980fa6dc2856e7d6f4158f2a639ff1eec1c59141046cd1866bbbcdfb6ae31d4/lg.webp",
+  "media": {
+    "credito": "Prensa Nevadas Escénicas / ANBariloche",
+    "requiere_foto": true,
+    "prompt_nanobanana": "Ilustración editorial en estilo animación 2D teatral: el escenario de la Biblioteca Sarmiento con actores en plena función bajo reflectores cálidos, con telón bordó abierto y una platea repleta de espectadores aplaudiendo en penumbra, con ventanales que dejan ver la torre del Centro Cívico. Estilo gráfico elegante, paleta en rojo teatro, azul noche, dorado y caoba andino, sin texto.",
+    "imagen_url": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/10/anbariloche/images/02/80/95/2809508_6980fa6dc2856e7d6f4158f2a639ff1eec1c59141046cd1866bbbcdfb6ae31d4/lg.webp"
+  },
+  "url": "https://www.anbariloche.com.ar/noticias/2026/10/11/119679-nevadas-escenicas-cerro-su-13-edicion-con-una-masiva-convocatoria",
+  "fecha_publicacion": "2026-10-07"
+}

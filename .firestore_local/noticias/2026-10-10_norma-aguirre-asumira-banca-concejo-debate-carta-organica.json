@@ -1,0 +1,58 @@
+{
+  "id": "2026-10-10_norma-aguirre-asumira-banca-concejo-debate-carta-organica",
+  "titular": "Norma Aguirre asumirá la banca vacante en el Concejo Deliberante mientras se calienta el debate por la reforma constitucional",
+  "hecho_central": "Tras la renuncia indeclinable de Leandro Costa Brutten, la dirigencia del espacio político Incluyendo Bariloche confirmó que la dirigente Norma Noemí Aguirre ocupará la banca vacante por corrimiento de la lista electoral de 2023. En simultáneo, el debate de cara a las elecciones de convencionales constituyentes del 1 de noviembre sumó nuevos ejes programáticos: candidatas del Frente de Izquierda y colectivos sociales impulsan la reforma del artículo 210 de la Carta Orgánica para reconocer formalmente la interculturalidad, el mapuzungun y la protección del territorio comunitario.",
+  "area_id": "gestion-publica",
+  "dossier_id": "carta-organica-reforma",
+  "seguimiento_id": "carta-organica-reforma",
+  "fuente": {
+    "id": "anbariloche",
+    "nombre": "ANBariloche",
+    "url_nota": "https://www.anbariloche.com.ar/noticias/2026/10/09/119556-tras-la-polemica-por-la-sucesion-norma-aguirre-ocupara-la-banca-de-costa-brutten"
+  },
+  "fuentes_consultadas": [
+    {
+      "id": "anbariloche",
+      "nombre": "ANBariloche",
+      "url_nota": "https://www.anbariloche.com.ar/noticias/2026/10/09/119556-tras-la-polemica-por-la-sucesion-norma-aguirre-ocupara-la-banca-de-costa-brutten"
+    },
+    {
+      "id": "el-cordillerano",
+      "nombre": "Diario El Cordillerano",
+      "url_nota": "https://www.elcordillerano.com.ar/noticias/2026/10/09/266628-reforma-de-la-carta-organica-que-temas-quieren-discutir-los-vecinos-de-bariloche"
+    }
+  ],
+  "cobertura_cruzada": 2,
+  "cuerpo_html": "<p class=\"c-dossier-link\">📌 <em>Seguimiento: <a href=\"/seguimientos/carta-organica-reforma\">Debate por la Reforma de la Carta Orgánica y Gobernabilidad</a></em></p>\n<p>La crisis institucional desatada en el Concejo Deliberante tras la salida intempestiva de Leandro Costa Brutten comenzó a ordenarse en el plano formal: <strong>el partido Incluyendo Bariloche confirmó que la dirigente Norma Noemí Aguirre asumirá la banca vacante</strong> en función del orden de prelación de la lista electoral de 2023, según consignó <a href=\"https://www.anbariloche.com.ar/noticias/2026/10/09/119556-tras-la-polemica-por-la-sucesion-norma-aguirre-ocupara-la-banca-de-costa-brutten\" target=\"_blank\" rel=\"noopener noreferrer\">ANBariloche</a>.</p>\n<p>La asunción de Aguirre permitirá normalizar el quórum en comisiones estratégicas como Gobierno y Legales y Presupuesto, justo cuando la ciudad ingresa en la recta final hacia las elecciones de convencionales constituyentes del 1 de noviembre. En ese marco, <a href=\"https://www.elcordillerano.com.ar/noticias/2026/10/09/266628-reforma-de-la-carta-organica-que-temas-quieren-discutir-los-vecinos-de-bariloche\" target=\"_blank\" rel=\"noopener noreferrer\">Diario El Cordillerano</a> relevó las principales demandas ciudadanas para la reforma constitucional, destacando la tensión entre la postura oficialista de agilizar contrataciones de obras y los reclamos de colectivos vecinales e indígenas que exigen blindar el artículo 210 para garantizar la interculturalidad y el acceso equitativo a la tierra.</p>",
+  "citas": [
+    {
+      "autor": "Incluyendo Bariloche",
+      "texto": "Reafirmamos nuestro compromiso con la perspectiva de género y la institucionalidad; la banca será asumida por Norma Aguirre en estricto cumplimiento del orden legal de la lista electoral."
+    },
+    {
+      "autor": "Karina Rauque",
+      "cargo": "Candidata a convencional constituyente",
+      "texto": "La reforma de la Carta Orgánica debe saldar una deuda histórica de reconocimiento intercultural, protegiendo las tierras comunitarias frente a la especulación inmobiliaria."
+    }
+  ],
+  "datos_duros": {
+    "reemplazo_legislativo": "Norma Noemí Aguirre asumirá como concejal titular de Incluyendo Bariloche",
+    "comisiones_a_redefinir": "Gobierno y Legales, y comisión de Hacienda y Presupuesto",
+    "eleccion_constituyente": "Comicios de convencionales fijados para el domingo 1 de noviembre de 2026",
+    "eje_debate": "Reforma del artículo 210 (pueblos originarios y tierra pública) y régimen de compras comunales"
+  },
+  "area": "Gestión Pública",
+  "fecha": "2026-10-06",
+  "foto": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/09/anbariloche/images/02/79/29/2792997_65b695d9e29c833359e95390b8872ba832b127307a606effdcc8e51f60a45922/lg.webp",
+  "updated_at": "2026-10-12T14:06:03.036Z",
+  "curada_manualmente": false,
+  "imagen_url": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/09/anbariloche/images/02/79/29/2792997_65b695d9e29c833359e95390b8872ba832b127307a606effdcc8e51f60a45922/lg.webp",
+  "media": {
+    "credito": "Prensa Concejo Municipal / ANBariloche",
+    "requiere_foto": true,
+    "prompt_nanobanana": "Ilustración editorial en estilo animación 2D institucional: el recinto del Concejo Deliberante de Bariloche con sus bancas de madera andina, micrófonos y expedientes legislativos abiertos, con una figura femenina tomando posesión de su escaño frente a la bandera argentina y la Carta Orgánica sobre el estrado. Estética sobria, paleta en caoba patagónico, azul institucional, marfil y bronce, sin texto.",
+    "imagen_url": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/09/anbariloche/images/02/79/29/2792997_65b695d9e29c833359e95390b8872ba832b127307a606effdcc8e51f60a45922/lg.webp"
+  },
+  "url": "https://www.anbariloche.com.ar/noticias/2026/10/09/119556-tras-la-polemica-por-la-sucesion-norma-aguirre-ocupara-la-banca-de-costa-brutten",
+  "fecha_publicacion": "2026-10-06"
+}

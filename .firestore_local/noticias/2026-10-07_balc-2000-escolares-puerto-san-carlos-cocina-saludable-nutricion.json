@@ -1,0 +1,47 @@
+{
+  "id": "2026-10-07_balc-2000-escolares-puerto-san-carlos-cocina-saludable-nutricion",
+  "titular": "Bariloche a la Carta reunió a más de 2.000 escolares en el Puerto San Carlos con un show de cocina saludable",
+  "hecho_central": "En la antesala de la gran feria del Centro Cívico del 9 al 12 de octubre, BALC 2026 reunió a 2.000 alumnos de tercer y cuarto grado de escuelas públicas y privadas de Bariloche en el Puerto San Carlos. La propuesta lúdico-educativa, con cuatro funciones diarias a sala llena, promovió hábitos de alimentación equilibrada y valorización de productos regionales andinos.",
+  "fecha_publicacion": "2026-10-07",
+  "area_id": "turismo",
+  "dossier_id": "temporada-turistica-nieve",
+  "seguimiento_id": "temporada-turistica-nieve",
+  "fuente": {
+    "id": "bariloche-opina",
+    "nombre": "Bariloche Opina",
+    "url_nota": "https://www.barilocheopina.com/noticias/2026/10/07/95505-balc-reune-a-2000-chicos-en-el-puerto-san-carlos-con-un-show-sobre-alimentacion-saludable"
+  },
+  "fuentes_consultadas": [
+    {
+      "id": "bariloche-opina",
+      "nombre": "Bariloche Opina",
+      "url_nota": "https://www.barilocheopina.com/noticias/2026/10/07/95505-balc-reune-a-2000-chicos-en-el-puerto-san-carlos-con-un-show-sobre-alimentacion-saludable"
+    },
+    {
+      "id": "el-cordillerano",
+      "nombre": "Diario El Cordillerano",
+      "url_nota": "https://www.elcordillerano.com.ar/noticias/2026/10/07/266187-bariloche-a-la-carta-aborda-desde-lo-ludico-la-importancia-de-la-alimentacion-saludable"
+    }
+  ],
+  "cobertura_cruzada": 2,
+  "media": {
+    "imagen_url": "https://barilocheopina-s3.cdn.net.ar/s3i233/2026/10/barilocheopina/images/02/80/34/2803415_aa22e9e60c58f45f80dd9e8f92619717216db3e862df3fb6d8b3efa5b09a8a59/md.webp",
+    "credito": "",
+    "requiere_foto": true,
+    "prompt_nanobanana": "Ilustración editorial en estilo animación 2D luminosa y festiva: el auditorio costero del Puerto San Carlos con vista al lago Nahuel Huapi, donde cientos de niños y niñas con delantales de cocinero aplauden sonrientes un show gastronómico infantil en el escenario, rodeados de canastas con frutas rojas, manzanas del valle y verduras frescas. Estilo gráfico amigable, colores vibrantes patagónicos (azul lago, rojo frambuesa, verde manzana y madera clara), sin texto."
+  },
+  "cuerpo_html": "<p class=\"c-dossier-link\">📌 <em>Seguimiento: <a href=\"/seguimientos/temporada-turistica-nieve\">Temporada Turística, Nieve y Conectividad</a></em></p>\n<p>El festival gastronómico más convocante de la Patagonia afianza su arraigo comunitario: <strong>unos 2.000 estudiantes de tercer y cuarto grado de escuelas públicas y privadas de Bariloche colmaron las instalaciones del Puerto San Carlos durante las jornadas de cocina saludable de Bariloche a la Carta (BALC 2026)</strong>, según reportaron <a href=\"https://www.barilocheopina.com/noticias/2026/10/07/95505-balc-reune-a-2000-chicos-en-el-puerto-san-carlos-con-un-show-sobre-alimentacion-saludable\" target=\"_blank\" rel=\"noopener noreferrer\">Bariloche Opina</a> y <a href=\"https://www.elcordillerano.com.ar/noticias/2026/10/07/266187-bariloche-a-la-carta-aborda-desde-lo-ludico-la-importancia-de-la-alimentacion-saludable\" target=\"_blank\" rel=\"noopener noreferrer\">El Cordillerano</a>.</p>\n<p>La propuesta, estructurada en cuatro funciones diarias con cupos agotados desde hace dos meses, combina títeres, música y recetas en vivo para transmitir nociones de nutrición infantil, desalentando el consumo de ultraprocesados y poniendo en valor los ingredientes identitarios de la región andina (frutos rojos, trucha y verduras de huertas cordilleranas). Quienes no hayan accedido a las funciones escolares podrán vivenciar una versión adaptada en el escenario central durante la feria del Centro Cívico.</p>\n<blockquote cite=\"https://www.barilocheopina.com/noticias/2026/10/07/95505-balc-reune-a-2000-chicos-en-el-puerto-san-carlos-con-un-show-sobre-alimentacion-saludable\">\n<p>«Abordar la alimentación saludable desde el juego y la diversión genera un impacto multiplicador; los chicos se transforman en los mejores embajadores de hábitos sanos en sus propios hogares.» — Lucio Bellora, Director Ejecutivo de BALC.</p>\n</blockquote>\n<p>La actividad funciona como antesala de la apertura de la carpa de productores que del 9 al 12 de octubre reunirá a 35 stands culinarios y a más de 40.000 visitantes frente al lago.</p>",
+  "citas": [
+    {
+      "autor": "Lucio Bellora",
+      "cargo": "Director Ejecutivo de BALC 2026",
+      "texto": "Es un show muy especial porque como sector gastronómico es fundamental transmitir un mensaje profundo vinculado a la alimentación saludable; los chicos se llevan un aprendizaje que llega directo a sus casas."
+    }
+  ],
+  "datos_duros": {
+    "escolares_participantes": "2.000 estudiantes de 3° y 4° grado de escuelas públicas y privadas",
+    "esquema_funciones": "4 funciones diarias con capacidad completa en el Puerto San Carlos",
+    "fechas_feria_civico": "9 al 12 de octubre de 12:00 a 00:00 hs (Centro Cívico)"
+  },
+  "updated_at": "2026-10-08T14:02:39.750Z"
+}

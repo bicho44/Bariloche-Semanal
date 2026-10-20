@@ -1,0 +1,53 @@
+{
+  "id": "2026-10-10_segunda-jornada-balc-acuerdo-rio-negro-cordoba",
+  "titular": "Segunda jornada multitudinaria en Bariloche a la Carta: cocinas en vivo en el Centro Cívico y acuerdo de cooperación turística con Córdoba",
+  "hecho_central": "La Feria de Bariloche a la Carta (BALC 2026) desbordó de público este sábado con más de 25.000 vecinos y turistas en la plaza del Centro Cívico. La jornada combinó clases magistrales de alta gastronomía, talleres infantiles de nutrición y la firma de un convenio de cooperación turística y productiva entre los gobiernos de Río Negro y Córdoba para potenciar el intercambio de viajeros y la promoción de economías regionales.",
+  "area_id": "vida-social-cultura",
+  "dossier_id": "temporada-turistica-nieve",
+  "seguimiento_id": "temporada-turistica-nieve",
+  "fuente": {
+    "id": "el-cordillerano",
+    "nombre": "Diario El Cordillerano",
+    "url_nota": "https://www.elcordillerano.com.ar/noticias/2026/10/10/266739-bariloche-a-la-carta-vive-su-segunda-jornada-con-cocina-en-vivo-propuestas-para-chicos-y-musica-mira-las-mejor-del-viernes"
+  },
+  "fuentes_consultadas": [
+    {
+      "id": "el-cordillerano",
+      "nombre": "Diario El Cordillerano",
+      "url_nota": "https://www.elcordillerano.com.ar/noticias/2026/10/10/266739-bariloche-a-la-carta-vive-su-segunda-jornada-con-cocina-en-vivo-propuestas-para-chicos-y-musica-mira-las-mejor-del-viernes"
+    },
+    {
+      "id": "semanario-bariloche",
+      "nombre": "Semanario Bariloche",
+      "url_nota": "https://semanariobariloche.com.ar/bariloche-a-la-carta-con-toda-la-gastronomia-de-rio-negro/"
+    }
+  ],
+  "cobertura_cruzada": 2,
+  "cuerpo_html": "<p class=\"c-dossier-link\">📌 <em>Seguimiento: <a href=\"/seguimientos/temporada-turistica-nieve\">Temporada Turística, Nieve y Conectividad</a></em></p>\n<p>La segunda jornada de la Feria Gastronómica de Bariloche a la Carta colmó de sabores y público el Centro Cívico este sábado: <strong>más de 25.000 personas recorrieron los stands de productores rionegrinos y presenciaron las clases magistrales de cocina en vivo</strong>, según reportaron <a href=\"https://www.elcordillerano.com.ar/noticias/2026/10/10/266739-bariloche-a-la-carta-vive-su-segunda-jornada-con-cocina-en-vivo-propuestas-para-chicos-y-musica-mira-las-mejor-del-viernes\" target=\"_blank\" rel=\"noopener noreferrer\">Diario El Cordillerano</a> y <a href=\"https://semanariobariloche.com.ar/bariloche-a-la-carta-con-toda-la-gastronomia-de-rio-negro/\" target=\"_blank\" rel=\"noopener noreferrer\">Semanario Bariloche</a>.</p>\n<p>En el marco del festival, autoridades de Turismo de Río Negro y de la Agencia Córdoba Turismo firmaron un convenio de promoción cruzada para fortalecer los flujos de visitantes entre las sierras y los Andes. El evento gastronómico impulsó la ocupación hotelera de la ciudad por encima del <strong>85%</strong> en este fin de semana largo, consolidando una oferta de alta gama en formato accesible para vecinos y turistas.</p>",
+  "citas": [
+    {
+      "autor": "Diario El Cordillerano",
+      "texto": "Tenemos propuestas de muy alta gastronomía en formato de feria, lo que hace accesible la experiencia a miles de familias que colmaron el Centro Cívico en un clima primaveral."
+    }
+  ],
+  "datos_duros": {
+    "afluencia_sabado": "Más de 25.000 asistentes en los cuatro turnos de la carpa del Centro Cívico",
+    "convenio_firmado": "Acuerdo de cooperación turística recíproca entre Río Negro y Córdoba",
+    "ocupacion_hotelera": "85% de plazas ocupadas en Bariloche durante el fin de semana largo",
+    "clases_magistrales": "Cocina en vivo con chefs de Tilcara, Córdoba, Puerto Montt y la Patagonia"
+  },
+  "area": "Vida Social, Cultura & Comunidad",
+  "fecha": "2026-10-06",
+  "foto": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/10/elcordillerano/images/02/80/75/2807536_14e6d02ebde09d1188af0959d34e1294f8b3b6c835636a0e0cfd920511dedccf/md.webp",
+  "updated_at": "2026-10-12T14:07:48.698Z",
+  "curada_manualmente": false,
+  "imagen_url": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/10/elcordillerano/images/02/80/75/2807536_14e6d02ebde09d1188af0959d34e1294f8b3b6c835636a0e0cfd920511dedccf/md.webp",
+  "media": {
+    "credito": "Prensa BALC / El Cordillerano",
+    "requiere_foto": true,
+    "prompt_nanobanana": "Ilustración editorial en estilo animación 2D alegre y dinámica: el escenario mayor de Bariloche a la Carta en el Centro Cívico con un chef cocinando en vivo frente a familias sonrientes sentadas en gradas de madera, pantallas gigantes mostrando truchas y quesos ahumados, y el lago Nahuel Huapi de fondo bajo un cielo azul brillante. Estilo gráfico luminoso, paleta en blanco nieve, ocre cálido, verde manzana y azul lago, sin texto.",
+    "imagen_url": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/10/elcordillerano/images/02/80/75/2807536_14e6d02ebde09d1188af0959d34e1294f8b3b6c835636a0e0cfd920511dedccf/md.webp"
+  },
+  "url": "https://www.elcordillerano.com.ar/noticias/2026/10/10/266739-bariloche-a-la-carta-vive-su-segunda-jornada-con-cocina-en-vivo-propuestas-para-chicos-y-musica-mira-las-mejor-del-viernes",
+  "fecha_publicacion": "2026-10-06"
+}

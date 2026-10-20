@@ -1,0 +1,48 @@
+{
+  "id": "2026-10-11_escuela-colonia-suiza-reclamo-urgente-sum",
+  "titular": "Ocho horas entre el pasillo y las aulas: la comunidad de la Escuela de Colonia Suiza renovó el reclamo urgente por un salón de usos múltiples",
+  "hecho_central": "La comunidad educativa de la Escuela Primaria N° 129 de Colonia Suiza renovó su histórico reclamo ante el Ministerio de Educación de Río Negro por la construcción de un Salón de Usos Múltiples (SUM). Los más de 150 alumnos de jornada completa deben realizar educación física, actos escolares y recreos en un pasillo estrecho debido a las inclemencias climáticas, exigiendo que la partida presupuestaria sea incluida antes del cierre del ejercicio 2026.",
+  "dossier_id": "crisis-habitacional-urbanismo",
+  "seguimiento_id": "crisis-habitacional-urbanismo",
+  "fuente": {
+    "id": "anbariloche",
+    "nombre": "ANBariloche",
+    "url_nota": "https://www.anbariloche.com.ar/noticias/2026/10/11/119658-ocho-horas-entre-el-pasillo-y-las-aulas-la-escuela-de-colonia-suiza-volvio-a-exigir-un-salon-de-usos-multiples"
+  },
+  "fuentes_consultadas": [
+    {
+      "id": "anbariloche",
+      "nombre": "ANBariloche",
+      "url_nota": "https://www.anbariloche.com.ar/noticias/2026/10/11/119658-ocho-horas-entre-el-pasillo-y-las-aulas-la-escuela-de-colonia-suiza-volvio-a-exigir-un-salon-de-usos-multiples"
+    }
+  ],
+  "cobertura_cruzada": 1,
+  "cuerpo_html": "<p class=\"c-dossier-link\">📌 <em>Seguimiento: <a href=\"/seguimientos/crisis-habitacional-urbanismo\">Infraestructura Social, Hábitat y Educación Pública</a></em></p>\n<p>La postergación edilicia en las escuelas de los parajes andinos volvió a salir a la luz este domingo: <strong>familias y docentes de la Escuela Primaria N° 129 de Colonia Suiza exigieron una respuesta urgente al Ministerio de Educación provincial por la construcción de un SUM</strong>, según reveló un informe de <a href=\"https://www.anbariloche.com.ar/noticias/2026/10/11/119658-ocho-horas-entre-el-pasillo-y-las-aulas-la-escuela-de-colonia-suiza-volvio-a-exigir-un-salon-de-usos-multiples\" target=\"_blank\" rel=\"noopener noreferrer\">ANBariloche</a>.</p>\n<p>El establecimiento alberga a más de 150 estudiantes bajo modalidad de jornada extendida (ocho horas diarias). Durante los meses de frío y lluvias frecuentes, los alumnos deben almorzar, tener recreos y realizar clases de gimnasia hacinados en el pasillo central de la escuela debido a la falta de un gimnasio cubierto. La comunidad reclama que la Provincia incorpore la partida de obra en el presupuesto 2027 y garantice condiciones dignas de aprendizaje en el histórico enclave rural.</p>",
+  "citas": [
+    {
+      "autor": "Comunidad de Familias Escuela 129",
+      "texto": "Nuestros hijos pasan ocho horas diarias en la escuela y en invierno no tienen dónde moverse; los días de lluvia hacen educación física en un pasillo de dos metros de ancho. El SUM es un derecho básico de los chicos."
+    }
+  ],
+  "datos_duros": {
+    "matricula_escolar": "Más de 150 alumnos que cumplen jornada completa de 8 horas diarias",
+    "carencia_edilicia": "Inexistencia de gimnasio o espacio cubierto para actividad física y actos",
+    "condicion_climatica": "Zona andina con lluvias y nevadas frecuentes que impiden el uso del patio descubierto",
+    "demanda_estatal": "Pedido formal de licitación elevado al Ministerio de Educación y Derechos Humanos de Río Negro"
+  },
+  "area": "Vida Social, Cultura & Comunidad",
+  "fecha": "2026-10-07",
+  "foto": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/10/anbariloche/images/02/80/88/2808889_4962de3076922888fd4abfea631f4fed7a99d93f4103a8e0f1796b8130d0c6d3/lg.webp",
+  "updated_at": "2026-10-12T14:04:49.916Z",
+  "curada_manualmente": false,
+  "imagen_url": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/10/anbariloche/images/02/80/88/2808889_4962de3076922888fd4abfea631f4fed7a99d93f4103a8e0f1796b8130d0c6d3/lg.webp",
+  "media": {
+    "credito": "Comunidad Educativa Escuela 129 / ANBariloche",
+    "requiere_foto": true,
+    "prompt_nanobanana": "Ilustración editorial en estilo animación 2D comunitaria: la histórica escuela rural de madera de Colonia Suiza rodeada de arrayanes y cerros andinos bajo la lluvia, con niños y niñas jugando en un pasillo techado mientras docentes y padres sostienen un plano arquitectónico de un gimnasio escolar. Tono empático y reivindicativo, paleta en madera húmeda, verde bosque, amarillo guardapolvo y azul lluvia, sin texto.",
+    "imagen_url": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/10/anbariloche/images/02/80/88/2808889_4962de3076922888fd4abfea631f4fed7a99d93f4103a8e0f1796b8130d0c6d3/lg.webp"
+  },
+  "area_id": "vida-social-cultura",
+  "url": "https://www.anbariloche.com.ar/noticias/2026/10/11/119658-ocho-horas-entre-el-pasillo-y-las-aulas-la-escuela-de-colonia-suiza-volvio-a-exigir-un-salon-de-usos-multiples",
+  "fecha_publicacion": "2026-10-07"
+}

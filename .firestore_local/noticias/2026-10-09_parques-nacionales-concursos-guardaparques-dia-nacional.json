@@ -1,0 +1,49 @@
+{
+  "id": "2026-10-09_parques-nacionales-concursos-guardaparques-dia-nacional",
+  "titular": "Día del Guardaparque: Parques Nacionales anunció en Bariloche nuevos concursos públicos para ingresar al cuerpo de guardaparques",
+  "hecho_central": "Durante el acto central por el Día del Guardaparque Nacional celebrado en la Intendencia del Parque Nacional Nahuel Huapi, el presidente de la Administración de Parques Nacionales (APN), Sergio Álvarez, confirmó la reapertura de concursos públicos de antecedentes y oposición para incorporar nuevos agentes al cuerpo de guardaparques y avanzar en la jerarquización de la carrera técnica.",
+  "dossier_id": "parque-nahuel-huapi-gestion",
+  "seguimiento_id": "parque-nahuel-huapi-gestion",
+  "fuente": {
+    "id": "el-cordillerano",
+    "nombre": "Diario El Cordillerano",
+    "url_nota": "https://www.elcordillerano.com.ar/noticias/2026/10/09/266604-dia-del-guardaparque-el-presidente-de-la-administracion-de-parques-nacionales-aseguro-que-se-abriran-concursos-para-ingresar-al-cuerpo"
+  },
+  "fuentes_consultadas": [
+    {
+      "id": "el-cordillerano",
+      "nombre": "Diario El Cordillerano",
+      "url_nota": "https://www.elcordillerano.com.ar/noticias/2026/10/09/266604-dia-del-guardaparque-el-presidente-de-la-administracion-de-parques-nacionales-aseguro-que-se-abriran-concursos-para-ingresar-al-cuerpo"
+    }
+  ],
+  "cobertura_cruzada": 1,
+  "cuerpo_html": "<p class=\"c-dossier-link\">📌 <em>Seguimiento: <a href=\"/seguimientos/parque-nahuel-huapi-gestion\">Parque Nacional Nahuel Huapi: Conservación y Coexistencia</a></em></p>\n<p>En el marco de la conmemoración del Día del Guardaparque Nacional, <strong>la Administración de Parques Nacionales (APN) confirmó este viernes desde Bariloche la reapertura de los concursos públicos de ingreso</strong> para incorporar nuevos custodios a las áreas protegidas de todo el país, según reportó <a href=\"https://www.elcordillerano.com.ar/noticias/2026/10/09/266604-dia-del-guardaparque-el-presidente-de-la-administracion-de-parques-nacionales-aseguro-que-se-abriran-concursos-para-ingresar-al-cuerpo\" target=\"_blank\" rel=\"noopener noreferrer\">Diario El Cordillerano</a>.</p>\n<p>El anuncio fue realizado por el titular del organismo, <strong>Sergio Álvarez</strong>, durante una ceremonia en los jardines de la Intendencia del Parque Nacional Nahuel Huapi. La medida busca responder al déficit de personal en seccionales remotas y senderos de alta montaña, fortaleciendo la presencia institucional de cara a la temporada estival y la prevención de incendios forestales en la cuenca andina.</p>",
+  "citas": [
+    {
+      "autor": "Sergio Álvarez",
+      "cargo": "Presidente de Parques Nacionales",
+      "texto": "Es indispensable dignificar la profesión y dotar al sistema de áreas protegidas de personal capacitado en el terreno, abriendo concursos transparentes para quienes eligen cuidar nuestro patrimonio natural."
+    }
+  ],
+  "datos_duros": {
+    "anuncio_laboral": "Apertura de concursos de ingreso y ascensos para el Cuerpo de Guardaparques Nacionales",
+    "sede_anuncio": "Intendencia del Parque Nacional Nahuel Huapi en San Carlos de Bariloche",
+    "prioridad_operativa": "Refuerzo de guardaparques en áreas remotas y zonas de interfase crítica de la Patagonia",
+    "fecha_celebracion": "9 de octubre, Día del Guardaparque Nacional (aniversario de la Ley 12.103 de 1934)"
+  },
+  "area": "Gestión Pública",
+  "fecha": "2026-10-05",
+  "foto": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/10/elcordillerano/images/02/80/63/2806377_c7fdd5b133e2d8ce2d0972a280ace2a5f864749bcc30eb76d8b8a043bc0ee97d/md.webp",
+  "updated_at": "2026-10-12T14:12:12.187Z",
+  "curada_manualmente": false,
+  "imagen_url": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/10/elcordillerano/images/02/80/63/2806377_c7fdd5b133e2d8ce2d0972a280ace2a5f864749bcc30eb76d8b8a043bc0ee97d/md.webp",
+  "media": {
+    "credito": "Diario El Cordillerano / APN",
+    "requiere_foto": true,
+    "prompt_nanobanana": "Ilustración editorial en estilo animación 2D y homenaje institucional: un guardaparque nacional con sombrero característico y prismáticos observando el horizonte cordillerano del lago Nahuel Huapi junto al histórico edificio de madera y piedra de la Intendencia de Parques, con alerces y cóndores sobrevolando. Estilo flat design límpido, paleta verde bosque, caoba patagónico, azul lago y beige tierra, sin texto.",
+    "imagen_url": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/10/elcordillerano/images/02/80/63/2806377_c7fdd5b133e2d8ce2d0972a280ace2a5f864749bcc30eb76d8b8a043bc0ee97d/md.webp"
+  },
+  "area_id": "gestion-publica",
+  "url": "https://www.elcordillerano.com.ar/noticias/2026/10/09/266604-dia-del-guardaparque-el-presidente-de-la-administracion-de-parques-nacionales-aseguro-que-se-abriran-concursos-para-ingresar-al-cuerpo",
+  "fecha_publicacion": "2026-10-05"
+}

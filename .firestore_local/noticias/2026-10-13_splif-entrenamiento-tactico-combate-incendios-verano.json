@@ -1,0 +1,48 @@
+{
+  "id": "2026-10-13_splif-entrenamiento-tactico-combate-incendios-verano",
+  "titular": "El SPLIF Bariloche completó un entrenamiento regional de combate de incendios forestales de cara al verano",
+  "hecho_central": "Brigadistas de las centrales Bariloche y El Bolsón del Servicio de Prevención y Lucha contra Incendios Forestales (SPLIF) completaron un taller teórico-práctico intensivo de combate de fuego en áreas de interfase urbano-forestal. El entrenamiento se focalizó en despliegue rápido de líneas de agua con motobombas portátiles, tendido de mangueras en pendientes pronunciadas y protocolos de seguridad ante condiciones de sequía primaveral.",
+  "dossier_id": "parque-nahuel-huapi-gestion",
+  "seguimiento_id": "parque-nahuel-huapi-gestion",
+  "fuente": {
+    "id": "el-cordillerano",
+    "nombre": "Diario El Cordillerano",
+    "url_nota": "https://www.elcordillerano.com.ar/noticias/2026/10/13/267168-splif-bariloche-participo-de-un-entrenamiento-regional-para-el-combate-de-incendios-forestales"
+  },
+  "fuentes_consultadas": [
+    {
+      "id": "el-cordillerano",
+      "nombre": "Diario El Cordillerano",
+      "url_nota": "https://www.elcordillerano.com.ar/noticias/2026/10/13/267168-splif-bariloche-participo-de-un-entrenamiento-regional-para-el-combate-de-incendios-forestales"
+    }
+  ],
+  "cobertura_cruzada": 1,
+  "cuerpo_html": "<p class=\"c-dossier-link\">📌 <em>Seguimiento: <a href=\"/seguimientos/parque-nahuel-huapi-gestion\">Parque Nacional Nahuel Huapi y Manejo del Fuego</a></em></p>\n<p>Ante las proyecciones meteorológicas que anticipan un verano con temperaturas elevadas y bajo régimen de precipitaciones en la cordillera, <strong>el SPLIF Bariloche completó este martes una jornada de entrenamiento regional para el combate de incendios forestales</strong>, según informó <a href=\"https://www.elcordillerano.com.ar/noticias/2026/10/13/267168-splif-bariloche-participo-de-un-entrenamiento-regional-para-el-combate-de-incendios-forestales\" target=\"_blank\" rel=\"noopener noreferrer\">Diario El Cordillerano</a>.</p>\n<p>La capacitación reunió a combatientes de las bases de Bariloche y El Bolsón, enfocándose en la instalación de líneas de bombeo en terrenos con fuertes pendientes y el empleo de herramientas manuales de zapa para el control de focos en la interfase urbana. Las autoridades provinciales recordaron que desde el 5 de octubre rige la veda absoluta de quemas de restos de poda, instando a vecinos y turistas a extremar los cuidados en sectores periurbanos.</p>",
+  "citas": [
+    {
+      "autor": "SPLIF Río Negro",
+      "texto": "El ataque inicial rápido es la clave para evitar que un foco de interfase se transforme en un incendio de magnitud; estas prácticas unifican criterios tácticos entre brigadistas de Bariloche y El Bolsón."
+    }
+  ],
+  "datos_duros": {
+    "organismo_capacitado": "SPLIF Río Negro (centrales operativas de Bariloche y El Bolsón)",
+    "eje_operativo": "Simulacros de ataque inicial en áreas de interfase y bosque nativo",
+    "alerta_climatica": "Déficit hídrico estacional proyectado para los meses de noviembre a febrero",
+    "veda_quemas": "Veda total de quemas vigente desde el pasado 5 de octubre en toda la zona andina"
+  },
+  "area": "Gestión Pública",
+  "fecha": "2026-10-09",
+  "foto": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/10/elcordillerano/images/02/81/13/2811379_f984f1c1cd3e96b045afcae68f2db39e9a464dea60d013b6cdd8087d165398ed/md.webp",
+  "updated_at": "2026-10-14T15:09:12.599Z",
+  "curada_manualmente": false,
+  "imagen_url": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/10/elcordillerano/images/02/81/13/2811379_f984f1c1cd3e96b045afcae68f2db39e9a464dea60d013b6cdd8087d165398ed/md.webp",
+  "media": {
+    "credito": "Prensa SPLIF Río Negro / El Cordillerano",
+    "requiere_foto": true,
+    "prompt_nanobanana": "Ilustración editorial en estilo animación 2D sobre combate forestal: brigadistas del SPLIF con uniformes amarillos, mochilas de agua y lanzas forestales practicando tendido de mangueras en un bosque de pinos y radales en un cerro de Bariloche, con un camión autobomba cisterna de fondo y el lago Nahuel Huapi en el horizonte. Estilo flat design límpido, paleta en amarillo brigadista, verde bosque, ocre tierra y azul lago, sin texto.",
+    "imagen_url": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/10/elcordillerano/images/02/81/13/2811379_f984f1c1cd3e96b045afcae68f2db39e9a464dea60d013b6cdd8087d165398ed/md.webp"
+  },
+  "area_id": "gestion-publica",
+  "url": "https://www.elcordillerano.com.ar/noticias/2026/10/13/267168-splif-bariloche-participo-de-un-entrenamiento-regional-para-el-combate-de-incendios-forestales",
+  "fecha_publicacion": "2026-10-09"
+}

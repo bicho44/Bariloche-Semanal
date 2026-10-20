@@ -1,12 +1,16 @@
 {
   "id": "evento-audiencia-tup",
-  "tipo_acceso": "con_inscripcion",
-  "fecha_inicio": "2026-10-28",
-  "horario": "17:00 hs",
-  "fecha_fin": "2026-10-28",
-  "categoria": "institucional",
-  "lugar": "Sala de Sesiones del Concejo Deliberante (Centro Cívico)",
   "titulo": "Audiencia Pública: Revisión Tarifaria y Recorridos TUP",
+  "categoria": "institucional",
+  "fecha_inicio": "2026-10-28",
+  "fecha_fin": "2026-10-28",
+  "horario": "17:00 hs",
+  "lugar": "Sala de Sesiones del Concejo Deliberante (Centro Cívico)",
+  "tipo_acceso": "con_inscripcion",
+  "arancel_estimado": "",
+  "descripcion_corta": "Instancia ciudadana para exponer posturas sobre el nuevo pliego de licitación del transporte urbano de pasajeros.",
   "url_info": "https://concejobariloche.gov.ar/audiencias-publicas",
-  "descripcion_corta": "Instancia ciudadana para exponer posturas sobre el nuevo pliego de licitación del transporte urbano de pasajeros."
+  "estado_temporal": "vigente",
+  "imagen_url": null,
+  "updated_at": "2026-10-15T23:07:26.699Z"
 }

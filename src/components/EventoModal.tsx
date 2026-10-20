@@ -1,5 +1,21 @@
 import React, { useState, useEffect } from 'react';
-import { X, Save, Loader2, Calendar, Star, Tag, Clock, MapPin, DollarSign, Globe, Info } from 'lucide-react';
+import {
+  X,
+  Save,
+  Loader2,
+  Calendar,
+  Star,
+  Tag,
+  Clock,
+  MapPin,
+  DollarSign,
+  Globe,
+  Info,
+  Map,
+  Ticket,
+  ExternalLink,
+  Sparkles,
+} from 'lucide-react';
 import { EventoAgenda, CategoriaAgenda, TipoAccesoAgenda, EstadoEventoAgenda } from '../types/index.js';
 import { DualImageSelector } from './DualImageSelector.js';
 
@@ -18,7 +34,7 @@ const CATEGORIAS: { id: CategoriaAgenda; label: string; color: string }[] = [
 ];
 
 const TIPOS_ACCESO: { id: TipoAccesoAgenda; label: string }[] = [
-  { id: 'gratuito', label: 'Gratuito (Entrada Libre)' },
+  { id: 'gratuito', label: 'Gratuito (Entrada Libre y Gratuita)' },
   { id: 'arancelado', label: 'Arancelado (Con Entrada / Boletería)' },
   { id: 'con_inscripcion', label: 'Con Inscripción Previa' },
 ];
@@ -41,13 +57,17 @@ export const EventoModal: React.FC<EventoModalProps> = ({
   const [fechaFin, setFechaFin] = useState(new Date().toISOString().split('T')[0]);
   const [horario, setHorario] = useState('');
   const [lugar, setLugar] = useState('');
+  const [direccion, setDireccion] = useState('');
+  const [mapaUrl, setMapaUrl] = useState('');
   const [tipoAcceso, setTipoAcceso] = useState<TipoAccesoAgenda>('gratuito');
-  const [arancelEstimado, setArancelEstimado] = useState('Entrada libre');
+  const [arancelEstimado, setArancelEstimado] = useState('Entrada libre y gratuita');
   const [descripcionCorta, setDescripcionCorta] = useState('');
   const [urlInfo, setUrlInfo] = useState('');
+  const [urlTickets, setUrlTickets] = useState('');
   const [imagenUrl, setImagenUrl] = useState('');
   const [estado, setEstado] = useState<EstadoEventoAgenda>('vigente');
   const [destacado, setDestacado] = useState(false);
+  const [noticiaOrigenId, setNoticiaOrigenId] = useState('');
 
   const [saving, setSaving] = useState(false);
   const [error, setError] = useState<string | null>(null);
@@ -60,13 +80,17 @@ export const EventoModal: React.FC<EventoModalProps> = ({
       setFechaFin(eventoAEditar.fecha_fin || eventoAEditar.fecha_inicio || '');
       setHorario(eventoAEditar.horario || '');
       setLugar(eventoAEditar.lugar || '');
+      setDireccion(eventoAEditar.direccion || '');
+      setMapaUrl(eventoAEditar.mapa_url || '');
       setTipoAcceso(eventoAEditar.tipo_acceso || 'gratuito');
-      setArancelEstimado(eventoAEditar.arancel_estimado || (eventoAEditar.tipo_acceso === 'gratuito' ? 'Entrada libre' : ''));
+      setArancelEstimado(eventoAEditar.arancel_estimado || (eventoAEditar.tipo_acceso === 'gratuito' ? 'Entrada libre y gratuita' : ''));
       setDescripcionCorta(eventoAEditar.descripcion_corta || '');
       setUrlInfo(eventoAEditar.url_info || '');
+      setUrlTickets(eventoAEditar.url_tickets || '');
       setImagenUrl(eventoAEditar.imagen_url || '');
       setEstado(eventoAEditar.estado || 'vigente');
       setDestacado(Boolean(eventoAEditar.destacado));
+      setNoticiaOrigenId(eventoAEditar.noticia_origen_id || '');
     } else {
       const hoy = new Date().toISOString().split('T')[0];
       setTitulo('');
@@ -75,13 +99,17 @@ export const EventoModal: React.FC<EventoModalProps> = ({
       setFechaFin(hoy);
       setHorario('20:00 hs');
       setLugar('');
+      setDireccion('');
+      setMapaUrl('');
       setTipoAcceso('gratuito');
-      setArancelEstimado('Entrada libre');
+      setArancelEstimado('Entrada libre y gratuita');
       setDescripcionCorta('');
       setUrlInfo('');
+      setUrlTickets('');
       setImagenUrl('');
       setEstado('vigente');
       setDestacado(false);
+      setNoticiaOrigenId('');
     }
     setError(null);
   }, [eventoAEditar, isOpen]);
@@ -90,10 +118,22 @@ export const EventoModal: React.FC<EventoModalProps> = ({
   const handleTipoAccesoChange = (nuevoTipo: TipoAccesoAgenda) => {
     setTipoAcceso(nuevoTipo);
     if (nuevoTipo === 'gratuito' && (!arancelEstimado || arancelEstimado.trim() === '')) {
-      setArancelEstimado('Entrada libre');
-    } else if (nuevoTipo === 'con_inscripcion' && (!arancelEstimado || arancelEstimado === 'Entrada libre')) {
-      setArancelEstimado('Gratuito c/ inscripción');
+      setArancelEstimado('Entrada libre y gratuita');
+    } else if (nuevoTipo === 'con_inscripcion' && (!arancelEstimado || arancelEstimado === 'Entrada libre y gratuita')) {
+      setArancelEstimado('Gratuito c/ inscripción previa');
     }
+  };
+
+  // Autogeneración automática del enlace a Google Maps Search
+  const handleAutogenerarMapa = () => {
+    const query = `${lugar || ''} ${direccion || ''} San Carlos de Bariloche`.trim().replace(/\s+/g, ' ');
+    if (!query) {
+      setError('Por favor indica primero el Lugar o la Dirección en Bariloche.');
+      return;
+    }
+    const generado = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(query)}`;
+    setMapaUrl(generado);
+    setError(null);
   };
 
   const handleSubmit = async (e: React.FormEvent) => {
@@ -131,10 +171,34 @@ export const EventoModal: React.FC<EventoModalProps> = ({
       return;
     }
 
+    // Validación profunda de url_info
+    const cleanUrlInfo = urlInfo.trim();
+    if (!cleanUrlInfo) {
+      setError('El enlace web oficial o de referencia (url_info) es obligatorio.');
+      return;
+    }
+    try {
+      const parsed = new URL(cleanUrlInfo);
+      if (!parsed.protocol.startsWith('http')) {
+        setError('El enlace url_info debe comenzar con http:// o https://');
+        return;
+      }
+    } catch {
+      setError('La URL proporcionada en url_info no tiene un formato web válido.');
+      return;
+    }
+
     setError(null);
     setSaving(true);
 
     try {
+      // Autogenerar mapa_url si quedó vacío
+      const finalMapaUrl = mapaUrl.trim()
+        ? mapaUrl.trim()
+        : `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
+            `${lugar.trim()} ${direccion.trim()} San Carlos de Bariloche`.trim()
+          )}`;
+
       await onSave({
         titulo: cleanTitulo,
         categoria,
@@ -142,13 +206,19 @@ export const EventoModal: React.FC<EventoModalProps> = ({
         fecha_fin: finEfectivo,
         horario: horario.trim(),
         lugar: lugar.trim(),
+        direccion: direccion.trim() || undefined,
+        mapa_url: finalMapaUrl,
         tipo_acceso: tipoAcceso,
-        arancel_estimado: arancelEstimado.trim() || (tipoAcceso === 'gratuito' ? 'Entrada libre' : undefined),
+        arancel_estimado: arancelEstimado.trim() || (tipoAcceso === 'gratuito' ? 'Entrada libre y gratuita' : undefined),
         descripcion_corta: descripcionCorta.trim(),
-        url_info: urlInfo.trim(),
-        imagen_url: imagenUrl || undefined,
+        url_info: cleanUrlInfo,
+        url_tickets: urlTickets.trim() || null,
+        imagen_url: imagenUrl || null,
         estado,
         destacado,
+        noticia_origen_id: noticiaOrigenId.trim() || undefined,
+        curada_manualmente: true,
+        sincronizado_firestore: true,
       });
       onClose();
     } catch (err: unknown) {
@@ -172,10 +242,10 @@ export const EventoModal: React.FC<EventoModalProps> = ({
             </div>
             <div>
               <h2 className="text-base font-bold text-slate-800">
-                {eventoAEditar ? 'Editar Evento de Agenda' : 'Nuevo Evento de Cartelera'}
+                {eventoAEditar ? 'Editar Evento de Cartelera' : 'Nuevo Evento de Cartelera'}
               </h2>
               <p className="text-xs text-slate-500">
-                Gestión directa en colección Firestore <code className="text-blue-800 font-mono">agenda</code>
+                Gestión en Firestore <code className="text-blue-800 font-mono">agenda</code> (Filtro por fecha_fin &gt;= hoy)
               </p>
             </div>
           </div>
@@ -206,7 +276,7 @@ export const EventoModal: React.FC<EventoModalProps> = ({
               required
               value={titulo}
               onChange={(e) => setTitulo(e.target.value)}
-              placeholder="Ej: Concierto de Primavera en Camping Musical / Carrera 4 Refugios"
+              placeholder="Ej: Muestra Textil en el SCUM / Festival Pichi Keche / Concierto en Camping Musical"
               className="w-full px-3 py-2 text-sm border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:outline-none"
             />
           </div>
@@ -232,7 +302,7 @@ export const EventoModal: React.FC<EventoModalProps> = ({
 
             <div>
               <label className="block text-xs font-semibold uppercase tracking-wider text-slate-700 mb-1">
-                Estado Temporal *
+                Estado Temporal
               </label>
               <select
                 value={estado}
@@ -252,7 +322,7 @@ export const EventoModal: React.FC<EventoModalProps> = ({
           <div className="p-3.5 bg-slate-50 border border-slate-200 rounded-xl space-y-2.5">
             <div className="text-[11px] font-bold uppercase tracking-wider text-slate-700 flex items-center gap-1.5">
               <Clock className="w-3.5 h-3.5 text-blue-800" />
-              <span>Cronograma y Horario</span>
+              <span>Cronograma & Duración (Vigente mientras fecha_fin &gt;= hoy)</span>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
               <div>
@@ -302,21 +372,80 @@ export const EventoModal: React.FC<EventoModalProps> = ({
             </div>
           </div>
 
-          {/* Lugar en Bariloche */}
-          <div>
-            <label className="block text-xs font-semibold uppercase tracking-wider text-slate-700 mb-1">
-              Lugar / Espacio Físico en Bariloche *
-            </label>
-            <div className="relative">
-              <MapPin className="w-4 h-4 text-slate-400 absolute left-3 top-2.5" />
-              <input
-                type="text"
-                required
-                placeholder="Ej: Sala Rautenstrauch (Camping Musical Bariloche) / Centro Cívico / Cerro Catedral"
-                value={lugar}
-                onChange={(e) => setLugar(e.target.value)}
-                className="w-full pl-9 pr-3 py-2 text-xs border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:outline-none"
-              />
+          {/* UBICACIÓN: Lugar, Dirección y Mapa URL */}
+          <div className="p-3.5 bg-slate-50 border border-slate-200 rounded-xl space-y-3">
+            <div className="text-[11px] font-bold uppercase tracking-wider text-slate-700 flex items-center gap-1.5">
+              <MapPin className="w-3.5 h-3.5 text-blue-800" />
+              <span>Ubicación en Bariloche & Georreferenciación</span>
+            </div>
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+              <div>
+                <label className="block text-xs font-semibold uppercase tracking-wider text-slate-700 mb-1">
+                  Lugar o Espacio Físico *
+                </label>
+                <input
+                  type="text"
+                  required
+                  placeholder="Ej: SCUM / Camping Musical Bariloche / Biblioteca Sarmiento"
+                  value={lugar}
+                  onChange={(e) => setLugar(e.target.value)}
+                  className="w-full px-3 py-2 text-xs border border-slate-300 rounded-lg bg-white focus:ring-2 focus:ring-blue-600 focus:outline-none"
+                />
+              </div>
+
+              <div>
+                <label className="block text-xs font-semibold uppercase tracking-wider text-slate-700 mb-1">
+                  Dirección Exacta (Calle y altura / Km)
+                </label>
+                <input
+                  type="text"
+                  placeholder="Ej: Moreno y Villegas / Av. Bustillo Km 25"
+                  value={direccion}
+                  onChange={(e) => setDireccion(e.target.value)}
+                  className="w-full px-3 py-2 text-xs border border-slate-300 rounded-lg bg-white focus:ring-2 focus:ring-blue-600 focus:outline-none"
+                />
+              </div>
+            </div>
+
+            {/* Mapa URL con Autogeneración */}
+            <div>
+              <div className="flex items-center justify-between mb-1">
+                <label className="text-xs font-semibold uppercase tracking-wider text-slate-700 flex items-center gap-1">
+                  <Map className="w-3.5 h-3.5 text-blue-900" />
+                  <span>Link Directo a Google Maps Search</span>
+                </label>
+                <button
+                  type="button"
+                  onClick={handleAutogenerarMapa}
+                  className="text-[11px] font-bold text-blue-900 hover:text-blue-700 flex items-center gap-1 bg-white px-2 py-0.5 rounded border border-blue-200 shadow-2xs hover:bg-blue-50 cursor-pointer"
+                >
+                  <Sparkles className="w-3 h-3 text-blue-700" />
+                  <span>Autogenerar Mapa</span>
+                </button>
+              </div>
+              <div className="relative">
+                <input
+                  type="url"
+                  placeholder="https://www.google.com/maps/search/?api=1&query=..."
+                  value={mapaUrl}
+                  onChange={(e) => setMapaUrl(e.target.value)}
+                  className="w-full pl-3 pr-20 py-1.5 text-xs font-mono border border-slate-300 rounded-lg bg-white focus:ring-2 focus:ring-blue-600 focus:outline-none"
+                />
+                {mapaUrl && (
+                  <a
+                    href={mapaUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="absolute right-2 top-1.5 text-[11px] text-blue-600 hover:underline flex items-center gap-0.5"
+                  >
+                    <ExternalLink className="w-3 h-3" /> Probar
+                  </a>
+                )}
+              </div>
+              <span className="text-[10px] text-slate-500 mt-0.5 block">
+                Si se deja vacío, se autogenerará con el lugar y la dirección de San Carlos de Bariloche.
+              </span>
             </div>
           </div>
 
@@ -341,13 +470,13 @@ export const EventoModal: React.FC<EventoModalProps> = ({
 
             <div>
               <label className="block text-xs font-semibold uppercase tracking-wider text-slate-700 mb-1">
-                Arancel Estimado / Boletería
+                Arancel Estimado / Costo
               </label>
               <div className="relative">
                 <DollarSign className="w-4 h-4 text-slate-400 absolute left-3 top-2.5" />
                 <input
                   type="text"
-                  placeholder="Ej: Entrada libre / $3.500 anticipadas / $5.000 puerta"
+                  placeholder="Ej: $15.000 / Entrada libre y gratuita / A la gorra"
                   value={arancelEstimado}
                   onChange={(e) => setArancelEstimado(e.target.value)}
                   className="w-full pl-9 pr-3 py-2 text-xs border border-slate-300 rounded-lg bg-white focus:ring-2 focus:ring-blue-600 focus:outline-none"
@@ -385,20 +514,45 @@ export const EventoModal: React.FC<EventoModalProps> = ({
             />
           </div>
 
-          {/* URL Info duradera */}
-          <div>
-            <label className="block text-xs font-semibold uppercase tracking-wider text-slate-700 mb-1">
-              URL de Más Información / Entradas / Redes
-            </label>
-            <div className="relative">
-              <Globe className="w-4 h-4 text-slate-400 absolute left-3 top-2.5" />
-              <input
-                type="url"
-                placeholder="https://instagram.com/p/... o link oficial a boletería"
-                value={urlInfo}
-                onChange={(e) => setUrlInfo(e.target.value)}
-                className="w-full pl-9 pr-3 py-2 text-xs border border-slate-300 rounded-lg font-mono focus:ring-2 focus:ring-blue-600 focus:outline-none"
-              />
+          {/* URL Info (Profundo) y URL Tickets */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div>
+              <label className="block text-xs font-semibold uppercase tracking-wider text-slate-700 mb-1">
+                Enlace Profundo Verificado (url_info) *
+              </label>
+              <div className="relative">
+                <Globe className="w-4 h-4 text-slate-400 absolute left-3 top-2.5" />
+                <input
+                  type="url"
+                  required
+                  placeholder="https://medio.com/nota-evento o link profundo a cartelera"
+                  value={urlInfo}
+                  onChange={(e) => setUrlInfo(e.target.value)}
+                  className="w-full pl-9 pr-3 py-2 text-xs border border-slate-300 rounded-lg font-mono focus:ring-2 focus:ring-blue-600 focus:outline-none"
+                />
+              </div>
+              <span className="text-[10px] text-slate-500 mt-0.5 block">
+                Debe ser un enlace profundo a la nota o gacetilla específica.
+              </span>
+            </div>
+
+            <div>
+              <label className="block text-xs font-semibold uppercase tracking-wider text-slate-700 mb-1">
+                Boletería / Inscripción (url_tickets)
+              </label>
+              <div className="relative">
+                <Ticket className="w-4 h-4 text-slate-400 absolute left-3 top-2.5" />
+                <input
+                  type="url"
+                  placeholder="https://passline.com/... o entradaweb / formulario"
+                  value={urlTickets}
+                  onChange={(e) => setUrlTickets(e.target.value)}
+                  className="w-full pl-9 pr-3 py-2 text-xs border border-slate-300 rounded-lg font-mono focus:ring-2 focus:ring-blue-600 focus:outline-none"
+                />
+              </div>
+              <span className="text-[10px] text-slate-500 mt-0.5 block">
+                Opcional: boletería electrónica o inscripción previa.
+              </span>
             </div>
           </div>
 
@@ -436,7 +590,7 @@ export const EventoModal: React.FC<EventoModalProps> = ({
         {/* Footer del Modal */}
         <div className="px-6 py-3 border-t border-slate-200 bg-slate-50/80 flex items-center justify-between rounded-b-2xl">
           <div className="text-[11px] text-slate-500">
-            ID doc sugerido: <span className="font-mono text-blue-900">{fechaInicio}_...</span>
+            ID sugerido: <span className="font-mono text-blue-900">{fechaInicio}_...</span>
           </div>
 
           <div className="flex items-center gap-3">

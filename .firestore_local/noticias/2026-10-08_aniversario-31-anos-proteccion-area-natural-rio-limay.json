@@ -1,0 +1,49 @@
+{
+  "id": "2026-10-08_aniversario-31-anos-proteccion-area-natural-rio-limay",
+  "titular": "El Área Natural Protegida Río Limay cumple 31 años: balance de conservación hídrica, monitoreo biológico y ordenamiento de la pesca deportiva",
+  "hecho_central": "La Secretaría de Ambiente y Cambio Climático de Río Negro conmemoró el 31° aniversario de la creación del Área Natural Protegida Río Limay, sancionada el 8 de octubre de 1995. El organismo provincial presentó un balance de gestión sobre el corredor que protege 65 kilómetros de costa desde el nacimiento en el lago Nahuel Huapi hasta Paso Córdoba, anunciando nuevos controles para la temporada de pesca y ordenamiento de flotadas.",
+  "dossier_id": "parque-nahuel-huapi-gestion",
+  "seguimiento_id": "parque-nahuel-huapi-gestion",
+  "fuente": {
+    "id": "anbariloche",
+    "nombre": "ANBariloche",
+    "url_nota": "https://www.anbariloche.com.ar/noticias/2026/10/08/119502-rio-limay-31-anos-de-proteccion-de-un-patrimonio-natural-de-rio-negro"
+  },
+  "fuentes_consultadas": [
+    {
+      "id": "anbariloche",
+      "nombre": "ANBariloche",
+      "url_nota": "https://www.anbariloche.com.ar/noticias/2026/10/08/119502-rio-limay-31-anos-de-proteccion-de-un-patrimonio-natural-de-rio-negro"
+    }
+  ],
+  "cobertura_cruzada": 1,
+  "cuerpo_html": "<p class=\"c-dossier-link\">📌 <em>Seguimiento: <a href=\"/seguimientos/parque-nahuel-huapi-gestion\">Parque Nacional Nahuel Huapi: Conservación y Coexistencia</a></em></p>\n<p>El corredor hídrico que hermana a Bariloche y Dina Huapi con los valles del este celebró este jueves una fecha fundacional: <strong>se cumplieron 31 años de la sanción de la ley que declaró Área Natural Protegida al Río Limay</strong>, el 8 de octubre de 1995, según destacó un informe especial de <a href=\"https://www.anbariloche.com.ar/noticias/2026/10/08/119502-rio-limay-31-anos-de-proteccion-de-un-patrimonio-natural-de-rio-negro\" target=\"_blank\" rel=\"noopener noreferrer\">ANBariloche</a>.</p>\n<p>La normativa rionegrina resguarda la calidad de las aguas y la biodiversidad a lo largo de <strong>65 kilómetros</strong>, desde la naciente en el lago Nahuel Huapi hasta la confluencia con el río Traful. En la actualidad, el área es objeto de monitoreos científicos sistemáticos de calidad de agua y enfrenta el desafío de regular el creciente flujo de turistas, flotadas comerciales y pescadores deportivos que colman las bajadas públicas durante la primavera y el verano.</p>",
+  "citas": [
+    {
+      "autor": "Secretaría de Ambiente de Río Negro",
+      "cargo": "Organismo de Aplicación",
+      "texto": "La defensa y el cuidado del río Limay representa una política de Estado que une a las comunidades ribereñas en la preservación de un ecosistema único que conecta la cordillera con la estepa patagónica."
+    }
+  ],
+  "datos_duros": {
+    "creacion_legal": "Ley Provincial N° 2.915 del 8 de octubre de 1995",
+    "extension_costera": "65 kilómetros lineales de corredor biológico andino-estepario",
+    "biodiversidad": "Protección de especies nativas (huillín, perca, trucha criolla) y avifauna de estepa",
+    "regulacion_recreativa": "Fiscalización de guardafaunas en bajadas de botes, campings y permisos de pesca 2026"
+  },
+  "area": "Gestión Pública",
+  "fecha": "2026-10-04",
+  "foto": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/10/anbariloche/images/02/80/55/2805527_af635e57e7a668ecc9c7dac04d90da942eb8ed30067f5f0943b2a981cacc1158/md.webp",
+  "updated_at": "2026-10-09T12:35:57.388Z",
+  "curada_manualmente": false,
+  "imagen_url": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/10/anbariloche/images/02/80/55/2805527_af635e57e7a668ecc9c7dac04d90da942eb8ed30067f5f0943b2a981cacc1158/md.webp",
+  "media": {
+    "credito": "ANBariloche / Secretaría de Ambiente RN",
+    "requiere_foto": true,
+    "prompt_nanobanana": "Ilustración editorial en estilo animación 2D límpida: el río Limay serpenteando en aguas cristalinas turquesas entre sauces llorones y formaciones rocosas de la estepa andina en el Anfiteatro, con un guardafaunas rionegrino observando con largavistas y aves acuáticas planeando bajo un cielo diáfano. Estilo vectorial sofisticado, paleta en azul turquesa, ocre estepario, verde sauce y terracota, sin texto.",
+    "imagen_url": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/10/anbariloche/images/02/80/55/2805527_af635e57e7a668ecc9c7dac04d90da942eb8ed30067f5f0943b2a981cacc1158/md.webp"
+  },
+  "area_id": "gestion-publica",
+  "url": "https://www.anbariloche.com.ar/noticias/2026/10/08/119502-rio-limay-31-anos-de-proteccion-de-un-patrimonio-natural-de-rio-negro",
+  "fecha_publicacion": "2026-10-04"
+}

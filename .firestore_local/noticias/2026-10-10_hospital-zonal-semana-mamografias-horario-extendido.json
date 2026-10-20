@@ -1,0 +1,48 @@
+{
+  "id": "2026-10-10_hospital-zonal-semana-mamografias-horario-extendido",
+  "titular": "El Hospital Zonal Bariloche pondrá en marcha una semana de mamografías gratuitas con horario extendido y sin orden médica",
+  "hecho_central": "El Hospital Zonal Ramón Carrillo anunció que del 19 al 24 de octubre llevará adelante una campaña intensiva de mamografías con horarios ampliados para mujeres de 50 a 69 años. La iniciativa permitirá realizarse el control preventivo sin prescripción médica previa a través del mamógrafo digital de alta resolución, facilitando el acceso a vecinas de los barrios del Alto y zonas rurales sin cobertura médica.",
+  "dossier_id": "crisis-habitacional-urbanismo",
+  "seguimiento_id": "crisis-habitacional-urbanismo",
+  "fuente": {
+    "id": "anbariloche",
+    "nombre": "ANBariloche",
+    "url_nota": "https://www.anbariloche.com.ar/noticias/2026/10/10/119607-bariloche-tendra-una-semana-de-mamografias-con-horario-extendido-en-el-hospital-publico"
+  },
+  "fuentes_consultadas": [
+    {
+      "id": "anbariloche",
+      "nombre": "ANBariloche",
+      "url_nota": "https://www.anbariloche.com.ar/noticias/2026/10/10/119607-bariloche-tendra-una-semana-de-mamografias-con-horario-extendido-en-el-hospital-publico"
+    }
+  ],
+  "cobertura_cruzada": 1,
+  "cuerpo_html": "<p class=\"c-dossier-link\">📌 <em>Seguimiento: <a href=\"/seguimientos/crisis-habitacional-urbanismo\">Salud Pública, Hábitat y Servicios Esenciales</a></em></p>\n<p>En el marco del Mes de Acción por la Salud de las Mujeres, <strong>el Hospital Zonal Ramón Carrillo habilitará una semana de mamografías con horario extendido del 19 al 24 de octubre</strong>, según anunció <a href=\"https://www.anbariloche.com.ar/noticias/2026/10/10/119607-bariloche-tendra-una-semana-de-mamografias-con-horario-extendido-en-el-hospital-publico\" target=\"_blank\" rel=\"noopener noreferrer\">ANBariloche</a>.</p>\n<p>La campaña está orientada a mujeres de entre 50 y 69 años que no se hayan realizado el estudio durante los últimos doce meses, eliminando la exigencia de presentar orden médica para agilizar los controles en los sectores con mayor vulnerabilidad social. El servicio de Diagnóstico por Imágenes del hospital cabecera de la cordillera operará en doble turno para absorber la demanda de los barrios periféricos y localidades vecinas.</p>",
+  "citas": [
+    {
+      "autor": "Hospital Zonal Ramón Carrillo",
+      "texto": "El diagnóstico precoz es la herramienta más eficaz contra el cáncer de mama; ampliar el horario y eliminar la barrera de la orden médica permite que muchas mujeres que trabajan o viven lejos puedan cuidarse a tiempo."
+    }
+  ],
+  "datos_duros": {
+    "periodo_campana": "Del 19 al 24 de octubre de 2026 en el Hospital Zonal Ramón Carrillo",
+    "grupo_prioritario": "Mujeres de 50 a 69 años que no se hayan realizado el estudio en el último año",
+    "modalidad_acceso": "Sin necesidad de orden médica previa; solicitud de turno programado",
+    "red_provincial": "Campaña simultánea en 12 hospitales públicos de Río Negro"
+  },
+  "area": "Vida Social, Cultura & Comunidad",
+  "fecha": "2026-10-06",
+  "foto": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/10/anbariloche/images/02/80/77/2807749_7d1371bc2647df5d9b4f02915e16c94ece1542ca94b4c1147ab2c8155fb41578/lg.webp",
+  "updated_at": "2026-10-12T14:08:47.446Z",
+  "curada_manualmente": false,
+  "imagen_url": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/10/anbariloche/images/02/80/77/2807749_7d1371bc2647df5d9b4f02915e16c94ece1542ca94b4c1147ab2c8155fb41578/lg.webp",
+  "media": {
+    "credito": "Prensa Hospital Zonal Bariloche / ANBariloche",
+    "requiere_foto": true,
+    "prompt_nanobanana": "Ilustración editorial en estilo animación 2D sobre salud pública preventiva: el edificio andino del Hospital Zonal Ramón Carrillo con mujeres de distintas edades ingresando con tranquilidad por la explanada iluminada por el sol primaveral, con un lazo rosa de concientización y flores de retama y bosque de fondo. Tono cálido, solidario y humano, paleta en rosa suave, blanco médico, azul institucional y verde andino, sin texto.",
+    "imagen_url": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/10/anbariloche/images/02/80/77/2807749_7d1371bc2647df5d9b4f02915e16c94ece1542ca94b4c1147ab2c8155fb41578/lg.webp"
+  },
+  "area_id": "vida-social-cultura",
+  "url": "https://www.anbariloche.com.ar/noticias/2026/10/10/119607-bariloche-tendra-una-semana-de-mamografias-con-horario-extendido-en-el-hospital-publico",
+  "fecha_publicacion": "2026-10-06"
+}

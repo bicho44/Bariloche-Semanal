@@ -1,12 +1,16 @@
 {
   "id": "evento-taller-sensores-ambiente",
-  "tipo_acceso": "con_inscripcion",
-  "fecha_inicio": "2026-11-12",
-  "horario": "15:00 a 19:00 hs",
-  "fecha_fin": "2026-11-13",
-  "categoria": "capacitacion",
-  "lugar": "Sede Andina de la Universidad Nacional de Río Negro (UNRN)",
   "titulo": "Taller de Monitoreo Comunitario de Cuencas Hídricas",
+  "categoria": "capacitacion",
+  "fecha_inicio": "2026-11-12",
+  "fecha_fin": "2026-11-13",
+  "horario": "15:00 a 19:00 hs",
+  "lugar": "Sede Andina de la Universidad Nacional de Río Negro (UNRN)",
+  "tipo_acceso": "con_inscripcion",
+  "arancel_estimado": "",
+  "descripcion_corta": "Capacitación para vecinos y estudiantes en medición de calidad de agua en arroyos urbanos del Nahuel Huapi.",
   "url_info": "https://unrn.edu.ar/extension/talleres-ambientales",
-  "descripcion_corta": "Capacitación para vecinos y estudiantes en medición de calidad de agua en arroyos urbanos del Nahuel Huapi."
+  "estado_temporal": "vigente",
+  "imagen_url": null,
+  "updated_at": "2026-10-15T23:07:27.521Z"
 }

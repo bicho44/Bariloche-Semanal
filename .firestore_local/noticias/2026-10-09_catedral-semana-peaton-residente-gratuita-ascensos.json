@@ -1,0 +1,48 @@
+{
+  "id": "2026-10-09_catedral-semana-peaton-residente-gratuita-ascensos",
+  "titular": "Cerro Catedral lanzó la Semana Peatón Residente Gratuita: 500 ascensos diarios bonificados para vecinos de Bariloche y Dina Huapi",
+  "hecho_central": "La concesionaria Catedral Alta Patagonia (CAPSA) anunció la realización de la Semana Peatón Residente Gratuita entre el lunes 12 y el sábado 17 de octubre. La iniciativa bonificará el 100% del pase peatón a vecinos con domicilio acreditado en Bariloche y Dina Huapi a través de la telecabina Amancay y telesilla Diente de Caballo, con cupos de 500 turnos por jornada mediante reserva digital anticipada.",
+  "area_id": "turismo",
+  "dossier_id": "catedral-concesion",
+  "seguimiento_id": "catedral-concesion",
+  "fuente": {
+    "id": "bariloche-opina",
+    "nombre": "Bariloche Opina",
+    "url_nota": "https://www.barilocheopina.com/noticias/2026/10/09/95631-catedral-ofrece-ascensos-gratuitos-para-residentes-del-12-al-17-de-octubre"
+  },
+  "fuentes_consultadas": [
+    {
+      "id": "bariloche-opina",
+      "nombre": "Bariloche Opina",
+      "url_nota": "https://www.barilocheopina.com/noticias/2026/10/09/95631-catedral-ofrece-ascensos-gratuitos-para-residentes-del-12-al-17-de-octubre"
+    }
+  ],
+  "cobertura_cruzada": 1,
+  "cuerpo_html": "<p class=\"c-dossier-link\">📌 <em>Seguimiento: <a href=\"/seguimientos/catedral-concesion\">Concesión y Modelo Cerro Catedral</a></em></p>\n<p>En el umbral del cierre operativo de la temporada invernal previsto para este fin de semana largo, <strong>Catedral Alta Patagonia (CAPSA) habilitó este viernes el sistema de reservas para la «Semana Peatón Residente Gratuita»</strong>, que se desarrollará entre el 12 y el 17 de octubre, según informó <a href=\"https://www.barilocheopina.com/noticias/2026/10/09/95631-catedral-ofrece-ascensos-gratuitos-para-residentes-del-12-al-17-de-octubre\" target=\"_blank\" rel=\"noopener noreferrer\">Bariloche Opina</a>.</p>\n<p>El beneficio está destinado exclusivamente a vecinos que acrediten domicilio en San Carlos de Bariloche o Dina Huapi en su DNI, quienes podrán ascender sin costo a través de la telecabina Amancay y la telesilla Diente de Caballo hasta los 1.800 metros de altura. La empresa dispuso un tope de <strong>500 cupos por jornada</strong> con turnos gestionados a través de su plataforma digital, una medida que busca mitigar los reclamos históricos de colectivos vecinales y del EAMCEC respecto al encarecimiento de las tarifas y el acceso comunitario a la montaña.</p>",
+  "citas": [
+    {
+      "autor": "Catedral Alta Patagonia",
+      "texto": "La Semana Peatón Residente Gratuita permite que los vecinos de nuestra comunidad disfruten de la montaña y sus vistas panorámicas en altura como anfitriones de la temporada de primavera."
+    }
+  ],
+  "datos_duros": {
+    "cupo_diario": "500 turnos gratuitos por día (3.000 beneficiarios en la semana)",
+    "fechas_programa": "Del lunes 12 al sábado 17 de octubre de 2026",
+    "medios_elevacion": "Telecabina Amancay y Telesilla Diente de Caballo habilitados para peatones",
+    "requisito_residente": "Reserva previa online y acreditación de domicilio en DNI en la base del cerro"
+  },
+  "area": "Pulso Turístico",
+  "fecha": "2026-10-05",
+  "foto": "https://barilocheopina-s3.cdn.net.ar/s3i233/2026/10/barilocheopina/images/02/80/67/2806757_c92aaa6b99a61f885cdb245e0f6a23d4bf010519359e67fff58b1c2507723a75/lg.webp",
+  "updated_at": "2026-10-12T14:10:50.378Z",
+  "curada_manualmente": false,
+  "imagen_url": "https://barilocheopina-s3.cdn.net.ar/s3i233/2026/10/barilocheopina/images/02/80/67/2806757_c92aaa6b99a61f885cdb245e0f6a23d4bf010519359e67fff58b1c2507723a75/lg.webp",
+  "media": {
+    "credito": "Prensa CAPSA / Bariloche Opina",
+    "requiere_foto": true,
+    "prompt_nanobanana": "Ilustración editorial en estilo animación 2D primaveral: la telecabina Amancay ascendiendo por las laderas del Cerro Catedral sobre lengas con brotes verdes y parches de nieve en las cumbres, con una familia de residentes barilochenses contemplando el inmenso lago Nahuel Huapi desde la terraza superior. Estética limpia, colores brillantes (azul cielo, blanco nieve, verde bosque y madera andina), sin texto.",
+    "imagen_url": "https://barilocheopina-s3.cdn.net.ar/s3i233/2026/10/barilocheopina/images/02/80/67/2806757_c92aaa6b99a61f885cdb245e0f6a23d4bf010519359e67fff58b1c2507723a75/lg.webp"
+  },
+  "url": "https://www.barilocheopina.com/noticias/2026/10/09/95631-catedral-ofrece-ascensos-gratuitos-para-residentes-del-12-al-17-de-octubre",
+  "fecha_publicacion": "2026-10-05"
+}

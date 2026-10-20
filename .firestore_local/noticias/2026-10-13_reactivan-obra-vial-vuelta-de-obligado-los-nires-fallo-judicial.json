@@ -1,0 +1,48 @@
+{
+  "id": "2026-10-13_reactivan-obra-vial-vuelta-de-obligado-los-nires-fallo-judicial",
+  "titular": "Tras el fallo judicial favorable, el Municipio acelera los trabajos para unir Vuelta de Obligado y Los Ñires en el Alto",
+  "hecho_central": "La Secretaría de Obras y Servicios Públicos de Bariloche retomó a ritmo pleno las tareas de apertura de traza, movimiento de suelo y perfilado para interconectar las calles Vuelta de Obligado y Los Ñires. Las labores se habían visto demoradas por una presentación de amparo ambiental que fue desestimada por la Justicia civil, habilitando al Municipio a consolidar este nuevo conector estratégico entre los barrios 112 y 150 Viviendas.",
+  "area_id": "gestion-publica",
+  "dossier_id": "infraestructura-terminal-rutas",
+  "seguimiento_id": "infraestructura-terminal-rutas",
+  "fuente": {
+    "id": "el-cordillerano",
+    "nombre": "Diario El Cordillerano",
+    "url_nota": "https://www.elcordillerano.com.ar/noticias/2026/10/13/267222-tras-el-fallo-favorable-continuan-los-trabajos-para-unir-vuelta-de-obligado-y-los-ires"
+  },
+  "fuentes_consultadas": [
+    {
+      "id": "el-cordillerano",
+      "nombre": "Diario El Cordillerano",
+      "url_nota": "https://www.elcordillerano.com.ar/noticias/2026/10/13/267222-tras-el-fallo-favorable-continuan-los-trabajos-para-unir-vuelta-de-obligado-y-los-ires"
+    }
+  ],
+  "cobertura_cruzada": 1,
+  "cuerpo_html": "<p class=\"c-dossier-link\">📌 <em>Seguimiento: <a href=\"/seguimientos/infraestructura-terminal-rutas\">Infraestructura Vial, Terminal y Conectividad Urbana</a></em></p>\n<p>Con el aval de la Justicia en mano, <strong>la Municipalidad de Bariloche intensificó los trabajos para unir las arterias Vuelta de Obligado y Los Ñires</strong>, consolidando una arteria clave para el esquema vial del Alto, según consignó <a href=\"https://www.elcordillerano.com.ar/noticias/2026/10/13/267222-tras-el-fallo-favorable-continuan-los-trabajos-para-unir-vuelta-de-obligado-y-los-ires\" target=\"_blank\" rel=\"noopener noreferrer\">Diario El Cordillerano</a>.</p>\n<p>El proyecto se encontraba suspendido de forma cautelar tras una denuncia colectiva que alertaba sobre la intervención en sectores con mallines y escurrimientos pluviales. Luego de que las pericias técnicas descartaran impacto ambiental irreversible y convalidaran las obras de drenaje proyectadas, cuadrillas comunales retomaron el desmonte y nivelación del suelo para conectar de manera segura a los barrios 112 y 150 Viviendas, facilitando los recorridos del transporte y los servicios de emergencia.</p>",
+  "citas": [
+    {
+      "autor": "Obras Públicas Bariloche",
+      "texto": "Una vez resuelta la cuestión judicial, estamos avanzando fuertemente con las motoniveladoras para abrir la traza que permitirá una circulación fluida para los vecinos del Alto."
+    }
+  ],
+  "datos_duros": {
+    "obra_vial": "Apertura de traza y consolidación de calzada entre Vuelta de Obligado y Los Ñires",
+    "resolucion_judicial": "Rechazo del amparo ambiental por parte de la Justicia civil que frenaba el obrador",
+    "barrios_conectados": "Conexión directa entre los barrios 112 y 150 Viviendas y vías troncales",
+    "equipamiento": "Maquinaria vial pesada (motoniveladoras, retroexcavadoras y camiones volcadores)"
+  },
+  "area": "Gestión Pública",
+  "fecha": "2026-10-09",
+  "foto": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/10/elcordillerano/images/02/81/19/2811935_4e4c103901ad086cee52bbf45e75a4bdd92562c4fe5a70c8d9fa6db300e20c9b/md.webp",
+  "updated_at": "2026-10-14T15:11:44.569Z",
+  "curada_manualmente": false,
+  "imagen_url": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/10/elcordillerano/images/02/81/19/2811935_4e4c103901ad086cee52bbf45e75a4bdd92562c4fe5a70c8d9fa6db300e20c9b/md.webp",
+  "media": {
+    "credito": "Prensa Municipalidad de Bariloche / El Cordillerano",
+    "requiere_foto": true,
+    "prompt_nanobanana": "Ilustración editorial en estilo animación 2D sobre conectividad vial barrial: una motoniveladora amarilla abriendo camino entre pendientes terrosas en un faldeo del Alto de Bariloche, operarios con planos viales, viviendas barriales con techos de chapa a los costados y la silueta del cerro Carbón de fondo. Estilo limpio y dinámico, paleta en ocre tierra, amarillo vial, azul cielo andino y verde pastizal, sin texto.",
+    "imagen_url": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/10/elcordillerano/images/02/81/19/2811935_4e4c103901ad086cee52bbf45e75a4bdd92562c4fe5a70c8d9fa6db300e20c9b/md.webp"
+  },
+  "url": "https://www.elcordillerano.com.ar/noticias/2026/10/13/267222-tras-el-fallo-favorable-continuan-los-trabajos-para-unir-vuelta-de-obligado-y-los-ires",
+  "fecha_publicacion": "2026-10-09"
+}

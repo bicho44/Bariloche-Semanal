@@ -1,0 +1,50 @@
+{
+  "id": "2026-10-14_gimnasio-municipal-6-hormigonado-vestuarios-arrayanes",
+  "titular": "Avanza el Gimnasio Municipal N° 6 en Arrayanes: volcaron 45 m³ de hormigón para vestuarios, servicios y cocina",
+  "hecho_central": "La construcción del Gimnasio Municipal N° 6 en el barrio Arrayanes alcanzó un hito de avance este miércoles 14 de octubre con el hormigonado integral del bloque de acceso, vestuarios, sanitarios y cocina. Mediante seis camiones mixer se vertieron 45 metros cúbicos de hormigón H21 sobre más de 200 m², complementando el montaje de las 30 columnas metálicas y la cubierta principal que albergará una nave deportiva de 1.000 metros cuadrados (40x25 m) financiada con recursos propios municipales en el Alto de Bariloche.",
+  "dossier_id": "crisis-habitacional-urbanismo",
+  "seguimiento_id": "crisis-habitacional-urbanismo",
+  "fuente": {
+    "id": "anbariloche",
+    "nombre": "ANBariloche",
+    "url_nota": "https://www.anbariloche.com.ar/noticias/2026/10/14/119958-el-gimnasio-municipal-6-avanza-en-arrayanes-hormigonaron-el-sector-de-vestuarios-y-servicios"
+  },
+  "cuerpo_html": "<p class=\"c-dossier-link\">📌 <em>Seguimiento: <a href=\"/seguimientos/crisis-habitacional-urbanismo\">Infraestructura Comunitaria, Hábitat y Equipamiento en el Alto</a></em></p>\n<p>En el corazón de los barrios del faldeo sur, el futuro <strong>Gimnasio Municipal N° 6 del barrio Arrayanes</strong> dio un paso decisivo este miércoles 14 de octubre con la colocación del hormigón estructural que dará sustento a su sector de servicios básicos.</p>\n<p>Según detalló <a href=\"https://www.anbariloche.com.ar/noticias/2026/10/14/119958-el-gimnasio-municipal-6-avanza-en-arrayanes-hormigonaron-el-sector-de-vestuarios-y-servicios\" target=\"_blank\" rel=\"noopener noreferrer\">ANBariloche</a>, cuadrillas municipales coordinaron el ingreso de seis camiones mixer que volcaron <strong>45 metros cúbicos de hormigón calidad H21</strong> sobre una superficie superior a los 200 metros cuadrados. El vaciado se realizó sobre una base previamente encofrada con mallas de acero electroimpresas y redes sanitarias soterradas donde funcionarán el acceso principal, vestuarios para delegaciones, sanitarios públicos y cocina comunitaria.</p>\n<p>Este avance consolida la obra gruesa tras el izado de las 30 columnas de acero y cabreadas que delimitan el gimnasio principal, diseñado con 40 metros de largo por 25 de ancho (1.000 metros cuadrados cubiertos de cancha). Desde la gestión municipal recalcaron que la ejecución se solventa con fondos propios recaudados por tasas locales, un modelo financiero que también permitió habilitar hoy el hormigonado de 34 metros de calzada deteriorada sobre calle Brown, según relevó <a href=\"https://www.barilocheopina.com/noticias/2026/10/14/95823-el-municipio-repara-34-metros-de-calle-brown-con-nuevo-hormigon\" target=\"_blank\" rel=\"noopener noreferrer\">Bariloche Opina</a>. Para el tejido social del Alto, contar con un polideportivo municipal bajo techo en Arrayanes representa un alivio directo para contener a cientos de niños y adolescentes frente al crudo invierno andino.</p>",
+  "citas": [
+    {
+      "autor": "Secretaría de Obras y Servicios Públicos del Municipio de Bariloche",
+      "texto": "La obra se ejecuta con recursos propios y apunta a ampliar la infraestructura deportiva y comunitaria con un espacio de calidad en el barrio Arrayanes para el encuentro de niños, jóvenes y familias."
+    }
+  ],
+  "datos_duros": {
+    "volumen_hormigon": "45 metros cúbicos de hormigón H21 volcados en la jornada",
+    "logistica_obra": "6 camiones mixer operando en el faldeo de Arrayanes",
+    "superficie_servicios": "Más de 200 metros cuadrados hormigonados con cañerías y armaduras de hierro",
+    "nave_principal": "Espacio deportivo de 1.000 m² (40 metros de largo por 25 de ancho) con 30 columnas metálicas",
+    "financiamiento": "100% fondos propios del Municipio de San Carlos de Bariloche",
+    "complemento_vial": "Reparación y hormigonado de 34 metros de calzada sobre calle Brown"
+  },
+  "area": "Vida Social, Cultura & Comunidad",
+  "fecha": "2026-10-10",
+  "foto": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/10/anbariloche/images/02/81/36/2813603_cc1c974a874f4284e4fdf1a972862f73c73e7f943839a71a151742af7104a8a2/md.webp",
+  "updated_at": "2026-10-15T13:37:47.184Z",
+  "curada_manualmente": false,
+  "cobertura_cruzada": 1,
+  "imagen_url": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/10/anbariloche/images/02/81/36/2813603_cc1c974a874f4284e4fdf1a972862f73c73e7f943839a71a151742af7104a8a2/md.webp",
+  "media": {
+    "credito": "Prensa Municipio de Bariloche / ANBariloche",
+    "requiere_foto": true,
+    "prompt_nanobanana": "Ilustración editorial en estilo animación 2D de obra pública barrial: camiones hormigoneros mixer volcando material sobre la losa de vestuarios en una obra en construcción con estructura de columnas metálicas de acero rojo, operarios con cascos y botas trabajando en el barrio Arrayanes en el Alto de Bariloche, con casas de faldeo y pinos de fondo. Estilo dinámico, paleta en gris hormigón, rojo óxido, amarillo seguridad y azul cielo patagónico, sin texto.",
+    "imagen_url": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/10/anbariloche/images/02/81/36/2813603_cc1c974a874f4284e4fdf1a972862f73c73e7f943839a71a151742af7104a8a2/md.webp"
+  },
+  "area_id": "vida-social-cultura",
+  "fuentes_consultadas": [
+    {
+      "id": "anbariloche",
+      "nombre": "ANBariloche",
+      "url_nota": "https://www.anbariloche.com.ar/noticias/2026/10/14/119958-el-gimnasio-municipal-6-avanza-en-arrayanes-hormigonaron-el-sector-de-vestuarios-y-servicios"
+    }
+  ],
+  "url": "https://www.anbariloche.com.ar/noticias/2026/10/14/119958-el-gimnasio-municipal-6-avanza-en-arrayanes-hormigonaron-el-sector-de-vestuarios-y-servicios",
+  "fecha_publicacion": "2026-10-10"
+}

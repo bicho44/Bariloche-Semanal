@@ -1,0 +1,53 @@
+{
+  "id": "2026-10-12_pesar-fallecimiento-oscar-borrelli-cerro-otto-fundacion-furman",
+  "titular": "Pesar en la comunidad de Bariloche por el fallecimiento de Oscar Borrelli, presidente de la Fundación Furman y el Teleférico Cerro Otto",
+  "hecho_central": "A los 79 años de edad falleció Oscar Borrelli, histórico presidente de la Fundación Sara María Furman y máximo directivo del Complejo Turístico Teleférico Cerro Otto. Reconocido por su trayectoria en la dirigencia turística y social, Borrelli lideró durante décadas la administración del atractivo de montaña cuyos excedentes financieros se donan anualmente al Hospital Zonal de Bariloche y entidades médicas de Buenos Aires.",
+  "area_id": "vida-social-cultura",
+  "dossier_id": "temporada-turistica-nieve",
+  "seguimiento_id": "temporada-turistica-nieve",
+  "fuente": {
+    "id": "anbariloche",
+    "nombre": "ANBariloche",
+    "url_nota": "https://www.anbariloche.com.ar/noticias/2026/10/12/119712-murio-oscar-borrelli-una-figura-clave-del-cerro-otto-y-la-solidaridad-en-bariloche"
+  },
+  "fuentes_consultadas": [
+    {
+      "id": "anbariloche",
+      "nombre": "ANBariloche",
+      "url_nota": "https://www.anbariloche.com.ar/noticias/2026/10/12/119712-murio-oscar-borrelli-una-figura-clave-del-cerro-otto-y-la-solidaridad-en-bariloche"
+    },
+    {
+      "id": "bariloche-opina",
+      "nombre": "Bariloche Opina",
+      "url_nota": "https://www.barilocheopina.com/noticias/2026/10/12/95685-murio-oscar-borrelli-referente-de-la-fundacion-sara-maria-furman-y-el-teleferico-cerro-otto"
+    }
+  ],
+  "cobertura_cruzada": 2,
+  "cuerpo_html": "<p class=\"c-dossier-link\">📌 <em>Seguimiento: <a href=\"/seguimientos/temporada-turistica-nieve\">Memoria Ciudadana, Filantropía y Turismo Social</a></em></p>\n<p>La comunidad de San Carlos de Bariloche despidió este lunes con hondo pesar a <strong>Oscar Borrelli, presidente de la Fundación Sara María Furman y referente indiscutido del Teleférico Cerro Otto</strong>, según informaron en coberturas coincidentes <a href=\"https://www.anbariloche.com.ar/noticias/2026/10/12/119712-murio-oscar-borrelli-una-figura-clave-del-cerro-otto-y-la-solidaridad-en-bariloche\" target=\"_blank\" rel=\"noopener noreferrer\">ANBariloche</a> y <a href=\"https://www.barilocheopina.com/noticias/2026/10/12/95685-murio-oscar-borrelli-referente-de-la-fundacion-sara-maria-furman-y-el-teleferico-cerro-otto\" target=\"_blank\" rel=\"noopener noreferrer\">Bariloche Opina</a>.</p>\n<p>Borrelli falleció a los 79 años tras una vida dedicada a consolidar el modelo filantrópico ideado por Boris Furman, mediante el cual las utilidades del complejo turístico de la cumbre del cerro Otto se destinan anualmente a la compra de aparatología médica para el Hospital Zonal Ramón Carrillo y la Fundación Favaloro. Autoridades municipales, gremiales y empresarias hicieron públicas sus condolencias reconociendo su legado de transparencia y compromiso con la salud comunitaria.</p>",
+  "citas": [
+    {
+      "autor": "Municipalidad de San Carlos de Bariloche",
+      "texto": "Despedimos con profundo pesar a Oscar Borrelli, un hombre que supo conjugar el desarrollo turístico con un compromiso inquebrantable de solidaridad y apoyo constante a la salud pública de nuestra ciudad."
+    }
+  ],
+  "datos_duros": {
+    "edad_fallecimiento": "79 años, tras una destacada labor comunitaria y empresarial",
+    "institucion_presidida": "Fundación Sara María Furman (propietaria del Teleférico Cerro Otto)",
+    "impacto_social": "Donaciones anuales millonarias para equipamiento del Hospital Zonal Ramón Carrillo",
+    "reconocimiento_publico": "Condolencias oficiales emitidas por el Municipio de Bariloche y cámaras turísticas"
+  },
+  "area": "Vida Social, Cultura & Comunidad",
+  "fecha": "2026-10-08",
+  "foto": "https://barilocheopina1.cdn.net.ar/252/barilocheopina/images/98/13/981398_9fcc2bd215ba22fc9c4ca355d867a66ee3f2b325739bbe549d3875450b27a3a1/md.webp",
+  "updated_at": "2026-10-14T15:14:23.231Z",
+  "curada_manualmente": false,
+  "imagen_url": "https://barilocheopina1.cdn.net.ar/252/barilocheopina/images/98/13/981398_9fcc2bd215ba22fc9c4ca355d867a66ee3f2b325739bbe549d3875450b27a3a1/md.webp",
+  "media": {
+    "credito": "Prensa Fundación Furman / ANBariloche",
+    "requiere_foto": true,
+    "prompt_nanobanana": "Ilustración editorial en estilo animación 2D y homenaje ciudadano: las góndolas rojas del Teleférico Cerro Otto ascendiendo sobre el denso bosque de pinos y cipreses hacia la confitería giratoria en la cumbre, con una suave luz dorada crepuscular sobre el lago Nahuel Huapi. Estilo poético y sobrio, paleta en rojo góndola, verde bosque, dorado atardecer y azul lago, sin texto.",
+    "imagen_url": "https://barilocheopina1.cdn.net.ar/252/barilocheopina/images/98/13/981398_9fcc2bd215ba22fc9c4ca355d867a66ee3f2b325739bbe549d3875450b27a3a1/md.webp"
+  },
+  "url": "https://www.anbariloche.com.ar/noticias/2026/10/12/119712-murio-oscar-borrelli-una-figura-clave-del-cerro-otto-y-la-solidaridad-en-bariloche",
+  "fecha_publicacion": "2026-10-08"
+}

@@ -1,0 +1,59 @@
+{
+  "id": "2026-10-08_debate-crisis-vertedero-nueva-celda-fondos-nacionales",
+  "titular": "Crisis del Vertedero Municipal: Cortés ratifica la construcción de una nueva celda y la oposición reclama corresponsabilidad a Nación por la falta de fondos",
+  "hecho_central": "La problemática ambiental del vertedero a cielo abierto de Bariloche volvió a tensar la agenda política comunal. Mientras el intendente Walter Cortés confirmó que el Municipio avanza en la ejecución de una nueva celda transitoria para evitar el colapso inmediato del basural, dirigentes de la oposición y legisladores señalaron que el Gobierno Nacional mantiene congelados los programas de financiamiento ambiental que permitirían el traslado definitivo del predio a una localización regional.",
+  "dossier_id": "crisis-ambiental-vertedero",
+  "seguimiento_id": "crisis-ambiental-vertedero",
+  "fuente": {
+    "id": "el-cordillerano",
+    "nombre": "Diario El Cordillerano",
+    "url_nota": "https://www.elcordillerano.com.ar/noticias/2026/10/08/266457-ramos-mejia-la-nacion-tambien-tiene-responsabilidad-en-la-crisis-del-vertedero-de-bariloche"
+  },
+  "fuentes_consultadas": [
+    {
+      "id": "el-cordillerano",
+      "nombre": "Diario El Cordillerano",
+      "url_nota": "https://www.elcordillerano.com.ar/noticias/2026/10/08/266457-ramos-mejia-la-nacion-tambien-tiene-responsabilidad-en-la-crisis-del-vertedero-de-bariloche"
+    },
+    {
+      "id": "el-cordillerano",
+      "nombre": "Diario El Cordillerano",
+      "url_nota": "https://www.elcordillerano.com.ar/noticias/2026/10/07/266202-las-obras-no-las-vamos-a-parar-cortes-volvio-a-cuestionar-al-concejo"
+    }
+  ],
+  "cobertura_cruzada": 2,
+  "cuerpo_html": "<p class=\"c-dossier-link\">📌 <em>Seguimiento: <a href=\"/seguimientos/crisis-ambiental-vertedero\">Crisis Estructural y Cierre del Vertedero Municipal</a></em></p>\n<p>La gestión de los residuos sólidos urbanos en el sur de Bariloche volvió al centro del debate político este jueves con un doble cruce institucional: mientras <strong>el intendente Walter Cortés ratificó la apertura de una nueva celda transitoria</strong> para contener el colapso del basural, según consignó <a href=\"https://www.elcordillerano.com.ar/noticias/2026/10/07/266202-las-obras-no-las-vamos-a-parar-cortes-volvio-a-cuestionar-al-concejo\" target=\"_blank\" rel=\"noopener noreferrer\">Diario El Cordillerano</a>, desde la oposición exigieron la intervención económica del Gobierno Nacional.</p>\n<p>En declaraciones públicas, el dirigente Alejo Ramos Mejía advirtió que <a href=\"https://www.elcordillerano.com.ar/noticias/2026/10/08/266457-ramos-mejia-la-nacion-tambien-tiene-responsabilidad-en-la-crisis-del-vertedero-de-bariloche\" target=\"_blank\" rel=\"noopener noreferrer\">«la Nación también tiene responsabilidad en la crisis del vertedero de Bariloche»</a>, remarcando que el retiro intempestivo de fondos federales y la suspensión de líneas crediticias internacionales dejó a los municipios patagónicos sin capacidad presupuestaria para costear el cierre de vertederos a cielo abierto y el traslado a predios regionales.</p>\n<p>La tensión impacta de lleno sobre las juntas vecinales de los barrios El Frutillar, Pilar I y II y 645 Viviendas, que vienen denunciando constantes quemas y emanaciones de humo tóxico en las inmediaciones de la Ruta 40 Sur.</p>",
+  "citas": [
+    {
+      "autor": "Walter Cortés",
+      "cargo": "Intendente de Bariloche",
+      "texto": "Las obras no las vamos a parar. En el vertedero estamos haciendo una nueva celda con maquinaria propia porque la basura no espera; necesitamos resolver lo urgente mientras se define la solución definitiva."
+    },
+    {
+      "autor": "Alejo Ramos Mejía",
+      "cargo": "Dirigente y legislador",
+      "texto": "La Nación también tiene una responsabilidad ineludible en la crisis del vertedero de Bariloche; no se puede mirar para otro lado cuando se cortan los financiamientos para plantas de tratamiento ambiental."
+    }
+  ],
+  "datos_duros": {
+    "capacidad_operativa": "Vertedero saturado con más de 150 toneladas diarias de residuos urbanos",
+    "obra_transitoria": "Nueva celda de confinamiento con membrana geotextil para extender vida útil 18 meses",
+    "fondos_federales": "Parálisis de partidas del ex Ministerio de Ambiente y créditos BID para el cierre definitivo",
+    "plazo_ordenanza": "Ordenanza municipal 3354-CM-22 preveía el cierre al 4 de diciembre de 2023, actualmente prorrogado"
+  },
+  "area": "Gestión Pública",
+  "fecha": "2026-10-04",
+  "foto": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/10/elcordillerano/images/02/80/54/2805439_e25d806ed2ef11f2bb47d6cc1d2137301a533824835928b905516253b309366e/md.webp",
+  "updated_at": "2026-10-09T12:39:34.229Z",
+  "curada_manualmente": false,
+  "imagen_url": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/10/elcordillerano/images/02/80/54/2805439_e25d806ed2ef11f2bb47d6cc1d2137301a533824835928b905516253b309366e/md.webp",
+  "media": {
+    "credito": "Diario El Cordillerano",
+    "requiere_foto": true,
+    "prompt_nanobanana": "Ilustración editorial en estilo animación 2D: vista panorámica del basural de Bariloche con camiones recolectores compactadores operando sobre terrazas de suelo, gaviotas sobrevolando y cerros patagónicos al fondo, con una delimitación técnica de una nueva celda de tratamiento ambiental. Estilo flat design sobrio, paleta en tonos tierra, gris humo, amarillo maquinaria y azul cielo patagónico, sin texto.",
+    "imagen_url": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/10/elcordillerano/images/02/80/54/2805439_e25d806ed2ef11f2bb47d6cc1d2137301a533824835928b905516253b309366e/md.webp"
+  },
+  "area_id": "gestion-publica",
+  "url": "https://www.elcordillerano.com.ar/noticias/2026/10/08/266457-ramos-mejia-la-nacion-tambien-tiene-responsabilidad-en-la-crisis-del-vertedero-de-bariloche",
+  "fecha_publicacion": "2026-10-04"
+}

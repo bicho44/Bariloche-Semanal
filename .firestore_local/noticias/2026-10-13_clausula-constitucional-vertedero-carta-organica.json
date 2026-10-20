@@ -1,0 +1,48 @@
+{
+  "id": "2026-10-13_clausula-constitucional-vertedero-carta-organica",
+  "titular": "Cláusula Vertedero: vecinos impulsan en la Convención que ningún gobierno pueda prorrogar la obligación de cerrar el basural",
+  "hecho_central": "Organizaciones vecinales del sur de Bariloche y asambleas ambientales presentaron una propuesta para incorporar una 'Cláusula Vertedero' en la reforma de la Carta Orgánica Municipal del 1 de noviembre. La iniciativa plantea fijar un plazo constitucional de cumplimiento perentorio e improrrogable para clausurar el vertedero a cielo abierto y trasladar la disposición final a un predio regional, impidiendo que sucesivas gestiones posterguen la erradicación del foco contaminante mediante decretos de emergencia.",
+  "area_id": "gestion-publica",
+  "dossier_id": "carta-organica-reforma",
+  "seguimiento_id": "carta-organica-reforma",
+  "fuente": {
+    "id": "el-cordillerano",
+    "nombre": "Diario El Cordillerano",
+    "url_nota": "https://www.elcordillerano.com.ar/noticias/2026/10/13/267132-clausula-vertedero-que-ningun-gobierno-pueda-abandonar-la-obligacion-de-cerrarlo"
+  },
+  "fuentes_consultadas": [
+    {
+      "id": "el-cordillerano",
+      "nombre": "Diario El Cordillerano",
+      "url_nota": "https://www.elcordillerano.com.ar/noticias/2026/10/13/267132-clausula-vertedero-que-ningun-gobierno-pueda-abandonar-la-obligacion-de-cerrarlo"
+    }
+  ],
+  "cobertura_cruzada": 1,
+  "cuerpo_html": "<p class=\"c-dossier-link\">📌 <em>Seguimiento: <a href=\"/seguimientos/carta-organica-reforma\">Debate por la Reforma de la Carta Orgánica y Gestión Ambiental</a></em></p>\n<p>La problemática ambiental del basural a cielo abierto de Bariloche busca ingresar por vía constitucional en el andamiaje jurídico de la ciudad: <strong>juntas vecinales del Alto y la zona sur promueven la inclusión de una «Cláusula Vertedero» en la futura Carta Orgánica Municipal</strong>, según informó <a href=\"https://www.elcordillerano.com.ar/noticias/2026/10/13/267132-clausula-vertedero-que-ningun-gobierno-pueda-abandonar-la-obligacion-de-cerrarlo\" target=\"_blank\" rel=\"noopener noreferrer\">Diario El Cordillerano</a>.</p>\n<p>La propuesta, remitida a las 13 listas que competirán en la elección de convencionales del 1 de noviembre, pretende blindar el cierre definitivo del predio de la Ruta 40 Sur mediante un mandato expreso que prohíba a cualquier administración municipal continuar prorrogando el vertido de residuos sin tratamiento. Los vecinos buscan saldar la frustración histórica que dejó el incumplimiento de la ordenanza 3354-CM-22, cuyo plazo de cierre venció en diciembre de 2023 sin que hasta la fecha se haya concretado el traslado a una planta regional.</p>",
+  "citas": [
+    {
+      "autor": "Vecinos Autoconvocados por el Vertedero",
+      "texto": "Queremos que la Carta Orgánica establezca con rango constitucional que el vertedero no puede estar más al lado de nuestras casas; que ningún intendente pueda abandonar la obligación de cerrarlo ni firmar prórrogas eternas."
+    }
+  ],
+  "datos_duros": {
+    "iniciativa_popular": "Proyecto vecinal elevado a los candidatos a convencionales constituyentes",
+    "mandato_constitucional": "Obligatoriedad de cierre definitivo e imprescriptible en la Carta Orgánica",
+    "situacion_actual": "Basural en Ruta 40 Sur saturado con prórrogas que incumplieron la ordenanza 3354-CM-22",
+    "eleccion_convencion": "Votación de los 15 convencionales constituyentes el próximo 1 de noviembre"
+  },
+  "area": "Gestión Pública",
+  "fecha": "2026-10-09",
+  "foto": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/07/elcordillerano/images/02/68/77/2687717_f759a3e8f070359779866d4dc5ce638fdd1ea9382335816da0932d10b0503922/md.webp",
+  "updated_at": "2026-10-14T15:10:40.002Z",
+  "curada_manualmente": false,
+  "imagen_url": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/07/elcordillerano/images/02/68/77/2687717_f759a3e8f070359779866d4dc5ce638fdd1ea9382335816da0932d10b0503922/md.webp",
+  "media": {
+    "credito": "Diario El Cordillerano / Bariloche Semanal",
+    "requiere_foto": true,
+    "prompt_nanobanana": "Ilustración editorial en estilo animación 2D sobre reclamo ambiental y constitucional: un grupo de vecinos y vecinas de Bariloche sosteniendo carpetas con la inscripción Carta Orgánica frente al Centro Cívico, con la silueta de los cerros del sur y gaviotas sobrevolando en un cielo patagónico límpido. Tono cívico y sobrio, paleta en azul institucional, ocre tierra, gris piedra y verde andino, sin texto.",
+    "imagen_url": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/07/elcordillerano/images/02/68/77/2687717_f759a3e8f070359779866d4dc5ce638fdd1ea9382335816da0932d10b0503922/md.webp"
+  },
+  "url": "https://www.elcordillerano.com.ar/noticias/2026/10/13/267132-clausula-vertedero-que-ningun-gobierno-pueda-abandonar-la-obligacion-de-cerrarlo",
+  "fecha_publicacion": "2026-10-09"
+}

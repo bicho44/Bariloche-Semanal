@@ -1,0 +1,48 @@
+{
+  "id": "2026-10-10_rescate-turista-lesionado-bosque-arrayanes-nahuel-huapi",
+  "titular": "Evacuaron en lancha a un turista lesionado en el sendero del Bosque de los Arrayanes en el Parque Nacional Nahuel Huapi",
+  "hecho_central": "Personal de Guardaparques del Parque Nacional Nahuel Huapi y efectivos de Prefectura Naval Argentina realizaron una evacuación lacustre de emergencia en la península de Quetrihué para rescatar a un visitante que sufrió un traumatismo severo en el tobillo mientras recorría el sendero peatonal hacia el Bosque de los Arrayanes. El operativo por agua permitió asistirlo con rapidez y trasladarlo a un centro de salud.",
+  "dossier_id": "parque-nahuel-huapi-gestion",
+  "seguimiento_id": "parque-nahuel-huapi-gestion",
+  "fuente": {
+    "id": "anbariloche",
+    "nombre": "ANBariloche",
+    "url_nota": "https://www.anbariloche.com.ar/noticias/2026/10/10/119613-evacuaron-en-lancha-a-un-turista-lesionado-en-el-sendero-del-bosque-de-los-arrayanes"
+  },
+  "fuentes_consultadas": [
+    {
+      "id": "anbariloche",
+      "nombre": "ANBariloche",
+      "url_nota": "https://www.anbariloche.com.ar/noticias/2026/10/10/119613-evacuaron-en-lancha-a-un-turista-lesionado-en-el-sendero-del-bosque-de-los-arrayanes"
+    }
+  ],
+  "cobertura_cruzada": 1,
+  "cuerpo_html": "<p class=\"c-dossier-link\">📌 <em>Seguimiento: <a href=\"/seguimientos/parque-nahuel-huapi-gestion\">Parque Nacional Nahuel Huapi: Conservación y Coexistencia</a></em></p>\n<p>Un operativo de auxilio en el inicio del fin de semana largo puso a prueba los dispositivos de emergencia en áreas protegidas: <strong>guardaparques del Parque Nacional Nahuel Huapi y Prefectura Naval evacuaron por vía lacustre a un turista lesionado en el sendero del Bosque de los Arrayanes</strong>, según detalló <a href=\"https://www.anbariloche.com.ar/noticias/2026/10/10/119613-evacuaron-en-lancha-a-un-turista-lesionado-en-el-sendero-del-bosque-de-los-arrayanes\" target=\"_blank\" rel=\"noopener noreferrer\">ANBariloche</a>.</p>\n<p>El visitante sufrió una fractura o esguince grave de tobillo a mitad de los 12 kilómetros que conectan la villa con el milenario bosque de arrayanes en la península de Quetrihué. Ante la imposibilidad de avanzar a pie, las cuadrillas coordinaron el traslado en lancha rápida hasta el puerto, activando la atención médica. Desde la Intendencia del Parque reiteraron la necesidad de realizar el registro de trekking obligatorio y utilizar calzado técnico para evitar contingencias en senderos de alta afluencia.</p>",
+  "citas": [
+    {
+      "autor": "Parque Nacional Nahuel Huapi",
+      "texto": "Se recuerda a los visitantes que las sendas de montaña presentan desniveles y raíces expuestas, siendo indispensable contar con calzado adecuado, agua y respetar los horarios de ingreso autorizados."
+    }
+  ],
+  "datos_duros": {
+    "ubicacion_rescate": "Sendero peatonal de 12 km en la península de Quetrihué (Parque Nacional Nahuel Huapi)",
+    "modalidad_evacuacion": "Lancha de rescate náutico hasta el muelle de Villa La Angostura",
+    "organismos_intervinientes": "Cuerpo de Guardaparques de la APN y Prefectura Naval Argentina",
+    "exigencia_operativa": "Recordatorio de obligatoriedad del registro de trekking gratuito y calzado de montaña"
+  },
+  "area": "Gestión Pública",
+  "fecha": "2026-10-06",
+  "foto": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/10/anbariloche/images/02/80/79/2807985_cf0c9c4046e9afcd8473b23d51605b58bdbf1ef6523902ebe2a6cf141a2e33a6/lg.webp",
+  "updated_at": "2026-10-12T14:07:13.672Z",
+  "curada_manualmente": false,
+  "imagen_url": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/10/anbariloche/images/02/80/79/2807985_cf0c9c4046e9afcd8473b23d51605b58bdbf1ef6523902ebe2a6cf141a2e33a6/lg.webp",
+  "media": {
+    "credito": "Prefectura Naval / ANBariloche",
+    "requiere_foto": true,
+    "prompt_nanobanana": "Ilustración editorial en estilo animación 2D de rescate de montaña: una embarcación de rescate de Prefectura y Parques Nacionales atracando en un muelle rústico de madera en las aguas cristalinas del lago Nahuel Huapi, entre canelos y arrayanes de troncos anaranjados, asistiendo a un excursionista con botiquín y camilla de montaña. Estética andina clara, paleta en naranja arrayán, azul lago, verde bosque y gris piedra, sin texto.",
+    "imagen_url": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/10/anbariloche/images/02/80/79/2807985_cf0c9c4046e9afcd8473b23d51605b58bdbf1ef6523902ebe2a6cf141a2e33a6/lg.webp"
+  },
+  "area_id": "gestion-publica",
+  "url": "https://www.anbariloche.com.ar/noticias/2026/10/10/119613-evacuaron-en-lancha-a-un-turista-lesionado-en-el-sendero-del-bosque-de-los-arrayanes",
+  "fecha_publicacion": "2026-10-06"
+}

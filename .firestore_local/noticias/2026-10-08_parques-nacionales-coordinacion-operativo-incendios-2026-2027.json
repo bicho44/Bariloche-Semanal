@@ -1,0 +1,54 @@
+{
+  "id": "2026-10-08_parques-nacionales-coordinacion-operativo-incendios-2026-2027",
+  "titular": "Parques Nacionales y la Agencia Federal de Emergencias coordinan en Bariloche el operativo regional para la temporada de incendios 2026/2027",
+  "hecho_central": "Las máximas autoridades de la Administración de Parques Nacionales (APN) y de la Agencia Federal de Emergencias (AFE) encabezaron una reunión técnica de alto nivel en Bariloche para planificar las estrategias conjuntas de prevención y combate de incendios forestales en la Patagonia norte. El encuentro definió esquemas de alerta temprana frente a las proyecciones climáticas del fenómeno El Niño (ENOS) y el déficit de precipitaciones primaverales.",
+  "dossier_id": "parque-nahuel-huapi-gestion",
+  "seguimiento_id": "parque-nahuel-huapi-gestion",
+  "fuente": {
+    "id": "anbariloche",
+    "nombre": "ANBariloche",
+    "url_nota": "https://www.anbariloche.com.ar/noticias/2026/10/08/119379-parques-nacionales-refuerza-la-coordinacion-regional-para-la-temporada-de-incendios"
+  },
+  "fuentes_consultadas": [
+    {
+      "id": "anbariloche",
+      "nombre": "ANBariloche",
+      "url_nota": "https://www.anbariloche.com.ar/noticias/2026/10/08/119379-parques-nacionales-refuerza-la-coordinacion-regional-para-la-temporada-de-incendios"
+    }
+  ],
+  "cobertura_cruzada": 1,
+  "cuerpo_html": "<p class=\"c-dossier-link\">📌 <em>Seguimiento: <a href=\"/seguimientos/parque-nahuel-huapi-gestion\">Parque Nacional Nahuel Huapi: Conservación y Coexistencia</a></em></p>\n<p>Frente a un escenario meteorológico desafiante marcado por el fenómeno El Niño y un invierno con escasa nieve acumulada en cotas medias, <strong>la Administración de Parques Nacionales (APN) y la Agencia Federal de Emergencias (AFE) pusieron en marcha este jueves en Bariloche una mesa técnica operativa</strong> para unificar protocolos de combate de incendios de cara a la temporada 2026/2027, según detalló <a href=\"https://www.anbariloche.com.ar/noticias/2026/10/08/119379-parques-nacionales-refuerza-la-coordinacion-regional-para-la-temporada-de-incendios\" target=\"_blank\" rel=\"noopener noreferrer\">ANBariloche</a>.</p>\n<p>La reunión estuvo encabezada por el presidente de Parques Nacionales, <strong>Sergio Álvarez</strong>, y el director ejecutivo de la AFE, <strong>Santiago Hardie</strong>, acompañados por el titular de la Dirección de Lucha contra Incendios Forestales y Emergencias (DLIFE), Ariel Amthauer. El eje estuvo puesto en conformar una «alianza de anfitriones» que involucre activamente a pobladores rurales, refugieros y guías de trekking en la detección temprana de focos ígneos.</p>\n<blockquote cite=\"https://www.anbariloche.com.ar/noticias/2026/10/08/119379-parques-nacionales-refuerza-la-coordinacion-regional-para-la-temporada-de-incendios\"><p>«Sostenemos un criterio de unidad operativa que optimiza los recursos humanos y materiales para enfrentar escenarios críticos en el territorio andino», señaló Álvarez.</p></blockquote>",
+  "citas": [
+    {
+      "autor": "Sergio Álvarez",
+      "cargo": "Presidente de la Administración de Parques Nacionales",
+      "texto": "Este encuentro técnico reúne a los referentes operativos para optimizar los recursos humanos y materiales en el territorio. Buscamos un abordaje conjunto con los pobladores y prestadores turísticos para conformar una alianza sólida de anfitriones y prevención."
+    },
+    {
+      "autor": "Santiago Hardie",
+      "cargo": "Director Ejecutivo de la Agencia Federal de Emergencias",
+      "texto": "Junto al equipo de Parques Nacionales venimos trabajando articuladamente en cada punto del país, tanto en la planificación preventiva como en la respuesta inmediata ante posibles efectos de eventos extraordinarios derivados de El Niño."
+    }
+  ],
+  "datos_duros": {
+    "recursos_desplegados": "Articulación de brigadistas de la DLIFE, medios aéreos del SNMF y guardaparques",
+    "zona_intervencion": "Parque Nacional Nahuel Huapi, Los Alerces, Lanín, Lago Puelo y áreas de interfase",
+    "alianza_comunitaria": "Capacitación a prestadores turísticos y pobladores rurales como primeros respondientes",
+    "alerta_climatica": "Condiciones de sequía y mayor biomasa seca proyectadas para noviembre-febrero"
+  },
+  "area": "Gestión Pública",
+  "fecha": "2026-10-04",
+  "foto": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/10/anbariloche/images/02/80/46/2804639_8ec04071fef7acfb698d3efa9a43a62336bf0c2be198fce4b4ce1bdc6c9dbd56/md.webp",
+  "updated_at": "2026-10-09T12:36:47.501Z",
+  "curada_manualmente": false,
+  "imagen_url": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/10/anbariloche/images/02/80/46/2804639_8ec04071fef7acfb698d3efa9a43a62336bf0c2be198fce4b4ce1bdc6c9dbd56/md.webp",
+  "media": {
+    "credito": "Prensa Parques Nacionales / ANBariloche",
+    "requiere_foto": true,
+    "prompt_nanobanana": "Ilustración editorial en estilo animación 2D: un grupo de brigadistas de Parques Nacionales con cascos y uniformes amarillos de combate forestal junto a autoridades sobre un mirador natural del lago Nahuel Huapi, observando un mapa táctico digital en una tablet, con bosques de coihues y cumbres nevadas alrededor. Estilo contemporáneo vectorial, paleta en amarillo brigadista, verde bosque, azul lago y gris piedra, sin texto.",
+    "imagen_url": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/10/anbariloche/images/02/80/46/2804639_8ec04071fef7acfb698d3efa9a43a62336bf0c2be198fce4b4ce1bdc6c9dbd56/md.webp"
+  },
+  "area_id": "gestion-publica",
+  "url": "https://www.anbariloche.com.ar/noticias/2026/10/08/119379-parques-nacionales-refuerza-la-coordinacion-regional-para-la-temporada-de-incendios",
+  "fecha_publicacion": "2026-10-04"
+}

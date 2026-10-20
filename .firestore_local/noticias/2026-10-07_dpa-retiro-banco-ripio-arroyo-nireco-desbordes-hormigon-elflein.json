@@ -1,0 +1,47 @@
+{
+  "id": "2026-10-07_dpa-retiro-banco-ripio-arroyo-nireco-desbordes-hormigon-elflein",
+  "titular": "El DPA retiró un banco de ripio del arroyo Ñireco para evitar desbordes y el Municipio avanzó con hormigón en Elflein",
+  "hecho_central": "Tras las intensas precipitaciones de primavera y en sintonía con las exigencias hidráulicas del fallo judicial del sur, el Departamento Provincial de Aguas (DPA) removió con maquinaria pesada un banco de ripio y sedimentos acumulado en la desembocadura del arroyo Ñireco para facilitar el escurrimiento hacia el lago Nahuel Huapi y prevenir anegamientos. La Provincia anunció además la limpieza integral de márgenes y el inicio del proyecto de parque lineal costero junto a organizaciones barriales. En paralelo, cuadrillas municipales volcaron 15 m³ de hormigón H30 para rehabilitar la calzada de calle Elflein.",
+  "fecha_publicacion": "2026-10-07",
+  "area_id": "gestion-publica",
+  "dossier_id": "infraestructura-terminal-rutas",
+  "seguimiento_id": "infraestructura-terminal-rutas",
+  "fuente": {
+    "id": "bariloche-opina",
+    "nombre": "Bariloche Opina",
+    "url_nota": "https://www.barilocheopina.com/noticias/2026/10/07/95499-retiran-un-banco-de-ripio-del-arroyo-ireco-para-mejorar-el-escurrimiento"
+  },
+  "fuentes_consultadas": [
+    {
+      "id": "bariloche-opina",
+      "nombre": "Bariloche Opina",
+      "url_nota": "https://www.barilocheopina.com/noticias/2026/10/07/95499-retiran-un-banco-de-ripio-del-arroyo-ireco-para-mejorar-el-escurrimiento"
+    },
+    {
+      "id": "anbariloche",
+      "nombre": "ANBariloche",
+      "url_nota": "https://www.anbariloche.com.ar/noticias/2026/10/07/119289-el-dpa-trabaja-en-el-ireco-para-mejorar-el-escurrimiento-y-prevenir-inundaciones"
+    }
+  ],
+  "cobertura_cruzada": 2,
+  "media": {
+    "prompt_nanobanana": "Ilustración editorial en estilo animación 2D sobre obras hidráulicas andinas: una retroexcavadora de orugas de color amarillo trabajando en el lecho del arroyo Ñireco en su desembocadura hacia el inmenso lago Nahuel Huapi, retirando sedimentos de ripio, con sauces y álamos en las orillas y el puente vehicular de fondo. Atmósfera límpida de montaña, estilo vectorial de líneas depuradas, paleta azul lago, verde sauce, amarillo maquinaria y gris piedra, sin texto.",
+    "credito": "",
+    "requiere_foto": true,
+    "imagen_url": "https://barilocheopina-s3.cdn.net.ar/s3i233/2026/10/barilocheopina/images/02/80/33/2803319_8da21f68e1af0e9936f87e2df4456aef85451bcd52e72bcd342be6c34f4ac0d8/md.webp"
+  },
+  "cuerpo_html": "<p class=\"c-dossier-link\">📌 <em>Seguimiento: <a href=\"/seguimientos/infraestructura-terminal-rutas\">Nueva Terminal de Ómnibus, Rotonda Esandi y Rutas</a></em></p>\n<p>La estabilidad hidráulica de Bariloche concentró operativos de gran porte este miércoles: <strong>el Departamento Provincial de Aguas (DPA) desplegó maquinaria pesada en la desembocadura del arroyo Ñireco para retirar un banco de ripio y sedimentos que estrangulaba el flujo de agua hacia el lago Nahuel Huapi</strong>, según reportó <a href=\"https://www.barilocheopina.com/noticias/2026/10/07/95499-retiran-un-banco-de-ripio-del-arroyo-ireco-para-mejorar-el-escurrimiento\" target=\"_blank\" rel=\"noopener noreferrer\">Bariloche Opina</a> y corroboró en detalle técnico <a href=\"https://www.anbariloche.com.ar/noticias/2026/10/07/119289-el-dpa-trabaja-en-el-ireco-para-mejorar-el-escurrimiento-y-prevenir-inundaciones\" target=\"_blank\" rel=\"noopener noreferrer\">ANBariloche</a>.</p>\n<p>La acumulación de áridos tras los temporales de nieve y lluvia amenazaba con generar desbordes sobre barrios ribereños como San Francisco y la zona baja del Lera. Además del despeje del cauce principal, el DPA anticipó el inicio de podas y limpieza de márgenes para consolidar el proyecto vecinal de un parque lineal recreativo a la vera del curso de agua. En simultáneo, cuadrillas viales del Municipio volcaron <strong>15 metros cúbicos de hormigón H30 en calle Elflein</strong> para recomponer losas fracturadas por el tránsito pesado de colectivos y furgones comerciales.</p>\n<blockquote cite=\"https://www.barilocheopina.com/noticias/2026/10/07/95499-retiran-un-banco-de-ripio-del-arroyo-ireco-para-mejorar-el-escurrimiento\">\n<p>«El dragado preventivo en la boca del Ñireco garantiza la capacidad de evacuación de caudales pluviales y resguarda a los sectores residenciales contiguos de eventuales crecidas.» — Comunicado técnico del DPA.</p>\n</blockquote>\n<p>Las tareas hídricas cobran especial relevancia tras la reciente sentencia judicial que autorizó la obra vial en el sur imponiendo al Municipio la canalización de 250 metros de desagües que tributan precisamente hacia la cuenca del Ñireco.</p>",
+  "citas": [
+    {
+      "autor": "Departamento Provincial de Aguas (DPA)",
+      "cargo": "Delegación Regional Andina",
+      "texto": "Los trabajos forman parte de las acciones preventivas de mantenimiento para optimizar el escurrimiento hídrico y mitigar riesgos de inundación en las márgenes urbanas del arroyo."
+    }
+  ],
+  "datos_duros": {
+    "intervencion_hidrica": "Remoción de banco de sedimentos en la desembocadura del Ñireco sobre el lago",
+    "obras_calzada": "Reparación con 15 m³ de hormigón H30 en calle Elflein",
+    "proyecto_ambiental": "Desarrollo de parque lineal a la vera del arroyo junto a vecinos"
+  },
+  "updated_at": "2026-10-08T14:02:39.187Z"
+}

@@ -45,6 +45,9 @@ const AREAS: { id: AreaId; label: string }[] = [
   { id: 'alquileres-inmobiliario', label: 'Alquileres e Inmobiliario' },
   { id: 'vida-social-cultura', label: 'Vida Social y Cultura' },
   { id: 'en-el-radar', label: 'En el Radar' },
+  { id: 'poder', label: 'Poder & Obras' },
+  { id: 'montana', label: 'Montaña & Turismo' },
+  { id: 'urbano', label: 'Pulso Urbano' },
 ];
 
 export const NoticiaModal: React.FC<NoticiaModalProps> = ({
@@ -63,6 +66,7 @@ export const NoticiaModal: React.FC<NoticiaModalProps> = ({
   const [urlNota, setUrlNota] = useState('');
   const [dossierId, setDossierId] = useState<string>('');
   const [hechoCentral, setHechoCentral] = useState('');
+  const [porQueImportaElDomingo, setPorQueImportaElDomingo] = useState('');
   const [novedadDelta, setNovedadDelta] = useState('');
   const [cuerpoHtml, setCuerpoHtml] = useState('');
   const [tabCuerpo, setTabCuerpo] = useState<'editor' | 'preview'>('editor');
@@ -140,6 +144,7 @@ export const NoticiaModal: React.FC<NoticiaModalProps> = ({
 
       setDossierId(noticiaAEditar.seguimiento_id || noticiaAEditar.dossier_id || '');
       setHechoCentral(noticiaAEditar.hecho_central || '');
+      setPorQueImportaElDomingo(noticiaAEditar.por_que_importa_el_domingo || '');
       setNovedadDelta(noticiaAEditar.novedad_respecto_a_dias_previos || '');
       setCuerpoHtml(noticiaAEditar.cuerpo_html || '');
       setTabCuerpo('editor');
@@ -184,6 +189,7 @@ export const NoticiaModal: React.FC<NoticiaModalProps> = ({
       setUrlNota('');
       setDossierId('');
       setHechoCentral('');
+      setPorQueImportaElDomingo('');
       setNovedadDelta('');
       setCuerpoHtml('');
       setTabCuerpo('editor');
@@ -377,6 +383,7 @@ export const NoticiaModal: React.FC<NoticiaModalProps> = ({
         seguimiento_id: sid,
         dossier_id: sid, // Retrocompatibilidad Firestore
         hecho_central: hechoCentral.trim(),
+        por_que_importa_el_domingo: porQueImportaElDomingo.trim() || undefined,
         novedad_respecto_a_dias_previos: novedadDelta.trim() || undefined,
         cuerpo_html: cuerpoHtml,
         media: {
@@ -541,18 +548,20 @@ export const NoticiaModal: React.FC<NoticiaModalProps> = ({
             </div>
 
             <div>
-              <label className="block text-xs font-semibold uppercase tracking-wider text-slate-700 mb-1">
-                Tema en Seguimiento (Dossier vinculado)
+              <label className="block text-xs font-semibold uppercase tracking-wider text-slate-700 mb-1 flex items-center justify-between">
+                <span>Tema en Seguimiento (Dossier vinculado)</span>
+                <span className="text-[10px] text-blue-700 font-medium">Catálogo 5 Dossiers</span>
               </label>
               <select
+                name="dossier_id"
                 value={dossierId || ''}
                 onChange={(e) => setDossierId(e.target.value)}
                 className="w-full px-3 py-2 text-xs border border-slate-300 rounded-lg bg-white focus:ring-2 focus:ring-blue-600"
               >
-                <option value="">(Ninguno / Nota autónoma)</option>
+                <option value="">Sin dossier — Noticia autónoma del día</option>
                 {dossiers.map((d) => (
                   <option key={d.id} value={d.id}>
-                    {d.titulo} [{d.estado === 'en_seguimiento' ? 'En seguimiento' : d.estado}]
+                    📂 {d.titulo} [{d.estado === 'en_seguimiento' ? 'En seguimiento' : d.estado}]
                   </option>
                 ))}
               </select>
@@ -796,6 +805,26 @@ export const NoticiaModal: React.FC<NoticiaModalProps> = ({
                 className="w-full px-3 py-2 text-xs border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-600"
               />
             </div>
+          </div>
+
+          {/* 🎯 ¿Por qué importa el domingo? (Criterio Semanario) */}
+          <div className="p-3.5 bg-amber-50/80 border border-amber-300/80 rounded-xl space-y-1.5 shadow-2xs">
+            <div className="flex items-center justify-between gap-2">
+              <label className="block text-xs font-bold text-amber-950 flex items-center gap-1.5">
+                <span>🎯 ¿Por qué importa el domingo? (Criterio Semanario)</span>
+              </label>
+              <span className="text-[10px] font-semibold text-amber-800 bg-amber-100 border border-amber-200 px-2 py-0.5 rounded-full">
+                Doctrina Semanario v5.5
+              </span>
+            </div>
+            <textarea
+              name="por_que_importa_el_domingo"
+              rows={2}
+              value={porQueImportaElDomingo || ''}
+              onChange={(e) => setPorQueImportaElDomingo(e.target.value)}
+              placeholder="Justificación editorial de valor-noticia para la edición semanal del domingo: ¿Por qué este hecho perdura más allá de la coyuntura diaria y amerita lectura reflexiva?"
+              className="w-full px-3 py-2 text-xs border border-amber-300 rounded-lg focus:ring-2 focus:ring-amber-500 bg-white placeholder:text-slate-400"
+            />
           </div>
 
           {/* EDITOR DE TEXTO / HTML (CUERPO DE LA NOTICIA) */}

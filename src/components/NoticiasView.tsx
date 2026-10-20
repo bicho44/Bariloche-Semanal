@@ -32,6 +32,9 @@ const AREAS: { id: AreaId; label: string }[] = [
   { id: 'alquileres-inmobiliario', label: 'Alquileres e Inmobiliario' },
   { id: 'vida-social-cultura', label: 'Vida Social y Cultura' },
   { id: 'en-el-radar', label: 'En el Radar' },
+  { id: 'poder', label: 'Poder & Obras' },
+  { id: 'montana', label: 'Montaña & Turismo' },
+  { id: 'urbano', label: 'Pulso Urbano' },
 ];
 
 export const NoticiasView: React.FC<NoticiasViewProps> = ({ fuentes, dossiers }) => {
@@ -360,6 +363,12 @@ export const NoticiasView: React.FC<NoticiasViewProps> = ({ fuentes, dossiers })
                         <div className="text-[11px] text-slate-500 line-clamp-2 mt-0.5">
                           {item.hecho_central}
                         </div>
+                        {item.por_que_importa_el_domingo && (
+                          <div className="mt-1 flex items-start gap-1 text-[11px] text-amber-900 bg-amber-50/80 border border-amber-200/80 px-2 py-0.5 rounded-md">
+                            <span className="shrink-0 font-bold">🎯 Domingo:</span>
+                            <span className="line-clamp-1 italic">{item.por_que_importa_el_domingo}</span>
+                          </div>
+                        )}
                         <div className="flex flex-wrap items-center gap-1.5 mt-1">
                           {seguimientoId && (
                             <span className="text-[10px] bg-blue-50 text-blue-800 border border-blue-200 px-2 py-0.5 rounded-md font-medium">
@@ -437,17 +446,17 @@ export const NoticiasView: React.FC<NoticiasViewProps> = ({ fuentes, dossiers })
                       </td>
 
                       <td className="py-3 px-4 text-center">
-                        {fotoUrl ? (
+                        {fotoUrl && fotoUrl.trim() !== '' ? (
                           <div className="flex flex-col items-center gap-1">
                             <a
-                              href={fotoUrl}
+                              href={fotoUrl.trim()}
                               target="_blank"
                               rel="noopener noreferrer"
                               className="inline-block relative group"
                               title="Ver foto completa"
                             >
                               <img
-                                src={fotoUrl}
+                                src={fotoUrl.trim()}
                                 referrerPolicy="no-referrer"
                                 alt={item.titular}
                                 className="w-10 h-10 object-cover rounded-md border border-emerald-300 shadow-2xs group-hover:scale-105 transition-transform"

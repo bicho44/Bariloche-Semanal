@@ -4,12 +4,18 @@ import { agendaService } from '../services/agenda.service.js';
 export async function listarAgenda(req: Request, res: Response): Promise<void> {
   try {
     const todos = req.query.todos === 'true';
-    const soloVigentes = req.query.solo_vigentes === 'true' || (!todos && req.query.todos !== undefined);
+    const soloVigentesParam = req.query.solo_vigentes;
     const categoria = typeof req.query.categoria === 'string' ? req.query.categoria : undefined;
 
+    // Si el cliente pide explícitamente todos=true (como en /admin/agenda), no filtra vigentes
+    // Si no pide todos=true, por defecto filtra por vigencia (fecha_fin >= hoy)
+    const soloVigentes = soloVigentesParam !== undefined 
+      ? soloVigentesParam === 'true' 
+      : !todos;
+
     const eventos = await agendaService.listar({
-      soloVigentes: req.query.todos === 'false' || req.query.solo_vigentes === 'true',
-      todos: todos && req.query.solo_vigentes !== 'true',
+      soloVigentes,
+      todos,
       categoria,
     });
     res.json(eventos);
@@ -44,10 +50,13 @@ export async function crearEventoAgenda(req: Request, res: Response): Promise<vo
       fecha_fin,
       horario,
       lugar,
+      direccion,
+      mapa_url,
       tipo_acceso,
       arancel_estimado,
       descripcion_corta,
       url_info,
+      url_tickets,
       imagen_url,
       destacado,
       estado,
@@ -62,6 +71,13 @@ export async function crearEventoAgenda(req: Request, res: Response): Promise<vo
       return;
     }
 
+    if (!url_info || typeof url_info !== 'string' || !url_info.trim().startsWith('http')) {
+      res.status(400).json({
+        error: 'El campo url_info debe ser un enlace web verificable a la nota o cartelera del evento',
+      });
+      return;
+    }
+
     const creado = await agendaService.crear({
       id,
       titulo,
@@ -70,14 +86,19 @@ export async function crearEventoAgenda(req: Request, res: Response): Promise<vo
       fecha_fin: effectiveFechaFin,
       horario,
       lugar,
+      direccion,
+      mapa_url,
       tipo_acceso,
-      arancel_estimado: arancel_estimado || (tipo_acceso === 'gratuito' ? 'Entrada libre' : ''),
+      arancel_estimado,
       descripcion_corta,
-      url_info: url_info || '',
-      imagen_url,
+      url_info: url_info.trim(),
+      url_tickets: url_tickets ? String(url_tickets).trim() : null,
+      imagen_url: imagen_url || null,
       destacado: Boolean(destacado),
       estado: estado || 'vigente',
       noticia_origen_id,
+      curada_manualmente: true,
+      sincronizado_firestore: true,
     });
 
     res.status(201).json(creado);
@@ -90,7 +111,25 @@ export async function crearEventoAgenda(req: Request, res: Response): Promise<vo
 export async function actualizarEventoAgenda(req: Request, res: Response): Promise<void> {
   try {
     const { id } = req.params;
-    const actualizado = await agendaService.actualizar(id, req.body);
+
+    if (req.body.url_info !== undefined) {
+      const urlInfo = String(req.body.url_info).trim();
+      if (urlInfo && !urlInfo.startsWith('http')) {
+        res.status(400).json({
+          error: 'El campo url_info debe ser un enlace web válido comenzando con http:// o https://',
+        });
+        return;
+      }
+    }
+
+    const payload = {
+      ...req.body,
+      curada_manualmente: true,
+      sincronizado_firestore: true,
+      updated_at: new Date().toISOString(),
+    };
+
+    const actualizado = await agendaService.actualizar(id, payload);
     if (!actualizado) {
       res.status(404).json({ error: `Evento con id '${id}' no encontrado` });
       return;
@@ -114,5 +153,22 @@ export async function eliminarEventoAgenda(req: Request, res: Response): Promise
   } catch (err: unknown) {
     const error = err as Error;
     res.status(500).json({ error: 'Error al eliminar evento de agenda', detalle: error.message });
+  }
+}
+
+/**
+ * Purgar eventos vencidos (fecha_fin < hoy)
+ */
+export async function purgarEventosVencidos(req: Request, res: Response): Promise<void> {
+  try {
+    const resultado = await agendaService.purgarVencidos();
+    res.json({
+      mensaje: `Se purgaron ${resultado.eliminados} eventos vencidos exitosamente`,
+      eliminados: resultado.eliminados,
+      ids: resultado.ids,
+    });
+  } catch (err: unknown) {
+    const error = err as Error;
+    res.status(500).json({ error: 'Error al purgar eventos vencidos', detalle: error.message });
   }
 }

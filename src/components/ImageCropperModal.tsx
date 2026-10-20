@@ -273,7 +273,7 @@ export const ImageCropperModal: React.FC<ImageCropperModalProps> = ({
     }
   };
 
-  if (!isOpen) return null;
+  if (!isOpen || !imageSrc || !imageSrc.trim()) return null;
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-950/80 backdrop-blur-xs animate-in fade-in duration-200">
@@ -352,18 +352,20 @@ export const ImageCropperModal: React.FC<ImageCropperModalProps> = ({
             ref={containerRef}
             className="relative max-w-full max-h-[500px] flex items-center justify-center overflow-hidden rounded-lg shadow-lg"
           >
-            <img
-              ref={imageRef}
-              src={imageSrc}
-              alt="Imagen para recortar"
-              crossOrigin="anonymous"
-              onLoad={handleImageLoad}
-              style={{
-                transform: `rotate(${rotation}deg) scale(${zoom})`,
-                transition: isDragging ? 'none' : 'transform 0.15s ease',
-              }}
-              className="max-h-[460px] max-w-full object-contain pointer-events-none select-none block"
-            />
+            {imageSrc?.trim() ? (
+              <img
+                ref={imageRef}
+                src={imageSrc.trim()}
+                alt="Imagen para recortar"
+                crossOrigin="anonymous"
+                onLoad={handleImageLoad}
+                style={{
+                  transform: `rotate(${rotation}deg) scale(${zoom})`,
+                  transition: isDragging ? 'none' : 'transform 0.15s ease',
+                }}
+                className="max-h-[460px] max-w-full object-contain pointer-events-none select-none block"
+              />
+            ) : null}
 
             {/* Recuadro de recorte interactivo */}
             {imageLoaded && (

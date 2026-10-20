@@ -1,0 +1,57 @@
+{
+  "id": "2026-10-14_marcha-universitaria-soberania-ley-tierras-bariloche",
+  "titular": "Frente unificado en Bariloche: universidades, Parques y gremios marcharán juntos por presupuesto y la Ley de Tierras",
+  "hecho_central": "En un plenario interinstitucional realizado este miércoles 14 en el Centro Regional Universitario Bariloche (CRUB-UNCo), autoridades de la UNRN, docentes y estudiantes de la UNCo, delegados de ATE Parques Nacionales, la seccional Bariloche de UnTER y la APDH convocaron a una marcha masiva unificada para este jueves 15 de octubre a las 17:30 hs desde Onelli y Moreno hacia el Centro Cívico. La movilización fusionará el reclamo por la Ley de Financiamiento Universitario con el rechazo a la derogación de la Ley de Tierras del DNU 70/2023, alertando sobre el riesgo inminente de extranjerización de cuencas hídricas y espejos de agua en la cordillera.",
+  "dossier_id": "crisis-habitacional-urbanismo",
+  "seguimiento_id": "crisis-habitacional-urbanismo",
+  "fuente": {
+    "id": "el-cordillerano",
+    "nombre": "Diario El Cordillerano",
+    "url_nota": "https://www.elcordillerano.com.ar/noticias/2026/10/14/267396-en-bariloche-anunciaron-una-marcha-uniendo-reclamos-universidades-y-soberania-territorial"
+  },
+  "fuentes_consultadas": [
+    {
+      "id": "el-cordillerano",
+      "nombre": "Diario El Cordillerano",
+      "url_nota": "https://www.elcordillerano.com.ar/noticias/2026/10/14/267396-en-bariloche-anunciaron-una-marcha-uniendo-reclamos-universidades-y-soberania-territorial"
+    }
+  ],
+  "cobertura_cruzada": 1,
+  "cuerpo_html": "<p class=\"c-dossier-link\">📌 <em>Seguimiento: <a href=\"/seguimientos/crisis-habitacional-urbanismo\">Conflicto por la Tierra, Recursos Naturales y Universidad Pública</a></em></p>\n<p>El malestar acumulado por las políticas de ajuste del Gobierno nacional encontró en Bariloche un punto de confluencia inédito. En una asamblea intersectorial desarrollada este miércoles 14 en el aula 5 del Centro Regional Universitario Bariloche (CRUB-UNCo), la comunidad académica, gremios estatales, docentes y organismos de derechos humanos anunciaron una <strong>gran movilización unificada para este jueves 15 de octubre a las 17:30 hs</strong>, concentrando en la esquina de Onelli y Moreno para confluir en el Centro Cívico.</p>\n<p>La cobertura de <a href=\"https://www.elcordillerano.com.ar/noticias/2026/10/14/267396-en-bariloche-anunciaron-una-marcha-uniendo-reclamos-universidades-y-soberania-territorial\" target=\"_blank\" rel=\"noopener noreferrer\">El Cordillerano</a> reflejó la decisión política de amalgamar dos banderas que hasta ahora marchaban por carriles separados: la 5° Marcha Federal Universitaria en reclamo del financiamiento presupuestario y la resistencia patagónica contra la derogación de la Ley de Tierras (Ley 26.737) contenida en el DNU 70/2023.</p>\n<p>En el acto, el vicerrector de la Sede Andina de la Universidad Nacional de Río Negro, Diego Aguiar, alertó sobre la paralización de obras de infraestructura y el ahogo financiero que sufren las becas estudiantiles y los salarios de docentes y nodocentes, advirtiendo que «está en juego el derecho de acceder a la educación superior». A su turno, Marcelo Rojas, referente de ATE en la Dirección Regional Patagonia Norte de Parques Nacionales, advirtió sobre la amenaza concreta de extranjerización de cuencas andinas: «Perder los límites legales habilitará la venta de zonas de frontera con espejos de agua, como ya se vio con el intento de vender un lago dentro de un campo en Río Pico». Con la adhesión activa de UnTER Bariloche —liderada por Norma Pérez— y la Asamblea Permanente por los Derechos Humanos (APDH), Bariloche se prepara para una de las jornadas de protesta más masivas del año.</p>",
+  "citas": [
+    {
+      "autor": "Diego Aguiar, vicerrector UNRN Sede Andina",
+      "texto": "Desde diciembre sufrimos un ajuste financiero que atenta contra las becas y los salarios de docentes y no docentes; hay universidades con proyectos de obras suspendidos. Está en juego el acceso a la educación superior como motor de movilidad social."
+    },
+    {
+      "autor": "Marcelo Rojas, delegado de ATE en la Dirección Regional Patagonia Norte de Parques Nacionales",
+      "texto": "La derogación de la Ley de Tierras significaría perder los límites a la venta a manos extranjeras en zonas de frontera con espejos de agua. En la Norpatagonia andina hay un enorme interés en territorios con cuerpos de agua."
+    },
+    {
+      "autor": "Norma Pérez, secretaria general de UnTER Bariloche",
+      "texto": "En este contexto debe primar la articulación y la unidad de todas las organizaciones; el reclamo tiene que manifestarse con contundencia en las calles."
+    }
+  ],
+  "datos_duros": {
+    "convocatoria": "Jueves 15 de octubre a las 17:30 hs desde Onelli y Moreno hacia el Centro Cívico",
+    "espacios_convocantes": "UNRN Sede Andina, UNCo Bariloche (CRUB), ATE Parques Nacionales, UnTER Bariloche y APDH",
+    "ejes_de_protesta": "Cumplimiento de la Ley de Financiamiento Universitario y derogación del DNU 70/2023 en materia de Ley de Tierras",
+    "alerta_territorial": "Venta de campos con espejos de agua en la Patagonia andina (caso testigo de lago en venta en Río Pico, Chubut)",
+    "situacion_academica": "Ajuste presupuestario nacional que paralizó obras universitarias y congeló becas y salarios"
+  },
+  "area": "Gestión Pública",
+  "fecha": "2026-10-10",
+  "foto": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/10/elcordillerano/images/02/81/33/2813319_18e8c02ed6fc0fa73a656f7c0e89c81f8d68054999f057b3eded106aa379bec9/md.webp",
+  "updated_at": "2026-10-15T13:35:11.817Z",
+  "curada_manualmente": false,
+  "imagen_url": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/10/elcordillerano/images/02/81/33/2813319_18e8c02ed6fc0fa73a656f7c0e89c81f8d68054999f057b3eded106aa379bec9/md.webp",
+  "media": {
+    "credito": "Eugenia Neme / El Cordillerano / Bariloche Semanal",
+    "requiere_foto": true,
+    "prompt_nanobanana": "Ilustración editorial en estilo animación 2D de asamblea universitaria y comunitaria: docentes, estudiantes universitarios y guardaparques reunidos en un aula con carteles en defensa de la universidad pública y mapas de la cordillera patagónica con lagos y bosques nativos, con luz otoñal entrando por los ventanales. Estilo ilustrativo cálido y comprometido, paleta en celeste universitario, verde bosque, ocre madera y gris piedra, sin texto.",
+    "imagen_url": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/10/elcordillerano/images/02/81/33/2813319_18e8c02ed6fc0fa73a656f7c0e89c81f8d68054999f057b3eded106aa379bec9/md.webp"
+  },
+  "area_id": "gestion-publica",
+  "url": "https://www.elcordillerano.com.ar/noticias/2026/10/14/267396-en-bariloche-anunciaron-una-marcha-uniendo-reclamos-universidades-y-soberania-territorial",
+  "fecha_publicacion": "2026-10-10"
+}

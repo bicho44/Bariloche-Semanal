@@ -552,7 +552,7 @@ export const DualImageSelector: React.FC<DualImageSelectorProps> = ({
         )}
 
         {/* PREVIEW INMEDIATO DE LA IMAGEN */}
-        {safeValue ? (
+        {safeValue && safeValue.trim() !== '' ? (
           <div className="relative mt-2 p-2.5 bg-white border border-slate-200 rounded-lg">
             {safeValue.includes('unsplash.com') && (
               <div className="mb-2 p-2 bg-red-50 border border-red-300 rounded-md text-red-800 text-xs flex items-start gap-1.5">
@@ -613,15 +613,15 @@ export const DualImageSelector: React.FC<DualImageSelectorProps> = ({
                   <span className="text-xs font-semibold text-slate-700">No se pudo cargar la vista previa</span>
                   <span className="text-[11px] text-slate-500 max-w-xs truncate font-mono">{safeValue}</span>
                 </div>
-              ) : (
+              ) : (previewSrc || safeValue)?.trim() ? (
                 <img
-                  src={previewSrc}
+                  src={(previewSrc || safeValue).trim()}
                   alt="Vista previa de imagen"
                   referrerPolicy="no-referrer"
                   className="max-h-full max-w-full object-contain"
                   onError={handlePreviewError}
                 />
-              )}
+              ) : null}
             </div>
             <div className="mt-1.5 flex flex-wrap items-center justify-between gap-1 text-[10px] text-slate-500 font-mono">
               <span className="truncate max-w-md">URL: {safeValue}</span>

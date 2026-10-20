@@ -1,0 +1,53 @@
+{
+  "id": "2026-10-07_municipio-plan-regularizacion-tasa-100-descuento-intereses",
+  "titular": "El Municipio lanzó un régimen de regularización tributaria con hasta 100% de descuento en intereses para tasas adeudadas",
+  "hecho_central": "La Secretaría de Hacienda de Bariloche puso en vigencia un régimen especial de regularización fiscal para deudas tributarias devengadas al 30 de septiembre de 2026. El programa ofrece quita total (100%) de recargos e intereses para pagos al contado durante octubre, o planes de financiamiento de hasta 24 cuotas con reducciones escalonadas. El régimen regirá hasta el 31 de diciembre, tras una experiencia piloto en Delegación Sur que recaudó $100 millones.",
+  "fecha_publicacion": "2026-10-07",
+  "area_id": "gestion-publica",
+  "dossier_id": "carta-organica-reforma",
+  "seguimiento_id": "carta-organica-reforma",
+  "fuente": {
+    "id": "bariloche-opina",
+    "nombre": "Bariloche Opina",
+    "url_nota": "https://www.barilocheopina.com/noticias/2026/10/07/95511-el-municipio-ofrece-hasta-100por_ciento-de-descuento-en-intereses-para-regularizar-tasas"
+  },
+  "fuentes_consultadas": [
+    {
+      "id": "bariloche-opina",
+      "nombre": "Bariloche Opina",
+      "url_nota": "https://www.barilocheopina.com/noticias/2026/10/07/95511-el-municipio-ofrece-hasta-100por_ciento-de-descuento-en-intereses-para-regularizar-tasas"
+    },
+    {
+      "id": "anbariloche",
+      "nombre": "ANBariloche",
+      "url_nota": "https://www.anbariloche.com.ar/noticias/2026/10/07/119292-el-municipio-lanzo-un-plan-de-regularizacion-tributaria-con-quita-total-de-intereses-para-pagos-al-contado"
+    }
+  ],
+  "cobertura_cruzada": 2,
+  "media": {
+    "requiere_foto": true,
+    "prompt_nanobanana": "Ilustración editorial en estilo animación 2D y arte plano: una vista estilizada del edificio de Hacienda y el Centro Cívico de Bariloche, con vecinos y comerciantes ingresando a una oficina municipal con carpetas y formularios, mientras de fondo se recortan los pinos patagónicos y el lago Nahuel Huapi bajo un cielo límpido. Estilo gráfico contemporáneo, paleta en azul institucional, ocre cálido, madera andina y blanco nieve, sin texto.",
+    "credito": "",
+    "imagen_url": "https://barilocheopina-s3.cdn.net.ar/s3i233/2026/10/barilocheopina/images/02/80/34/2803494_4c71ce8b5cfc209a85ea792f5384d4f1fb4c835feb0a65cc39739320d7a51c02/md.webp"
+  },
+  "cuerpo_html": "<p class=\"c-dossier-link\">📌 <em>Seguimiento: <a href=\"/seguimientos/carta-organica-reforma\">Debate por la Reforma de la Carta Orgánica y Finanzas</a></em></p>\n<p>El Ejecutivo municipal puso en marcha una ofensiva recaudatoria orientada a oxigenar las cuentas comunales antes del cierre del ejercicio anual: <strong>el intendente Walter Cortés y el secretario de Hacienda Gonzalo Lerra presentaron este miércoles un nuevo Plan de Regularización de Tasas Municipales con quitas de hasta el 100% en intereses</strong>, según reportó <a href=\"https://www.barilocheopina.com/noticias/2026/10/07/95511-el-municipio-ofrece-hasta-100por_ciento-de-descuento-en-intereses-para-regularizar-tasas\" target=\"_blank\" rel=\"noopener noreferrer\">Bariloche Opina</a> y detalló en cobertura complementaria <a href=\"https://www.anbariloche.com.ar/noticias/2026/10/07/119292-el-municipio-lanzo-un-plan-de-regularizacion-tributaria-con-quita-total-de-intereses-para-pagos-al-contado\" target=\"_blank\" rel=\"noopener noreferrer\">ANBariloche</a>.</p>\n<p>El régimen alcanza a todas las obligaciones fiscales vencidas al <strong>30 de septiembre de 2026</strong> que se encuentren en etapa administrativa, excluyendo aquellas judicializadas. Durante el mes de octubre regirá el mayor incentivo: <strong>condonación total (100%) de recargos e intereses para pagos al contado</strong>, mientras que quienes opten por planes financiados accederán a rebajas del 70% hasta en 3 cuotas (3% mensual), 50% entre 4 y 12 cuotas (3,5% mensual), y 30% hasta en 24 pagos (4% mensual). El beneficio descenderá gradualmente en noviembre (80% contado) y diciembre (60% contado), fecha en que caducará la moratoria.</p>\n<blockquote cite=\"https://www.barilocheopina.com/noticias/2026/10/07/95511-el-municipio-ofrece-hasta-100por_ciento-de-descuento-en-intereses-para-regularizar-tasas\">\n<p>«La iniciativa surge del éxito obtenido en la prueba piloto de la Delegación Sur, donde logramos recuperar más de $100 millones; buscamos darle una salida real a las familias cuya economía hogareña les impidió sostenerse al día.» — Agustín Domingo, asesor económico municipal.</p>\n</blockquote>\n<p>El lanzamiento se produce en simultáneo con el debate en el Concejo Deliberante sobre el valor del módulo fiscal y la necesidad de sostener los servicios urbanos sin asfixiar la actividad comercial de baja temporada.</p>",
+  "citas": [
+    {
+      "autor": "Agustín Domingo",
+      "cargo": "Asesor económico del Ejecutivo municipal",
+      "texto": "La planificación apunta a aquellos contribuyentes que han solicitado estar al día con sus tasas y por ahí la economía familiar no se lo está permitiendo; no ingresa deuda prejudicial o judicial, sí obligaciones en vía administrativa."
+    },
+    {
+      "autor": "Walter Cortés",
+      "cargo": "Intendente de San Carlos de Bariloche",
+      "texto": "Hay una gran cantidad de empleados municipales que sí trabajan y tienen compromiso; buscaremos reducir la burocracia, asesorías y gastos superfluos, pero bajo ningún punto de vista vamos a sacar beneficios a los trabajadores."
+    }
+  ],
+  "datos_duros": {
+    "descuento_contado_octubre": "100% de quita sobre intereses y recargos",
+    "planes_financiacion": "Hasta 24 cuotas (reducciones de 70% a 30% en intereses)",
+    "recaudacion_piloto_sur": "Aproximadamente $100 millones recuperados al 30 de septiembre",
+    "vigencia_plan": "Hasta el 30 de diciembre de 2026 (exclusivo para deudas en instancia administrativa)"
+  },
+  "updated_at": "2026-10-08T14:02:36.577Z"
+}

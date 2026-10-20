@@ -1,0 +1,48 @@
+{
+  "id": "2026-10-13_catedral-balance-temporada-17500-residentes-beneficiados",
+  "titular": "Cerro Catedral cerró la temporada con más de 17.500 residentes beneficiados y un fuerte despliegue deportivo y social",
+  "hecho_central": "Catedral Alta Patagonia (CAPSA) presentó el balance preliminar de la temporada invernal 2026 que concluyó el lunes 12 de octubre. Más de 17.500 vecinos de Bariloche y Dina Huapi accedieron a la montaña mediante pases de esquí y peatón bonificados, esquí escolar y competencias federadas, en un ciclo de cuatro meses continuos de operación que ahora da paso a las revisiones técnicas de los medios de elevación.",
+  "area_id": "turismo",
+  "dossier_id": "catedral-concesion",
+  "seguimiento_id": "catedral-concesion",
+  "fuente": {
+    "id": "el-cordillerano",
+    "nombre": "Diario El Cordillerano",
+    "url_nota": "https://www.elcordillerano.com.ar/noticias/2026/10/13/267255-cerro-catedral-cerro-la-temporada-con-mas-de-17500-residentes-y-una-fuerte-agenda-deportiva-y-social"
+  },
+  "fuentes_consultadas": [
+    {
+      "id": "el-cordillerano",
+      "nombre": "Diario El Cordillerano",
+      "url_nota": "https://www.elcordillerano.com.ar/noticias/2026/10/13/267255-cerro-catedral-cerro-la-temporada-con-mas-de-17500-residentes-y-una-fuerte-agenda-deportiva-y-social"
+    }
+  ],
+  "cobertura_cruzada": 1,
+  "cuerpo_html": "<p class=\"c-dossier-link\">📌 <em>Seguimiento: <a href=\"/seguimientos/catedral-concesion\">Concesión y Modelo Cerro Catedral</a></em></p>\n<p>Tras completar su calendario de esquí el lunes feriado, <strong>Catedral Alta Patagonia difundió el balance social y operativo de la temporada 2026, destacando que más de 17.500 residentes locales accedieron a las pistas y medios de elevación</strong>, según reportó <a href=\"https://www.elcordillerano.com.ar/noticias/2026/10/13/267255-cerro-catedral-cerro-la-temporada-con-mas-de-17500-residentes-y-una-fuerte-agenda-deportiva-y-social\" target=\"_blank\" rel=\"noopener noreferrer\">Diario El Cordillerano</a>.</p>\n<p>La cifra agrupa a escolares que participaron del programa de iniciación a la nieve, atletas de clubes federados del Club Andino Bariloche y titulares de pases residentes bonificados. En paralelo al cierre de las pistas de esquí, la concesionaria mantiene activa hasta el sábado 17 la Semana Peatón Residente Gratuita, permitiendo 500 ascensos diarios sin costo por telecabina Amancay para la comunidad de Bariloche y Dina Huapi.</p>",
+  "citas": [
+    {
+      "autor": "Catedral Alta Patagonia",
+      "texto": "Cerramos una temporada invernal histórica que combinó nieve en cumbre hasta octubre con un compromiso social que permitió que más de 17.500 residentes vivieran la montaña como verdaderos anfitriones."
+    }
+  ],
+  "datos_duros": {
+    "residentes_beneficiados": "Más de 17.500 vecinos en esquí social, bautismo de nieve y pases residentes",
+    "duracion_temporada": "Cuatro meses completos de operación (del 15 de junio al 12 de octubre de 2026)",
+    "programa_en_marcha": "Semana Peatón Residente Gratuita con 500 pases diarios hasta el 17 de octubre",
+    "preventa_2027": "Pase Residente Classic 2027 disponible a tarifa congelada de $640.000"
+  },
+  "area": "Pulso Turístico",
+  "fecha": "2026-10-09",
+  "foto": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/10/elcordillerano/images/02/81/20/2812067_fd5d889b7c529e1d50b6dd769982960ff52735e74306be4fd9460539b0e30920/md.webp",
+  "updated_at": "2026-10-14T15:10:13.366Z",
+  "curada_manualmente": false,
+  "imagen_url": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/10/elcordillerano/images/02/81/20/2812067_fd5d889b7c529e1d50b6dd769982960ff52735e74306be4fd9460539b0e30920/md.webp",
+  "media": {
+    "credito": "Prensa CAPSA / El Cordillerano",
+    "requiere_foto": true,
+    "prompt_nanobanana": "Ilustración editorial en estilo animación 2D de montaña: la base del Cerro Catedral con esquiadores locales, niños con pecheras escolares y familias celebrando el fin de temporada frente al parador andino de madera, con las cumbres nevadas y cañones de nieve en reposo bajo la luz dorada de la tarde. Estilo nítido, paleta en azul andino, blanco nieve, madera tostada y rojo invierno, sin texto.",
+    "imagen_url": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/10/elcordillerano/images/02/81/20/2812067_fd5d889b7c529e1d50b6dd769982960ff52735e74306be4fd9460539b0e30920/md.webp"
+  },
+  "url": "https://www.elcordillerano.com.ar/noticias/2026/10/13/267255-cerro-catedral-cerro-la-temporada-con-mas-de-17500-residentes-y-una-fuerte-agenda-deportiva-y-social",
+  "fecha_publicacion": "2026-10-09"
+}

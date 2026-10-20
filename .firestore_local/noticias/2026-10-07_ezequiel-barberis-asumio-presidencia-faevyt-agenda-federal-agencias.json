@@ -1,0 +1,42 @@
+{
+  "id": "2026-10-07_ezequiel-barberis-asumio-presidencia-faevyt-agenda-federal-agencias",
+  "titular": "El dirigente barilochense Ezequiel Barberis asumió la presidencia de la FAEVYT con foco en la conectividad federal",
+  "hecho_central": "El referente del turismo receptivo y ex presidente de la Asociación de Agencias de Bariloche, Ezequiel Barberis, asumió la presidencia de la Federación Argentina de Asociaciones de Viajes y Turismo (FAEVYT). Su plan de gestión se enfocará en expandir el Registro Nacional de Agencias de Viajes (RNAV) en las provincias, consolidar el Observatorio Económico de Agencias (OEATUR) y afianzar lazos con el sector público y aerolíneas para resguardar la competitividad turística argentina.",
+  "fecha_publicacion": "2026-10-07",
+  "area_id": "turismo",
+  "dossier_id": "temporada-turistica-nieve",
+  "seguimiento_id": "temporada-turistica-nieve",
+  "fuente": {
+    "id": "anbariloche",
+    "nombre": "ANBariloche",
+    "url_nota": "https://www.anbariloche.com.ar/noticias/2026/10/07/119322-ezequiel-barberis-asumio-la-presidencia-de-faevyt-con-una-agenda-federal"
+  },
+  "fuentes_consultadas": [
+    {
+      "id": "anbariloche",
+      "nombre": "ANBariloche",
+      "url_nota": "https://www.anbariloche.com.ar/noticias/2026/10/07/119322-ezequiel-barberis-asumio-la-presidencia-de-faevyt-con-una-agenda-federal"
+    }
+  ],
+  "cobertura_cruzada": 1,
+  "media": {
+    "imagen_url": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/10/anbariloche/images/02/80/38/2803885_a28daf25a645440df80b9d552d01ca1a17f94cda179445210618298215189eaf/md.webp",
+    "requiere_foto": true,
+    "credito": "Barberis indicó que quiere que la Federación tenga una impronta federal. Foto gentileza. ",
+    "prompt_nanobanana": "Ilustración editorial en estilo animación 2D: salón de conferencias con un mapa estilizado de la República Argentina y la Patagonia en una pantalla gigante, un dirigente turístico hablando en un estrado con un micrófono rodeado de banderas institucionales y representantes de agencias de viajes. Estética ejecutiva sobria, colores azul marino, celeste, gris y madera, líneas vectoriales limpias, sin texto."
+  },
+  "cuerpo_html": "<p class=\"c-dossier-link\">📌 <em>Seguimiento: <a href=\"/seguimientos/temporada-turistica-nieve\">Temporada Turística, Nieve y Conectividad</a></em></p>\n<p>La dirigencia empresarial de Bariloche consolidó este miércoles un posicionamiento de alcance nacional: <strong>el empresario local Ezequiel Barberis asumió la presidencia de la Federación Argentina de Asociaciones de Viajes y Turismo (FAEVYT) para el período 2026-2028</strong>, según destacó <a href=\"https://www.anbariloche.com.ar/noticias/2026/10/07/119322-ezequiel-barberis-asumio-la-presidencia-de-faevyt-con-una-agenda-federal\" target=\"_blank\" rel=\"noopener noreferrer\">ANBariloche</a>.</p>\n<p>Barberis, de vasta trayectoria en el turismo receptivo andino y ex titular de la filial Bariloche, liderará la entidad cúpula de las agencias de viajes del país secundado por Walter Rodríguez y Gustavo Peralta. Entre los ejes prioritarios de su gestión subrayó la consolidación federal del <strong>Registro Nacional de Agencias de Viajes (RNAV)</strong>, la defensa de la formalidad profesional ante las plataformas digitales desreguladas y la profundización de datos estadísticos mediante el Observatorio Económico (OEATUR).</p>\n<blockquote cite=\"https://www.anbariloche.com.ar/noticias/2026/10/07/119322-ezequiel-barberis-asumio-la-presidencia-de-faevyt-con-una-agenda-federal\">\n<p>«El desafío de esta etapa es articular con las provincias y con las líneas aéreas para resguardar la conectividad del interior y dotar a las agencias de herramientas comerciales sólidas frente a los cambios de la industria.» — Ezequiel Barberis en su mensaje inaugural.</p>\n</blockquote>\n<p>La asunción de un barilochense en la conducción nacional de FAEVYT refuerza el peso político de la ciudad andina en la mesa de discusión aerocomercial y turística argentina.</p>",
+  "citas": [
+    {
+      "autor": "Ezequiel Barberis",
+      "cargo": "Presidente electo de FAEVYT",
+      "texto": "Son herramientas para jerarquizar la actividad, brindar mayor transparencia y seguridad a quienes contratan servicios turísticos y continuar poniendo en valor el rol profesional de las agencias de viajes registradas."
+    }
+  ],
+  "datos_duros": {
+    "entidad": "Federación Argentina de Asociaciones de Viajes y Turismo (FAEVYT)",
+    "ejes_gestion": "Expansión del Registro Nacional de Agencias (RNAV) y fortalecimiento del OEATUR",
+    "conduccion_mesa": "Acompañado por Walter Rodríguez (Vice 1°) y Gustavo Peralta (Vice 2°)"
+  },
+  "updated_at": "2026-10-08T14:02:41.295Z"
+}

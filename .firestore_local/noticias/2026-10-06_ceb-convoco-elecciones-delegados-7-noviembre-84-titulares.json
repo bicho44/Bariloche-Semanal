@@ -1,0 +1,59 @@
+{
+  "id": "2026-10-06_ceb-convoco-elecciones-delegados-7-noviembre-84-titulares",
+  "titular": "La CEB convocó a elecciones de delegados distritales para el 7 de noviembre: se renovarán 84 bancas titulares y 37 suplentes",
+  "hecho_central": "El Consejo de Administración de la Cooperativa de Electricidad Bariloche formalizó la convocatoria electoral para el sábado 7 de noviembre de 2026 (de 08:00 a 18:00 hs). Se renovará el cuerpo de 84 delegados de distrito titulares y 37 suplentes por un ejercicio. El padrón definitivo cerrará el 16 de octubre (para asociados con facturas al día al 31 de julio) y las listas podrán presentarse hasta el 23 de octubre a las 14:00 hs en la sede de John O'Connor 56. La elección definirá el balance de poder en la mayor empresa social de la ciudad en pleno tironeo tarifario y tras la crisis de olores en la Planta Depuradora.",
+  "area_id": "gestion-publica",
+  "dossier_id": "ceb-municipio-servicios",
+  "seguimiento_id": "ceb-municipio-servicios",
+  "fuente": {
+    "id": "el-cordillerano",
+    "nombre": "Diario El Cordillerano",
+    "url_nota": "https://www.elcordillerano.com.ar/noticias/2026/10/06/265977-la-ceb-convoca-a-elecciones-de-delegados-de-distrito"
+  },
+  "fuentes_consultadas": [
+    {
+      "id": "el-cordillerano",
+      "nombre": "Diario El Cordillerano",
+      "url_nota": "https://www.elcordillerano.com.ar/noticias/2026/10/06/265977-la-ceb-convoca-a-elecciones-de-delegados-de-distrito"
+    },
+    {
+      "id": "bariloche-opina",
+      "nombre": "Bariloche Opina",
+      "url_nota": "https://www.barilocheopina.com/noticias/2026/10/06/95436-la-ceb-convoca-a-elecciones-de-delegados-cuando-seran-y-quienes-podran-votar"
+    },
+    {
+      "id": "anbariloche",
+      "nombre": "ANBariloche",
+      "url_nota": "https://www.anbariloche.com.ar/noticias/2026/10/06/119172-la-ceb-convoco-a-elecciones-de-delegados-para-la-primera-semana-de-noviembre"
+    }
+  ],
+  "cobertura_cruzada": 3,
+  "cuerpo_html": "<p class=\"c-dossier-link\">📌 <em>Seguimiento: <a href=\"/seguimientos/ceb-municipio-servicios\">Relación Municipio - CEB y Servicios Públicos</a></em></p>\n<p>La vida institucional de la principal prestadora de servicios de la ciudad ingresó en cuenta regresiva electoral: <strong>el Consejo de Administración de la Cooperativa de Electricidad Bariloche (CEB) convocó formalmente a elecciones de Delegados de Distrito para el sábado 7 de noviembre</strong>, comicios que se llevarán a cabo apenas una semana después de la votación de convencionales constituyentes, según informaron en cobertura conjunta <a href=\"https://www.elcordillerano.com.ar/noticias/2026/10/06/265977-la-ceb-convoca-a-elecciones-de-delegados-de-distrito\" target=\"_blank\" rel=\"noopener noreferrer\">El Cordillerano</a>, <a href=\"https://www.barilocheopina.com/noticias/2026/10/06/95436-la-ceb-convoca-a-elecciones-de-delegados-cuando-seran-y-quienes-podran-votar\" target=\"_blank\" rel=\"noopener noreferrer\">Bariloche Opina</a> y <a href=\"https://www.anbariloche.com.ar/noticias/2026/10/06/119172-la-ceb-convoco-a-elecciones-de-delegados-para-la-primera-semana-de-noviembre\" target=\"_blank\" rel=\"noopener noreferrer\">ANBariloche</a>.</p>\n<p>El acto eleccionario, que se desarrollará entre las 08:00 y las 18:00 hs en centros de votación distribuidos por distritos, renovará la totalidad del cuerpo deliberativo: <strong>84 delegados titulares y 37 suplentes</strong> con mandato por un ejercicio. Podrán sufragar los usuarios que al cierre del padrón definitivo —fijado para el <strong>16 de octubre</strong>— tengan canceladas las facturas con vencimiento anterior al 31 de julio de 2026 y no registren deudas. Las listas de candidatos tendrán plazo de presentación notarial hasta el <strong>23 de octubre a las 14:00 hs</strong> en la sede central de John O'Connor 56.</p>\n<blockquote cite=\"https://www.elcordillerano.com.ar/noticias/2026/10/06/265977-la-ceb-convoca-a-elecciones-de-delegados-de-distrito\">\n<p>«Se convoca a los asociados a participar democráticamente en sus distritos; la representación barrial es la base estatutaria para fiscalizar los servicios de distribución eléctrica y saneamiento en la ciudad.» — Consejo de Administración de la CEB.</p>\n</blockquote>\n<p>La compulsa adquiere alta sensibilidad política: se produce en medio de las tensiones con las juntas vecinales del Este por las emanaciones fétidas en la Planta Depuradora y las negociaciones tarifarias con el DPA y el Municipio.</p>",
+  "citas": [
+    {
+      "autor": "Consejo de Administración de la CEB",
+      "cargo": "Convocatoria Electoral 2026",
+      "texto": "Cada asociado deberá votar en el centro de votación más próximo a su Distrito, de acuerdo con el domicilio que figura en su factura de energía y en el padrón electoral definitivo."
+    }
+  ],
+  "datos_duros": {
+    "fecha_comicios": "Sábado 7 de noviembre de 2026 (08:00 a 18:00 hs)",
+    "cargos_a_renovar": "84 delegados de distrito titulares y 37 suplentes (mandato por 1 ejercicio)",
+    "cierre_padron": "16 de octubre de 2026 (asociados con servicios al día al 31 de julio)",
+    "presentacion_listas": "Hasta el 23 de octubre de 2026 a las 14:00 hs (John O'Connor 56)"
+  },
+  "area": "Gestión Pública",
+  "fecha": "2026-10-02",
+  "foto": "https://elcordillerano-s3.cdn.net.ar/s3i233/2024/10/elcordillerano/images/01/18/36/1183651_9ac6187fa2315519634703b704c1a934ea6fda75801fc0f23ad25ab251ff5891/md.webp",
+  "updated_at": "2026-10-09T12:40:59.471Z",
+  "curada_manualmente": false,
+  "imagen_url": "https://elcordillerano-s3.cdn.net.ar/s3i233/2024/10/elcordillerano/images/01/18/36/1183651_9ac6187fa2315519634703b704c1a934ea6fda75801fc0f23ad25ab251ff5891/md.webp",
+  "media": {
+    "requiere_foto": true,
+    "prompt_nanobanana": "Ilustración editorial en estilo animación 2D sobria: la fachada histórica de la sede central de la Cooperativa de Electricidad Bariloche (CEB) en calle John O'Connor, con asociados y vecinos dialogando frente a una urna electoral transparente y planillas de padrón, postes de luz de madera y transformadores eléctricos recortados contra las montañas andinas. Estética de novela gráfica limpia, paleta azul eléctrico, blanco, gris cemento y madera de ciprés, sin texto.",
+    "imagen_url": "https://elcordillerano-s3.cdn.net.ar/s3i233/2024/10/elcordillerano/images/01/18/36/1183651_9ac6187fa2315519634703b704c1a934ea6fda75801fc0f23ad25ab251ff5891/md.webp",
+    "credito": ""
+  },
+  "url": "https://www.elcordillerano.com.ar/noticias/2026/10/06/265977-la-ceb-convoca-a-elecciones-de-delegados-de-distrito",
+  "fecha_publicacion": "2026-10-02"
+}

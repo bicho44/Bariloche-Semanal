@@ -1,0 +1,49 @@
+{
+  "id": "2026-10-08_justicia-anulo-fallo-tierras-ginobili-paichil-antriao",
+  "titular": "Giro judicial en el conflicto territorial de la cuenca andina: anularon el fallo que ordenaba a la comunidad Paichil Antriao restituir tierras a Ginóbili",
+  "hecho_central": "La Cámara de Apelaciones en lo Civil de Neuquén declaró la nulidad de la sentencia de primera instancia que obligaba a la comunidad mapuche Paichil Antriao a desalojar y restituir un lote de 12 hectáreas en el cerro Belvedere al ex basquetbolista Emanuel Ginóbili. El tribunal de alzada consideró que el fallo recurrido incurrió en vicios procesales graves al no considerar adecuadamente los derechos indígenas y ordenó remitir el expediente para que un nuevo magistrado emita una sentencia fundada.",
+  "dossier_id": "crisis-habitacional-tierras",
+  "seguimiento_id": "crisis-habitacional-tierras",
+  "fuente": {
+    "id": "diario-rio-negro",
+    "nombre": "Diario Río Negro",
+    "url_nota": "https://www.rionegro.com.ar/justicia/la-justicia-anulo-el-fallo-que-obligaba-a-una-comunidad-mapuche-a-devolverle-tierras-a-ginobili-y-ordeno-una-nueva-sentencia-4752503/"
+  },
+  "fuentes_consultadas": [
+    {
+      "id": "diario-rio-negro",
+      "nombre": "Diario Río Negro",
+      "url_nota": "https://www.rionegro.com.ar/justicia/la-justicia-anulo-el-fallo-que-obligaba-a-una-comunidad-mapuche-a-devolverle-tierras-a-ginobili-y-ordeno-una-nueva-sentencia-4752503/"
+    }
+  ],
+  "cobertura_cruzada": 1,
+  "cuerpo_html": "<p class=\"c-dossier-link\">📌 <em>Seguimiento: <a href=\"/seguimientos/crisis-habitacional-tierras\">Crisis Habitacional, Tierras y Acceso al Suelo Urbano</a></em></p>\n<p>Un histórico litigio por tierras en la cuenca del lago Nahuel Huapi dio un vuelco institucional determinante este jueves: <strong>la Cámara de Apelaciones en lo Civil de Neuquén declaró la nulidad de la sentencia que obligaba a la comunidad mapuche Paichil Antriao a devolver un predio de 12 hectáreas a Emanuel Ginóbili</strong>, según informó <a href=\"https://www.rionegro.com.ar/justicia/la-justicia-anulo-el-fallo-que-obligaba-a-una-comunidad-mapuche-a-devolverle-tierras-a-ginobili-y-ordeno-una-nueva-sentencia-4752503/\" target=\"_blank\" rel=\"noopener noreferrer\">Diario Río Negro</a>.</p>\n<p>El conflicto se remonta a 2004, cuando el exjugador de la NBA adquirió las tierras en las faldas del cerro Belvedere con el objetivo de desarrollar un proyecto urbanístico y turístico. La comunidad originaria denunció la venta como ilegítima, alegando posesión tradicional comunitaria amparada por el artículo 75 inciso 17 de la Constitución Nacional y los relevamientos de la Ley 26.160. Con este nuevo fallo, el tribunal de alzada consideró que la sentencia de primera instancia adolecía de vicios procesales al ignorar los tratados de derecho indígena, por lo que ordenó que un nuevo juez se haga cargo del expediente y dicte un nuevo pronunciamiento.</p>\n<p>La resolución es seguida de cerca por los tribunales federales y provinciales de Bariloche y la Comarca Andina, donde tramitan decenas de causas similares sobre tierras fiscales y de bosques protegidos.</p>",
+  "citas": [
+    {
+      "autor": "Cámara de Apelaciones en lo Civil",
+      "cargo": "Poder Judicial",
+      "texto": "La sentencia de grado adolece de defectos esenciales en la valoración de los antecedentes territoriales y de la normativa constitucional sobre comunidades originarias, por lo que corresponde declarar su nulidad."
+    }
+  ],
+  "datos_duros": {
+    "superficie_en_disputa": "Lote de 12 hectáreas en la ladera del cerro Belvedere (cuenca del lago Nahuel Huapi)",
+    "origen_demanda": "Adquisición del terreno por Emanuel Ginóbili en 2004 para desarrollo turístico",
+    "reclamo_comunitario": "Ocupación tradicional ancestral amparada bajo la Ley Nacional 26.160 de Emergencia Territorial Indígena",
+    "efecto_procesal": "Nulidad de sentencia previa y designación de nuevo juez para dictaminar de fondo"
+  },
+  "area": "Gestión Pública",
+  "fecha": "2026-10-04",
+  "foto": "https://www.rionegro.com.ar/wp-content/uploads/2026/09/manu-ginobili-villa-la-angostura-patagonia-e1789560374828.jpg?w=920&h=520&crop=1",
+  "updated_at": "2026-10-09T12:40:24.874Z",
+  "curada_manualmente": false,
+  "imagen_url": "https://www.rionegro.com.ar/wp-content/uploads/2026/09/manu-ginobili-villa-la-angostura-patagonia-e1789560374828.jpg?w=920&h=520&crop=1",
+  "media": {
+    "credito": "Diario Río Negro",
+    "requiere_foto": true,
+    "prompt_nanobanana": "Ilustración editorial en estilo animación 2D sobre justicia territorial andina: vista estilizada del cerro Belvedere con bosque nativo de coihues y radales descendiendo hacia las aguas calmas del lago Nahuel Huapi, con una pequeña vivienda de madera patagónica y una balanza de la justicia etérea en el cielo crepuscular. Tono analítico y respetuoso, estilo flat design de líneas suaves, paleta en azul lago, verde bosque, madera húmeda y terracota, sin texto.",
+    "imagen_url": "https://www.rionegro.com.ar/wp-content/uploads/2026/09/manu-ginobili-villa-la-angostura-patagonia-e1789560374828.jpg?w=920&h=520&crop=1"
+  },
+  "area_id": "gestion-publica",
+  "url": "https://www.rionegro.com.ar/justicia/la-justicia-anulo-el-fallo-que-obligaba-a-una-comunidad-mapuche-a-devolverle-tierras-a-ginobili-y-ordeno-una-nueva-sentencia-4752503/",
+  "fecha_publicacion": "2026-10-04"
+}

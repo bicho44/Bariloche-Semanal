@@ -1,0 +1,54 @@
+{
+  "id": "2026-10-14_apagon-regional-ceb-edersa-alipiba",
+  "titular": "Apagón masivo en Bariloche y Dina Huapi: falla en la línea ALIPIBA operada por Edersa dejó sin luz a la región andina",
+  "hecho_central": "Un sorpresivo corte general de energía eléctrica interrumpió el suministro en San Carlos de Bariloche y Dina Huapi este miércoles 14 de octubre desde las 10:30 hs. La Cooperativa de Electricidad Bariloche (CEB) confirmó que la falla se produjo fuera de la red local, en el sistema de transporte de alta tensión de 132 kV (línea ALIPIBA) operado por la empresa distribuidora Edersa que alimenta la Estación Transformadora La Paloma sobre la Avenida de Circunvalación, obligando a encender generación diésel propia de emergencia para abastecer servicios esenciales.",
+  "dossier_id": "ceb-municipio-servicios",
+  "seguimiento_id": "ceb-municipio-servicios",
+  "fuente": {
+    "id": "el-cordillerano",
+    "nombre": "Diario El Cordillerano",
+    "url_nota": "https://www.elcordillerano.com.ar/noticias/2026/10/14/267375-apagon-en-bariloche-y-dina-huapi-un-corte-de-energia-afecto-a-toda-la-region"
+  },
+  "fuentes_consultadas": [
+    {
+      "id": "el-cordillerano",
+      "nombre": "Diario El Cordillerano",
+      "url_nota": "https://www.elcordillerano.com.ar/noticias/2026/10/14/267375-apagon-en-bariloche-y-dina-huapi-un-corte-de-energia-afecto-a-toda-la-region"
+    },
+    {
+      "id": "bariloche-opina",
+      "nombre": "Bariloche Opina",
+      "url_nota": "https://www.barilocheopina.com/noticias/2026/10/14/95799-corte-general-de-luz-en-bariloche-la-ceb-espera-informacion-de-edersa"
+    }
+  ],
+  "cobertura_cruzada": 2,
+  "cuerpo_html": "<p class=\"c-dossier-link\">📌 <em>Seguimiento: <a href=\"/seguimientos/ceb-municipio-servicios\">Crisis de Servicios, Tarifas y Vínculo CEB-Municipio</a></em></p>\n<p>La fragilidad de la matriz de transporte eléctrico regional volvió a quedar en evidencia este miércoles 14 de octubre cuando, con puntualidad de manual a las 10:30 de la mañana, un <strong>corte general de electricidad paralizó San Carlos de Bariloche, Dina Huapi y localidades vecinas de la Comarca Andina</strong>, paralizando la actividad bancaria, el comercio céntrico y los bombeos sanitarios.</p>\n<p>De acuerdo con la información oficial emitida por la <a href=\"https://www.barilocheopina.com/noticias/2026/10/14/95799-corte-general-de-luz-en-bariloche-la-ceb-espera-informacion-de-edersa\" target=\"_blank\" rel=\"noopener noreferrer\">Cooperativa de Electricidad Bariloche (CEB)</a>, el incidente no obedeció a contingencias en las líneas de distribución urbana ni en los transformadores vecinales, sino a un colapso en el sistema de abastecimiento de alta tensión de 132 kV operado por la distribuidora provincial <a href=\"https://www.elcordillerano.com.ar/noticias/2026/10/14/267375-apagon-en-bariloche-y-dina-huapi-un-corte-de-energia-afecto-a-toda-la-region\" target=\"_blank\" rel=\"noopener noreferrer\">EdERSA</a>. Se trata del corredor ALIPIBA, el tendido troncal que inyecta la energía en la Estación Transformadora La Paloma (Estación Bariloche), nodo neurálgico ubicado sobre la Avenida de Circunvalación.</p>\n<p>Frente a la interrupción masiva y mientras se aguardaban precisiones técnicas de la transportista provincial, la CEB debió encender sus equipos de <em>generación térmica propia de contingencia</em> para sostener la demanda prioritaria en hospitales, centros de salud y bombeos de agua. El episodio reabre de lleno la discusión de fondo en la Mesa de Cierre sobre la urgencia de concretar el segundo tendido eléctrico de interconexión regional ALIPIBA II, cuya demora técnica y financiera mantiene a Bariloche atada a la vulnerabilidad de un único cable de alta tensión ante cualquier falla externa.</p>",
+  "citas": [
+    {
+      "autor": "Comunicado oficial de la Cooperativa de Electricidad Bariloche (CEB)",
+      "texto": "El corte general ocurrió por razones ajenas a la red de distribución de la CEB. Mientras comienza con la generación propia de emergencia, aguardamos información fehaciente de Edersa sobre las causas del colapso en el sistema troncal ALIPIBA."
+    }
+  ],
+  "datos_duros": {
+    "horario_corte": "10:30 hs de este miércoles 14 de octubre",
+    "alcance_territorial": "San Carlos de Bariloche, Dina Huapi y Comarca Andina",
+    "infraestructura_afectada": "Línea troncal de alta tensión 132 kV ALIPIBA y Estación Transformadora La Paloma",
+    "operador_troncal": "EdERSA (Empresa de Energía de Río Negro S.A.)",
+    "medida_contingencia": "Activación de motores de generación diésel propios de la CEB"
+  },
+  "area": "Gestión Pública",
+  "fecha": "2026-10-10",
+  "foto": "https://barilocheopina-s3.cdn.net.ar/s3i233/2024/06/barilocheopina/images/82/94/829409_1d1acb98abcd3c201c07bad6461f1e8ddcca3fb7d92465f056f7ab9b5d28f5b8/md.webp",
+  "updated_at": "2026-10-15T13:38:39.897Z",
+  "curada_manualmente": false,
+  "imagen_url": "https://barilocheopina-s3.cdn.net.ar/s3i233/2024/06/barilocheopina/images/82/94/829409_1d1acb98abcd3c201c07bad6461f1e8ddcca3fb7d92465f056f7ab9b5d28f5b8/md.webp",
+  "media": {
+    "credito": "CEB / Eugenia Neme / El Cordillerano / Bariloche Semanal",
+    "requiere_foto": true,
+    "prompt_nanobanana": "Ilustración editorial en estilo animación 2D sobre contingencia energética: las torres de alta tensión de la línea ALIPIBA recortándose contra la estepa patagónica y los cerros nevados de Bariloche, con cables eléctricos en reparación y operarios técnicos con cascos amarillos junto a la Estación Transformadora La Paloma, en un cielo límpido con nubes andinas. Paleta sobria en azul noche, amarillo eléctrico, gris metal y ocre estepa, sin texto.",
+    "imagen_url": "https://barilocheopina-s3.cdn.net.ar/s3i233/2024/06/barilocheopina/images/82/94/829409_1d1acb98abcd3c201c07bad6461f1e8ddcca3fb7d92465f056f7ab9b5d28f5b8/md.webp"
+  },
+  "area_id": "gestion-publica",
+  "url": "https://www.elcordillerano.com.ar/noticias/2026/10/14/267375-apagon-en-bariloche-y-dina-huapi-un-corte-de-energia-afecto-a-toda-la-region",
+  "fecha_publicacion": "2026-10-10"
+}

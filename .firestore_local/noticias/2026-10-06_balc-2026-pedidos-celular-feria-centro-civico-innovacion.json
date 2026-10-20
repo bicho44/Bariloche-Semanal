@@ -2,7 +2,6 @@
   "id": "2026-10-06_balc-2026-pedidos-celular-feria-centro-civico-innovacion",
   "titular": "Bariloche a la Carta suma pedidos desde el celular para optimizar la feria gastronómica en el Centro Cívico",
   "hecho_central": "La organización de BALC 2026 anunció que la feria gastronómica del Centro Cívico (9 al 12 de octubre) incorporará por primera vez un sistema web móvil para realizar compras y pedidos de platos desde el teléfono celular y retirarlos cuando estén listos, agilizando el flujo de más de 40.000 comensales esperados en los stands de productores y restaurantes de la carpa.",
-  "fecha_publicacion": "2026-10-06",
   "area_id": "turismo",
   "dossier_id": "temporada-turistica-nieve",
   "seguimiento_id": "temporada-turistica-nieve",
@@ -10,11 +9,6 @@
     "id": "bariloche-opina",
     "nombre": "Bariloche Opina",
     "url_nota": "https://www.barilocheopina.com/noticias/2026/10/06/95439-balc-suma-pedidos-desde-el-celular-para-elegir-platos-y-retirarlos-cuando-esten-listos"
-  },
-  "media": {
-    "imagen_url": "https://barilocheopina-s3.cdn.net.ar/s3i233/2026/10/barilocheopina/images/02/79/97/2799763_md.webp",
-    "credito": "Prensa BALC / Bariloche Opina",
-    "requiere_foto": false
   },
   "cuerpo_html": "<p class=\"c-dossier-link\">📌 <em>Seguimiento: <a href=\"/seguimientos/temporada-turistica-nieve\">Temporada Turística, Nieve y Conectividad</a></em></p>\n<p>La decimotercera entrega de Bariloche a la Carta sumará una innovación logística destinada a modernizar la atención en el corazón de la ciudad: <strong>la feria gastronómica que abrirá este viernes 9 en el Centro Cívico incorporará una plataforma digital para que el público realice sus pedidos de platos y bebidas directamente desde su teléfono celular</strong>, según destacó <a href=\"https://www.barilocheopina.com/noticias/2026/10/06/95439-balc-suma-pedidos-desde-el-celular-para-elegir-platos-y-retirarlos-cuando-esten-listos\" target=\"_blank\" rel=\"noopener noreferrer\">Bariloche Opina</a>.</p>\n<p>El dispositivo permitirá a los asistentes escanear códigos QR en las mesas y accesos a la gran carpa para navegar la oferta culinaria de los stands de productores y restaurantes participantes, efectuar el pago electrónico y recibir una alerta sonora o mensaje cuando la orden se encuentre lista para ser retirada en el mostrador. La herramienta busca descomprimir las filas históricas en las horas pico del almuerzo y la cena en un predio que proyecta recibir a <strong>más de 40.000 comensales entre el 9 y el 12 de octubre</strong>, de 12:00 a medianoche.</p>\n<blockquote cite=\"https://www.barilocheopina.com/noticias/2026/10/06/95439-balc-suma-pedidos-desde-el-celular-para-elegir-platos-y-retirarlos-cuando-esten-listos\">\n<p>«Queremos que los visitantes disfruten del paseo, las clases magistrales y la carpa de BALC Invita sin perder tiempo parados en filas, aprovechando la tecnología para agilizar el servicio», subrayaron desde la organización conjunta de la AEHGB y el EMPROTUR.</p>\n</blockquote>\n<p>Mientras tanto, continúa a ritmo sostenido la venta de menús con 20% de descuento en el circuito urbano de más de 90 restaurantes adheridos.</p>",
   "citas": [
@@ -30,5 +24,17 @@
     "afluencia_proyectada": "Más de 40.000 visitantes a lo largo del fin de semana largo",
     "circuito_activo": "Más de 90 restaurantes en simultáneo con 20% de descuento con tarjeta BALC"
   },
-  "updated_at": "2026-10-06T23:07:34.931Z"
+  "area": "Pulso Turístico",
+  "fecha": "2026-10-02",
+  "foto": "https://barilocheopina-s3.cdn.net.ar/s3i233/2026/10/barilocheopina/images/02/80/16/2801644_7a0a6cec11a8f5f8e27bf1dd9b665937e064715d31cb494d83cf308dcf9e2583/md.webp",
+  "updated_at": "2026-10-07T13:18:12.793Z",
+  "curada_manualmente": true,
+  "imagen_url": "https://barilocheopina-s3.cdn.net.ar/s3i233/2026/10/barilocheopina/images/02/80/16/2801644_7a0a6cec11a8f5f8e27bf1dd9b665937e064715d31cb494d83cf308dcf9e2583/md.webp",
+  "media": {
+    "credito": "Prensa BALC / Bariloche Opina",
+    "requiere_foto": false,
+    "imagen_url": "https://barilocheopina-s3.cdn.net.ar/s3i233/2026/10/barilocheopina/images/02/80/16/2801644_7a0a6cec11a8f5f8e27bf1dd9b665937e064715d31cb494d83cf308dcf9e2583/md.webp"
+  },
+  "url": "https://www.barilocheopina.com/noticias/2026/10/06/95439-balc-suma-pedidos-desde-el-celular-para-elegir-platos-y-retirarlos-cuando-esten-listos",
+  "fecha_publicacion": "2026-10-02"
 }

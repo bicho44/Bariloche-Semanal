@@ -1,0 +1,48 @@
+{
+  "id": "2026-10-09_tren-patagonico-venta-pasajes-noviembre-diciembre-tarifas",
+  "titular": "El Tren Patagónico habilitó la venta de pasajes para noviembre y diciembre con tarifas diferenciales para residentes rionegrinos",
+  "hecho_central": "La empresa estatal Tren Patagónico S.A. abrió la venta oficial de boletos para los meses de noviembre y diciembre de 2026 en su trayecto troncal entre San Carlos de Bariloche y Viedma. El servicio mantiene tarifas subsidiadas para los habitantes de la provincia de Río Negro y esquemas de viaje en coches camarote, pulman y primera para la temporada alta de fin de año.",
+  "dossier_id": "transporte-urbano-mibus",
+  "seguimiento_id": "transporte-urbano-mibus",
+  "fuente": {
+    "id": "prensa-rio-negro",
+    "nombre": "Prensa Gobierno de Río Negro",
+    "url_nota": "https://prensa.rionegro.gov.ar/articulo/62048/tren-patagonico-habilito-la-venta-de-pasajes-para-noviembre-y-diciembre?n=OTE"
+  },
+  "cuerpo_html": "<p class=\"c-dossier-link\">📌 <em>Seguimiento: <a href=\"/seguimientos/transporte-urbano-mibus\">Transporte Urbano de Pasajeros y Conectividad Regional</a></em></p>\n<p>La empresa estatal de ferrocarriles rionegrina <strong>habilitó este viernes la venta de pasajes para los meses de noviembre y diciembre</strong> en su emblemático servicio entre Viedma y San Carlos de Bariloche, según reportó <a href=\"https://prensa.rionegro.gov.ar/articulo/62048/tren-patagonico-habilito-la-venta-de-pasajes-para-noviembre-y-diciembre?n=OTE\" target=\"_blank\" rel=\"noopener noreferrer\">Prensa Río Negro</a> y destacó <a href=\"https://www.barilocheopina.com/noticias/2026/10/09/95640-abrio-la-feria-de-bariloche-a-la-carta-2026-con-sabores-de-todo-el-pais-y-cordoba-como-invitada\" target=\"_blank\" rel=\"noopener noreferrer\">Bariloche Opina</a>.</p>\n<p>El tren recorre <strong>821 kilómetros</strong> conectando la costa con la cordillera y constituye un servicio esencial de transporte social para las comunidades de la Línea Sur (Jacobacci, Comallo, Pilcaniyeu). El cronograma para el cierre del año garantiza frecuencias semanales con tarifas subsidiadas para residentes provinciales, afianzando una alternativa ferroviaria frente a los altos costos del transporte automotor de larga distancia.</p>",
+  "citas": [
+    {
+      "autor": "Tren Patagónico S.A.",
+      "texto": "El tren no solo es un emblema de identidad e integración social para los pueblos de la Línea Sur, sino un pilar clave de conectividad sustentable que une el Atlántico con los Andes."
+    }
+  ],
+  "datos_duros": {
+    "periodo_viajes": "Frecuencias programadas para noviembre y diciembre de 2026",
+    "recorrido": "821 kilómetros entre Bariloche y Viedma a través de la estepa de la Línea Sur",
+    "beneficio_residente": "Tarifas bonificadas para pasajeros con domicilio en Río Negro",
+    "canales_venta": "Comercialización online en trenpatagonicosa.com.ar y boleterías de estaciones"
+  },
+  "area": "Gestión Pública",
+  "fecha": "2026-10-05",
+  "foto": "https://prensa.rionegro.gov.ar/_next/image?url=https%3A%2F%2Fsilvercoder.rionegro.gov.ar%2Ffiles%2F1791555269_d28e4c79d0ff6bcc481d.jpeg&w=3840&q=75",
+  "updated_at": "2026-10-12T14:12:44.989Z",
+  "curada_manualmente": false,
+  "cobertura_cruzada": 1,
+  "imagen_url": "https://prensa.rionegro.gov.ar/_next/image?url=https%3A%2F%2Fsilvercoder.rionegro.gov.ar%2Ffiles%2F1791555269_d28e4c79d0ff6bcc481d.jpeg&w=3840&q=75",
+  "media": {
+    "credito": "Prensa Tren Patagónico / Río Negro",
+    "requiere_foto": true,
+    "prompt_nanobanana": "Ilustración editorial en estilo animación 2D nostálgica y moderna: el convoy azul y blanco del Tren Patagónico avanzando por las vías a través de la inmensa estepa rionegrina al amanecer, con cerros andinos al fondo y esteparios arbustos de neneo, pasajeros asomados por las ventanillas. Estilo gráfico flat design, paleta en azul ferrocarril, ocre estepario, amarillo sol y celeste andino, sin texto.",
+    "imagen_url": "https://prensa.rionegro.gov.ar/_next/image?url=https%3A%2F%2Fsilvercoder.rionegro.gov.ar%2Ffiles%2F1791555269_d28e4c79d0ff6bcc481d.jpeg&w=3840&q=75"
+  },
+  "area_id": "gestion-publica",
+  "fuentes_consultadas": [
+    {
+      "id": "prensa-rio-negro",
+      "nombre": "Prensa Gobierno de Río Negro",
+      "url_nota": "https://prensa.rionegro.gov.ar/articulo/62048/tren-patagonico-habilito-la-venta-de-pasajes-para-noviembre-y-diciembre?n=OTE"
+    }
+  ],
+  "url": "https://prensa.rionegro.gov.ar/articulo/62048/tren-patagonico-habilito-la-venta-de-pasajes-para-noviembre-y-diciembre?n=OTE",
+  "fecha_publicacion": "2026-10-05"
+}

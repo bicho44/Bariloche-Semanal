@@ -1,0 +1,54 @@
+{
+  "id": "2026-10-12_cierre-record-bariloche-a-la-carta-promocion-brasil",
+  "titular": "Cierre récord de Bariloche a la Carta: más de 50.000 visitantes en la feria y anuncio de campaña de verano en Brasil",
+  "hecho_central": "La 13ª edición de Bariloche a la Carta concluyó este lunes feriado con un balance de concurrencia y ventas inédito: más de 50.000 personas visitaron la carpa gastronómica en el Centro Cívico y la ocupación hotelera promedió el 88% en el fin de semana largo. En el acto de cierre, el intendente Walter Cortés felicitó a la organización y anunció que el Municipio y el EMPROTUR iniciarán una fuerte campaña de promoción del verano en el mercado brasileño.",
+  "area_id": "vida-social-cultura",
+  "dossier_id": "temporada-turistica-nieve",
+  "seguimiento_id": "temporada-turistica-nieve",
+  "fuente": {
+    "id": "bariloche-opina",
+    "nombre": "Bariloche Opina",
+    "url_nota": "https://www.barilocheopina.com/noticias/2026/10/12/95691-bariloche-a-la-carta-cierra-hoy-con-cocina-en-vivo-cocteleria-y-musica-en-el-centro-civico"
+  },
+  "fuentes_consultadas": [
+    {
+      "id": "bariloche-opina",
+      "nombre": "Bariloche Opina",
+      "url_nota": "https://www.barilocheopina.com/noticias/2026/10/12/95691-bariloche-a-la-carta-cierra-hoy-con-cocina-en-vivo-cocteleria-y-musica-en-el-centro-civico"
+    },
+    {
+      "id": "el-cordillerano",
+      "nombre": "Diario El Cordillerano",
+      "url_nota": "https://www.elcordillerano.com.ar/noticias/2026/10/12/267042-viajaron-casi-1_5-millones-de-turistas-durante-el-fin-de-semana-largo"
+    }
+  ],
+  "cobertura_cruzada": 2,
+  "cuerpo_html": "<p class=\"c-dossier-link\">📌 <em>Seguimiento: <a href=\"/seguimientos/temporada-turistica-nieve\">Temporada Turística, Nieve y Conectividad</a></em></p>\n<p>Con clases magistrales, premiaciones y una masiva afluencia de público hasta última hora, <strong>Bariloche a la Carta 2026 bajó el telón de su 13ª edición con cifras históricas de convocatoria</strong>, según destacaron <a href=\"https://www.barilocheopina.com/noticias/2026/10/12/95691-bariloche-a-la-carta-cierra-hoy-con-cocina-en-vivo-cocteleria-y-musica-en-el-centro-civico\" target=\"_blank\" rel=\"noopener noreferrer\">Bariloche Opina</a> y <a href=\"https://www.elcordillerano.com.ar/noticias/2026/10/12/267042-viajaron-casi-1_5-millones-de-turistas-durante-el-fin-de-semana-largo\" target=\"_blank\" rel=\"noopener noreferrer\">Diario El Cordillerano</a>.</p>\n<p>Más de 50.000 residentes y turistas transitaron los pabellones de la feria en el Centro Cívico durante los cuatro días del feriado, impulsando la ocupación en hoteles y cabañas por encima del <strong>88%</strong>. Durante el acto de clausura, el intendente Walter Cortés anunció que el Municipio y el EMPROTUR volcarán su estrategia inmediata a la promoción del verano en el mercado de Brasil, buscando consolidar vuelos chárter y demanda receptiva para la temporada de lagos y playas 2026/2027.</p>",
+  "citas": [
+    {
+      "autor": "Walter Cortés",
+      "cargo": "Intendente de Bariloche",
+      "texto": "Bariloche a la Carta demostró una vez más la fuerza de nuestra gente y la calidad de nuestra gastronomía; ahora salimos a buscar al turista brasileño para que llene la ciudad también en el verano."
+    }
+  ],
+  "datos_duros": {
+    "asistencia_feria": "Más de 50.000 personas en la carpa del Centro Cívico durante 4 jornadas",
+    "ocupacion_hotelera": "88% de ocupación en plazas turísticas durante el fin de semana largo",
+    "circuitos_gastronomicos": "Más de 40.000 menús especiales servidos con descuento del 20%",
+    "promocion_exterior": "Lanzamiento de campaña oficial de verano en San Pablo, Curitiba y Porto Alegre"
+  },
+  "area": "Vida Social, Cultura & Comunidad",
+  "fecha": "2026-10-08",
+  "foto": "https://barilocheopina-s3.cdn.net.ar/s3i233/2026/10/barilocheopina/images/02/80/90/2809005_dfc797573e868a2a130814e1d9412d511b0e6e2fefaa8bdb2414cc9601fe60ee/md.webp",
+  "updated_at": "2026-10-14T15:12:46.546Z",
+  "curada_manualmente": false,
+  "imagen_url": "https://barilocheopina-s3.cdn.net.ar/s3i233/2026/10/barilocheopina/images/02/80/90/2809005_dfc797573e868a2a130814e1d9412d511b0e6e2fefaa8bdb2414cc9601fe60ee/md.webp",
+  "media": {
+    "credito": "Prensa BALC / Bariloche Opina",
+    "requiere_foto": true,
+    "prompt_nanobanana": "Ilustración editorial en estilo animación 2D festiva: el escenario del Centro Cívico de Bariloche con cocineros recibiendo trofeos gastronómicos y aplausos de una multitud de familias bajo banderines de fiesta andina, con la torre del reloj iluminada y el lago Nahuel Huapi en penumbra crepuscular. Tono alegre, paleta en dorado, azul noche, madera andina y blanco nieve, sin texto.",
+    "imagen_url": "https://barilocheopina-s3.cdn.net.ar/s3i233/2026/10/barilocheopina/images/02/80/90/2809005_dfc797573e868a2a130814e1d9412d511b0e6e2fefaa8bdb2414cc9601fe60ee/md.webp"
+  },
+  "url": "https://www.barilocheopina.com/noticias/2026/10/12/95691-bariloche-a-la-carta-cierra-hoy-con-cocina-en-vivo-cocteleria-y-musica-en-el-centro-civico",
+  "fecha_publicacion": "2026-10-08"
+}

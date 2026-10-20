@@ -1,0 +1,63 @@
+{
+  "id": "2026-10-14_paritaria-estatal-unter-ate-oferta-salarial",
+  "titular": "Tensión paritaria en Río Negro: Provincia ofertó 4,18% para octubre y UnTER denunció cordón policial en Trabajo",
+  "hecho_central": "En una jornada de máxima tirantez en Viedma, el gobierno de Río Negro presentó en la Mesa de la Función Pública y en la paritaria docente una propuesta de incremento salarial del 4,18% para los haberes de octubre (promedio IPC nacional y Viedma agosto-septiembre), una nueva actualización en diciembre con impacto en el aguinaldo y un bono extraordinario para inicios de 2027. El gremio docente UnTER denunció que la mesa comenzó con 75 minutos de retraso por un vallado policial en la Secretaría de Trabajo que impidió el ingreso de miembros de su Consejo Directivo Central, mientras ATE convocó a plenario urgente reclamando topes de endeudamiento y subas que compensen el alza de tarifas y alquileres.",
+  "dossier_id": "coparticipacion-finanzas-provincia",
+  "seguimiento_id": "coparticipacion-finanzas-provincia",
+  "fuente": {
+    "id": "bariloche-opina",
+    "nombre": "Bariloche Opina",
+    "url_nota": "https://www.barilocheopina.com/noticias/2026/10/14/95820-rio-negro-ofrecio-un-aumento-del-4_18por_ciento-para-octubre-y-una-nueva-actualizacion-en-diciembre"
+  },
+  "fuentes_consultadas": [
+    {
+      "id": "bariloche-opina",
+      "nombre": "Bariloche Opina",
+      "url_nota": "https://www.barilocheopina.com/noticias/2026/10/14/95820-rio-negro-ofrecio-un-aumento-del-4_18por_ciento-para-octubre-y-una-nueva-actualizacion-en-diciembre"
+    },
+    {
+      "id": "anbariloche",
+      "nombre": "ANBariloche",
+      "url_nota": "https://www.anbariloche.com.ar/amp/noticias/2026/10/14/119961-unter-denuncio-restricciones-en-la-paritaria-docente-y-cuestiono-la-presencia-policial"
+    },
+    {
+      "id": "anbariloche-ate",
+      "nombre": "ANBariloche (Gremiales)",
+      "url_nota": "https://www.anbariloche.com.ar/amp/noticias/2026/10/14/119976-paritarias-en-rio-negro-ate-analizara-la-oferta-salarial-en-un-plenario"
+    }
+  ],
+  "cobertura_cruzada": 3,
+  "cuerpo_html": "<p class=\"c-dossier-link\">📌 <em>Seguimiento: <a href=\"/seguimientos/coparticipacion-finanzas-provincia\">Finanzas Provinciales, Disputa Salarial y Servicios Esenciales</a></em></p>\n<p>La pulseada entre el Poder Ejecutivo rionegrino y los gremios estatales ingresó este miércoles 14 de octubre en una fase crítica con la presentación formal de la <strong>propuesta salarial para el último trimestre de 2026</strong> en la Mesa de la Función Pública y en la paritaria docente en Viedma.</p>\n<p>Según reportó <a href=\"https://www.barilocheopina.com/noticias/2026/10/14/95820-rio-negro-ofrecio-un-aumento-del-4_18por_ciento-para-octubre-y-una-nueva-actualizacion-en-diciembre\" target=\"_blank\" rel=\"noopener noreferrer\">Bariloche Opina</a>, el equipo gubernamental —encabezado por la titular de la Función Pública Tania Lastra, la secretaria de Hacienda Natalia Crociati y Lucas Entraigas por Gobierno— ofertó una <strong>actualización del 4,18% para los haberes de octubre</strong>, calculada sobre el promedio del IPC nacional y de Viedma entre agosto y septiembre. La oferta suma un compromiso de actualización en diciembre (con base en el IPC de octubre) que impactará en el Sueldo Anual Complementario (SAC), una suma extraordinaria a liquidar en el primer trimestre de 2027 y la continuidad de revisiones ligadas a la inflación para el año próximo.</p>\n<p>Sin embargo, el clima en la capital provincial estuvo signado por la tensión. Desde la Unión de Trabajadores de la Educación de Río Negro (<a href=\"https://www.anbariloche.com.ar/amp/noticias/2026/10/14/119961-unter-denuncio-restricciones-en-la-paritaria-docente-y-cuestiono-la-presencia-policial\" target=\"_blank\" rel=\"noopener noreferrer\">UnTER</a>) repudiaron que la reunión comenzara con 75 minutos de demora debido a un cordón policial que restringió el ingreso a la Secretaría de Trabajo e impidió la acreditación de la totalidad de su Consejo Directivo Central. Por su parte, la Asociación Trabajadores del Estado (<a href=\"https://www.anbariloche.com.ar/amp/noticias/2026/10/14/119976-paritarias-en-rio-negro-ate-analizara-la-oferta-salarial-en-un-plenario\" target=\"_blank\" rel=\"noopener noreferrer\">ATE</a>), conducida por Rodrigo Vicente, convocó a un plenario de secretarios generales para definir postura, advirtiendo que los sueldos estatales sufren el impacto acumulado de los incrementos en alquileres, tarifas y alimentos y reclamando un tope a los descuentos por préstamos que evite el sobreendeudamiento de los agentes públicos.</p>",
+  "citas": [
+    {
+      "autor": "Consejo Directivo Central de UnTER",
+      "texto": "Nuestros reclamos no necesitan policías. Necesitan respuestas. La Secretaría de Trabajo intervino sobre nuestra autonomía sindical demorando la mesa, y la docencia rionegrina necesita soluciones concretas en salarios, salud y escuelas."
+    },
+    {
+      "autor": "Rodrigo Vicente, secretario general de ATE Río Negro",
+      "texto": "La propuesta debe ser analizada en plenario frente a los incrementos en tarifas, alquileres y canasta básica familiar, resguardando el carácter alimentario del haber estatal."
+    }
+  ],
+  "datos_duros": {
+    "oferta_salarial": "4,18% de aumento en haberes de octubre según promedio IPC nacional y Viedma",
+    "esquema_proyectado": "Ajuste en diciembre con base en IPC octubre con impacto en el SAC y suma extraordinaria en 1T-2027",
+    "retraso_paritaria": "75 minutos de demora (de 10:00 a 11:15 hs) por restricciones de acceso policial en Trabajo",
+    "representacion_estatal": "Tania Lastra (Función Pública), Natalia Crociati (Hacienda) y Lucas Entraigas (Gobierno)",
+    "plenario_sindical": "ATE y UnTER definen aceptación o medidas de fuerza en asambleas y plenarios zonales"
+  },
+  "area": "Gestión Pública",
+  "fecha": "2026-10-10",
+  "foto": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/10/anbariloche/images/02/81/37/2813774_bb3cae9912765380670c27f60f713f81a528cdb26f26b20fecd0d76902990f0b/lg.webp",
+  "updated_at": "2026-10-15T13:36:48.781Z",
+  "curada_manualmente": false,
+  "imagen_url": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/10/anbariloche/images/02/81/37/2813774_bb3cae9912765380670c27f60f713f81a528cdb26f26b20fecd0d76902990f0b/lg.webp",
+  "media": {
+    "credito": "Prensa UnTER / Función Pública / Bariloche Semanal",
+    "requiere_foto": true,
+    "prompt_nanobanana": "Ilustración editorial en estilo animación 2D de negociación laboral: una mesa formal de paritarias con carpetas institucionales, gráficos de inflación e índices del IPC, representantes gremiales y funcionarios dialogando en un salón iluminado en Viedma, con la arquitectura pública rionegrina de fondo. Tono serio y analítico, paleta en azul cobalto, blanco institucional, verde gremial y gris plomo, sin texto.",
+    "imagen_url": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/10/anbariloche/images/02/81/37/2813774_bb3cae9912765380670c27f60f713f81a528cdb26f26b20fecd0d76902990f0b/lg.webp"
+  },
+  "area_id": "gestion-publica",
+  "url": "https://www.barilocheopina.com/noticias/2026/10/14/95820-rio-negro-ofrecio-un-aumento-del-4_18por_ciento-para-octubre-y-una-nueva-actualizacion-en-diciembre",
+  "fecha_publicacion": "2026-10-10"
+}

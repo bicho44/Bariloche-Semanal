@@ -218,12 +218,15 @@ export const DossiersView: React.FC<DossiersViewProps> = ({ onRefreshDossiers })
                                 ? 'bg-emerald-50 text-emerald-800 border-emerald-300'
                                 : d.estado === 'en_seguimiento'
                                 ? 'bg-amber-50 text-amber-800 border-amber-300'
+                                : d.estado === 'latente'
+                                ? 'bg-indigo-50 text-indigo-800 border-indigo-300'
                                 : 'bg-slate-100 text-slate-700 border-slate-300'
                             }`}
                             title="Cambiar estado en Firestore directamente"
                           >
                             <option value="activo">Activo</option>
                             <option value="en_seguimiento">En Seguimiento</option>
+                            <option value="latente">Latente</option>
                             <option value="resuelto">Resuelto</option>
                           </select>
                         </div>
@@ -250,6 +253,20 @@ export const DossiersView: React.FC<DossiersViewProps> = ({ onRefreshDossiers })
                           <span className="inline-flex items-center gap-1 text-[10px] font-semibold text-emerald-800 bg-emerald-50 border border-emerald-300 px-2 py-0.5 rounded-full" title="Blindado contra sobrescritura automática">
                             <ShieldCheck className="w-3 h-3 text-emerald-600" />
                             <span>Curada</span>
+                          </span>
+                        )}
+
+                        {/* Indicador de Criterio de Inclusión Estricto */}
+                        {d.criterio_inclusion && (
+                          <span className="inline-flex items-center gap-1 text-[10px] font-semibold text-blue-800 bg-blue-50 border border-blue-300 px-2 py-0.5 rounded-full" title={d.criterio_inclusion}>
+                            <span>Alcance Estricto</span>
+                          </span>
+                        )}
+
+                        {/* Indicador de Ficha Técnica Inmutable */}
+                        {d.datos_duros_verificados && Object.keys(d.datos_duros_verificados).length > 0 && (
+                          <span className="inline-flex items-center gap-1 text-[10px] font-semibold text-teal-800 bg-teal-50 border border-teal-300 px-2 py-0.5 rounded-full">
+                            <span>Ficha Técnica ({Object.keys(d.datos_duros_verificados).length})</span>
                           </span>
                         )}
 
@@ -394,16 +411,16 @@ export const DossiersView: React.FC<DossiersViewProps> = ({ onRefreshDossiers })
                             <span>Media & Arte Editorial</span>
                           </h4>
                           <div className="bg-white p-3.5 rounded-lg border border-slate-200 flex flex-col sm:flex-row gap-3 items-start">
-                            {d.media?.imagen_url && (
+                            {d.media?.imagen_url?.trim() ? (
                               <div className="w-24 h-24 rounded-lg overflow-hidden bg-slate-100 border border-slate-200 shrink-0">
                                 <img
-                                  src={d.media.imagen_url}
+                                  src={d.media.imagen_url.trim()}
                                   referrerPolicy="no-referrer"
                                   alt={d.titulo}
                                   className="w-full h-full object-cover"
                                 />
                               </div>
-                            )}
+                            ) : null}
                             <div className="space-y-1.5 min-w-0 flex-1 text-xs">
                               {d.media?.credito && (
                                 <p className="text-slate-500 font-medium">

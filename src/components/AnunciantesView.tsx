@@ -216,7 +216,7 @@ export const AnunciantesView: React.FC = () => {
                     <td className="py-3 px-4">
                       <div className="w-24 h-10 rounded bg-slate-100 border border-slate-200 overflow-hidden flex items-center justify-center">
                         <img
-                          src={a.banner_url || DEFAULT_BANNER_FALLBACK}
+                          src={a.banner_url?.trim() || DEFAULT_BANNER_FALLBACK}
                           alt={a.texto_alt || a.nombre || 'Banner'}
                           referrerPolicy="no-referrer"
                           className="w-full h-full object-cover"

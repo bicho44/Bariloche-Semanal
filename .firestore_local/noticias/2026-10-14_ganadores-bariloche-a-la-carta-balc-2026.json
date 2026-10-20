@@ -1,0 +1,55 @@
+{
+  "id": "2026-10-14_ganadores-bariloche-a-la-carta-balc-2026",
+  "titular": "Consagración de BALC 2026: Brazarte ganó el Plato de Oro con trucha patagónica y premiaron a los destacados del circuito",
+  "hecho_central": "Con más de 90 propuestas gastronómicas en circuito y una feria en el Centro Cívico que reunió a 40 productores de las cuatro regiones rionegrinas, Bariloche a la Carta (BALC 2026) proclamó este miércoles 14 de octubre sus platos ganadores. El Plato de Oro fue para el restaurante Brazarte (Hotel Sheraton Bariloche) del chef Aníbal Ramírez por su 'Cortejo de Trucha Patagónica' con vermut Piuke y manzanas del Valle; Llao Llao Resort se consagró en Mejor Postre, Carnero en Mejor Entrada y Maleza en Bares y Cervecerías, refrendando el liderazgo gastronómico de la Patagonia andina.",
+  "dossier_id": "temporada-turistica-nieve",
+  "seguimiento_id": "temporada-turistica-nieve",
+  "fuente": {
+    "id": "anbariloche",
+    "nombre": "ANBariloche",
+    "url_nota": "https://www.anbariloche.com.ar/amp/noticias/2026/10/14/119928-estos-son-los-platos-ganadores-del-bariloche-a-la-carta-2026"
+  },
+  "fuentes_consultadas": [
+    {
+      "id": "anbariloche",
+      "nombre": "ANBariloche",
+      "url_nota": "https://www.anbariloche.com.ar/amp/noticias/2026/10/14/119928-estos-son-los-platos-ganadores-del-bariloche-a-la-carta-2026"
+    },
+    {
+      "id": "bariloche-opina",
+      "nombre": "Bariloche Opina",
+      "url_nota": "https://www.barilocheopina.com/noticias/2026/10/14/95811-el-programa-cerca-vuelve-a-bariloche-con-mas-de-20-servicios-y-atencion-de-tramites"
+    }
+  ],
+  "cobertura_cruzada": 2,
+  "cuerpo_html": "<p class=\"c-dossier-link\">📌 <em>Seguimiento: <a href=\"/seguimientos/temporada-turistica-nieve\">Temporada Turística, Gastronomía e Identidad Productiva</a></em></p>\n<p>Tras ocho jornadas de intensa actividad culinaria y un movimiento turístico que revitalizó la ocupación en el fin de semana largo, este 14 de octubre se oficializaron los veredictos y consagraciones de la duodécima edición de <a href=\"https://www.anbariloche.com.ar/amp/noticias/2026/10/14/119928-estos-son-los-platos-ganadores-del-bariloche-a-la-carta-2026\" target=\"_blank\" rel=\"noopener noreferrer\">Bariloche a la Carta (BALC 2026)</a>.</p>\n<p>El codiciado <strong>Plato de Oro fue otorgado al restaurante Brazarte</strong>, del Hotel Sheraton Bariloche, con la creación del chef Aníbal Ramírez titulada «Cortejo de Trucha Patagónica»: una propuesta de alta escuela culinaria que combinó trucha salmonada de criadero cordillerano, beurre blanc con Vermut Piuke regional, manzanas del Alto Valle rionegrino, mousseline de nabo y zanahorias glaseadas.</p>\n<p>El certamen también reconoció la excelencia técnica de otros establecimientos del circuito urbano: Carnero se alzó con la Mejor Entrada gracias a su «Pan, Humo y Río» (torta frita rellena con trucha ahumada, manzana asada e hinojo silvestre); el restaurante Patagonia de <a href=\"https://www.barilocheopina.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Llao Llao Resort, Golf & Spa</a> obtuvo el premio al Mejor Postre con su «Recorrido dulce por Río Negro»; mientras que Maleza dominó en Bares y Cervecerías con un pan bao de calamar y trucha bautizado «Contraste de tinta sobre mar». En la feria comunitaria del Centro Cívico, la distinción popular recayó en la hamburguesa casera de jabalí presentada por Carnicerías del Barrio junto a Patagonia BBQ. Más allá de la competencia, el balance de la Mesa de Cierre destaca el salto cualitativo de la Feria Punto Río Negro, que logró articular a 40 pequeños productores de cordillera, meseta, valle y costa atlántica con las cartas de los principales hoteles de la región.</p>",
+  "citas": [
+    {
+      "autor": "Comisión Organizadora de Bariloche a la Carta (BALC 2026)",
+      "texto": "Las elaboraciones premiadas sintetizaron la integración productiva provincial: la trucha de cordillera, las manzanas del Valle, la carne de la Región Sur y los frutos de nuestro mar patagónico."
+    }
+  ],
+  "datos_duros": {
+    "plato_de_oro": "Brazarte (Sheraton Bariloche) - Chef Aníbal Ramírez por 'Cortejo de Trucha Patagónica'",
+    "mejor_entrada": "Carnero por 'Pan, Humo y Río' (torta frita, trucha ahumada, manzana asada e hinojo)",
+    "mejor_postre": "Patagonia (Llao Llao Resort, Golf & Spa) por 'Recorrido dulce por Río Negro'",
+    "bares_y_cervecerias": "Maleza por 'Contraste de tinta sobre mar' (pan bao de calamar con trucha patagónica)",
+    "menu_punto_rio_negro": "Solís (cordero, ciervo, langostinos, frutillas, avellanas y chocolate)",
+    "mejor_plato_feria": "Carnicerías del Barrio & Patagonia Bbq (hamburguesa casera de jabalí)"
+  },
+  "area": "Gestión Pública",
+  "fecha": "2026-10-10",
+  "foto": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/10/anbariloche/images/02/81/30/2813088_b22be2e28a12c69a3fce130a2e67ff4eac86c1ea0e3d2a15df92b8cbf66ec2b9/lg.webp",
+  "updated_at": "2026-10-15T13:34:38.824Z",
+  "curada_manualmente": false,
+  "imagen_url": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/10/anbariloche/images/02/81/30/2813088_b22be2e28a12c69a3fce130a2e67ff4eac86c1ea0e3d2a15df92b8cbf66ec2b9/lg.webp",
+  "media": {
+    "credito": "Prensa BALC / ANBariloche",
+    "requiere_foto": true,
+    "prompt_nanobanana": "Ilustración editorial en estilo animación 2D gastronómica: un refinado plato de trucha patagónica montado con emulsión de vermut, reducción de manzanas del valle y guarnición de nabos glaseados sobre vajilla de cerámica artesanal, en una mesa rústica de madera con fondo del lago Nahuel Huapi y copas de vino patagónico. Paleta cálida en ámbar manzana, coral trucha, verde hierba y azul lago, sin texto.",
+    "imagen_url": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/10/anbariloche/images/02/81/30/2813088_b22be2e28a12c69a3fce130a2e67ff4eac86c1ea0e3d2a15df92b8cbf66ec2b9/lg.webp"
+  },
+  "area_id": "gestion-publica",
+  "url": "https://www.anbariloche.com.ar/amp/noticias/2026/10/14/119928-estos-son-los-platos-ganadores-del-bariloche-a-la-carta-2026",
+  "fecha_publicacion": "2026-10-10"
+}
