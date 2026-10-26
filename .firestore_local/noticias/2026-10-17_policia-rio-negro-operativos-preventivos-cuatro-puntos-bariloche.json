@@ -1,0 +1,46 @@
+{
+  "id": "2026-10-17_policia-rio-negro-operativos-preventivos-cuatro-puntos-bariloche",
+  "titular": "La Policía de Río Negro desplegó controles preventivos en cuatro puntos estratégicos de Bariloche",
+  "hecho_central": "La Unidad Regional III de la Policía de Río Negro coordinó operativos de seguridad y verificación vehicular con comisarías 27°, 42° y subcomisaría 80° en sectores de alta densidad urbana y accesos viales de Bariloche.",
+  "dossier_id": null,
+  "seguimiento_id": null,
+  "fuente": {
+    "id": "prensa-rio-negro",
+    "nombre": "Prensa Río Negro",
+    "url_nota": "https://prensa.rionegro.gov.ar/articulo/62224/la-policia-desplego-controles-preventivos-en-distintos-puntos-de-bariloche?n=OTE"
+  },
+  "fuentes_consultadas": [
+    {
+      "id": "prensa-rio-negro",
+      "nombre": "Prensa Río Negro",
+      "url_nota": "https://prensa.rionegro.gov.ar/articulo/62224/la-policia-desplego-controles-preventivos-en-distintos-puntos-de-bariloche?n=OTE"
+    }
+  ],
+  "cobertura_cruzada": 1,
+  "cuerpo_html": "<p>Efectivos dependientes de la Unidad Regional III de la Policía de Río Negro llevaron a cabo durante las últimas horas dispositivos de saturación preventiva en cuatro cuadrantes urbanos de San Carlos de Bariloche. El despliegue involucró al personal de las <a href=\"https://prensa.rionegro.gov.ar/articulo/62224/la-policia-desplego-controles-preventivos-en-distintos-puntos-de-bariloche?n=OTE\" target=\"_blank\" rel=\"noopener noreferrer\">comisarías 27° y 42° junto a la subcomisaría 80°</a>, con puestos fijos y patrullas móviles de interceptación selectiva de vehículos.</p><p>Los controles se concentraron en verificar documentación de tránsito, titularidad de motocicletas y constatar antecedentes de conductores mediante el sistema informático policial, en el marco del esquema de refuerzo de seguridad urbana dispuesto para los fines de semana.</p>",
+  "citas": [
+    {
+      "autor": "Jefatura de Policía de Río Negro",
+      "texto": "Las tareas forman parte del plan operacional de saturación para la prevención de delitos contra la propiedad y el control de rodados."
+    }
+  ],
+  "datos_duros": {
+    "unidad": "Unidad Regional III",
+    "dependencias": "Comisaría 27° (Melipal), Comisaría 42° (Alto), Subcomisaría 80° (Este)",
+    "alcance": "Identificación biométrica, control vehicular y patrullaje de saturación"
+  },
+  "area": "Gestión Pública",
+  "fecha": "2026-10-13",
+  "foto": "https://prensa.rionegro.gov.ar/_next/image?url=https%3A%2F%2Fsilvercoder.rionegro.gov.ar%2Ffiles%2F1792254536_d7a8b07d97731115dbba.png&w=1920&q=75",
+  "updated_at": "2026-10-19T12:05:36.945Z",
+  "curada_manualmente": false,
+  "imagen_url": "https://prensa.rionegro.gov.ar/_next/image?url=https%3A%2F%2Fsilvercoder.rionegro.gov.ar%2Ffiles%2F1792254536_d7a8b07d97731115dbba.png&w=1920&q=75",
+  "media": {
+    "credito": "Prensa Río Negro / Policía de Río Negro",
+    "requiere_foto": false,
+    "imagen_url": "https://prensa.rionegro.gov.ar/_next/image?url=https%3A%2F%2Fsilvercoder.rionegro.gov.ar%2Ffiles%2F1792254536_d7a8b07d97731115dbba.png&w=1920&q=75"
+  },
+  "area_id": "gestion-publica",
+  "url": "https://prensa.rionegro.gov.ar/articulo/62224/la-policia-desplego-controles-preventivos-en-distintos-puntos-de-bariloche?n=OTE",
+  "fecha_publicacion": "2026-10-13"
+}

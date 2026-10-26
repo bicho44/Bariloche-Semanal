@@ -1,0 +1,47 @@
+{
+  "id": "2026-10-16_emprotur-chile-costos-transporte-turismo-estudiantil",
+  "curada_manualmente": false,
+  "media": {
+    "imagen_url": null,
+    "credito": "Sin imagen verificada",
+    "requiere_foto": true,
+    "prompt_nanobanana": "Ilustración editorial en estilo animación 2D sobre turismo estudiantil e integración trasandina: grupos de jóvenes estudiantes chilenos con mochilas y camperas abrigadas descendiendo de un micro de larga distancia frente a un mirador del lago Nahuel Huapi, con banderas y cumbres andinas de fondo. Colores planos, paleta en azul lago, madera de lenga, rojo suave y blanco, sin texto."
+  },
+  "citas": [
+    {
+      "autor": "Eric Guzmán, secretario de Turismo y presidente del EMPROTUR",
+      "texto": "El turismo estudiantil chileno está altamente consolidado, pero lo que está consolidado hay que cuidarlo. Los operadores tienen alternativas frente a otros destinos como Brasil; si estamos interesados en no perderlo, tenemos que ver qué cuestiones de costos de transporte podemos resolver al volver a Bariloche."
+    }
+  ],
+  "fuente": {
+    "url_nota": "https://www.barilocheopina.com/noticias/2026/10/16/95972-bariloche-busca-evitar-que-los-costos-del-transporte-afecten-los-viajes-estudiantiles-desde-chile",
+    "nombre": "Bariloche Opina",
+    "id": "bariloche-opina"
+  },
+  "area_id": "gestion-publica",
+  "area": "Gestión Pública",
+  "cobertura_cruzada": 1,
+  "foto": "https://barilocheopina1.cdn.net.ar/252/barilocheopina/images/96/55/965533_8b23a6edd4f123ad2f9b3251cb9475aa30f6bd459b8c1cead8a32021a97890ef/lg.webp",
+  "fuentes_consultadas": [
+    {
+      "id": "bariloche-opina",
+      "nombre": "Bariloche Opina",
+      "url_nota": "https://www.barilocheopina.com/noticias/2026/10/16/95972-bariloche-busca-evitar-que-los-costos-del-transporte-afecten-los-viajes-estudiantiles-desde-chile"
+    }
+  ],
+  "seguimiento_id": "temporada-turistica-nieve",
+  "cuerpo_html": "<p class=\"c-lead\">El segmento de turismo joven y viajes de egresados provenientes de Chile —uno de los motores económicos clave de la media estación en Bariloche— encendió una luz de alerta durante la ronda de negocios desarrollada esta semana en Santiago con más de 140 empresas del sector: operadores chilenos manifestaron serias dificultades para sostener los programas debido al encarecimiento de los traslados y el transporte dentro de la ciudad rionegrina.</p>\n<p>El diagnóstico fue expuesto por el secretario de Turismo de Bariloche y presidente del EMPROTUR, Eric Guzmán, quien en diálogo con <a href=\"https://www.barilocheopina.com/noticias/2026/10/16/95972-bariloche-busca-evitar-que-los-costos-del-transporte-afecten-los-viajes-estudiantiles-desde-chile\" target=\"_blank\" rel=\"noopener noreferrer\">Bariloche Opina</a> explicó que las empresas trasandinas advirtieron que la suba de costos operativos en excursiones y circuitos internos pone en jaque la competitividad de Bariloche frente a ofertas alternativas emergentes en el sur de Brasil.</p>\n<p>Guzmán adelantó que al regresar a la ciudad abrirá una mesa de trabajo con transportistas, prestadores receptivos y autoridades comunales para evaluar esquemas que amortigüen los valores antes del inicio del pico de arribos previsto para noviembre y diciembre.</p>\n<p class=\"c-dossier-link\">📌 <em>Dossier: <a href=\"/dossiers/temporada-turistica-nieve\">Gobernanza Turística, Bariloche a la Carta (BALC) y Conectividad Aérea</a></em></p>",
+  "hecho_central": "Durante una misión comercial en Santiago de Chile con más de 140 operadores turísticos, el presidente del EMPROTUR Eric Guzmán y la directora Natacha Vázquez recogieron la advertencia de agencias trasandinas sobre el impacto de los fletes y colectivos locales en los paquetes de viaje, alertando sobre riesgos de desvío de contingentes hacia Brasil para noviembre y diciembre.",
+  "imagen_url": "https://barilocheopina1.cdn.net.ar/252/barilocheopina/images/96/55/965533_8b23a6edd4f123ad2f9b3251cb9475aa30f6bd459b8c1cead8a32021a97890ef/lg.webp",
+  "fecha_publicacion": "2026-10-12",
+  "titular": "Alerta del EMPROTUR en Santiago: prestadores chilenos advierten que el costo de los traslados internos complica la competitividad del turismo estudiantil",
+  "dossier_id": "temporada-turistica-nieve",
+  "fecha": "2026-10-12",
+  "url": "https://www.barilocheopina.com/noticias/2026/10/16/95972-bariloche-busca-evitar-que-los-costos-del-transporte-afecten-los-viajes-estudiantiles-desde-chile",
+  "updated_at": "2026-10-17T01:59:54.767Z",
+  "datos_duros": [
+    "Misión comercial en Santiago de Chile con 140 operadores y agencias de turismo.",
+    "Temporada fuerte de turismo estudiantil chileno concentrada en noviembre y diciembre.",
+    "Alerta por desvío de demanda hacia plazas del sur de Brasil debido a la incidencia del transporte interno en Bariloche."
+  ]
+}

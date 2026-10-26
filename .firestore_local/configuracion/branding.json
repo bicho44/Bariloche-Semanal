@@ -8,7 +8,6 @@
     "secundario": "#0284c7",
     "primario": "#004080"
   },
-  "nombre_medio": "Catalalogo Bariloche",
   "eslogan": "Un resumen semanal de lo que pasa en Bariloche",
   "clima": {
     "latitud": -41.1335,
@@ -18,13 +17,23 @@
     "activo": true,
     "pais": "Argentina"
   },
+  "optimizacion_imagenes": {
+    "preservar_canal_alfa": true,
+    "max_ancho": 1920,
+    "auto_convertir_webp": true,
+    "color_fondo_alfa": "#ffffff",
+    "formato_recorte_predeterminado": "16:9",
+    "max_alto": 1080,
+    "calidad_compresion": 80
+  },
+  "nombre_medio": "Pulso Bariloche",
   "contacto": {
     "email_redaccion": "redaccion@barilochesemanal.com.ar",
     "whatsapp_comercial": "+54 9 294 455-8822",
-    "whatsapp": "5492944586262",
-    "instagram": "@catalogobariloche",
-    "email": "admin@catalogobariloche.com.ar",
-    "sitio_web": "https://catalogobariloche.com.ar"
+    "whatsapp": "+5492944586262",
+    "instagram": "@pulsobariloche",
+    "sitio_web": "https://pulsobariloche.ar",
+    "email": "redaccion@pulsobariloche.ar"
   },
-  "updated_at": "2026-10-06T13:46:54.378Z"
+  "updated_at": "2026-10-17T04:45:52.456Z"
 }

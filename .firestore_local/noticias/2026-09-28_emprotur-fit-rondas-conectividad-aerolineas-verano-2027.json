@@ -1,17 +1,21 @@
 {
   "id": "2026-09-28_emprotur-fit-rondas-conectividad-aerolineas-verano-2027",
-  "titular": "El EMPROTUR inició rondas comerciales con aerolíneas en la FIT para sostener las frecuencias récord hacia el verano 2026/2027",
-  "hecho_central": "Durante las jornadas profesionales de la FIT 2026 en Buenos Aires, la directora ejecutiva del EMPROTUR, Natacha Vázquez, encabezó mesas de negociación técnica con directivos de Aerolíneas Argentinas y Sky Airline para asegurar las frecuencias de vuelos hacia Bariloche de cara al verano y posicionar la agenda de eventos bajo el concepto 'Volvé Diferente'.",
-  "fecha_publicacion": "2026-09-28",
-  "area_id": "turismo",
   "dossier_id": null,
-  "seguimiento_id": "temporada-turistica-nieve",
   "fuente": {
-    "id": "bariloche-opina",
+    "url_nota": "https://www.barilocheopina.com/noticias/2026/09/28/95020-natacha-vazquez-queremos-seguir-sosteniendo-la-conectividad-de-bariloche-en-el-tiempo",
     "nombre": "Bariloche Opina",
-    "url_nota": "https://www.barilocheopina.com/noticias/2026/09/28/95020-natacha-vazquez-queremos-seguir-sosteniendo-la-conectividad-de-bariloche-en-el-tiempo"
+    "id": "bariloche-opina"
   },
-  "cuerpo_html": "<p class=\"c-dossier-link\">📌 <em>Seguimiento: <a href=\"/seguimientos/temporada-turistica-nieve\">Temporada Turística, Nieve y Conectividad</a></em></p>\n<p>Tras un fin de semana de multitudinaria afluencia de público general en La Rural, <strong>el Ente Mixto de Promoción Turística (EMPROTUR) activó este lunes en la FIT 2026 su agenda de reuniones comerciales B2B orientadas a defender la malla de conectividad aérea hacia San Carlos de Bariloche</strong>, según reportó <a href=\"https://www.barilocheopina.com/noticias/2026/09/28/95020-natacha-vazquez-queremos-seguir-sosteniendo-la-conectividad-de-bariloche-en-el-tiempo\" target=\"_blank\" rel=\"noopener noreferrer\">Bariloche Opina</a>.</p>\n<p>La directora ejecutiva del organismo, Natacha Vázquez, mantuvo encuentros con ejecutivos de Aerolíneas Argentinas y de la aerolínea chilena Sky Airline con el propósito de consolidar rutas directas y evitar la reducción estacional de vuelos hacia el aeropuerto internacional Teniente Candelaria. La comitiva local promocionó el nuevo posicionamiento de marca <em>«Volvé Diferente»</em>, apalancado en la red de refugios de montaña y en el turismo de bienestar, junto a la difusión de grandes eventos de baja temporada como Bariloche a la Carta (BALC) y la carrera internacional Ultra Trail du Mont Blanc.</p>\n<blockquote cite=\"https://www.barilocheopina.com/noticias/2026/09/28/95020-natacha-vazquez-queremos-seguir-sosteniendo-la-conectividad-de-bariloche-en-el-tiempo\"><p>«Bariloche tuvo un invierno histórico en conectividad aérea; ahora debemos traccionar acuerdos comerciales sólidos para que las aerolíneas mantengan sus frecuencias activas durante los meses de primavera y verano», remarcó Vázquez.</p></blockquote>\n<p>Las rondas comerciales continuarán durante la jornada del martes con operadores mayoristas de turismo receptivo y emisoras de Brasil, Uruguay y Chile.</p>",
+  "updated_at": "2026-09-29T12:05:48.759Z",
+  "datos_duros": {
+    "lema_marca": "'Volvé Diferente' (turismo de bienestar, refugios y naturaleza)",
+    "ambito": "Jornadas B2B y comerciales de la 30ª Feria Internacional de Turismo (FIT)",
+    "aerolineas_negociacion": "Aerolíneas Argentinas y Sky Airline (frecuencias nacionales y vuelos directos con Santiago de Chile)",
+    "agenda_promocional": "Bariloche a la Carta (octubre), Ultra Trail Mont Blanc (noviembre) y temporada de verano"
+  },
+  "area_id": "turismo",
+  "imagen_url": "https://barilocheopina-s3.cdn.net.ar/s3i233/2026/09/barilocheopina/images/02/78/99/2789938_8e1666425e64aee6fc8837ff29fe5498110e7d180dc9a996341b90c4e61101db/md.webp",
+  "seguimiento_id": "temporada-turistica-nieve",
   "citas": [
     {
       "autor": "Natacha Vázquez",
@@ -19,21 +23,18 @@
       "texto": "Tuvimos un récord de conectividad aérea durante el invierno y el gran desafío comercial es sostener esa presencia en el tiempo. Tenemos reuniones fijadas con Sky y Aerolíneas para que Bariloche siga en un lugar de privilegio hacia la temporada de verano."
     }
   ],
-  "datos_duros": {
-    "ambito": "Jornadas B2B y comerciales de la 30ª Feria Internacional de Turismo (FIT)",
-    "aerolineas_negociacion": "Aerolíneas Argentinas y Sky Airline (frecuencias nacionales y vuelos directos con Santiago de Chile)",
-    "agenda_promocional": "Bariloche a la Carta (octubre), Ultra Trail Mont Blanc (noviembre) y temporada de verano",
-    "lema_marca": "'Volvé Diferente' (turismo de bienestar, refugios y naturaleza)"
-  },
-  "area": "Pulso Turístico",
-  "fecha": "2026-09-28",
-  "foto": "https://barilocheopina-s3.cdn.net.ar/s3i233/2026/09/barilocheopina/images/02/78/99/2789938_8e1666425e64aee6fc8837ff29fe5498110e7d180dc9a996341b90c4e61101db/md.webp",
-  "updated_at": "2026-09-29T12:05:48.759Z",
-  "imagen_url": "https://barilocheopina-s3.cdn.net.ar/s3i233/2026/09/barilocheopina/images/02/78/99/2789938_8e1666425e64aee6fc8837ff29fe5498110e7d180dc9a996341b90c4e61101db/md.webp",
   "media": {
-    "credito": "Prensa EMPROTUR / Bariloche Opina",
-    "requiere_foto": false,
-    "imagen_url": "https://barilocheopina-s3.cdn.net.ar/s3i233/2026/09/barilocheopina/images/02/78/99/2789938_8e1666425e64aee6fc8837ff29fe5498110e7d180dc9a996341b90c4e61101db/md.webp"
+    "imagen_url": null,
+    "credito": "Sin imagen verificada",
+    "requiere_foto": true,
+    "prompt_nanobanana": ""
   },
-  "url": "https://www.barilocheopina.com/noticias/2026/09/28/95020-natacha-vazquez-queremos-seguir-sosteniendo-la-conectividad-de-bariloche-en-el-tiempo"
+  "hecho_central": "Durante las jornadas profesionales de la FIT 2026 en Buenos Aires, la directora ejecutiva del EMPROTUR, Natacha Vázquez, encabezó mesas de negociación técnica con directivos de Aerolíneas Argentinas y Sky Airline para asegurar las frecuencias de vuelos hacia Bariloche de cara al verano y posicionar la agenda de eventos bajo el concepto 'Volvé Diferente'.",
+  "cuerpo_html": "<p class=\"c-dossier-link\">📌 <em>Seguimiento: <a href=\"/seguimientos/temporada-turistica-nieve\">Temporada Turística, Nieve y Conectividad</a></em></p>\n<p>Tras un fin de semana de multitudinaria afluencia de público general en La Rural, <strong>el Ente Mixto de Promoción Turística (EMPROTUR) activó este lunes en la FIT 2026 su agenda de reuniones comerciales B2B orientadas a defender la malla de conectividad aérea hacia San Carlos de Bariloche</strong>, según reportó <a href=\"https://www.barilocheopina.com/noticias/2026/09/28/95020-natacha-vazquez-queremos-seguir-sosteniendo-la-conectividad-de-bariloche-en-el-tiempo\" target=\"_blank\" rel=\"noopener noreferrer\">Bariloche Opina</a>.</p>\n<p>La directora ejecutiva del organismo, Natacha Vázquez, mantuvo encuentros con ejecutivos de Aerolíneas Argentinas y de la aerolínea chilena Sky Airline con el propósito de consolidar rutas directas y evitar la reducción estacional de vuelos hacia el aeropuerto internacional Teniente Candelaria. La comitiva local promocionó el nuevo posicionamiento de marca <em>«Volvé Diferente»</em>, apalancado en la red de refugios de montaña y en el turismo de bienestar, junto a la difusión de grandes eventos de baja temporada como Bariloche a la Carta (BALC) y la carrera internacional Ultra Trail du Mont Blanc.</p>\n<blockquote cite=\"https://www.barilocheopina.com/noticias/2026/09/28/95020-natacha-vazquez-queremos-seguir-sosteniendo-la-conectividad-de-bariloche-en-el-tiempo\"><p>«Bariloche tuvo un invierno histórico en conectividad aérea; ahora debemos traccionar acuerdos comerciales sólidos para que las aerolíneas mantengan sus frecuencias activas durante los meses de primavera y verano», remarcó Vázquez.</p></blockquote>\n<p>Las rondas comerciales continuarán durante la jornada del martes con operadores mayoristas de turismo receptivo y emisoras de Brasil, Uruguay y Chile.</p>",
+  "url": "https://www.barilocheopina.com/noticias/2026/09/28/95020-natacha-vazquez-queremos-seguir-sosteniendo-la-conectividad-de-bariloche-en-el-tiempo",
+  "fecha": "2026-09-28",
+  "area": "Pulso Turístico",
+  "foto": "https://barilocheopina-s3.cdn.net.ar/s3i233/2026/09/barilocheopina/images/02/78/99/2789938_8e1666425e64aee6fc8837ff29fe5498110e7d180dc9a996341b90c4e61101db/md.webp",
+  "fecha_publicacion": "2026-09-28",
+  "titular": "El EMPROTUR inició rondas comerciales con aerolíneas en la FIT para sostener las frecuencias récord hacia el verano 2026/2027"
 }

@@ -1,28 +1,5 @@
 {
   "id": "2026-09-23_alerta-roja-temporal-corte-ruta-40-cierre-senderos-pnnh",
-  "fecha_publicacion": "2026-09-23",
-  "titular": "Alerta roja por temporal en la cordillera: cortan la Ruta 40 en Siete Lagos y cierran senderos del Parque Nacional",
-  "hecho_central": "El SMN emitió alerta roja por lluvias intensas de hasta 150 mm y ráfagas superiores a 90 km/h, obligando al corte total nocturno preventivo de la Ruta 40 Siete Lagos y la clausura total de sendas y circuitos en el Parque Nacional Nahuel Huapi.",
-  "area_id": "turismo",
-  "dossier_id": "infraestructura-terminal-rutas",
-  "fuente": {
-    "id": "anbariloche",
-    "nombre": "ANBariloche",
-    "url_nota": "https://www.anbariloche.com.ar/noticias/2026/09/23/117982-alerta-roja-cortan-la-ruta-40-en-siete-lagos-y-piden-evitar-viajar-durante-la-noche"
-  },
-  "novedad_respecto_a_dias_previos": "Declaración del nivel máximo de alerta meteorológica (rojo) con cierre preventivo de 19 a 08 hs en el corredor Siete Lagos por riesgo de aludes y desmoronamientos en suelos saturados.",
-  "datos_duros": {
-    "alerta": "Roja",
-    "precipitaciones_estimadas_mm": 150,
-    "rafagas_max_kmh": 90,
-    "horario_corte_ruta_40": "19:00 a 08:00 hs"
-  },
-  "citas": [
-    {
-      "autor": "Carlos Madjinca (Protección Civil Bariloche)",
-      "texto": "Los suelos se encuentran con saturación hídrica tras las nevadas recientes, lo que multiplica el riesgo de caída de ramas, árboles y deslizamiento de laderas sobre los caminos."
-    }
-  ],
   "entidades": {
     "actores": [
       "vialidad-nacional",
@@ -38,16 +15,41 @@
       "san-martin-de-los-andes"
     ]
   },
-  "cobertura_cruzada": 3,
+  "titular": "Alerta roja por temporal en la cordillera: cortan la Ruta 40 en Siete Lagos y cierran senderos del Parque Nacional",
   "cuerpo_html": "<p class=\"c-dossier-link\">📌 <em>Dossier: <a href=\"/dossiers/infraestructura-terminal-rutas\">Nueva Terminal de Ómnibus, Rotonda Esandi y Ruta 40</a></em></p>\n<p>El Servicio Meteorológico Nacional (SMN) elevó a <strong>alerta roja meteorológica</strong> la advertencia por lluvias torrenciales y vientos intensos en la cordillera rionegrina y neuquina, con estimaciones de precipitaciones acumuladas de hasta 150 milímetros y ráfagas superiores a los 90 km/h, según consignaron <a href=\"https://www.anbariloche.com.ar/noticias/2026/09/23/117982-alerta-roja-cortan-la-ruta-40-en-siete-lagos-y-piden-evitar-viajar-durante-la-noche\" target=\"_blank\" rel=\"noopener noreferrer\">ANBariloche</a> y <a href=\"https://www.elcordillerano.com.ar/noticias/2026/09/23/263674-alerta-roja-en-bariloche-preven-lluvias-intensas-fuertes-vientos-y-posibles-nevadas\" target=\"_blank\" rel=\"noopener noreferrer\">El Cordillerano</a>.</p>\n<p>Ante la gravedad del pronóstico y la saturación hídrica que presentan las laderas tras las nevadas recientes, <strong>Vialidad Nacional resolvió el corte total preventivo nocturno de la Ruta 40 en el tramo Siete Lagos</strong> (entre Villa La Angostura y San Martín de los Andes) de 19:00 a 08:00 horas para evitar siniestros por desmoronamiento de taludes y caída de sedimentos sobre la cinta asfáltica. En simultáneo, la Intendencia del Parque Nacional Nahuel Huapi clausuró el acceso a todas las sendas peatonales, refugios y áreas agrestes de montaña.</p>\n<blockquote cite=\"https://www.anbariloche.com.ar/noticias/2026/09/23/117982-alerta-roja-cortan-la-ruta-40-en-siete-lagos-y-piden-evitar-viajar-durante-la-noche\"><p>«Los suelos se encuentran con saturación hídrica tras las nevadas recientes, lo que multiplica el riesgo de caída de ramas, árboles y deslizamiento de laderas sobre los caminos», advirtió Carlos Madjinca, titular de Protección Civil Bariloche.</p></blockquote>\n<p>Las cuadrillas de emergencia y maquinaria vial se mantienen en guardia activa en los puntos críticos de las rutas 40 Norte y Sur para despejar banquinas y encauzar el escurrimiento de arroyos crecidos.</p>",
-  "area": "Pulso Turístico",
+  "hecho_central": "El SMN emitió alerta roja por lluvias intensas de hasta 150 mm y ráfagas superiores a 90 km/h, obligando al corte total nocturno preventivo de la Ruta 40 Siete Lagos y la clausura total de sendas y circuitos en el Parque Nacional Nahuel Huapi.",
   "fecha": "2026-09-23",
-  "foto": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/09/anbariloche/images/02/78/33/2783310_d23ad1d6dcc05def2e4c6e6a6aa418862b6d400e4309804b30b48b6a575aa708/md.webp",
-  "updated_at": "2026-09-24T23:27:59.871Z",
-  "imagen_url": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/09/anbariloche/images/02/78/33/2783310_d23ad1d6dcc05def2e4c6e6a6aa418862b6d400e4309804b30b48b6a575aa708/md.webp",
-  "media": {
-    "credito": "Foto: Vialidad Nacional / Prensa PNNH",
-    "imagen_url": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/09/anbariloche/images/02/78/33/2783310_d23ad1d6dcc05def2e4c6e6a6aa418862b6d400e4309804b30b48b6a575aa708/md.webp"
+  "cobertura_cruzada": 3,
+  "datos_duros": {
+    "horario_corte_ruta_40": "19:00 a 08:00 hs",
+    "precipitaciones_estimadas_mm": 150,
+    "rafagas_max_kmh": 90,
+    "alerta": "Roja"
   },
-  "url": "https://www.anbariloche.com.ar/noticias/2026/09/23/117982-alerta-roja-cortan-la-ruta-40-en-siete-lagos-y-piden-evitar-viajar-durante-la-noche"
+  "fuente": {
+    "id": "anbariloche",
+    "nombre": "ANBariloche",
+    "url_nota": "https://www.anbariloche.com.ar/noticias/2026/09/23/117982-alerta-roja-cortan-la-ruta-40-en-siete-lagos-y-piden-evitar-viajar-durante-la-noche"
+  },
+  "area": "Pulso Turístico",
+  "url": "https://www.anbariloche.com.ar/noticias/2026/09/23/117982-alerta-roja-cortan-la-ruta-40-en-siete-lagos-y-piden-evitar-viajar-durante-la-noche",
+  "citas": [
+    {
+      "autor": "Carlos Madjinca (Protección Civil Bariloche)",
+      "texto": "Los suelos se encuentran con saturación hídrica tras las nevadas recientes, lo que multiplica el riesgo de caída de ramas, árboles y deslizamiento de laderas sobre los caminos."
+    }
+  ],
+  "media": {
+    "imagen_url": null,
+    "credito": "Sin imagen verificada",
+    "requiere_foto": true,
+    "prompt_nanobanana": ""
+  },
+  "foto": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/09/anbariloche/images/02/78/33/2783310_d23ad1d6dcc05def2e4c6e6a6aa418862b6d400e4309804b30b48b6a575aa708/md.webp",
+  "imagen_url": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/09/anbariloche/images/02/78/33/2783310_d23ad1d6dcc05def2e4c6e6a6aa418862b6d400e4309804b30b48b6a575aa708/md.webp",
+  "area_id": "turismo",
+  "fecha_publicacion": "2026-09-23",
+  "novedad_respecto_a_dias_previos": "Declaración del nivel máximo de alerta meteorológica (rojo) con cierre preventivo de 19 a 08 hs en el corredor Siete Lagos por riesgo de aludes y desmoronamientos en suelos saturados.",
+  "updated_at": "2026-09-24T23:27:59.871Z",
+  "dossier_id": "infraestructura-terminal-rutas"
 }

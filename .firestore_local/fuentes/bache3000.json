@@ -1,9 +1,10 @@
 {
   "id": "bache3000",
-  "tipo": "diario_digital",
   "url_base": "https://baribache3000.com.ar/",
   "created_at": "2026-10-02T12:24:55.528Z",
   "nombre": "Bache 3000 Bariloche",
   "prioridad": 1,
-  "activo": true
+  "activo": true,
+  "beat_id": "pulso-urbano",
+  "tipo": "diario"
 }

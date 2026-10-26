@@ -1,19 +1,21 @@
 {
   "id": "2026-09-14_cierre-inscripciones-pre-cosquin",
-  "fecha_publicacion": "2026-09-14",
+  "cuerpo_html": "<p>Con una nutrida participación de delegaciones de Bariloche, Dina Huapi y la comarca andina, concluyó el plazo de inscripción para el certamen Pre-Cosquín 2027. La sede local vuelve a posicionarse como una plataforma fundamental para la proyección de músicos y bailarines patagónicos hacia el escenario mayor de la plaza Próspero Molina.</p><p>Las rondas clasificatorias se desarrollarán a fin de mes con jurados especializados en música y danza, evaluando rubros tradicionales y propuestas de estilizado contemporáneo.</p>",
   "fuente": {
-    "id": "anbariloche",
+    "url_nota": "https://www.anbariloche.com.ar/noticias/2026/09/09/116678-bariloche-vuelve-a-ser-parte-del-camino-hacia-cosquin",
     "nombre": "ANBariloche",
-    "url_nota": "https://www.anbariloche.com.ar/noticias/2026/09/09/116678-bariloche-vuelve-a-ser-parte-del-camino-hacia-cosquin"
+    "id": "anbariloche"
   },
   "area_id": "vida-social-cultura",
+  "fecha_publicacion": "2026-09-14",
   "dossier_id": null,
-  "titular": "Bariloche cerró las inscripciones para la sede local del Pre-Cosquín 2027",
-  "hecho_central": "Más de 40 artistas folklóricos, solistas y ballets de la región andina completaron su inscripción para competir en el selectivo que otorgará plazas para el festival de Cosquín en Córdoba.",
-  "cuerpo_html": "<p>Con una nutrida participación de delegaciones de Bariloche, Dina Huapi y la comarca andina, concluyó el plazo de inscripción para el certamen Pre-Cosquín 2027. La sede local vuelve a posicionarse como una plataforma fundamental para la proyección de músicos y bailarines patagónicos hacia el escenario mayor de la plaza Próspero Molina.</p><p>Las rondas clasificatorias se desarrollarán a fin de mes con jurados especializados en música y danza, evaluando rubros tradicionales y propuestas de estilizado contemporáneo.</p>",
   "media": {
-    "imagen_url": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/06/anbariloche/files/03/02/30291/22e1791c7e0aea7e914693b0fb63f99ea62dd1eb9b15f8d11a8bf167591c2f17.jpg",
-    "credito": "Foto: Archivo ANBariloche"
+    "imagen_url": null,
+    "credito": "Sin imagen verificada",
+    "requiere_foto": true,
+    "prompt_nanobanana": ""
   },
-  "created_at": "2026-09-18T13:52:24.514Z"
+  "created_at": "2026-09-18T13:52:24.514Z",
+  "hecho_central": "Más de 40 artistas folklóricos, solistas y ballets de la región andina completaron su inscripción para competir en el selectivo que otorgará plazas para el festival de Cosquín en Córdoba.",
+  "titular": "Bariloche cerró las inscripciones para la sede local del Pre-Cosquín 2027"
 }

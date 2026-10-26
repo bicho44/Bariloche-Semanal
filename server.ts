@@ -71,6 +71,14 @@ app.use('/api', (err: any, req: express.Request, res: express.Response, next: ex
   });
 });
 
+// Captura 404 para cualquier ruta /api no resuelta: NUNCA permitir que pase al middleware SPA de Vite
+app.all('/api/*', (req: express.Request, res: express.Response) => {
+  res.status(404).json({
+    error: `Ruta API no encontrada: ${req.method} ${req.originalUrl}`,
+    codigo: 'NOT_FOUND',
+  });
+});
+
 async function startServer() {
   if (process.env.NODE_ENV !== 'production') {
     // Configuración de Vite como middleware en desarrollo

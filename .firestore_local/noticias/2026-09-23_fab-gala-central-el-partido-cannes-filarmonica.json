@@ -1,28 +1,8 @@
 {
   "id": "2026-09-23_fab-gala-central-el-partido-cannes-filarmonica",
-  "fecha_publicacion": "2026-09-23",
-  "titular": "El FAB celebró su función de gala en La Baita con \"El Partido\" de Cannes y música de la Filarmónica",
-  "hecho_central": "La 14ª edición del Festival Audiovisual Bariloche tuvo su velada central en el Teatro La Baita con el concierto del Ensamble Ventisquero Negro y la proyección especial del documental \"El Partido\", tras su paso por el Festival de Cannes.",
   "area_id": "vida-social-cultura",
-  "dossier_id": null,
-  "fuente": {
-    "id": "anbariloche",
-    "nombre": "ANBariloche",
-    "url_nota": "https://www.anbariloche.com.ar/amp/noticias/2026/09/23/117940-cine-musica-y-el-recuerdo-del-diego-descubri-la-programacion-completa-del-fab-para-este-miercoles"
-  },
+  "url": "https://www.anbariloche.com.ar/amp/noticias/2026/09/23/117940-cine-musica-y-el-recuerdo-del-diego-descubri-la-programacion-completa-del-fab-para-este-miercoles",
   "novedad_respecto_a_dias_previos": "Gala inaugural formal del festival con presencia de figuras del cine nacional, proyección del documental sobre el partido Argentina-Inglaterra 1986 y acompañamiento orquestal en vivo.",
-  "datos_duros": {
-    "sala": "Teatro La Baita",
-    "pelicula": "El Partido (Cannes 2026)",
-    "directores": "Juan Cabral y Santiago Franco",
-    "ensamble": "Ventisquero Negro (Filarmónica de Río Negro)"
-  },
-  "citas": [
-    {
-      "autor": "Franco Fraile Milstein (Secretaría de Cultura de Río Negro)",
-      "texto": "Cada salida al territorio y articulación con el FAB es una oportunidad para que la cultura pública ocupe espacios patrimoniales y dialogue con nuevos públicos."
-    }
-  ],
   "entidades": {
     "actores": [
       "fab-2026",
@@ -36,16 +16,38 @@
       "biblioteca-sarmiento"
     ]
   },
-  "cobertura_cruzada": 2,
-  "cuerpo_html": "<p>La decimocuarta edición del Festival Audiovisual Bariloche (FAB 2026) celebró este miércoles su velada central de gala en las instalaciones del Teatro La Baita, conjugando una apertura orquestal a cargo del <strong>Ensamble Ventisquero Negro de la Filarmónica de Río Negro</strong> con la proyección estelar de <strong>'El Partido'</strong>, el celebrado documental de Juan Cabral y Santiago Franco que tuvo su estreno internacional en el Festival de Cannes, según reportó <a href=\"https://www.anbariloche.com.ar/amp/noticias/2026/09/23/117940-cine-musica-y-el-recuerdo-del-diego-descubri-la-programacion-completa-del-fab-para-este-miercoles\" target=\"_blank\" rel=\"noopener noreferrer\">ANBariloche</a>.</p>\n<p>La producción cinematográfica reconstruye minuto a minuto el mítico enfrentamiento entre las selecciones de Argentina e Inglaterra en los cuartos de final del Mundial de México 1986, reuniendo testimonios inéditos y relatos de primera mano de protagonistas de ambos bandos como Jorge Valdano, Jorge Burruchaga, Oscar Ruggeri, Gary Lineker y Peter Shilton. La función atrajo a realizadores, estudiantes y público andino en una sala colmada que ovacionó la mirada histórica y cinematográfica sobre la figura de Diego Armando Maradona.</p>\n<blockquote cite=\"https://prensa.rionegro.gov.ar/articulo/61676/la-filarmonica-vuelve-al-territorio-con-cuatro-conciertos-en-la-region?n=OTE\"><p>«Cada salida al territorio y articulación con el FAB es una oportunidad para que la cultura pública ocupe espacios patrimoniales y dialogue con nuevos públicos», destacó Franco Fraile Milstein, secretario de Cultura rionegrino.</p></blockquote>\n<p>Con esta función de gala, el festival entró en su tramo de mayor intensidad competitiva, desplegando más de 90 filmes en secciones paralelas distribuidas entre la Biblioteca Sarmiento, el Shopping Patagonia y la Sala Frey hasta el próximo 27 de septiembre.</p>",
-  "area": "Vida Social, Cultura & Comunidad",
-  "fecha": "2026-09-23",
-  "foto": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/09/anbariloche/images/02/78/26/2782687_cc3e1dde6a369a7e2fb0abf5934c09c557fb60bd7737412b1e8f63c3447dfc54/lg.webp",
-  "updated_at": "2026-09-25T00:08:12.615Z",
-  "imagen_url": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/09/anbariloche/images/02/78/26/2782687_cc3e1dde6a369a7e2fb0abf5934c09c557fb60bd7737412b1e8f63c3447dfc54/lg.webp",
-  "media": {
-    "credito": "Foto: Prensa FAB / Gobierno de Río Negro",
-    "imagen_url": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/09/anbariloche/images/02/78/26/2782687_cc3e1dde6a369a7e2fb0abf5934c09c557fb60bd7737412b1e8f63c3447dfc54/lg.webp"
+  "datos_duros": {
+    "sala": "Teatro La Baita",
+    "ensamble": "Ventisquero Negro (Filarmónica de Río Negro)",
+    "pelicula": "El Partido (Cannes 2026)",
+    "directores": "Juan Cabral y Santiago Franco"
   },
-  "url": "https://www.anbariloche.com.ar/amp/noticias/2026/09/23/117940-cine-musica-y-el-recuerdo-del-diego-descubri-la-programacion-completa-del-fab-para-este-miercoles"
+  "fecha": "2026-09-23",
+  "cobertura_cruzada": 2,
+  "imagen_url": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/09/anbariloche/images/02/78/26/2782687_cc3e1dde6a369a7e2fb0abf5934c09c557fb60bd7737412b1e8f63c3447dfc54/lg.webp",
+  "cuerpo_html": "<p>La decimocuarta edición del Festival Audiovisual Bariloche (FAB 2026) celebró este miércoles su velada central de gala en las instalaciones del Teatro La Baita, conjugando una apertura orquestal a cargo del <strong>Ensamble Ventisquero Negro de la Filarmónica de Río Negro</strong> con la proyección estelar de <strong>'El Partido'</strong>, el celebrado documental de Juan Cabral y Santiago Franco que tuvo su estreno internacional en el Festival de Cannes, según reportó <a href=\"https://www.anbariloche.com.ar/amp/noticias/2026/09/23/117940-cine-musica-y-el-recuerdo-del-diego-descubri-la-programacion-completa-del-fab-para-este-miercoles\" target=\"_blank\" rel=\"noopener noreferrer\">ANBariloche</a>.</p>\n<p>La producción cinematográfica reconstruye minuto a minuto el mítico enfrentamiento entre las selecciones de Argentina e Inglaterra en los cuartos de final del Mundial de México 1986, reuniendo testimonios inéditos y relatos de primera mano de protagonistas de ambos bandos como Jorge Valdano, Jorge Burruchaga, Oscar Ruggeri, Gary Lineker y Peter Shilton. La función atrajo a realizadores, estudiantes y público andino en una sala colmada que ovacionó la mirada histórica y cinematográfica sobre la figura de Diego Armando Maradona.</p>\n<blockquote cite=\"https://prensa.rionegro.gov.ar/articulo/61676/la-filarmonica-vuelve-al-territorio-con-cuatro-conciertos-en-la-region?n=OTE\"><p>«Cada salida al territorio y articulación con el FAB es una oportunidad para que la cultura pública ocupe espacios patrimoniales y dialogue con nuevos públicos», destacó Franco Fraile Milstein, secretario de Cultura rionegrino.</p></blockquote>\n<p>Con esta función de gala, el festival entró en su tramo de mayor intensidad competitiva, desplegando más de 90 filmes en secciones paralelas distribuidas entre la Biblioteca Sarmiento, el Shopping Patagonia y la Sala Frey hasta el próximo 27 de septiembre.</p>",
+  "dossier_id": null,
+  "updated_at": "2026-09-25T00:08:12.615Z",
+  "hecho_central": "La 14ª edición del Festival Audiovisual Bariloche tuvo su velada central en el Teatro La Baita con el concierto del Ensamble Ventisquero Negro y la proyección especial del documental \"El Partido\", tras su paso por el Festival de Cannes.",
+  "area": "Vida Social, Cultura & Comunidad",
+  "citas": [
+    {
+      "autor": "Franco Fraile Milstein (Secretaría de Cultura de Río Negro)",
+      "texto": "Cada salida al territorio y articulación con el FAB es una oportunidad para que la cultura pública ocupe espacios patrimoniales y dialogue con nuevos públicos."
+    }
+  ],
+  "media": {
+    "imagen_url": null,
+    "credito": "Sin imagen verificada",
+    "requiere_foto": true,
+    "prompt_nanobanana": ""
+  },
+  "foto": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/09/anbariloche/images/02/78/26/2782687_cc3e1dde6a369a7e2fb0abf5934c09c557fb60bd7737412b1e8f63c3447dfc54/lg.webp",
+  "titular": "El FAB celebró su función de gala en La Baita con \"El Partido\" de Cannes y música de la Filarmónica",
+  "fecha_publicacion": "2026-09-23",
+  "fuente": {
+    "nombre": "ANBariloche",
+    "url_nota": "https://www.anbariloche.com.ar/amp/noticias/2026/09/23/117940-cine-musica-y-el-recuerdo-del-diego-descubri-la-programacion-completa-del-fab-para-este-miercoles",
+    "id": "anbariloche"
+  }
 }

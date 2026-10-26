@@ -1,0 +1,65 @@
+{
+  "id": "2026-10-19_comercio-bariloche-caida-ventas-presion-costos-feeba",
+  "titular": "Pulso comercial en Bariloche: caen las ventas minoristas en la transición de temporada y crece la presión por alquileres y tarifas",
+  "hecho_central": "Referentes del comercio minorista de Bariloche y el presidente de la Federación de Entidades Empresarias de Río Negro (FEEBA), Elian Caramichos, trazaron un diagnóstico de alerta sobre la actividad comercial en la ciudad: a la retracción del consumo interno y la caída del 1,4% interanual en las ventas por el Día de la Madre se suma el peso creciente de los alquileres comerciales, las tarifas de servicios y los costos logísticos en plena temporada baja de primavera.",
+  "por_que_importa_el_domingo": "Traza la radiografía económica real de las pymes y comercios de Bariloche en los meses puente de primavera, atrapados entre la caída del consumo (-1,4% en el Día de la Madre) y la suba de alquileres y tarifas.",
+  "novedad_respecto_a_dias_previos": "Balance económico del comercio local tras el fin de semana del Día de la Madre y advertencia empresarial sobre el estrechamiento de márgenes en pymes de Bariloche.",
+  "fecha_publicacion": "2026-10-19",
+  "beat_id": "urbano",
+  "area_id": "legales-comercio",
+  "dossier_id": null,
+  "seguimiento_id": null,
+  "fuente": {
+    "id": "bariloche-opina",
+    "medio": "Bariloche Opina",
+    "nombre": "Bariloche Opina",
+    "url_nota": "https://www.barilocheopina.com/noticias/2026/10/16/95981-comercios-de-bariloche-caen-las-ventas-y-crece-la-presion-de-los-costos"
+  },
+  "fuentes_consultadas": [
+    {
+      "id": "bariloche-opina",
+      "medio": "Bariloche Opina",
+      "nombre": "Bariloche Opina",
+      "url_nota": "https://www.barilocheopina.com/noticias/2026/10/16/95981-comercios-de-bariloche-caen-las-ventas-y-crece-la-presion-de-los-costos"
+    },
+    {
+      "id": "el-cordillerano",
+      "medio": "El Cordillerano",
+      "nombre": "El Cordillerano",
+      "url_nota": "https://www.elcordillerano.com.ar/noticias/2026/10/19/268159-las-ventas-por-el-dia-de-la-madre-cayeron-14-y-sumaron-su-quinto-retroceso-consecutivo"
+    }
+  ],
+  "cobertura_cruzada": 2,
+  "media": {
+    "imagen_url": null,
+    "credito": "Sin imagen verificada",
+    "requiere_foto": true,
+    "prompt_nanobanana": "Ilustración editorial en estilo animación 2D de comercio local en Bariloche: vidrieras iluminadas sobre las calles Mitre y Onelli en una tarde de primavera patagónica con comerciantes revisando facturas y balances en el mostrador, sin texto."
+  },
+  "cuerpo_html": "<p>Detrás del movimiento turístico puntual de los fines de semana largos, el comercio minorista de San Carlos de Bariloche atraviesa un trimestre de márgenes ajustados y retracción del consumo local. Un relevamiento junto al presidente de la <strong>Federación de Entidades Empresarias de Río Negro (FEEBA)</strong> y comerciante barilochense, <strong>Elian Caramichos</strong>, expuso que los locales del centro y de las arterias comerciales barriales enfrentan una combinación de baja en el volumen de unidades vendidas y suba sostenida de costos fijos.</p><p>El balance del <strong>Día de la Madre</strong> confirmó una contracción interanual del <strong>1,4% en las ventas minoristas a precios constantes</strong>, con un ticket promedio traccionado casi exclusivamente por promociones bancarias y planes de cuotas sin interés en indumentaria, calzado y perfumería (<a href=\"https://www.barilocheopina.com/noticias/2026/10/16/95981-comercios-de-bariloche-caen-las-ventas-y-crece-la-presion-de-los-costos\" target=\"_blank\" rel=\"noopener noreferrer\">Bariloche Opina</a>, <a href=\"https://www.elcordillerano.com.ar/noticias/2026/10/19/268159-las-ventas-por-el-dia-de-la-madre-cayeron-14-y-sumaron-su-quinto-retroceso-consecutivo\" target=\"_blank\" rel=\"noopener noreferrer\">El Cordillerano</a>).</p><p>Desde el sector pyme advirtieron que la actualización de los contratos de alquiler comercial, las facturas de electricidad y gas y el costo del flete hacia la cordillera absorben gran parte de la liquidez durante los meses puente de octubre y noviembre previos al verano.</p>",
+  "citas": [
+    {
+      "autor": "Elian Caramichos (Presidente de FEEBA y comerciante de Bariloche)",
+      "texto": "El comercio local sostiene las puertas abiertas con márgenes mínimos porque las ventas en unidades no repuntan al mismo ritmo que los costos fijos de alquileres, servicios e impuestos."
+    }
+  ],
+  "datos_duros": {
+    "Variación ventas Día de la Madre": "-1,4% interanual (quinto retroceso consecutivo)",
+    "Factores de presión en Bariloche": "Alquileres comerciales, tarifas de servicios públicos y fletes logísticos",
+    "Entidad consultada": "Federación de Entidades Empresarias de Río Negro (FEEBA)"
+  },
+  "entidades": {
+    "actores": [
+      "Elian Caramichos",
+      "FEEBA",
+      "Cámara de Comercio de Bariloche"
+    ],
+    "lugares": [
+      "Calle Mitre",
+      "Calle Onelli",
+      "San Carlos de Bariloche"
+    ]
+  },
+  "created_at": "2026-10-20T12:55:09.331Z",
+  "updated_at": "2026-10-22T23:07:06.781Z"
+}

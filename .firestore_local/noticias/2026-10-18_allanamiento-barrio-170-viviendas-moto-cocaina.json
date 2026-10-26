@@ -1,0 +1,48 @@
+{
+  "id": "2026-10-18_allanamiento-barrio-170-viviendas-moto-cocaina",
+  "cuerpo_html": "<p>Efectivos de la Comisaría 42°, con el apoyo táctico de la Comisaría 28°, llevaron a cabo una orden de allanamiento en una vivienda del edificio 4 del barrio 170 Viviendas, sobre calle Osses en el Alto de Bariloche. La manda judicial, originada en una causa penal por presunto encubrimiento y sustracción de rodados, culminó con el secuestro de una motocicleta de 150 cc que se encontraba oculta en el hall del complejo habitacional.</p><p>Durante la requisa del inmueble, el personal policial halló además un lote de autopartes y repuestos de motocicletas, así como una cantidad no precisada de cocaína fraccionada, de acuerdo con lo detallado por <a href=\"https://www.elcordillerano.com.ar/noticias/2026/10/18/268061-allanamiento-en-bariloche-secuestraron-una-moto-autopartes-y-cocaina\" target=\"_blank\" rel=\"noopener noreferrer\">El Cordillerano</a>. El hallazgo de las sustancias prohibidas derivó en la apertura de un expediente federal con peritajes a cargo del Departamento Toxicomanía.</p>",
+  "area_id": "gestion-publica",
+  "dossier_id": null,
+  "fuente": {
+    "url_nota": "https://www.elcordillerano.com.ar/noticias/2026/10/18/268061-allanamiento-en-bariloche-secuestraron-una-moto-autopartes-y-cocaina",
+    "nombre": "El Cordillerano",
+    "id": "el-cordillerano"
+  },
+  "fecha_publicacion": "2026-10-14",
+  "updated_at": "2026-10-19T12:03:03.121Z",
+  "datos_duros": {
+    "unidades_intervinientes": "Comisaría 42° con colaboración de Comisaría 28°",
+    "elementos_secuestrados": "1 motocicleta de 150cc, autopartes y dosis de cocaína",
+    "justicia_federal": "Intervención de Fiscalía Federal y División Toxicomanía",
+    "ubicacion": "Edificio 4, calle Osses, barrio 170 Viviendas"
+  },
+  "media": {
+    "imagen_url": null,
+    "credito": "Sin imagen verificada",
+    "requiere_foto": true,
+    "prompt_nanobanana": ""
+  },
+  "citas": [
+    {
+      "autor": "Parte policial Comisaría 42°",
+      "texto": "El procedimiento permitió incautar el rodado buscado y desarticular un presunto punto de acopio de autopartes, dando intervención a la Justicia Federal ante el hallazgo de estupefacientes."
+    }
+  ],
+  "imagen_url": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/10/elcordillerano/images/02/81/88/2818830_134a575f0fafb870f630b6971020596a7296d81c3d5e425bc1785994bea8a0d2/md.webp",
+  "fecha": "2026-10-14",
+  "seguimiento_id": null,
+  "url": "https://www.elcordillerano.com.ar/noticias/2026/10/18/268061-allanamiento-en-bariloche-secuestraron-una-moto-autopartes-y-cocaina",
+  "titular": "Allanamiento en el barrio 170 Viviendas: secuestraron una motocicleta, autopartes y cocaína",
+  "foto": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/10/elcordillerano/images/02/81/88/2818830_134a575f0fafb870f630b6971020596a7296d81c3d5e425bc1785994bea8a0d2/md.webp",
+  "area": "Gestión Pública",
+  "curada_manualmente": false,
+  "cobertura_cruzada": 1,
+  "fuentes_consultadas": [
+    {
+      "id": "el-cordillerano",
+      "nombre": "El Cordillerano",
+      "url_nota": "https://www.elcordillerano.com.ar/noticias/2026/10/18/268061-allanamiento-en-bariloche-secuestraron-una-moto-autopartes-y-cocaina"
+    }
+  ],
+  "hecho_central": "La Policía de Río Negro allanó un departamento sobre calle Osses en el barrio 170 Viviendas en el marco de una investigación por encubrimiento y robo de motovehículos, secuestrando una moto de 150 centímetros cúbicos, diversas autopartes y envoltorios con cocaína que motivaron la inmediata intervención de la Fiscalía Federal."
+}

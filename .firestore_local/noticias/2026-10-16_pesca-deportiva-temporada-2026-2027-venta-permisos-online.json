@@ -1,0 +1,47 @@
+{
+  "id": "2026-10-16_pesca-deportiva-temporada-2026-2027-venta-permisos-online",
+  "url": "https://www.anbariloche.com.ar/noticias/2026/10/16/120191-arranca-la-venta-de-permisos-de-pesca-para-la-temporada-2026-2027",
+  "seguimiento_id": null,
+  "area_id": "gestion-publica",
+  "datos_duros": [
+    "Apertura formal de la temporada: 1 de noviembre de 2026 (cierre en ambientes específicos el 1 de mayo de 2027).",
+    "Tarifas para residentes: $12.500 (1 día), $25.000 (10 días) y $50.000 (temporada completa).",
+    "Exenciones: personas con discapacidad, jubilados, mayores de 65 años, menores de 12 años y veteranos de Malvinas."
+  ],
+  "fecha": "2026-10-12",
+  "cuerpo_html": "<p class=\"c-lead\">A dos semanas de la apertura del calendario estival de actividades de montaña y ríos, los organismos de Fauna de la región andina y la Intendencia del Parque Nacional Nahuel Huapi habilitaron este viernes la comercialización digital de permisos de pesca deportiva para la temporada 2026-2027, cuyo inicio oficial regirá a partir del domingo 1 de noviembre.</p>\n<p>El reglamento patagónico establece un cuadro tarifario unificado para modalidades de spinning, trolling y fly casting en las cuencas del río Limay y ambientes lacustres compartidos, según consignó <a href=\"https://www.anbariloche.com.ar/noticias/2026/10/16/120191-arranca-la-venta-de-permisos-de-pesca-para-la-temporada-2026-2027\" target=\"_blank\" rel=\"noopener noreferrer\">ANBariloche</a>. Para pescadores residentes el pase de temporada fue fijado en $50.000 ($12.500 el permiso diario y $25.000 por diez días), mientras que los jubilados, veteranos de Malvinas y menores de 12 años cuentan con emisión sin costo.</p>\n<p>Las autoridades recordaron la obligación de consultar las modalidades de señuelo y cupos de devolución obligatoria por ambiente para preservar las poblaciones de truchas arcoíris, marrones y salmones encerrados en los espejos de agua cordilleranos.</p>",
+  "curada_manualmente": false,
+  "hecho_central": "Las direcciones de Fauna patagónicas y Parques Nacionales habilitaron la plataforma digital para tramitar los permisos de la temporada 2026-2027 que iniciará el 1 de noviembre en toda la cuenca del Limay y lagos cordilleranos, fijando tarifas diferenciales y un ChatBot con normativas de cada cuenca.",
+  "fecha_publicacion": "2026-10-12",
+  "imagen_url": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/10/anbariloche/images/02/81/67/2816772_e3a51f93a02cd7ade4f999e79b4e8c1c608e170b60b7fd6f11914a4ec9dfedbd/lg.webp",
+  "dossier_id": null,
+  "foto": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/10/anbariloche/images/02/81/67/2816772_e3a51f93a02cd7ade4f999e79b4e8c1c608e170b60b7fd6f11914a4ec9dfedbd/lg.webp",
+  "fuente": {
+    "url_nota": "https://www.anbariloche.com.ar/noticias/2026/10/16/120191-arranca-la-venta-de-permisos-de-pesca-para-la-temporada-2026-2027",
+    "id": "anbariloche",
+    "nombre": "ANBariloche"
+  },
+  "area": "Gestión Pública",
+  "fuentes_consultadas": [
+    {
+      "id": "anbariloche",
+      "nombre": "ANBariloche",
+      "url_nota": "https://www.anbariloche.com.ar/noticias/2026/10/16/120191-arranca-la-venta-de-permisos-de-pesca-para-la-temporada-2026-2027"
+    }
+  ],
+  "updated_at": "2026-10-17T02:02:45.505Z",
+  "media": {
+    "imagen_url": null,
+    "credito": "Sin imagen verificada",
+    "requiere_foto": true,
+    "prompt_nanobanana": "Ilustración editorial en estilo animación 2D sobre pesca deportiva sustentable en la Patagonia: un pescador con waders y caña de mosca en las aguas transparentes y correntosas de la naciente del río Limay, con el lago Nahuel Huapi, sauces y cerros andinos de fondo bajo una luz clara de primavera. Paleta en verde agua, azul turquesa, castaño y ocre, sin texto."
+  },
+  "citas": [
+    {
+      "autor": "Nicolás Lagos, director de Fauna de la región",
+      "texto": "La compra de permisos ya está disponible de manera online para la temporada que arranca el 1 de noviembre; es fundamental interiorizarse sobre el reglamento vigente y respetar las disposiciones de cada cuenca para cuidar el recurso y evitar sanciones."
+    }
+  ],
+  "cobertura_cruzada": 1,
+  "titular": "Comenzó la venta online de permisos para la temporada de pesca deportiva 2026-2027 en los ríos y lagos de la región"
+}

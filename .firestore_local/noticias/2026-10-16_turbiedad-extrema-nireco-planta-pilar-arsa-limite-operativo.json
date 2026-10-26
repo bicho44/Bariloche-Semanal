@@ -1,0 +1,47 @@
+{
+  "id": "2026-10-16_turbiedad-extrema-nireco-planta-pilar-arsa-limite-operativo",
+  "fuente": {
+    "id": "anbariloche",
+    "nombre": "ANBariloche",
+    "url_nota": "https://www.anbariloche.com.ar/noticias/2026/10/16/120206-la-turbiedad-del-rio-ireco-supera-diez-veces-el-limite-operativo-y-afecta-el-abastecimiento-de-agua"
+  },
+  "hecho_central": "Aguas Rionegrinas (ARSA) constató niveles de turbiedad superiores a las 500 unidades NTU en la toma superficial del arroyo Ñireco producto de deshielos y arrastre de sedimentos, diez veces por encima del umbral de 35 que tolera la Planta Potabilizadora Pilar, extendiendo el corte de agua en populosos barrios del faldeo sur.",
+  "area_id": "gestion-publica",
+  "fecha_publicacion": "2026-10-12",
+  "curada_manualmente": false,
+  "citas": [
+    {
+      "autor": "Aguas Rionegrinas (ARSA)",
+      "texto": "La elevada turbiedad del río Ñireco, producto del deshielo y del arrastre de sedimentos y barro, supera las 500 unidades, más de diez veces el límite operativo de 35 que permite ingresar el agua a la planta potabilizadora. Los valores registrados impiden captar agua sin comprometer la integridad de las instalaciones."
+    }
+  ],
+  "media": {
+    "imagen_url": null,
+    "credito": "Sin imagen verificada",
+    "requiere_foto": true,
+    "prompt_nanobanana": "Ilustración editorial en estilo animación 2D sobre hidrología y servicios públicos: el arroyo Ñireco bajando torrentoso y arcilloso desde la alta montaña andina entre bosques de coihues, con compuertas de filtración y piletones de sedimentación de la planta potabilizadora en primer plano. Paleta en marrón greda, azul petróleo, verde ciprés y gris plomo, sin texto."
+  },
+  "dossier_id": null,
+  "fuentes_consultadas": [
+    {
+      "id": "anbariloche",
+      "nombre": "ANBariloche",
+      "url_nota": "https://www.anbariloche.com.ar/noticias/2026/10/16/120206-la-turbiedad-del-rio-ireco-supera-diez-veces-el-limite-operativo-y-afecta-el-abastecimiento-de-agua"
+    }
+  ],
+  "updated_at": "2026-10-17T02:03:13.257Z",
+  "imagen_url": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/10/anbariloche/images/02/81/70/2817075_ef0d91d1a5f290737045e72034d76ad48402e5776dfcbac2fe148bb2c35528fc/lg.webp",
+  "cuerpo_html": "<p class=\"c-lead\">La combinación de intensas precipitaciones y deshielos tempranos en las altas cuencas cordilleranas provocó una situación crítica en la infraestructura de agua potable de Bariloche: Aguas Rionegrinas (ARSA) informó este viernes 16 de octubre que la turbiedad en la captación del arroyo Ñireco rebasó las 500 unidades NTU, multiplicando por más de diez el tope operativo de 35 unidades necesario para potabilizar sin dañar los filtros mecánicos.</p>\n<p>La anomalía hídrica mantiene paralizada la Planta Pilar, afectando directamente la red de distribución domiciliaria en los barrios Pilar I y II, Dos Valles, 645 Viviendas, Valle Azul, Reina Mora, Entre Cerros y Lomas del Cauquén, según relevó <a href=\"https://www.anbariloche.com.ar/noticias/2026/10/16/120206-la-turbiedad-del-rio-ireco-supera-diez-veces-el-limite-operativo-y-afecta-el-abastecimiento-de-agua\" target=\"_blank\" rel=\"noopener noreferrer\">ANBariloche</a>.</p>\n<p>Desde la prestataria estatal indicaron que cuadrillas técnicas monitorean de forma continua el cauce para reactivar las bombas de captación ni bien los sedimentos decanten a niveles tratables, solicitando a los vecinos de la zona sur extremar el cuidado de las reservas en tanques domiciliarios.</p>",
+  "fecha": "2026-10-12",
+  "cobertura_cruzada": 1,
+  "area": "Gestión Pública",
+  "foto": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/10/anbariloche/images/02/81/70/2817075_ef0d91d1a5f290737045e72034d76ad48402e5776dfcbac2fe148bb2c35528fc/lg.webp",
+  "seguimiento_id": null,
+  "datos_duros": [
+    "Turbiedad registrada: más de 500 unidades NTU frente a un límite operativo máximo de 35.",
+    "Ocho barrios afectados: Pilar I y II, Dos Valles, 645 Viviendas, Valle Azul, Reina Mora, Entre Cerros y Lomas del Cauquén.",
+    "El servicio se restablecerá únicamente cuando se confirme una baja sostenida en el caudal de sedimentos arrastrados por el río."
+  ],
+  "url": "https://www.anbariloche.com.ar/noticias/2026/10/16/120206-la-turbiedad-del-rio-ireco-supera-diez-veces-el-limite-operativo-y-afecta-el-abastecimiento-de-agua",
+  "titular": "Emergencia en la Planta Pilar: la turbiedad en el arroyo Ñireco superó diez veces el límite operativo y paraliza el bombeo en ocho barrios"
+}

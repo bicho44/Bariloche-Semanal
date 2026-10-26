@@ -1,0 +1,47 @@
+{
+  "id": "2026-10-16_avenida-de-la-virreyna-hormigonado-reductores-baden",
+  "titular": "Plan de seguridad vial: el Municipio completó el hormigonado con H30 de cuatro reductores y un badén en avenida de la Virreyna",
+  "hecho_central": "La cuadrilla municipal de Bacheo finalizó la colocación de hormigón H30 con fibra sobre los sectores pendientes de cuatro reductores de velocidad y un badén pluvial en avenida de la Virreyna, requiriendo entre 10 y 12 días de fraguado previo a la reapertura al tránsito vehicular.",
+  "dossier_id": null,
+  "seguimiento_id": null,
+  "fuente": {
+    "id": "bariloche-informa",
+    "nombre": "Bariloche Informa",
+    "url_nota": "https://barilocheinforma.gob.ar/avenida-de-la-virreyna-jornada-de-hormigonado-para-finalizar-cuatro-reductores-y-un-baden/"
+  },
+  "fuentes_consultadas": [
+    {
+      "id": "bariloche-informa",
+      "nombre": "Bariloche Informa",
+      "url_nota": "https://barilocheinforma.gob.ar/avenida-de-la-virreyna-jornada-de-hormigonado-para-finalizar-cuatro-reductores-y-un-baden/"
+    }
+  ],
+  "cobertura_cruzada": 1,
+  "cuerpo_html": "<p class=\"c-lead\">El plan de calmado de tránsito y prevención vial en arterias transitadas de Bariloche sumó este viernes 16 de octubre una etapa clave: cuadrillas municipales de Bacheo culminaron el volcado de hormigón elaborado H30 con fibra sobre los cuatro reductores de velocidad y el badén que se construyen en avenida de la Virreyna.</p>\n<p>La intervención, coordinada por la Secretaría de Obras Públicas a partir de solicitudes de los vecinos de la zona, se ejecutó por mitades para mantener desvíos parciales y utilizó minicargadoras con martillo neumático para la remoción previa de calzada, según informó <a href=\"https://barilocheinforma.gob.ar/avenida-de-la-virreyna-jornada-de-hormigonado-para-finalizar-cuatro-reductores-y-un-baden/\" target=\"_blank\" rel=\"noopener noreferrer\">Bariloche Informa</a>.</p>\n<p>Desde el área de Tránsito y Transporte advirtieron a los automovilistas que, si bien la fase de hormigonado concluyó este viernes y el lunes se avanzará con una cuneta revestida complementaria, el tramo permanecerá con restricciones de paso durante los próximos diez a doce días para permitir el fraguado óptimo del material.</p>",
+  "citas": [
+    {
+      "autor": "Subsecretaría de Tránsito y Transporte / Obras Públicas",
+      "texto": "La finalización del hormigonado no implica su habilitación inmediata; el equipo a cargo estima una espera de entre diez y doce días para que el material alcance las condiciones de resistencia necesarias antes de permitir la circulación sobre los sectores nuevos."
+    }
+  ],
+  "datos_duros": [
+    "Construcción de cuatro reductores de velocidad y un badén transversal de escurrimiento.",
+    "Material empleado: hormigón H30 reforzado con fibra para alta resistencia.",
+    "Período de fraguado estimado: entre 10 y 12 días para habilitar la circulación definitiva."
+  ],
+  "area": "Gestión Pública",
+  "fecha": "2026-10-12",
+  "foto": "https://barilocheinforma.gob.ar/wp-content/uploads/2026/10/vi3-2048x1152.jpg",
+  "updated_at": "2026-10-17T02:02:16.521Z",
+  "curada_manualmente": false,
+  "imagen_url": "https://barilocheinforma.gob.ar/wp-content/uploads/2026/10/vi3-2048x1152.jpg",
+  "media": {
+    "requiere_foto": true,
+    "credito": "Prensa Municipalidad de Bariloche / Bariloche Informa",
+    "prompt_nanobanana": "Ilustración editorial en estilo animación 2D sobre obras viales urbanas: una minicargadora compacta y operarios municipales con chalecos refractarios nivelando hormigón fresco en un reductor de velocidad sobre una avenida barrial de Bariloche, con conos de tránsito naranjas y viviendas de montaña a los lados. Paleta en amarillo vial, gris asfalto, azul andino y verde pasto, sin texto.",
+    "imagen_url": "https://barilocheinforma.gob.ar/wp-content/uploads/2026/10/vi3-2048x1152.jpg"
+  },
+  "area_id": "gestion-publica",
+  "url": "https://barilocheinforma.gob.ar/avenida-de-la-virreyna-jornada-de-hormigonado-para-finalizar-cuatro-reductores-y-un-baden/",
+  "fecha_publicacion": "2026-10-12"
+}

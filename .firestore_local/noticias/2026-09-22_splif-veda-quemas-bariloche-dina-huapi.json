@@ -1,31 +1,9 @@
 {
   "id": "2026-09-22_splif-veda-quemas-bariloche-dina-huapi",
+  "foto": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/04/elcordillerano/images/02/57/00/2570039_ae7567f6ad50120054aaaa1486fe17e7a884b53a7c0f2b6bb5ba58aff89f8d97/md.webp",
+  "area": "Gestión Pública",
+  "fecha": "2026-09-22",
   "fecha_publicacion": "2026-09-22",
-  "titular": "El SPLIF fijó el 30 de septiembre como fecha límite improrrogable para quemas en Bariloche y Dina Huapi",
-  "hecho_central": "El Servicio de Prevención y Lucha contra Incendios Forestales (SPLIF) ratificó que el 30 de septiembre concluye el período legal para la quema controlada de residuos de poda en Bariloche, Dina Huapi y Villa Llanquín, dando inicio a la veda total por riesgo estival.",
-  "area_id": "gestion-publica",
-  "dossier_id": null,
-  "fuente": {
-    "id": "el-cordillerano",
-    "nombre": "El Cordillerano",
-    "url_nota": "https://www.elcordillerano.com.ar/noticias/2026/09/22/263398-el-splif-fijo-la-fecha-limite-para-quemas-en-bariloche-dina-huapi-y-villa-llanquin"
-  },
-  "novedad_respecto_a_dias_previos": "Fijación formal del 30 de septiembre como límite estricto de emisión de permisos de quema de poda antes de la veda estival obligatoria.",
-  "datos_duros": {
-    "fecha_limite": "2026-09-30",
-    "inicio_veda": "2026-10-01",
-    "localidades": [
-      "Bariloche",
-      "Dina Huapi",
-      "Villa Llanquín"
-    ]
-  },
-  "citas": [
-    {
-      "autor": "Orlando Báez (Jefe Central SPLIF Bariloche)",
-      "texto": "A partir del 1 de octubre queda terminantemente prohibido cualquier tipo de fuego al aire libre. Necesitamos que los vecinos eliminen o chipeen sus restos de poda antes de la fecha límite."
-    }
-  ],
   "entidades": {
     "actores": [
       "splif-bariloche",
@@ -38,16 +16,40 @@
       "villa-llanquin"
     ]
   },
-  "cobertura_cruzada": 2,
+  "titular": "El SPLIF fijó el 30 de septiembre como fecha límite improrrogable para quemas en Bariloche y Dina Huapi",
+  "url": "https://www.elcordillerano.com.ar/noticias/2026/09/22/263398-el-splif-fijo-la-fecha-limite-para-quemas-en-bariloche-dina-huapi-y-villa-llanquin",
+  "novedad_respecto_a_dias_previos": "Fijación formal del 30 de septiembre como límite estricto de emisión de permisos de quema de poda antes de la veda estival obligatoria.",
   "cuerpo_html": "<p>El Servicio de Prevención y Lucha contra Incendios Forestales (SPLIF) emitió una resolución conjunta para la zona andina estableciendo el <strong>miércoles 30 de septiembre como plazo límite definitivo e improrrogable</strong> para la quema de restos forestales y de poda en San Carlos de Bariloche, Dina Huapi y Villa Llanquín, según consignó <a href=\"https://www.elcordillerano.com.ar/noticias/2026/09/22/263398-el-splif-fijo-la-fecha-limite-para-quemas-en-bariloche-dina-huapi-y-villa-llanquin\" target=\"_blank\" rel=\"noopener noreferrer\">El Cordillerano</a>.</p>\n<p>El organismo provincial intimó a propietarios de lotes en faldeos montañosos, juntas vecinales y chacras de los kilómetros a acondicionar sus terrenos y finalizar la reducción de biomasa seca antes del comienzo de la temporada de veda estival, período en el cual regirán severas multas por el uso no autorizado de fuego ante el ascenso de temperaturas y vientos característicos de la primavera.</p>\n<blockquote cite=\"https://www.elcordillerano.com.ar/noticias/2026/09/22/263398-el-splif-fijo-la-fecha-limite-para-quemas-en-bariloche-dina-huapi-y-villa-llanquin\"><p>«Restan pocos días para gestionar permisos; una vez cerrada la ventana operativa, la prioridad absoluta pasa a ser la detección temprana y el patrullaje preventivo», advirtieron las brigadas del SPLIF.</p></blockquote>\n<p>Las cuadrillas intensificarán los controles preventivos y las tareas de chipeado domiciliario conjunto con las delegaciones municipales para desalentar acumulaciones peligrosas de material combustible.</p>",
-  "area": "Gestión Pública",
-  "fecha": "2026-09-22",
-  "foto": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/04/elcordillerano/images/02/57/00/2570039_ae7567f6ad50120054aaaa1486fe17e7a884b53a7c0f2b6bb5ba58aff89f8d97/md.webp",
-  "updated_at": "2026-09-25T00:21:00.423Z",
-  "imagen_url": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/04/elcordillerano/images/02/57/00/2570039_ae7567f6ad50120054aaaa1486fe17e7a884b53a7c0f2b6bb5ba58aff89f8d97/md.webp",
-  "media": {
-    "credito": "Foto: Archivo SPLIF Bariloche / El Cordillerano",
-    "imagen_url": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/04/elcordillerano/images/02/57/00/2570039_ae7567f6ad50120054aaaa1486fe17e7a884b53a7c0f2b6bb5ba58aff89f8d97/md.webp"
+  "fuente": {
+    "url_nota": "https://www.elcordillerano.com.ar/noticias/2026/09/22/263398-el-splif-fijo-la-fecha-limite-para-quemas-en-bariloche-dina-huapi-y-villa-llanquin",
+    "id": "el-cordillerano",
+    "nombre": "El Cordillerano"
   },
-  "url": "https://www.elcordillerano.com.ar/noticias/2026/09/22/263398-el-splif-fijo-la-fecha-limite-para-quemas-en-bariloche-dina-huapi-y-villa-llanquin"
+  "hecho_central": "El Servicio de Prevención y Lucha contra Incendios Forestales (SPLIF) ratificó que el 30 de septiembre concluye el período legal para la quema controlada de residuos de poda en Bariloche, Dina Huapi y Villa Llanquín, dando inicio a la veda total por riesgo estival.",
+  "cobertura_cruzada": 2,
+  "imagen_url": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/04/elcordillerano/images/02/57/00/2570039_ae7567f6ad50120054aaaa1486fe17e7a884b53a7c0f2b6bb5ba58aff89f8d97/md.webp",
+  "area_id": "gestion-publica",
+  "citas": [
+    {
+      "autor": "Orlando Báez (Jefe Central SPLIF Bariloche)",
+      "texto": "A partir del 1 de octubre queda terminantemente prohibido cualquier tipo de fuego al aire libre. Necesitamos que los vecinos eliminen o chipeen sus restos de poda antes de la fecha límite."
+    }
+  ],
+  "media": {
+    "imagen_url": null,
+    "credito": "Sin imagen verificada",
+    "requiere_foto": true,
+    "prompt_nanobanana": ""
+  },
+  "dossier_id": null,
+  "datos_duros": {
+    "inicio_veda": "2026-10-01",
+    "localidades": [
+      "Bariloche",
+      "Dina Huapi",
+      "Villa Llanquín"
+    ],
+    "fecha_limite": "2026-09-30"
+  },
+  "updated_at": "2026-09-25T00:21:00.423Z"
 }

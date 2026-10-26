@@ -1,27 +1,5 @@
 {
   "id": "2026-09-22_concejo-deliberante-arranco-concejal-por-un-dia",
-  "fecha_publicacion": "2026-09-22",
-  "titular": "Ocho colegios secundarios inauguraron una nueva edición de 'Concejal por un Día' en Bariloche",
-  "hecho_central": "Estudiantes secundarios de ocho instituciones públicas y privadas ocuparon las bancas del Concejo Deliberante para debatir iniciativas de transporte nocturno, reciclaje urbano y salud mental juvenil.",
-  "area_id": "gestion-publica",
-  "dossier_id": null,
-  "fuente": {
-    "id": "el-cordillerano",
-    "nombre": "El Cordillerano",
-    "url_nota": "https://www.elcordillerano.com.ar/noticias/2026/09/22/263398-el-splif-fijo-la-fecha-limite-para-quemas-en-bariloche-dina-huapi-y-villa-llanquin"
-  },
-  "novedad_respecto_a_dias_previos": "Apertura formal de sesiones estudiantiles en el Concejo Deliberante con proyectos de transporte, ambiente y salud mental.",
-  "datos_duros": {
-    "colegios": 8,
-    "concejales_estudiantiles": 45,
-    "programa": "Concejal por un Día 2026"
-  },
-  "citas": [
-    {
-      "autor": "Gerardo Del Río (Presidente del Concejo Deliberante)",
-      "texto": "La mirada de los jóvenes aporta frescura y una urgencia real a problemáticas urbanas que muchas veces la política tradicional posterga."
-    }
-  ],
   "entidades": {
     "actores": [
       "concejo-deliberante",
@@ -33,16 +11,40 @@
       "bariloche"
     ]
   },
-  "cobertura_cruzada": 2,
-  "cuerpo_html": "<p>Con la participación de delegaciones estudiantiles de ocho escuelas secundarias de gestión pública y privada, el Concejo Municipal de San Carlos de Bariloche puso en marcha la edición 2026 del programa pedagógico e institucional <strong>'Concejal por un Día'</strong>, según informó <a href=\"https://www.elcordillerano.com.ar\" target=\"_blank\" rel=\"noopener noreferrer\">El Cordillerano</a>.</p>\n<p>Durante la sesión simulada, los jóvenes debatieron proyectos de ordenanza elaborados en las aulas que abordaron problemáticas cotidianas de la juventud barilochense: frecuencias y recorridos del transporte urbano nocturno para estudiantes terciarios, instalación de puntos verdes de separación en origen en barrios del Este y la creación de gabinetes interdisciplinarios de acompañamiento psicológico juvenil.</p>\n<blockquote cite=\"https://www.elcordillerano.com.ar\"><p>«Sentarse en la banca permite entender cómo se construye un consenso legislativo y cómo una necesidad del barrio puede transformarse en una política pública real», destacaron concejales y docentes coordinadores.</p></blockquote>\n<p>Las iniciativas que obtengan mayor respaldo en las comisiones de trabajo pasarán a formar parte del banco oficial de proyectos juveniles que el cuerpo deliberativo evaluará para su tratamiento legislativo formal en las sesiones ordinarias de octubre.</p>",
-  "area": "Gestión Pública",
-  "fecha": "2026-09-22",
+  "titular": "Ocho colegios secundarios inauguraron una nueva edición de 'Concejal por un Día' en Bariloche",
+  "novedad_respecto_a_dias_previos": "Apertura formal de sesiones estudiantiles en el Concejo Deliberante con proyectos de transporte, ambiente y salud mental.",
   "foto": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/09/elcordillerano/images/02/78/11/2781140_76a789771a7567a6b2282d64c3bea41f7f40bfd32406e78a380f000b967dbfc4/lg.webp",
-  "updated_at": "2026-09-25T00:14:57.013Z",
-  "imagen_url": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/09/elcordillerano/images/02/78/11/2781140_76a789771a7567a6b2282d64c3bea41f7f40bfd32406e78a380f000b967dbfc4/lg.webp",
   "media": {
-    "credito": "Foto: Prensa Concejo Deliberante de Bariloche",
-    "imagen_url": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/09/elcordillerano/images/02/78/11/2781140_76a789771a7567a6b2282d64c3bea41f7f40bfd32406e78a380f000b967dbfc4/lg.webp"
+    "imagen_url": null,
+    "credito": "Sin imagen verificada",
+    "requiere_foto": true,
+    "prompt_nanobanana": ""
   },
-  "url": "https://www.elcordillerano.com.ar/noticias/2026/09/22/263398-el-splif-fijo-la-fecha-limite-para-quemas-en-bariloche-dina-huapi-y-villa-llanquin"
+  "citas": [
+    {
+      "autor": "Gerardo Del Río (Presidente del Concejo Deliberante)",
+      "texto": "La mirada de los jóvenes aporta frescura y una urgencia real a problemáticas urbanas que muchas veces la política tradicional posterga."
+    }
+  ],
+  "area": "Gestión Pública",
+  "fecha_publicacion": "2026-09-22",
+  "imagen_url": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/09/elcordillerano/images/02/78/11/2781140_76a789771a7567a6b2282d64c3bea41f7f40bfd32406e78a380f000b967dbfc4/lg.webp",
+  "hecho_central": "Estudiantes secundarios de ocho instituciones públicas y privadas ocuparon las bancas del Concejo Deliberante para debatir iniciativas de transporte nocturno, reciclaje urbano y salud mental juvenil.",
+  "updated_at": "2026-09-25T00:14:57.013Z",
+  "cuerpo_html": "<p>Con la participación de delegaciones estudiantiles de ocho escuelas secundarias de gestión pública y privada, el Concejo Municipal de San Carlos de Bariloche puso en marcha la edición 2026 del programa pedagógico e institucional <strong>'Concejal por un Día'</strong>, según informó <a href=\"https://www.elcordillerano.com.ar\" target=\"_blank\" rel=\"noopener noreferrer\">El Cordillerano</a>.</p>\n<p>Durante la sesión simulada, los jóvenes debatieron proyectos de ordenanza elaborados en las aulas que abordaron problemáticas cotidianas de la juventud barilochense: frecuencias y recorridos del transporte urbano nocturno para estudiantes terciarios, instalación de puntos verdes de separación en origen en barrios del Este y la creación de gabinetes interdisciplinarios de acompañamiento psicológico juvenil.</p>\n<blockquote cite=\"https://www.elcordillerano.com.ar\"><p>«Sentarse en la banca permite entender cómo se construye un consenso legislativo y cómo una necesidad del barrio puede transformarse en una política pública real», destacaron concejales y docentes coordinadores.</p></blockquote>\n<p>Las iniciativas que obtengan mayor respaldo en las comisiones de trabajo pasarán a formar parte del banco oficial de proyectos juveniles que el cuerpo deliberativo evaluará para su tratamiento legislativo formal en las sesiones ordinarias de octubre.</p>",
+  "fecha": "2026-09-22",
+  "dossier_id": null,
+  "url": "https://www.elcordillerano.com.ar/noticias/2026/09/22/263398-el-splif-fijo-la-fecha-limite-para-quemas-en-bariloche-dina-huapi-y-villa-llanquin",
+  "area_id": "gestion-publica",
+  "fuente": {
+    "nombre": "El Cordillerano",
+    "id": "el-cordillerano",
+    "url_nota": "https://www.elcordillerano.com.ar/noticias/2026/09/22/263398-el-splif-fijo-la-fecha-limite-para-quemas-en-bariloche-dina-huapi-y-villa-llanquin"
+  },
+  "datos_duros": {
+    "colegios": 8,
+    "programa": "Concejal por un Día 2026",
+    "concejales_estudiantiles": 45
+  },
+  "cobertura_cruzada": 2
 }

@@ -1,0 +1,49 @@
+{
+  "id": "2026-10-17_derrumbe-ruta-40-despeje-normalizacion-transito",
+  "updated_at": "2026-10-19T12:05:05.501Z",
+  "datos_duros": {
+    "habilitacion": "Tránsito normalizado con precaución",
+    "ruta": "Ruta Nacional 40",
+    "organismos_intervinientes": "COEM, Vialidad Nacional, Bomberos Dina Huapi y Villa La Angostura, CODI S.A.",
+    "ubicacion": "Kilómetro 2119 (Brazo Huemul)",
+    "tramo": "Bariloche - Villa La Angostura"
+  },
+  "fecha_publicacion": "2026-10-13",
+  "dossier_id": "infraestructura-terminal-rutas",
+  "imagen_url": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/10/anbariloche/images/02/81/81/2818134_c9dd8f23ca1587b68ea53c5981cee9c66d65e59cde743a5a4d2545b8b95d2547/md.webp",
+  "seguimiento_id": "infraestructura-terminal-rutas",
+  "titular": "Reabrieron la Ruta 40 tras el operativo de emergencia por el derrumbe en la zona de Huemul",
+  "fecha": "2026-10-13",
+  "fuentes_consultadas": [
+    {
+      "id": "anbariloche",
+      "nombre": "ANBariloche",
+      "url_nota": "https://www.anbariloche.com.ar/noticias/2026/10/17/120260-reabrieron-la-ruta-40-tras-un-operativo-de-emergencia-por-un-derrumbe"
+    }
+  ],
+  "url": "https://www.anbariloche.com.ar/noticias/2026/10/17/120260-reabrieron-la-ruta-40-tras-un-operativo-de-emergencia-por-un-derrumbe",
+  "cuerpo_html": "<p>El operativo de emergencia desplegado desde las primeras horas de este sábado permitió restablecer la circulación en el kilómetro 2119 de la Ruta Nacional 40, a la altura del Brazo Huemul, luego de que un desprendimiento de piedras, masa de barro y troncos bloqueara parcialmente la cinta asfáltica durante la madrugada. Maquinaria pesada y cuadrillas de la contratista CODI S.A., coordinadas junto a <a href=\"https://www.anbariloche.com.ar/noticias/2026/10/17/120260-reabrieron-la-ruta-40-tras-un-operativo-de-emergencia-por-un-derrumbe\" target=\"_blank\" rel=\"noopener noreferrer\">Vialidad Nacional</a> y los cuerpos de bomberos voluntarios de la región, removieron el material inestable y liberaron ambos carriles pasado el mediodía.</p><p>Las autoridades recomendaron mantener velocidad precautoria debido a que los deshielos primaverales y las precipitaciones intermitentes continúan saturando los taludes en toda la traza cordillerana entre Bariloche y el empalme con la Ruta de los Siete Lagos.</p>",
+  "fuente": {
+    "nombre": "ANBariloche",
+    "id": "anbariloche",
+    "url_nota": "https://www.anbariloche.com.ar/noticias/2026/10/17/120260-reabrieron-la-ruta-40-tras-un-operativo-de-emergencia-por-un-derrumbe"
+  },
+  "area": "Gestión Pública",
+  "area_id": "gestion-publica",
+  "cobertura_cruzada": 1,
+  "foto": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/10/anbariloche/images/02/81/81/2818134_c9dd8f23ca1587b68ea53c5981cee9c66d65e59cde743a5a4d2545b8b95d2547/md.webp",
+  "curada_manualmente": false,
+  "citas": [
+    {
+      "autor": "Protección Civil y COEM",
+      "texto": "Se solicita transitar con extrema precaución por la presencia de material residual en banquinas y sectores húmedos."
+    }
+  ],
+  "media": {
+    "imagen_url": null,
+    "credito": "Sin imagen verificada",
+    "requiere_foto": true,
+    "prompt_nanobanana": ""
+  },
+  "hecho_central": "Vialidad Nacional, Bomberos Voluntarios y personal técnico de la empresa CODI S.A. completaron el despeje y saneamiento de la calzada en el kilómetro 2119 de la Ruta Nacional 40, permitiendo la normalización del tránsito vehicular entre Bariloche y Villa La Angostura tras un derrumbe de rocas, barro y ramas registrado en la madrugada."
+}

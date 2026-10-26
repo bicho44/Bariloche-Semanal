@@ -1,0 +1,48 @@
+{
+  "id": "2026-10-17_alerta-amarilla-tormentas-fuertes-bariloche-zona-andina",
+  "fecha_publicacion": "2026-10-13",
+  "url": "https://www.elcordillerano.com.ar/noticias/2026/10/17/267929-alerta-amarilla-por-tormentas-en-bariloche-y-la-region-para-este-sabado",
+  "foto": "https://elcordillerano-s3.cdn.net.ar/s3i233/2025/11/elcordillerano/images/02/35/08/2350828_a97e91426cc21b434066f9189be155e6e7fdeae58bfddf97dba9f1f67abf5921/md.webp",
+  "datos_duros": {
+    "zona_afectada": "Cordillera y meseta de Pilcaniyeu y Ñorquinco",
+    "precipitacion_acumulada": "10 a 20 mm",
+    "nivel_alerta": "Amarillo",
+    "fenomenos": "Tormentas eléctricas, ráfagas y ocasional caída de granizo"
+  },
+  "fuentes_consultadas": [
+    {
+      "id": "el-cordillerano",
+      "nombre": "El Cordillerano",
+      "url_nota": "https://www.elcordillerano.com.ar/noticias/2026/10/17/267929-alerta-amarilla-por-tormentas-en-bariloche-y-la-region-para-este-sabado"
+    }
+  ],
+  "area": "Gestión Pública",
+  "media": {
+    "imagen_url": null,
+    "credito": "Sin imagen verificada",
+    "requiere_foto": true,
+    "prompt_nanobanana": ""
+  },
+  "citas": [
+    {
+      "autor": "Servicio Meteorológico Nacional",
+      "texto": "El área será afectada por tormentas aisladas, algunas localmente fuertes, con abundante caída de agua en cortos períodos y ráfagas."
+    }
+  ],
+  "cuerpo_html": "<p>La Subsecretaría de Protección Civil de San Carlos de Bariloche activó los protocolos de contingencia tras la emisión del alerta meteorológico amarillo por parte del <a href=\"https://www.elcordillerano.com.ar/noticias/2026/10/17/267929-alerta-amarilla-por-tormentas-en-bariloche-y-la-region-para-este-sabado\" target=\"_blank\" rel=\"noopener noreferrer\">Servicio Meteorológico Nacional (SMN)</a>. El informe técnico prevé el desarrollo de núcleos de tormenta durante las últimas horas de este sábado y las primeras del domingo, con posibilidad de actividad eléctrica, ráfagas de viento y abundante caída de agua concentrada en períodos reducidos.</p><p>Se recomendó a la población asegurar elementos que puedan volarse en patios y obras en construcción, evitar circular por senderos boscosos de montaña durante el temporal y comunicarse al 103 ante emergencias en la vía pública.</p>",
+  "titular": "Alerta amarilla por tormentas y ráfagas en Bariloche y la zona andina durante la noche del sábado",
+  "imagen_url": "https://elcordillerano-s3.cdn.net.ar/s3i233/2025/11/elcordillerano/images/02/35/08/2350828_a97e91426cc21b434066f9189be155e6e7fdeae58bfddf97dba9f1f67abf5921/md.webp",
+  "dossier_id": null,
+  "curada_manualmente": false,
+  "updated_at": "2026-10-19T12:03:40.571Z",
+  "cobertura_cruzada": 1,
+  "area_id": "gestion-publica",
+  "seguimiento_id": null,
+  "fecha": "2026-10-13",
+  "hecho_central": "El Servicio Meteorológico Nacional y Protección Civil emitieron una advertencia por el ingreso de un frente de tormentas eléctricas aisladas, ráfagas intensas y precipitaciones acumuladas de hasta 20 milímetros para la noche del sábado y madrugada del domingo en Bariloche, Pilcaniyeu y Ñorquinco.",
+  "fuente": {
+    "url_nota": "https://www.elcordillerano.com.ar/noticias/2026/10/17/267929-alerta-amarilla-por-tormentas-en-bariloche-y-la-region-para-este-sabado",
+    "id": "el-cordillerano",
+    "nombre": "El Cordillerano"
+  }
+}

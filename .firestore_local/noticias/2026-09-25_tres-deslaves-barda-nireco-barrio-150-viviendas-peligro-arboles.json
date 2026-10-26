@@ -1,17 +1,28 @@
 {
   "id": "2026-09-25_tres-deslaves-barda-nireco-barrio-150-viviendas-peligro-arboles",
+  "foto": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/09/elcordillerano/images/02/78/62/2786233_bfebe3575a16b392c78ae3694fc1752521e5aabeb70e72791ccdc1f2d5cc6f14/md.webp",
+  "fecha_publicacion": "2026-09-25",
+  "area": "Gestión Pública",
+  "imagen_url": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/09/elcordillerano/images/02/78/62/2786233_bfebe3575a16b392c78ae3694fc1752521e5aabeb70e72791ccdc1f2d5cc6f14/md.webp",
+  "fecha": "2026-09-25",
+  "dossier_id": null,
+  "updated_at": "2026-09-26T03:06:40.677Z",
   "titular": "El temporal provocó tres nuevos deslaves en la barda del Ñireco y vecinos de las 150 Viviendas alertan por árboles en riesgo de colapso",
   "hecho_central": "La saturación hídrica tras las intensas lluvias desató tres desprendimientos de ladera en la barda del arroyo Ñireco, dejando álamos añosos con raíces al descubierto e inclinados con riesgo inminente de caer sobre las casas en barrio 150 Viviendas y obligando a mantener cerrada la calle Vuelta de Obligado.",
-  "fecha_publicacion": "2026-09-25",
-  "area_id": "gestion-publica",
-  "dossier_id": null,
-  "seguimiento_id": "ceb-municipio-servicios",
   "fuente": {
     "id": "el-cordillerano",
-    "nombre": "Diario El Cordillerano",
-    "url_nota": "https://www.elcordillerano.com.ar/noticias/2026/09/25/264058-tres-deslaves-en-la-zona-de-la-barda-del-barrio-150-viviendas-hay-peligro-de-caida-de-arboles"
+    "url_nota": "https://www.elcordillerano.com.ar/noticias/2026/09/25/264058-tres-deslaves-en-la-zona-de-la-barda-del-barrio-150-viviendas-hay-peligro-de-caida-de-arboles",
+    "nombre": "Diario El Cordillerano"
   },
+  "datos_duros": {
+    "acumulacion_lluvia_previa": "68 mm en 24 horas y pronóstico de precipitaciones hasta el domingo",
+    "arboles_en_riesgo": "2 álamos añosos con raíces expuestas e inclinados hacia las viviendas del barrio Lera y 150 Viviendas",
+    "calle_clausurada": "Vuelta de Obligado cerrada preventivamente al tránsito por derrumbes",
+    "derrumbes_madrugada": "3 desprendimientos en Vuelta de Obligado y 25 de Mayo, Vuelta de Obligado y Neuquén, y obra de conexión 9 de Julio y Brown"
+  },
+  "url": "https://www.elcordillerano.com.ar/noticias/2026/09/25/264058-tres-deslaves-en-la-zona-de-la-barda-del-barrio-150-viviendas-hay-peligro-de-caida-de-arboles",
   "cuerpo_html": "<p class=\"c-dossier-link\">📌 <em>Seguimiento: <a href=\"/seguimientos/ceb-municipio-servicios\">Relación Municipio - CEB y Servicios Públicos</a></em></p>\n<p>Como consecuencia directa del temporal pluvial de 68 milímetros acumulados, <strong>la ladera de la barda del arroyo Ñireco sufrió tres nuevos desprendimientos de tierra y barro durante la madrugada del viernes 25 de septiembre</strong>, encendiendo el alerta vecinal en el barrio 150 Viviendas (San Francisco I) por la inestabilidad de grandes ejemplares arbóreos, según consignó <a href=\"https://www.elcordillerano.com.ar/noticias/2026/09/25/264058-tres-deslaves-en-la-zona-de-la-barda-del-barrio-150-viviendas-hay-peligro-de-caida-de-arboles\" target=\"_blank\" rel=\"noopener noreferrer\">El Cordillerano</a>.</p>\n<p>Los derrumbes se focalizaron en tres puntos críticos: la intersección de Vuelta de Obligado con 25 de Mayo, el cruce con calle Neuquén y las inmediaciones de la obra de conexión municipal entre los barrios Lera y 150 Viviendas (9 de Julio y Brown). La remoción en masa socavó la base de sustentación de dos álamos añosos, cuyas raíces quedaron al descubierto e inclinadas peligrosamente sobre las construcciones linderas.</p>\n<blockquote cite=\"https://www.elcordillerano.com.ar/noticias/2026/09/25/264058-tres-deslaves-en-la-zona-de-la-barda-del-barrio-150-viviendas-hay-peligro-de-caida-de-arboles\"><p>«Si sigue lloviendo el barro va a terminar entrando en las casas. Los árboles quedaron colgando de las raíces; si ocurre otro deslave se van a derrumbar y se van a llevar puesto todo», advirtieron referentes vecinales, quienes reclamaron la intervención urgente de Protección Civil y la apertura controlada de la calle Vuelta de Obligado.</p></blockquote>\n<p>El Municipio mantiene monitoreo sobre las zonas de escurrimiento pluvial del sector, ante la previsión de precipitaciones intermitentes que continuarán hasta el domingo.</p>",
+  "area_id": "gestion-publica",
   "citas": [
     {
       "autor": "Junta Vecinal 150 Viviendas",
@@ -19,21 +30,11 @@
       "texto": "Si sigue lloviendo va a causar graves problemas y va a llegar a las casas. Los árboles quedaron con las raíces al descubierto; si se provoca otro deslave se van a derrumbar y se van a llevar puesto todo. Necesitamos que se recupere la calle Vuelta de Obligado y se contenga la barda."
     }
   ],
-  "datos_duros": {
-    "derrumbes_madrugada": "3 desprendimientos en Vuelta de Obligado y 25 de Mayo, Vuelta de Obligado y Neuquén, y obra de conexión 9 de Julio y Brown",
-    "arboles_en_riesgo": "2 álamos añosos con raíces expuestas e inclinados hacia las viviendas del barrio Lera y 150 Viviendas",
-    "calle_clausurada": "Vuelta de Obligado cerrada preventivamente al tránsito por derrumbes",
-    "acumulacion_lluvia_previa": "68 mm en 24 horas y pronóstico de precipitaciones hasta el domingo"
-  },
-  "area": "Gestión Pública",
-  "fecha": "2026-09-25",
-  "foto": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/09/elcordillerano/images/02/78/62/2786233_bfebe3575a16b392c78ae3694fc1752521e5aabeb70e72791ccdc1f2d5cc6f14/md.webp",
-  "updated_at": "2026-09-26T03:06:40.677Z",
-  "imagen_url": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/09/elcordillerano/images/02/78/62/2786233_bfebe3575a16b392c78ae3694fc1752521e5aabeb70e72791ccdc1f2d5cc6f14/md.webp",
   "media": {
-    "credito": "Fotos: Euge Neme / El Cordillerano",
-    "requiere_foto": false,
-    "imagen_url": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/09/elcordillerano/images/02/78/62/2786233_bfebe3575a16b392c78ae3694fc1752521e5aabeb70e72791ccdc1f2d5cc6f14/md.webp"
+    "imagen_url": null,
+    "credito": "Sin imagen verificada",
+    "requiere_foto": true,
+    "prompt_nanobanana": ""
   },
-  "url": "https://www.elcordillerano.com.ar/noticias/2026/09/25/264058-tres-deslaves-en-la-zona-de-la-barda-del-barrio-150-viviendas-hay-peligro-de-caida-de-arboles"
+  "seguimiento_id": "ceb-municipio-servicios"
 }

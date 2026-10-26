@@ -1,0 +1,47 @@
+{
+  "id": "2026-10-16_puerto-san-carlos-obras-playon-estacionamiento-veredas",
+  "titular": "Puesta en valor del Puerto San Carlos: vuelcan 35,5 m³ de hormigón para un nuevo playón de estacionamiento y accesos peatonales",
+  "hecho_central": "La Municipalidad ejecutó una serie de obras de infraestructura en el entorno costero de Puerto San Carlos con 35,5 metros cúbicos de hormigón H30, habilitando un acceso peatonal de 6 m³ junto a la subestación, cordones y un nuevo playón vehicular de 28,5 m³ para ordenar el sector.",
+  "dossier_id": null,
+  "seguimiento_id": null,
+  "fuente": {
+    "id": "bariloche-informa",
+    "nombre": "Bariloche Informa",
+    "url_nota": "https://barilocheinforma.gob.ar/veredas-cordones-y-estacionamiento-nuevas-mejoras-en-un-sector-del-puerto-san-carlos/"
+  },
+  "fuentes_consultadas": [
+    {
+      "id": "bariloche-informa",
+      "nombre": "Bariloche Informa",
+      "url_nota": "https://barilocheinforma.gob.ar/veredas-cordones-y-estacionamiento-nuevas-mejoras-en-un-sector-del-puerto-san-carlos/"
+    }
+  ],
+  "cobertura_cruzada": 1,
+  "cuerpo_html": "<p class=\"c-lead\">El predio costero de Puerto San Carlos —epicentro de ferias comunitarias y actividades de vinculación comunitaria— sumó este viernes 16 de octubre un frente integral de acondicionamiento de infraestructura con la colocación de 35,5 metros cúbicos de hormigón elaborado H30.</p>\n<p>Las tareas, a cargo de cuadrillas de Obras Públicas, contemplan la construcción de una vereda peatonal de seis metros cúbicos sobre la bajada que bordea los muros de piedra junto a la subestación, cordones de ordenamiento y un playón de estacionamiento vehicular que absorbe 28,5 m³, según detalló <a href=\"https://barilocheinforma.gob.ar/veredas-cordones-y-estacionamiento-nuevas-mejoras-en-un-sector-del-puerto-san-carlos/\" target=\"_blank\" rel=\"noopener noreferrer\">Bariloche Informa</a>.</p>\n<p>La intervención apunta a dotar de mayor seguridad al tránsito de residentes y visitantes que concurren al microcine, a las ferias del puerto y al paseo de la costa, integrando la accesibilidad peatonal con sectores delimitados de estacionamiento.</p>",
+  "citas": [
+    {
+      "autor": "Secretaría de Obras y Servicios Públicos de Bariloche",
+      "texto": "El entorno de Puerto San Carlos suma un nuevo frente de obra para acondicionar accesos peatonales y construir un playón de estacionamiento, mejorando la circulación y el uso público del predio costero."
+    }
+  ],
+  "datos_duros": [
+    "Volumen total de hormigón H30: 35,5 m³ distribuidos en tres sectores.",
+    "Playón de estacionamiento vehicular: 28,5 m³.",
+    "Acceso peatonal y veredas: 6 m³ en la bajada delimitada por muros de piedra histórica."
+  ],
+  "area": "Gestión Pública",
+  "fecha": "2026-10-12",
+  "foto": "https://barilocheinforma.gob.ar/wp-content/uploads/2026/10/puer6.jpg",
+  "updated_at": "2026-10-17T02:03:49.761Z",
+  "curada_manualmente": false,
+  "imagen_url": "https://barilocheinforma.gob.ar/wp-content/uploads/2026/10/puer6.jpg",
+  "media": {
+    "requiere_foto": true,
+    "credito": "Prensa Municipalidad de Bariloche / Bariloche Informa",
+    "prompt_nanobanana": "Ilustración editorial en estilo animación 2D sobre arquitectura portuaria y costera: la bahía de Puerto San Carlos con muros de piedra andina, veredas de hormigón recién alisadas y un playón de estacionamiento delimitado junto a las aguas del lago Nahuel Huapi. Paleta en azul lago, gris piedra, verde ciprés y blanco, sin texto.",
+    "imagen_url": "https://barilocheinforma.gob.ar/wp-content/uploads/2026/10/puer6.jpg"
+  },
+  "area_id": "gestion-publica",
+  "url": "https://barilocheinforma.gob.ar/veredas-cordones-y-estacionamiento-nuevas-mejoras-en-un-sector-del-puerto-san-carlos/",
+  "fecha_publicacion": "2026-10-12"
+}

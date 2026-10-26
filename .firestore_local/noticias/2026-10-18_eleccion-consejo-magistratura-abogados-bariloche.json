@@ -1,0 +1,50 @@
+{
+  "id": "2026-10-18_eleccion-consejo-magistratura-abogados-bariloche",
+  "cuerpo_html": "<p>Un total de 500 abogados matriculados en la jurisdicción federal de Bariloche acudirán a las urnas este martes 20 de octubre para elegir a sus representantes ante el <a href=\"https://www.anbariloche.com.ar/noticias/2026/10/18/120299-500-abogados-de-bariloche-votaran-representantes-para-el-consejo-de-la-magistratura\" target=\"_blank\" rel=\"noopener noreferrer\">Consejo de la Magistratura de la Nación</a>. El comicio, que se desarrollará entre las 9 y las 18 horas en centros habilitados por la Federación Argentina de Colegios de Abogados (FACA), forma parte de una jornada electoral de alcance federal que convoca a casi 184 mil letrados bajo el sistema de distrito único.</p><p>La contienda pone en juego cuatro bancas clave en el órgano responsable de seleccionar las ternas de jueces federales, administrar los recursos presupuestarios de la Justicia y tramitar los juicios políticos de remoción, con cuatro listas nacionales en competencia respaldadas por los consejeros salientes.</p>",
+  "area_id": "gestion-publica",
+  "fuentes_consultadas": [
+    {
+      "id": "anbariloche",
+      "nombre": "ANBariloche",
+      "url_nota": "https://www.anbariloche.com.ar/noticias/2026/10/18/120299-500-abogados-de-bariloche-votaran-representantes-para-el-consejo-de-la-magistratura"
+    }
+  ],
+  "fecha_publicacion": "2026-10-14",
+  "citas": [
+    {
+      "autor": "Colegio de Abogados / FACA",
+      "texto": "La elección definirá la representación de los abogados en el cuerpo encargado de la selección y control disciplinario de jueces federales durante los próximos cuatro años."
+    }
+  ],
+  "fuente": {
+    "nombre": "ANBariloche",
+    "url_nota": "https://www.anbariloche.com.ar/noticias/2026/10/18/120299-500-abogados-de-bariloche-votaran-representantes-para-el-consejo-de-la-magistratura",
+    "id": "anbariloche"
+  },
+  "media": {
+    "imagen_url": null,
+    "credito": "Sin imagen verificada",
+    "requiere_foto": true,
+    "prompt_nanobanana": ""
+  },
+  "hecho_central": "Unos 500 abogados matriculados en el fuero federal de San Carlos de Bariloche están habilitados para participar este martes 20 de octubre de las elecciones que definirán a los cuatro representantes del estamento de la abogacía ante el Consejo de la Magistratura de la Nación para el período 2026-2030.",
+  "url": "https://www.anbariloche.com.ar/noticias/2026/10/18/120299-500-abogados-de-bariloche-votaran-representantes-para-el-consejo-de-la-magistratura",
+  "datos_duros": {
+    "fecha_comicio": "Martes 20 de octubre de 2026 (de 9 a 18 hs)",
+    "centros_votacion_nacionales": "96 centros de votación en distrito único",
+    "padron_nacional": "Cerca de 184.000 abogados en todo el país",
+    "padron_local": "500 profesionales habilitados en Bariloche",
+    "listas_en_pugna": "4 listas federales en contienda",
+    "organismo": "Consejo de la Magistratura de la Nación"
+  },
+  "seguimiento_id": null,
+  "cobertura_cruzada": 1,
+  "curada_manualmente": false,
+  "fecha": "2026-10-14",
+  "foto": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/10/anbariloche/images/02/81/89/2818936_9e893c4d8e549d3999aa682d25bcbdcff46b28e1e1b9a56483b1e4058f9f9d97/md.webp",
+  "updated_at": "2026-10-19T12:00:30.672Z",
+  "dossier_id": null,
+  "titular": "500 abogados de Bariloche votarán representantes ante el Consejo de la Magistratura de la Nación",
+  "area": "Gestión Pública",
+  "imagen_url": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/10/anbariloche/images/02/81/89/2818936_9e893c4d8e549d3999aa682d25bcbdcff46b28e1e1b9a56483b1e4058f9f9d97/md.webp"
+}

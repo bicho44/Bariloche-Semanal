@@ -1,17 +1,21 @@
 {
   "id": "2026-09-25_ceb-cortes-programados-mantenimiento-don-bosco-belgrano-bustillo",
-  "titular": "La CEB programó cortes de luz para este fin de semana en Don Bosco, Belgrano y zona céntrica por mantenimiento preventivo",
-  "hecho_central": "La Cooperativa de Electricidad Bariloche ejecutará interrupciones del servicio el sábado 26 y domingo 27 de septiembre entre las 9:00 y las 14:00 horas para concretar obras de mantenimiento sobre Líneas Aéreas de Media Tensión y Subestaciones Transformadoras en el oeste y el área céntrica.",
-  "fecha_publicacion": "2026-09-25",
-  "area_id": "gestion-publica",
-  "dossier_id": null,
-  "seguimiento_id": "ceb-municipio-servicios",
-  "fuente": {
-    "id": "anbariloche",
-    "nombre": "ANBariloche",
-    "url_nota": "https://www.anbariloche.com.ar/noticias/2026/09/25/118234-la-ceb-programo-cortes-de-luz-para-este-fin-de-semana-en-distintos-sectores-de-la-ciudad"
+  "datos_duros": {
+    "sectores_sabado_26": "Barrio Don Bosco en su totalidad, Parque Lago Moreno y calles Kromer, Grafito, Centinela, La Cantera, Ayayema, Pinsa Huapi, Rahue y Pire-Co (Media Tensión)",
+    "sectores_domingo_27": "San Martín (Banco La Pampa a Bustillo km 1), Salta (Monolito a Hotel Panamericano) y Bustillo (km 1 a 1,3) por mantenimiento en Subestación Transformadora",
+    "horario_cortes": "09:00 a 14:00 horas (sábado 26 y domingo 27 de septiembre)",
+    "objetivo_tecnico": "Programa de Mantenimiento Preventivo 2026 para minimizar cortes imprevistos y consolidar redes"
   },
-  "cuerpo_html": "<p class=\"c-dossier-link\">📌 <em>Seguimiento: <a href=\"/seguimientos/ceb-municipio-servicios\">Relación Municipio - CEB y Servicios Públicos</a></em></p>\n<p>Tras las intensas jornadas de trabajo para contener averías causadas por el temporal, la <strong>Cooperativa de Electricidad Bariloche (CEB)</strong> anunció la implementación de dos cortes programados de energía eléctrica para este fin de semana en sectores estratégicos del oeste y del macrocentro, según reportó <a href=\"https://www.anbariloche.com.ar/noticias/2026/09/25/118234-la-ceb-programo-cortes-de-luz-para-este-fin-de-semana-en-distintos-sectores-de-la-ciudad\" target=\"_blank\" rel=\"noopener noreferrer\">ANBariloche</a>.</p>\n<p>Las interrupciones se llevarán a cabo en la franja de <strong>9:00 a 14:00 horas</strong>. El sábado 26 de septiembre las cuadrillas intervendrán la Línea Aérea de Media Tensión que abastece a la totalidad del <strong>barrio Don Bosco</strong> y la zona de Parque Lago Moreno, abarcando las calles Kromer, Grafito, Centinela, La Cantera, Ayayema, Pinsa Huapi, Rahue y Pire-Co. El domingo 27, las tareas se trasladarán a una Subestación Transformadora clave, afectando a usuarios sobre avenida San Martín (entre Banco La Pampa y Bustillo km 1), calle Salta (desde el Monolito hasta el Hotel Panamericano) y los primeros 300 metros de avenida Bustillo.</p>\n<blockquote cite=\"https://www.anbariloche.com.ar/noticias/2026/09/25/118234-la-ceb-programo-cortes-de-luz-para-este-fin-de-semana-en-distintos-sectores-de-la-ciudad\"><p>«Estas intervenciones forman parte del Programa de Mantenimiento Preventivo 2026. Permiten revisar componentes estratégicos de la red y anticipar eventuales desperfectos antes del incremento de consumo propio de los meses de calor», señalaron desde la entidad cooperativa.</p></blockquote>\n<p>Se recomienda a los vecinos y comercios de las áreas involucradas tomar precauciones con artefactos sensibles y sistemas de frío durante la ventana operativa de cinco horas.</p>",
+  "imagen_url": "https://anbariloche-s2.cdn.net.ar/st2i1700/2023/05/anbariloche/images/48/32/483293_7394749203adb380bf0f78962edc5a13c2b8ebbde383625a81ba05a0f7b7192d/lg.webp",
+  "dossier_id": null,
+  "updated_at": "2026-09-26T03:07:47.124Z",
+  "fuente": {
+    "url_nota": "https://www.anbariloche.com.ar/noticias/2026/09/25/118234-la-ceb-programo-cortes-de-luz-para-este-fin-de-semana-en-distintos-sectores-de-la-ciudad",
+    "id": "anbariloche",
+    "nombre": "ANBariloche"
+  },
+  "area_id": "gestion-publica",
+  "seguimiento_id": "ceb-municipio-servicios",
   "citas": [
     {
       "autor": "Gerencia Técnica",
@@ -19,21 +23,18 @@
       "texto": "Este tipo de intervenciones permiten revisar componentes estratégicos de la red, anticipar posibles fallas y realizar trabajos antes de que puedan afectar el funcionamiento del servicio, reduciendo la ocurrencia de cortes imprevistos y extendiendo la vida útil de los equipos."
     }
   ],
-  "datos_duros": {
-    "horario_cortes": "09:00 a 14:00 horas (sábado 26 y domingo 27 de septiembre)",
-    "sectores_sabado_26": "Barrio Don Bosco en su totalidad, Parque Lago Moreno y calles Kromer, Grafito, Centinela, La Cantera, Ayayema, Pinsa Huapi, Rahue y Pire-Co (Media Tensión)",
-    "sectores_domingo_27": "San Martín (Banco La Pampa a Bustillo km 1), Salta (Monolito a Hotel Panamericano) y Bustillo (km 1 a 1,3) por mantenimiento en Subestación Transformadora",
-    "objetivo_tecnico": "Programa de Mantenimiento Preventivo 2026 para minimizar cortes imprevistos y consolidar redes"
-  },
-  "area": "Gestión Pública",
-  "fecha": "2026-09-25",
-  "foto": "https://anbariloche-s2.cdn.net.ar/st2i1700/2023/05/anbariloche/images/48/32/483293_7394749203adb380bf0f78962edc5a13c2b8ebbde383625a81ba05a0f7b7192d/lg.webp",
-  "updated_at": "2026-09-26T03:07:47.124Z",
-  "imagen_url": "https://anbariloche-s2.cdn.net.ar/st2i1700/2023/05/anbariloche/images/48/32/483293_7394749203adb380bf0f78962edc5a13c2b8ebbde383625a81ba05a0f7b7192d/lg.webp",
   "media": {
-    "credito": "Foto: Marcelo Martínez / ANBariloche",
-    "requiere_foto": false,
-    "imagen_url": "https://anbariloche-s2.cdn.net.ar/st2i1700/2023/05/anbariloche/images/48/32/483293_7394749203adb380bf0f78962edc5a13c2b8ebbde383625a81ba05a0f7b7192d/lg.webp"
+    "imagen_url": null,
+    "credito": "Sin imagen verificada",
+    "requiere_foto": true,
+    "prompt_nanobanana": ""
   },
-  "url": "https://www.anbariloche.com.ar/noticias/2026/09/25/118234-la-ceb-programo-cortes-de-luz-para-este-fin-de-semana-en-distintos-sectores-de-la-ciudad"
+  "cuerpo_html": "<p class=\"c-dossier-link\">📌 <em>Seguimiento: <a href=\"/seguimientos/ceb-municipio-servicios\">Relación Municipio - CEB y Servicios Públicos</a></em></p>\n<p>Tras las intensas jornadas de trabajo para contener averías causadas por el temporal, la <strong>Cooperativa de Electricidad Bariloche (CEB)</strong> anunció la implementación de dos cortes programados de energía eléctrica para este fin de semana en sectores estratégicos del oeste y del macrocentro, según reportó <a href=\"https://www.anbariloche.com.ar/noticias/2026/09/25/118234-la-ceb-programo-cortes-de-luz-para-este-fin-de-semana-en-distintos-sectores-de-la-ciudad\" target=\"_blank\" rel=\"noopener noreferrer\">ANBariloche</a>.</p>\n<p>Las interrupciones se llevarán a cabo en la franja de <strong>9:00 a 14:00 horas</strong>. El sábado 26 de septiembre las cuadrillas intervendrán la Línea Aérea de Media Tensión que abastece a la totalidad del <strong>barrio Don Bosco</strong> y la zona de Parque Lago Moreno, abarcando las calles Kromer, Grafito, Centinela, La Cantera, Ayayema, Pinsa Huapi, Rahue y Pire-Co. El domingo 27, las tareas se trasladarán a una Subestación Transformadora clave, afectando a usuarios sobre avenida San Martín (entre Banco La Pampa y Bustillo km 1), calle Salta (desde el Monolito hasta el Hotel Panamericano) y los primeros 300 metros de avenida Bustillo.</p>\n<blockquote cite=\"https://www.anbariloche.com.ar/noticias/2026/09/25/118234-la-ceb-programo-cortes-de-luz-para-este-fin-de-semana-en-distintos-sectores-de-la-ciudad\"><p>«Estas intervenciones forman parte del Programa de Mantenimiento Preventivo 2026. Permiten revisar componentes estratégicos de la red y anticipar eventuales desperfectos antes del incremento de consumo propio de los meses de calor», señalaron desde la entidad cooperativa.</p></blockquote>\n<p>Se recomienda a los vecinos y comercios de las áreas involucradas tomar precauciones con artefactos sensibles y sistemas de frío durante la ventana operativa de cinco horas.</p>",
+  "foto": "https://anbariloche-s2.cdn.net.ar/st2i1700/2023/05/anbariloche/images/48/32/483293_7394749203adb380bf0f78962edc5a13c2b8ebbde383625a81ba05a0f7b7192d/lg.webp",
+  "area": "Gestión Pública",
+  "url": "https://www.anbariloche.com.ar/noticias/2026/09/25/118234-la-ceb-programo-cortes-de-luz-para-este-fin-de-semana-en-distintos-sectores-de-la-ciudad",
+  "fecha_publicacion": "2026-09-25",
+  "titular": "La CEB programó cortes de luz para este fin de semana en Don Bosco, Belgrano y zona céntrica por mantenimiento preventivo",
+  "hecho_central": "La Cooperativa de Electricidad Bariloche ejecutará interrupciones del servicio el sábado 26 y domingo 27 de septiembre entre las 9:00 y las 14:00 horas para concretar obras de mantenimiento sobre Líneas Aéreas de Media Tensión y Subestaciones Transformadoras en el oeste y el área céntrica.",
+  "fecha": "2026-09-25"
 }

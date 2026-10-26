@@ -1,0 +1,49 @@
+{
+  "id": "2026-10-19_alerta-amarilla-lluvias-nevadas-bariloche-nahuel-huapi",
+  "titular": "Alerta amarilla por lluvias intensas y nevadas en la cordillera: Parques pide extremar precauciones en sendas",
+  "cuerpo_html": "<p>La Subsecretaría de Protección Civil y la Intendencia del Parque Nacional Nahuel Huapi declararon el estado de alerta preventiva en toda la zona andina rionegrina frente al informe especial emitido por el <a href=\"https://www.elcordillerano.com.ar/noticias/2026/10/19/268145-semana-inestable-en-bariloche-anuncian-lluvias-tormentas-y-probabilidad-de-nevadas\" target=\"_blank\" rel=\"noopener noreferrer\">Servicio Meteorológico Nacional</a>. El pronóstico anticipa jornadas con lluvias ininterrumpidas, ráfagas del oeste y un descenso marcado de temperatura que provocará precipitaciones níveas en cotas medias y altas.</p><p>Las autoridades recomendaron posponer excursiones a filos y refugios de montaña debido a la saturación hídrica de los suelos y al peligro de caída de ramas en sendas boscosas, recordando la obligación ineludible de completar el Registro de Trekking previo a cualquier salida agreste.</p>",
+  "fecha_publicacion": "2026-10-15",
+  "seguimiento_id": null,
+  "fuente": {
+    "id": "el-cordillerano",
+    "url_nota": "https://www.elcordillerano.com.ar/noticias/2026/10/19/268145-semana-inestable-en-bariloche-anuncian-lluvias-tormentas-y-probabilidad-de-nevadas",
+    "nombre": "El Cordillerano"
+  },
+  "hecho_central": "El Servicio Meteorológico Nacional y la Intendencia del Parque Nacional Nahuel Huapi emitieron una advertencia por el ingreso de un frente de tormentas persistentes, ráfagas de viento y abundante caída de agua con valores de hasta 30 milímetros, anticipando nevadas en cotas superiores a los 1200 metros para este martes y miércoles.",
+  "updated_at": "2026-10-20T12:08:59.105Z",
+  "dossier_id": null,
+  "curada_manualmente": false,
+  "media": {
+    "imagen_url": null,
+    "credito": "Sin imagen verificada",
+    "requiere_foto": true,
+    "prompt_nanobanana": ""
+  },
+  "citas": [
+    {
+      "autor": "Parque Nacional Nahuel Huapi",
+      "texto": "Se solicita circular con extrema precaución ante la eventual caída de ramas, desmoronamiento de piedras en caminos de montaña y crecida abrupta de arroyos."
+    }
+  ],
+  "fuentes_consultadas": [
+    {
+      "id": "el-cordillerano",
+      "nombre": "El Cordillerano",
+      "url_nota": "https://www.elcordillerano.com.ar/noticias/2026/10/19/268145-semana-inestable-en-bariloche-anuncian-lluvias-tormentas-y-probabilidad-de-nevadas"
+    }
+  ],
+  "foto": "https://elcordillerano-s3.cdn.net.ar/s3i233/2025/08/elcordillerano/images/02/22/00/2220086_df388851da77a4e4c9527a6e668096dd6fb475e33fd1df9c376f2c7256458e9f/md.webp",
+  "imagen_url": "https://elcordillerano-s3.cdn.net.ar/s3i233/2025/08/elcordillerano/images/02/22/00/2220086_df388851da77a4e4c9527a6e668096dd6fb475e33fd1df9c376f2c7256458e9f/md.webp",
+  "area": "Gestión Pública",
+  "datos_duros": {
+    "nivel_alerta": "Amarillo por lluvias y vientos",
+    "medidas_preventivas": "Registro obligatorio de trekking y recomendación de no internarse en senderos de alta montaña",
+    "zona_afectada": "Cordillera de Río Negro y Neuquén (Bariloche, Pilcaniyeu y Parque Nahuel Huapi)",
+    "acumulado_estimado": "15 a 30 mm de precipitación continua",
+    "cota_nieve": "1200 metros sobre el nivel del mar"
+  },
+  "url": "https://www.elcordillerano.com.ar/noticias/2026/10/19/268145-semana-inestable-en-bariloche-anuncian-lluvias-tormentas-y-probabilidad-de-nevadas",
+  "cobertura_cruzada": 1,
+  "fecha": "2026-10-15",
+  "area_id": "gestion-publica"
+}

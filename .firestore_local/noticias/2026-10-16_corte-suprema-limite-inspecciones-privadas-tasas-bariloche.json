@@ -1,0 +1,52 @@
+{
+  "id": "2026-10-16_corte-suprema-limite-inspecciones-privadas-tasas-bariloche",
+  "url": "https://www.elcordillerano.com.ar/noticias/2026/10/16/267806-la-corte-suprema-confirmo-limites-a-las-inspecciones-privadas-para-cobrar-tasas-municipales-en-bariloche",
+  "cobertura_cruzada": 2,
+  "fuentes_consultadas": [
+    {
+      "id": "el-cordillerano",
+      "nombre": "El Cordillerano",
+      "url_nota": "https://www.elcordillerano.com.ar/noticias/2026/10/16/267806-la-corte-suprema-confirmo-limites-a-las-inspecciones-privadas-para-cobrar-tasas-municipales-en-bariloche"
+    },
+    {
+      "id": "anbariloche",
+      "nombre": "ANBariloche",
+      "url_nota": "https://www.anbariloche.com.ar/noticias/2026/10/16/120218-la-corte-suprema-dejo-firme-un-fallo-que-limita-las-inspecciones-privadas-para-cobrar-tasas-en-bariloche"
+    }
+  ],
+  "titular": "Límite a las tercerizaciones fiscales: la Corte Suprema dejó firme el fallo que prohíbe a empresas privadas fiscalizar tasas en Bariloche",
+  "citas": [
+    {
+      "autor": "Superior Tribunal de Justicia de Río Negro (ratificado por la Corte Suprema)",
+      "texto": "La Carta Orgánica de Bariloche establece que la potestad tributaria es indelegable. Las tareas de relevamiento, verificación y constatación que sustentan el cobro de tasas deben estar a cargo de funcionarios públicos habilitados y no de empleados de empresas contratadas."
+    }
+  ],
+  "media": {
+    "imagen_url": null,
+    "credito": "Sin imagen verificada",
+    "requiere_foto": true,
+    "prompt_nanobanana": ""
+  },
+  "foto": "https://anbariloche-s3.cdn.net.ar/s3i233/2025/04/anbariloche/images/01/85/21/1852148_7568a9312f509a2987179597968e0973304678bd2a45713cc7bfcb1a9e19c8e4/lg.webp",
+  "area": "Gestión Pública",
+  "curada_manualmente": false,
+  "updated_at": "2026-10-17T02:01:16.717Z",
+  "area_id": "gestion-publica",
+  "fecha_publicacion": "2026-10-12",
+  "dossier_id": null,
+  "imagen_url": "https://anbariloche-s3.cdn.net.ar/s3i233/2025/04/anbariloche/images/01/85/21/1852148_7568a9312f509a2987179597968e0973304678bd2a45713cc7bfcb1a9e19c8e4/lg.webp",
+  "fecha": "2026-10-12",
+  "datos_duros": [
+    "Fallo de la Corte Suprema de Justicia de la Nación ratifica sentencia del STJ de Río Negro.",
+    "Anulación de deuda reclamada a PepsiCo por derechos de publicidad y propaganda de los años 2016, 2017 y 2018.",
+    "La Carta Orgánica de Bariloche establece que la potestad fiscalizadora y el labrado de actas tributarias es función indelegable de agentes públicos municipales."
+  ],
+  "hecho_central": "La Corte Suprema de Justicia de la Nación rechazó la queja del Municipio de Bariloche y ratificó la sentencia del Superior Tribunal de Justicia que declaró nula una deuda reclamada a PepsiCo por publicidad (2016-2018), sentando jurisprudencia definitiva sobre el carácter indelegable de las inspecciones y actas tributarias municipales.",
+  "cuerpo_html": "<p class=\"c-lead\">En una resolución de hondo impacto institucional para las finanzas de San Carlos de Bariloche, la Corte Suprema de Justicia de la Nación desestimó un recurso de queja del Municipio y dejó firme la sentencia del Superior Tribunal de Justicia de Río Negro (STJ) que anuló las determinaciones de deuda por derechos de publicidad y propaganda aplicadas a la firma PepsiCo entre 2016 y 2018.</p>\n<p>El núcleo del pronunciamiento judicial —ratificado en todas las instancias tras los fallos iniciales de la Cámara de Apelaciones local, según reportaron <a href=\"https://www.elcordillerano.com.ar/noticias/2026/10/16/267806-la-corte-suprema-confirmo-limites-a-las-inspecciones-privadas-para-cobrar-tasas-municipales-en-bariloche\" target=\"_blank\" rel=\"noopener noreferrer\">Diario El Cordillerano</a> y <a href=\"https://www.anbariloche.com.ar/noticias/2026/10/16/120218-la-corte-suprema-dejo-firme-un-fallo-que-limita-las-inspecciones-privadas-para-cobrar-tasas-en-bariloche\" target=\"_blank\" rel=\"noopener noreferrer\">ANBariloche</a>— no cuestiona la potestad comunal de gravar la cartelería comercial, sino el mecanismo de tercerización implementado por la comuna a través de una consultora privada cuyos empleados realizaban inspecciones oculares, mediciones y actas de constatación en la vía pública.</p>\n<p>La Justicia determinó que la Carta Orgánica y las ordenanzas fiscales consagran a la potestad tributaria y fiscalizadora como una atribución pública indelegable que debe ser ejercida exclusivamente por inspectores municipales matriculados. El fallo advierte que ninguna resolución del Ejecutivo puede otorgar facultades de policía fiscal a dependientes de firmas privadas, dejando sin valor legal los relevamientos tercerizados que sirvieron de base para liquidar el tributo.</p>",
+  "fuente": {
+    "nombre": "El Cordillerano",
+    "url_nota": "https://www.elcordillerano.com.ar/noticias/2026/10/16/267806-la-corte-suprema-confirmo-limites-a-las-inspecciones-privadas-para-cobrar-tasas-municipales-en-bariloche",
+    "id": "el-cordillerano"
+  },
+  "seguimiento_id": null
+}

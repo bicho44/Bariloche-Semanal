@@ -58,20 +58,62 @@ export const DashboardView: React.FC<DashboardViewProps> = ({
     else setLoading(true);
     setError(null);
 
-    try {
-      const res = await fetch('/api/dashboard/stats', { cache: 'no-store' });
-      if (!res.ok) {
-        throw new Error(`Error ${res.status} al obtener estadísticas`);
+    const maxRetries = 2;
+    for (let attempt = 0; attempt <= maxRetries; attempt++) {
+      try {
+        const url = isManual ? '/api/dashboard/stats?fresh=1' : '/api/dashboard/stats';
+        const res = await fetch(url, {
+          cache: 'no-store',
+          headers: {
+            Accept: 'application/json',
+          },
+        });
+
+        // Leer siempre como texto plano primero para prevenir excepciones de JSON.parse no controladas
+        const rawText = await res.text().catch(() => '');
+        let data: DashboardResumen | null = null;
+        if (rawText) {
+          try {
+            data = JSON.parse(rawText) as DashboardResumen;
+          } catch {
+            // El contenido no era JSON válido
+          }
+        }
+
+        if (!res.ok || !data) {
+          if (attempt < maxRetries) {
+            await new Promise((resolve) => setTimeout(resolve, 600 * (attempt + 1)));
+            continue;
+          }
+          const errorMsg =
+            data && (data as any).error
+              ? (data as any).error
+              : (data as any)?.detalle ||
+                (rawText && !rawText.startsWith('<')
+                  ? rawText.slice(0, 80)
+                  : `Error HTTP ${res.status} al sincronizar métricas`);
+          throw new Error(errorMsg);
+        }
+
+        setStats(data);
+        setError(null);
+        setLoading(false);
+        setRefreshing(false);
+        return; // Finalización exitosa
+      } catch (err: unknown) {
+        if (attempt < maxRetries) {
+          await new Promise((resolve) => setTimeout(resolve, 600 * (attempt + 1)));
+          continue;
+        }
+        const e = err as Error;
+        console.warn('[DashboardView] Aviso al sincronizar métricas:', e?.message || e);
+        setError(e?.message || 'No se pudieron sincronizar las estadísticas');
+      } finally {
+        if (attempt === maxRetries) {
+          setLoading(false);
+          setRefreshing(false);
+        }
       }
-      const data: DashboardResumen = await res.json();
-      setStats(data);
-    } catch (err: unknown) {
-      const e = err as Error;
-      console.error('[DashboardView] Error cargando métricas:', e);
-      setError(e.message || 'No se pudieron sincronizar las estadísticas');
-    } finally {
-      setLoading(false);
-      setRefreshing(false);
     }
   }, []);
 
@@ -91,10 +133,47 @@ export const DashboardView: React.FC<DashboardViewProps> = ({
     );
   }
 
+  if (error && !stats) {
+    return (
+      <div className="flex flex-col items-center justify-center min-h-[420px] bg-white rounded-2xl border border-rose-200 p-12 text-center shadow-xs">
+        <div className="w-12 h-12 rounded-2xl bg-rose-50 text-rose-600 flex items-center justify-center mb-4">
+          <AlertCircle className="w-6 h-6" />
+        </div>
+        <h3 className="text-base font-bold text-slate-900">Error al sincronizar métricas</h3>
+        <p className="text-xs text-slate-600 mt-1 max-w-md leading-relaxed">
+          {error}
+        </p>
+        <button
+          onClick={() => fetchStats(true)}
+          disabled={refreshing}
+          className="mt-5 inline-flex items-center gap-2 px-4 py-2 bg-blue-700 hover:bg-blue-800 text-white rounded-xl text-xs font-semibold shadow-xs cursor-pointer transition-colors"
+        >
+          <RefreshCw className={`w-3.5 h-3.5 ${refreshing ? 'animate-spin' : ''}`} />
+          <span>Reintentar conexión</span>
+        </button>
+      </div>
+    );
+  }
+
   const primaryColor = branding?.colores?.primario || '#1e3a8a';
 
   return (
     <div className="space-y-6 pb-12">
+      {/* Alerta si falló actualización manual pero hay datos previos */}
+      {error && stats && (
+        <div className="flex items-center justify-between p-3.5 bg-amber-50 border border-amber-200 rounded-xl text-xs text-amber-900">
+          <div className="flex items-center gap-2">
+            <AlertCircle className="w-4 h-4 text-amber-600 shrink-0" />
+            <span>Métricas previas en pantalla. No se pudo actualizar en tiempo real: {error}</span>
+          </div>
+          <button
+            onClick={() => fetchStats(true)}
+            className="text-xs font-bold text-amber-900 underline hover:no-underline ml-3 shrink-0"
+          >
+            Reintentar
+          </button>
+        </div>
+      )}
       {/* Top Executive Header: 2 Columnas (Control + Clima Discreto) */}
       <div className="bg-white rounded-2xl border border-slate-200/90 p-5 md:p-6 shadow-xs">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 items-stretch">

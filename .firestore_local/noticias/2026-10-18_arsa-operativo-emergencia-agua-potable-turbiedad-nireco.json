@@ -1,0 +1,50 @@
+{
+  "id": "2026-10-18_arsa-operativo-emergencia-agua-potable-turbiedad-nireco",
+  "imagen_url": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/09/elcordillerano/images/02/78/54/2785480_60cecaf17459b29e699297fa67aeaa1cf3aa510cb020af00880b85ba184cc0fc/md.webp",
+  "datos_duros": {
+    "logistica_cisternas": "2 camiones cisterna (1 contratado por ARSA y 1 provisto por el Municipio)",
+    "barrios_asistidos": "Pilar I y II, Dos Valles, 645 Viviendas",
+    "fuente_emergencia": "Desvío de arroyo secundario de bajo caudal",
+    "fuente_habitual": "Río Ñireco (producción frenada por sedimentos)",
+    "plan_estructural": "Perforaciones subterráneas proyectadas en el predio de la planta",
+    "empresa": "Aguas Rionegrinas (ARSA)"
+  },
+  "citas": [
+    {
+      "autor": "Aguas Rionegrinas (ARSA)",
+      "texto": "Aunque los niveles de turbiedad en el río comenzaron a descender levemente, aún no alcanzan los parámetros técnicos de seguridad para reanudar el bombeo convencional a los filtros."
+    }
+  ],
+  "media": {
+    "imagen_url": null,
+    "credito": "Sin imagen verificada",
+    "requiere_foto": true,
+    "prompt_nanobanana": ""
+  },
+  "dossier_id": null,
+  "area_id": "gestion-publica",
+  "updated_at": "2026-10-19T12:00:55.407Z",
+  "cobertura_cruzada": 1,
+  "fuente": {
+    "id": "el-cordillerano",
+    "nombre": "El Cordillerano",
+    "url_nota": "https://www.elcordillerano.com.ar/noticias/2026/10/18/268088-bariloche-aguas-rionegrinas-despliega-un-operativo-para-sostener-el-servicio-ante-la-turbiedad-del-ireco"
+  },
+  "fuentes_consultadas": [
+    {
+      "id": "el-cordillerano",
+      "nombre": "El Cordillerano",
+      "url_nota": "https://www.elcordillerano.com.ar/noticias/2026/10/18/268088-bariloche-aguas-rionegrinas-despliega-un-operativo-para-sostener-el-servicio-ante-la-turbiedad-del-ireco"
+    }
+  ],
+  "cuerpo_html": "<p>La empresa estatal Aguas Rionegrinas (ARSA) puso en marcha este domingo un esquema de contingencia operativa para suministrar agua a la zona sur de Bariloche, debido a que el río Ñireco mantiene niveles de turbiedad que sobrepasan la capacidad de filtrado de la Planta Potabilizadora Pilar. Para aminorar el corte, la prestataria habilitó una captación provisoria mediante el <a href=\"https://www.elcordillerano.com.ar/noticias/2026/10/18/268088-bariloche-aguas-rionegrinas-despliega-un-operativo-para-sostener-el-servicio-ante-la-turbiedad-del-ireco\" target=\"_blank\" rel=\"noopener noreferrer\">desvío de un arroyo cercano</a> con menor carga sedimentaria.</p><p>El operativo se complementa con dos camiones cisterna coordinados con el Municipio y las juntas vecinales para llenar tanques domiciliarios en los barrios Pilar I y II y Dos Valles, además de un bombeo nocturno rotativo en las 645 Viviendas. Desde la empresa indicaron que planifican realizar pozos de perforación profunda en el predio para dotar a la planta de fuentes subterráneas de respaldo ante futuros deshielos.</p>",
+  "area": "Gestión Pública",
+  "seguimiento_id": null,
+  "hecho_central": "La empresa estatal Aguas Rionegrinas (ARSA) activó un desvío alternativo de arroyo con bajos niveles de sedimentos y sumó camiones cisterna junto a la Municipalidad para abastecer a los barrios Pilar I y II, Dos Valles y 645 Viviendas, luego de que el deshielo extraordinario en la cuenca del Ñireco mantuviera paralizada la captación de la Planta Potabilizadora Pilar.",
+  "foto": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/09/elcordillerano/images/02/78/54/2785480_60cecaf17459b29e699297fa67aeaa1cf3aa510cb020af00880b85ba184cc0fc/md.webp",
+  "fecha_publicacion": "2026-10-14",
+  "fecha": "2026-10-14",
+  "titular": "Aguas Rionegrinas habilitó una fuente alternativa y distribuye agua en camiones cisterna por la turbiedad del río Ñireco",
+  "url": "https://www.elcordillerano.com.ar/noticias/2026/10/18/268088-bariloche-aguas-rionegrinas-despliega-un-operativo-para-sostener-el-servicio-ante-la-turbiedad-del-ireco",
+  "curada_manualmente": false
+}

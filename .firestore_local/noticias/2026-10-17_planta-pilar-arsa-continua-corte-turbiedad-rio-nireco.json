@@ -1,0 +1,48 @@
+{
+  "id": "2026-10-17_planta-pilar-arsa-continua-corte-turbiedad-rio-nireco",
+  "area_id": "gestion-publica",
+  "fecha": "2026-10-13",
+  "imagen_url": "https://barilocheopina-s3.cdn.net.ar/s3i233/2026/10/barilocheopina/images/02/81/79/2817984_78c6f3ef778a507534becd718ff71682c22be47941bb45e9a3bab762bf8e8637/md.webp",
+  "dossier_id": null,
+  "fuentes_consultadas": [
+    {
+      "id": "bariloche-opina",
+      "nombre": "Bariloche Opina",
+      "url_nota": "https://www.barilocheopina.com/noticias/2026/10/17/95987-sigue-interrumpida-la-produccion-de-agua-potable-en-planta-pilar-por-la-turbiedad-del-ireco"
+    }
+  ],
+  "updated_at": "2026-10-19T12:06:15.778Z",
+  "curada_manualmente": false,
+  "cobertura_cruzada": 1,
+  "seguimiento_id": null,
+  "cuerpo_html": "<p>La empresa estatal Aguas Rionegrinas (ARSA) informó este sábado que la Planta Potabilizadora Pilar continúa sin bombear agua hacia la red domiciliaria debido al elevado nivel de sedimentos y barro que arrastra el arroyo Ñireco por efecto del deshielo en las altas cumbres. La contingencia afecta de manera directa a los barrios <a href=\"https://www.barilocheopina.com/noticias/2026/10/17/95987-sigue-interrumpida-la-produccion-de-agua-potable-en-planta-pilar-por-la-turbiedad-del-ireco\" target=\"_blank\" rel=\"noopener noreferrer\">Pilar I y II, Dos Valles, 645 Viviendas, Valle Azul, Reina Mora, Entre Cerros y Lomas del Cauquén</a>.</p><p>ARSA dispuso la recarga de cisternas comunitarias mediante camiones tanque y solicitó a los vecinos extremar el cuidado de sus reservas de tanque domiciliario, priorizando el consumo e higiene básica hasta que el caudal del arroyo recupere claridad operativa.</p>",
+  "area": "Gestión Pública",
+  "foto": "https://barilocheopina-s3.cdn.net.ar/s3i233/2026/10/barilocheopina/images/02/81/79/2817984_78c6f3ef778a507534becd718ff71682c22be47941bb45e9a3bab762bf8e8637/md.webp",
+  "hecho_central": "Aguas Rionegrinas Sociedad Anónima (ARSA) confirmó que los niveles extraordinarios de turbiedad arrastrados por el deshielo en la cuenca del arroyo Ñireco obligaron a mantener frenada la captación en la Planta Potabilizadora Pilar, afectando el suministro en ocho barrios del Alto y zona sur de Bariloche.",
+  "url": "https://www.barilocheopina.com/noticias/2026/10/17/95987-sigue-interrumpida-la-produccion-de-agua-potable-en-planta-pilar-por-la-turbiedad-del-ireco",
+  "fuente": {
+    "id": "bariloche-opina",
+    "nombre": "Bariloche Opina",
+    "url_nota": "https://www.barilocheopina.com/noticias/2026/10/17/95987-sigue-interrumpida-la-produccion-de-agua-potable-en-planta-pilar-por-la-turbiedad-del-ireco"
+  },
+  "titular": "Sigue interrumpida la producción de agua potable en Planta Pilar por la turbiedad del arroyo Ñireco",
+  "fecha_publicacion": "2026-10-13",
+  "media": {
+    "imagen_url": null,
+    "credito": "Sin imagen verificada",
+    "requiere_foto": true,
+    "prompt_nanobanana": ""
+  },
+  "citas": [
+    {
+      "autor": "Aguas Rionegrinas (ARSA)",
+      "texto": "Hasta tanto los parámetros físico-químicos del curso de agua no desciendan a rangos filtrables de forma segura, la planta permanecerá fuera de servicio."
+    }
+  ],
+  "datos_duros": {
+    "fuente_captacion": "Arroyo Ñireco",
+    "estado": "Producción interrumpida por sedimentos",
+    "planta": "Planta Potabilizadora Pilar",
+    "barrios_afectados": "Pilar I y II, Dos Valles, 645 Viviendas, Valle Azul, Reina Mora, Entre Cerros, Lomas del Cauquén"
+  }
+}

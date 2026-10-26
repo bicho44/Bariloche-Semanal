@@ -1,29 +1,31 @@
 {
   "id": "2026-09-21_apertura-fab-2026-producciones-patagonicas",
-  "fecha_publicacion": "2026-09-21",
+  "citas": [],
+  "media": {
+    "imagen_url": null,
+    "credito": "Sin imagen verificada",
+    "requiere_foto": true,
+    "prompt_nanobanana": ""
+  },
+  "cobertura_cruzada": 1,
   "titular": "Comenzó la 14ª edición del Festival Audiovisual Bariloche con 97 producciones y cuatro films locales",
-  "hecho_central": "Inició la semana del FAB 2026 con proyecciones y competencias gratuitas en salas de La Baita, Biblioteca Sarmiento y Sala Frey, destacando cuatro producciones filmadas íntegramente en Bariloche y la región andina.",
+  "url": "https://www.anbariloche.com.ar/noticias/2026/09/21/117760-el-fab-arranca-con-cuatro-producciones-filmadas-en-bariloche-y-la-region",
+  "cuerpo_html": "<p>Con un fuerte respaldo de la comunidad artística andina, se puso en marcha la <strong>14ª edición del Festival Audiovisual Bariloche (FAB 2026)</strong>, el encuentro cinematográfico más convocante de la región que durante toda la semana ofrecerá proyecciones y competencias con <strong>97 producciones seleccionadas y acceso 100% libre y gratuito</strong>, según consignó <a href=\"https://www.anbariloche.com.ar/noticias/2026/09/21/117760-el-fab-arranca-con-cuatro-producciones-filmadas-en-bariloche-y-la-region\" target=\"_blank\" rel=\"noopener noreferrer\">ANBariloche</a>.</p>\n<p>La grilla oficial se despliega en las salas del Teatro La Baita, Biblioteca Sarmiento y Sala Frey, integrando realizaciones de la Patagonia argentina y chilena elegidas entre más de 600 obras postuladas. En esta edición se destaca la presencia de cuatro filmes rodados íntegramente en locaciones de Bariloche y Dina Huapi, que competirán en las secciones de largometrajes y cortometrajes regionales.</p>\n<p>El festival, impulsado por la Secretaría de Cultura de Río Negro junto al sector audiovisual independiente, complementará sus exhibiciones con talleres de formación, clínicas de guión y rondas de coproducción binacional hasta su clausura el domingo 27 de septiembre.</p>",
+  "imagen_url": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/09/anbariloche/images/02/77/98/2779848_bcee2dfc82b678e632d5bf49424c6a3a4c3c5ff54d089debe4cf09cca0fd7694/md.webp",
+  "novedad_respecto_a_dias_previos": "",
   "area_id": "vida-social-cultura",
+  "entidades": {},
+  "hecho_central": "Inició la semana del FAB 2026 con proyecciones y competencias gratuitas en salas de La Baita, Biblioteca Sarmiento y Sala Frey, destacando cuatro producciones filmadas íntegramente en Bariloche y la región andina.",
+  "updated_at": "2026-09-25T00:21:36.739Z",
+  "fecha_publicacion": "2026-09-21",
   "dossier_id": null,
   "fuente": {
     "id": "anbariloche",
     "nombre": "ANBariloche",
     "url_nota": "https://www.anbariloche.com.ar/noticias/2026/09/21/117760-el-fab-arranca-con-cuatro-producciones-filmadas-en-bariloche-y-la-region"
   },
-  "novedad_respecto_a_dias_previos": "",
-  "datos_duros": {},
-  "citas": [],
-  "entidades": {},
-  "cobertura_cruzada": 1,
-  "cuerpo_html": "<p>Con un fuerte respaldo de la comunidad artística andina, se puso en marcha la <strong>14ª edición del Festival Audiovisual Bariloche (FAB 2026)</strong>, el encuentro cinematográfico más convocante de la región que durante toda la semana ofrecerá proyecciones y competencias con <strong>97 producciones seleccionadas y acceso 100% libre y gratuito</strong>, según consignó <a href=\"https://www.anbariloche.com.ar/noticias/2026/09/21/117760-el-fab-arranca-con-cuatro-producciones-filmadas-en-bariloche-y-la-region\" target=\"_blank\" rel=\"noopener noreferrer\">ANBariloche</a>.</p>\n<p>La grilla oficial se despliega en las salas del Teatro La Baita, Biblioteca Sarmiento y Sala Frey, integrando realizaciones de la Patagonia argentina y chilena elegidas entre más de 600 obras postuladas. En esta edición se destaca la presencia de cuatro filmes rodados íntegramente en locaciones de Bariloche y Dina Huapi, que competirán en las secciones de largometrajes y cortometrajes regionales.</p>\n<p>El festival, impulsado por la Secretaría de Cultura de Río Negro junto al sector audiovisual independiente, complementará sus exhibiciones con talleres de formación, clínicas de guión y rondas de coproducción binacional hasta su clausura el domingo 27 de septiembre.</p>",
-  "area": "Vida Social, Cultura & Comunidad",
-  "fecha": "2026-09-21",
   "foto": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/09/anbariloche/images/02/77/98/2779848_bcee2dfc82b678e632d5bf49424c6a3a4c3c5ff54d089debe4cf09cca0fd7694/md.webp",
-  "updated_at": "2026-09-25T00:21:36.739Z",
-  "imagen_url": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/09/anbariloche/images/02/77/98/2779848_bcee2dfc82b678e632d5bf49424c6a3a4c3c5ff54d089debe4cf09cca0fd7694/md.webp",
-  "media": {
-    "imagen_url": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/09/anbariloche/images/02/77/98/2779848_bcee2dfc82b678e632d5bf49424c6a3a4c3c5ff54d089debe4cf09cca0fd7694/md.webp",
-    "credito": ""
-  },
-  "url": "https://www.anbariloche.com.ar/noticias/2026/09/21/117760-el-fab-arranca-con-cuatro-producciones-filmadas-en-bariloche-y-la-region"
+  "datos_duros": {},
+  "fecha": "2026-09-21",
+  "area": "Vida Social, Cultura & Comunidad"
 }

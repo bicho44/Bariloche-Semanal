@@ -1,0 +1,48 @@
+{
+  "id": "2026-10-17_allanamiento-pichileufu-secuestro-armas-municiones",
+  "area": "Gestión Pública",
+  "foto": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/10/anbariloche/images/02/81/78/2817805_8daf63cbcd716239a66a0864da460f88b4eb391ccdb1a22629fbf8a3b7950cb9/md.webp",
+  "citas": [
+    {
+      "autor": "Parte policial de Brigada Rural",
+      "texto": "El procedimiento permitió incautar armamento largo y municiones que carecían de documentación ante el ANMaC."
+    }
+  ],
+  "media": {
+    "imagen_url": null,
+    "credito": "Sin imagen verificada",
+    "requiere_foto": true,
+    "prompt_nanobanana": ""
+  },
+  "area_id": "gestion-publica",
+  "fuente": {
+    "id": "anbariloche",
+    "nombre": "ANBariloche",
+    "url_nota": "https://www.anbariloche.com.ar/noticias/2026/10/17/120245-la-policia-incauto-armas-de-fuego-y-municiones-en-un-campo-cercano-a-bariloche"
+  },
+  "hecho_central": "La Brigada Rural de la Policía de Río Negro y la Subcomisaría 75 allanaron un establecimiento rural en el paraje Pichileufu bajo directivas del Ministerio Público Fiscal, secuestrando dos carabinas calibre 22 con mira telescópica y abundante munición sin registro legal.",
+  "dossier_id": null,
+  "fecha_publicacion": "2026-10-13",
+  "updated_at": "2026-10-19T12:04:07.574Z",
+  "imagen_url": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/10/anbariloche/images/02/81/78/2817805_8daf63cbcd716239a66a0864da460f88b4eb391ccdb1a22629fbf8a3b7950cb9/md.webp",
+  "url": "https://www.anbariloche.com.ar/noticias/2026/10/17/120245-la-policia-incauto-armas-de-fuego-y-municiones-en-un-campo-cercano-a-bariloche",
+  "cuerpo_html": "<p>Efectivos de la Brigada Rural y de la Subcomisaría 75 ejecutaron una orden de registro domiciliario en un casco rural ubicado en las proximidades del río Pichileufu, a unos 50 kilómetros al este de Bariloche. El allanamiento, autorizado por el juez de Garantías Ricardo Calcagno a solicitud del fiscal Gerardo Miranda, se originó en el marco de una causa por presunta <a href=\"https://www.anbariloche.com.ar/noticias/2026/10/17/120245-la-policia-incauto-armas-de-fuego-y-municiones-en-un-campo-cercano-a-bariloche\" target=\"_blank\" rel=\"noopener noreferrer\">tenencia irregular de armamento</a>.</p><p>Durante la requisa, el personal policial secuestró dos rifles calibre 22 con sistemas de puntería telescópica y centenares de proyectiles intactos. El morador de la propiedad fue imputado por infracción al artículo 189 bis del Código Penal, quedando a disposición de la Justicia provincial.</p>",
+  "curada_manualmente": false,
+  "cobertura_cruzada": 1,
+  "datos_duros": {
+    "armas_secuestradas": "2 carabinas calibre 22 con mira telescópica y cartuchería varia",
+    "lugar": "Paraje rural río Pichileufu",
+    "autoridades_judiciales": "Fiscalía Descentralizada Bariloche (Fiscal Gerardo Miranda), Juzgado de Garantías (Dr. Ricardo Calcagno)",
+    "infraccion": "Tenencia ilegítima de arma de fuego de uso civil"
+  },
+  "fecha": "2026-10-13",
+  "seguimiento_id": null,
+  "titular": "Secuestraron armas de fuego y municiones en un allanamiento en la zona rural del río Pichileufu",
+  "fuentes_consultadas": [
+    {
+      "id": "anbariloche",
+      "nombre": "ANBariloche",
+      "url_nota": "https://www.anbariloche.com.ar/noticias/2026/10/17/120245-la-policia-incauto-armas-de-fuego-y-municiones-en-un-campo-cercano-a-bariloche"
+    }
+  ]
+}

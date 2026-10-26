@@ -112,16 +112,21 @@ export class FirestoreRepository<T extends { id?: string }> {
         results.push({ id: doc.id, ...(doc.data() as object) } as T);
       });
 
-      // Mantener sincronizada la copia local en segundo plano para no bloquear
-      setImmediate(() => {
-        for (const item of results) {
-          if (item.id) {
-            try {
-              this.writeLocal(item.id, item);
-            } catch {
-              // ignore background sync errors
+      // Mantener sincronizada la copia local en segundo plano sin bloquear el event loop
+      setImmediate(async () => {
+        try {
+          const dir = ensureLocalStorageDir(this.collectionName);
+          for (const item of results) {
+            if (item.id) {
+              const safeId = item.id.replace(/[^a-zA-Z0-9_-]/g, '_');
+              const filePath = path.join(dir, `${safeId}.json`);
+              if (!fs.existsSync(filePath)) {
+                await fs.promises.writeFile(filePath, JSON.stringify(item, null, 2), 'utf-8').catch(() => {});
+              }
             }
           }
+        } catch {
+          // ignore background sync errors
         }
       });
       return results;

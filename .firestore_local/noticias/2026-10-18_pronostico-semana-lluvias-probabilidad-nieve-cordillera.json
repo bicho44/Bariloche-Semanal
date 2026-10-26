@@ -1,0 +1,54 @@
+{
+  "id": "2026-10-18_pronostico-semana-lluvias-probabilidad-nieve-cordillera",
+  "fuente": {
+    "id": "el-cordillerano",
+    "nombre": "El Cordillerano",
+    "url_nota": "https://www.elcordillerano.com.ar/noticias/2026/10/18/268043-el-clima-en-bariloche-una-semana-con-lluvias-y-posibilidad-de-nieve-"
+  },
+  "fecha": "2026-10-14",
+  "updated_at": "2026-10-19T12:02:25.218Z",
+  "fecha_publicacion": "2026-10-14",
+  "dossier_id": null,
+  "imagen_url": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/10/anbariloche/images/02/81/87/2818752_37eb079edc9101172b4af760500765e88dfa7dbbe5fa1432285d9bde35f1a635/md.webp",
+  "curada_manualmente": false,
+  "area_id": "gestion-publica",
+  "url": "https://www.elcordillerano.com.ar/noticias/2026/10/18/268043-el-clima-en-bariloche-una-semana-con-lluvias-y-posibilidad-de-nieve-",
+  "seguimiento_id": null,
+  "cuerpo_html": "<p>Un escenario meteorológico de marcada inestabilidad y aire polar dominará el inicio de la segunda quincena de octubre en San Carlos de Bariloche y el corredor andino. Los reportes emitidos por el <a href=\"https://www.elcordillerano.com.ar/noticias/2026/10/18/268043-el-clima-en-bariloche-una-semana-con-lluvias-y-posibilidad-de-nieve-\" target=\"_blank\" rel=\"noopener noreferrer\">Servicio Meteorológico Nacional</a> señalan que, tras el ingreso de nubosidad variable este domingo, el lunes intensificará las lluvias y chaparrones con ráfagas del oeste de hasta 31 km/h.</p><p>De acuerdo con el relevamiento de <a href=\"https://www.elcordillerano.com.ar/noticias/2026/10/18/268043-el-clima-en-bariloche-una-semana-con-lluvias-y-posibilidad-de-nieve-\" target=\"_blank\" rel=\"noopener noreferrer\">El Cordillerano</a> y <a href=\"https://www.anbariloche.com.ar/noticias/2026/10/18/120287-bariloche-se-prepara-para-una-semana-de-lluvias-constantes-y-nevadas-en-zonas-altas\" target=\"_blank\" rel=\"noopener noreferrer\">ANBariloche</a>, el momento más riguroso del fenómeno ocurrirá entre el miércoles y el jueves, cuando el termómetro no superará los 8°C y se registrará hasta un 40% de probabilidad de nevadas en cerros y barrios altos, antes de una mejoría hacia el viernes.</p>",
+  "titular": "Pronostican una semana de lluvias persistentes y marcado descenso térmico con probabilidad de nieve en Bariloche",
+  "cobertura_cruzada": 2,
+  "datos_duros": {
+    "temperaturas_miercoles": "Marcas térmicas entre 5°C y 11°C",
+    "pico_aire_frio": "Jueves con mínimas de 5°C y 40% probabilidad de nieve",
+    "maxima_domingo": "16°C con chaparrones vespertinos",
+    "viento_maximo_lunes": "Ráfagas de hasta 31 km/h del sector oeste",
+    "recuperacion_climatica": "Viernes con cese de lluvias y máximas de 15°C"
+  },
+  "media": {
+    "imagen_url": null,
+    "credito": "Sin imagen verificada",
+    "requiere_foto": true,
+    "prompt_nanobanana": ""
+  },
+  "citas": [
+    {
+      "autor": "Servicio Meteorológico Nacional (SMN)",
+      "texto": "El área cordillerana enfrentará varios pulsos de inestabilidad con aire polar residual que determinarán una transición primaveral fría y húmeda."
+    }
+  ],
+  "foto": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/10/anbariloche/images/02/81/87/2818752_37eb079edc9101172b4af760500765e88dfa7dbbe5fa1432285d9bde35f1a635/md.webp",
+  "area": "Gestión Pública",
+  "fuentes_consultadas": [
+    {
+      "id": "el-cordillerano",
+      "nombre": "El Cordillerano",
+      "url_nota": "https://www.elcordillerano.com.ar/noticias/2026/10/18/268043-el-clima-en-bariloche-una-semana-con-lluvias-y-posibilidad-de-nieve-"
+    },
+    {
+      "id": "anbariloche",
+      "nombre": "ANBariloche",
+      "url_nota": "https://www.anbariloche.com.ar/noticias/2026/10/18/120287-bariloche-se-prepara-para-una-semana-de-lluvias-constantes-y-nevadas-en-zonas-altas"
+    }
+  ],
+  "hecho_central": "El Servicio Meteorológico Nacional proyectó el ingreso de un tren de perturbaciones atmosféricas sobre la cordillera andina que provocará precipitaciones continuas, chaparrones con ráfagas de hasta 31 km/h y un pulso polar hacia el jueves con hasta 40% de probabilidades de nevadas en cotas medias y altas de Bariloche."
+}

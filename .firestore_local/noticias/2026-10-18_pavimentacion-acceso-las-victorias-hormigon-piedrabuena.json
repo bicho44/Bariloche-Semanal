@@ -1,0 +1,55 @@
+{
+  "id": "2026-10-18_pavimentacion-acceso-las-victorias-hormigon-piedrabuena",
+  "area": "Gestión Pública",
+  "fecha": "2026-10-14",
+  "titular": "Avanza la pavimentación en el acceso a Las Victorias: colocaron 48 m³ de hormigón en calle Piedrabuena",
+  "imagen_url": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/10/elcordillerano/images/02/81/84/2818400_31fd727c4dac2333896011242eaa5fb965fb784a1862c1e0c5f21170ef6b7181/md.webp",
+  "foto": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/10/elcordillerano/images/02/81/84/2818400_31fd727c4dac2333896011242eaa5fb965fb784a1862c1e0c5f21170ef6b7181/md.webp",
+  "dossier_id": null,
+  "seguimiento_id": null,
+  "cobertura_cruzada": 2,
+  "updated_at": "2026-10-19T12:01:36.084Z",
+  "datos_duros": {
+    "cuadrilla": "12 operarios de la Dirección de Pavimentación Urbana",
+    "volumen_hormigon": "48 m³ de hormigón H30 fibrado y aditivado",
+    "ancho_calzada": "10 metros útiles",
+    "ubicacion": "Acceso este desde ruta y Comandante Luis Piedrabuena (Las Victorias)",
+    "camiones_utilizados": "6 camiones mixer de 8 m³ cada uno",
+    "longitud_total_proyecto": "160 metros lineales de calzada con dársena de acceso"
+  },
+  "cuerpo_html": "<p>La Dirección de Pavimentación Urbana del Municipio consolidó una nueva etapa del plan de mejoras viales en el ingreso al barrio Las Victorias. Durante la jornada de labor, una cuadrilla de 12 operarios volcó 48 metros cúbicos de hormigón H30 aditivado sobre una calzada de 10 metros de ancho útil en la intersección de la ruta con la calle <a href=\"https://www.barilocheopina.com/noticias/2026/10/17/96008-avanza-la-pavimentacion-de-uno-de-los-accesos-al-barrio-las-victorias\" target=\"_blank\" rel=\"noopener noreferrer\">Comandante Luis Piedrabuena</a>, a la altura de calle Cabildo.</p><p>La intervención, que requirió el despliegue de seis camiones mixer, comprende un total de 160 metros lineales de pavimento, dársenas de desaceleración y obras de drenaje pluvial hacia avenida Las Victorias, según reportaron <a href=\"https://www.barilocheopina.com/noticias/2026/10/17/96008-avanza-la-pavimentacion-de-uno-de-los-accesos-al-barrio-las-victorias\" target=\"_blank\" rel=\"noopener noreferrer\">Bariloche Opina</a> y <a href=\"https://www.elcordillerano.com.ar/noticias/2026/10/17/267989-avanza-la-pavimentacion-en-las-victorias-con-una-nueva-etapa-de-hormigonado\" target=\"_blank\" rel=\"noopener noreferrer\">El Cordillerano</a>, buscando solucionar un histórico cuello de botella en el tránsito de la zona este.</p>",
+  "hecho_central": "La cuadrilla municipal de Pavimentación Urbana completó el volcado de 48 metros cúbicos de hormigón elaborado H30 en el empalme de la ruta de acceso este con calle Comandante Luis Piedrabuena, en el barrio Las Victorias, abarcando 10 metros de ancho útil de calzada y preparando la conexión hacia avenida Las Victorias.",
+  "curada_manualmente": false,
+  "fecha_publicacion": "2026-10-14",
+  "fuentes_consultadas": [
+    {
+      "id": "bariloche-opina",
+      "nombre": "Bariloche Opina",
+      "url_nota": "https://www.barilocheopina.com/noticias/2026/10/17/96008-avanza-la-pavimentacion-de-uno-de-los-accesos-al-barrio-las-victorias"
+    },
+    {
+      "id": "el-cordillerano",
+      "nombre": "El Cordillerano",
+      "url_nota": "https://www.elcordillerano.com.ar/noticias/2026/10/17/267989-avanza-la-pavimentacion-en-las-victorias-con-una-nueva-etapa-de-hormigonado"
+    }
+  ],
+  "area_id": "gestion-publica",
+  "fuente": {
+    "id": "bariloche-opina",
+    "nombre": "Bariloche Opina",
+    "url_nota": "https://www.barilocheopina.com/noticias/2026/10/17/96008-avanza-la-pavimentacion-de-uno-de-los-accesos-al-barrio-las-victorias"
+  },
+  "citas": [
+    {
+      "autor": "Secretaría de Obras Públicas",
+      "texto": "Se trata de un nudo clave para ordenar los giros vehiculares desde la ruta y descomprimir el ingreso diario de las familias hacia avenida Las Victorias."
+    }
+  ],
+  "media": {
+    "imagen_url": null,
+    "credito": "Sin imagen verificada",
+    "requiere_foto": true,
+    "prompt_nanobanana": ""
+  },
+  "url": "https://www.barilocheopina.com/noticias/2026/10/17/96008-avanza-la-pavimentacion-de-uno-de-los-accesos-al-barrio-las-victorias"
+}

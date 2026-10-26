@@ -1,0 +1,51 @@
+{
+  "id": "2026-10-17_balc-2026-entrega-premios-solis-brazarte-aehgb",
+  "hecho_central": "La Asociación Empresaria Hotelera Gastronómica de Bariloche (AEHGB) y el EMPROTUR entregaron los galardones oficiales de Bariloche a la Carta (BALC 2026), consagrando al restaurante Solís con el Premio Menú Punto Río Negro y a Brazarte (Sheraton) con el Plato de Oro del certamen.",
+  "cobertura_cruzada": 1,
+  "fuentes_consultadas": [
+    {
+      "id": "el-cordillerano",
+      "nombre": "El Cordillerano",
+      "url_nota": "https://www.elcordillerano.com.ar/noticias/2026/10/17/267980-bariloche-a-la-carta-estos-son-los-restaurantes-y-propuestas-gastronomicas-ganadoras"
+    }
+  ],
+  "area_id": "gestion-publica",
+  "fuente": {
+    "nombre": "El Cordillerano",
+    "id": "el-cordillerano",
+    "url_nota": "https://www.elcordillerano.com.ar/noticias/2026/10/17/267980-bariloche-a-la-carta-estos-son-los-restaurantes-y-propuestas-gastronomicas-ganadoras"
+  },
+  "fecha": "2026-10-13",
+  "area": "Gestión Pública",
+  "foto": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/10/elcordillerano/images/02/81/83/2818328_cb50f47b48e335d1c482051504af05d69e93e6df252f2b251bb4d1559f04e190/md.webp",
+  "titular": "Bariloche a la Carta 2026: Solís y Brazarte se consagraron en la entrega de premios de la fiesta gastronómica",
+  "cuerpo_html": "<p>Con el cierre formal de la feria gastronómica en la plaza del Centro Cívico, la <a href=\"https://www.elcordillerano.com.ar/noticias/2026/10/17/267980-bariloche-a-la-carta-estos-son-los-restaurantes-y-propuestas-gastronomicas-ganadoras\" target=\"_blank\" rel=\"noopener noreferrer\">Asociación Empresaria Hotelera Gastronómica de Bariloche (AEHGB)</a> y el Ente Mixto de Promoción Turística (EMPROTUR) realizaron la premiación oficial de la 12° edición de Bariloche a la Carta (BALC). El restaurante Solís, conducido por Mecha Solís y Carlos Balseiro, obtuvo el máximo reconocimiento con el premio 'Menú Punto Río Negro', mientras que Brazarte, espacio culinario del Hotel Sheraton Bariloche a cargo del chef Aníbal Ramírez, se alzó con el Plato de Oro.</p><p>El certamen también distinguió a Carnero en el rubro Mejor Entrada, a Llao Llao Hotel & Resort en Mejor Postre, y al stand de Carnicerías del Barrio / Patagonia Barbacue como la propuesta más destacada de los food trucks feriales, cerrando una edición que movilizó a más de 45.000 visitantes en el predio ferial y 65.000 comensales en el circuito de descuentos.</p>",
+  "media": {
+    "imagen_url": null,
+    "credito": "Sin imagen verificada",
+    "requiere_foto": true,
+    "prompt_nanobanana": ""
+  },
+  "citas": [
+    {
+      "autor": "Organización BALC / AEHGB",
+      "texto": "Bariloche a la Carta demostró una vez más su capacidad de dinamizar la baja temporada y consolidar a la ciudad como capital gastronómica de la Patagonia."
+    }
+  ],
+  "url": "https://www.elcordillerano.com.ar/noticias/2026/10/17/267980-bariloche-a-la-carta-estos-son-los-restaurantes-y-propuestas-gastronomicas-ganadoras",
+  "fecha_publicacion": "2026-10-13",
+  "imagen_url": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/10/elcordillerano/images/02/81/83/2818328_cb50f47b48e335d1c482051504af05d69e93e6df252f2b251bb4d1559f04e190/md.webp",
+  "dossier_id": "temporada-turistica-nieve",
+  "datos_duros": {
+    "mejor_plato_feria": "Carnicerías del Barrio / Patagonia Barbacue",
+    "plato_de_oro": "Brazarte (Restaurante Sheraton Bariloche, Chef Aníbal Ramírez)",
+    "consumidores_circuito": "+65.000 comensales",
+    "menu_punto_rio_negro": "Solís (Mecha Solís y Carlos Balseiro)",
+    "mejor_entrada": "Carnero",
+    "asistentes_feria": "+45.000 personas en Centro Cívico",
+    "mejor_postre": "Llao Llao Hotel & Resort"
+  },
+  "seguimiento_id": "temporada-turistica-nieve",
+  "updated_at": "2026-10-19T12:04:34.886Z",
+  "curada_manualmente": false
+}

@@ -1,17 +1,28 @@
 {
   "id": "2026-09-26_fab-2026-cierre-premiacion-puerto-san-carlos-cine-patagonico",
-  "titular": "El Festival Audiovisual Bariloche (FAB 2026) cerró en el Puerto San Carlos premiando lo mejor del cine patagónico y latinoamericano",
-  "hecho_central": "La 14ª edición del Festival Audiovisual Bariloche culminó este sábado con la ceremonia de clausura en el Puerto San Carlos, entregando dos galardones de $1.000.000 a largometrajes, premios a cortometrajes y consagrando una semana de proyecciones gratuitas con Uruguay como país invitado.",
-  "fecha_publicacion": "2026-09-26",
-  "area_id": "vida-social-cultura",
-  "dossier_id": null,
-  "seguimiento_id": null,
-  "fuente": {
-    "id": "anbariloche",
-    "nombre": "ANBariloche",
-    "url_nota": "https://www.anbariloche.com.ar/noticias/2026/09/26/118282-este-sabado-el-fab-corona-su-gran-final-con-la-entrega-de-premios-en-el-puerto-san-carlos"
-  },
+  "foto": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/09/anbariloche/images/02/78/76/2787621_d99a37bb437ad87f89b845b5a00f464efba951fde2b9ba4ab490dfde8c487f55/md.webp",
+  "updated_at": "2026-09-28T12:16:49.623Z",
   "cuerpo_html": "<p>Tras cinco jornadas de intensa actividad en salas y espacios comunitarios, el <strong>Festival Audiovisual Bariloche (FAB 2026) celebró este sábado 26 de septiembre su gala de premiación y clausura en las instalaciones del Puerto San Carlos</strong>, otorgando reconocimientos económicos a realizadores de Argentina, Chile, Uruguay y el resto de Latinoamérica, según informó <a href=\"https://www.anbariloche.com.ar/noticias/2026/09/26/118282-este-sabado-el-fab-corona-su-gran-final-con-la-entrega-de-premios-en-el-puerto-san-carlos\" target=\"_blank\" rel=\"noopener noreferrer\">ANBariloche</a>.</p>\n<p>El certamen organizado por la Secretaría de Cultura provincial distribuyó incentivos financieros de peso para el sector independiente: <strong>dos galardones de $1.000.000 en cada una de las competencias de largometrajes</strong> (Nacional, Patagónica Binacional y Latinoamericana), junto a premios de $800.000 para cortometrajes y proyectos universitarios argentino-chilenos. La edición tuvo como país invitado de honor a Uruguay y albergó rondas de coproducción en el espacio de Mercado FAB.</p>\n<blockquote cite=\"https://www.anbariloche.com.ar/noticias/2026/09/26/118282-este-sabado-el-fab-corona-su-gran-final-con-la-entrega-de-premios-en-el-puerto-san-carlos\"><p>«El festival demostró una vez más su capacidad para articular el talento de realizadores cordilleranos con la industria audiovisual continental, garantizando pantallas abiertas y gratuitas para el público local», destacaron desde la organización.</p></blockquote>\n<p>Como cierre definitivo, la Biblioteca Sarmiento ofrecerá este domingo 27 a partir de las 15:00 horas una función maratónica gratuita con la totalidad de los filmes galardonados.</p>",
+  "hecho_central": "La 14ª edición del Festival Audiovisual Bariloche culminó este sábado con la ceremonia de clausura en el Puerto San Carlos, entregando dos galardones de $1.000.000 a largometrajes, premios a cortometrajes y consagrando una semana de proyecciones gratuitas con Uruguay como país invitado.",
+  "dossier_id": null,
+  "area": "Vida Social, Cultura & Comunidad",
+  "imagen_url": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/09/anbariloche/images/02/78/76/2787621_d99a37bb437ad87f89b845b5a00f464efba951fde2b9ba4ab490dfde8c487f55/md.webp",
+  "titular": "El Festival Audiovisual Bariloche (FAB 2026) cerró en el Puerto San Carlos premiando lo mejor del cine patagónico y latinoamericano",
+  "fecha": "2026-09-26",
+  "datos_duros": {
+    "funcion_especial": "Domingo 27 de septiembre a las 15:00 hs en Biblioteca Sarmiento con obras premiadas",
+    "premios_cortos_universitarios": "$800.000 en secciones Cortometrajes y Universitaria Binacional, y $900.000 en Proyectos en Construcción (PEC)",
+    "galardones_largometrajes": "Dos premios de $1.000.000 en competencias Nacional, Patagónica Binacional y Latinoamericana",
+    "pais_invitado": "Uruguay",
+    "sede_clausura": "Microcine y explanada del Puerto San Carlos (19:30 hs)"
+  },
+  "seguimiento_id": null,
+  "media": {
+    "imagen_url": null,
+    "credito": "Sin imagen verificada",
+    "requiere_foto": true,
+    "prompt_nanobanana": ""
+  },
   "citas": [
     {
       "autor": "Secretaría de Cultura de Río Negro",
@@ -19,22 +30,12 @@
       "texto": "El FAB corona cinco días de proyecciones, charlas de mercado y encuentros binacionales, consolidando una política pública que promueve la industria cinematográfica regional y acerca el cine de calidad a la comunidad."
     }
   ],
-  "datos_duros": {
-    "galardones_largometrajes": "Dos premios de $1.000.000 en competencias Nacional, Patagónica Binacional y Latinoamericana",
-    "premios_cortos_universitarios": "$800.000 en secciones Cortometrajes y Universitaria Binacional, y $900.000 en Proyectos en Construcción (PEC)",
-    "pais_invitado": "Uruguay",
-    "sede_clausura": "Microcine y explanada del Puerto San Carlos (19:30 hs)",
-    "funcion_especial": "Domingo 27 de septiembre a las 15:00 hs en Biblioteca Sarmiento con obras premiadas"
+  "fuente": {
+    "url_nota": "https://www.anbariloche.com.ar/noticias/2026/09/26/118282-este-sabado-el-fab-corona-su-gran-final-con-la-entrega-de-premios-en-el-puerto-san-carlos",
+    "nombre": "ANBariloche",
+    "id": "anbariloche"
   },
-  "area": "Vida Social, Cultura & Comunidad",
-  "fecha": "2026-09-26",
-  "foto": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/09/anbariloche/images/02/78/76/2787621_d99a37bb437ad87f89b845b5a00f464efba951fde2b9ba4ab490dfde8c487f55/md.webp",
-  "updated_at": "2026-09-28T12:16:49.623Z",
-  "imagen_url": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/09/anbariloche/images/02/78/76/2787621_d99a37bb437ad87f89b845b5a00f464efba951fde2b9ba4ab490dfde8c487f55/md.webp",
-  "media": {
-    "credito": "Foto: Prensa FAB 2026 / ANBariloche",
-    "requiere_foto": false,
-    "imagen_url": "https://anbariloche-s3.cdn.net.ar/s3i233/2026/09/anbariloche/images/02/78/76/2787621_d99a37bb437ad87f89b845b5a00f464efba951fde2b9ba4ab490dfde8c487f55/md.webp"
-  },
-  "url": "https://www.anbariloche.com.ar/noticias/2026/09/26/118282-este-sabado-el-fab-corona-su-gran-final-con-la-entrega-de-premios-en-el-puerto-san-carlos"
+  "url": "https://www.anbariloche.com.ar/noticias/2026/09/26/118282-este-sabado-el-fab-corona-su-gran-final-con-la-entrega-de-premios-en-el-puerto-san-carlos",
+  "fecha_publicacion": "2026-09-26",
+  "area_id": "vida-social-cultura"
 }

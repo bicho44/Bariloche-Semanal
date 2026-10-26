@@ -1,0 +1,50 @@
+{
+  "id": "2026-10-19_arco-iris-campeon-copa-bariloche-2026-futbol",
+  "imagen_url": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/10/elcordillerano/images/02/81/94/2819470_088d2ca0a02d922bf988198d309431eb19a2428fc2c3c2716a4265e0e82147ca/md.webp",
+  "hecho_central": "El Club Atlético Arco Iris del barrio Virgen Misionera se coronó campeón de la Copa Bariloche 2026 de Lifuba tras superar por 1 a 0 a Cruz del Sur en la gran final, con un gol agónico convertido por Jeremías Moreno a los 34 minutos del segundo tiempo.",
+  "updated_at": "2026-10-20T12:12:38.693Z",
+  "dossier_id": null,
+  "titular": "Arco Iris se consagró campeón de la Copa Bariloche 2026 tras vencer 1 a 0 a Cruz del Sur en el Estadio Municipal",
+  "fecha_publicacion": "2026-10-15",
+  "fecha": "2026-10-15",
+  "seguimiento_id": null,
+  "fuentes_consultadas": [
+    {
+      "id": "el-cordillerano",
+      "nombre": "El Cordillerano",
+      "url_nota": "https://www.elcordillerano.com.ar/noticias/2026/10/18/268130-arco-iris-se-consagro-campeon-de-la-copa-bariloche-2026"
+    }
+  ],
+  "url": "https://www.elcordillerano.com.ar/noticias/2026/10/18/268130-arco-iris-se-consagro-campeon-de-la-copa-bariloche-2026",
+  "fuente": {
+    "nombre": "El Cordillerano",
+    "url_nota": "https://www.elcordillerano.com.ar/noticias/2026/10/18/268130-arco-iris-se-consagro-campeon-de-la-copa-bariloche-2026",
+    "id": "el-cordillerano"
+  },
+  "area": "Gestión Pública",
+  "area_id": "gestion-publica",
+  "cuerpo_html": "<p>En una final vibrante y disputada con dientes apretados en el césped del Estadio Municipal José Antonio Jalil, <a href=\"https://www.elcordillerano.com.ar/noticias/2026/10/18/268130-arco-iris-se-consagro-campeon-de-la-copa-bariloche-2026\" target=\"_blank\" rel=\"noopener noreferrer\">Arco Iris de Virgen Misionera</a> se consagró campeón de la edición 2026 de la Copa Bariloche organizada por Lifuba tras batir por 1 a 0 a Cruz del Sur.</p><p>El pleito se destrabó recién en el tramo de cierre: sobre los 34 minutos del complemento, el atacante Jeremías Moreno aprovechó un rebote en el área grande para estampar la única conquista de la tarde, desatando el festejo multitudinario de la parcialidad del Misionero que festejó el título oficial en las tribunas y en las calles del barrio.</p>",
+  "foto": "https://elcordillerano-s3.cdn.net.ar/s3i233/2026/10/elcordillerano/images/02/81/94/2819470_088d2ca0a02d922bf988198d309431eb19a2428fc2c3c2716a4265e0e82147ca/md.webp",
+  "media": {
+    "imagen_url": null,
+    "credito": "Sin imagen verificada",
+    "requiere_foto": true,
+    "prompt_nanobanana": ""
+  },
+  "citas": [
+    {
+      "autor": "Jeremías Moreno (Goleador de Arco Iris)",
+      "texto": "Es una alegría inmensa para todo el barrio Virgen Misionera que siempre acompaña y sueña con ver al club en lo más alto."
+    }
+  ],
+  "curada_manualmente": false,
+  "cobertura_cruzada": 1,
+  "datos_duros": {
+    "autor_gol": "Jeremías Moreno (34' ST)",
+    "subcampeon": "Cruz del Sur",
+    "escenario": "Estadio Municipal José Antonio Jalil",
+    "resultado": "1 a 0",
+    "organizador": "Liga de Fútbol de Bariloche (Lifuba)",
+    "campeon": "Club Atlético Arco Iris (Virgen Misionera)"
+  }
+}

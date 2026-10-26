@@ -1,29 +1,31 @@
 {
   "id": "2026-09-21_ceb-corte-programado-energia-centro",
-  "fecha_publicacion": "2026-09-21",
-  "titular": "La CEB programó un corte de energía en el centro para este martes por mantenimiento de subestación",
-  "hecho_central": "La Cooperativa de Electricidad Bariloche interrumpirá el suministro eléctrico este martes 22 de septiembre entre las 6:30 y las 8:00 en sectores de las calles Elflein y Rolando para realizar maniobras preventivas en un transformador.",
-  "area_id": "gestion-publica",
+  "updated_at": "2026-09-25T00:22:07.296Z",
   "dossier_id": "ceb-municipio-servicios",
-  "fuente": {
-    "id": "anbariloche",
-    "nombre": "ANBariloche",
-    "url_nota": "https://www.anbariloche.com.ar/noticias/2026/09/21/117781-corte-de-luz-programado-este-martes-en-una-zona-del-centro-de-bariloche"
+  "imagen_url": "https://mirror0.cdn.net.ar/mirror0/mirror0/images/35/3576_3ad339c8103ddfa8fb81741112289f38f6afe246a4ee1b3d401a9c6c5be55434/md.webp",
+  "fecha": "2026-09-21",
+  "titular": "La CEB programó un corte de energía en el centro para este martes por mantenimiento de subestación",
+  "cobertura_cruzada": 1,
+  "area_id": "gestion-publica",
+  "area": "Gestión Pública",
+  "cuerpo_html": "<p class=\"c-dossier-link\">📌 <em>Dossier: <a href=\"/dossiers/ceb-municipio-servicios\">Relación Municipio - CEB y Servicios Públicos</a></em></p>\n<p>La Cooperativa de Electricidad Bariloche (CEB) informó que este <strong>martes 22 de septiembre</strong> llevará a cabo una interrupción programada del servicio eléctrico en el microcentro de la ciudad, afectando la cuadrícula comprendida por <strong>calle Elflein (entre Quaglia y Rolando) y calle Rolando (entre Elflein y Moreno)</strong> en el horario de <strong>6:30 a 8:00 hs</strong>, según detalló <a href=\"https://www.anbariloche.com.ar/noticias/2026/09/21/117781-corte-de-luz-programado-este-martes-en-una-zona-del-centro-de-bariloche\" target=\"_blank\" rel=\"noopener noreferrer\">ANBariloche</a>.</p>\n<p>La maniobra responde a tareas impostergables de mantenimiento preventivo y adecuación técnica sobre una subestación transformadora, necesarias para reforzar la estabilidad del tendido de media tensión ante la demanda que experimentará el sector comercial y gastronómico en la temporada alta de verano.</p>\n<blockquote cite=\"https://www.anbariloche.com.ar/noticias/2026/09/21/117781-corte-de-luz-programado-este-martes-en-una-zona-del-centro-de-bariloche\"><p>«El corte se realizará durante las primeras horas de la mañana para permitir la ejecución de los trabajos programados y minimizar el impacto sobre la actividad laboral y comercial», explicaron desde la prestadora cooperativa.</p></blockquote>\n<p>Desde el área técnica de la CEB solicitaron a los usuarios residenciales y comerciales de la zona tomar los recaudos pertinentes y desconectar artefactos sensibles durante la ventana horaria del corte.</p>",
+  "url": "https://www.anbariloche.com.ar/noticias/2026/09/21/117781-corte-de-luz-programado-este-martes-en-una-zona-del-centro-de-bariloche",
+  "citas": [],
+  "media": {
+    "imagen_url": null,
+    "credito": "Sin imagen verificada",
+    "requiere_foto": true,
+    "prompt_nanobanana": ""
   },
   "novedad_respecto_a_dias_previos": "",
-  "datos_duros": {},
-  "citas": [],
-  "entidades": {},
-  "cobertura_cruzada": 1,
-  "cuerpo_html": "<p class=\"c-dossier-link\">📌 <em>Dossier: <a href=\"/dossiers/ceb-municipio-servicios\">Relación Municipio - CEB y Servicios Públicos</a></em></p>\n<p>La Cooperativa de Electricidad Bariloche (CEB) informó que este <strong>martes 22 de septiembre</strong> llevará a cabo una interrupción programada del servicio eléctrico en el microcentro de la ciudad, afectando la cuadrícula comprendida por <strong>calle Elflein (entre Quaglia y Rolando) y calle Rolando (entre Elflein y Moreno)</strong> en el horario de <strong>6:30 a 8:00 hs</strong>, según detalló <a href=\"https://www.anbariloche.com.ar/noticias/2026/09/21/117781-corte-de-luz-programado-este-martes-en-una-zona-del-centro-de-bariloche\" target=\"_blank\" rel=\"noopener noreferrer\">ANBariloche</a>.</p>\n<p>La maniobra responde a tareas impostergables de mantenimiento preventivo y adecuación técnica sobre una subestación transformadora, necesarias para reforzar la estabilidad del tendido de media tensión ante la demanda que experimentará el sector comercial y gastronómico en la temporada alta de verano.</p>\n<blockquote cite=\"https://www.anbariloche.com.ar/noticias/2026/09/21/117781-corte-de-luz-programado-este-martes-en-una-zona-del-centro-de-bariloche\"><p>«El corte se realizará durante las primeras horas de la mañana para permitir la ejecución de los trabajos programados y minimizar el impacto sobre la actividad laboral y comercial», explicaron desde la prestadora cooperativa.</p></blockquote>\n<p>Desde el área técnica de la CEB solicitaron a los usuarios residenciales y comerciales de la zona tomar los recaudos pertinentes y desconectar artefactos sensibles durante la ventana horaria del corte.</p>",
-  "area": "Gestión Pública",
-  "fecha": "2026-09-21",
   "foto": "https://mirror0.cdn.net.ar/mirror0/mirror0/images/35/3576_3ad339c8103ddfa8fb81741112289f38f6afe246a4ee1b3d401a9c6c5be55434/md.webp",
-  "updated_at": "2026-09-25T00:22:07.296Z",
-  "imagen_url": "https://mirror0.cdn.net.ar/mirror0/mirror0/images/35/3576_3ad339c8103ddfa8fb81741112289f38f6afe246a4ee1b3d401a9c6c5be55434/md.webp",
-  "media": {
-    "imagen_url": "https://mirror0.cdn.net.ar/mirror0/mirror0/images/35/3576_3ad339c8103ddfa8fb81741112289f38f6afe246a4ee1b3d401a9c6c5be55434/md.webp",
-    "credito": ""
-  },
-  "url": "https://www.anbariloche.com.ar/noticias/2026/09/21/117781-corte-de-luz-programado-este-martes-en-una-zona-del-centro-de-bariloche"
+  "datos_duros": {},
+  "hecho_central": "La Cooperativa de Electricidad Bariloche interrumpirá el suministro eléctrico este martes 22 de septiembre entre las 6:30 y las 8:00 en sectores de las calles Elflein y Rolando para realizar maniobras preventivas en un transformador.",
+  "fecha_publicacion": "2026-09-21",
+  "entidades": {},
+  "fuente": {
+    "url_nota": "https://www.anbariloche.com.ar/noticias/2026/09/21/117781-corte-de-luz-programado-este-martes-en-una-zona-del-centro-de-bariloche",
+    "id": "anbariloche",
+    "nombre": "ANBariloche"
+  }
 }
